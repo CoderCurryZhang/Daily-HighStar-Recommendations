@@ -1,3 +1,67 @@
+## 🕔 2026-07-24 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 214 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agentfiles](https://github.com/Railly/agentfiles)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 681
+- **核心概述**: 使用来自 Obsidian 的 Claude Code、Cursor、Codex 和 12 种编码工具浏览、创建和编辑 AI 代理文件。
+- **大概是做什么的**: Obsidian 的 AI 技能经理。浏览、创建和管理 Claude Code、Cursor、Codex、Windsurf 和 17 个编码代理的技能。在 Obsidian 中打开 → · 在 Obsidian 社区查看 · 网站 · 来自 Obsidian 的最新版本（一键） 在浏览器中打开深层链接：或者先打开社区页面查看记分卡和屏幕截图：community.obsidian.md/plugins/agentfiles 。您还可以在 Obsidian 内的“设置”→“社区插件”中搜索 Agentfiles。 1. 从最新版本下载 main.js、manifest.json 和 styles.css 2. 创建 /.obsidian/plugins/agentfiles/ 3. 将三个文件复制到该文件夹中 4. 在“设置”→“社区插件”中启用 可选：skillkit 分析 - 从 17 个工具集中浏览技能、命令和代理 - 通过深度搜索切换按名称或文件内容搜索 - 使用分步向导创建新技能（选择工具、类型、名称） - 使用 Markdown 预览内联编辑技能和 Cmd+S 保存 - 市场 - 从 Skills.sh 安装技能 - 对话 - 浏览 Claude Code 会话历史记录、搜索、标记并导出到保管库 - 仪表板 - 使用情况分析
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, ai-tools, claude-code, codex, coding-agents
+
+---
+
+### 🌟 [zep](https://github.com/getzep/zep)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,779
+- **核心概述**: 泽普 |示例、集成等
+- **大概是做什么的**: Zep Cloud：示例和集成 关于此存储库 此存储库不是 Zep 的产品或服务。它包含示例代码、框架集成以及用于使用 Zep Cloud（Zep 的托管代理内存平台）构建代理内存的工具。要使用 Zep Cloud，请在 www.getzep.com 上注册并阅读 help.getzep.com 上的文档。 Zep 的官方 SDK 包括： - Python：pip install zep-cloud - TypeScript/JavaScript：npm install @getzep/zep-cloud - Go：go get github.com/getzep/zep-go/v3 正在寻找为 Zep 提供支持的开源时态知识图框架？请��阅目录描述 ----------- ------------- 示例/Python、TypeScript 和 Go 集成中的示例应用程序和代码片段/代理框架集成包本体/默认本体定义插件/用于使用 Zep 基准构建的插件/内存基准（LoCoMo、LongMemEval）zep-eval-harness/用于摄取和检索旧版的评估工具/已弃用的 Zep 社区版（不支持）框架集成包位于集成/下，然后组织框架语言： 整合
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, knowledge-graphs, language-model, llm
+
+---
+
+### 🌟 [uqlm](https://github.com/cvs-health/uqlm)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,188
+- **核心概述**: UQLM：Uncertainty Quantification for Language Models，是一个用于基于 UQ 的 LLM 幻觉检测的 Python 包
+- **大概是做什么的**: uqlm：语言模型的不确定性量化 UQLM 是一个使用最先进的不确定性量化技术进行大型语言模型 (LLM) 幻觉检测的 Python 库。可以从 PyPI 安装最新版本：幻觉检测 UQLM 提供了一套响应级别评分器，用于量化大语言模型 (LLM) 输出的不确定性。每个评分者都会返回 0 到 1 之间的置信度分数，分数越高表示错误或幻觉的可能性越低。我们将这些记分器分为不同类型： 记分器类型 增加延迟 增加成本 兼容性 现成/工作 ------------------------------------ ---------------------------------------------------------------- ------------------------------------------ -------------------------------------------------------------------------- --------------------------------------------------------- 黑盒记分器 ⏱️ 中高（多代和比较） 💸 高（多个 LLM 调用） 🌍 通用（适用于任何 LLM） ✅ 现成白盒评分者⚡最小\（令牌概率已返回）✔️
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-evaluation, ai-safety, confidence-estimation, confidence-score, hallucination, hallucination-detection
+
+---
+
+### 🌟 [agnt](https://github.com/agnt-gg/agnt)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 504
+- **核心概述**: 用于构建、运行和改进人工智能代理、工作流程和自主目标的本地优先操作系统。
+- **大概是做什么的**: 用于工作流程、目标、内存、插件、子代理、评估和自我改进 AI 工作的本地优先代理操作系统。当你需要判断时聊天。当您需要可重复性时，请使用工作流程。当您希望 AGNT 继续工作时设定目标。何时应该并行进行工作，进行委托。 AGNT 是一个本地优先的代理操作系统：一个桌面应用程序和可自托管的后端，用于构建、运行、评估和发展人工智能工作。它将代理、工作流、目标、工具、内存、插件、评估、跟踪、消息传递和 API 引入一个本地工作区。这就是产品：人工智能工作变得持久、可检查、可重复和可改进。 - 🤖 代理 — 内存、工具、技能、提供商和流聊天。 - 🧩 工作流程 — 60 多个节点、触发器、分支、检查点和嵌套。 - 🎯 目标 — 计划、执行、评估、重新计划、暂停、恢复和恢复。 - 👥 子代理 — 跨代理、工作流程、异步工具、MCP、插件、API 和并行分支进行委托。 - 📣 事件自动化 — Telegram、Discord、Slack、电子邮件、Gmail、webhooks、日程表、Zapier 和自定义 API。 - 🧠 记忆 + 洞察力 — f
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, agentic-ai, ai-agents, ai-harness, ai-operations-management, ai-workflows
+
+---
+
+### 🌟 [mcpproxy-go](https://github.com/smart-mcp-proxy/mcpproxy-go)
+- **项目语言**: Go
+- **星标数量**: ⭐ 300
+- **核心概述**: 安全地增强人工智能代理
+- **大概是做什么的**: 📺 观看完整演练  ·  📚 阅读文档  ·  上面的演示显示了嵌入式 Web UI。 MCPProxy 核心是适用于 macOS、Linux 和 Windows 的单个二进制文件 - Web UI 内置于其中，无需运行额外的服务。在 macOS 上，可选的菜单栏应用程序增加了一键式便利（启动/停止、服务器运行状况、隔离、日志）。      macOS 菜单栏应用   ·   macOS 应用中的活动日志和审核 - 超越 API 限制 - 联合数百个 MCP 服务器，同时绕过 Cursor 的 40 个工具限制和 OpenAI 的 128 个功能上限。 - 保存令牌并加速响应 - 代理仅加载一种检索工具功能，而不是数百种模式。研究表明，标记减少了 99%，准确率提高了 43%。 - 高级安全保护 – 自动隔离会阻止工具中毒攻击，直到您手动批准新服务器。 - 可插拔安全扫描器 – 在批准隔离服务器之前运行 Snyk、Semgrep、Trivy、Cisco 和其他基于 Docker 的扫描器；结果通过 com 标准化为 SARIF
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, audit-logging, bm25, cli, context-window
+
+---
+
+### 🌟 [worker-vllm](https://github.com/runpod-workers/worker-vllm)
+- **项目语言**: Python
+- **星标数量**: ⭐ 459
+- **核心概述**: 用于为我们的大型语言模型端点提供服务的 Runpod 工作模板。由 vLLM 提供支持。
+- **大概是做什么的**: OpenAI 兼容的 vLLM 无服务器端点工作器只需单击几下，即可在 Runpod Serverless 上部署由 vLLM 推理引擎提供支持的 OpenAI 兼容的极速 LLM 端点。当前 vLLM 版本：0.23.0 在此处查看我们的负载均衡器实现：vLLM 负载均衡器 - 设置 Serverless Worker - [选项 1：使用预构建 Docker 映像部署任何模型 [推荐]]( option-1-deploy-any-model-using-pre-built-docker-image-recommished) - 选项 2：使用内部模型构建 Docker 映像 - 示例：使用 OpenChat-3.5 构建映像 - （可选）包括 Huggingface 令牌 - 兼容的模型架构 - 用法：OpenAI 兼容性 - 修改 OpenAI 代码库以使用部署的 vLLM Worker - OpenAI 请求输入参数 - [聊天完成[推荐]]（chat-completions-推荐） - 示例：将 Runpod 端点与 OpenAI 结合使用 - 获取可用模型的名称列表 - OpenAI 响应 API - Anthropic 消息 API - 用法：标准（非 OpenAI） - 请求输入参数 - 采样参数 - 文本输入格式 设置 Serverless Wo
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: language-model, llm, runpod, vllm
+
+---
+
 ## 🕔 2026-07-24 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 183 个候选项目中筛选出 6 个未推荐过的新项目。
