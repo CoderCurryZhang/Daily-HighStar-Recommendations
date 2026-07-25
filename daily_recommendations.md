@@ -1,3 +1,67 @@
+## 🕔 2026-07-25 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 187 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [LMOps](https://github.com/microsoft/LMOps)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,444
+- **核心概述**: 通过 LLM 和 MLLM 实现 AI 功能的通用技术
+- **大概是做什么的**: LMOps 是一项关于利用基础模型构建人工智能产品的基础研究和技术的研究计划，特别是利用法学硕士和生成人工智能模型实现人工智能功能的通用技术。 - 更好的提示：自动提示优化、提示师、可扩展提示、通用提示检索、LLM 检索器、上下文演示选择 - 更长的上下文：结构化提示、长度可外推转换器 - LLM 对齐：[通过 LLM 反馈对齐]() - LLM 加速器（更快推理）：LLM 的无损加速 - LLM 定制：使 LLM 适应领域 -基础知识：了解情境学习 - microsoft/unilm：跨任务、语言和模态的大规模自监督预训练 - microsoft/torchscale：（任何）规模的 Transformers - [论文发布] 2023 年 11 月：具有交叉熵差的情境演示选择 (EMNLP 2023) - [论文发布] 2023 年 10 月：Tuna：使用反馈进行指令调优Large Language Models (EMNLP 2023) - [论文发布]2023年10月：使用“梯度”进行自动提示优化
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agi, gpt, language-model, llm, lm, lmops
+
+---
+
+### 🌟 [DeepZero](https://github.com/416rehman/DeepZero)
+- **项目语言**: Python
+- **星标数量**: ⭐ 597
+- **核心概述**: 在您睡觉时查找零日漏洞。 DeepZero 是一个自动化漏洞研究框架，可以解析、反编译和分析数千个 Windows 内核驱动程序，以使用 AI 代理本地获取可利用的 IOCTL。
+- **大概是做什么的**: 自动化漏洞研究管道引擎将管道定义为 YAML。 DeepZero 处理编排、并​​行性、容错和状态。 English 简体中文 Français - 🔗 Pipeline-as-YAML - 声明式链摄取、过滤、转换和 LLM 评估阶段 - ⚡ 并行执行 - 每个阶段可配置并发的 ThreadPoolExecutor - 💾 可恢复运行 - 磁盘上每个样本的原子状态； Ctrl+C 并重新运行以从上次停下的地方继续 - 🤖 LLM 集成 - 通过 LiteLLM 与任何 LLM 提供程序进行 Jinja2 提示模板 - 🌐 REST API (WIP) - 通过 HTTP 查询运行状态和示例数据（当前处于试验阶段且不完整） - 🧩 可扩展 - 将自定义处理器编写为 Python 类，通过 YAML 中的路径引用它们 DeepZero 具有广泛、详尽的文档，涵盖架构、管道模���、CLI 参考和自定义处理器开发。 👉 在此处阅读官方文档 DeepZero 需要一个要分析的目标文件语料库以及详细说明如何处理它们的管道配置。 1. 克隆并安装（Python 3.11+） 2. 配置环境 详细说明
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, automated-analysis, cybersecurity, deep-agents, deepzero
+
+---
+
+### 🌟 [emisar](https://github.com/AndrewDryga/emisar)
+- **项目语言**: Elixir
+- **星标数量**: ⭐ 471
+- **核心概述**: MCP 可让 AI 工具安全地连接到您的基础设施、编写 IaaS 代码、调试问题并在事件期间提供帮助，而不会危及生产稳定性。专为安全团队审批和基础设施团队体验魔法而构建。
+- **大概是做什么的**: 让代理继续工作。保持生产权限有限。 emisar 为支持 MCP 的代理提供了已声明的基础设施操作的目录，而不是 shell。策略决定什么运行、什么等待用户以及什么被拒绝。一个小型的仅出站运行程序在执行任何操作之前会再次检查主机上的操作。从公共包目录开始，让 emisar 建议与主机匹配的包，并添加您自己的操作，而无需向每个服务器添加另一个 MCP 服务器。您需要一个 emisar 帐户、一个带有 systemd 和 sudo 的 Linux 主机，以及对 emisar.dev:443 的出站 HTTPS 访问。您没有在主机上打开入站端口。 1. 在仪表板中，选择连接跑步者。复制生成的命令；它包含一个新的一次性注册密钥。 2. 在主机上运行它：安装程序验证版本校验和，创建服务，安装与主机匹配的启动程序包，然后启动运行程序。 3. 确认运行程序在仪表板中在线，然后调度 linux.uptime 并给出原因。当出现输出并且运行出现在审计跟踪中时，您就完成了。 4. 开放LLM代理及con
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, devops, devsecops, elixir, go
+
+---
+
+### 🌟 [claude-skills-marketplace](https://github.com/mhattingpete/claude-skills-marketplace)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 656
+- **核心概述**: 软件工程工作流程的 Claude 代码技能 - Git 自动化、测试和代码审查
+- **大概是做什么的**: Claude Skills Marketplace 用于软件工程工作流程的 Claude Code 插件的精选市场。存储库结构 什么是技能和代理？技能是模型调用的功能，可扩展 Claude Code 的功能。与需要明确用户激活的斜线命令不同，技能是由克劳德根据上下文和技能描述自动触发的。每个技能都包含一个 SKILL.md 文件，其中包含： - YAML frontmatter（名称、描述、元数据） - Claude 的详细说明 - 可选支持文件（脚本、模板、参考） 代理是专门的 Claude 实例，Claude 可以调用它们来处理特定类型的工作。他们在自己的上下文中独立运行，并且可以使用针对其任务优化的不同模型。每个代理都包含一个 AGENT.md 文件，其中包含： - YAML frontmatter（名称、描述、模型选择） - 专门的指令和约束 - 其领域的决策框架 技能和代理协同工作：技能可以编排何时调用代理，代理可以在执行其任务时使用技能
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-tools, anthropic, automation, claude-code, claude-skills
+
+---
+
+### 🌟 [kuri](https://github.com/justrach/kuri)
+- **项目语言**: Zig
+- **星标数量**: ⭐ 342
+- **核心概述**: AI 代理的浏览器自动化、网络爬行和 iOS + Android 设备控制。 Zig 本机、令牌高效的 CDP 快照、HAR 记录、本机 adb 线协议客户端和独立的提取器。
+- **大概是做什么的**: macOS arm64/x86 64 和 Linux x86 64/arm64。单个二进制文件，无运行时依赖。直接下载：macOS arm64 · macOS x86 64 · Linux x86 64 · Linux arm64 用于 AI 代理的浏览器自动化和网络爬行。用齐格写成。零 Node.js。 CDP 自动化 · A11y 快照 · HAR 记录 · 独立获取器 · 交互式终端浏览器 · 代理 CLI · 安全测试 · iOS + Android 设备控制 快速入门 · 基准测试 · kuri-agent · 安全测试 · API · 技能 · 变更日志 为什么团队切换到 Kuri：当前的 Apple Silicon ReleaseFast 构建每个二进制文件保持在 2 MB 以下，2026 年 4 月 23 日重新运行的新 Google Flights 测量了 3,392 个代币kuri-agent 循环（go→snap→click→snap→eval）。在引用百分比之前，应在同一环境中重新运行跨工具增量。为什么 Kuri 赢得了代理的青睐 大多数浏览器工具都是为 QA​​ 工程师构建的。 Kuri 是为代理循环而构建的：读取页面，保持较低的令牌成本，根据稳定的引用进行操作，然后继续。 - 135 个 HTTP 端点——从 React 检查到 Core Web Vitals，与代理浏览器和浏览器使用完全一致。 - 比代理少 7-12% 的代币 -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, android, browser-automation, chrome-cdp, ios, mobile-automation
+
+---
+
+### 🌟 [awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,421
+- **核心概述**: 日本法学硕士概述
+- **大概是做什么的**: English Français 日本语 ] 📖 请使用更易于阅读的网页版本 本自述文件的内容可以在 llm-jp.github.io/awesome-japanese-llm 上以更易读的格式查看。我们建议查看网络版本，以防止表格显示问题和布局问题。本文总结了有关日本LLM（主要用日语学习的LLM）和日本LLM评估基准的公开信息。这些信息由志愿者收集，其中一些信息引用自论文和公开资源。 :::警告我们请您理解并理解以下几点： 1.我们不保证本文内容的完整性或准确性。此信息如有更改，恕不另行通知，并且我们可能无法始终提供最新信息。 2. 某些信息可能基于推测或个人用户的解释。因此，它不一定适合所有读者。 3. 本文中描述的许多模型都受到 MIT 和 Apache-2.0 等开源许可证的保护。但是，请注意，某些模型受非商业许可证（例如 CC BY-NC-SA 4.0）或开发人员特定许可证的保护，这些许可证可能不一定符合开源条件。 4. 在描述个人开发的模型时，省略作者的头衔。本文托管在 GitHub 上。如果您在文章中发现任何错误或想要建议其他模型，请通过 GitHub Issues 报告。 ::: 详细内容 目录 {open} 出版年份 架构 输入/输出可处理的代币数量 学习文本 开发者许可证/使用条款 :--- :---: :---: :---: :---: :---: :---: Sarashina2-8x70B 2024 MoE (8x70b ( 465b )) 8,192 Learning with Sparse Upcycling for Sarashina2 (70B) SB Intuitions Sarashina 模型非商业许可证 LLM-jp-3 172B 2024 Llama ( 172b , 172b -instruct2, 172b -instructc
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: foundation-models, generative-ai, generative-model, generative-models, japanese, japanese-language
+
+---
+
 ## 🕔 2026-07-24 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 229 个候选项目中筛选出 6 个未推荐过的新项目。
