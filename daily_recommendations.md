@@ -1,3 +1,67 @@
+## 🕔 2026-07-25 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 226 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [img2threejs](https://github.com/img2threejs/img2threejs)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,276
+- **核心概述**: 将参考图像中的对象重建为纯代码、程序化、质量门控、动画就绪的 Three.js 模型。令牌高效的图像转 3D。
+- **大概是做什么的**: 将参考图像中的对象重建为纯代码、过程 Three.js 模型。质量门控、动画就绪、刻意的令牌效率——通过代码重建，而不是摄影测量、网格提取或下载的艺术包。用代码重建的单个参考图像 - 正确的比例、颜色、斜角、金色装饰和发光标志 - 在浏览器中实时运行。 → 打开实时演示库 库中的每个模型都是生成的代码，在浏览器中运行。没有网格文件，没有下载。重建完全由基元、���序着色器和生成的几何体构建。下面的剪辑是在浏览器中运行的实时模型 - 打开每个剪辑以绕行它并读取生成的源代码。演示预览主题视图源 --- --- --- --- --- Sony WF-1000XM3 耳塞 + 保护套硬表面物体 实时代码 ISSACA 12 规格猎枪硬表面物体 实时代码 Gerber Paracord Knife 硬表面物体 实时代码 Doraemon House（等距西洋镜）硬表面物体 实时代码 War-Hauler“SECTOR 07”硬表面物体 实时代码 Crowned Loot Chest 硬表面物体
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d, ai-agents, claude-code, computer-graphics, generative, image-to-3d
+
+---
+
+### 🌟 [rikkahub](https://github.com/rikkahub/rikkahub)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 6,294
+- **核心概述**: RikkaHub是一款支持多个LLM提供商的Android应用程序。
+- **大概是做什么的**: 原生Android LLM聊天客户端，支持切换不同提供商点击加入我们的Discord服务器 👉【RikkaHub】 简体中文 繁体中文 English 🔗从网站下载（推荐） 🔗从Google Play下载 RikkaHub有很多fork版本。分叉问题与 RikkaHub 无关，因此请谨慎使用分叉，以避免隐私泄露或过多的权限请求。赞助商简介 :----------------------------------------------------------------------------------------------------------------: :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ Aihubmix 感谢 aihubmix.com 的资金支持。我们建议使用 aihubmix 作为全球主流车型的一站式商店。 （OpenAI、Claude、Google Gemini、DeepSeek、Qwen 等数百个）。 随想AI中转感谢随想AI中转对本项目的赞助！高效随想AI中转是一家可靠的API中继服务提供商，提供Claude、Codex、Gemini等的中继服务。注重隐私的中转站·无数据倒卖·无模型每年水，隐私，透明，极速售后。新账户注册每日签到就送0.5元测试
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, android, app, chatbot-ui, chatbox, chatgpt
+
+---
+
+### 🌟 [caspian-sdk](https://github.com/TryCaspian/caspian-sdk)
+- **项目语言**: Python
+- **星标数量**: ⭐ 222
+- **核心概述**: 跨 Slack、Discord、Telegram、WhatsApp、Instagram、电子邮件、SMS、X 的 AI 代理的一个身份 — 一个 on_message 处理程序。开源通道适配器 + bot SDK（Python 和 TypeScript）+ CLI。
+- **大概是做什么的**: 最大的 OSS 代理框架每个都构建了 25 个以上的通道适配器，并且仍然将 8-15% 的问题跟踪器花费在通道管道上。凯斯宾使它成为一名处理者。你的代理人的推理决定了该说什么。 Caspian 是它在 Slack、Discord、GitHub、Telegram、Instagram、电子邮件、X 等平台上的存在方式 — 每个通道一个连接调用，所有通道一个处理程序、线程、webhook 验证和平台怪癖处理。 30 秒内开始构建编码代理（Claude Code、Codex、Cursor、Kimi 等）？粘贴此内容 — 它会读取实时指南并为您完成整个集成：这是最快的路径 — /SKILL.md 中的指南始终是最新的，因此您的代理会安装 SDK、创建密钥、连接通道并编写处理程序本身。或者手动设置：Node / TypeScript：库是​​ npm install caspian-sdk 。 caspian CLI 是一个独立工具 (Python) — 使用 uvx caspian-cli init / pipx install caspian-cli 运行它，或者直接使用 SDK（如下）；流量没有任何其他变化。 SDK 默认与 https://api.trycaspianai.com 上的托管网关进行通信
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, ai-agents, communication, crewai, discord
+
+---
+
+### 🌟 [flink-agents](https://github.com/apache/flink-agents)
+- **项目语言**: Java
+- **星标数量**: ⭐ 431
+- **核心概述**: Flink Agents 是一个基于 Apache Flink 的 Agentic AI 框架
+- **大概是做什么的**: Apache Flink Agents 是一个基于 Apache Flink 的 Agentic AI 框架。构建 Flink Agent 的先决条件： 类 Unix 环境（我们使用 Linux、Mac OS X、Cygwin、WSL） Python 3（3.10、3.11、3.12） 要从 git 克隆，请输入： 我们提供了一个从源代码构建 Flink-Agents 的脚本 此脚本将构建 java 和 python 部分，并将 Flink-Agents dist jar 安装到 python Wheel 包中。贡献指南。有关如何加入 Slack 工作区的信息，请参阅 Apache Flink 网站。我们使用 flink-agents-user 进行面向用户的讨论和故障排除，并使用 flink-agents-dev 进行开发相关的讨论。每周有一次在线同步。欢迎大家加入。请在此 github 讨论页面中查找下次同步的时间表、议程以及之前同步的记录。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agentic-framework, ai, distributed, event-driven
+
+---
+
+### 🌟 [agent-compose](https://github.com/chaitin/agent-compose)
+- **项目语言**: Go
+- **星标数量**: ⭐ 214
+- **核心概述**: docker/docker-compose 类似于代理守护进程
+- **大概是做什么的**: agent-compose 是一个守护进程 + CLI 控制平面，在隔离的沙箱中运行 AI 编码代理。您可以在 agent-compose.yml 文件中描述您的代理，并且一个长期存在的守护进程会为每个代理构建、运行、调度和代理一个独立的运行时。公开预览。 API、运行时打包和部署默认值可能仍会发生变化。它适合实验、本地开发和预览部署——还不是一个稳定的生产平台。什么是代理撰写？如果您了解 Docker Compose，那么其思维模型就会很熟悉：您不用声明容器，而是声明代理。每个代理都会选择一个提供程序 CLI - codex 、 claude (Claude Code)、gemini 、 opencode 或 pi - 守护程序为其提供自己的带有工作区的隔离沙箱，然后在提示符、shell 命令、计划或事件上运行它。提供者 API 密钥保留在守护进程上并且永远不会暴露 您使用 Compose 风格的 CLI（ up 、 run 、 ps 、 log 、 down ）管理整个生命周期，并且一切都由一个声明性文件驱动。具体来说，agent-compose 提供： - 声明性撰写模型 (agent-compose.yml )
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-compose, compose
+
+---
+
+### 🌟 [Awesome-LLM-Resources-List](https://github.com/ilsilfverskiold/Awesome-LLM-Resources-List)
+- **项目语言**: Python
+- **星标数量**: ⭐ 536
+- **核心概述**: 应用人工智能工程的精选资源集合（正在进行中）。
+- **大概是做什么的**: 🌟 很棒的法学硕士资源 法学硕士资源的精选集合。 💡✨ 🌐 更新：2025 年 6 月 22 日“无服务器”托管私有/操作系统模型平台/工具版本。缩小操作系统🔓 GH 启动一键开发体验。免费层级 -------------------------------- -------- ------------- -------------- ---------- ---------------- ------------------ ------------------------- -------------- Baseten 2019 15 分钟 🔴 指南 🟡 👍 $30 Modal 2021 15 分钟 🔴 不需要 ✅ 😓 ❌ 复制 2019 30 秒 🔴 N/A ❌ 🤷 ❌ BentoML 2019 5 分钟图库 🟡 👍 🆓 $10 不用说，这些平台通常可以做的不仅仅是 LLM 服务 🧮 无服务器计算定价和限制 – Lambda 与 Modal（在 CPU 上）平台 💵 计算单元 📥 每次请求费用 🆓 免费套餐 ⏱️ 最大超时 🚦 并发限制------------------------------------------------ ---------------------------------------------------------------- ---------------------------------------------------------------- ------------------------------------------------------------------ ------------------------------------------------------------------ ------------------------------------------------------------------ AWS Lambda + API GW GB-sec @ $0.000016667
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: large-language-models, llm, resources
+
+---
+
 ## 🕔 2026-07-25 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 187 个候选项目中筛选出 6 个未推荐过的新项目。
