@@ -1,3 +1,67 @@
+## 🕔 2026-07-25 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [a-stock-data](https://github.com/simonlin1212/a-stock-data)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 7,738
+- **核心概述**: A股全栈数据工具包 · 10层架构 · 43端点(含3官方备胎) · 15数据源 · 行情/研报/资金面/筹码/公告/打板/ETF期权/舆情互动全覆盖+备用源降级 | China A-Share full-stack data toolkit (43 endpoints)
+- **大概是做什么的**: A 股全栈数据工具包 — 10 层架构 · 44 个端点（41 主端点 + 3 官方备胎）· 15 个数据源 · 零第三方数据封装依赖 一个自包含的 Skill 文件，把分散在 15 个数据源里的 A 股原始数据整合成 AI 编程助手直接能用的工具集。你不用再背 mootdx 的 K 线参数、东财的 PDF Referer 头、iwencai 的 X-Claw 鉴权——全部封装好了。主源被封还有「备用源速查」可降级。 V3.5.0 板块资金流向（2026-07-23 · 37）： 补上此前缺失的 板块级资金流 ——新增 board fund flow() ，覆盖行业/概念/地域三类板块 × 今日/5日/10日三周期，主力净流入额/净占比 + 超大/大/中/小单四档明细 + 领涨股。与行业板块排名 同源同接口 （东财 push2 clist ），此前只请求了价格/涨跌家数，本版补请求 f62/f184/f66... 资金流字段即覆盖，走 em get 限流防封。端点 43 → 44。 V3.4.1 前缀路由 + mootdx 验活修复（2026-07-23 · 40 41 43）： ① 腾讯行情前缀路由 —— 5 开头沪 ETF（ 510300 ）、沪深指数（ 000300 / 000016 ）此前误判为 sz 返空， 000016 更被拼成 sz000016 （ ST康佳A） 静默返回错票 ； get prefix() 与 tencent quote() 同步修为 5x→sh + 沪指数白名单 + 显式前缀透传；② tdx client() 真实取数验活 —— probe 仅 TCP 握手是假阳性（坏服务器握手通却回 2 字节空 body → 静默空表/崩溃），新增 validate() 每台候���须真实拉一根 K 线成功才用，全败才明确报错；③ 备用源补腾讯 m5 分钟 K 线 ——同花顺备胎无 5 分钟，mootdx 一挂即断源（附换手率基点字段坑）。端点/源/层数不变，纯质量修复。 V3.4.0 接口质量 + 备用源韧性（2026-07-11）： ① 财联社快讯复活 （ 14 收口）——官方 v1 API + 本地签名（ md5(sha1(排序query)) ，零 key），V3.2 移除的全市场电报能力恢复，与东财 7×24 互备；② 新增「备用源速查 & 降级策略」 ——十层主源→独立备胎速查表 + 3 个官方备胎函数（沪深交易所官方龙虎榜 / 新浪资金流 / 深交所官方+东财公告），东财被封时不同风控面即时降级；③ 两个实测坐实的 bug 修复 ——解
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a-share, ai-agent, ai-skill, china-stocks, claude-code, financial-data
+
+---
+
+### 🌟 [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 12,382
+- **核心概述**: 现代生成人工智能项目和服务的精选列表
+- **大概是做什么的**: Awesome Generative AI 现代生成人工智能项目和服务的精选列表。生成人工智能是一种通过使用经过大量数据训练的机器学习算法来创建图像、声音和文本等原始内容的技术。与其他形式的人工智能不同，它能够创造独特的、前所未见的输出，例如逼真的图像、数字艺术、音乐和写作。这些产出往往有自己独特的风格，甚至很难与人类创作的作品区分开来。生成式人工智能在艺术、娱乐、营销、学术界和计算机科学等领域有着���泛的应用。欢迎对此列表做出贡献。在提交您的建议之前，请查看贡献指南以确保您的参赛作品符合标准。通过拉取请求添加链接或创建问题以开始讨论。更多项目可以在发现列表中找到，我们在其中展示了各种新兴的生成式人工智能项目。 - 推荐阅读 - 学习资源 - 如何
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, artificial-intelligence, awesome, awesome-list, generative-ai, generative-art
+
+---
+
+### 🌟 [api-relay-audit](https://github.com/toby-bridges/api-relay-audit)
+- **项目语言**: Python
+- **星标数量**: ⭐ 766
+- **核心概述**: AI API中继和LLM代理的本地安全审计：检测提示注入、模型替换、工具调用重写、SSE异常、错误泄漏和Web3钱包风险。
+- **大概是做什么的**: AI API 中继和 LLM 代理的本地安全审核。什么是 API 中继审核？ API Relay Audit 是一款针对 AI API 中继和 LLM 代理的本地安全审核工具。它将 API 中继审核、提示注入审核、模型替换信号和 Web3 中继审核保留为单独的查询系列，因此每个结果都保持干净的证据边界。您的 API 密钥仅发送到您选择的中继 URL。当您依赖第三方 AI API 中继、OpenAI 兼容代理、Claude 兼容代理或 Web3 代理工作流程，并希望在信任该中继提供生产或钱包相关流量之前获得可重复的 Markdown 报告时，请使用它。 AI API 中继安全审计 - 检测中继篡改：提示注入、提示提取、身份一致性信号、上下文截断、工具调用重写、错误响应泄漏和 SSE 流异常。 - 本地运行：独立的audit.py仅使用Python stdlib和curl；您的 API 密钥仅发送到您选择的中继 URL。 - 生成可审查的证据：每次运行都会生成一份结构化 Markdown 报告，其中包含每个步骤的结果和最终的低/中/高
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-audit, ai-security, anthropic, api-gateway, claude
+
+---
+
+### 🌟 [vibe-check-mcp-server](https://github.com/PV-Bhat/vibe-check-mcp-server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 501
+- **核心概述**: Vibe Check 是一款为 AI 代理提供类似导师的反馈的工具，可防止复杂且长期的代理工作流程出现狭隘视野、过度设计和推理锁定。与你过于热切的人工智能特工吻别！适用于：编码、不明确的任务、高风险任务
+- **大概是做什么的**: 该项目正处于维护模式。主动功能开发已结束；仅发布维护补丁（安全和错误修复）。 v2.9.0 是最新的维护版本。服务器仍保持完整功能。根据 MIT 许可，欢迎社区分叉和贡献。与过分热心的特工吻别。即插即用代理监督工具。在我们的研究中，调用 Vibe Check 的代理成功率提高了 +27%，有害行��减少了 -41% PulseMCP 上的“最受欢迎（本周）” • Smithery.ai 上的每月调用次数超过 5000 个 • 研究支持的监督 • STDIO + 可流式 HTTP 传输 即插即用的指导层，可阻止代理过度设计并让他们保持在最小可行路径上 — 研究支持的 MCP 服务器保持 LLM 的一致性、反思性和安全性。受到跨 MCP 平台和注册表的开发人员的信任直接从 npm 运行服务器，无需本地安装。需要节点=20。选择传输：选项 1 – STDIO 上的 MCP 客户端 - 从支持 MCP 的客户端（Claude Desktop、Cursor、Windsurf 等）启动。 - [MCP] stdio 传输已连接指示进程
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, agentic-workflow, ai-agents, chain-of-thought, cpi, error-handling
+
+---
+
+### 🌟 [awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 343
+- **核心概述**: AI 编码代理的游戏开发代理技能：安装一次，主路由器就会加载适合您的引擎和任务的技能。 66 个原始的版本固定技能（加上一个主路由器），采用可移植的 SKILL.md 格式，可在 Claude Code、Cursor、Codex、Copilot、Gemini CLI 等上运行，适用于 Godot、Unity、Unreal、Web 等。
+- **大概是做什么的**: Awesome-gamedev-agent-skills AI 编码代理的游戏开发专业知识 — 安装一次，路由器就会为您正在构建的任何内容加载正确的技能。代理技能是人工智能代理仅在需要时加载的小功能文件。此存储库为您的代理提供 66 种游戏开发技能和一个为您选择合适技能的路由器。您描述您正在构建的内容；代理在编写代码之前加载匹配引擎和任务技能。 - 跨引擎。 Godot、Unity、Unreal、Phaser、PixiJS、 Three.js、Bevy、pygame、LÖVE、Roblox。 - 你不选择技能。路由器会检测您的引擎和任务并仅加载适合的内容。 - 值得信赖。每项技能都是根据主要文档编写的，版本固定到规定的引擎版本，并由验证器检查。 - 路由器如何选择技能 - 代理兼容性 一个命令，任何代理。技能 CLI 会检测您已使用的编码代理，并将路由器以及所有 66 种技能安装到正确的位置：添加 --list 以首先预览， -g 为每个项目安装，或 -a 以针���特定工具（ -a 光标 ， -a claude-code ， -a gemini-cli ，...）。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, antigravity, awesome-list, claude-code, cline
+
+---
+
+### 🌟 [investment-news](https://github.com/simonlin1212/investment-news)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 342
+- **核心概述**: 为 A股投资者打造的全球产业链资讯看板 · 12 大赛道一一对应 A股板块(半导体/AI/机器人/新能源车…)，覆盖 100+ 权威源，用你自己的大模型每日提炼中文「今日要点」+ 翻译 · 全程本地、零 API key · Local AI news dashboard tracking the global industry signals behind China A-share sectors
+- **大概是做什么的**: Investment News · 投资资讯 为 A股投资者追踪全球产业链领先信号 —— 12 大赛道一一对应 A股板块，覆盖 100+ 权威源，AI 每日提炼为中文要点，全程本地、零 API key。 Tracking the global industry signals behind China A-share sectors — 12 sectors mapped to A-share themes, 100+ authoritative sources, distilled into daily Chinese key points by your own AI, fully local, zero API key. Investment News 是为 A股投资者打造的全球产业链资讯看板。 半导体、AI、机器人、新能源车、航天…这 12 大赛道一一对应 A股板块，而真正驱动板块的领先信号，往往先出现在全球英文源里。本工具覆盖全球 100+ 权威信息源，调用你自己的大模型，将各赛道最新动向每日提炼为中文「今日要点」并完成翻译，统一呈现在一个本地浏览器看板中。 区别于信息过载的新闻聚合器，其核心在于 由 AI 完成阅读与提炼 ：每个赛道置顶 3–5 条「今日要点」，跨源聚合去重，便于快速把握各赛道全貌，并可下钻至原文核实。抓取过程在 本地 完成（纯 Python 标准库），AI 使用 你自己 的 Claude 订阅（$0）或任意 API key， 数据全程留存本机，无需账号，无托管依赖 。 - A股投资者跟踪半导体、AI、新能源车、机器人等板块的全球先行信号，但海外资讯多为英文、且分散在上百个源——本工具把它们汇成一屏中文要点��� - 需同时跟踪多个投资赛道，但资讯庞杂、难以尽读，且多为英文。 - 门户与聚合器提供的是离散信息流；真正需要的是「该赛道当日的核心进展」—— 这正是 AI 要点层的职责。 📊 本工具呈现的是行业动向与领先信号，并非行情数据，更不构成投资建议。 Industry trends, not financial advice . 今⁠日⁠要⁠点 每个赛道置顶 3–5 条中文要点，跨源聚合去重、提炼核心公司与数据，由本地大模型生成 双⁠语⁠呈⁠现 英文标题自动译为中文，中文为主、原文备查，无需英文阅读能力即可掌握 覆⁠盖⁠赛⁠道 AI/大模型 · 半导体/芯片 · 机器人/自动化 · 汽车/新能源车 · 能源/新能源 · 生物医药/健康 · 航天/太空 · 网络安全 · 科技/互联网 · 消费电子/数码 · 财经/宏观 · 科学/前沿
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a-share, ai-agent, astock, china-stocks, claude, investment
+
+---
+
 ## 🕔 2026-07-25 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 226 个候选项目中筛选出 6 个未推荐过的新项目。
