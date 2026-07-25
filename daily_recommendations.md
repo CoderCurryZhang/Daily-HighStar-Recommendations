@@ -1,3 +1,67 @@
+## 🕔 2026-07-25 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 219 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agents-from-scratch](https://github.com/pguso/agents-from-scratch)
+- **项目语言**: Python
+- **星标数量**: ⭐ 914
+- **核心概述**: 使用本地法学硕士从第一原理构建人工智能代理 - 没有框架，没有云 API，没有隐藏推理。
+- **大概是做什么的**: 从头开始的人工智能代理对人工智能代理的温和、本地优先的介绍。该存储库通过单个本地 LLM 调用逐步构建一个代理，介绍了 AI 代理的实际工作方式。没有框架。没有云 API。没有隐藏的推理。没有魔法。从头开始人工智能产品 与当地法学硕士学习人工智能产品开发基础知识。通过 10 个带有可视化图表的综合课程，涵盖即时工程、结构化输出、多步骤推理、API 设计和前端集成。 JavaScript 中的 AI 代理不是个性。它们是循环、状态和约束。如果感觉有些东西很神奇，请打开文件——这个存储库中没有隐藏的逻辑。该存储库在 12 个课程中构建了一个不断发展的代理： 课程功能添加链接 -------------------- ------------------ ------ 01 文本输入/文本输出 Lessons/01 basic llm chat.md 02 角色和行为（系统提示） Lessons/02 系统提示.md 03 结构化输出（JSON 合同） Lessons/03 结构化输出.md 04 决策（路由逻辑） Lessons/04 决策制定.md 05 工具（外部功能）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-architecture, ai-agents, ai-education, ai-from-scratch, artificial-intelligence, llama
+
+---
+
+### 🌟 [npcpy](https://github.com/NPC-Worldwide/npcpy)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,443
+- **核心概述**: 用于 NLP、多模式法学硕士、代理、机器学习、知识图等领域研究和开发的 Python 库。
+- **大概是做什么的**: npcpy 是一个库，为多模态语言模型、代理人工智能和知识图的研究和开发提供关键原语。其灵活的框架使您可以轻松设计强大的人工智能应用程序，并支持本地（ollama、llama.cpp、omlx、LM Studio）和云提供商。通过 NPC 上下文代理工具数据层构建多代理团队并简化上下文工程，通过软件而不是提示确保合规性。创建和使用角色 npcpy 中的 Agent 类附带了一组默认工具（sh、python、编辑文件、Web 搜索等）。将自定义工具附加到 ToolAgent 。下面是一个示例，它让代理生成图像，微调扩散模型，然后使用微调后的模型进行生成。 CodingAgent — 自动执行来自 LLM 响应的代码块 与 NPCArray 的多代理辩论 要运行真正的多代理辩论，其中代理对彼此的响应做出反应： 对于迭代细化（对所有代理相同的提示，每轮更新）：为 NPC 团队服务的包含睡眠/梦生命周期烧瓶的知识图 包括实验
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, llm, mcp, mcp-client, mcp-server
+
+---
+
+### 🌟 [the-pair](https://github.com/timwuhaotian/the-pair)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 347
+- **核心概述**: 适用于桌面的开源人工智能结对编程：导师 + 执行者代理交叉检查彼此的代码以捕获人工智能幻觉。适用于 Claude Code、Codex、Gemini 和 opencode。 macOS / Windows / Linux。
+- **大概是做什么的**: 自动人工智能结对编程——两个人工智能代理交叉检查彼此的代码，这样你就可以喝杯咖啡，然后回来审查、验证工作。 （是的，The Pair 是由 The Pair 构建的。） 🌐 英语 • 简体中文 • 한국어 • 日本语     macOS • Windows • Linux     ⬇ 下载  •  CLI  •  🌐 网站观看 Mentor 和 Executor 代理实时协作 - 概述 — The Pair 是什么以及为什么双重代理可以减少 AI 幻觉 - AI 搜索摘要 — 有关搜索和 AI 的简明产品事实引文 - 为什么是这对？ — 与 Cursor、Copilot 和单代理工具的比较 - 选择您的界面 — 桌面应用程序或终端 CLI - 安装 — macOS、Windows、Linux - 快速启动 — 安装提供程序 CLI 并创建您的第一对 The Pair 是一款免费的开源桌面应用程序，运行两个 AI 编码代理 — 一个用于计划和审查的只读 Mentor，以及一个用于编写代码和运行命令的 Executor — 它们会交叉检查彼此的工作，以在 AI 幻觉到达您的代码库之前捕获它们。它在 macOS、Windows 和 Linux 上本地运行，并且与模型无关：C 对
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-code-review, claude-code, codex, codex-cli
+
+---
+
+### 🌟 [Cyrene-Agent](https://github.com/Playa-0v0/Cyrene-Agent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 276
+- **核心概述**: Live2D 桌面代理 (Electron + TS) — 来自 Honkai: Star Rail 的 Cyrene。聊天、情感互动、个性化记忆。
+- **大概是做什么的**: Cyrene-Agent 是一个以《崩坏：星穹铁道》昔涟为核心角色的 Windows Live2D AI 桌面伴侣。 基于 Electron + TypeScript 开发的桌面端 Live2D 智能对话 Agent。 项目围绕昔涟（Cyrene）的角色设定，结合自研 DMAE 记忆引擎， 将角色化聊天、个性化记忆、语音交互、工具调用与多平台接入整合在同一个桌面 Agent 中， 同时支持日常聊天（Chat）与辅助工作（Work）两种模式。 - 🌸 趣味桌面陪伴 — Live2D 角色常驻桌面，支持表情、动作、状态、心情、气泡互动与智能表情包 - 💬 日常聊天（Chat） — 专注角色化交流，结合会话历史、用户风格与长期记忆自然回应 - 🛠️ 辅助工作（Work） — 通过完整 Agent 工作流理解请求、调用工具，并根据真实执行结果回复 - 🧠 个性化记忆 — L0 / L1 / L2 分层记忆，结合自研 DMAE Worldbook 沉淀长期互动 - 🔊 语音交互 — 集成 TTS、ASR 与语音通话，让昔涟能够听见并回应用户 - 🧰 丰富工具生态 — 覆盖联网搜索、文件处理、文档生成、生活服务、音乐与 MCP 扩展 - 🔌 多模型厂商适配 — 针对不同厂商提供分级 Structured Output 与 Function Calling 兼容方案 - 🎨 个性化外观 — 支持多套界面风格、主题外观与聊天字体选择 - 📱 多平台接入 — 支持桌面端、飞书与微信 iLink，共享角色能力与对话体验 - 🌙 主动聊天 — 根据时间、状态与用户偏好主动发起交流，并支持多渠道定向投递 - npm 10+ （推荐 npm 11） 飞书、微信 iLink 与 nut-js 键鼠自动化等部分功能依赖 Windows 环境。 首次安装会下载 Electron、Pixi.js、Live2D 等相关依赖，具体耗时取决于网络环境。 Cyrene 无需本地大语言模型即可正常聊天，但建议安装 BGE-M3 Embedding 模型 ，以获得更完整的语义增强体验： 前往 Releases 下载 BGE-M3 未安装 BGE-M3 不会影响基础聊天，依赖 Embedding 的增强功能会自动关闭或降级。 - uv — Python 包管理器，首次运行音乐工具时会自动下载 Python 并安装依赖 - 网易云音乐桌面客户端 — 用于播放歌曲，需注册 orpheus:// 协议 音乐功能为可选组件，不影响聊天及其他核心功能。未安装 uv 时，音乐工具会自动跳过并在界面中提
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, cyrene, electron, honkai-star-rail, typescript
+
+---
+
+### 🌟 [yutu](https://github.com/eat-pray-ai/yutu)
+- **项目语言**: Go
+- **星标数量**: ⭐ 596
+- **核心概述**: 由 AI 驱动的工具包可自动扩展您的 YouTube 频道。
+- **大概是做什么的**: yutu 是 YouTube 的 CLI、MCP 服务器和 AI 代理，可自动化您的整个 YouTube 工作流程（从上传和优化视频到管理评论、播放列表和频道品牌），因此您可以通过更少的手动操作获得更多观看次数、更高的点击率和更强的受众参与度。 中文文档 需要有谷歌云平台账号。设置以下内容： 1. 创建 GCP 项目并在 API 和服务下启用这些 API - 启用 API 和服务： - YouTube 数据 API v3（必需） - YouTube Analytics API（可选） - YouTube 报告 API（可选） 2. 创建 OAuth 凭据 ： - 转到 API 和服务 - OAuth 同意屏幕，以自己作为测试用户创建一个同意屏幕 - 转到凭据 - 创建凭据 - OAuth 客户端 ID，选择桌面应用程序 - 下载凭证文件并将其另存为 client Secret.json ，它应该类似于 3. 身份验证：将打开一个浏览器窗口，供您授予 YouTube 访问权限。授予权限后，令牌将保存到 youtube.token.json 。默认情况下，yutu会从t读取客户端secret.json和youtube.token.json
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, automation, bot, chatgpt, claude
+
+---
+
+### 🌟 [mempal](https://github.com/ZhangHanDong/mempal)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 277
+- **核心概述**: AI代理内存
+- **大概是做什么的**: 编码代理的项目记忆。单个二进制文件，cargo install mempal，在几秒钟内找到带有引用的过去的决定。最新版本：v0.9.0 (2026-07-09)。 - 混合搜索：BM25 关键字匹配 + 向量语义搜索，通过倒数排名融合合并 - 知识图：具有时间有效性的主谓宾三元组（有效自/有效至） - 跨项目隧道：当同一个房间出现在多个翼中时自动发现 - 自描述协议：MCP ServerInfo 中嵌入的内存协议教任何代理如何使用 mempal — 无需系统提示配置 - 多语言： model2vec-rs（BGE-M3 蒸馏）作为默认嵌入器，零本机依赖项 - 单个文件：所有内容都位于 /.mempal/palace.db（SQLite + sqlite-vec）中 从源签出：在 /.mempal/config.toml 进行配置（可选，默认情况下无需它即可工作）： mempal init [--dry-run] 从项目树 mempal ingest --wing 推断翼/房间[--dry-run] 分块、嵌入和存储 mempal 搜索 [--wing W] [--room R] [--json] 混合搜索 (BM25 + 矢量 + RRF) mempal 唤醒 [--format aaak] 上下文引用
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, memory-management
+
+---
+
 ## 🕔 2026-07-25 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
