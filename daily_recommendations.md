@@ -1,3 +1,67 @@
+## 🕔 2026-07-26 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 223 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agentsys](https://github.com/agent-sh/agentsys)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 900
+- **核心概述**: AI 编写代码。这可以自动化所有其他内容 · 24 个插件 · 49 个代理 · 44 种技能 · 适用于 Claude Code、OpenCode、Codex、Cursor、Kiro。
+- **大概是做什么的**: 用于人工智能代理的模块化运行时和编排系统。 24 个插件 · 49 个代理 · 44 项技能（跨所有存储库） · 30k 行 lib 代码 · 3,518 个测试 · 5 个平台 在 agent-sh org 下作为独立存储库分发的插件 - agentsys 是市场和安装程序 命令 · 安装 · 网站 · 为 Claude Code 构建的讨论 · Codex CLI · OpenCode · Cursor · Kiro 新技能、代理和集成不断发布。关注实时更新：AI模型可以编写代码。这不再是困难的部分了。困难的部分是围绕它的一切——任务选择、分支管理、代���审查、工件清理、CI、PR 评论、部署。 AgentSys 是编排代理来处理所有这些的运行时 - 结构化管道、门控阶段、专用代理以及在会话边界中保留的持久状态。构建自定义技能、代理、挂钩或 MCP 工具？ agnix 是 CLI + LSP linter，可以在配置错误静默失败之前捕获它们 - 实时 IDE 验证、自动建议、自动修复以及 Claude Code、Codex、OpenCode、Cursor、Kiro、Copilot 的 423 规则
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, anthropic, automation, autonomous-agents, claude
+
+---
+
+### 🌟 [PaperForge](https://github.com/QJHWC/PaperForge)
+- **项目语言**: Python
+- **星标数量**: ⭐ 592
+- **核心概述**: 端到端人工智能驱动的学术论文写作系统——从想法生成和文献检索到实验执行、结果回填和 LaTeX 论文编译。支持多LLM路由、SSH远程训练、增量同步、抗AI检测写作风格。
+- **大概是做什么的**: PaperForge Research OS v3 PaperForge v3 是一个以证据为中心的科研工作系统，用于研究规划、受控实验、 论文写作、同行审查、排版发布和交付验证。CLI、浏览器前端以及兼容入口最终都 进入同一套工作流数据库、执行策略、Agent Runtime、Provider Registry、 Artifact Registry 和 Release Verifier。 ⚠️ 免责声明：本项目仅供学习与研究使用，不得用于任何商业用途。使用本项目所产生的一切后果由使用者自行承担。 v2 主要提供多个相对独立的自动写作与实验入口；v3 将项目升级为统一的 Research OS，并把科研断言、实验来源和发布结果纳入可验证状态。 运行入口 writeup 、 research partner 、 mvp 、 scientist 各自维护流程 所有入口转入统一 PaperForgeService 和 ResearchOSRuntime 执行权限 主要依靠调用约定和提示词 writing-only 、 research 、 full 三种强制策略 科研证据 文档和结果文件分散保存 SQLite Scientific Memory 统一保存 Claim、Evidence、Run 和 Artifact 实验流程 工作流内部直接组织实验 Proposal → Static Check → Mini Experiment → Full Experiment，并要求审批 论文发布 基础 LaTeX 写作和模板迁移 Claim Gate、四种模板、编译渲染闭环、保护块和最终发布门禁 计算后端 本地与远程脚本分别处理 Local、Docker、SSH、Slurm、Kubernetes、Cloud SSH 使用统一接口 Provider 不同路径分别传递���型和 Key 统一 Provider Registry、请求过滤、认证预检和失败关闭 安全与交付 基础日志处理 全链路脱敏、秘密扫描、第三方锁定、确定性源码包和发布验证 1. 统一 Research OS ：Research、Experiment、Code、Compute、Analysis、 Visualization、Paper、Reviewer 和 Release Agent 共享同一运行时。 2. 科学证据数据库 ：论文中的公开断言必须通过 claim id 关联源码、 3. 受控实验系统 ：实验必须经过提案、静态检查、小实验和正式实验， 并保存代码、配置、数据、权重、指标和产物哈希。 4. 正式出版流水线 ：
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: academic-writing, ai, latex, llm, paper-generation, remote-execution
+
+---
+
+### 🌟 [LLPhant](https://github.com/LLPhant/LLPhant)
+- **项目语言**: PHP
+- **星标数量**: ⭐ 1,702
+- **核心概述**: LLPhant - 使用 OpenAI GPT 4 的综合 PHP 生成人工智能框架。受到 Langchain 的启发
+- **大概是做什么的**: LLPhant - 用于 Gen AI 和矢量数据库的 PHP 库 我们设计的这个框架尽可能简单，同时仍然为您提供构建强大的应用程序所需的工具。它与 Symfony 和 Laravel 兼容。我们正在努力扩大对不同法学硕士的支持。目前，我们支持 OpenAI、Anthropic、Mistral、Ollama、LM Studio、Atlas Cloud 以及与 OpenAI API 兼容的服务（例如 LocalAI）。 Ollama 可用于在本地运行 LLM，例如 Llama 2。LLPhant 的 AtlasCloudConfig 以 https://api.atlascloud.ai/v1 处与 OpenAI 兼容的 Atlas Cloud 端点为目标，现在默认为经过验证的聊天模型 qwen/qwen3.5-flash 。该配置还接受您的帐户通过可选的 ATLASCLOUD MODEL 环境变量公开的任何 Atlas 模型 slug。当前公共文本模型列表中的示例包括： - qwen/qwen3.5-flash - qwen/qwen3.6-plus - deepseek-ai/deepseek-v4-flash - deepseek-ai/deepseek-v4-pro - google/gemini-3.5-flash 我们要感谢我们在这里使用或启发我们的几个令人惊叹的项目： - 使用 LangChain 的学习
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, autophp, embeddings, genai, generative-ai, gpt4
+
+---
+
+### 🌟 [Symbio](https://github.com/854875058/Symbio)
+- **项目语言**: Python
+- **星标数量**: ⭐ 295
+- **核心概述**: 🧬 Symbio（共生）- AI Infra 级多 Agent 协同框架 | 33 Killer Features: 动态 DAG, 本体化记忆, 防过早完成, 数据飞轮, 神经符号安全, OpenTelemetry 可观测, HITL 人类介入, MCP 原生支持, 语义缓存, PromptOps, 边缘计算, 隐私计算 | Next-Gen AI Infrastructure for Multi-Agent Orchestration
+- **大概是做什么的**: AI Infra 级多 Agent 协同框架 把 Agent 能力拆成 可观测、可审批、可恢复、可验证 的基础设施模块 —— 调度、记忆、审批、安全、成本、沙箱、外部工具接管和数据飞轮，都在同一个运行时里协作。 English · 中文 · 日本语 很多 Agent 项目只解决"让模型调用工具"这一层。 Symbio 关心的是更靠后、也更难的工程问题： - Agent 要删文件、跑代码、调外部系统时， 谁来审批？通知能推到微信/飞书/钉钉/Telegram 吗？ - 多 Agent 协作时，怎么避免互相传话把 Token 成本打爆？ - 记忆能不能不只是向量检索，而是带结构和关系、能零 Token 推理的本体图谱？ - 用户输入里藏了 Prompt Injection， 第一道防线在哪？ - 运行轨迹能不能反哺 SOP、评测集、微调数据和 Prompt 优化？ Symbio 的原则： 已经落地的写成能力，部分落地的写清缺口，没实现的只放路线图 —— 运行时自带一份 GET /api/capabilities 能力账本，README 里的每个"已实现"都有代码和测试背书。 Web UI 共 16 个页面，默认暖色浅底主题（Claude / Hermes 风格，可一键切换深色）。 成本中心 · 仪表盘 语义缓存命中率、24h 用量、月度预算 Prompt Injection 三层防火墙 威胁分布、在线扫描、红队自检、审计轨迹 数据飞轮四阶段闭环 捕获 → 失效分析 → SOP 蒸馏 → 反哺优化 Computer Use 最小闭环 浏览器会话 · 动作规划 · 审计回放 个人微信双向机器�� 扫码绑定 · 审批/对话双向收发（provider-agnostic） 本体记忆图谱 概念 / 实体 / 关系可视化，支持零 Token 符号推理 打开 Web UI： http://localhost:9090/ui - 动态 DAG 运行时 —— 任务不是静态链而是可持久化的执行图，支持节点状态、事件、产物、重规划与断点恢复。 - Planner / Reviewer / Verification —— 高风险任务先规划、再审查、再执行，workflow policy 约束 Agent 不跳过计划与验证。 安全与成本 （兑现公众号系列文章承诺，已接入对话运行时） - Token 成本���层优化 —— 语义缓存（相似问题命中后零 Token 返回）、上下文剪枝、成本监控 + 月度预算与超额降级建议，全部接进 /api/chat 与 /ws/chat 。 - Prompt Injec
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-infra, claude, dag, llm
+
+---
+
+### 🌟 [ResearchClawBench](https://github.com/InternScience/ResearchClawBench)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 225
+- **核心概述**: 🦞 ResearchClawBench：评估从重新发现到新发现的自动化研究的人工智能代理
+- **大概是做什么的**: 评估用于从重新发现到新发现的自动化研究的人工智能代理 快速入门 提交任务 工作原理 领域排行榜 添加您的代理 ResearchClawBench 是衡量人工智能编码代理是否能够独立进行科学研究（从读取原始数据到生成出版质量报告）的基准，然后根据真实的人类撰写的论文严格评估结果。与测试编码能力或事实回忆的基准不同，ResearchClawBench 提出的问题是：给定一个精心策划的科学工作空间和相同的研究目标，人工智能代理能否得出相同（或更好）的科学结论？ 🔄 两阶段管道自主研究 + 严格的同行评审式评估🧪 40 个真实科学任务 10 个学科，从已发表的论文中精选的数据集👁️ 专家注释的数据任务、由领域专家策划的细则（清单）和数据集🤖 多代理支持 Claude Code、Codex CLI、OpenClaw、ResearchClaw，...和自定义代理🚀 从重新发现到新发现 50 = 匹配论文，70+ = 超越它 📋 细粒度评分标准（清单）每项 ke
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, ai-scientist, ai4science, auto-research
+
+---
+
+### 🌟 [senpi](https://github.com/code-yeongyu/senpi)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 279
+- **核心概述**: 圆周率什么都没有（什么也没有），所以我做了一些东西（一些东西）——对不起 mariozechner-senpai，我继续爱地为你弄脏了你纯粹的圆周率。 badlogic/pi-mono 的固执己见的分支，带有扩展优先的添加。 ganbare ganbare senpi 頑張れ頑張れ先辈
+- **大概是做什么的**: ⚠️实验性的。 senpi 是 badlogic/pi-mono 的一个固执己见、正在运行的分支。它在底层为 Dori 提供支持，并反映了特定人工智能助手对编码代理运行时的需求。使用它；不要把生产线押在它上面。 senpi 是一个 senpai 名称的双关语，也是一个包含额外电池的更理智的 pi - 一个 TypeScript monorepo，它将 pi-mono 的编码代理重新命名为 senpi，并在上游之上提供了一组精选的内置扩展和核心调整。上游：@mariozechner 的 pi-mono — 用于构建 AI 代理和管理 LLM 部署的工具。受 OMO 的启发，作为 Dori 的编码代理运行时 senpi 诞生于两个影响： - 来自 OMO (oh-my-openagent) 的强烈影响。 OMO 是重量级开放代码工具，具有纪律代理（Sisyphus、Hephaestus、Prometheus）、IntentGate、哈希锚定编辑、团队模式、技能嵌入式 MCP、Ralph Loop、待办事项执行器等等。 senpi 重用了 OMO 的许多标志性想法（意图门、动态提示、每个模型预设、并行工具路由、todo 延续），但保持表面尽可能轻，以便它可以保持关闭
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, cli, coding-agent, llm, llm-tools
+
+---
+
 ## 🕔 2026-07-26 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 174 个候选项目中筛选出 6 个未推荐过的新项目。
