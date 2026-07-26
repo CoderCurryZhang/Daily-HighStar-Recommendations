@@ -1,3 +1,67 @@
+## 🕔 2026-07-26 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 228 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [cc-skills-golang](https://github.com/samber/cc-skills-golang)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,743
+- **核心概述**: 🧑‍🎨 有效的 Golang 代理技能集合
+- **大概是做什么的**: 适用于生产就绪的 Golang 项目的代理技能 AI 代理技能是可重用的指令集，可以通过特定领域的专业知识扩展您的编码助手，并按需加载，这样它们就不会导致您的上下文变得臃肿。该存储库仅涵盖 Go 特定技能（语言、测试、安全性、可观察性等）；对于开发工作流程技能（git 约定、CI/CD、PR 评论），您需要添加单独的技能插件。有关通用技能，请访问 cc-skills。通过提取我的 Go 项目提交，使用 Claude Code 进行引导。由人工编辑、测试、审查和修改。这里没有人工智能。人工智能创造的技能毫无用处。使用技能 CLI 安装（通用，可与任何与代理技能兼容的工具配合使用）：将技能复制到跨客户端发现目录中：使用 Gemini 扩展进行更新 update cc-skills-golang 。将技能复制到跨客户端发现目录中：光标自动从 .agents/skills/ 和 .cursor/skills/ 发现技能。将技能复制到跨客户端发现目录中：Copilot 自动从 .copilot/skills/ 发现技能。将技能复制到跨客户端发现迪中
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, ai, antigravity, claude, claude-code
+
+---
+
+### 🌟 [hello-halo](https://github.com/openkursar/hello-halo)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,647
+- **核心概述**: 适合所有人的 7×24 桌面人工智能代理。具有远程访问、文件管理和内置 AI 浏览器的视觉 AI 助手。
+- **大概是做什么的**: 您的 AI 工作站 — 适用于团队和个人本地部署。全天候自动化一切。人工智能数字人在您打电话时工作。 简体中文 繁体中文 Español Deutsch Français 日本语 Halo 是一款人工智能工作站，由前沿 Agent 提供支持，具有可插拔引擎架构 - 支持 Claude Code、Codex 等。 Halo 拥有超过 30 万行代码的完整产品层，经过数万用户验证，并在企业环境中稳定运行，它提供： 您的日常 AI 伙伴 — 编码、产品设计、运营、写作、研究 — 您的日常工作伙伴 100% 本地、零云依赖 — 数据永远不会离开您的机器，满足企业合规要求 AI 数字人类 — 人工智能工作人员 7x24 自主运行，处理监控、报告和日常操作 AI 浏览器 — 由 AI 直接控制的嵌入式浏览器，自动化任何基于 Web 的系统 WeCom / 微信 Native Control — 从企业 IM 管理 AI 代理，零培训成本远程访问 — 通过电话 / H5 / 微信 / Android 进行控制，经理随时随地查看进度 100% com
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, claudecode, cowork
+
+---
+
+### 🌟 [google_workspace_mcp](https://github.com/taylorwilsdon/google_workspace_mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,912
+- **核心概述**: 使用 AI 控制 Gmail、Google 日历、文档、表格、幻灯片、聊天、表单、任务、搜索和驾驶 - 综合性 Google Workspace / G Suite MCP 服务器和 CLI 工具
+- **大概是做什么的**: Google Workspace MCP 服务器 通过所有 MCP 客户端、AI 助手和开发者工具对 Google 日历、云端硬盘、Gmail、文档、表格、幻灯片、表单、任务、联系人和聊天进行完全自然语言控制。包括功能齐全的 CLI 和代码模式，可与 Claude Code 和 Codex 等工具一起使用！功能最齐全的 Google Workspace MCP 服务器，它可以完成 Google 自己的工具以及与 Claude 和 ChatGPT 的内置集成甚至无法想象的事情。 Workspace MCP 具有远程 OAuth2.1 多用户支持、细粒度编辑工具以及现有 Google Workspace 工具中最广泛的覆盖范围，属于不同的类别。它提供本机 OAuth 2.1、无状态模式和外部身份验证服务器支持，也是您可以为整个组织集中且安全地托管的唯一工作区 MCP！支持所有免费 Google 帐户和 Google Workspace 套餐（入门版、标准版、Plus、企业版、非营利版），并提供聊天和空间等扩展应用选​​项。对私有托管云实例感兴趣？这样就可以安排了。快速入门 · 先决条件 Google Cloud · Cre
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, g-suite, gmail, google-calendar, google-chat, google-docs
+
+---
+
+### 🌟 [awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools)
+- **项目语言**: Python
+- **星标数量**: ⭐ 779
+- **核心概述**: 用于人工智能安全和人工智能辅助网络安全的公共源、研究和商业工具的精选列表——自动分类、代理安全、人工智能/机器学习供应链、渗透测试代理、人工智能 SAST、LLM 驱动的模糊测试、威胁情报、SOC/SIEM 分类、逆向工程、LLM 红队等等。
+- **大概是做什么的**: 很棒的 AI 安全工具 用于 AI 安全和 AI 辅助网络安全的公共源、研究和商业工具的精选列表 - 自动分类、代理安全、AI/ML 供应链、渗透测试代理、AI SAST、LLM 驱动的模糊测试、威胁情报、SOC/SIEM 分类、逆向工程、LLM 红队等等。类型图例： 🟢 公共源/开源 · 🔬 研究（论文/基准/数据集/框架） · 🟠 具有开放组件的商业 · ⚠️ 限制性、非商业性或不清楚/无许可证 — 使用前检查。 GitHub 托管的条目显示静态 ★ 星和最后提交快照；在发布之前使用 python3 脚本/更新 githubmetrics.py 刷新它们。最新快照：2026-07-26。 Hugging Face 模型条目显示许可证、访问权限和工件元数据。在一个部分内订购有利于旗舰项目和积极维护的项目。 - 安全结果的自动分类 - AI 代理和编码代理安全 - 扫描器和审核器 - 框架、规则标准和基准 - 运行时保护和执行 - AI/ML 供应链和模型安全 - 渗透测试和红队代理 - AI 支持的 Re
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, agents, awesome, awesome-list, awesome-lists, llm
+
+---
+
+### 🌟 [cindy](https://github.com/makecindy/cindy)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 354
+- **核心概述**: Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。
+- **大概是做什么的**: 🌐 cindy.app  ·  ⬇️ 下载 Cindy 是一款开箱即用的开源 AI 代理。她将多种工具、模型和工具集成到一个代理中，以完成您的项目和应用程序中的实际工作。从第一天起就做好准备，随着时间的推移，您的产品将逐渐成型。 Cindy 在您自己的计算机上本地运行，使用您的真实文件和登录的应用程序。第一个支持的工具是 Claude Code 和 Codex - 正在添加更多工具，并且本机工具正在开发中。模型和安全带自由组合，可以在任务中切换，���时您的工作空间、记忆、技能和工具保持连续；一项任务甚至可以由不同线束×模型组合上的代理来计划、并行执行和审查。她可以驱动您的浏览器、计算机和电话，并通过即时消息和日程安排完成工作。该存储库是 Cindy 的开源客户端 - 桌面和移动应用程序及其共享包，组织为 pnpm monorepo。该客户端可以免费使用，其源代码在Apache-2.0下开放。以您的方式带模型：登录 Cindy 官方服务（透明扣除使用量），授权 Clau
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, ai-assistant, android, claude-code, codex
+
+---
+
+### 🌟 [beads-ui](https://github.com/mantoni/beads-ui)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 675
+- **核心概述**: Beads 的本地 UI — 与您的编码代理协作解决问题。
+- **大概是做什么的**: Local UI for the bd CLI – Beads Collaborate on issues with your coding agent. - ✨ Zero setup – just run bdui start - 📺 Live updates – Monitors the beads database for changes - 🔎 Issues view – Filter and search issues, edit inline - ⛰️ Epics view – Show progress per epic, expand rows, edit inline - 🏂 Board view – Blocked / Ready / In progress / Closed columns - ⌨️ Keyboard navigation – Navigate and edit without touching the mouse - 🔀 Multi-workspace – Switch between projects via dropdown, auto-registers See bdui --help for options. Environment variables - BD BIN : path to the bd binary. - BDUI RUNTIME DIR : override runtime directory for PID/logs. Defaults to $XDG RUNTIME DIR/beads-ui or the system temp dir. - HOST : overrides the bind address (default 127.0.0.1 ). - PORT : overrides the listen port (default 3000 ). These can also be set via CLI options: bdui start --host 0.0.0.0 --port 8080 - macOS/Linux are fully supported. On Windows, the CLI uses cmd /c start to open URLs and relies on Node’s process.kill semantics for stopping the - 🔨 Clone the repo and run npm install . - �
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-tools, issue-tracker, local-first
+
+---
+
 ## 🕔 2026-07-26 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 223 个候选项目中筛选出 6 个未推荐过的新项目。
