@@ -1,3 +1,67 @@
+## 🕔 2026-07-26 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 174 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [cursor-talk-to-figma-mcp](https://github.com/grab/cursor-talk-to-figma-mcp)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 6,930
+- **核心概述**: TalkToFigma：AI Agent（Cursor、Claude Code、Codex）和 Figma 之间的 MCP 集成，允许 Agentic AI 与 Figma 通信，以读取设计并以编程方式修改它们。
+- **大概是做什么的**: 该项目在 AI 代理（Cursor、Claude Code）和 Figma 之间实现了模型上下文协议（MCP）集成，允许 AI 代理与 Figma 进行通信，以读取设计并以编程方式修改它们。 https://github.com/user-attachments/assets/129a14d2-ed73-470f-9a4c-2240b2a4885c - src/talk to Figma mcp/ - 用于Figma集成的TypeScript MCP服务器 - src/cursor mcp plugin/ - 用于与Cursor通信的Figma插件 - src/socket.ts - 促进MCP之间通信的WebSocket服务器服务器和 Figma 插件 1. 如果尚未安装，请安装 Bun： 2. 运行安装程序，这还将在 Cursor 的活动项目中安装 MCP 3. 启动 Websocket 服务器 4. 新功能 从 Figma 社区页面安装 Figma 插件或本地安装 快速视频教程 设计自动化示例 批量文本内容替换 感谢 @dusskapark 贡献批量文本替换功能。这是演示视频。实例覆盖传播 @dusskapark 的另一个贡献是使用以下方法将组件实例从源实例覆盖到多个目标实例：
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agentic, agentic-ai, ai, ai-agents, automation
+
+---
+
+### 🌟 [ai-setup](https://github.com/caliber-ai-org/ai-setup)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,222
+- **核心概述**: 通过一个命令持续同步您的 AI 设置。代码库为 Claude Code、Cursor 和 Codex 定制适合的代理技能、MCP 和配置文件。
+- **大概是做什么的**: 手写的 CLAUDE.md 文件在重构的那一刻就变得陈旧了。您的人工智能代理会幻觉不再存在的路径，错过新的依赖关系，并根据昨天的架构提供建议。 Calibre 生成并维护您的 AI 上下文文件（ CLAUDE.md 、 .cursor/rules/ 、 AGENTS.md 、 copilot-instructions.md ），以便它们随着您的代码的发展而保持准确 - 并使团队中的每个代理保持同步，无论他们使用 Claude Code、Cursor、Codex、OpenCode 还是 GitHub Copilot。大多数存储库都以手写的 CLAUDE.md 开头，仅此而已。���下是 Calibre 发现并修复的内容：评分是确定性的 - 没有 LLM，没有 API 调用。它将您的配置文件与实际项目文件系统交叉引用：引用的路径是否存在？是否存在代码块？自上次提交以来是否存在配置漂移？需要 Node.js = 20 。然后，在您的终端（不是 IDE 聊天）中，启动 Claude Code 或 Cursor CLI 会话并键入：您的代理检测您的堆栈，为您的团队使用的每个平台生成定制的配置，设置预提交挂钩，并启用连续同步 - 所有这些都来自您的 n
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-config, ai-agents, anthropic, claude-code, claude-md, cli
+
+---
+
+### 🌟 [claudexor](https://github.com/razzant/claudexor)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 300
+- **核心概述**: 用于 Claude Code、Codex、Cursor 和 OpenCode 的多线束控制平面：跨多个 Claude/Codex 订阅的配额感知轮换、共享线程上下文和跨模型审查。
+- **大概是做什么的**: Claudexor 是一个本地优先的控制平面，适用于您已付费的 AI 编码代理。它在一个类型化界面后面运行 Codex CLI、Claude Code、Cursor CLI、OpenCode 和原始 API 适配器：轮流聊天，其中只读问题恢复供应商自己的本机会话，写入轮流作为可检查补丁落地，通过跨系列审查相互竞争坑利用，并且每项声明（成本、配额、网络证据、身份验证路线）都是您可以审核的类型化事实，而不是一种氛围。与驾驶裸露的 Codex 或 Claude Code 会话相比，Claudexor 增加了供应商未提供的层：具有独立评审员和仲裁的 N 场最佳竞赛；诚实的预算/配额会计（未知成本绝不是 0 美元）；确定性门和受保护的路径；自 2.1 起，凭证配置文件：多个 Claude/Codex 订阅并排注册，每个订阅都有自己的独立登录和实时订阅配额跟踪，并具有选择加入策略，仅在输入的供应商限制下轮换已用帐户。一切都在您的机器上运行，文件是事实来源，并且没有远程通信
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-orchestration, ai-agents, ai-coding, ai-coding-assistant, claude-code, cli
+
+---
+
+### 🌟 [activity-frames](https://github.com/nossa-y/activity-frames)
+- **项目语言**: Python
+- **星标数量**: ⭐ 321
+- **核心概述**: AI 代理的情景记忆。在本地记录您的屏幕，将其编译为结构化活动框架，并通过 MCP 提供服务。没有云，循环中没有法学硕士。
+- **大概是做什么的**: 为 AI 代理提供 Nocta 情景记忆的活动框架。您的代理可以读取您的代码、搜索网络并调用 API - 但它不知道您在过去 8 小时内做了什么。它开始了每一次谈话的盲目性。活动框架为您的代理提供了眼睛。它会在本地记录您的屏幕，将其看到的内容编译成结构化活动框架（您实际所做的有限片段），并通过 MCP 将它们提供给任何代理。没有云，没有法学硕士，没有猜测。您的代理所看到的内容 Capture 存储即时信息：每天数千个快照行，每行都显示“在 22:53:05，Chrome 显示 linkedin.com/in/...”。推理是没有用的。活动框架将这些瞬间编译成片段：并编译成任何系统提示的紧凑上下文块：将其放入提示中，您的代理就知道您的一天。一整天的时间只需不到一秒，并且成本为零。情景记忆，诚实地完成今天的代理记忆意味着对话记忆：你告诉模型的内容。情景记忆是你实际所做的事情——困难的部分是不撒谎地再现它。活动框架强制执行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agents, computer-use, context-engineering, episodic-memory, llm
+
+---
+
+### 🌟 [Seo-Promt-Master](https://github.com/umutxyp/Seo-Promt-Master)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 531
+- **核心概述**: 🔍 Google SEO 的完整文档作为 AI 提示机 - 将其放入您的 AI 助手中，以绘制每条公共路线，根据 Google 规则审核每个页面，并逐步修复差距。
+- **大概是做什么的**: 🔍 SEO​​ Prompt Master Google SEO — 完整文档，作为人工智能提示机。将此存储库放入您的人工智能编码助手中。它会自动检测工作流程，映射网站的每条公共路线，根据 Google 的官方 SEO 规则审核每个页面，并修复漏洞 - 一步一步，不遗漏任何内容。 SEO Prompt Master 是一个存储库中的两件事： 1. 完整、最新的 Google SEO 指南知识库 ( docs/ )，从 Google 搜索中心和 web.dev 中提炼出来，分为 11 个重点引用的主题 — 包括 AI 爬虫（GPTBot、PerplexityBot 等）、GEO（被 AI Overviews/ChatGPT/Perplexity 引用）和确定性 0-100 SEO 分数/ GEO 评分标准。 2. 自动执行提示工作流程 ( START.md +提示/ )，可将任何 AI 编码助手变成代码库的自主 SEO 审核员。 3. 24 个行业特定覆盖（垂直/）——电子商务、SaaS、市场、本地企业、医疗保健/法律/金融 (YMYL)、房地产、旅游、汽车、新闻、Discord 机器人、Minecraft 服务器列表、数字/代码市场等——每个都添加了模式类型、陷阱、
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-tools, chatgpt, claude, core-web-vitals, cursor, developer-tools
+
+---
+
+### 🌟 [awesome-AI4MolConformation-MD](https://github.com/AspirinCode/awesome-AI4MolConformation-MD)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 305
+- **核心概述**: 使用生成人工智能和深度学习的分子（小分子、RNA、肽、蛋白质、酶、抗体和 PPI）构象和分子动力学（力场）列表
+- **大概是做什么的**: Awesome-AI4MolConformation-MD 使用生成人工智能和深度学习的分子（小分子、RNA、肽、蛋白质、酶、抗体和 PPI）构象和分子动力学（力场）列表 - 深度学习-分子构象 菜单 菜单 菜单 ------ :------------ ------ ------ 评论 数据集和包 分子动力学 分子力场 神经分子力场 MD 引擎-框架 AI4MD 引擎-框架MD 轨迹处理-分析可视化 CGMD AI4MD 神经网络势 神经反应势 反应力场 自由能扰动 溶剂势 理论化学 QuantumChem Ab Initio AI-QuantumChem AlphaFold 基于自回归 基于 LSTM 基于 Transformer 基于 VAE 基于流 基于流匹配 基于扩散 基于分数 基于能量基于贝叶斯主动学习 基于 GNN 基于 LLM-MD 基于代理-MD - 分子构象动力学方法 ------ :---------- ------ 小分子构象动力学 RNA 构象动力学 肽构象动力学
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: active-learning, amber, enzymes, flow, force-fields, gan
+
+---
+
 ## 🕔 2026-07-26 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 217 个候选项目中筛选出 6 个未推荐过的新项目。
