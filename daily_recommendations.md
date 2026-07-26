@@ -1,3 +1,67 @@
+## 🕔 2026-07-26 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 217 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Dulus](https://github.com/KevRojo/Dulus)
+- **项目语言**: Python
+- **星标数量**: ⭐ 371
+- **核心概述**: Dulus Ai — Gui、Web、Cli、Telegram、2,000 MCP、100K 技能。 LiteLLM（100 多个提供商）、通过 Ollama 的本地模型、34 种语言的 /lang、Mesa Redonda、语音、OCR、MemPalace、嵌入式沙箱操作系统。
+- **大概是做什么的**: 一种代理 CLI。每个型号。真正的工具。你的机器。 Dulus 是终端的开源代理运行时：独立于提供商、本地优先、可通过 MCP 和任意 Python 存储库扩展，并可在第一次提示后继续工作。大多数编码代理都是从模型和围绕它的螺栓工具开始的。 Dulus 从运行时开始。该模型可以在会话中更改。这些工具可以来自核心、MCP、技能或五分钟前从未听说过 Dulus 的 Python 存储库。记忆在会话中幸存下来。检查点涵盖对话和文件。长时间运行的工作转移到后台作业。可以通过终端、浏览器、桌面应用程序、Telegram 或 Dulus OS 操作相同的引擎。这改变了产品的本质： Dulus 是 Dulus 不是独立于提供商的代理运行时 一个模型供应商的皮肤 一个可以分叉的可读 Python 代码库 一个只能在其他人的云中工作的黑匣子 具有 MCP、技能、插件和热重载的工具系统 供应商选择的固定命令列表 本地优先，支持 Ollama 和 LM Studio API 密钥���无
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, assistant, claude, cli, dulus
+
+---
+
+### 🌟 [exo](https://github.com/exoharness/exo)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 297
+- **核心概述**: Exo 是一种完全递归的代理 + 线束架构，能够在运行时安全地编辑自身的各个方面，以更好地完成任务。
+- **大概是做什么的**: 文档·示例·Discord Exo 是一种递归自我改进的系统方法。简而言之，它是一个完整的 AI 代理工具（支持工具、任务、集成等，类似于 OpenClaw、Pi 或 Hermes），其关键区别在于它可以完全了解其代码和运行时日志。这使得 Exo 能够逐步改进自身的各个方面、克隆自身，甚至管理克隆的谱系。虽然大多数智能体可以进行某种形式的自我改进，例如更新记忆或创建技能，但 Exo 是完全递归的，因为它可以克隆或操作自身的任何方面，从提示、记忆、工具，甚至基本的利用策略本身。它的架构使得这种演变可以增量且（大部分）安全地完成。它唯一不能弄乱的是事件日志，它提供了它试图防止陷入困境的规范历史记录​​。Exo 的目标是成为尽可能最小的框架，为代理提供递归自我改进的全部能力。你为什么想要这样的东西？ - 构建准确时代的好代理框架
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, harness, self-evolution
+
+---
+
+### 🌟 [AnimeGarden](https://github.com/yjl9903/AnimeGarden)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,265
+- **核心概述**: 动漫花园 镜像站 | 动画 BT 资源聚合站 | 动画 BT 资源开放接口
+- **大概是做什么的**: 动漫花园 第三方 镜像站 以及 动画 BT 资源聚合站. + ☁️ 为开发者准备的开放 API 接口 + 📺 查看 动画放送时间表 来找到你喜欢的动画 + 🔖 支持丰富的高级搜索, 例如: 葬送的芙莉莲 +简体内嵌 字幕组:桜都字幕组 类型:动画 + 📙 自定义 RSS 订阅链接, 例如: 葬送的芙莉莲 + ⭐ 搜索条件收藏夹和生成聚合的 RSS 订阅链接 + 👷‍♂️ 支持与 AutoBangumi 和 AnimeSpace 集成 讨论群 : Telegram @animegarden dev 推送频道 : Telegram @animegarden channel 项目文档 : 由 DeepWiki 生成 Anime Garden skill : 用于从 Anime Garden 上检索动画资源. Yuc's Anime List skill : 用于从 yuc.wiki 上检索每个季度的新番列表. 为 OpenClaw 使用 clawhub 添加 Anime Garden skill 和 Yuc's Anime List Skill. 使用 Vercel skills CLI 添加 Anime Garden skill 和 Yuc's Anime List Skill. Anime Garden MCP 服务端点: https://api.animes.garden/mcp . 你只需要将如下配置放入你的 MCP Client 即可. 你可以在这里找到交互式的 Open API 文档, 以及在本仓库的 examples/api.http 文件内查看到更多 API 用例. 你也可以直接使用网站, 在资源列表页 (例如 明天，美食广场见。 最新资源) 直接复制生成的 cURL、JavaScript 和 Python 的 API 请求代码. 如果你正在使用 JavaScript 和 TypeScript 进行开发, 那么你可以直接使用 npm 包 @animegarden/client, 它是对这些 API 请求的上层封装. 它是 AnimeGarden 的 JavaScript / TypeScript 的 API 客户端封装. 使用时, 你需要保证你的程序环境中有内置的 Fetch 函数. 如果没有, 你可以安装使用 undici 或者 ofetch 进行 polyfill. 你可以在这里查看更多过滤条件 FilterOptions , 也可以在 ./examples/ 目录下找到更多程序示例. 你可以从资源搜索页复制出网页嵌入代码，放到你的博客等各
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, animation, anime, anime-tracker, animegarden, animelist
+
+---
+
+### 🌟 [agentrove](https://github.com/Mng-dev-ai/agentrove)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 297
+- **核心概述**: 适用于 Claude Code、Codex、Copilot、Cursor、Grok 和 OpenCode 的自托管 AI 编码工作区，具有 ACP 支持的沙箱
+- **大概是做什么的**: 自托管 AI 编码工作区，用于从一个界面运行 Claude Code、Codex、Copilot、Cursor、Grok 和 OpenCode 代理。 Agentrove 正在积极开发中。预计版本之间会有重大变化。 - 通过 ACP 适配器运行 Claude、Codex、Copilot、Cursor、Grok 和 OpenCode。 - 为每个工作区提供自己的 Docker 或主机沙箱。 - 将聊天、代码编辑器、终端、文件树、差异、秘密和 git 工具组合在一个工作区中。 - 支持空文件夹、git ��隆、现有本地文件夹或 GitHub 存储库中的工作区。 - 流式传输代理会话，包括取消、权限提示、排队的后续消息、文件提及、斜线命令和附件。 - 包括子线程、固定聊天、工作树模式、角色、自定义指令、环境变量和已安装的代理技能。 - 提供 GitHub 辅助的存储库浏览、拉取请求审查、PR 创建、审阅者选择和 git 分支/提交/推送/拉取帮助程序。 - 作为 Docker Web 应用程序、macOS 桌面应用程序和本机 iOS 应用程序提供。在 .env 中设置 SECRET KEY：打开 http://localhost:3000。安特罗夫还
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acp, agent, claude-code, codex, copilot, cursor
+
+---
+
+### 🌟 [llm-apps-java-spring-ai](https://github.com/ThomasVitale/llm-apps-java-spring-ai)
+- **项目语言**: Java
+- **星标数量**: ⭐ 763
+- **核心概述**: 示例展示了如何使用 Spring AI 和 Spring Boot 构建由生成式 AI 和 LLM 提供支持的 Java 应用程序。
+- **大概是做什么的**: 使用 Java 和 Spring AI 的 LLM 和 AI 注入应用程序示例展示了如何使用 Spring AI 构建由生成式 AI 和大型语言模型 (LLM) 提供支持的 Java 应用程序。通过 Ollama 使用法学硕士的聊天机器人。通过 Ollama 和 PGVector 使用法学硕士进行文档问答 (RAG)。通过 Ollama 和 PGVector 使用 LLM 进行语义搜索。结构化数据提取 通过 Ollama 使用法学硕士进行结构化数据提取。通过 Ollama 使用法学硕士进行文本分类。通过不同模型提供程序与 LLM 完成聊天： 通过不同模型提供程序与 LLM 进行矢量转换（嵌入）： 通过不同模型提供程序使用 LLM 生成图像： 通过不同模型提供程序与 LLM 生成语音： 通过不同模型提供程序与 LLM 进行语音转录： 提示、消息和模板 使用简单文本提示： 使用结构化消息和角色提示： 使用模板提示： 将 LLM 输出转换为结构化 JSON 和 Java 对象： 在提示中包含各种媒体与法学硕士：通过不同的模型提供商使用法学硕士进行工具调用：使用聊天内存来保留上下文
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: embeddings, generative-ai, large-language-models, llm, ollama, openai
+
+---
+
+### 🌟 [dirge](https://github.com/dirge-code/dirge)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 229
+- **核心概述**: 动态意图解析接地引擎
+- **大概是做什么的**: 一个用 Rust 编写的最小、快速的编码代理——受到 pi、opencode 和 maki 的启发。挽歌是一首防止死者迷失方向的歌曲。它将悲伤变成值得记住的事情。特工就像蜉蝣一样，一觉醒来工作又忘记，每一次新的会话都会抹去旧的会话。 Dirge 会密切关注所说的和所做的事情，总是将上下文融入记忆中，以跨越会话之间的鸿沟来承载过去的错误和偏好。它向前歌唱过去，这样就不需要挖两次坟墓。挽歌没有任何悲伤，因为没有任何东西真正被埋葬在它的照顾之下，它的哀悼是一种承诺，这里曾经建造的一切将被铭记。挽歌与其他代理编辑器的不同之处在于： - 小巧且快速。大约 8 MB RAM 空闲、15 MB 工作、36 MB 二进制文件（大约，在 Linux 版本构建上测量：opt-level=3 + LTO） — 而基于 JS 的代理为 300 MB。原生 Rust，无运行时。 - 旨在让较弱/较便宜的型号保持在轨道上。强大的代理循环可修复格式错误的工具调用，在触及磁盘之前通过树托管程序验证每次写入，升级到
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-workflow, janet, llm, rust
+
+---
+
 ## 🕔 2026-07-25 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 219 个候选项目中筛选出 6 个未推荐过的新项目。
