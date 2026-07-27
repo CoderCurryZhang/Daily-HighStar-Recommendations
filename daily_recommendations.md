@@ -1,3 +1,67 @@
+## 🕔 2026-07-27 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 220 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [waku-agent](https://github.com/ShenSeanChen/waku-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 544
+- **核心概述**: 哇酷哇酷！ Waku 代理是您的个人 AI 代理，在您自己的笔记本电脑上，代码您可以在一个下午阅读 -harness + 循环 + 内存 + eval
+- **大概是做什么的**: 你自己的人工智能助手。在你的笔记本电脑上。代码方面你可以花一个下午的时间读完。来认识一下 Waku — 本地优先的个人助理，它展示了每个认真的代理背后的四大支柱：利用、循环、内存、评估/LLM-Ops。没有框架隐藏好的部分。专为 Sean 的 AI 故事而打造。 - 本地优先。你的记忆就是一个 SQLite 文件。打开���。阅读它。这是你的。 - 记忆是英雄。语义+情景+程序——有一个决定是否记住的门，以及一个决定保留什么的通行证。 - 循环是 95 行纯 Python 代码。逐步完成它。 - 观察它思考。当每条消息流经线束时，本地仪表板都会点亮它。 - 内置评估。确定性测试��法学硕士作为法官，并排进行，并设有释放门。该系列的系统设计白板。每个框都映射到一个文件 - 请参阅白板映射到代码。 ▶ 现场观看 20 分钟的代码演练 — 循环、内存支柱、评估、Telegram 网关和“Waku Waku”唤醒词。 YouTube · X · LinkedIn · Instagram · TikTok · Discord · ☕️ 给我买杯咖啡——它保留了这个仓库（以及视频）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, ai-agent, ai-assistant, claude, evals, llm
+
+---
+
+### 🌟 [Agently](https://github.com/AgentEra/Agently)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,634
+- **核心概述**: [GenAI 应用程序开发框架] 🚀 快速轻松地构建 GenAI 应用程序 💬 使用结构数据和链式调用语法在代码中轻松与 GenAI 代理交互 🧩 使用事件驱动流 *TriggerFlow* 管理复杂的 GenAI 工作逻辑 🔀 无需重写应用程序代码即可切换到任何模型
+- **大概是做什么的**: Agently 4.1.4.4 - AI 应用程序运行时框架文档·快速入门·为什么使用 Agently·功能·架构·生态系统本自述文件的适用对象 Agently 适合从“模型一次性完成”到“应用程序必须可靠地完成”的团队： - 产品工程师构建助理、内部副驾驶、知识工具、操作工作流或 AI 支持的 API - 需要模型提供程序、工具、MCP 服务器、沙箱的明确扩展点的平台团队，工作流和可观察性 - 比较人工智能框架的可维护性、显式控制、可调试性和生产切换的技术领先 - 编码代理用户想要一个框架，其推荐模式可以编码为可重用的项目指导 主要设计问题很简单：如何保持模型行为有用，同时仍然为应用程序代码提供稳定的契约、可观察的执行和重新启动安全的工作流边界？ Agently 4.1.4.4 增强了 Pydantic 字段约束提示和更正重试，添加了恢复感知的 TriggerFlow 快照投影和有界本地快照保留，以及 m
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agent-based-framework, agent-framework, chatglm, claude, deepseek
+
+---
+
+### 🌟 [deepx-code](https://github.com/itmisx/deepx-code)
+- **项目语言**: Go
+- **星标数量**: ⭐ 322
+- **核心概述**: deepseek标配coding agent、原生支持模型路由、CodeGraph代码图谱、OCR截图识别、自动上下文压缩、最佳工作模式选择，workflow等功能，从根本上节省Token
+- **大概是做什么的**: DeepSeek 原生、兼容 OpenAI 接口的终端编程 Agent —— 单二进制、缓存友好、内置代码图谱与本地 OCR 已预置 DeepSeek · 小米 MiMo · Kimi · 通义千问,并支持任意自定义 OpenAI 兼容模型 简体中文 · English · 日本语 · 한국어 ⚡ 长会话实测 prompt-cache 命中 99% （真实 session：41,591 tokens 中 41,472 命中）。 DeepSeek 对命中缓存的输入按未命中价的几十分之一计费（官方定价），长跑几乎不为重复的上下文重复付费。 - 🦫 单一 Go 二进制 —— 无 Node / Python 运行时， curl 一行装，macOS / Linux / Windows 全覆盖。 - 💰 缓存友好，长会话省钱 —— 围绕 DeepSeek 前缀缓存设计，实测 99% 命中；本地关键词路由零延迟、零 token 起手。 - 🧭 内置代码图谱（codegraph） —— 符号级跳定义 / 找调用 / 接口实现 / 影响面分析，Go 经 go/types 精确解析，替代满仓库 grep。 - 👀 本地图片 OCR（PaddleOCR） —— 离线读图，丢一张截图就能识别其中文字，不依赖多模态 API。 - 📎 @ 文件 / 目录引用 —— 输入框打 @ 弹本地模糊路径选择器，选中即把 @路径 塞进消息；模型按需调 Read（文件）/ List（目录），精准给上下文不用全塞。 - 🧠 双模型自动路由 —— flash 起手省钱，复杂任务自动升 pro；也可用 /model flash pro 锁定模型、 /auto /plan /review 切模式。 - 🗂️ 顺序 Todo + 并发 Plan DAG —— 多步任务用可见待办清单逐步勾选；可并行的独立子任务拆成 DAG 派并发子 agent。 - 🔁 可复用 Workflow —— 用 JS 脚本把多 agent 流程固化下来反复跑( agent() / parallel() / pipeline() ):多视角审查、扇出研究、流水线、循环到无新增等。 /ultracode 让模型自动生成并保存, /workflow 运行;真并发、可中断 resume、结构化输出走工具强约束、运行前预列全部阶段并实时显示耗时。对齐 Claude Code 的 workflow 脚本约定,脚本可直接互用。 - 💾 无损会话持久化 —— gob 完整保留 tool calls / tool results / re
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, codegraph, coding-agent, deepseek, deepseek-tui, ocr
+
+---
+
+### 🌟 [Awesome-LLM-Long-Context-Modeling](https://github.com/Xnhyacinth/Awesome-LLM-Long-Context-Modeling)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 2,146
+- **核心概述**: 📰 有关基于 LLM 的长上下文建模的必读论文和博客 🔥
+- **大概是做什么的**: 基于大型语言模型的长上下文建模论文和博客该存储库整理了有关长上下文语言建模的论文和博客，涵盖调查；高效的注意力； KV-缓存优化；循环变压器和状态空间模型；位置编码和长度外推；长情境训练；长期记忆；检索增强生成；情境学习；上下文和模型压缩；长推理（长 CoT）；长视频和图片；长期代理；长文本生成；推理加速；基准和评估；和技术报告。 🔥 基于法学硕士的长上下文建模必读论文。 🔥⚡🔥 感谢 GitHub 上所有伟大的贡献者！ 🚀🤝🚀 我有幸加入 [ LCLM-Horizo​​n ] 并与他们合作提供非常完整和全面的学术调查 \(长上下文语言建模综合调查\) 和致力于长上下文语言建模的存储库 \(A-Compressive-Survey-For-Long-Context-Language-Modeling\) 。我期待与他们合作推进研究并深化研究
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, awsome-list, benchmark, blogs, compress, evaluation
+
+---
+
+### 🌟 [ai4j](https://github.com/LnYo-Cly/ai4j)
+- **项目语言**: Java
+- **星标数量**: ⭐ 421
+- **核心概述**: Java 8+ Agentic SDK：统一LLM接入（OpenAI/Anthropic/DashScope/Doubao/DeepSeek...）、工具调用、MCP、RAG、Agent Runtime，内置Coding Agent CLI/TUI/ACP。
+- **大概是做什么的**: 一款面向 JDK 8+ 的 Java AI Agentic 开发套件：统一的大模型接入、Tool Calling、MCP、RAG、Agent Runtime，以及内置的 Coding Agent CLI / TUI / ACP。从基础模型调用到完整的 agentic 应用，一套 SDK 覆盖全链路。 设置环境变量后，下面这段代码即可发出第一条请求： 换成 DashScope / DeepSeek / Ollama 等其他平台？只需替换 PlatformType 与对应 Config，其余代码不变。 - 文档站：https://lnyo-cly.github.io/ai4j/ - 5 分钟跑通第一条请求：five-minute-first-chat - 能力地图（28 项特性详解）：feature-map - Coding Agent CLI / TUI / ACP：coding-agent-cli OpenAI / OpenAI-compatible, Anthropic, DashScope（通义/百炼）, Doubao（火山方舟/豆包）, DeepSeek, Moonshot, Zhipu（智谱）, Hunyuan（腾讯混元）, Lingyi（零一万物）, Ollama, MiniMax, Baichuan, Suno；Rerank（Jina / Ollama / Doubao）；AgentFlow（Dify / Coze / n8n）；VectorStore（Pinecone / Qdrant / pgvector / Milvus / Redis）。完整能力列表见 feature-map。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, anthropic, chatglm, chatgpt, coding-agent, dashscope
+
+---
+
+### 🌟 [awesome-a2a](https://github.com/ai-boost/awesome-a2a)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 633
+- **核心概述**: Agent2Agent (A2A) – 出色的 A2A 代理、工具、服务器和客户端，全部集中在一处。
+- **大概是做什么的**: ✨ 很棒的 A2A（Agent2Agent 协议） ✨ 与用于 AI 代理互操作性的 Agent2Agent (A2A) 协议相关的精彩资源、实现、工具和示例的精选列表。 Agent2Agent (A2A) 协议正在彻底改变 AI 代理的通信和协作方式 - 实现跨不同框架、供应商和平台的无缝互操作性。该存储库收集了最好的资源来帮助开发人员构建 A2A 兼容的代理。 🤔 什么是A2A？ （简述）⚙️A2A 是如何运作的？ （高级） 🚀 A2A 入门 🏛️ 官��资源 📜 规范和核心概念 ⚙️ 实现和库 框架集成（官方示例） 社区实现 SDK 和库（按语言） 平台和集成解决方案 🛠️ 工具和实用程序 📚 教程和文章 🔗 相关协议和概念 🤔 什么是 A2A？ （简述）A2A（Agent2Agent）是 Google 和合作伙伴推出的开放协议，使不同的 AI 代理（来自不同供应商/框架）能够安全地通信并协作执行任务。它的目的是打破孤立的代理之间的孤岛
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, a2a-cli, a2a-mcp, a2a-protocol, a2a-server, agent
+
+---
+
 ## 🕔 2026-07-26 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 221 个候选项目中筛选出 6 个未推荐过的新项目。
