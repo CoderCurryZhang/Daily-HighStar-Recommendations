@@ -1,3 +1,67 @@
+## 🕔 2026-07-27 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 209 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [notte](https://github.com/nottelabs/notte)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,986
+- **核心概述**: ?? 构建 Web 代理并在可靠的浏览器基础设施上部署无服务器 Web 自动化功能的最佳框架。
+- **大概是做什么的**: 快速构建可靠的 Web 自动化代理 专为速度、成本效益、规模和可靠性而构建的 Web 代理框架 → 了解更多信息，请访问：open-operator-evals • X • LinkedIn • Landing • Console Notte 提供了用于构建和部署与 Web 无缝交互的 AI 代理的所有基本工具。我们的全栈框架将 AI 代理与传统脚本结合起来，以实现最高效率 - 让您编写确定性部分的脚本并仅在需要时使用 AI，从而将成本削减 50% 以上，同时提高可靠性。我们允许您开发、部署和扩展您自己的代理和 Web 自动化，所有这些都使用单个 API。在我们的文档中阅读更多内容🔥 - 运行网络代理 → 为人工智能代理提供在网站上完成的自然语言任务 - 结构化输出 → 使用 Pydantic 模型以精确格式获取数据 - 站点交互 → 使用 Playwright 兼容原语和自然语言命令 API 服务观察网站状态、抓取数据并执行操作（推荐） - 隐形浏览器会话 → 具有内置验证码解决、代理和反检测功能的浏览器实例
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, anthropic, automation, browser, llm
+
+---
+
+### 🌟 [deepflow](https://github.com/deepflowio/deepflow)
+- **项目语言**: Go
+- **星标数量**: ⭐ 4,194
+- **核心概述**: eBPF 可观测性 - 分布式跟踪和分析
+- **大概是做什么的**: 云和人工智能应用程序的即时可观察性 零代码、全栈、eBPF 和 Wasm English 简体中文 日本语 DeepFlow 开源项目旨在为复杂的云原生和人工智能应用程序提供深度可观察性。 DeepFlow 使用 eBPF 实现零代码数据收集，用于指标、分布式跟踪、请求日志和功能分析，并进一步与 SmartEncoding 集成，以实现全栈关联和对所有可观测数据的高效访问。借助 DeepFlow，云原生和 AI 应用程序可自动获得深度可观察性，从而减轻开发人员不断检测代码的沉重负担，并为 DevOps/SRE 团队提供涵盖从代码到基础设施的所有内容的监控和诊断功能。 - 任何服务的通用地图：DeepFlow通过eBPF为生产环境提供零代码的通用地图，包括任何语言的应用程序服务、AI服务和基础设施服务。除了分析通用协议之外，您的私有协议还支持 Wasm 插件。全栈应用黄金信号
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: apm, gpu, kubernetes, llm, opentelemetry, wasm
+
+---
+
+### 🌟 [klaatcode](https://github.com/KlaatAI/klaatcode)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 307
+- **核心概述**: 终端的开源人工智能编码代理。 Claude 代码级准确性和智能模型路由——为每项任务使用正确的 AI 模型，将成本降低 10 倍。支持 Claude、GPT、Gemini、DeepSeek 等。
+- **大概是做什么的**: 终端原生 AI 编码代理，由 Klaatu 智能模型路由提供支持。 Claude 代码级准确性，成本仅为一小部分 - 而且它是可重复的，而不是营销声称。 KlaatAI 是一个围绕 Klaatu-o1 构建的人工智能平台，Klaatu-o1 是一种小型、快速、代理的路由器模型。 Klaatu-o1 不是将每个请求发送到一个大型且昂贵的模型，而是读取您所询问的内容，决定实际需要哪个模型层来处理它，并根据请求自动进行相应的分派。它之上有三个产品：KlaatAI Web Chat（浏览器）、Klaat Code（此 CLI）以及供开发人员直接在同一路由��上构建的 KlaatAI API。 Klaatu 是路由大脑——一种托管服务，而不是在您的计算机上运行的东西。您从 Klaat Code 发送的每条消息都会发送到 Klaatu，Klaatu 会对消息进行分类，并通过五个成本层（nano→fast→code→reason→heavy）之一进行路由，当任务比看起来更困难时会自动升级，并且永远不会向您收取微不足道的前沿价格。单个请求内的工具调用（读取、编辑、shell 命令、搜索）是免费的；
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai, ai-agents, ai-coding, ai-model, ai-tools
+
+---
+
+### 🌟 [kvpress](https://github.com/NVIDIA/kvpress)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,147
+- **核心概述**: LLM KV 缓存压缩变得简单
+- **大概是做什么的**: 由于变压器模型中键值 (KV) 缓存的线性增长，部署长上下文 LLM 的成本很高。例如，使用 float16 中的 Llama 3.1-70B 处理 1M 令牌需要高达 330GB 的内存。 kvpress 使用🤗 转换器实现了多种 KV 缓存压缩方法和基准测试，旨在简化该领域研究人员和开发人员新方法的开发。对于本地安装，请使用 uv： 要安装所有可选依赖项，请运行： KVPress 提供了一组在预填充阶段压缩 KV 缓存的“压力机”。每次按下都与衡量缓存压缩程度的压缩比属性相关联。使用印刷机的最简单方法是通过我们的自定义 KVPressTextGenerationPipeline 。当 kvpress 导入时，它会自动注册为名称为“kv-press-text- Generation”的转换器管道，并为您处理聊天模板和标记化：在上面的代码片段中，压缩仅应用于上下文标记，以便您可以评估不同问题的压缩。查看维基百科
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: inference, kv-cache, kv-cache-compression, large-language-models, llm, long-context
+
+---
+
+### 🌟 [ChatLLM-Web](https://github.com/Ryan-yang125/ChatLLM-Web)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 630
+- **核心概述**: 🗣️ 完全在浏览器中使用 WebGPU 与 Vicuna 一样与 LLM 聊天，安全、私密且无需服务器。由网络 llm 提供支持。
+- **大概是做什么的**: 🚀 检查人工智能搜索引擎 https://discovai.io，发现最符合您需求的顶级人工智能工具 英语 / 简体中文 / 日本语 🗣️ 完全在浏览器中使用 WebGPU 与 Vicuna 等 LLM 聊天，安全、私密且无需服务器。由 web-llm 提供支持。 - 🤖 一切都在浏览器内运行，无需服务器支持，并通过 WebGPU 加速。 - ⚙️ 模型在网络工作者中运行，确保它不会阻塞用户界面并提供无缝体验。 - 🚀 轻松免费部署，只需在 1 分钟内一键点击 Vercel，即可获得自己的 ChatLLM Web。 - 💾 支持模型缓存，只需下载一次模型。 - 💬 多对话聊天，所有数据都存储在浏览器本地以保护隐私。 - 📝 Markdown 和流式响应支持：数学、代码突出显示等。 - 🎨 响应式且设计良好的 UI，包括深色模式。 - 💻 支持 PWA，下载并完全离线运行。 - 🌐要使用此应用程序，您需要支持WebGPU的浏览器，例如Chrome 113或Chrome Canary。不支持 ≤ 112 的 Chrome 版本。 - 💻 你需要一个带有 ab 的 GPU
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: chatgpt, deep-learning, llm, nextjs, pwa, react
+
+---
+
+### 🌟 [llama.rn](https://github.com/mybigday/llama.rn)
+- **项目语言**: C++
+- **星标数量**: ⭐ 1,009
+- **核心概述**: React Native 绑定 llama.cpp
+- **大概是做什么的**: React Native 绑定 llama.cpp - C/C++ 中的 LLM 推理 - GPU/NPU 加速：用于设备上推理的 Metal (iOS)、Hexagon NPU（Android、实验） - 多模式支持：通过 mmproj 投影仪集成支持视觉/音频理解模型 - 并行解码：基于插槽的并发请求处理，具有自动队列管理 - 工具调用：通过 Jinja 模板支持通用函数调用 - 语法采样：GBNF 和JSON 模式支持结构化、受限的输出生成从 v0.10 开始，llama.rn 需要 React Native 的新架构。有关 v0.9.x 的旧架构支持或文档，请参阅 v0.9 分支。 llama.rn 在 postinstall 期间从匹配的 GitHub 版本下载预构建的 ios/rnllama.xcframework 和 android/src/main/jniLibs 。现有下载将被重复使用，并且每个存档在提取之前都会使用 SHA-256 进行验证。除非包是可信的，否则 Bun 不会运行依赖生命周期脚本。如果您使用 Bun 安装 llama.rn 并希望本机下载自动运行，请将其添加到 trustDe
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: android, ios, llama, llama-cpp, llm, react-native
+
+---
+
 ## 🕔 2026-07-27 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 150 个候选项目中筛选出 6 个未推荐过的新项目。
