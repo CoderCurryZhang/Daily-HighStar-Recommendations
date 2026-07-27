@@ -1,3 +1,67 @@
+## 🕔 2026-07-27 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 212 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [OpenLLM](https://github.com/bentoml/OpenLLM)
+- **项目语言**: Python
+- **星标数量**: ⭐ 12,410
+- **核心概述**: 在云中运行任何开源 LLM（例如 DeepSeek 和 Llama）作为 OpenAI 兼容 API 端点。
+- **大概是做什么的**: 🦾 OpenLLM：轻松自托管 LLM OpenLLM 允许开发人员使用单个命令将任何开源 LLM（Llama 3.3、Qwen2.5、Phi3 等）或自定义模型作为与 OpenAI 兼容的 API 运行。它具有内置的聊天 UI、最先进的推理后端以及用于使用 Docker、Kubernetes 和 BentoCloud 创建企业级云部署的简化工作流程。了解OpenLLM的设计理念。运行以下命令来安装 OpenLLM 并以交互方式探索它。 OpenLLM 支持各种最先进的开源 LLM。您还可以添加模型存储库以使用 OpenLLM 运行自定义模型。 openllm 服务 deepseek:r1-671b openllm 服务 gemma2:2b openllm 服务 gemma3:3b openllm 服务 jamba1.5:mini-ff0a openllm 服务 llama3.1:8b openllm 服务 llama3.2:1b openllm 服务 llama3.3:70b openllm 服务 llama4:17b16e openllm 服务milstra:8b-2410 openllmserve milstra-large:123b-2407 openllmserve phi4:14b openllmserve pixtral:12b-2409 openllmserveqwen2.5:7b openllmserveqwen2.5-coder:3b openllmserveqwq:32b 有关完整的型号列表，请参阅 OpenLLM m
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: bentoml, fine-tuning, llama, llama2, llama3-1, llama3-2
+
+---
+
+### 🌟 [opencode-power-pack](https://github.com/waybarrios/opencode-power-pack)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 448
+- **核心概述**: 移植到 OpenCode 的 11 种 Claude Code 技能：代码审查、安全审查、功能开发、前端设计 + 7 种其他技能。一根配置行，一个插件。
+- **大概是做什么的**: 十一项 Claude Code 技能，移植到 OpenCode。 Code review, security audit, feature dev, frontend design, and the rest of the kit — installable in one line. Built on top of anthropics/claude-plugins-official , anthropics/claude-code-security-review , and obra/superpowers . See Acknowledgments . OpenCode reads Claude Code's SKILL.md format natively, but most of Anthropic's official Claude Code plugins put their value in commands/ and agents/ — and those are Claude-Code-only. So if you want /code-review , /security-review , or /feature-dev in OpenCode, copy-paste won't get you there. This pack does the translation : the multi-agent workflows from those plugins are rewritten as OpenCode-compatible skills, so the methodology survives the platform jump. Plus a few direct ports of skills that already lived in Anthropic's skills/ repo. It pairs nicely with obra/superpowers , which provides the meta-workflow skills (brainstorming, TDD, executing-plans).该包添加了特定领域的功能。 adapted · claude-plugins-official/code-review Multi-agent PR review with confidence-filtered cros
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, anthropic, claude-code, code-review, developer-tools, llm-tools
+
+---
+
+### 🌟 [nexting](https://github.com/Nexting-ai/nexting)
+- **项目语言**: C
+- **星标数量**: ⭐ 306
+- **核心概述**: A wearable terminal to dispatch tasks to your own AI agents — Claude Code, OpenClaw, Codex. Tap, speak, dispatch.第一个为 OpenClaw 构建的硬件。 Open source (MIT).
+- **大概是做什么的**: A wearable agent dispatcher for your own AI agents. Talk to your Claude Code, Codex, or OpenClaw anywhere, anytime — wear it, speak, dispatch.没有电话，没有应用程序。 You already have powerful agents — Claude Code, Codex, OpenClaw.它们被锁在你的办公桌上。接下来是您和他们之间的渠道：您佩戴的终端，这样您就可以联系自己的代理，而无需拿出手机或打开应用程序。 Tap it, say one sentence, and the task is dispatched to your own agent . It runs in the background and the result comes back when it's done.调度，而不是聊天——按、说话、继续。 Nexting comes in two form factors, one capability. The PIN ($129, shipping now) pins to your collar — the one you can get today. The Ring — our flagship, in private beta — makes "raise your hand and dispatch an agent" as invisible as a ring on your finger.相同的功能，两种形状。您的整个代理团队随时为您服务。 3 seconds to dispatch a task — vs. 30s pulling out your phone, unlocking, and typing. What Makes Nexting Different Dispatch, not chat Fire-and-forget: say it once, your agent runs it in
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-wearable, claude-code, codex, hardware, nrf52840
+
+---
+
+### 🌟 [awesome-japanese-nlp-resources](https://github.com/taishi-i/awesome-japanese-nlp-resources)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 999
+- **核心概述**: 日语自然语言处理 (NLP) 资源的精选列表：Python 库、LLM、词典、语料库和数据集。包括搜索资源的克劳德代码技能。
+- **大概是做什么的**: Awesome-japanese-nlp-resources 专门针对日语的 Python 库、llms、词典和 NLP 语料库的精选资源列表 - 列出了 889 个 GitHub 存储库的信息 - 列出了 315 个 Hugging Face 存储库（模型和数据集）的信息 使用 Awesome-japanese-nlp-resources 插件直接从 Claude Code 搜索、发现和跟踪日语 NLP 资源。该插件提供五项技能： /awesome-japanese-nlp-resources:search 搜索捆绑的 1,200 多个资源数据集 /awesome-japanese-nlp-resources:similar-resources 给定一个存储库/工具，查找执行相同或相关处理的那些 /awesome-japanese-nlp-resources:find-new-resources 发现 GitHub 存储库和 Hugging Face 模型/数据集尚未在列表 — 贡献助手 /awesome-japanese-nlp-resources:research-trends 调查数据集 + 趋势报告的最新网络研究 /awesome-japanese-nlp-resources:research-issues 调查某个主题当前的挑战、限制和建议的解决方案 所有技能都会检测查询语言并以同样的方式响应 - 默认情况下为英语，当需要时为日语
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, awesome, awesome-list, cc0, japanese, japanese-language
+
+---
+
+### 🌟 [local-rag](https://github.com/jonfairbanks/local-rag)
+- **项目语言**: Python
+- **星标数量**: ⭐ 754
+- **核心概述**: 使用开源大型语言模型 (LLM) 摄取文件以进行检索增强生成 (RAG)，所有这些都无需第三方或敏感数据离开您的网络。
+- **大概是做什么的**: 离线、开源检索增强了生成。使用本地 Ollama 模型摄取本地文件、GitHub 存储库和网站以进行检索增强生成 (RAG)。本地 RAG 将聊天、嵌入和索引源内容保留在您的计算机或网络上。 - 本地 Ollama 聊天模型 - Ollama 或本地 Hugging Face 嵌入模型 - 多个摄取源： - GitHub 存储库 - 通过 LlamaIndex 流式传输 RAG 响应 - 浏览器本地设置持久性 - 聊天历史记录导出 - 上传、URL、存储库和摄取护栏 - 设置和部署应用程序 - 已知错误和问题
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: large-language-models, llm, ollama, rag, retrieval-augmented-generation
+
+---
+
+### 🌟 [upgini](https://github.com/upgini/upgini)
+- **项目语言**: Python
+- **星标数量**: ⭐ 356
+- **核心概述**: 用于机器学习的数据搜索和丰富库→从数百个公共和优质外部数据源（包括开放和商业法学硕士）轻松查找相关功能并将其添加到您的机器学习和人工智能管道中
+- **大概是做什么的**: Upgini • 机器学习和 AI 的智能数据搜索和充实 从数百个公共、社区和优质外部数据源（包括开放和商业法学硕士）轻松查找相关功能并将其添加到您的 ML 和 AI 管道中。 Colab 中的快速入门 » 提出新数据源 Upgini 是一个带有 Python 库的智能数据搜索引擎，可帮助您从数百个公共、社区和优质外部数据源中查找相关功能并将其添加到您的 ML 管道中。在幕后，Upgini 通过使用大型语言模型 (LLM)、GNN（图神经网络）和循环神经网络 (RNN) 生成一组最佳的 ML 特征，自动优化所有连接的数据源。动机：对于大多数受监督的 ML 模型，外部数据和特征可以比任何超参数调整更好地提高准确性。但缺乏自动化且省时的外部数据丰富工具阻碍了机器学习管道中外部功能的大规模采用。我们希望从根本上简化特征搜索和丰富，使外部数据成为标准方法。喜欢炒作
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: automated-feature-engineering, automl, automl-pipeline, chatgpt, data-enrichment, data-science
+
+---
+
 ## 🕔 2026-07-27 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 209 个候选项目中筛选出 6 个未推荐过的新项目。
