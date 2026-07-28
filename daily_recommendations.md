@@ -1,3 +1,67 @@
+## 🕔 2026-07-28 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 185 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [mercury-agent-skills](https://github.com/cosmicstack-labs/mercury-agent-skills)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 362
+- **核心概述**: 可重复使用的 Mercury Agent、Open Claw 或 Hermes Agent 技能的精选注册表，专为真正的开发人员工作流程、持久内存和令牌高效执行而设计。
+- **大概是做什么的**: 浏览注册表 • 用于 AI 代理的 SKILL.md 手册的开源库。在 Skills.mercuryagent.sh 上浏览并安装，或直接从 Mercury Agent CLI 中提取它们。跨 23 个类别的 132 项技能 — 手工策划、可用于生产，并且与每个主要代理兼容：Mercury、Claude Code、Codex CLI、OpenClaw、Hermes、Cursor 和 Gemini CLI。从 Mercury CLI（推荐）安装的技能位于 /.mercury/skills/ / /SKILL.md 中，并由您的代理自动选取。打开 Skills.mercuryagent.sh ，选择一个技能，复制代理的安装行 - 每个技能页面都提供了 Mercury、Claude Code、Codex、OpenClaw、Hermes 和“任何其他理解 SKILL.md 的代理”的现成安装步骤。克隆整个库 将个人技能放入代理的技能目录中： 代理技能目录 Mercury /.mercury/skills/ Claude Code .claude/skills/ Codex CLI .codex/skills/ OpenClaw .openclaw/skills/ Hermes .hermes/skills/ Cursor .cursor/skills/ Gemini CLI .gemini/skills/ 任何其他 无论您的代理在何处读取SKILL.md 来自 Curated，不拥挤 每个技能都是汉
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, aiskills, skills
+
+---
+
+### 🌟 [failproofai](https://github.com/FailproofAI/failproofai)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 325
+- **核心概述**: 编码代理的运行时故障解决方案。挂钩 Claude Code、Codex 和您最喜欢的安全带。在循环、危险行为和秘密泄露成为事件之前将其捕获。零延迟。在本地运行。
+- **大概是做什么的**: 翻译：简体中文 · 日本语 · 한국어 · 西班牙语 · 葡萄牙语 · 德语 · 法语 · Русский · हिन्दी · Türkçe · Tiếng Việt · Italiano · עברת 编码运行时故障解决方案代理。与 Claude Code 和 Codex 挂钩。在循环、危险行为和秘密泄露成为事件之前将其捕获。零延迟。在本地运行。支持的代理 CLI 30 个内置策略立即激活。仪表板位于 localhost:8020 。使用 FAILPROOFAI NO FIRST RUN=1 禁用首次运行提示。策略 阻止的内容 block-push-master 直接推送到主/主 block-force-push git push --force block-work-on-main 在主/主上提交、合并、变基 block-rm-rf 递归文件删除 sanitize-api-keys API 密钥泄漏到代理上下文 → 所有 30 个内置策略 将文件放入 .failproofai/policies/ — 它会自动加载，无需标记。提交它，整个团队就会在下一次拉动时得到它。每个策略都可以使用三个决策：allow() 允许操作 Deny(message) 阻止它 — 消息返回到代理 指示(message) 让它通过，但将上下文添加到代理的
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-failure, agent-reliability, ai, ai-agent, claude, claude-code
+
+---
+
+### 🌟 [awesome-ai-companion](https://github.com/DasterProkio/awesome-ai-companion)
+- **项目语言**: Python
+- **星标数量**: ⭐ 302
+- **核心概述**: 用于建立长期人工智能伴侣关系的开源项目精选列表：前端、后端、内存系统、硬件载体和世界集成。
+- **大概是做什么的**: Awesome AI Companion 一个针对长期 AI 伴侣关系的开源基础设施的精选索引。 构建长期人工智能合作伙伴关系的开源基础设施索引。 English · 中文版 · Web Index 网页版 欢迎投稿。贡献描述基于每个项目的自述文件或存储库元数据，而不仅仅是项目名称。具有薄公共文档的条目被标记为 verify 。状态：就绪 = 可用作应用程序或服务 · 适应 = 需要设置或定制 · 基础设施 = 构建块 · 验证 = 在依赖描述之前重新检查 平台：Android / iOS / Windows / Web … = 运行位置 · 自托管 = 在您自己的服务器/计算机上运行 · 云 = 托管第三方服务 · 浏览器 = 扩展/用户脚本 · CLI = 终端工具 · 任何 = 与主机无关 · 应用程序名称（ AstrBot 、 Claude Code ��� Kelivo 、 SillyTavern ...) = 插入该主机 选择适合您的代码路径： 🌱 无代码 — 我只想要一个有记忆的伴侣，现在获取一个手机模拟器应用程序：SullyOS、whale小手机或 ZeroChat。填写 API 密钥，您就可以立即获得角色、记忆和主动消息。 🔧 一些修补——我可以
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-companion, awesome-list, chatbot, llm, memory
+
+---
+
+### 🌟 [wmux](https://github.com/openwong2kim/wmux)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 302
+- **核心概述**: AI编码代理的工作区多路复用器
+- **大概是做什么的**: AI 代理的工作区多路复用器。并行运行 Claude Code、Codex 和 Gemini 队列 - 每个代理都在自己的窗格中，或者将一个提示分散到 N 个独立的 git 工作树中，您可以逐个查看。本机运行在 Windows 和 macOS 上，具有批准门、代理间通道以及代理驱动的真实浏览器。走开——在崩溃或操作系统完全重启后，他们会在谈话中回来。什么是工作区多路复用器？ tmux 分割一个终端。 wmux 复用整个工作区——终端、代理、git 工作树、浏览器以及它们协调的通道——所有这些都由一个守护进程拥有，该守护进程使它们在退出、崩溃和完全重新启动时保持运行。一扇窗户。一支舰队。 Windows 和 macOS。一个窗口里有一支舰队。两个 Claude Code 代理、一个 OpenAI Codex 窗格和一个测试运行 - 分成一个网格，每个窗格都有自己的 PTY，名册和编排器位于侧面坞站中。协调真正的代理，而不仅仅是聊天。编排器选择一个空闲窗格，将任务交给它，然后将答案转发回来——同时 Git 停靠栏和 diff 在它旁边保持打开状态。 Git 在码头上。拉取请求，worktr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agent, ai-agents, ai-coding, browser-automation, claude
+
+---
+
+### 🌟 [zot](https://github.com/patriceckhart/zot)
+- **项目语言**: Go
+- **星标数量**: ⭐ 300
+- **核心概述**: 另一个编码代理工具，轻量级，用 go 编写。
+- **大概是做什么的**: 另一种编码代理工具，轻量级且用 go 编写（vibe-slopped）。 - 一个静态二进制文件。 - Anthropic、OpenAI/Codex/Responses、Kimi、DeepSeek、Google Gemini/Vertex、GitHub Copilot、Bedrock、Azure OpenAI、OpenRouter、Groq、Cerebras、xAI、Together、Hugging Face、Mistral、Moonshot、Z.AI、Xiaomi、MiniMax、Fireworks、Vercel AI Gateway、OpenCode、Cloudflare AI 和 Ollama/本地模型的内置提供程序。 - 四种工具（读、写、编辑、bash）。 - 三种运行模式（交互式 tui、打印、json）。 - 内置电报机器人。 - 通过 subprocess + json-rpc 进行任何语言的扩展。默认没有安装；使用 zot ext install 或 zot --ext 选择加入。请参阅 docs/extensions.md。 - 通过 JSON 的用户和扩展主题；请参阅文档/themes.md。 - 通过 AGENTS.md 文件（全局和每个项目）进行常规说明；请参阅持续说明。 - 通过 SKILL.md 文件可重用指令；请参阅文档/skills.md。 - 来自本地目录、.zot 文件或临时公共 GitHub 下载的便携式代理；请参阅 docs/zotfiles.md。 One-liner（macOS、Linux）检测您的操作系统和架构，下载最新版本
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, cli, coding-agent, coding-assistant, developer-tools, go
+
+---
+
+### 🌟 [Awesome-GUI-Agents](https://github.com/ZJU-REAL/Awesome-GUI-Agents)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 446
+- **核心概述**: 用于开发 GUI 代理的资源、工具和框架的精选集合。
+- **大概是做什么的**: GUI 代理精选列表 - GUI 代理的四个模块 - GUI 代理数据集和基准列表 我们正在积极寻找实习和全职职位机会（秋季招聘周期），专门从事 Agentic RL、GUI 代理、Web 代理和相关领域。请随时联系我们：flysugar@zju.edu.cn 我们发布了关于 GUI 自动化和 GUI 基础的新论文： - UI-Copilot：通过工具集成策略优化推进长期 GUI 自动化 - UI-Zoomer：用于 GUI 基础的不确定性驱动的自适应放大 我们开源了 🦞 ClawGUI：用于培训、评估和部署 GUI 代理的统一框架 11 月 23 日， 2025年，我们对AAAI 2026录用的GUI代理论文进行了总结和分析。一探究竟。 2025年11月14日，我们对ICLR 2026 GUI方面的论文进行了总结和分析。一探究竟。 2025年11月8日，我们很高兴我们的两篇论文GUI-G²和GUI-RC被AAAI 2026接收。 2025年10月28日：我们总结了ICLR 2026关于GUI Agent的论文。请参阅ICLR 2026 2025年9月16日：我们发布了关于G的新论文
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, guiagents, llm, mllm
+
+---
+
 ## 🕔 2026-07-28 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 225 个候选项目中筛选出 6 个未推荐过的新项目。
