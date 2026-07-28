@@ -1,3 +1,67 @@
+## 🕔 2026-07-28 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 230 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [slopless](https://github.com/berelevant-ai/slopless)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 329
+- **核心概述**: 用于捕获英语 Markdown 中的散文错误的确定性 textlint 规则和 CLI。
+- **大概是做什么的**: 把它交给你的写作代理，它就不会再给你写人工智能的散文了。 Slopless 是一个确定性的 linter - 一个 textlint 预设和一个零配置 CLI - 标记 LLM 告诉（空心框架、假对比、对冲、em-dash 抽动、空洞关闭器等等），以便代理重写直到文本读取人类。没有模型调用，没有 API 密钥。鉴于这一段听起来充满信心的 slop：npx slopless 标记了五个规则中的六个发现 - 结构和修辞，而不仅仅是单词列表：完整的 JSON 输出是默认的。有关完整清单，请参阅规则页面。然后启动一个新的写入代理会话并告诉它使用 Slopless 技能： 1. 安装 Slopless。 2. 阅读核心帮助 ( npx slopless --help )。 3. 安装Codex或Claude Code的代理技能。 4. 告诉写作代理使用该技能。 5. 让代理运行 Slopless、重写并重新运行，直到 JSON 输出没有任何发现。 CLI 捆绑了 textlint，因此不需要单独安装 textlint，也不需要 .textlintrc 。这是编写代理和一次性检查的推荐路径。 Slopless 仅限英语。它需要一个过滤器
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, cli, lint, linter, llm, markdown
+
+---
+
+### 🌟 [agentkit-samples](https://github.com/bytedance/agentkit-samples)
+- **项目语言**: Python
+- **星标数量**: ⭐ 384
+- **核心概述**: 使用 VeADK 的 Volcengine AgentKit 平台的出色示例。
+- **大概是做什么的**: 欢迎来到 AgentKit 代码工坊（Samples）仓库！ AgentKit 是火山引擎推出的企业级 AI Agent 开发平台，为开发者提供完整的 Agent 构建、部署和运维解决方案。平台通过标准化的开发工具链和云原生基础设施，显着降低复杂智能体应用的开发部署门槛。 本代码库包含了一系列示例和教程，帮助您理解、实现和集成 AgentKit 的各项功能到您的应用中。 AgentKit 代码工坊为让您快速上手 AgentKit 平台，提供了不同入门等级的示例和教程： - 基础教程 ：包含了简单的 Agent 示例，能够帮助您快速理解 AgentKit 的基本概念和使用方法 - 使用案例 ：针对有一定经验的开发者，提供了较为复杂的 Agent 实现和定制化示例 Python 3.10+ 确保您的开发环境中安装了 Python 3.10 或更高版本 veadk-python 您需要安装 veadk-python 来执行代码 agentkit-sdk-python 您需要安装 agentkit-sdk-python 来与 AgentKit 平台进行交互 Docker（可选） 用于本地容器构建 名称 难度 描述 --------------------------------------------------------------------------------------------------------------------------- - -------------------------------------------------------------------- hello world 入门级对话智能体，展示如何创建一个具备短期记忆能力的基础 AI Agent multi agents 多智能体协作示例，展示如何通过层级结构和专业分工实现复杂任务的智能化处理 episode generation 图片与视频生成智能体，展示多种 VeADK 内置工具能力 mcp simple MCP 集成示例，通过 MCP 协议实现 Agent 调用火山引擎 TOS 对象存储服务 vikingdb agent 基于火山引擎 VeADK 和 VikingDB 构建的 RAG（检索增强生成）示例，展示如何通过向量检索实现专业文档知识库的智能问答 vikingmem agent 基于火山引擎 VeADK 和 VikingDB 构建的记忆管理示例，展示如何实现智能体的短期记忆和长期记忆功能 a2a simple 分布式多 Agents 示例，展示如何实现智能体之
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, samples, volcengine
+
+---
+
+### 🌟 [or](https://github.com/ktsoator/or)
+- **项目语言**: Go
+- **星标数量**: ⭐ 252
+- **核心概述**: 选择从意图到行动的路径。
+- **大概是做什么的**: 选择从意图到行动的路径。或者是一个模块化的 Go 工具包，用于使用语言模型和更高级别的代理构建应用程序。提供者中立的 LLM 包保持对话、工具、推理和流事件稳定，而模型和线路协议在底层发生变化，代理包构建工具调用循环、状态和流 - 在 OpenAI 兼容和 Anthropic 兼容中使用一个对话模型 - 通过键入事件流文本、推理、工具调用、使用和错误。 - 从 Go 结构定义工具并验证模型生成的参数。 - 保留多轮推理和工具使用所需的提供者元数据。 - 在回合之间切换模型，无需重建对话历史记录。 - 添加自定义模型协议，无需扩展共享请求 API。 - 通过流事件、运行中转向和每轮模型切换运行自主多步骤工具循环。 - 分层转录持久性、上下文压缩、每回合系统提示以及安全带之上的技能。包状态 说明 或/llm 可用 统一模型访问、流式传输、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, llm, multi-provider
+
+---
+
+### 🌟 [aiscan](https://github.com/chainreactors/aiscan)
+- **项目语言**: Go
+- **星标数量**: ⭐ 217
+- **核心概述**: AI 驱动的类似 pi 的网络安全代理 — 用于渗透测试、红队、错误赏金的单一二进制文件
+- **大概是做什么的**: AI 驱动的单二进制渗透测试代理，具有内置多引擎库，随时可以预览 - API 和功能可能会在版本之间发生变化 aiscan 将 LLM 代理与传统安全扫描引擎相结合。三种模式：Scan（确定性管道，可选AI辅助）、Agent（自然语言自主评估）、IOA（多智能体分布式协作）。仅用于明确授权的目标。未经授权的使用是非法的。来自 GitHub 版本： 版本 描述 aiscan Standard — scan/agent/gogo/spray/zombie/neutron/proton/arsenal aiscan-full Full — 添加了 playwright 浏览器、被动侦察、武士刀爬虫 OS Arch Standard Full --- --- --- --- Linux amd64 / arm64 aiscan linux amd64 aiscan-full linux amd64 macOS Intel / Apple Silicon aiscan darwin amd64 aiscan-full darwin arm64 Windows amd64 aiscan windows amd64.exe aiscan-full windows amd64.exe 独立代理可执行文件不再是维护的构建或发布目标。参考接线保留在 Examples/agent 中，可以使用 go run ./examples/agent --help 手动运行。完整目标构建前端fir
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-pentesting, pentesting, redteam
+
+---
+
+### 🌟 [openagentskill](https://github.com/Leon-Drq/openagentskill)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 212
+- **核心概述**: AI 代理的技能层：npm 用于 AI 代理技能。
+- **大概是做什么的**: AI 代理的技能层。让您的 AI 代理自动查找、比较、安装并报告正确的可重用技能的结果。 OpenAgentSkill 是用于 AI 代理技能的 npm。 AI Video Creator Pack · GitHub 技能索引 · 经过代理验证的排名 · 代理技能状态 · AI 代理的技能层 · 注册表 API · 信任分数 · 自动安装 我是...从您获得的内容开始 代理生成器 /api/agent/resolve 一项推荐技能、替代方案、安装收据、信任分数 v5 和风险说明 技能作者 Creator Kit Canonical 页面、README 徽章、审核表面、Agent Proven 徽章、X 共享卡和声明路径 开发人员探索技能 GitHub 技能索引策划领域地图和场景优先示例 研究人员或记者 2026 年代理技能状况 可引用方法论以及公共 JSON、CSV 和文本数据集 SEO/社区运营商 X Growth Kit 人类可读的启动草稿和创建者回复工作流程 OpenAgentSkill 不是另一个静态目录。它是一个注册表、信任层和推荐 API，专为需要在行动前选择和安装可重用技能的代理而设计
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, agentic-workflows, ai-agent-skills, ai-agents, ai-registry
+
+---
+
+### 🌟 [lumen](https://github.com/holoviz/lumen)
+- **项目语言**: Python
+- **星标数量**: ⭐ 300
+- **核心概述**: 照亮您的数据。代理框架将自然语言转换为 SQL、图表、仪表板和报告。
+- **大概是做什么的**: 照亮您的数据 Lumen 是一个完全开源且可扩展的基于代理的框架，用于与数据聊天和检索增强生成 (RAG)。 Lumen 数据模型的声明性性质使法学硕士能够轻松生成整个数据转换管道、可视化和其他许多其他类型的输出。一旦生成，数据管道和可视化输出就可以轻松序列化，从而可以共享它们，以继续在笔记本中进行分析和/或构建整个仪表板。 - 生成 SQL：在本地或远程文件、SQL 数据库或数据湖之上生成数据管道。 - 提供上下文和嵌入：让 Lumen 访问您的文档，为法学硕士提供所需的上下文。 - 可视化您的数据：使用自然语言生成从图表到强大的数据表或整个仪表板的所有内容。 - 检查、验证和编辑结果：所有 LLM 输出都可以轻松检查错误、精炼并根据需要进行手动编辑。 - 总结结果和关键见解：让法学硕士总结关键结果并提取重要见解。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, conversational-ai, data-exploration, data-visualization, duckdb, holoviz
+
+---
+
 ## 🕔 2026-07-28 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 185 个候选项目中筛选出 6 个未推荐过的新项目。
