@@ -1,3 +1,67 @@
+## 🕔 2026-07-28 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 225 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [PhyAgentOS](https://github.com/PhyAgentOS/PhyAgentOS)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,166
+- **核心概述**: PhyAgentOS 是一个基于代理工作流程构建的自我进化的嵌入式人工智能操作系统。
+- **大概是做什么的**: 认知-物理解耦 — 以会话为中心的实体智能运行时 版本更新 :------ :----- :------- 2026-07-5 支持策略循环和目标本机内置路径的基准测试；合并代理验证和故障恢复服务器 2026-06-27 支持Behavior 1K； SessionVerfier用于Agent验证； verifySessionTool 2026-06-11 清理协议文件和文档；游戏场景分离到general-game-agent分支；主分支现在专注于sim & real 2026-06-5 优化用户友好的入职流程；通信协议规范；更合理的编码标准；游戏代理和基准测试准备就绪 2026-05-25 严格分离PolicySkillRuntime/BuiltinSkillRuntime；游戏代理和基准测试准备就绪 2026-05-20 感知插件系统：SensorConfig / PerceptionConfig YAML + EnvironmentWriter 可审核写回 2026-05-18 以会话为中心的运行时 MVP：DummySimTarget + DummyAdapter + DummyClient 串行管道 2026-04-29 黑客马拉松基线：基于插件的 HAL、ReKep / SAM3 真实机器人抓取 & VLN 全管道 Traditi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, claw, embodied-agent, embodied-ai, harness
+
+---
+
+### 🌟 [ocx](https://github.com/kdcokenny/ocx)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 882
+- **核心概述**: OpenCode 扩展管理器具有可移植、隔离的配置文件。您的设置，随时随地。
+- **大概是做什么的**: 您的 OpenCode 配置，随时随地。 - 📁 配置文件 — 使用您的配置在任何存储库中工作。准确控制 OpenCode 所看到的内容。 - 📦 注册表 — 从精选的注册表中安装配置文件和组件。 - 🔒 可审核 — SHA 验证，您拥有的代码。演示使用 oh-my-openagent。查看更多指南。 OCX 支持 macOS（x64、Apple Silicon）、Linux（x64、arm64）和 Windows（x64）。安装脚本会自动处理 PATH 配置，或者在需要手动设置时打印说明。 npm 包在运行时与 Bun 一起运行。在使用 npm install -g ocx 之前，请确保bun在您的路径上可用；仅 Node.js 是不够的。如果您没有 Bun，请使用安装脚本或 GitHub 版本（如果有）中的独立二进制文件。在任何存储库中工作而无需修改它。你的配置，他们的代码。需要自定义配置文件吗？在 TweakOC 中打开 KDCO 工作区工具：https://tweakoc.com/h/kdco-workspace 配置文件控制 OpenCode 通过排除/包含模式看到的内容。为了安全起见，每个配置文件都有独立的注册表。 OpenCode 配置在配置文件和本地设置之间安全合并。安全性
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, bun, cli, ocx, opencode, package-manager
+
+---
+
+### 🌟 [mindpocket](https://github.com/jihe520/mindpocket)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 342
+- **核心概述**: Open-source, free, multi-platform, one-click deploy, AI Agent–integrated personal bookmarking system｜完全开源、免费、多端、一键部署、AI Agent 集成的个人收藏夹系统
+- **大概是做什么的**: 完全开源、免费、多平台、一键部署的个人书签系统，与 AI Agent 集成。 Web AI Chat Mobile MindPocket 通过 AI 驱动的 RAG 内容摘要和自动标签生成来组织您的书签，让您轻松查找和管理保存的内容。 1. 无服务器：单命令部署到 Cloudflare Workers，无需维护服务器 2. 零成本：完全在 Cloudflare 免费层上运行（Workers + D1 + Vectorize + R2） 3. 多平台：Web + 移动 + 浏览器扩展 4. AI 增强：用于智能标记和汇总的 RAG 和 AI 代理 5. CLI 就绪：官方 CLI 可以轻松与 OpenClaw 等外部代理集成 6. 开放来源：完全开源，你的数据属于你 这是一个纯粹的 VIBE CODING 项目： - 我只实现了一个核心功能，其余由 Claude Code 构建 - 26,256 行纯代码，参见 Code Insight - VIBE Coding 经验总结：开发经验 - VIBE Coding 撰写（中）：我是如何 VIBE CODED 这个项目 - 欢迎 VIBE Coding PR！ MindPocket 完全在 Cloudflare 免费套餐上运行 -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, bookmarks-manager, rag, vercel
+
+---
+
+### 🌟 [the-architect](https://github.com/Hainrixz/the-architect)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 379
+- **核心概述**: 架构师 — 设计完整软件蓝图的 Claude Code 元代理。描述您想要构建的内容，获取 Claude Code 可以自主构建的独立 .md 文件。
+- **大概是做什么的**: 设计完整软件蓝图的 Claude Code 元代理。描述您想要构建的内容。获得完整的蓝图。让 Claude Code 为您构建它。 tododeia.com · 什么是架构师？想象一下你想建造一座房子。在任何人拿起锤子之前，你需要一个蓝图——一个详细的计划，显示每个房间、每堵墙、每根管道和每根电线。没有它，建设者就不知道该怎么办。架构师为软件做到了这一点。它不编写应用程序代码。它设计系统并生成蓝图 - 独立的 Markdown 文件，不同的 Claude Code 实例（具有零先验上下文）可以从中构建，而无需询问您任何问题。插件（推荐） 任何 Claude Code 会话中的两个命令： 然后键入 /architect — 在任何目录中。您的蓝图将写入您正在使用的任何文件夹中的 ./blueprints/ 中，而不是写入插件内。克隆（仍然有效，与 v1 中完全相同）Claude 代码读取 CLAUDE.md 并成为架构师。相同的采访，相同的门，相同的输出 - 蓝图落在克隆内的 ./blueprints/ 中。这
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, anthropic, automation, blueprint, claude, claude-code
+
+---
+
+### 🌟 [MMMU](https://github.com/MMMU-Benchmark/MMMU)
+- **项目语言**: Python
+- **星标数量**: ⭐ 590
+- **核心概述**: 该仓库包含论文“MMMU：A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI”的评估代码
+- **大概是做什么的**: 🌐 首页 🏆 排行榜 🤗 MMMU-Pro 📖 MMMU-Pro arXiv 🤗 MMMU 📖 MMMU arXiv 此存储库包含论文“MMMU-Pro：更强大的多学科多模态理解基准”和“MMMU：针对专家的大规模多学科多模态理解和推理基准”的评估代码AGI” - [2026-07-28] 添加了 EvalScope 作为 MMMU 社区维护的第三方评估工作流程。请参阅 EvalScope MMMU 指南。 - ‼️[2026-02-12] 我们已经发布了MMMU测试集的答案！您现在可以在本地测试集上评估您的模型！ 🎉 - 🔥[2024-09-05] 隆重推出 MMMU-Pro，这是用于多模式 AI 评估的 MMMU 基准的强大版本！ 🚀 - 🚀[2024-01-31]：我们在排行榜上添加了人类专家的表现！🌟 - 🔥[2023-12-04]：我们的测试集评估服务器现已在 EvalAI 上可用。欢迎大家踊跃投稿，期待您的参与！ 😆 MMMU 是一个新的基准，旨在评估需要大学水平学科知识和深思熟虑推理的大规模多学科任务的多模态模型。 MMMU精心包含11.5K
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: computer-vision, deep-learning, deep-neural-networks, evaluation, foundation-models, large-language-models
+
+---
+
+### 🌟 [cyber-doctor](https://github.com/Warma10032/cyber-doctor)
+- **项目语言**: Python
+- **星标数量**: ⭐ 459
+- **核心概述**: 赛博医生项目——”赛博华佗“，基于多模态大模型的多功能智能体，一键搭建本地多模态大模型。接入医疗健康相关的知识图谱和知识库后可以进行疾病初诊，病历分析，专业知识问答等功能，成为你的私人医生。赛博华佗项目能帮助实现医疗资源的跨地域传播，让更多人借助大模型改善健康水平。"Cyber ​​Huatuo" - Easy to build a personal doctor agent based on LLM and Knowledge Graph/Knowledge Database.
+- **大概是做什么的**: 「赛博华佗」🩺 cyber-doctor 你的健康小管家 https://www.bilibili.com/video/BV1CU2aYpEn2 医疗资源不平衡一直以来是社会关注的重点问题，它导致众多医疗不公平事件发生。在相对落后地区的人们想要获得优秀的医疗资源往往需要前往一线城市，这不仅费时费力费钱，而且极大的影响了他们的接受医疗救助的基本权利。当前多模态大语言模型不断发展，在许多领域都有了不错的应用。我们小组基于东南大学暑期实训课程，开发了一个医疗健康领域的多模态大模型，这个大模型的目标用户是所有对自己健康关心的人，帮助进行基本的疾病诊断，病历分析，专业知识答疑等功能。本项目狭义上可以作为一个多功能的健康小助手，帮助管理个人健康，提供基础的医疗建议；广义上可以配置在任何领域，通过微调的大模型和RAG技术让大模型掌握目标领域的专业知识，成为任意专业的专家。 - 多功能多模态整合，借助AI智能体判断任务的种类，将多个模型整合工作，解决复杂问题。 - 单独的语音对话模块，语音输入语音输出，只需要会说话就能使用，降低大模型学习成本。 ------------ -------------------------------------------------------------------------------------------------------- 图片识别 借助多模态大模型的能力，识别图片中的图像和文字。可用于识别病��，识别药品说明书等 视频生成 借助多模态大模型的能力，生成视频 图片生成 借助多模态大模型的能力，生成图片 ppt/word生成 可自动生成固定格式的纯文字PPT和Word文档 多轮对话 具有记忆功能，对话界面的所有内容会作为历史记录一同输入大模型 检索增强对话 多模态输入框不只能输入文本，还能上传文件。大模型会根据文件内容调整输出 语音输入 多模态输入框可以上传音频文件。进入语音对话模式可以直接使用麦克风进行语音输入 语音输出 要求大模型以语音的形式进行输出时，大模型会返回一段音频，支持多种方言，在语音对话模式下默认以语言形式输出 知识图谱增强 支持配置相关领域的neo4j知识图谱，用专业知识改善大模型输出 知识库增强 支持利用多种格式的文件作为专属知识库，大模型会结合知识库中的文件进行输出 联网检索增强 通过自动化爬虫检索网络上的相关信息，利用网络增强大模型知识的时效性 - Gradio ：简易的UI和交互生成工具 - Langchain ：基于 Langchain 框架，构建语言模型进行链式操作 - modelscope &
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, chatbot, kag, llm, medicine
+
+---
+
 ## 🕔 2026-07-27 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 237 个候选项目中筛选出 6 个未推荐过的新项目。
