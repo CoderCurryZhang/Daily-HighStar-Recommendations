@@ -1,3 +1,67 @@
+## 🕔 2026-07-28 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 209 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ai-file-sorter](https://github.com/hyperfield/ai-file-sorter)
+- **项目语言**: C++
+- **星标数量**: ⭐ 1,333
+- **核心概述**: 用于内容感知文件组织和重命名的跨平台桌面应用程序。支持本地和远程法学硕士、基于预览的工作流程以及完全由用户控制的更改。
+- **大概是做什么的**: AI 文件排序器是一款跨平台桌面应用程序，它使用 AI 来组织文件，并为图像、文档和支持的音频/视频文件提供更清晰、更一致的名称。它旨在减少混乱、提高一致性，并使文件在以后更容易找到，无论是用于审阅、存档还是长期存储。该应用程序可以使用内置的视觉 LLM 后端在本地分析图片文件，并建议有意义的、人类可读的名称。例如，像 IMG 2048.jpg 这样的通用文件可以重命名为描述性的文件，例如 cloud over Lake.jpg。它还可以分析支持的文档文件，并根据其文本内容提出更清晰的名称。 AI 文件排序器还可以使用已存储在支持的媒体文件中的元数据来清理混乱的音频和视频文件名。如果年份、艺术家、专辑或标题等标签可用，应用程序可以将它们转换为明确的建议，例如 2024 年艺术家专辑 title.mp3 ，您可以在应用任何更改之前查看、编辑或忽略这些建议。 AI 文件排序器可帮助整理杂乱的文件夹，例如下载、外部驱动器或 NAS
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, file-management, file-manager, llm, organizer
+
+---
+
+### 🌟 [pruna](https://github.com/PrunaAI/pruna)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,255
+- **核心概述**: Pruna 是为开发人员构建的模型优化框架，使您能够以最小的开销交付更快、更高效的模型。
+- **大概是做什么的**: 只需让人工智能模型更快、更便宜、更小、更环保！ [ ][文档] Pruna 是一个为开发人员构建的模型优化框架，使您能够以最小的开销交付更快、更高效的模型。它提供了一套全面的压缩算法，包括缓存、量化、修剪、蒸馏和编译技术，以创建您的模型： - 更快：通过高级优化技术加快推理时间 - 更小：在保持质量的同时减小模型大小 - 更便宜：降低计算成本和资源需求 - 更环保：减少能耗和环境影响 该工具包的设计考虑到了简单性 - 只需几行代码即可优化您的模型。它支持各种模型类型，包括法学硕士、扩散和流匹配模型、视觉变压器、语音识别模型等。 Pruna 目前可安装在 Linux、MacOS 和 Windows 上。但是，某些算法会对操作系统施加限制，并且可能不适用于所有平台。安装前
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: ai, computer-vision, deep-learning, diffusers, diffusion-models, hacktoberfest
+
+---
+
+### 🌟 [contextgem](https://github.com/shcherbak-ai/contextgem)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,864
+- **核心概述**: ContextGem：从文档中轻松提取 LLM
+- **大概是做什么的**: ContextGem：从文档中轻松提取 LLM ContextGem 是一个免费的开源 LLM 框架，它使从文档中提取结构化数据和见解变得更加容易 - 使用最少的代码。从文档中进行可靠的结构化提取通常涉及编写提取提示、设计验证模型、将输出映射回源参考、编排多步骤管道以及跟踪法学硕士的使用情况。 ContextGem 通过强大的抽象处理所有这些 - 您用自然语言描述要提取的内容，框架处理如何提取。结果：结构化数据，具有精确的段落和句子级引用、自动理由、分层多方面提取以及统一的、可���列化的文档存储模型——所有这些都来自最少的代码。 📖 阅读文档中有关项目动机的更多信息。 ✨ 自动动态提示 📐 自动数据建模 📍 粒度参考映射 💭 内置理由 🪆 嵌套上下文提取 🔗 统一声明式管道 💡 您可以构建什么 用最少的代码，您可以： - Ext
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, autoprompting, contract-analysis, data-extraction, document-intelligence, generative-ai
+
+---
+
+### 🌟 [atomicmemory](https://github.com/atomicstrata/atomicmemory)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 450
+- **核心概述**: 用于 AI 代理的便携式语义记忆：核心引擎、TypeScript SDK、框架适配器、MCP 服务器、CLI 和主机插件。
+- **大概是做什么的**: 用于代理和应用程序的可检查、便携式语义存储器。 AtomicMemory 是一个嵌入在 AI 代码已运行位置的内存层。通过直接 SDK 调用、CLI、MCP 服务器、框架适配器或主机插件，捕获上下文、先前交互中的基础生成，并跨会话传递知识。本地优先，在支持的地方，在方便的地方托管，并且设计得可以在以后更改选择，而无需重写您的应用程序。大多数内存产品要求您信任托管黑匣子，该黑匣子的层决定人工智能对用户的看法。 AtomicMemory 采取相反的立场：接口应该是可移植的，引擎应该是可检查的，并且内存系统应该能够在事实发生变化时自我修改。该存储库是 AtomicMemory JavaScript / TypeScript 包、框架适配器、主机插件和公共冒烟测试的公共事实来源。文档：docs.atomicstrata.ai 现场说明：AI 内存行业存在黑匣子问题 AtomicMemory v66 在 BEAM-100K、BEAM-1M 和 LoCoMo10 的匹配下性能/成本领先
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-infrastructure, agent-memory, ai-agents, ai-memory, cli, context-engineering
+
+---
+
+### 🌟 [mobilewright](https://github.com/mobile-next/mobilewright)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 317
+- **核心概述**: Mobilewright 是一个用于移动应用程序测试和自动化的开发框架。它允许使用单个 API 在真实设备、模拟器和模拟器上测试 iOS/Android 应用程序。
+- **大概是做什么的**: 移动设备自动化框架，灵感来自 Playwright 的架构和开发人员经验。 Mobilewright 通过构建在 mobilecli 之上的干净、自动等待的 API 来针对 iOS 和 Android 设备、模拟器和仿真器。入门 · API 文档 · 路线图 · Mobile Next Cloud 如果您使用过 Playwright，那么您已经了解 Mobilewright。 Mobilewright Appium Detox XCTest/Espresso API 风格 Playwright ( getByRole , Expect ) Selenium (WebDriver) 自定义本机框架 自动等待 内置，每个操作 手动等待 部分手动设置 npm install mobilewright 服务器 + 驱动程序 + caps 仅 React Native 仅限 Xcode/AS 跨平台 iOS + Android，一个 API 是，详细 仅 React Native 单平台 AI 代理支持 一流（可访问性树） 有限 否 云中的真实设备通过 Mobile Next Cloud 是（复杂） 仅模拟器 是 定位器 语义角色 + 标签 XPath、CSS、ID 测试 ID 原生查询 您的代理需要一部电话，而不是屏幕截图。 Mobilewright 公开了设备的可访问性树 - 确定性、令牌高效、无需视觉模型。与暴民一起使用
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, android, app, e2e-testing, end-to-end-testing
+
+---
+
+### 🌟 [OpenCompany](https://github.com/zeenie-ai/OpenCompany)
+- **项目语言**: Python
+- **星标数量**: ⭐ 340
+- **核心概述**: 开放公司 - 自我改进的人工智能，运行您的整个业务，将代币转化为工作和美元。
+- **大概是做什么的**: 您自己的人工智能劳动力，在您自己的机器上运行。 OpenCompany 是一个用于 AI 代理工作流程的开源、自托管画布 — 想想 n8n，以代理为先构建。将 AI 代理拖放并连接到您的电子邮件、日历、消息、浏览器、电话和 25 多个其他服务，并可使用 115 多个节点进行构建。无需代码。没有订阅。无使用限制。携带您自己的 API 密钥，或使用 Ollama / LM Studio 免费在本地运行模型。先决条件：Node.js 22+、Python 3.12 打开 http://localhost:5678 并单击工具栏中的钥匙图标 ( API Credentials ) 以连接您的第一个 AI 提供商。从 MachinaOS 升级？当新的 .opencompany 位置尚不存在时，会检测到现有的 /.machina 和 checkout-local .machina 状态，因此数据库和部署状态不会陷入困境。 machina 命令仍然可以作为已弃用的旧别名使用；新脚本应该使用 company 。从源代码运行（对于贡献者） 开发��务在 http://localhost:5678（与生产环境相同的 URL）启动 Vite 客户端（使用 HMR），将 API/WebSocket 流量代理到 :5679 上的 Python 后端；可选d
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, assistant, autonomous-agents, co-employees, company
+
+---
+
 ## 🕔 2026-07-28 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 238 个候选项目中筛选出 6 个未推荐过的新项目。
