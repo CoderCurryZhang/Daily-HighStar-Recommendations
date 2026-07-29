@@ -1,3 +1,67 @@
+## 🕔 2026-07-29 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 223 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [cc-haha](https://github.com/NanmiCoder/cc-haha)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 13,681
+- **核心概述**: 本地优先的 Claude Code / 代理跨平台桌面工作区：多代理、Git 工作树、代码差异、技能市场、多模型、计算机使用、任务感知桌面宠物，可访问微信、飞书、钉钉、Telegram、WhatsApp 和 H5。
+- **大概是做什么的**: Claude Code Haha 是一款适用于 macOS、Windows 和 Linux 的桌面 Claude Code 工作区：会话、项目、分支/工作树启动、工作区更改和差异审查、权限批准、模型设置、计算机使用、H5 远程访问、IM 集成和计划任务在一个应用程序中。桌面预览·安装·亮点·更多文档·赞助·用户组 Claude Code Haha 桌面应用程序将会话、多项目导航、分支/工作树控件、文件更改、差异审查、权限批准、模型设置和远程访问集成到一个图形工作区中，以便在终端之外进行日常开发。 v0.5.0 进行了全面的 UI 重新设计 - 六种颜色主题可以遵循系统的明/暗设置。下面的所有六个镜头均来自真实的 v0.5.0 版本。说一次，看着它完成 工具调用和每个编辑都保留在线程中 准确查看更改的语法突出显示的差异；你决定什么土地 现场验证 在应用程序内打开你的开发服务器 六个主题，遵循系统 浅色和深色，共有六个调色板 缺少技巧吗？安装它 来源和安全状态显示在前面
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, ai-agent, anthropic, claude, claude-code
+
+---
+
+### 🌟 [AIMLInterviews](https://github.com/alirezadir/AIMLInterviews)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 8,640
+- **核心概述**: 该存储库旨在作为机器学习/人工智能技术面试的指南。
+- **大概是做什么的**: 人工智能/机器学习面试 :robot: :newspaper: 你最喜欢的机器学习面试仓库现在是 AIMLInterviews :robot: :newspaper: 我现在为 AI/ML 工程师、应用 AI 工程师和科学家、研究工程师、研究科学家、AI 战略家、工程经理和高级 AI 领导者提供有限的 1:1 AI/ML 面试辅导。主题包括机器学习/人工智能系统设计、法学硕士和代理人工智能、技术面试、行为面试和领导力面试。了解更多信息，请访问：https://aimlinterviews.io 该存储库旨在作为准备大型科技公司（特别是 FAANG）相关职位的机器学习 (AI) 工程面试的指南。它是根据作者收到 Meta（机器学习专家）、Google（机器学习工程师）、Amazon（应用科学家）、Apple（应用科学家）和 Roku（机器学习工程师）的录用通知时的个人经验和面试准备笔记而编写的。以下组件是不同公司的技术 ML 角色最常用的面试模块。我们将一一分析并分享如何操作
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic, ai, ai-agents, ai-engineering, deep-learning, interview
+
+---
+
+### 🌟 [Skywork-R1V](https://github.com/SkyworkAI/Skywork-R1V)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,160
+- **核心概述**: Skywork-R1V是Skywork AI开发的先进多模态AI模型系列，专注于视觉语言推理。
+- **大概是做什么的**: 🤗 Skywork-R1V-38B] 📖 Skywork-R1V3 报告] 欢迎来到 Skywork-R1V3 存储库！在这里，您将通过强化微调找到我们最先进的开源多模态推理模型的模型权重和推理代码。 2025年7月9日：💥我们发布了Skywork-R1V3-38B🤗Skywork-R1V3-38B]，Skywork系列中最新、最强大的开源多模态推理模型，突破了多模态和跨学科智能的界限。 R1V3主要通过后期训练中的RL算法，显着增强了多模态推理能力，并在多个多模态推理基准测试中实现了开源最先进（SOTA）性能。 MMMU 上为 76.0。 2025年4月28日：我们发布了Skywork R1V2的awq量化版本🤗Skywork-R1V2-38B-AWQ]，支持单卡（30GB以上）推理。 2025 年 4 月 24 日：我们发布了 Skywork-R1V2，这是一种先进的开源多模态推理模型，在 MMMU、MMMU-Pro、MathVista 和 OlympiadBench 等一系列多模态推理基准测试中表现出强大的性能。🤗 Skywork-R1V2-38B]📖R1V2
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: deepseek-r1, grpo, llm, multimodal-r1, multimodal-understanding, r1v
+
+---
+
+### 🌟 [dingo](https://github.com/MigoXLab/dingo)
+- **项目语言**: Python
+- **星标数量**: ⭐ 730
+- **核心概述**: Dingo：全面的人工智能数据、模型和应用质量评估工具
+- **大概是做什么的**: English · 简体中文 · 日本语 👋 加入我们的 Discord 和微信 如果您喜欢 Dingo，请在 GitHub 上给我们 ⭐！ Dingo 是一款综合性 AI 数据、模型和应用程序质量评估工具，专为 ML 从业者、数据工程师和 AI 研究人员而设计。它可以帮助您系统地评估和提高训练数据、微调数据集和生产 AI 系统的质量。 🚀 Enterprise Dingo SaaS 版本 需要生产级数据质量平台？尝试 Dingo SaaS 企业版！ ✨ 与开源版本相比���SaaS 提供： - 🌐 Web UI - 可视化评估界面，无需编码 - 🔐 访问控制 - JWT + Google OAuth 2.0 - 📊 可视化报表 - 交互式图表、趋势分析、导出功能 - 🔌 RESTful API - 与现有系统无缝集成 SaaS — 评估输出 📝 如何获取免费 SaaS 代码 👉 申请 Dingo SaaS 存储库访问 审核时间： 1-5 个工作日适合企业数据治理、团队协作🎯生产级质量检查 - 从预训练数据集到 RAG 系统，确保您的 AI 获得高质量数据🗄️
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-as-a-judge, common-crawl, data-agent, data-evaluation, data-quality, data-quality-assessment
+
+---
+
+### 🌟 [docker-agents](https://github.com/jenkinsci/docker-agents)
+- **项目语言**: PowerShell
+- **星标数量**: ⭐ 339
+- **核心概述**: Jenkins 代理（基础镜像）和入站代理 Docker 镜像
+- **大概是做什么的**: Jenkins 代理和入站代理 Docker 映像 此存储库包含 Jenkins 代理和入站代理 Docker 映像的定义。这是 Docker 的基础映像，其中包括 JDK 和 Jenkins 代理可执行文件 (agent.jar)。请参阅代理自述文件 这是基于 Jenkins 代理的代理映像，使用 TCP 或 WebSockets 建立与 Jenkins 控制器的入站连接。请参阅 inbound-agent README 在 Linux 上构建和测试 如果您想查看将构建的目标映像（与您当前的操作系统和架构相匹配），您可以发出以下命令： 您可以通过设置 OS 和/或 ARCH 来查看和使用其他目标： 构建特定映像 如果您想构建特定映像，您可以发出以下命令： 这将给出 Debian 上使用 JDK 17 的入站代理的映像： 构建当前架构支持的映像 然后，您可以构建由通过运行当前架构： 如果您想测试这些图像，您可以运行： 测试特定图像 如果您想测试特定图像，您可以运行： 这将给出 fo
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, docker, hacktoberfest, jenkins, remoting
+
+---
+
+### 🌟 [Cellium-Agent](https://github.com/Cellium-Project/Cellium-Agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 204
+- **核心概述**: 运行时自扩展工具AI自我进化AI代理框架|具有热插拔组件和三层内存的决策循环驱动微内核架构从失败中学习的代理无限进化引擎
+- **大概是做什么的**: 自我进化的人工智能代理传统代理会重复错误，陷入循环，并且从不从经验中学习。这就是为什么我们选择让特工无限进化。基于微内核架构（EventBus + DI + BaseTool），支持任何OpenAI兼容的API。核心设计：由控制循环驱动的自学习代理，通过贝叶斯强盗进行自适应决策优化。感谢Strategy Gene研究团队。该项目采用了他们紧凑的经验表示方法，使Agent能够自动从失败中学习回避策略。 Cellium Agent 是一款多功能 AI 助手，可帮助您完成各种任务： 文件操作 读取、写入、搜索文件、管理目录结构 代码开发 编写代码、调试、重构、解释代码逻辑 Web 搜索 在 Internet 上搜索实时信息、总结 Web 内容 数据分析 处理数据文件、生成报告和可视化 自动化 创建计划任务，例如“每天早上 8 点查看天气” 组件扩展 通过自然语言创建新组件以扩展 Agent 功能
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic, ai, liunx, llm-agents, python
+
+---
+
 ## 🕔 2026-07-28 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 209 个候选项目中筛选出 6 个未推荐过的新项目。
