@@ -1,3 +1,67 @@
+## 🕔 2026-07-29 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 236 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [tty7](https://github.com/l0ng-ai/tty7)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 389
+- **核心概述**: A terminal workbench in pure Rust: shells, persistent sessions, SSH, coding agents. GPU-rendered on Zed's gpui, VT core from Alacritty.
+- **大概是做什么的**: A terminal workbench: shells, sessions, SSH, coding agents. Pure Rust · GPU rendering on Zed's gpui · VT core from Alacritty - Fast — 2× the throughput of Alacritty, Ghostty, or Kitty (benchmarks) - Sessions persist — quit or reboot; your shells keep running, no tmux - Editor-grade input — completion, syntax highlighting, history search built in; zero config for zsh, bash, fish, PowerShell - Agent-aware — recognizes Claude Code & co. in a pane: status, notifications, session resume Native builds for each platform on Releases : macOS …-macos-arm64.dmg · …-x86 64.dmg drag into Applications Windows …-setup.exe · portable ….zip Linux …-x86 64.AppImage chmod +x and run — x11/wayland libs bundled Input ghost suggestions from history · explained tab completion · syntax highlighting · multi-line editing · click places the caret · ⌃ R fuzzy history Window tabs & splits · ⌘ P palette · ⌘ F scrollback search · nine themes · IME Coding agents per-pane agent detection ( 17 CLIs): status dot, notifications, branch + diff, resume after reboot, tray icon that signals "needs your input" SSH native ru
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, alacritty, claude-code, coding-agent, cross-platform, daemon
+
+---
+
+### 🌟 [agentacct](https://github.com/mikehasa/agentacct)
+- **项目语言**: Python
+- **星标数量**: ⭐ 526
+- **核心概述**: See what your coding agents did and what it cost. Breaks each task down into work steps — tools used, files changed, tests run, time and tokens spent. Local-first dashboard for Claude Code, Codex, OpenCode, and more. No login, no telemetry.
+- **大概是做什么的**: See what your coding agents actually did — and what it cost — on a dashboard that never leaves your machine. agentacct is local-first Agent Work Intelligence for coding agents. It reads the session logs that Claude Code and Codex already write on your machine, joins them with the work each session records as it goes, and shows the result — tokens, estimated cost, tasks, and evidence — on a local dashboard. Private by design. Everything stays on your machine: state is plain local files, the dashboard binds to 127.0.0.1 , and there is no phone-home telemetry, no account, no cloud sync. agentacct never stores or requests a provider API key. Screenshots show a synthetic demo workspace; your dashboard renders your machine's real local data. - Honest usage and cost. Tokens per agent, model, and day — read from the clients' own local session files and labeled client reported ; costs are clearly marked pricing-table estimates, never invoices. - The work, not just the tokens. Sessions roll up into Tasks with recorded work steps and machine checks: a passing test is Verified evidence, an agent
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-observability, ai-agents, analytics, claude-code, cli, codex
+
+---
+
+### 🌟 [LLMFeeder](https://github.com/jatinkrmalik/LLMFeeder)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 444
+- **核心概述**: Brower extension to convert web pages to clean Markdown and copy to clipboard so you can feed it to your favorite LLM model as context with just 1 click!
+- **大概是做什么的**: LLMFeeder - Webpage to Markdown for your LLM context! A browser extension that converts web page content to clean Markdown format and copies it to clipboard with a single click, perfect for feeding content to Large Language Models (LLMs). Available for both Chrome and Firefox. Website: llmfeeder.fyi ✨ What's New in v2.2.0 - 📜 Lazy-Loading Auto-Scroll - Opt-in setting to scroll chat/AI pages (Gemini, ChatGPT, Claude, etc.) before extraction so long conversations aren't truncated ( 91) - 📋 Alternative Copy Mode - Split copy button with a one-click override for Full Page vs Main Content without changing your default setting - 💻 Better Code Blocks - Generic elements convert to fenced Markdown code blocks with language detection ( 66) - 🏷️ Store SEO Refresh - Renamed to Web to Markdown for AI ; short description targets ChatGPT/Claude/Gemini searches (within Chrome’s 132-char limit) - 🧪 Unit Tests & CI - Jest test suite and GitHub Actions workflow for PRs - 🔧 Firefox Icon Fix - Correct 16×16 icon dimensions for Add-ons compatibility Previous Release (v2.1.0) - 🗂️ Multi-Tab Support
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, automation, browser, chrome-extension, developer-tools, firefox-addon
+
+---
+
+### 🌟 [arcjet-js](https://github.com/arcjet/arcjet-js)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 676
+- **核心概述**: Runtime security for AI apps and agents: prompt injection detection, tool-call authorization, sensitive-data redaction, bot protection, and rate limiting. Drop it into your JS/TS code.
+- **大概是做什么的**: [Arcjet][arcjet] is the runtime security platform that ships in your AI code. Detect prompt injection, authorize agent tool calls, redact sensitive data, and block bots and abuse. Real-time security building blocks you call inside your app, before an action happens. This is the monorepo containing various [Arcjet][arcjet] open source packages for JS. Your app's AI features and agents take real actions, calling tools, reading data, hitting APIs. Arcjet runs inside that code and lets you enforce security on each action in real time, then audit what happened Which package do I need? Arcjet protects two types of entry points. Pick the right path for your use Entry point When to use Package ---------------------- -------------------------------------------------------------------------------------------------------------- --------------------------------------------------- Request protection HTTP route handlers, API endpoints, middleware — anything with an incoming Request object. @arcjet/next , @arcjet/node , @arcjet/bun , etc. Guard protection AI agent tool calls, MCP server handlers, q
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-security, ai-agents, ai-security, application-security, bot-detection, llm-security
+
+---
+
+### 🌟 [swival](https://github.com/Swival/swival)
+- **项目语言**: Python
+- **星标数量**: ⭐ 308
+- **核心概述**: A small, powerful, open-source CLI coding agent that works with open models.
+- **大概是做什么的**: A coding agent for any model. Documentation Swival is a CLI coding agent built to be practical, reliable, and easy to use. It works with frontier models, but its main goal is to be as reliable as possible with smaller models, including local ones. It is designed from the ground up to handle tight context windows and limited resources without falling It connects to LM Studio, HuggingFace Inference API, Gemini Enterprise Agent Platform (formerly Vertex AI), AWS Bedrock, Apple Foundation Models (experimental), any OpenAI-compatible server (ollama, mlx lm.server, vLLM, etc.), or any external command ( codex exec , custom wrappers, etc.), sends your task, and runs an autonomous tool loop until it produces an answer. With LM Studio and llama.cpp it auto-discovers your loaded model, so there's nothing to configure. Pure Python, no framework. Pick the provider that matches how you want to run models: Provider Auth Required flags First command ---------------- ---------------------------------------------------- ------------------------------------------------------------------ --------------
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: a2a, agent, agent-to-agent, ai, cli, code
+
+---
+
+### 🌟 [aws-workload-credentials-provider](https://github.com/aws/aws-workload-credentials-provider)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 700
+- **核心概述**: The AWS Workload Credentials Provider (formerly the AWS Secrets Manager Agent) is a client-side solution that helps you standardize how you consume credentials from AWS services across your compute environments.
+- **大概是做什么的**: AWS Workload Credentials Provider The AWS Workload Credentials Provider (formerly the AWS Secrets Manager Agent) is a client\-side solution that helps you standardize how you consume credentials from AWS services across your compute environments\. It includes the following capabilities: - Secrets Manager — An HTTP interface for retrieving and caching secrets from AWS Secrets Manager\. Supported on AWS Lambda, Amazon ECS, Amazon EKS, and Amazon EC2\. Enabled by default\. - Certificate Management — Automatic export and refresh of certificates from AWS Certificate Manager to the local filesystem\. Supported on Amazon EC2 and on\-premise hosts\. Opt\-in via configuration\. Secrets Manager capability The Workload Credentials Provider retrieves and caches secrets in memory so that your applications can consume secrets from localhost instead of making direct calls to Secrets Manager\. It can only read secrets \- it can't modify them\. The Workload Credentials Provider uses the AWS credentials you provide in your environment to make calls to Secrets Manager\. The Workload Credentials Provide
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acm, agent, aws, aws-certificate-manager, aws-secrets-manager, caching
+
+---
+
 ## 🕔 2026-07-29 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 267 个候选项目中筛选出 6 个未推荐过的新项目。
