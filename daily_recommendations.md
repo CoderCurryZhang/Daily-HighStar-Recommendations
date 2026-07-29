@@ -1,3 +1,67 @@
+## 🕔 2026-07-29 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 230 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [chunkhound](https://github.com/chunkhound/chunkhound)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,378
+- **核心概述**: 本地第一代码库智能
+- **大概是做什么的**: 深入了解您的整个工程背景。开源代码库智能，为代理和团队提供当前代码、git 历史和技术网络研究的引用上下文。本地优先 · 数十种语言和文件类型 · 引用的答案 · Git 历史研究 · 精确网络研究 - uv — 通过curl 安装 -LsSf https://astral.sh/uv/install.sh sh - API 密钥（可选 — 正则表达式搜索无需任何密钥即可工作）： - 嵌入：VoyageAI（推荐） OpenAI Ollama（本地） - LLM：Claude Code CLI 或 Codex CLI（无需密钥） Anthropic OpenAI Grok AI 写入代码盲代理可以生成代码，但他们仍然错过了使软件可以安全���改的上下文：行为如何跨文件流动，跨分支或版本更改了什么，以及哪些外部约束很重要。当大型 PR、合并冲突、错误和发行说明需要实施支持的解释而不是猜测时，审阅者、支持和产品团队会遇到同样的问题。 ChunkHound 在任何人编辑、审查、调试或解释软件之前将当前代码、git 历史记录和技术网络研究转化为引用的上下文
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, duckdb, mcp-server, rag, semantic-search
+
+---
+
+### 🌟 [cossistant](https://github.com/cossistantcom/cossistant)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 705
+- **核心概述**: 开源客户支持平台，为 SaaS 开发者/初创公司提供完全可定制的 AI 支持代理。
+- **大概是做什么的**: React 的开源聊天 <Support /> 小部件 Cossistant 是 React 生态系统的开源聊天支持小部件。由开发人员构建，适合需要灵活、可定制的聊天解决方案并无缝集成到其应用程序中的开发人员。我们提供无头组件、实时消息传递和完整的后端基础设施，所有这些都遵循代码优先、API 驱动的理念，优先考虑开发人员体验和人工智能友好的文档。在您的应用程序中使用 Cossistant？ → 查看我们的快速入门指南 为 Cossistant 做贡献？ → 阅读贡献者指南 - @cossistant/react - 带有无头钩子和原语的 React SDK - @cossistant/next - Next.js 特定的绑定和实用程序 有关完整文档，请访问 cossistant.com/docs - Monorepo (Turborepo) - Docker (Postgres + Redis) 该项目已获得 AGPL-3.0 许可，用于非商业用途。对于商业用途或需要安装费的部署，请通过 anthony@cossistant.com 联系我们获取商业许可证。使用本软件即表示您同意许可条款。自豪地成为 Vercel 开放的一部分
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, aiagent, nextjs, react, support
+
+---
+
+### 🌟 [oh-my-hermes](https://github.com/rlaope/oh-my-hermes)
+- **项目语言**: Python
+- **星标数量**: ⭐ 322
+- **核心概述**: 只需安装一次。任何人都可以专业地使用hermes-agent。为您的代理提供强大的情报 — OMH (Oh-My-Hermes) ⚚
+- **大概是做什么的**: Hermes 桌面，带有 oh-my-hermes。选择一个工作流程； Hermes 在构建之前进行了澄清。 Hermes CLI，带有 oh-my-hermes。相同的工作流程，在您的终端中。爱马仕通讯应用程序，带有 oh-my-hermes。在话题中提问；跑步报告回到那里。 omh setup ，一个命令。安装工作流程并将其连接到 Hermes。安装一次。留着赫尔墨斯吧添加更强大的操作层。具有明确证据边界的规划、研究、创建、编码交接、操作和项目记忆。 oh-my-hermes (OMH) 将正常的请求转化为明确的能力、有用的下一步以及对已经发生或未发生的事情的诚实陈述。它增强了您已经使用的 Hermes 工作流程，而不是取代 Hermes 或隐藏其背后的编码执行器。 OMH 是个人 Hermes 原生技能之上的操作层：它框架问题，选择工作流程和证据门，并使用原生技能作为该受控路径中的能力，而不是作为竞争的顶级 OMH 将 Hermes 保持为自然语言表面，并添加具有明确证据边界的专业操作层
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, ai-tools, claude-code, codex
+
+---
+
+### 🌟 [xpert](https://github.com/xpert-ai/xpert)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 420
+- **核心概述**: Xpert AI是一个供企业进行业务决策的人工智能代理和数据分析平台。
+- **大概是做什么的**: [uri 许可证]：https://www.gnu.org/licenses/agpl-3.0.html [uri 许可证图像]：https://img.shields.io/badge/License-AGPL%20v3-blue.svg 用于多代理编排、Agentic BI、受控数据执行和基于插件的 Agentic 应用程序的开源企业代理平台。 Xpert AI 是一个用于构建企业级人工智能系统的开源平台。它将数字专家、多代理协作、工作流程编排、知识检索、工具执行、Agentic BI、Data Xpert/UOSE 管理的数据访问、插件交付的 Agentic 应用程序和可嵌入的 ChatKit 体验汇集在一个堆栈中。 Xpert 不是将原始数据库、API、文件和仪表板直接暴露给模型，而是将企业资源转变为受治理的工具、语义对象、可审查的工作台视图和可审计的执行流。团队可以构建可以在有用的情况下自由推理的助手，在需要时遵循确定性工作流程，并让人员参与关键业务决策。最新功能亮点 最近的 Xpert 3.x 工作重点是使该平台成为更全面的企业代理操作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, bi, data, dw, erp
+
+---
+
+### 🌟 [Awesome-Remote-Sensing-Agents](https://github.com/PolyX-Research/Awesome-Remote-Sensing-Agents)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 529
+- **核心概述**: 🚀智能遥感代理官方存储库：调查
+- **大概是做什么的**: Awesome-Remote-Sensing-Agents 🛰️ 智能遥感代理交叉领域的 100 多篇论文精选集 🚀 我们欢迎社区贡献以使此列表保持最新！ - 📝 通过 Pull Request 添加缺失的论文 - 🏷️ 提出新的或改进的类别 - 🔗 报告损坏的链接或过时的条目 - 💬 通过联系人进行任何讨论 如果您发现此调查或存储库对您的研究有用，请引用我们的论文： - [2026.06.05] 🚀 添加了最新的 2026 年遥感代理作品 - GeoMMAgent、RemoteAgent、 OpenEarth-Agent、OpenEarthAgent 和 GeoEvolver — 以及新的 OpenEarth-Bench 和 GeoMMBench 基准测试。 - [2026.04.15] 🎉 我们的调查现已在 ResearchGate 上发布。 - [2026.03.20] 🎉 该调查现已在 GitHub 上提供。 - [2026.03.20] 🎉 我们发布了 Awesome-Remote-Sensing-Agents 存储库。 - 论文 — 🌿 生态监测 · 🚨 应急响应 · ⛏️ 地质勘探 · 🌊 海洋监管 · 🌾 精准农业 · 🏙️ 城市治理 · 🧩 其他 - 数据集和基准 - 🤝 如何贡献 在会议或工作坊上发表
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai-agents, large-language-models, remote-sensing
+
+---
+
+### 🌟 [haystack-tutorials](https://github.com/deepset-ai/haystack-tutorials)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 368
+- **核心概述**: 在这里您可以找到 Haystack 的所有教程📓
+- **大概是做什么的**: 这是我们保存所有 Haystack 教程的存储库 📓 👇 这些教程也发布到 Haystack 网站上。要为教程做出贡献，请查看我们的贡献指南。 Code Colab :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 您的第一个具有检索增强功能的 QA 管道 使用基于循环的自动更正生成结构化输出 序列化管道 预处理不同的文件类型 按语言对文档和查询进行分类 创建混合检索管道 评估 RAG 管道 使用条件路由构建管道 嵌入元数据以改进检索 使用函数调用构建聊天应用程序 使用 TransformersTextRouter 进行查询分类 检索句子周围的上下文窗口 创建自定义超级组件 创建 Mu
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: generative-qa, haystack, llm, nlp, semantic-search, text-generation
+
+---
+
 ## 🕔 2026-07-29 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 223 个候选项目中筛选出 6 个未推荐过的新项目。
