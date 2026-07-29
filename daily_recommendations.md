@@ -1,3 +1,67 @@
+## 🕔 2026-07-29 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 267 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ClaraVerse](https://github.com/claraverse-space/ClaraVerse)
+- **项目语言**: Go
+- **星标数量**: ⭐ 3,837
+- **核心概述**: Claraverse 是一个专注于开源隐私的生态系统，可使用您自己托管的 llm、密钥和计算来取代 ChatGPT、Claude、N8N、ImageGen。具有桌面、IOS、Android 应用程序。
+- **大概是做什么的**: 您的私人 AI 工作空间由社区构建，为社区服务。尊重您自由的私人人工智能。网站 · 文档 · 快速入门 · 社区 · 贡献 ClaraVerse 是一个私人 AI 工作区，它将聊天、可视化工作流程、长时间运行的任务和 Telegram 集成结合在一个应用程序中。分配 Clara 研究、编码或自动化任务并跟踪板上的所有内容。使用 OpenAI、Claude、Gemini 或 Ollama 等本地模型，并通过浏览器本地存储来保证对话的私密性。如果您的计算机上运行 Ollama 或 LM Studio，ClaraVerse 会自动检测它们并导入您的所有模型 — 零配置。在线安装（Linux / macOS）打开http://localhost:3000 — 注册您的帐户（第一个用户成为管理员）并开始聊天。奥拉马跑步了吗？ ClaraVerse 会自动检测它并导入您的所有模型。无需设置。确保 Ollama 正在侦听 0.0.0.0（在 Ollama 配置中设置 OLLAMA HOST=0.0.0.0）。 Docker run（单个命令） 这使用单个容器运行 ClaraVerse。适用于 MySQL、MongoDB、Redis、SearXN 的完整堆栈
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: hacktoberfest, llm, ollama, opensourcellms, webui
+
+---
+
+### 🌟 [OmniBot](https://github.com/omnimind-ai/OmniBot)
+- **项目语言**: Dart
+- **星标数量**: ⭐ 1,956
+- **核心概述**: Your on-phone / mobile AI Agent / Claw, capable of operating terminals and performing a wide range of tasks in the Android world || 你的手机 AI 代理，她可以操作终端，也可以完成 Android 世界的广泛任务
+- **大概是做什么的**: 您的设备端 AI 助手 OpenOmniBot 直接在您的 Android 设备上运行，并将聊天、代理工具、本地工作区和系统集成结合在一个应用程序中。 OpenOmniBot 是一个使用原生 Android Kotlin 和 Flutter 构建的设备上 AI 代理。它不是停留在聊天上，而是专注于理解-决定-执行-反映的完整循环。 - 可扩展的工具生态系统：技能、Alpine环境、浏览器访问、MCP、Android系统级工具。 - 系统级操作：支持计划任务、闹钟、日历创建/查询/更新、音频播放控制。 - 记忆系统：具有嵌入支持的短期和长期记忆。 - 生产力工具：读写文件、浏览工作区、使用浏览器以及访问终端。从左侧边栏打开设置页面： 然后打开场景模型设置： 注意：内存嵌入需要嵌入模型。为了获得最佳的整体体验，其他场景应尽可能使用多模式或具有视觉功能的模型。该应用程序通常会在启动时自动初始化 Alpine 环境，并且
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, alpine, android, automation, bot
+
+---
+
+### 🌟 [comfyui_LLM_party](https://github.com/heshengtao/comfyui_LLM_party)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,319
+- **核心概述**: ComfyUI中的LLM代理框架包括MCP服务器、Omost、GPT-sovits、ChatTTS、GOT-OCR2.0、FLUX提示节点，接入飞书、discord，并适配所有具有类似openai/aisuite接口的LLMS，如o1、ollama、gemini、grok、qwen、GLM、deepseek、kimi、doubao。适配本地llms、vlm、gguf如llama-3.3 Janus-Pro、Linkage graphRAG
+- **大概是做什么的**: 云盘地址 · C‌‌ ​ ‎ ‎ ‎‏​ ‍‎​ ‎ ​ ‎‏​ ‌‎​ ‎‍​ ‍‏​‍ ‌​ ‌‏omfyui llm党旨在开发一套基于comfyui为前端的LLM工作流程构建的完整节点。它允许用户快速方便地构建自己的LLM工作流程，并轻松地将其集成到现有的图像工作流程中。 https://github.com/user-attachments/assets/945493c0-92b3-4244-ba8f-0c4b2ad4eba6 ComfyUI LLM Party，从最基本的LLM多工具调用、角色设置到快速打造自己的专属AI助手，再到针对行业的词向量RAG和GraphRAG对行业知识库进行本地化管理；从单一的Agent管道，到构建复杂的Agent-Agent径向交互模式和环形交互模式；从个人用户需要接入自己的社交APP（QQ、飞书、Discord），到流媒体工作者需要的一站式LLM+TTS+ComfyUI工作流程；从普通学生所需的第一个LLM申请的简单开始，到科研常用的各种参数调试接口
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, comfyui, dify, flux, gemini, gguf
+
+---
+
+### 🌟 [octo-cli](https://github.com/Mininglamp-OSS/octo-cli)
+- **项目语言**: Go
+- **星标数量**: ⭐ 300
+- **核心概述**: 适用于 AI 代理机器人的元数据驱动 CLI — 跨 7 个域的 48 项操作、结构化 JSON 信封 I/O、零交互式提示。
+- **大概是做什么的**: octo-cli 是 Octo 生态系统的命令行界面 - 一个精简的单二进制 REST 客户端，专为 AI 代理机器人设计，可通过代理运行时（OpenClaw、Claude Code 等）中的 exec 进行调用。每次调用都会在 stdout 上发出结构化的 JSON 信封；错误以确定性分类法发送到 stderr。没有交互式 I/O。 octo-cli 是元数据驱动的。整个命令树（跨 9 个域的 104 个操作）在启动时根据嵌入到二进制文件中的 OpenAPI 3.x 规范自动注册。添加或更改端点意味着编辑瘦客户端。所有业务逻辑都存在于后端服务中（事务，dmworkim）。 CLI 负责传输、验证和格式化。 - 多后端路由。每个操作都通过 x-octo-base-url 声明其基本 URL；客户端在每次调用时选择正确的服务。 - 工厂DI。 Internal/cmdutil.Factory 是依赖项容器。没有可变的包级全局变量；通过 ConfigFunc / CredentialFunc / ClientFunc /RegistryFunc 测试注入存根。 - 代理优先输出。具有身份、数据、分页和速率限制的稳定 JSON 信封
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, bot, cli, golang, metadata-driven, octo
+
+---
+
+### 🌟 [computesdk](https://github.com/computesdk/computesdk)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 248
+- **核心概述**: 一个免费的开源工具包，用于在您的应用程序中运行其他人的代码。
+- **大概是做什么的**: 用于在远程沙箱中运行代码的统一 SDK。 ComputeSDK 提供了一致的 TypeScript 接口，用于在远程沙箱中执行代码。无论您是使用 E2B 进行数据科学、使用 Modal 进行 GPU 工作负载，还是使用 Vercel 进行无服务器功能 - ComputeSDK 都提供了一个统一的 API。 - 🤖 AI 代码执行代理 - 📊 数据科学平台 - 🎓 教育编码环境 - 🧪 测试和 CI/CD 系统 - 🔧 开发人员工具 配置提供商并使用 SDK： - 🔄 多提供商支持 - E2B、Modal、Daytona、Vercel 等 - 📁 文件系统操作 - 跨提供商读取、写入、创建目录 - 🖥️ 命令执行 - 在以下位置运行 shell 命令沙箱 - 🧵 终端 - 交互式 (PTY) 和执行模式命令跟踪 - 🛡️ 类型安全 - 完整的 TypeScript 支持，具有全面的错误处理 - 🔧 可扩展 - 通过 @computesdk/provider 轻松添加自定义提供程序 安装提供程序包并将实例传递到compute.setConfig：提供程序环境变量用例 ---------- ---------------------- -------------- Archil ARCHIL API KEY 磁盘附加命令执行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-runtime, ai-sandboxes, code-execution, development
+
+---
+
+### 🌟 [penguin-harness](https://github.com/Prism-Shadow/penguin-harness)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 214
+- **核心概述**: 🐧 桌面上的自动化代理工厂：最好的自我改进工具
+- **大概是做什么的**: 您的自动化代理构建器位于您的桌面上，连接到 1,000 多个模型。使用 LangChain，您可以以 1 倍的速度手动构建代理。借助 PenguinHarness，代理可以以 100 倍的速度构建代理。三个原因，按深思熟虑的顺序排列——从任务质量，到智能体的构建方式，再到它们如何不断改进。 1. 🏆 以数十倍的成本获得出色的结果在干净的低级接口上刻意最小化的工具集：更少的工具调用，更少的令牌——针对 DeepSeek 等开放模型进行了深度调整。模型上的每个线束通常与相同的任务配对：数据分析的最佳准确性 - 成本是 Claude Code 的 1/70。 2. ⚡ 一句话，代理就会构建您的代理应用程序 输入一句话，代理就会为您构建完整的代理应用程序 — 脚手架、代码和运行指令，端到端： 这是最终产品 — 一位文档专家，具有检索功能、链接到原始文件的引用来源以及内置的示例问题： https://github.com/user-attachments/assets/9b7033e8-f08a-4c3f-bd33-547896664e6e 生成整个 RAG 应用程序仅消耗 0.02 美元（0.02 日元）。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, ai, ai-product, build-tool, claude-code
+
+---
+
 ## 🕔 2026-07-29 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 231 个候选项目中筛选出 6 个未推荐过的新项目。
