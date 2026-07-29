@@ -1,3 +1,67 @@
+## 🕔 2026-07-29 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 231 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [chainlit](https://github.com/Chainlit/chainlit)
+- **项目语言**: Python
+- **星标数量**: ⭐ 12,347
+- **核心概述**: 在几分钟内构建对话式人工智能⚡️
+- **大概是做什么的**: 欢迎来到 Chainlit 👋 ⚠️ 注意：Chainlit 现已由社区维护。自 2025 年 5 月 1 日起，原 Chainlit 团队已停止积极开发。该项目由 @Chainlit/chainlit-maintainers 根据正式的维护者协议进行维护。维护人员负责代码审查、发布和安全。 Chainlit SAS 对未来的更新不提供任何保证。想帮忙维护吗？在此处申请 → https://github.com/user-attachments/assets/b3738aba-55c0-42fa-ac00-6efd1ee0d148 打开终端并运行： 如果这会在浏览器中打�� hello 应用程序，则一切都已准备就绪！最新的开发版本可以直接从 GitHub 安装：（需要在系统上安装 Node 和 pnpm。）使用以下代码创建一个新文件 demo.py： 📚 更多示例 - Cookbook 您可以在此处找到利用 OpenAI、Anthropiс、LangChain、LlamaIndex、ChromaDB、Pinecone 等工具和服务的 Chainlit 应用程序的各种示例。使用 Github issues 或 Discord 告诉我们您希望在 Chainlit 中添加哪些内容。作为快速发展的开源项目
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: chatgpt, langchain, llm, openai, openai-chatgpt, python
+
+---
+
+### 🌟 [project-butler](https://github.com/JamesShi96/project-butler)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 324
+- **核心概述**: AI 编码助手的项目内存系统（Claude Code、Cursor、Codex）：会话日志、项目 wiki、规则、TODO 和切换。
+- **大概是做什么的**: 让 AI 编码代理在会话之间记住您的项目。项目管家帮助 Claude Code、Cursor、Codex 和类似的 AI 编码助手像长期项目队友一样行事，而不是每次会话都从头开始。对于正常使用，您只需要四个操作：对于需要更强的产品、架构、路线图、研究或评估一致性的项目，项目管家还可以在设置过程中创建项目配置文件，并提供配置文件感知的正常关闭/完全关闭行为。安装为克劳德代码技能：打开任何项目并设置项目内存：正常工作。工作结束时： 下次继续，无需重新解释项目： 这对于日常使用来说已经足够了。对于 Cursor、Codex 和其他助手，请参阅工具兼容性。更新项目管家 该技能会在每次调用时自动检查更新。每台机器每天一次，它针对自己的存储库运行 git fetch 并将本地 HEAD 与 origin/main 进行比较。如果落后，Claude Code 会询问您一次 - 最多每 24 小时一次：选择更新现在会为您运行仅快进的 git pull 并报告结果
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-coding, ai-workflow, changelog, claude-code, claude-skill
+
+---
+
+### 🌟 [pr-af](https://github.com/Agent-Field/pr-af)
+- **项目语言**: Go
+- **星标数量**: ⭐ 349
+- **核心概述**: Code-Review-Bench 排名第一的开源代码审查者
+- **大概是做什么的**: 基于 AgentField 的开源 Agentic 代码审查 PR-AF 是 Martian Code-Review-Bench 上的第 1 个开源代码审查程序。它是为深入的代码审查而构建的，而不是浅薄的差异摘要：将每个 PR 转变为特定于任务的审查计划，产生专注的审查代理，代码证据中的基础发现，挑战结果，并从更便宜的模型中挤出更有用的审查情报。为常规 PR 运行 DeepSeek 级模型，为深度开放模型审查运行 GLM-5.2，或为主要 PR 运行 Opus 级前沿模型 - 其中 PR-AF 大幅领先于基准。在 38 个可运行的 Martian Code-Review-Bench PR 中，带有 GLM-5.2 的 PR-AF 是黄金召回率中排名第一的开源审阅者：在 42 个比较工具中为 0.706。在已知错误召回0.706黄金召回中，它领先于cubic-v2以及所有qodo、coderabbit、greptile、copilot和devin变体——42个比较工具中的1个开源软件。更多真实问题发现了 595 个独立有效的发现，比调整后的领先商业工具多出 3 倍。开放+可复制单一开放模型（GLM-5.2），公开结果，每个PR判断verd
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentfield, agentic-engineering, agents, ai, code-review, llm
+
+---
+
+### 🌟 [Undefined](https://github.com/69gg/Undefined)
+- **项目语言**: Python
+- **星标数量**: ⭐ 247
+- **核心概述**: 具有认知记忆架构和多代理技能的 QQ 机器人平台，通过 OneBot V11。
+- **大概是做什么的**: QQ and WeChat bot platform with cognitive memory architecture and multi-agent Skills. Undefined 是一个基于 Python 异步架构的高性能机器人平台，以 OneBot V11 接入 QQ，并可通过微信 ClawBot/iLink 接入微信私聊。项目搭载 认知记忆架构 ，采用自研 Skills 系统，内置多个智能 Agent，支持代码分析、网络搜索、娱乐互动等多模态能力，并提供 WebUI 在线管理，以及可连接同一管理服务的 跨平台 App 。 如果只是部署和运行 QQ Bot，通常 不需要 在 GitHub Release 的 Assets 里下载任何文件。推荐按下方快速开始使用源码部署；只想快速体验命令行入口时，可使用 pip install -U Undefined-bot 或 uv tool install Undefined-bot 。 Release 里的安装包是可选组件，不是 Bot 服务本体： 目标 是否需要下载 Release 选择 部署 / 运行 QQ Bot 不需要 源码部署，启动 uv run Undefined-webui ；或使用 pip / uv tool 安装 Python 包 远程管理已有实例 可选 Undefined-Console- ，用于连接 Management API 并打开远程 WebUI 使用原生聊天客户端 可选 Undefined-Chat- ，用于连接 Runtime API 聊天 离线安装 / 镜像缓存 Python 包 可选 undefined bot- .whl 或 undefined bot- .tar.gz Windows x64 -windows-x64-setup.exe ；批量部署或系统管理场景可选 .msi macOS Apple Silicon -macos-arm64.dmg macOS Intel -macos-x64.dmg Debian / Ubuntu .deb 其他 Linux x64 .AppImage Android 常见手机 / 平板 -android-arm64-v8a-release.apk ；旧 32 位设备选 armeabi-v7a ，模拟器按需选 x86 64 / x86 Console 和 Chat 都需要连接到已经运行的 Undefined 服务。首次部署请先启动 Undefined-webui ，完成配置和 Bot 启动后，再按需使用这些客户端连接。 - Skill
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, bot, llm, music, napcat
+
+---
+
+### 🌟 [alumnium](https://github.com/alumnium-hq/alumnium)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 967
+- **核心概述**: 使用 AI 进行端到端测试
+- **大概是做什么的**: 使用 AI 进行端到端测试 Alumnium 是一个用于端到端测试的 AI 原生库和 MCP。它建立在现有的测试自动化生态系统的基础上，简化了与应用程序的交互，提供了更强大的机制来验证断言。它可与 Appium、Playwright 或 Selenium 配合使用，并为您提供[最先进的][7] 功能。 https://github.com/user-attachments/assets/b1a548c0-f1e1-4ffe-bec9-d814770ba2ae 有关其他 MCP 客户端的安装详细信息，请参阅[文档][8]。查看[文档][1]以及更多[Python][2]和[TypeScript][6]示例！ 1. 运行您的代理（Claude Code）。 2. 让它打开 URL 并测试您的应用程序。有关如何参与该项目并在本地开发的信息，请参阅[贡献指南][4]。 Alumnium 是 [TestMu AI][5] 开源计划的成员，该计划通过必要的工具支持项目社区和开发。谢谢你！ 💚 [1]：https://alumnium.ai/docs/ [2]：packages/python/examples/ [3]：https://alumnium.ai/docs/getting-started/configuration/ [4]：./CONTRIBUTING.md [5]：https://ww
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, appium, java, javascript, llm, playwright
+
+---
+
+### 🌟 [ComfyUI_VLM_nodes](https://github.com/gokayfem/ComfyUI_VLM_nodes)
+- **项目语言**: Python
+- **星标数量**: ⭐ 576
+- **核心概述**: 用于视觉语言模型、大型语言模型、图像到音乐、文本到音乐、一致和随机创意提示生成的自定义 ComfyUI 节点
+- **大概是做什么的**: ComfyUI 面向生产的视觉语言、结构化提示、音频和实用节点。 3.3 版支持 ComfyUI 选定的 NVIDIA CUDA、AMD ROCm、Apple Metal、Intel XPU 和 CPU 设备，而无需替换其 PyTorch 版本。它删除了启动安装程序和全局加速器缓存刷新，添加了真实图像/视频批次和实时令牌流，并使用 ComfyUI 模型驻留和卸载。现代模型覆盖 现代 VLM 节点提供了一个稳定的界面，具有特意小型的 12 种选择生产选择器： - Qwen 3.5 0.8B 和 4B - Qwen 3 VL 2B、4B 和 8B 指令 - SmolVLM2 500M 和 2.2B 视频 - Liquid LFM2.5-VL 450M - Granite Vision 4.1 4B - 兼容的定制 Hugging Face图像到文本存储库 单独的 [Legacy] Modern VLM Compatibility 节点包含冗余、被取代、实验性和非常大的层： - Qwen 3.5 2B、9B、27B 和 35B-A3B - Qwen 3 VL 30B-A3B Instruct - 用于现有工作流程的 Qwen 2.5 VL 3B 和 7B - Gemma 3 12B 和 27B IT - SmolVLM2 256M 视频 - Liquid LFM2.5-VL 1.6B - Granite Vision 3.3 2B 先前保存的 ModernVLM 工作流程 r
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: comfyui, custom-nodes, image-captioning, img2sfx, img2text, joytag
+
+---
+
 ## 🕔 2026-07-29 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 230 个候选项目中筛选出 6 个未推荐过的新项目。
