@@ -1,3 +1,67 @@
+## 🕔 2026-07-30 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 225 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [cherry-studio-app](https://github.com/CherryHQ/cherry-studio-app)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,617
+- **核心概述**: 🍒 这是 Cherry Studio 的移动版本。
+- **大概是做什么的**: 🍒 欢迎使用 Cherry Studio App 🍒 Cherry Studio App —— Ch​​erry Studio 官方移动版，为您的 iOS 和 Android 设备带来强大的 LLM（大型语言模型）交互。 🌟 支持该项目：赞助给该存储库一颗星！ - 多法学硕士提供商支持：（逐步集成）OpenAI、Gemini、Anthropic 等。 - 人工智能助手和对话：访问预设助手并进行流畅的多模型对话。 - 移动优化：专为 iOS/Android 设计，支持浅色/深色主题。 - 核心工具：会话管理、历史搜索、数据迁移。 - Framework : Expo React Native - Package Manager : Pnpm - Routing : React Navigation - State Management : Redux Toolkit 相关开发文档位于 docs 文件夹中 1. 克隆存储库 2. 输入目录 3. 安装依赖项 4. 生成数据库 5. 构建 MCP Streamable Http 6. 启动应用程序或（对于较新版本的 Android Studio / IntelliJ IDEA）：其中 USERNAME 您的 PC 用户名。另外，请确保该文件夹是 sdk 或 Sdk。其中 USERNAME 是您的 OSX us
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, android, assistant, chat-bot, expo, ios
+
+---
+
+### 🌟 [novel-to-game](https://github.com/worldwonderer/novel-to-game)
+- **项目语言**: Markdown
+- **星标数量**: ⭐ 420
+- **核心概述**: 将任何小说蒸馏为可玩的游戏 · Turn any novel/story into a playable game — a 7-skill adaptation pipeline for Claude Code, Codex & Kimi Code(k3)
+- **大概是做什么的**: NovelToGame 是一套把小说改编成网页游戏的开源技能，适配 Claude Code、Codex 和 Kimi Code。 它先从原著里找出真正能玩的部分，挑一个合适的改编方向，设计出可玩的世界和画面，再把一份 范围明确的构建说明交给编码智能体去实现，最后验证成品能不能跑起来。 直接把小说丢给模型做游戏，出来的多半是换皮的通用玩法。NovelToGame 解决真正难的那一步： 把这本书特有的世界观、地图、势力、任务、物品和情绪变成玩家动作和核心循环，判断它该做成什么游戏，再一路推进到 一个总入口先框定产品需求，再串起六个各司其职的环节，把原始文本一路打磨成可验证、可游玩的原型。 「需求」是第一步：拿到小说先和用户明确 平台（客户端/网页/小程序）、游戏类型与对标名作（按小说语言对应的市场找）、美术画风、内容分级/NSFW、核心幻想、游戏引擎 等产品框架，锁进 PRODUCT BRIEF.md ，下游各阶段一律遵守、不得静默改写。对标与引擎都要 WebSearch 联网核实，不凭记忆。 novel-to-game 总入口：先过需求 intake 锁定 PRODUCT BRIEF （平台/类型+对标/画风/分级/核心幻想），再以 quick / director 两种模式串起全流程 novel-game-analyze 提取规则、动作、空间、角色、系统与名场面，梳理成一份游戏设定集 game-concept 生成、淘汰并从三个真正��同的方案中做出选择 game-world-design 设计玩家体验、会回应的世界、系统、关卡与完整可玩原型 game-art-direction 定义核心视觉原则、镜头、世界的视觉语言、界面、反馈与招牌画面 game-build 写出构建说明，并让编码智能体完成一次可验证的构建 game-qa 验证启动、画面、交互、状态切换、通关与重开 Agent CLI 安装命令 调用方式 Claude Code npx skills add worldwonderer/novel-to-game -g -y -a claude-code -s ' ' /novel-to-game Codex npx skills add worldwonderer/novel-to-game -g -y -a codex -s ' ' $novel-to-game Kimi Code npx skills add worldwonderer/novel-to-game -g -y -a kimi-code-cli -s ' ' /skill:novel-to
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, ai-game-development, claude-code, claude-code-skills, claude-skills
+
+---
+
+### 🌟 [chats](https://github.com/sdcb/chats)
+- **项目语言**: C#
+- **星标数量**: ⭐ 597
+- **核心概述**: 强大而灵活的大语言模型前端和AI网关，支持21+主流AI模型提供商。
+- **大概是做什么的**: Sdcb Chats 是一个强大且灵活的大语言模型前端，支持 22+ 主流 AI 模型服务商。无论您是希望统一管理多种模型接口，还是需要一个简单易用的部署方案，Sdcb Chats 都能满足您的需求。 - 🚀 一站式 ：22+ 模型服务商，一个入口 - 🎯 分钟级上手 ：一条命令 Docker 部署，8 平台原生可执行 - 🐳 代码解释器 ：Docker 沙箱，内置浏览器/代码执行/Excel 等工具 - 🔌 API 网关 ：Chat Completions/Messages 兼容，支持 Claude Code - 🌐 标准协议 ：Chat Completions/Messages/Responses/Gemini，支持交错思考 - 🔍 可观测性 ：Request Trace 全链路追踪，快速定位入站/出站请求问题 - 👁️ 多模态 ：视觉输入，图像生成 - 💾 灵活存储 ：SQLite/SQL Server/PostgreSQL + 本地/AWS S3/Aliyun OSS/Azure Blob - 🔐 企业级安全 ：完善的用户权限管理和账户余额控制，限流审计日志，支持 Keycloak SSO 与短信验证码登录 - 📅 发布日期：2026-06-14 - 🧩 请求自定义：Model Key 和 Model 支持自定义 Header 与 RFC 6902 JSON Patch 请求体补丁，Model 层可以覆盖 Key 层配置 - 🌐 自定义 URL：Model 新增 Custom URL ，支持 {baseUrl} 占位符，便于适配网关、代理和厂商私有 endpoint - 🧾 配置快照化：新增 ModelKeySnapshot 、 ModelSnapshot 、 ChatConfigSnapshot ，历史会话、用量和账单引用不可变配置事实 - 🤖 Claude Code 兼容：Anthropic Messages 支持消息中的 role=system ，兼容最新 Claude Code 请求结构 - 🖼️ 图像与体验：图像生成支持输出格式/压缩，修复图片预览、模型排序、签名文件 URL 缓存和多项协议兼容问题 - 🛠️ 升级重点：迁移脚本会重构模型配置引用关系，删除旧的可变配置列和 ChatConfigArchived 表；自定义 SQL/报表需要改读 snapshot 表 👉 查看 1.12.0 发布说明 · 查看全部版本 一条命令即可启动（需要 Docker）： 启动后访问 http://localhost:8080
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, chatglm, chatgpt-api, dashscope, deepseek, deepseek-r1
+
+---
+
+### 🌟 [openlens-ai](https://github.com/jarrycyx/openlens-ai)
+- **项目语言**: Python
+- **星标数量**: ⭐ 273
+- **核心概述**: OpenLens AI: A Fully Autonomous Multimodal Research Agent｜ OpenLens AI：全自主多模态科研智能体
+- **大概是做什么的**: OpenLens AI：完全自主的多模态研究代理 📄 论文：阅读我们在 arXiv 上的研究论文 🌐 项目页面：探索详细的文档和示例 🚀 立即尝试：直接在浏览器中使用我们的云应用程序 OpenLens AI 是一款完全自主的多模态代理，专为医疗/ML/统计研究或任何数据驱动项目而设计，并针对医疗 + AI 研究进行了优化。提供你的数据集和单线研究思路，它会独立进行文献查阅、设计实验、分析数据并生成综合研究报告——无需人工干预。 🔥 新：支持一般领域（例如软件、机器学习等） 🔥 新：对图表和论文的中文支持。无需安装！请访问我们的项目页面，了解有关 OpenLens AI 的更多信息，或尝试我们的云应用程序，无需任何设置即可体验完全自主的研究代理。 - ✅ 自动文献综述：根据您的研究问题搜索和总结论文 - ✅ 数据分析：分析数据集并生成综合报告 - ✅ 专家
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, llms, medical-ai
+
+---
+
+### 🌟 [qwen-audio-agent](https://github.com/QwenAudio/qwen-audio-agent)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 231
+- **核心概述**: 实时语音运行时，让客服人员能够继续交谈、工作和出席。 AI 代理的实时语音运行时
+- **大概是做什么的**: 真正的交流，不该在说完一句话后，就陷入漫长的等待。 也不该因为 Agent 正在查资料、调用工具或处理任务，整场对话就此暂停。 所以，我们做了 qwen-audio-agent ——让 Agent 持续交流、持续工作、持续在场的实时语音运行时。 无论是聊天、思考，还是处理任务，Agent 都始终在这场对话里。它会倾听，会回应，也会在任务完成时自然地告诉你： https://github.com/user-attachments/assets/42022655-36d1-46b2-9c26-ff0765284000 - 全双工实时语音交互、自然打断和持续多轮对话 - 一键连接你喜欢的各种 Agent，使用已有的模型、工具、MCP、Skill - 对话与后台任务并行，可随时查询进度或取消任务 - 任务结果自动回到当前上下文，支持继续追问和修改 - 支持 WebUI、终端 TUI 和 macOS 桌面悬浮球 能直接回答的问题会立即回答；需要工具或持续处理时，任务会交给后台 Agent。 整个过程中，用户面对的始终是同一个助理。 后台 Agent 接入方式 接入准备 推荐指数 --- --- --- --- OpenCode 原生 ACP 支持自动安装和百炼配置 ★★★★★ OpenClaw 内置 ACP 桥接 支持自动安装和百炼配置 ★★★★★ Qoder 原生 ACP 用户自行安装和配置 ★★★★★ Hermes 原生 ACP 用户自行安装和配置 ★★★★☆ CodeBuddy 原生 ACP 用户自行安装和配置 ★★★★☆ Codex 外部 ACP 适配 用户自行安装和配置 ★★★★☆ Claude Code 外部 ACP 适配 用户自行安装和配置 ★★★★☆ 推荐指数综合反映当前集成完整度、兼容性和实际验证程度：五星表示已经过充分测试的 推荐集成，四星表示正在开发或尚未完成同等范围验证。 需要 Node.js 22.22.2+ 或 24.15.0+、npm 10+ 和 DashScope API Key。 仓库提供 .nvmrc 和 .node-version ；使用 nvm 时可直接运行 nvm use 。 也可以直接从 GitHub 安装最新代码： 获取 DashScope API Key 阿里云百炼为 Qwen Audio 3.0 Realtime 提供免费体验额度，创建 API Key 后即可免费开始使用 qwen-audio-agent。 1. 登录阿里云；如果尚未开通，请先按提示开通阿里云百炼。 2. 打开百炼控制台的 API Key 页面， 3. 复
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, voice-agent, voice-ai, voice-chat
+
+---
+
+### 🌟 [skywalking-go](https://github.com/apache/skywalking-go)
+- **项目语言**: Go
+- **星标数量**: ⭐ 360
+- **核心概述**: Apache SkyWalking 的 Golang 自动仪器代理，为 Golang 项目提供本机跟踪/指标/日志记录功能。
+- **大概是做什么的**: Apache SkyWalking Go SkyWalking Go：Apache SkyWalking 的 Golang 自动仪器代理，为 Golang 项目提供本机跟踪/指标/日志记录功能。 - 官方文档邮件列表：dev@skywalking.apache.org 。发送邮件至 dev-subscribe@skywalking.apache.org ，按照回复订阅邮件列表。加入 Apache Slack 的 skywalking 频道。如果该链接不起作用，请在 Apache INFRA WIKI 中查找最新的链接。 Twitter、ASFSkyWalking QQ群：901167865（推荐）、392443393
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, apm, auto-instrumentation, dapper, distributed-tracing, logging
+
+---
+
 ## 🕔 2026-07-29 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 236 个候选项目中筛选出 6 个未推荐过的新项目。
