@@ -1,3 +1,67 @@
+## 🕔 2026-07-30 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 202 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [EasyR1](https://github.com/hiyouga/EasyR1)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,089
+- **核心概述**: EasyR1：基于 veRL 的高效、可扩展、多模态 RL 训练框架
+- **大概是做什么的**: EasyR1：Amazon Web Services 使用的高效、可扩展、多模态 RL 训练框架 查看我们的新开源项目 - 🐧 PenguinHarness：您的桌面代理，只需 0.02 美元的代币即可自动构建代理！关注我们的项目：https://github.com/Prism-Shadow/penguin-harness https://github.com/user-attachments/assets/9b7033e8-f08a-4c3f-bd33-547896664e6e 该项目是原始 veRL 项目的一个干净分支，用于支持视觉语言模型，我们感谢所有作者提供如此高性能的 RL 训练框架。 EasyR1 的高效性和可扩展性得益于 HybirdEngine 的设计和最新发布的 vLLM 的 SPMD 模式。 - Llama3/Qwen2/Qwen2.5/Qwen3 语言模型 - Qwen2-VL/Qwen2.5-VL/Qwen3-VL 视觉语言模型 - DeepSeek-R1 蒸馏模型 - 支持的算法 - 支持的数据集 - 特定格式的任何文本、视觉文本数据集 - 无填充训练 - 从最新/最佳检查点恢复 - Wandb & SwanLab & Mlflow & Tensorboard 跟踪 软件要求 - 转换器=4.54.0 我们提供了一个Dockerfile来轻松构建env
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, deepseek, gpt, llm, nlp, qwen
+
+---
+
+### 🌟 [beelzebub](https://github.com/beelzebub-labs/beelzebub)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,117
+- **核心概述**: 一个安全的低代码欺骗运行时框架，利用人工智能进行系统虚拟化。
+- **大概是做什么的**: 欺骗运行时框架 Beelzebub 是一个开源欺骗运行时，它跨 SSH、HTTP、TCP、TELNET 和 MCP 协议部署自适应、LLM 支持的诱饵服务。它超越了被动蜜罐，主动与攻击者进行真实的交互，收集高保真威胁情报，并检测针对人工智能代理的即时注入攻击。 - LLM 欺骗演示 - 使用 Helm (Kubernetes) - beelzebub 验证 - beelzebub 版本 - 安装外部插件 - Prometheus Metrics - RabbitMQ 集成 - 配置参考 - 核心配置 - 服务配置 - 欺骗服务 - MCP 欺骗服务 - HTTP 欺骗服务 - SSH 欺骗服务 - TELNET 欺骗服务 - TCP 欺骗服务 - 自适应欺骗引擎 : LLM 集成（OpenAI、Ollama）生成上下文准确的响应实时，让攻击者参与足够长的时间来收集可操作的 TTP - 低代码服务定义：基于 YAML 的配置，具有正则表达式命令匹配 - 部署新的诱饵服务不需要自定义代码 - 多协议覆盖：
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acis, agentic-ai-security, cloudnative, cloudsecurity, cybersecurity, deception
+
+---
+
+### 🌟 [ai-text-detector](https://github.com/lynote-ai/ai-text-detector)
+- **项目语言**: Python
+- **星标数量**: ⭐ 430
+- **核心概述**: 一个免费的检测器，能够识别所有高级人工智能模型生成的内容。
+- **大概是做什么的**: 最佳人工智能文本检测器 一个可解释的、谨慎的人工智能生成的文本风险分析器，适用于编码代理和本地工作流程。其他优质项目 AI Humanize Text：https://github.com/lynote-ai/ humanize-text AI 图像检测器：https://github.com/lynote-ai/ai-image- detector 大多数 AI 文本检测器要么过于自信，要么不透明，要么难以嵌入到代理工作流程中。 ai-Detector-skill 采用相反的方法： - 可解释的加权信号而不是隐藏的模型声明 - 易于编写脚本的本地 CLI 和 Python API - 拒绝夸大薄弱证据的短文本护栏 - Codex、Claude Code 和其他存储库感知代理的技能就绪包装 - 可重现的基准和数据集评估脚本 如果您想要一个保持谨慎并为人工审查留出空间的分类工具，那么此存储库就是为此而构建的。或者引导本地环境： - 分数：0-100 类人工智能写作风险评估 - 判决：文本不足、人工智能可能性低、混合或不确定或人工智能可能性高 - 置信度：当前低或中等 - 信号：最强加权证据信号 - c
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-content-detection, ai-content-detector, ai-detection, ai-detector, ai-text-detection
+
+---
+
+### 🌟 [NeuroAPI](https://github.com/neurogen-dev/NeuroAPI)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,321
+- **核心概述**: NeuroAPI：适用于 Codex CLI 和 Claude Code 的俄罗斯 AI API - 适用于 Windows 和 macOS 的安全一键安装程序。
+- **大概是做什么的**: NeuroAPI：通过俄罗斯 AI API 的 Codex CLI 和 Claude Code 开放安装程序，用于将 Codex CLI 和 Claude Code 连接到 Windows 和 macOS 上的 NeuroAPI。 NeuroAPI是俄罗斯AI API服务：统一访问OpenAI、Anthropic Claude、Google Gemini、DeepSeek、图像和视频模型，并以卢布付款。该项目由一家俄罗斯有限责任公司运营，服务基础设施位于俄罗斯联邦。请务必检查实时目录以了解当前型号和价格。一次性安装首先，安装 Codex CLI 和/或 Claude Code 本身，然后在 NeuroAPI 帐户中创建 API 密钥。 1. 下载包含安装程序的 ZIP 并解压。 2. 双击 setup-windows.bat 。 3. 将 API 密钥粘贴到隐藏的 PowerShell 请求中。 4.打开一个新终端并运行：不需要管理员权限。 BAT 文件不接受通过命令行参数输入的密钥。 1. 下载包含安装程序的 ZIP 并解压。 2. 在解压的文件夹中打开终端。 4. 将 API 密钥粘贴到安全的 macOS 钥匙串请求中。该脚本不使用 sudo，也不编辑 shell 配置文件。如果 /.local/bin 已在 PATH 中，则 com 就足够了
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-api, anthropic-api, chatgpt, chatgpt-api, claude-code
+
+---
+
+### 🌟 [llms-tools](https://github.com/PetroIvaniuk/llms-tools)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 321
+- **核心概述**: 法学硕士工具和项目列表
+- **大概是做什么的**: 法学硕士工具和研究项目 该存储库包含现成的人工智能工具、开源和研究项目列表\除了法学硕士之外，您还可以在这里找到来自其他领域（例如计算机视觉等）的新人工智能研究\欢迎贡献。 2024 年诺贝尔物理学奖授予约翰·J·霍普菲尔德 (John J. Hopfield) 和杰弗里·E·辛顿 (Geoffrey E. Hinton)，以表彰他们“通过人工神经网络实现机器学习的基础性发现和发明”。 2024 年诺贝尔化学奖一半授予戴维·贝克 (David Baker)，以“计算蛋白质设计”，另一半则共同授予德米斯·哈萨比斯 (Demis Hassabis) 和约翰·M·朱珀 (John M. Jumper)，以“蛋白质结构预测”。 Jürgen Schmidhuber 的帖子：Hopfield & Hinton 的 2024 年诺贝尔物理学奖奖励计算机科学领域的抄袭和错误归因 2025 年图灵奖被认可为强化学习大语言模型 (LLM) 和聊天机器人的先驱 - GPT 状态，[[1 小时演讲] 大语言简介模型](https://youtu.be/zjkBMFhNj g?si=Q30PHie5Ls aqEFY)，我如何使用法学硕士\吴恩达：A 中的机会
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, chat-bot, chatbots, chatgpt, data-science, llm
+
+---
+
+### 🌟 [quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j)
+- **项目语言**: Java
+- **星标数量**: ⭐ 310
+- **核心概述**: Quarkus Langchain4j 扩展
+- **大概是做什么的**: 该存储库包含 Quarkus 扩展，可促进 Quarkus 和 LangChain4j 之间的无缝集成，从而轻松将大型语言模型 (LLM) 合并到您的 Quarkus 应用程序中。以下是当前支持的功能的非详尽列表： - 声明式 AI 服务 - 与不同的 LLM 集成（OpenAI GPT、Hugging Faces、Ollama...） - 文档存储集成（Redis、Chroma、Infinispan...） - 本机编译支持 - 与 Quarkus 可观测性堆栈集成（指标、跟踪...） - 可插拔身份验证提供程序 有关详细信息和使用指南，请参阅综合文档。查看示例和集成测试，以获得有关如何有效使用这些扩展的实用见解。要将 Quarkus LangChain4j 合并到您的 Quarkus 项目中，请添加以下 Maven 依赖项： 欢迎通过提交问题或拉取请求来为该项目做出贡献。该项目根据 Apache License 2.0 获得许可 - 有关详细信息，请参阅许可证文件。
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, langchain4j, llm, quarkus-extension
+
+---
+
 ## 🕔 2026-07-30 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 225 个候选项目中筛选出 6 个未推荐过的新项目。
