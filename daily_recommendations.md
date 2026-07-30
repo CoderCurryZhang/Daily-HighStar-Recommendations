@@ -1,3 +1,67 @@
+## 🕔 2026-07-30 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 231 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [xalgorix](https://github.com/xalgorix/xalgorix)
+- **项目语言**: Go
+- **星标数量**: ⭐ 813
+- **核心概述**: 自主人工智能渗透测试代理——实时侦察、漏洞检测和漏洞利用编排。 Go + TypeScript。
+- **大概是做什么的**: Xalgorix — 开源 AI 渗透测试仪，可证明大多数扫描仪都能检测到的漏洞。 Xalgorix 证明了这一点。一个自主的法学硕士代理采用完整的渗透测试方法，然后一个独立的验证者在报告之前重新利用每一个发现——这样你就得到了证据，而不是一堆需要分类的可能性。自托管、私人、自带法学硕士。内置 Go + TypeScript。这将从最新版本下载适用于您的平台 (Linux amd64/arm64) 的预构建二进制文件。然后将其指向 /.xalgorix.env 中的 LLM 提供商：启动仪表板并打开 http://127.0.0.1:9137 ：或使用 Docker 运行 — 包括电池，无需工具链： --privileged 为工具集提供与以 root 身份本地运行时相同的类似主机的访问权限。 Docker 的默认沙箱会删除功能（如 NET ADMIN ）并应用 seccomp 过滤器，这会破坏低级工具（iptables/路由更改、ARP 欺骗/MITM、tun/tap VPN、基于 ptrace 的调试器、masscan 接口调整）。由于映像无法授予自己这些权限，因此必须在运行时设置它们。该容器是一个一次性的、网络隔离的扫描沙箱，以 root 身份运行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-security, automation, autonomous-pentesting, bug-bounty, cybersecurity
+
+---
+
+### 🌟 [ClaudeSkills](https://github.com/staruhub/ClaudeSkills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 639
+- **核心概述**: 13 种精选的 Claude Code 代理技能 — 套牌、深入研究、PRD、文章、审计。像软件一样进行测试。
+- **大概是做什么的**: 13 项精选的 Claude Code 技能，可将实际工作转化为可检查的交付成果。从研究、产品文档、幻灯片和中文长篇写作的四个旗舰工作流程开始。然后在安装之前检查说明、示例、检查和功能边界。网站 · 安装 · 所有 13 项技能 · 安全 从旗舰工作流程开始 你的工作 工作流程 可检查的输出 ---------- ---------- -------------------- 研究决策 🔬 深入研究 (v8.1) 包含源注册表、引文检查、权衡和规定限制的范围备忘录或报告 编写或审查产品文档 📋 产品经理 包含决策框架和可检查验收标准的结构化 PRD 或审查 演示、推介或教学🎞️ Deck-studio (v3) 经批准的大纲、页面摘要、注册布局和带有明确 QA 检查表的渲染视觉路径 起草一篇中文长篇文章 ✍️ wechat-article-writer 带有标题、语音和反翻译评论的结构化文章草稿 这些是可重复的指令包，而不是单行提示片段。能力
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude, claude-code, claude-skills, deep-research
+
+---
+
+### 🌟 [pi-dynamic-workflows](https://github.com/QuintinShaw/pi-dynamic-workflows)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 338
+- **核心概述**: Pi 的 Claude Code 式动态工作流程：具有真实模型路由的代码模式子代理、日志式简历、git-worktree 隔离、成本核算、交互式 /workflows TUI、/ultracode 常设选择加入和深入研究。
+- **大概是做什么的**: 将一个请求转换为 JavaScript 编排脚本，粉丝可以在独立的子代理之间进行处理，将每项任务路由到正确的模型，交叉检查结果，并返回一个综合答案。中间工作保留在脚本变量中，而不是填充聊天上下文。专为全代码库审计、多角度审查、大型重构和源代码检查研究而构建，这些工作对于一个代理和一个上下文窗口来说过于广泛。在 Pi 中运行 /reload，然后自然地问：Pi 在后台写入并启动工作流程。实时面板会在您继续工作时跟踪进度，并自动将最终结果传送回对话中。默认情况下，关键字触发处于启用状态：在消息中使用有界词工作流程或工作流程来启动工作流程模式 - 然后，助手通过在代理之间扇出请求来处理请求，但如果您只询问工作流程，仍然会简单地回答（触发器授权该工具，而不是强制它）。或者显式运行 /workflows run 。类似标识符的文本和路径，例如 myworkflow 、工作流名称和 src/workflow-e
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-workflows, claude-code, coding-agent, deep-research, dynamic-workflows, llm
+
+---
+
+### 🌟 [squirrelscan](https://github.com/squirrelscan/squirrelscan)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 246
+- **核心概述**: 适合您的编码代理的网站质量检查工具。 270 多个审核规则，涉及 SEO、性能、安全性、可访问性和代理体验。
+- **大概是做什么的**: 适用于编码代理的网站 QA 工具 squirrelscan 会审核您网站的 SEO、性能、安全性、可访问性和代理体验问题，并为您的编码代理提供准确的修复。从 CLI、编码代理内部、云端或通过 MCP 运行它。本地审计始终是免费的。添加到您的编码代理 squirrelscan 作为 MCP 服务器（托管在 mcp.squirrelscan.com ）、技能（自主审核 + 修复工作流程）以及 Claude Code 和 Cursor 插件提供。从上面的徽章中一键安装光标；其余的都是单个复制粘贴。单击上面的“添加到光标”徽章，或手动将其添加到 /.cursor/mcp.json ： 技能：npx Skills add squirrelscan/squirrelscan 安装插件（捆绑技能 + MCP 服务器）：或者仅添加 MCP 服务器：将服务器添加到 /.codex/config.toml ：Codex 从 /.agents/skills 读取代理技能，因此技能也可以工作：npx Skills add squirrelscan/squirrelscan 将服务器添加到 opencode.json ： squirrelscan 在 MCP 注册表中为 com.squirrelscan/squirrelscan 。将任何客户端指向远程服务器：身份验证是每用户 OAuth（或
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, audit, cli, llm, performance, seo
+
+---
+
+### 🌟 [arcana](https://github.com/georgeguimaraes/arcana)
+- **项目语言**: Elixir
+- **星标数量**: ⭐ 317
+- **核心概述**: 用于 Elixir/Phoenix 的嵌入式 RAG 库，具有代理管道和仪表板
+- **大概是做什么的**: Elixir 和 Phoenix 的嵌入式 RAG 库。 Arcana 允许您将矢量搜索、知识图和 LLM 驱动的检索添加到任何已有 Ecto 存储库的应用程序中，而无需建立单独的矢量数据库、索引服务或编排层。请参阅 arcana-adept，了解完整的 Phoenix 应用程序，其中已预先提取并准备好查询 Doctor Who 语料库。大多数 RAG 库都是用 Python 编写的，并假设您将通过 HTTP 将它们连接到堆栈上。这是可行的，但它让您运行一个原本不需要的矢量数据库，同时使用两种语言，并将跨进程的遥测粘合在一起。 BEAM 特别适合 RAG：pgvector 非常出色，监督树是长期运行的嵌入器和重新排序器的正确形状，遥测内置于平台中，并且您的 Phoenix 应用程序已经具有 Repo、仪表板的 LiveView 以及用于聊天的用户会话。阿卡纳认真对待这一观察结果。一切都存在于您的应用程序中： - One Repo。文档、块、嵌入和知识图是现有 Postgres 数据库中的表。没有新的基础设施
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, elixir, nx, rag
+
+---
+
+### 🌟 [dbt-mcp](https://github.com/dbt-labs/dbt-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 596
+- **核心概述**: 用于与 dbt 交互的 MCP（模型上下文协议）服务器。
+- **大概是做什么的**: 这个MCP（模型上下文协议）服务器提供了各种与dbt交互的工具。您可以使用此 MCP 服务器向 AI 代理提供 dbt Core、dbt Fusion 和 dbt Platform 中项目的上下文。请阅读我们的文档以了解更多信息。这篇博文提供了有关 dbt MCP 服务器功能的更多详细信息。实验性 MCP 捆绑包 我们在每个版本中发布了一个实验性模型上下文协议捆绑包 ( dbt-mcp.mcpb )，以便支持 MCPB 的客户端无需额外设置即可导入此服务器。从最新版本资产下载捆绑包，并按照 Anthropic 的 mcpb CLI 文档进行安装或检查。如果您有意见或疑问，请创建 GitHub 问题或加入我们的 tools-dbt-mcp 频道中的 Slack 社区。 dbt MCP 服务器架构允许您的代理连接到各种工具。用于在 dbt 平台基础架构上执行和生成 SQL 的工具。 - 执行 sql：在具有语义层支持的 dbt 平台基础架构上执行 SQL。 - 文本到 sql：使用项目上下文从自然语言生成 SQL。了解更多 abo
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: data-analytics, data-engineering, dbt, llm, mcp, mcp-server
+
+---
+
 ## 🕔 2026-07-30 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 222 个候选项目中筛选出 6 个未推荐过的新项目。
