@@ -1,3 +1,67 @@
+## 🕔 2026-07-31 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 258 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [LearnPrompt](https://github.com/LearnPrompt/LearnPrompt)
+- **项目语言**: MDX
+- **星标数量**: ⭐ 2,560
+- **核心概述**: 永久免费开源的 AIGC 课程, 目前已支持Claude Code，Codex，Hermes，OpenClaw，Obsidian，Prompt Engineering, ChatGPT, Midjourney, Runway, Stable Diffusion, AI数字人，AI声音&音乐，开源大模型
+- **大概是做什么的**: 中文文档 README in English 我是卡尔，一个兴趣使然的古法AI码农，长期做AI工具实测、内容创作、开源教程和Agent工作流。 AI对我来说，已经从聊天窗口变成了工作台：学新东西、写代码、整理资料、做PPT、搭自动化，都能在这里发生。 这句话是我做LearnPrompt、AI沃茨和Carl Skills的底层原因。我不太想只追热点，也不太想把新工具讲成发布会摘要。 我更关心普通人拿到这些工具以后，能不能真的多做成一些事。 👉 项目全景：learnprompt.pro/skills LearnPrompt · 永久免费开源的中文AI实战教程 LearnPrompt是我的来时路，也是这个账号最早的公共项目。它是一套持续维护的中文AI学习路径，覆盖Claude Code，Codex，OpenClaw，Hermes，提示语工程，ChatGPT，RAG，Agent，AI编程，Agent Skills，Obsidian，Midjourney，Runway，Stable Diffusion，数字人，AI声音与音乐和大模型微调等主题。 如果你是第一次系统学习AI，可以从这里开始。 AI News Radar · 24小时AI信息雷达 AI更新太快了，头大的是信息多到没法好好看。 AI News Radar里的伯乐Skill，用GitHub Actions、网页和自动化摘要，把AI/tech信息源变成一个可以持续运行的雷达。它能判断一个新的信息源，设置7天冷静期判断内容值不值得长期追更，会不会跟你现有信息流有内容重复，如果值得，应该怎么接进来最稳定？ 少刷���点，把注意力留给真正值得看的变化。 鲁班 · 把能用的Skill打磨成公共资产 你写了一个skill，自己用着挺好，发出去却没人装。鲁班把它当作品收进工坊：验料、访行、过尺、慢刨、回炉，五个动作，每一刀都要过验证门，改完给你一份带证据的打磨报告。 它的第一单活，是把ai-news-radar从v0.6打磨到v0.7.0，一个对话内4个PR全部合并。上线一个月拿到800+星。 Humanize PPT · 先让PPT像是人在讲，再用工具生成 很多AI做PPT的问题，出在第一页之前。材料刚丢进去，就被压成一堆无聊的提纲，这样用的HTML PPT Skill再好也没用。 Humanize PPT读取了50多期TED演讲，先处理主线，听众获得感和讲述顺序，再进入具体的PPT制作。 Skillrush Town · 淘金小镇 淘金小镇从ClawHub Top100开始，记录每天哪些AI skill在上升。然后就是覆盖到
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, aimusic, aivoice, chatgpt-app, claude-code, cli
+
+---
+
+### 🌟 [codemap](https://github.com/JordanCoin/codemap)
+- **项目语言**: Go
+- **星标数量**: ⭐ 651
+- **核心概述**: 人工智能的项目大脑。为法学硕士提供即时架构背景，无需销毁代币
+- **大概是做什么的**: 代码图——人工智能的项目大脑。为法学硕士提供即时架构背景，无需销毁代币。其他选项： 发布 go install 从源代码 Tarball 构建 / CI 安装 如果从发布 tarball 安装代码映射，还请为 --deps 单独安装 ast-grep 。 tarball 包含代码映射和捆绑规则，但不包含 ast-grep 可执行文件。基于 Alpine 的 CI 示例：如果您想要 CI/CD 的独立存档，请改用 codemap-full 发布工件。它在一个存档中包含 codemap 、 ast-grep 和 sg ，因此 --deps 在提取后���可工作。推荐设置（Hooks + 守护进程 + 配置） 普通用户不需要存储库克隆。从 git repo 根目录（不是子目录）运行安装程序，否则挂钩可能无法解析项目上下文。 codemap 安装程序默认配置 Claude Code 和 Codex： - 使用自动检测的语言过滤器创建 .codemap/config.json（如果缺少） - 将挂钩合并到 .claude/settings.local.json 和 .codex/hooks.json - 在 .mcp.json 和 .codex/config.toml 中配置 MCP - 挂钩在会话启动时自动启动/读取守护进程状态 托管条目使用 t
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: claude, claude-code, cli, codex, codex-cli, context
+
+---
+
+### 🌟 [BrowserSkill](https://github.com/Tencent/BrowserSkill)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 732
+- **核心概述**: 让 AI 代理使用您真实登录的浏览器，而不会中断您的工作。 CLI + 扩展，可跨任何支持 shell 的 AI 代理实现浏览器自动化。
+- **大概是做什么的**: 让 AI 代理使用您的浏览器，而不会中断您的工作。 BrowserSkill 将 Cursor、Claude Code、Codex、OpenClaw、CodeBuddy、WorkBuddy、Pi、Hermes Agent 和其他支持 shell 的 AI 代理连接到您已登录的代理需要触摸您已打开的选项卡吗？它必须显式借用该选项卡，在任务完成后返回它，并保留浏览器的其余部分 https://github.com/user-attachments/assets/db782c92-b1d4-4aae-a255-039675937a90 BrowserSkill 优点 - 重用真实登录状态：代理可以使用您已经登录的站点，无需单独的测试帐户。 - 保持不间断工作：浏览器���务在单独的可见代理窗口中运行，因此您可以继续使用自己的浏览器。 - 支持任何 Agent：任何可以调用 shell 的 Agent 都可以通过 bsk CLI 使用 BrowserSkill，无需锁定特定模型、Agent 框架，或者 - 内置人机循环：当任务执行验证码、登录、确认对话框或其他纯人工步骤时，Agent 可以要求您接管，然后继续。 BrowserSkill 有两个本地运行时部分：b
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, browser-use
+
+---
+
+### 🌟 [GameWorld](https://github.com/gameworld-project/GameWorld)
+- **项目语言**: Python
+- **星标数量**: ⭐ 215
+- **核心概述**: GameWorld：迈向多模式游戏代理的标准化和可验证评估
+- **大概是做什么的**: [技术报告] • GameWorld 使用基于结果、状态可验证的评估，对基于浏览器的环境中的 34 款游戏和 170 项任务的多模式游戏代理进行基准测试。 - 2026.06 GameWorld在Seed-2.1模型卡中被用作统一的数字代理基准。 - 2026.06：GameWorld 被 ECCV 2026 接受。 - 2026.04：用于基准测试的完整游戏库可在 gameworld-project/GameWorld-Games 上找到。 - 2026.04：GameWorld 推出技术报告和项目页面。 Python 和浏览器环境：为您计划使用的提供商���置 API 密钥：或使用 vLLM 在本地托管您自己的模型。从 gameworld-project/GameWorld-Games 克隆完整的游戏库。更多设置说明：docs/install/INSTALLATION.md。首先，验证浏览器和运行时设置是否正确： 运行单个预设： 运行基准实验： 🖥️ 结果和监控结果保存到 results/run / 。规范运行数据存储在 run meta.json 、 agent N/interactions.jsonl 和 agent 0/evaluation/evaluation.json 中。我们建议使用仪表板来监控并行RU
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, benchmark, computer-use
+
+---
+
+### 🌟 [chatgpt-cli](https://github.com/kardolus/chatgpt-cli)
+- **项目语言**: Go
+- **星标数量**: ⭐ 944
+- **核心概述**: ChatGPT CLI 是一个功能强大的多提供商命令行界面，适用于现代法学硕士。它支持 OpenAI、Azure、Perplexity、LLaMA 等，具有流媒体、交互式聊天、提示文件、图像/音频 I/O、MCP 工具调用以及用于安全、多步骤自动化的实验代理模式等功能。
+- **大概是做什么的**: ChatGPT CLI 是一个功能强大的多提供商命令行界面，适用于现代法学硕士。它支持 OpenAI、Azure、Perplexity、LLaMA 等，并包括流媒体、交互式聊天、提示文件、图像/音频 I/O、MCP 工具调用以及用于具有安全和预算控制的多步骤任务的实验代理模式。 - 使用提示标志 - 探索更多提示 - 代理模式（ReAct + 计划/执行） - 预算和策略 - 标头和身份验证 - MCP 会话管理 - 如何使用 MCP 结果 - 使用 Homebrew (macOS) - 常规配置 - LLM 特定配置 - 代理配置 - 自定义配置和数据目录 - 自定义目录示例 - 交互模式变量 - 使用 --target 在配置之间切换 - Azure 配置 - Perplexity 配置 - 302 AI 配置 - Atlas Cloud 配置 -命令行自动完成 - 启用自动完成 - 持久自动完成 - Markdown 渲染 - 使用 Makefile - 报告问题和贡献 - 其他资源 流模式：与 GPT mod 实时交互
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agentic-ai, azure, chatgpt, cli, go
+
+---
+
+### 🌟 [oterm](https://github.com/ggozad/oterm)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,413
+- **核心概述**: LLM 的终端客户端
+- **大概是做什么的**: Ollama、OpenAI、Anthropic 和任何 pydantic-ai 支持的提供商的终端客户端。完整安装方法、配置和使用：oterm Documentation 。多提供商，通过 pydantic-ai（突破）。 oterm 不再仅限于 Ollama - 它驱动任何 pydantic-ai 支持的提供商：OpenAI、Anthropic、Google (AI / Vertex)、Groq、Mistral、Cohere、AWS Bedrock、DeepSeek、Cerebras、Grok、Hugging Face、OpenAI 兼容端点（vLLM、LM Studio、llama.cpp、OpenRouter、LiteLLM，...）和 Ollama。设置匹配的 API 密钥，提供商将显示在新聊天下拉列表中。刷新了聊天界面。无边界重音驱动布局、自动增长提示、内联 [Image N] 附件标记、折叠式思维部分以及代替旋转器的实时标记使用页脚。更快的流媒体。现在，Markdown 会随着增量到达而更新，而不是在每个标记上重新渲染，因此长响应不会随着响应的增长而减慢终端速度。 MCP 重写（破坏）。 mcpServers 配置块采用 pydantic-ai 的标准架构（与 Claude Desktop / Cursor 兼容）。请参阅 docs/mcp 了解完整的迁移说明。
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: llm, llms, machine-learning, ollama, python, terminal
+
+---
+
 ## 🕔 2026-07-31 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 226 个候选项目中筛选出 6 个未推荐过的新项目。
