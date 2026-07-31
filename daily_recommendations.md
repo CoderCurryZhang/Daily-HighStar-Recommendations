@@ -1,3 +1,67 @@
+## 🕔 2026-07-31 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 181 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [hummingbot](https://github.com/hummingbot/hummingbot)
+- **项目语言**: Python
+- **星标数量**: ⭐ 19,281
+- **核心概述**: 开源软件可帮助您创建和部署高频加密货币交易机器人
+- **大概是做什么的**: Hummingbot 是一个开源框架，可帮助您设计和部署可在许多集中式或分散式交易所上运行的自动交易策略或机器人。去年，Hummingbot 用户在 140 多个独特的交易场所产生了超过 340 亿美元的交易量。 Hummingbot 代码库是免费的，并在 Apache 2.0 开源许可证下公开可用。我们的使命是通过创建一个由算法交易者和开发人员组成的全球社区来共享知识并为代码库做出贡献，从而实现高频交易的民主化。网站和文档：官方 Hummingbot 网��和文档 安装：在各种平台上安装 Hummingbot Discord：全球 Hummingbot 社区的主要聚集地 YouTube：教您如何充分利用 Hummingbot 的视频 Twitter：获取有关 Hummingbot 的最新公告 报告量：所有 Hummingbot 实例的报告交易量 时事通讯：每当我们发布新版本时获取我们的时事通讯 Condor 是用于构建和运行代理策略和机器人的 AI 工具实例
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, algotrading, arbitrage, backtesting, binance, bitcoin
+
+---
+
+### 🌟 [conduit](https://github.com/cogwheel0/conduit)
+- **项目语言**: Dart
+- **星标数量**: ⭐ 1,849
+- **核心概述**: 适用于 Open WebUI 的本机 iOS 和 Android 客户端，以及直接 OpenAI 兼容、Ollama 和 OpenRouter 连接以及自托管 Hermes 代理。本地优先聊天，反向代理的真实身份验证，无遥测。
+- **大概是做什么的**: 用于 Open WebUI、您自己的模型端点和自托管代理的本机移动客户端。 Open WebUI 在桌面上表现出色。在移动设备上，它在边缘崩溃：反向代理后面的身份验证、应用程序后台时丢失的流媒体、在提示中获取屏幕截图、从主屏幕开始聊天。 Conduit 是一个真正的 Flutter 应用程序，旨在缩小这一差距，从 4.0 开始，它可以在有或没有 Open WebUI 服务器的情况下工作。您的聊天内容首先会显示在您的设备上。没有任何路��通过维护者操作的后端。三种连接方式 首次启动时，Conduit 会询问您希望如何连接。选择一个，稍后添加其他，并跳过任何不需要的登录。打开 WebUI 您的自托管服务器 完整的功能集：聊天、文件夹、笔记、频道、工作区、工具、网络搜索、图像生成 直接与 OpenAI 兼容、Ollama、OpenRouter 直接与您自己的计算机上的提供商或模型交谈。无需 Open WebUI 帐户 Hermes 您的自托管代理 运行工具、在敏感步骤之前询问并按计划工作的代理 直接连接涵盖 OpenA
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-assistant, android, chat, chatbot, cross-platform
+
+---
+
+### 🌟 [lotti](https://github.com/matthiasn/lotti)
+- **项目语言**: Dart
+- **星标数量**: ⭐ 1,156
+- **核心概述**: 具有本地代理层的开源私人日志。长寿的人工智能代理会读取您记录的内容并建议下一步该做什么。如果硬件允许，这些模型也可以在本地运行。 Matrix + Vodozemac 可在您自己的设备之间实现端到端加密同步。
+- **大概是做什么的**: 您实际所做工作的私人日志。洛蒂记录了你打算做的事情和实际发生的事情，并将它们作为单独的事实保存。任务、计划的区块、跟踪的时间、语音笔记、日记条目、习惯和健康数据都存储在您自己设备上的本地数据库中。没有 Lotti 帐户，也没有 Lotti 服务器。人工智能是可选的，当你设置它时，洛蒂推荐的路线是运行开放权重模型的欧洲基础设施。未经您的批准，任何内容都不会进入您的历史记录。 macOS · Linux · Windows · iOS · Android。 Flutter 和 Dart，GPL-3.0，自 2016 年以来一直在开发。自 2022 年以来，我已经在其中跟踪了大约 11,000 个小时的自己的工作。它实际上有什么不同？意图和现实是单独的记录。任务描述了您想要的结果。时间记录描述了实际发生的事情，并附有解释它的笔记、照片、录音和测量结果。大多数工具将两者合并为一个列表，然后要求您假装这一天按计划进行。洛蒂让他们分开，这样当这一周变得吵闹时，记录就能保持诚实。代理公关
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic, agentic-ai, agentic-workflow, ai, ai-agents, android-app
+
+---
+
+### 🌟 [agentty](https://github.com/1ay1/agentty)
+- **项目语言**: C++
+- **星标数量**: ⭐ 325
+- **核心概述**: 终端中的 AI 结对编程 — 一个静态二进制文件、亚毫秒级启动、任何模型
+- **大概是做什么的**: 在您的终端中进行 AI 配对编程 一个静态二进制文件。亚毫秒启动。任何型号。首次启动会打开身份验证 - 粘贴 API 密钥（Anthropic sk-ant-... 或任何提供商的密钥）或使用根本不需要密钥的本地 Ollama 模型。如果您愿意，还可以使用 Claude Pro/Max OAuth 登录。进入后，首次运行的欢迎卡会建议您尝试一些事情；只需输入并按 Enter 键即可。冷启动时间低于 1ms。没有 Node，没有 Python，没有 npm 安装。只是一个静态二进制文件。 Claude、GPT、Groq、OpenRouter、Ollama 或任何 OpenAI 兼容端点。使用 ^P 切换直播。 🛡️ 默认沙盒化 每个 shell 调用都在 bwrap (Linux) / sandbox-exec (macOS) 内运行。文件工具拒绝工作区之外的路径。在没有互联网的盒子上运行。您的笔���本电脑通过 SSH 中继字节，并使用端到端固定的 TLS。读取·写入·编辑·bash·grep·glob·git·web·搜索文档·搜索代码·任务——每个都有一个专门构建的小部件。 🧠 学习您的代码库代理技能 + 记住/忘记记忆，加上完全本地的 RAG 引擎 - 混合 BM25 + 嵌入、RRF 融合、重新排名、多样化和扩展
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: acp, agentic-coding, ai-agent, airgap, anthropic, claude
+
+---
+
+### 🌟 [computer-use-linux](https://github.com/agent-sh/computer-use-linux)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 337
+- **核心概述**: 通过 MCP 进行 Linux 桌面控制 — AT-SPI、GNOME Shell、Wayland 门户、ydotool
+- **大概是做什么的**: 从任何 MCP 主机控制真正的 Linux 桌面。 Computer-use-linux 读取可访问性树，截取屏幕截图，并驱动 GNOME、KDE/KWin、Hyprland、i3 和 COSMIC 上的点击、滚动和击键 — Wayland 优先，X11 尽力而为。 Rust crate 发布为 Computer-use-linux ，npm 包装器发布为 @agent-sh/computer-use-linux 。预构建的二进制文件随最新版本一起提供。 Computer-use-linux 是一个 Rust MCP 服务器和用于 Linux 桌面控制的 CLI。该板条箱附带了主要的computer-use-linux 二进制文件以及一个��用于 COSMIC Wayland 窗口管理的小型computer-use-linux-cosmic 助手。任何 MCP 主机（Codex Desktop 的 Linux 版本、Claude Desktop、Hermes Agent 或您自己的客户端）都可以生成它并获得对本地 Linux 桌面的完全控制：读取辅助功能树、列表和焦点窗口、截取屏幕截图、单击、拖动、滚动、键入和调用语义辅助功能操作。大多数计算机使用的 MCP 服务器仅适用于 macOS（它们依赖于 AppKit、AXUIElement、CGEvent）。少数针对 Linux 的软件要么在 X11 根窗口上驱动 xdotool，要么通过 scre 进行 OCR
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, cargo, claude, codex, computer-use
+
+---
+
+### 🌟 [awesome-agent-architecture](https://github.com/hardness1020/awesome-agent-architecture)
+- **项目语言**: Python
+- **星标数量**: ⭐ 432
+- **核心概述**: 从头开始学习人工智能代理。
+- **大概是做什么的**: 很棒的代理架构 了解现代人工智能代理是如何围绕法学硕士构建的。 English · 繁体中文 · 简体中文 型号原因。该工具赋予它动作、状态和限制：它运行工具、在调用之间保持状态、控制副作用和协调循环，而模型调用本身不会执行这些操作。该存储库逐节解释了该工具：循环、工具、内存、权限、上下文、任务和接口。学习一次，您就可以阅读许多代理，因为编码工具、聊天助手和自动跑步者在安全带选择上大多有所不同。内容：循环·方法·系统·部分·结构·运行大多数代理共享相同的控制流：调用模型，运行请求的工具，附加结果，然后再次调用模型。环路很小。大多数工程都是围绕它：调度工具、门副作用、管理上下文、持久状态和协调其他循环。每个部分都是独立的，并使用相同的四部分镜头： 1. 开口。这一层解决什么问题。 2、机制。总体设计和控制流程。 3. 每个系统。真实系统如何实现它。 4. 故障m
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, harness-engineering
+
+---
+
 ## 🕔 2026-07-30 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 231 个候选项目中筛选出 6 个未推荐过的新项目。
