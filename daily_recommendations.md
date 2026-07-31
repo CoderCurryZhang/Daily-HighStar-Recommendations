@@ -1,3 +1,67 @@
+## 🕔 2026-07-31 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 226 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [QuantDinger](https://github.com/OpenByteInc/QuantDinger)
+- **项目语言**: Python
+- **星标数量**: ⭐ 10,139
+- **核心概述**: 加密货币、股票和外汇的人工智能量化交易平台，具有回测、实时交易、市场数据和多代理研究。vibe-trading,trading-agents,ai-trader,ai-trading
+- **大概是做什么的**: 开源人工智能交易操作系统将交易想法转化为 Python 策略、回溯测试、模拟交易、实时执行和监控——所有这些都在一个自托管堆栈中。 QuantDinger 是 Open Byte Inc. 的产品。人工智能研究 → 策略代码 → 回测 → 纸质/实时执行 → 监控官方支持电子邮件 QuantDinger 在明确启用实时交易时可以提交真实订单。从纸质交易开始，使用受限的 API 密钥，并审查您所在司法管辖区的风险和合规性要求。本项目不提供 QuantDinger 是一个面向独立交易者、Python 策略作者和小型团队的开源 AI 交易操作系统。其本地优先、自托管设计保留了市场数据、策略代码、经纪商凭证和部署。该项目结合了： - 多提供商人工智能市场研究和分析； - Python指标和策略API V2开发； - 服务器端回测和实验工作流程； - 加密货币交易所和传统经纪商的纸质和实时执行； - Web、移动 H5、人工 API、代理网关和 MCP 访问； - PostgreSQL 支持的状态，持久
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, alpaca, backtesting, binance, coinbase
+
+---
+
+### 🌟 [AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,167
+- **核心概述**: AgentSociety 2 是一个现代的、法学硕士本地代理模拟平台，专为社会科学研究和实验设计而设计。它提供了一个灵活的框架，用于在模拟环境中创建和管理智能代理。
+- **大概是做什么的**: AgentSociety：社会中的 LLM 代理 AgentSociety 是一个用于在城市环境和研究工作流程中构建基于 LLM 的代理模拟的框架。 - AgentSociety 2（推荐）：arXiv:2607.11895 - AgentSociety (v1)：arXiv:2502.08691 机器可读引文：CITATION.cff · itations.bib 该存储库包含两个主要包： AgentSociety 2（推荐） AgentSociety 2 是专为社会科学设计的现代 LLM 原生代理模拟平台研究和实验。 - LLM 原生设计：为 LLM 驱动的代理从头开始构建 - 灵活的环境系统：具有热插拔工具的模块化环境组件 - 多种推理模式：CodeGen（默认）、ReAct、计划执行、两层和搜索路由器 - 可扩展执行：代理是由 Ray 任务驱动的工作区绑定无状态记录，在单个 ServiceProxy 后面带有 env / LLM 客户端/跟踪/重放句柄 - 研究技能：文献搜索、假设生成、实验设计、论文写作 - 实验重放：使用 DuckDB 支持的读取和分发进行目录驱动的 JSONL 重放
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agent-based-modeling, agentsociety2, ai-assistants, ai-for-science, ai-social-scientist
+
+---
+
+### 🌟 [memmy-agent](https://github.com/MemTensor/memmy-agent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 337
+- **核心概述**: 🍙 个人 AI 代理和本地内存中心，适用于 Claude Code、Codex、OpenClaw 和 Hermes Agent 等所有 AI 代理。为每个人工智能提供共享的、完全受控的记忆和持久的上下文——所有人工智能都记得同一个你。
+- **大概是做什么的**: Memmy 是您的个人记忆中心，也是最了解您的专属特工。 🆓 注册免费试用，从官网或GitHub发布获取Memmy。注册即可获得免费代币。模型路由是自动的——以零配置开始探索完整的内存+代理运行时。注册授予代理任务试用代币；当前的金额和使用情况显示在应用程序中。试用积分用完后，您可以切换到 BYOK 并使用您自己的模型 API。每个人工智能会话都会生成上下文。大部分都被扔掉了。切换代理、关闭选项卡、开始新会话，然后您就可以从头开始重新介绍自己。通过在 Cursor、Claude Code、Codex、OpenClaw 🦞、Hermes Agent 等之间共享统一的内存层，您的代理可以在彼此的上下文上构建而不是重新开始。一次性对话成为长期的工作关系。它将您的知识、偏好和项目经验提炼到个人记忆中，并在每个代理之间共享相同的上下文。以桌面应用程序、CLI 和 API 形式提供。您可以以任何您喜欢的方式使用相同的长期记忆
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, ai, ai-agents, chatgpt, claude-code
+
+---
+
+### 🌟 [nexus-agent](https://github.com/java-up-up/nexus-agent)
+- **项目语言**: Java
+- **星标数量**: ⭐ 273
+- **核心概述**: 企业级 AI 智能体 Agent 平台，覆盖智能对话、文档知识问答、联网搜索、RAG 检索、MCP 工具协议、Skills 扩展等完整能力。三层执行器体系、双通道混合检索、组合式切块引擎、会话记忆管理、全链路可观测，每个环节都经过深 度设计和工程化打磨。
+- **大概是做什么的**: 从文档入库、知识路由、混合检索到证据生成、工具调用和可观测治理的完整闭环 开源不易，如果这个项目对你有帮助，欢迎给 Nexus Agent 点一个 Star。 Nexus Agent 是一个 企业级 的 AI 智能体对话平台，覆盖智能对话、文档知识问答、联网搜索、RAG 检索、MCP 工具协议、Skills 能力扩展、Harness 工程化控制、会话记忆管理、等完整能力。 项目从对话入口开始，到意图分析、检索决策、多路知识召回、证据驱动生成，再到会话记忆管理、MCP 外部工具集成和文档治理， 每一个环节都不是简单调个接口就完事的，而是经过深度设计和反复打磨的工程化实现 。 官网文档 Nexus Agent 项目介绍 完整项目介绍和学习路线 核心架构 查看架构设计 了解对话、检索、工具、文档治理链路 快速启动 准备项目启动条件 本地启动前后端和中间件 - ReAct Agent 智能体的完整实现 ：不只是能聊天，而是支持联网搜索、工具调用、多步推理、Checkpoint 持久化，真正能自主决策和行动的 Agent。 - 三层执行器体系 ：系统不是把所有问题都交给 Agent，而是先做确定性编排，再按场景选择歧义追问、知识问答或开放式 Agent。 - Neo4j 文档结构图谱 ：每份文档在索引构建时生成 Document - Section - Item 层级图结构，支持章节定位、邻接遍历和结构化导航。 - 知识路由三级漏斗 ：用户提问后先走 Scope - Topic - Document 三级排序漏斗，自动锁定最相关的知识范围，再进入检索链路。 - 影子路由质量观测 ：用户手动选择文档时，系统在后台静默运行知识路由，对比系统推荐和用户实际选择，用于持续评估和优化路由质量。 - RAG 前置编排引擎 ：路由判定、问题改写、子问题拆分、知识域收缩、歧义澄清，在模型回答前先把检索计划做好。 - 双通道混合检索 ：向量检索和关键词检索并行执行，RRF 融合排序，可选外部 Rerank 精排，召回率和精准度兼顾。 - 证据预算控制与无证据短路 ：多子问题证据需要严格裁剪；没有找到相关证据时直接告知用户，不让模型凭空编造。 - Parent-Child 块聚合 ：检索粒度用 Child 小块保证命中率，回答阶段聚合到 Parent 大块保证上下文完整性。 - 三种会话记忆策略 ：无记忆、滑动窗口、摘要压缩，完整展示生产环境下如何平衡 Token 成本和上下文完整性。 - MCP 工具协议集成 ：Agent 可以动态发现和调用外部工具，不再局限于硬编码 Function C
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-rag, ai, ai-agent, llm, mcp
+
+---
+
+### 🌟 [gemini-youtube-automation](https://github.com/ChaitanyaEswarRajeshJakki/gemini-youtube-automation)
+- **项目语言**: Python
+- **星标数量**: ⭐ 309
+- **核心概述**: 完全自主的 AI 代理/Python 管道，利用 Gemini 等大型语言模型 (LLM) 来生成内容、制作视频并自动将教育视频上传到 YouTube。
+- **大概是做什么的**: 🤖 Gemini YouTube 自动化 一个完全自主的人工智能机器人，每天编写、制作和上传 YouTube 课程——零人工输入。 📺 在 YouTube 上观看生成的视频 UTC 每天上午 7:00，该机器人完全在 GitHub Actions 上运行，并且： 1. 阅读内容计划以选择下一个待处理的课程 2. 使用 Gemini 2.5 Flash 编写完整的多幻灯片脚本 3. 生成旁白音频 (gTTS) 并获取 Pexels 背景图像 4. 渲染专业的基于幻灯片的视频(1920×1080)，带背景音乐 5. 渲染同一课程中的垂直 YouTube 短片 (1080×1920) 6. 为每种格式创建自定义缩略图 7. 将两个视频及其标题、说明和主题标签上传到 YouTube 8. 更新内容 plan.json 并将其提交回存储库 无本地计算机。没有手动步骤。频道中的每个视频都是由该管道制作的。 - 零接触操作 — 完全自主，按 cron 计划运行 - 双格式输出 — 长格式课程视频和每天 YouTube 短片 - 人工智能生成的课程 — Gemini 自动创建和扩展课程计划 - 动态 v
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-course-creator, ai-video-generator, autonomous-agents, generative-ai, image-generation, llm
+
+---
+
+### 🌟 [scope-recall-hermes](https://github.com/410979729/scope-recall-hermes)
+- **项目语言**: Python
+- **星标数量**: ⭐ 204
+- **核心概述**: Hermes Agent memory plugin/provider for scope-aware recall, SQLite truth, LanceDB semantic search, and hybrid retrieval.
+- **大概是做什么的**: Hermes 的 Scope Recall Hermes 当前轮次内存提供程序，具有日志优先语义捕获、持久调用、SQLite 真值存储和可选向量同伴，为 Hermes 提供持久内存，可以跨窗口/聊天跟踪同一用户，同时防止本地临时上下文渗入错误的位置。当前回合召回 · 日志优先捕获 · 持久共享内存 · 后台摘要 · 本地临时范围 · SQLite 真相 · LanceDB/SQLite 伴侣 · 混合 RRF 检索范围-recall 是一个 Hermes 本地内存提供程序，专为当前回合召回和持久语义记忆而构建。持久的用户/项目/操作/内存事实在同一用户+代理身份的窗口/聊天之间共享；原始一般回合捕获保留在当前聊天/线程/会话本地。这个存储库，scope-recall-hermes，是 Hermes 的实现。 Python 发行版包是 hermes-scope-recall ，Python 导入/包拼写是 scope recall ，并且 Hermes 插件 ID/提供程序名称仍保留 scope-recall 以实现运行时兼容性。 OpenClaw 兄弟实现存在于范围调用中
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, ai-memory, hermes, hermes-agent, hermes-plugin
+
+---
+
 ## 🕔 2026-07-31 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 225 个候选项目中筛选出 6 个未推荐过的新项目。
