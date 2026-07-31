@@ -1,3 +1,67 @@
+## 🕔 2026-07-31 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 225 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [astron-rpa](https://github.com/iflytek/astron-rpa)
+- **项目语言**: Java
+- **星标数量**: ⭐ 5,955
+- **核心概述**: 代理就绪的 RPA 套件，具有开箱即用的自动化工具。专为个人和企业打造。
+- **大概是做什么的**: 🤖 开创性开源企业 RPA 桌面应用程序 Astron RPA 官方网站 · 用户文档 · AstronRPA 是一款企业级机器人流程自动化 (RPA) 桌面应用程序。通过可视化设计器，它支持低代码/无代码开发，使用户能够快速构建工作流程并自动化桌面软件和网页。 Astron Agent 是该项目支持的原生 Agent 平台。用户可以直接调用Astron Agent中的RPA工作流程节点，也可以使用AstronRPA中的Agent工作流程，实现自动化流程与智能代理系统的高效协作，赋能更广泛的业务自动化场景。 🎯 为什么选择 AstronRPA？ - 🛠️全面的自动化支持：全面覆盖Windows桌面应用程序和网页自动化。支持WPS、Office等常用办公软件，金蝶、用友等财务、ERP系统，以及IE、Edge、Chrome等多种浏览器，实现端到端跨应用自动化。 - 🧩 高度组件化：300+ 涵盖 UI 操作的预构建原子功能
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, astron, automation, data-privacy, enterprise
+
+---
+
+### 🌟 [nanocodex](https://github.com/gakonst/nanocodex)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 320
+- **核心概述**: Rust 中前沿 OpenAI 代理的构建块。 Nanocodex 使您可以在任何地方获得 Codex 级别的性能。
+- **大概是做什么的**: 前沿 OpenAI 代理的构建块。安装 · 代理 API · 论文 · 组件 · VM 支持的工具 · 文档 [ci]：https://github.com/gakonst/nanocodex/actions/workflows/ci.yml [crates]：https://crates.io/crates/nanocodex [文档]：https://docs.rs/nanocodex [许可证]：LICENSE-MIT 在 macOS 或 Linux 上安装 Nanocodex CLI：或将 Rust SDK 添加到应用程序：在之间切换已安装的 CLI构建：下载的构建保留在 /.nanocodex/versions 下。再次运行 nanocodex update 0.2.0 会切换到缓存的二进制文件，无需再次下载。即使较旧的二进制文件处于活动状态，稳定的启动器也能保持 nanocodex 更新可用，并且指向所选 PR 工件的 /.nanocodex/current 点需要经过身份验证的 gh CLI 和该 PR 已完成的按需工件工作流程。第一个等待接受并命令提示。第二个等待其输入的 TurnResult 。后续提示会自动重用代理保留的历史记录、WebSocket、工具、shell 会话和提示缓存标识。 agent.clone() 是同一会话的廉价句柄；独立的
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-agents, anthropic, chatgpt, claude
+
+---
+
+### 🌟 [ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 558
+- **核心概述**: 您自己的 AIGC 工厂。任何图片。任何卷轴。舒适的方式。 ©️
+- **大概是做什么的**: ComfyUI-OpenClaw 是 ComfyUI 的安全第一编排层，结合了强化的自动化 API、嵌入式操作员 UX 和生产部署控制： - LLM 辅助节点（规划器/精炼器/视觉/批处理变体） - 内置扩展 UI（OpenClaw 面板） - 用于移动/远程浏览器操作的独立远程管理控制台 ( /openclaw/admin ) - 用于自动化的默认安全 HTTP API（webhooks、触发器、计划、 - 公共就绪的控制平面分割架构（嵌入式 UX + 外部化高风险控制面） - 验证优先的强化通道（分阶段覆盖治理、测试债务治理、路线漂移、真实后端 E2E、对抗性模糊/突变门） - 现在支持 8 个主要消息平台，包括 Discord、Telegram、WhatsApp、LINE、微信、KakaoTalk、Slack 和飞书/云雀。 - 不断添加更多令人兴奋的功能 支持的产品边界： - 主要工件：ComfyUI 自定义节点包 - 一流的运行时身份：嵌入式操作员平台 - 可选附加子系统
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, comfyui, comfyui-nodes, discord-bot, feishu-bot
+
+---
+
+### 🌟 [Dormice](https://github.com/BitMiracle-AI/Dormice)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 345
+- **核心概述**: 代理沙箱的 SQLite — 自托管、E2B 兼容。一台机器，永远存在的沙箱，闲置不需要任何成本。
+- **大概是做什么的**: 代理沙箱的 SQLite — 一个用于 AI 代理的自托管沙箱平台。一台机器，永远存在的沙箱，闲置不需要任何成本。状态：早期开发。守护进程、其生命周期引擎、SDK、CLI、Web 控制台、真正的 Docker + gVisor 执行器、S3 存档器和 E2B 兼容 API 端到端工作 — 完整的创建 → 冻结 → 停止 → 存档 → 恢复周期、命令执行、文件 I/O 以及针对真实基础设施的官方 e2b SDK。这里还没有准备好进行生产。云沙箱平台按沙箱存在的每一秒收费，因此它们的沙箱是一次性的。 Dormice 颠倒了这一点：你在已经付费的机器上运行它，沙箱是永久性的——它们闲置的时间越长，它们的成本就越低。 - acquireSandbox(userKey) 是整个心智模型。幂等：相同的密钥总是返回到同一个沙箱，无论它处于什么状态。无沙箱→创建；冻结→醒来；停止→开始；存档→恢复。 - 空闲是免费的。沙箱会自行冷却 - 活动 → 冻结 → 停止 → 存档 - 一次一个梯级，一个
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agents, code-execution, docker, e2b, gvisor
+
+---
+
+### 🌟 [siclaw](https://github.com/scitix/siclaw)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 224
+- **核心概述**: AI 支持的 SRE 平台 — 具有深入调查、安全治理和团队协作的只读基础设施诊断
+- **大概是做什么的**: DevOps 和 SRE 团队的只读调查副驾驶 网站实时预览文档 Slack Siclaw 是面向 DevOps 和 SRE 团队的开源 AI 代理。它专为只读基础设施诊断而构建：收集证据、形成假设、验证它们，并返回清晰的根本原因分析，而无需直接更改您的环境。用简单的语言描述问题，Siclaw 会通过终端、Web UI 或团队的聊天渠道进行调查。门户 UI 的托管预览（4 个专家代理、记录的调查会话和内置诊断技能集）可在 siclaw.ai/demo 上获取。 - 深入调查 — 用于证据收集、假设检验和根本原因分析的 4 阶段工作流程 - 调查记忆 — 从过去的事件中学习，以改进未来的调查 - 默认只读 — 调查并建议后续步骤，而无需直接更改您的环境 - 团队工作流程 — 共享 Web UI、凭证、通道、触发器和计划巡查 - 可重用技能 — 将重复的诊断手册转变为可审查的 runbo
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, ai-agents, aiops, devops, kubernetes
+
+---
+
+### 🌟 [comanda](https://github.com/kris-hansen/comanda)
+- **项目语言**: Go
+- **星标数量**: ⭐ 316
+- **核心概述**: 用于 AI 代理工作流程的 CLI 本机编排器。从声明性 YAML 运行 Claude Code、Codex、Gemini CLI 和 Kimi Code。因为终端是真正工作发生的地方。
+- **大概是做什么的**: 让编码代理赢得退出。 Comanda 是终端本机运行时，用于在存储库中进行持久的、自我改进的代理工作。用英语描述工作流程，检查生成的程序，运行您已经使用的编码代理，只有当您自己的质量门表明工作已完成时才停止。从想法到受管理的工作流程 Comanda 以英语开始，但以 YAML 程序结束，您可以检查、版本控制和改进。描述一下。检查一下。运行它。改进它。承诺吧。循环未完成，因为代理说“完成” 长时间运行的工作需要可观察的退出标准。 Comanda 的代理循环保持状态，根据先前结果细化后续提示，并在每次迭代后运行自动质量门。中断运行并从最后一个检查点恢复运行。运行完整的代码质量循环，然后检查或恢复它：Comanda 支持重试、中止和跳过策略；语法、安全性和自定义命令门；有界或无限游程；以及创建者/检查者或依赖的多循环工作流程。请参阅代理循环示例。使用您已经拥有的 Coordination Cla 代理
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, anthropic, automation, claude
+
+---
+
 ## 🕔 2026-07-31 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 181 个候选项目中筛选出 6 个未推荐过的新项目。
