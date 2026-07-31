@@ -1,3 +1,67 @@
+## 🕔 2026-07-31 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 224 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [smg](https://github.com/smg-project/smg)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 427
+- **核心概述**: Rust 中与引擎无关的 LLM 网关。跨 vLLM、TRT-LLM、TokenSpeed、SGLang、OpenAI、Gemini 等完全兼容 OpenAI 和 Anthropic API。业界首创的 gRPC 管道、KV 缓存感知路由、聊天历史记录、标记化缓存、响应 API、嵌入、WASM 插件、MCP 和多租户身份验证。
+- **大概是做什么的**: Shepherd 模型网关 与引擎无关的高性能模型路由网关，适用于大规模 LLM 部署。集中工作人员生命周期管理，平衡 HTTP/gRPC/OpenAI 兼容后端的流量，并提供对历史存储、MCP 工具和隐私敏感工作流程的企业级控制。 :-------------------------------- :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 🚀 最大化 GPU 利用率 缓存感知路由了解推理引擎的 KV 缓存状态（无论是 vLLM、TensorRT-LLM、TokenSpeed 还是 SGLang），以重用前缀并减少冗余计算。 🔌 一个 API，通过单个统一端点，任意后端路由到自托管模型（vLLM、TensorRT-LLM、TokenSpeed、SGLang）或云提供商（OpenAI、Anthropic、Gemini、Bedrock 等）。 ⚡ 专为速度原生 Rust 打造，具有 gRPC 管道、亚毫秒级路由决策和零复制标记化。断路器和自动故障转移使一切保持正常运行。 🔒 企业
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: anthropic, anthropic-api, chat, claude, gemini, inference-gateway
+
+---
+
+### 🌟 [rizzo-pii](https://github.com/Rizzo-AI-Academy/rizzo-pii)
+- **项目语言**: Python
+- **星标数量**: ⭐ 429
+- **核心概述**: 本地优先的隐私保护：在与法学硕士共享之前对您的文档进行匿名处理。
+- **大概是做什么的**: 意大利法律文本的本地可逆 PII 匿名化 使用前沿模型而无需放弃您的数据。 📄 阅读完整的技术报告 (PDF) — 详细介绍模型、数据集、方法和实验 🪟 Windows 安装程序 · 🍎 macOS (Apple Silicon) · 🐧 Linux AppImage — 现已全部可用 rizzo-pii:0.3B 是一个轻量级、CPU 友好的意大利首个令牌分类模型（≈0.3B 参数，mmBERT / ModernBERT 主干），可检测 22 类个人数据 — 包括意大利法律没有其他开放模型涵盖的标识符（ codice Fiscale 、 Partita IVA 、 dati catastali ），并驱动完全可逆的匿名化工作流程： 🔒 本地匿名 → 🏷️ 占位符 + 可逆本地字典 → ☁️ 前沿 LLM → 🔓 本地恢复 它是为律师事务所、会计师、公证人和任何受 GDPR 约束并希望继续使用 ChatGPT / Claude / 的人而构建的Gemini 在敏感文档上从未发送过真实数据 ≈0.3B 0.5 GB 22 0.989 :---: :---: :---: :---: 参数 (mmBERT-base) RAM 占用空间、CPU PII 类别 micro-F1（真实 IT 验证） 刺猬吉祥物 doe
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: anonymization, gdpr, italian, legal-tech, llm, local-first
+
+---
+
+### 🌟 [tau](https://github.com/AbdoKnbGit/tau)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 283
+- **核心概述**: 所有开发代理、会话和环境的协调器。
+- **大概是做什么的**: Tau - 最佳免费编码代理 🌐 访问 Tau 网站了解更多信息 Tau 已成为最佳免费编码代理：一种将 Claude Code 和 OpenCode 生态系统融合到一个混合代理环境中的工具。您可以获得两个代理中最强大的部分，以及之上的新功能和优化。适用于 22 个提供商的本机适配器。不是代理，也不是其他人的包装器的包装器。当您使用 OpenAI 时，Tau 直接使用 OpenAI 的 API。 GLM、DeepSeek、Mistral、OpenRouter、AgentRouter、Vercel AI Gateway、Requesty、Command Code、MiniMax、OpenCode Zen 等也是如此。 PROVIDERS.md 中包含每个提供商注释的完整列表。安装一次。输入 /login 。选择一个提供商。工作。就是这样：通过一个命令和一个登录流程即可即插即用。无外壳配置。无出口声明。没有环境变量考古。首次运行向导会处理凭据并保存它们。人工智能的价格不断攀升。领先的代理商要么将您锁定在单一订阅中，将企业级背后的良好功能锁定在您的手中，要么悄悄地在每个代币上烧毁您的钱包。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, anthropic, antigravity, api, claudecode, cli
+
+---
+
+### 🌟 [dive-into-langgraph](https://github.com/luochang212/dive-into-langgraph)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 432
+- **核心概述**: LangGraph 1.0 教程
+- **大概是做什么的**: 📖《LangGraph 1.0 完全指南》 本教程已转为 Agent Skill。现在无需使用人脑学习本教程，只需要为你的 Claude Code 安装本 Skill，即可写出高质量的 LangChain 和 LangGraph 代码。详见：SKILL.md 使用 npx 安装本 Skill (dive-into-langgraph)： 2025 年 10 月中旬，LangGraph 发布 1.0 版本。开发团队承诺这是一个稳定版本，预计未来接口不会大改，因此现在正是学习它的好时机。 这是一个开源电子书项目，旨在帮助 Agent 开发者快速掌握 LangGraph 框架。LangGraph 是由 LangChain 团队开发的开源智能体框架。它功能强大，你要的记忆、MCP、护栏、状态管理、多智能体它全都有。LangGraph 通常与 LangChain 一起使用：LangChain 提供基础组件和工具，LangGraph 负责工作流和状态管理。因此，两个库都需要学习。为了让大家快速入门，本教程将两个库的主要功能提取出来，分成 14 个章节进行介绍。 以下为 requirements.txt 中的依赖包清单： 1 快速入门 创建你的第一个 ReAct Agent 2 状态图 使用 StateGraph 创建工作流 3 中间件 使用自定义中间件实现四个功能：预算控制、消息截断、敏感词过滤、PII 检测 4 人机交互 使用内置的 HITL 中间件实现人机交互 5 记忆 创建短期记忆、长期记忆 6 上下文工程 使用 State、Store、Runtime 管理上下文 7 MCP Server 创建 MCP Server 并接入 LangGraph 8 监督者��式 两种方法实现监督者模式：tool-calling、langgraph-supervisor 9 并行 如何实现并发：节点并发、 @task 装饰器、Map-reduce、Sub-graphs 10 RAG 三种方式实现 RAG：向量检索、关键词检索、混合检索 11 网络搜索 实现联网搜索：DashScope、Tavily 和 DDGS 12 Deep Agents 简单介绍 Deep Agents 13 Gradio APP 基于 Gradio 开发流式对话智能体应用 14 附录：调试页面 介绍 langgraph-cli 提供的调试页面 承诺 ：本教程完全基于 LangGraph v1.0 编写，不含任何 v0.6 的历史残留。 langgraph-cli 提供了一个可快速启动的调试页面。 第 13 章 开
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, e-book, guide, handbook, langchain
+
+---
+
+### 🌟 [redis-vl-python](https://github.com/redis/redis-vl-python)
+- **项目语言**: Python
+- **星标数量**: ⭐ 418
+- **核心概述**: Redis Vector Library (RedisVL)——Redis 的 AI 原生 Python 客户端。
+- **大概是做什么的**: Redis 矢量库 AI 原生 Redis Python 客户端 文档 • 食谱 • GitHub Redis 矢量库 (RedisVL) 是适用于基于 Redis 构建的 AI 应用程序的生产就绪型 Python 客户端。快如闪电的矢量搜索满足企业级可靠性。非常适合构建具有实时检索功能的 RAG 管道、具有内存和语义路由功能的 AI 代理以及具有快速搜索和重新排名功能的推荐系统。 🎯 核心功能 🚀 AI 扩展 🛠️ 开发实用程序 索引管理 模式设计、数据加载、CRUD 操作 语义缓存 降低 LLM 成本并提高吞吐量 CLI 从终端进行索引管理 矢量搜索 使用元数据过滤器进行相似性搜索 LLM 内存代理 AI 上下文管理 异步支持 异步索引和搜索以提高性能 复杂过滤 组合多种过滤器���型 语义路由 智能查询分类 Vectorizers 8+ 嵌入提供程序集成 混合搜索 组合语义和全文信号 嵌入 缓存 缓存嵌入以提高效率 重新排序 提高搜索结果相关性 MCP 服务器 公开一个或多个 e
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: anthropic, embedding, huggingface, large-language-models, llm, llmcache
+
+---
+
+### 🌟 [newrelic-python-agent](https://github.com/newrelic/newrelic-python-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 209
+- **核心概述**: New Relic Python 代理
+- **大概是做什么的**: New Relic Python 代理 newrelic 软件包通过 New Pinpoint 为您的应用程序提供性能监控和高级性能分析工具，并解决细化到代码行的 Python 应用程序性能问题。 New Relic APM 是您查看 Python 应用程序中所有内容（从最终用户体验到服务器监控）所需的唯一工具。追踪问题到缓慢的数据库查询、缓慢的第三方 API 和 Web 服务、缓存层等等。在生产环境中监控您的应用程序，并确保您的应用程序可以通过运行可扩展性来承受流量的大幅增长。请访问使用 New Relic 进行 Python 应用程序性能监控以了解更多信息。该软件包支持 Python 3.9+，并且可以通过 pip 安装：（这些说明也可以在线找到：Python 代理安装指南。） 1. 使用您的许可证生成代理配置文件 2. 验证代理配置并测试与我们的数据的连接 3. 将代理与您的 Web 应用程序集成。如果您控制 Web 应用程序或 WSGI 服务器的启动方式，推荐的方法是集成
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, newrelic, python
+
+---
+
 ## 🕔 2026-07-31 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 258 个候选项目中筛选出 6 个未推荐过的新项目。
