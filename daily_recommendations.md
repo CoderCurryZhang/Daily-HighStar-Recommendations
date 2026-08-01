@@ -1,3 +1,67 @@
+## 🕔 2026-08-01 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 228 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [mobile-mcp](https://github.com/mobile-next/mobile-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 5,735
+- **核心概述**: 用于移动自动化和抓取的模型上下文协议服务器（iOS、Android、仿真器、模拟器和真实设备）
+- **大概是做什么的**: Mobile Next - 用于移动开发和自动化 iOS、Android、模拟器、仿真器和真实设备的 MCP 服务器 这是一个模型上下文协议 (MCP) 服务器，可通过与平台无关的界面实现可扩展的移动自动化和开发，从而无需了解不同的 iOS 或 Android 知识。您可以在模拟器、模拟器和真实设备（iOS 和 Android）上运行它。该服务器允许代理和法学硕士通过结构化可访问性快照或基于屏幕截图的基于坐标的点击与本机 iOS/Android 应用程序和设备进行交互。可与 Claude Code、Codex、Gemini、GitHub Copilot、Antigravity 或任何 MCP ���容的客户端配合使用。 https://github.com/user-attachments/assets/bb084777-beb3-4930-ae6f-8d3fe694ddde 我们如何帮助扩展移动自动化： - 📲 用于测试或数据输入场景的本机应用程序自动化（iOS 和 Android）。 - 📝 脚本化流程和表单交互，无需手动控制模拟器/仿真器或真实设备（iPhone、三星、Google Pixel 等） - 🧭 由法学硕士驱动的自动化多步骤用户旅程 - 👆 通用
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, android, emulator, ios, mcp, mobile
+
+---
+
+### 🌟 [sparrow](https://github.com/katanaml/sparrow)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,189
+- **核心概述**: 使用 ML、LLM 和 Vision LLM 进行结构化数据提取、指令调用和代理工作流程
+- **大概是做什么的**: 通过 ML、LLM 和 Vision 进行结构化数据提取、指令调用和代理工作流程 LLM Sparrow 是一个用于企业文档智能的 API 优先平台。它将文档（发票、报表、表格）中准确的结构化提取与工作流程代理和决策代理相结合。 🚀 尝试 Sparrow Online 📖 快速入门 🛠️ 安装 📚 示例 🤖 代理 🚀 尝试 Sparrow Online 由 ML、LLM 和 Vision LLM 提供支持的生产就绪型结构化数据提取。将发票、收据、报表、表格和图像转换为干净的结构化数据。 Sparrow 是一个专为企业文档智能而构建的 API 优先平台。它为结构化数据提取、指令处理和多代理工作流程编排提供 RESTful API，所有这些都在您自己的基础设施上运行，无需外部 API 调用或云依赖项。平台功能： - 结构化提取 API：通过 REST 提交文档并接收经过验证的 JSON — 直接集成到任何后端或数据管道中 - 指令处理：超越文档提取 — 文本处理、验证和解析
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: agentic-ai, computer-vision, documentai, huggingface-transformers, llm, machinelearning
+
+---
+
+### 🌟 [TranslateBooksWithLLMs](https://github.com/hydropix/TranslateBooksWithLLMs)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,243
+- **核心概述**: 使用 Ollama、OpenAI（兼容）、Gemini、Mistral、Poe 或 OpenRouter 翻译长篇书籍和文档。保留格式。从上次中断的地方继续。没有文件大小限制。
+- **大概是做什么的**: TBL - 使用法学硕士翻译书籍一款桌面应用程序，可以使用人工智能（本地或云端）翻译书籍、字幕和文档。删除文件，选择语言，获取结果。格式：EPUB、SRT、DOCX、TXT - 无大小限制。处理任何长度的文档 - 从单页到千页小说。智能分块系统可以处理无限的内容，同时保留片段之间的上下文。 - 完美保存。您的文档与输入时一模一样：EPUB 格式、样式和结构保持不变。 SRT 时间码保持完美同步。每个标签、每个时间戳、每个格式细节都被保留。 - 随时恢复。翻译中断？准确地从上次停下的地方继续。检查点系统自动保存进度。翻译质量基准 - 找到最适合您的目标语言的模型。 1. 下载适合您平台的版本（上面的按钮），或从版本页面获取。 2. 解压存档。 3. 运行 TranslateBook.exe (Windows) 或 ./TranslateBook (macOS)。 4. 在浏览器中打开http://localhost:5000。就是这样。首次启动时，您
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: docx, epub, gemini, gemini-api, llm, lmstudio
+
+---
+
+### 🌟 [gerbil](https://github.com/lone-cloud/gerbil)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 472
+- **核心概述**: 用于在本地运行大型语言模型的桌面应用程序。
+- **大概是做什么的**: 在您自己的硬件上生成本地文本和图像 - 本地运行 LLM - 由 llama.cpp 的一个分支 KoboldCpp 提供支持 - 跨平台 - 对 Windows、macOS 和 Linux（包括 Wayland）的本机支持 - 离线功能 - 导入预先下载的 KoboldCpp 二进制文件并完全无需互联网连接即可运行 - 灵活的硬件支持 - 在仅 CPU 的系统上工作，同时还支持 GPU 加速（CUDA、ROCm、Vulkan、Metal） - 图像生成 - Flux、Chroma、Qwen Image 和 Z-Image 工作流程的内置预设 - 集成 HuggingFace 搜索 - 浏览模型、查看模型卡并直接从应用程序下载 GGUF 文件 - SillyTavern 集成 - 启动 SillyTavern 进行高级角色交互（需要 Node.js） - OpenWebUI 集成 - 启动 OpenWebUI 实现基于 Web 的现代聊天界面（需要 uv） - 注重隐私 - 无遥测、无外部服务器、无帐户 1. 下载适用于您的平台的 Gerbil 2. 启动应用程序 - 便携式版本无需安装 3. 下载模型 - 使用默认模型，通过单击 来使用内置的 HuggingFace 搜索
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, desktop, electron, gguf, image-generation, language-model
+
+---
+
+### 🌟 [pi-workflow](https://github.com/AgwaB/pi-workflow)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 330
+- **核心概述**: Pi 的工作流程编排
+- **大概是做什么的**: Pi 的工作流程编排。 pi-workflow 让 Pi 运行命名的、可重复的多步骤工作流程：研究、代码审查、规范一致性检查、影响审查和特定于项目的团队例程。它基于 @agwab/pi-subagent 构建，跨工作流程步骤协调 Pi 子代理工作人员，在它们之间传递结果，并记录运行，以便可以检查、停止或恢复。您选择一个工作流程并用自然语言描述任务。安装软件包： - /workflow 扩展 - 捆绑的工作流程指南技能 - 捆绑的执行路由器技能 在 macOS 或 Linux 上需要 Node.js =22.19.0。不支持本机 Windows；使用 WSL2。用法：自然询问安装后，要求 Pi 按名称使用捆绑或项目工作流程并描述您要处理的任务。如果您不确定要使用哪个工作流程，请要求 Pi 列出或从可用工作流程中进行选择。捆绑工作流使用本地优先代理查找并回退到 pi-workflow 的捆绑常见代理，例如 scout 和 Researcher 。工具级调用详​​细信息位于 docs/usage.md 中。如果你想要确定性的手动控制
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, dynamic, extension, pi, pi-agent, workflow
+
+---
+
+### 🌟 [mLLMCelltype](https://github.com/cafferychen777/mLLMCelltype)
+- **项目语言**: Python
+- **星标数量**: ⭐ 655
+- **核心概述**: 使用多 LLM 共识对单细胞 RNA-seq 进行细胞类型注释
+- **大概是做什么的**: mLLMCelltype：细胞类型注释的多法学硕士共识框架 mLLMCelltype 是一个多法学硕士共识框架，用于单细胞 RNA 测序 (scRNA-seq) 数据中的自动细胞类型注释。该框架集成了多种大型语言模型，包括OpenAI GPT-5.5、Anthropic Claude Opus 4.7和Sonnet 4.6、Google Gemini 3、X.AI Grok 4.3、DeepSeek V4、Alibaba Qwen 3.6、Z.AI GLM 5.1、MiniMax M2.7、Stepfun 3.5和OpenRouter，通过基于共识的预测来提高注释准确性。 mLLMCelltype 是一种用于单细胞转录组学分析的开源工具，它使用多个大型语言模型从基因表达数据中识别细胞类型。该软件采用了一种共识方法，其中多个模型分析相同的数据并将其预测结合起来，这有助于减少错误并提供不确定性指标。该方法通过集成多个模型预测，提供了优于单模型方法的优势。 mLLMCelltype 与 Scanpy 和 Seurat 等单细胞分析平台集成，使研究人员能够将
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: bioinformatics, cell-type-annotation, computational-biology, consensus-algorithm, large-language-models, llm
+
+---
+
 ## 🕔 2026-08-01 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 253 个候选项目中筛选出 6 个未推荐过的新项目。
