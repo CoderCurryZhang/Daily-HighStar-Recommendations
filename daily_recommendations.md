@@ -1,3 +1,67 @@
+## 🕔 2026-08-01 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 148 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Agent-S](https://github.com/simular-ai/Agent-S)
+- **项目语言**: Python
+- **星标数量**: ⭐ 12,098
+- **核心概述**: Agent S：一个开放的代理框架，像人一样使用计算机
+- **大概是做什么的**: 像人类一样使用计算机 🏆 Agent S3：在 OSWorld 上首次超越人类性能 (72.60%) 🌐 [S3 博客] 📄 [S3 论文 (TMLR 2026)] 🌐 [S2 博客] 📄 [S2 论文 (COLM 2025)] 🌐 [S1 博客] 📄 [S1论文 (ICLR 2025)] 跳过设置？在 Simular Cloud 中尝试 Agent S - [x] 2026/07/30 ：Agent S3 论文“Scaling Agents for Computer Use”已被 TMLR 2026 接受！ - [x] 2025/12/15 : Agent S3 在 OSWorld 上第一个超越人类水平，得分高达 72.60%！ - [x] 2025/10/02 ：发布 Agent S3 及其技术论文，在 OSWorld 上刷新了 69.9% 的 SOTA（接近人类性能的 72%），�� WindowsAgentArena 和 AndroidWorld 上具有很强的通用性！它也更简单、更快、更灵活。 - [x] 2025/08/01 : Agent S2.5 发布 (gui-agents v0.2.5)：更简单、更好、更快！ OSWorld 上的新 SOTA 已验证！ - [x] 2025/07/07 : Agent S2论文被COLM 2025接受！蒙特利尔见！ - [x] 2025/04/27 : Agent S 论文在 ICLR 2025 Agentic AI for Science Workshop 上荣获最佳论文奖🏆！ - [x] 202
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-computer-interface, ai-agents, computer-automation, computer-use, computer-use-agent, cua
+
+---
+
+### 🌟 [dagu](https://github.com/dagucloud/dagu)
+- **项目语言**: Go
+- **星标数量**: ⭐ 3,689
+- **核心概述**: 在一个二进制文件中进行自托管工作流编排。 YAML DAG、cron、AI 代理步骤、Web UI。轻量级 Airflow 替代方案，无数据库。
+- **大概是做什么的**: （用户名/密码：demouser） · Dagu 将脚本和命令转换为可靠的 YAML 工作流程。它在一个开源二进制文件中添加了计划、依赖项、重试、批准、日志和 Web UI。您不需要外部数据库或消息代理。在 Windows 上，在 PowerShell 中运行此命令：安装程序可以将 Dagu 添加到 PATH 、设置后台服务并创建第一个管理员帐户。有关服务和手动安装选项，请参阅 Windows 安装指南。更喜欢 Docker？使用官方图像启动 Web UI： Open .命名卷保留运行之间的工作流程、日志、历史记录和设置。请参阅 Docker 指南，了解 Docker Compose、映像标签和主机工作流程安装。下面继续本机安装快速入门。对于 Homebrew、npm、Kubernetes 和手动选项，请参阅所有安装方法。 2. 运行您的第一个工作流程 将其另存为 hello.yaml ：在同一目录中启动 Web UI：打开以查看运行、步骤日志和历史记录。完整的快速入门还涵盖验证、预期输出和后续步骤。将 Dagu 作为持久服务或共享服务运行？检查服务器配置
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, airflow-alternative, cron, dag, data-pipeline, devops
+
+---
+
+### 🌟 [ATLAS](https://github.com/itigges22/ATLAS)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,067
+- **核心概述**: 自适应测试时学习和自主专业化
+- **大概是做什么的**: ATLAS TUI live，速度提高了 10 倍，在创建文件时运行 V3 管道。自适应测试时学习和自主专业化 ATLAS 是一种本地编码代理，可为紧凑的开放模型带来前沿式推理和验证。它在模型周围的系统中提供了更多的智能（规划、候选生成、质量评分、沙盒测试和修复），因此较小的模型可以完全在您自己的硬件上处理实际的软件工作，而无需托管 API 或按代币付费。从较小的模型中获得更多。 ATLAS 围绕模型添加了规划、候选选择、验证和修复，而不是依赖于单代。确认后再接受。生成的代码可以在隔离的执行环境中进行编译、测试和更正。将计算花费在重要的地方。直接的编辑需要更短的路径，而更困难的任务则需要更多的候选、推理和验证。运行您自己的模型。在 NVIDIA、AMD、Apple Silicon、Vulkan 或 CPU 支持的硬件上使用兼容的 GGUF 模型。保持本地控制。 ATLAS 不会故意上传您的
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-harness, coding-agent, developer-tools, local-first
+
+---
+
+### 🌟 [numbat](https://github.com/perplexityai/numbat)
+- **项目语言**: Go
+- **星标数量**: ⭐ 523
+- **核心概述**: 通过设备上检测、可选的预操作阻止和取证重建，了解端点上的 AI 代理活动。
+- **大概是做什么的**: 端点对 AI 代理活动的可见性，具有本地检测、可选的预操作阻止和取证重建。 numbat 通过本地挂钩和插件、OTLP/HTTP 日志和磁盘会话工件来观察受支持的桌面、CLI、IDE 和网关代理。实时和静态活动被标准化为一个事件模型，并由相同的 CEL 规则引擎进行评估。检测在本地运行；记录可以写入 stdout 或本地文件，并且可以选择通过 HTTP 传送。覆盖矩阵对于每个主体和表面都是权威的。默认情况下，阻塞处于关闭状态，并且仅限于支持的同步预操作挂钩；参见执行指南。 - 通过挂钩、插件和 OTLP/HTTP 日志导出器进行实时监控。 - 使用内置 CEL 规则、多步骤序列规则和自定义 YAML 规则进行端点本地检测。 - 通过支持的预操作挂钩选择加入阻止。强制模式默认处于禁用状态，并且仅适用于标记为force: true 的规则；所有发布的规则仅用于监控。 - 从受支持的磁盘会话工件进行取证重建，无需事先使用 numbat 仪器
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-security, ai-agent-security, ai-agents
+
+---
+
+### 🌟 [deepagent-code](https://github.com/deepagent-ltd/deepagent-code)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 421
+- **核心概述**: DeepAgent Code：具有持久内存和控制平面的人工智能编码代理
+- **大概是做什么的**: 记忆、计划、协作和完成的 AI 编码代理 Desktop 1.4.4 · DeepAgent Core V4.0.5 DeepAgent Code 是一个 AI 编码工作区，适用于持续时间超过一次提示的工作。它将生产编码代理运行时与持久会话、连接的项目内存、实时规划、代码智能、多代理协作和人工监督相结合。您可以要求进行小幅编辑，在不中断任务的情况下指导正在运行的任务，以客观的完成标准移交迁移，或者让多个专家代理做出决定。 DeepAgent 可以使工作在轮次、重启、工具、人员和项目之间保持一致。一个工作空间，三种工作方式 选择适合任务的协作方式： 您提供的模式 DeepAgent 自动执行请求 根据需要定义目标、设计和计划，然后执行端到端 循环目标 编写可编辑的 goal+plan.md 并通过计划、执行、验证和迭代进行推进 设计您的 goal+plan.md 忠实地执行您的设计，无需重新定义其目标或完成标准 自治和权限
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, coding-agent, deepagent, open-source
+
+---
+
+### 🌟 [projectmem](https://github.com/riponcm/projectmem)
+- **项目语言**: Python
+- **星标数量**: ⭐ 337
+- **核心概述**: 用于人工智能代理的本地优先人工智能编码存储器。记录问题、尝试、修复和决策，然后在重复已失败的方法之前向您的代理发出警告。用于 Claude Code、Cursor、Antigravity 和 Codex 的本机 MCP 服务器。 100% 本地，无云，无遥测。麻省理工学院。
+- **大概是做什么的**: 我们不会让人工智能变得更聪明。我们让它变得经验丰富。 AI编码记忆——AI编码代理的本地优先记忆+判断层。节省高达 50% 以上的 AI 代币。别再重复昨天的错误了。什么是AI编码记忆？人工智能编码记忆是构建项目时发生的事情的持久记录——遇到的问题、尝试的方法、有效的修复和做出的决策——存储起来，以便人工智能编码代理可以在新会话开始时读取它。没有它，每个会话都从零开始。 Projectmem 是专为该工作构建的开源代理内存层。它是本地优先的：内存位于存储库内的普通 .projectmem/ 目录中，没有云，没有帐户，也没有遥测。本机 MCP 服务器向 Claude Code、Claude Desktop、Cursor、Antigravity 和 Codex 公开 15 种工具，因此您的代理可以自行读取内存并记录其工作。与聊天历史记录工具不同，projectmem 存储键入的事件（问题、尝试、修复、决策、注释），这就是其他工具无法做到的一件事：在重复批准之前触发预提交警告
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, ai-agents, ai-memory, ai-tools, antigravity, claude
+
+---
+
 ## 🕔 2026-07-31 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 224 个候选项目中筛选出 6 个未推荐过的新项目。
