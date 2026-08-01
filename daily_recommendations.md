@@ -1,3 +1,67 @@
+## 🕔 2026-08-01 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 201 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [llm_note](https://github.com/harleyszhang/llm_note)
+- **项目语言**: Python
+- **星标数量**: ⭐ 888
+- **核心概述**: LLM笔记，包括模型推理、Transformer模型结构、llm框架代码分析笔记。
+- **大概是做什么的**: - 1.1 transformer 模型基础 LLM notes, including model inference, hpc programming note, transformer model structure, and vllm framework code analysis notes. 1. 框架亮点 ：基于 Triton + PyTorch 开发的轻量级、且简单易用的大模型推理框架，采用类 Pytorch 语法的 Triton 编写算子，绕开 Cuda 复杂语法实现 GPU 内核开发。 2. 价格：499 。非常实惠和便宜，课程、项目、面经、答疑质量绝对对得起这个价格。 - 手把手教你从 0 到 1 实现大模型推理框架 。 - 项目导向 + 面试导向 + 分类总结的面试题 。 - 2025 最新的高性能计算/推理框架岗位的大厂面试题汇总 - 架构清晰，代码简洁且注释详尽，覆盖大模型离线推理全流程。​ - 运用 OpenAI Triton 编写高性能计算 Kernel ，其中矩阵乘法内核效率堪比 cuBLAS 。​ - 基于 PyTorch 实现高效显存管理。​ - 课程项目完美支持 FlashAttentionV1、V2、V3 与 GQA ，以及 PageAttention 的具体实现。​ - 使用 Triton 编写融合算子，如 KV 线性层融合等。​ - 适配最新的 qwen3/qwen2.5/llama3/llava1.5 模型，相较 transformers 库，在 llama3 1B 和 3B 模型上，加速比最高可达 4 倍。 llama3.2-1.5B-Instruct 模型流式输出结果测试： Qwen2.5-3B 模型（社区版本）流式输出结果测试： Llava1.5-7b-hf 模型流式输出结果测试: 感兴趣的同学可以扫码联系课程购买，这个课程是我和《自制深度学习推理框架》作者一起合力打造的，内容也会持续更新优化。 1.1 transformer 模型基础 - transformer 模型代码实现 - Sinusoida 位置编码算法详解 - SmoothQuant 算法源码剖析 - online-softmax 论文解读 - flashattention-1 论文解读 - flashattention-2 论文解读 - flashattention-3 论文解读 - flashattention1-2-3 系列总结 - vllm优化之cuda graph详解 - 理解 Roofline 性能分析模型 - CUDA 内核执行配置及
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: cuda-programming, kv-cache, llm, llm-inference, transformer-models, triton-kernels
+
+---
+
+### 🌟 [zhikuncode](https://github.com/zhikunqingtao/zhikuncode)
+- **项目语言**: Java
+- **星标数量**: ⭐ 326
+- **核心概述**: Claude Code / Cursor 开源替代。部署在你自己的服务器上，团队用浏览器打开就能编程——包括手机。CLI & Web UI 双入口，Multi-Agent 协作，原生直连千问/DeepSeek 等国产大模型。SWE-bench Lite 56%，不是玩具。技能/插件/跨会话记忆，8 层安全沙箱，数据不离开你的机器。Docker 一键部署，MIT 开源，零锁定。
+- **大概是做什么的**: 开源 AI 编程助手 — 部署一次，浏览器全流程操控 多 Agent 协作 · Docker 自托管 · 国产大模型直连 · 深度安全架构 部署到服务器，打开浏览器就能用，手机上也行 Java Agent Runtime · React 浏览器操作面 · Python Capability Service · 全景可视化 🔎 同一黄金监控任务的双工具执行审计 → ZhikunCode × Codex · 哈希匹配的原始运行日志核验与脱敏摘录、冻结产物哈希、代码检查与公开脱敏截图、38 条证据与 14 维可复算评分 🚄 12306 候补可视化双工具对比评估 → ZhikunCode/KimiK3 × Codex/GPT-5.6 Sol · 7 维评估、21 条证据、65 行脱敏日志摘录、11 张运行截图与 SHA-256 清单 🏆 SWE-bench Lite 技术报告 → 提交命名空间 20260525 zhikuncode · 官方 harness 评测 Resolve 168 / 300 (56.0%) · Patch 生成率 284 / 300 (94.7%) 黄金监控任务：ZhikunCode × Codex 同一需求分别交由 ZhikunCode 与 Codex 完成，并从需求理解、开发交互、过程效率、数据准确性、架构、代码质量、用户体验和可复现性等 14 个维度进行审计。报告保留双方优点与缺陷，公开评分公式、证据编号、截图和已知限制。 - ZhikunCode：Kimi K3 遇到 HTTP 429 后，由用户切换至 GLM-5.2 并在同一逻辑会话中继续。 - Codex：GPT-5.6 Sol，推理强度 High。 - 本案例自定义审计评分为 ZhikunCode 68.3、Codex 68.4，评分区间大幅重叠。 - 该结果只描述本次单任务交付，不代表模型能力等价，也不构成产品排名。 12306 候补可视化对比评估：ZhikunCode × Codex 同一"12306 候补成功后台全链路"动态可视化任务分别交由 ZhikunCode 与 Codex 完成，从任务理解、代码质量、动态可视化、架构与数学、用户体验、开发效率、技术实现 7 个维度评估。报告保留双方优点与缺陷，公开评分公式、21 条证据编号、11 张运行截图和已知限制。 - ZhikunCode：kimi-k3（KimiK3），交付单文件 HTML（1,061 行，零外部网络依赖），548KB 完整执行日志可审计。 - Codex：GPT-5.6 Sol（高推理模式），交付 N
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-coding-assistant, chinese-llm, docker, llm, multi-agent, open-source
+
+---
+
+### 🌟 [LLM-eval-survey](https://github.com/MLGroupJLU/LLM-eval-survey)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,611
+- **核心概述**: 调查论文“大型语言模型评估调查”的官方 GitHub 页面。
+- **大概是做什么的**: 与大型语言模型评估相关的论文和资源的集合。常宇鹏 1 &nbsp&nbsp 王旭 1 &nbsp&nbsp 王金东 2 &nbsp&nbsp 吴渊 1 &nbsp&nbsp&nbsp 朱凯杰 3 &nbsp&nbsp&nbsp&nbsp 陈浩 4 &nbsp&nbsp 杨林一 5 &nbsp&nbsp&nbsp&nbsp 易晓媛 2 &nbsp&nbsp&nbsp&nbsp 王存祥 5王一东 6 &nbsp&nbsp 张悦 5 &nbsp&nbsp 常毅 1 &nbsp&nbsp 余胜 7 &nbsp&nbsp&nbsp 杨强 8 &nbsp&nbsp 1 吉林大学, 2 微软研究院, 3 中国科学院自动化研究所 4 卡内基梅隆大学, 5 西湖大学, 6 北京大学, 7 伊利诺伊大学, 8 香港科技大学和技术（：共同第一作者，：共同通讯作者） 法学硕士评估的论文和资源 这些论文是根据我们的调查进行组织的：大型语言模型评估调查。注意：由于我们无法实时更新 arXiv 论文，请参阅此存储库以获取最新更新，论文可能会在稍后更新。我们也欢迎任何拉取请求或问题来帮助我们完善这项调查。您的贡献将在 ac 中得到认可
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: benchmark, evaluation, large-language-models, llm, llms, model-assessment
+
+---
+
+### 🌟 [deerflow-book](https://github.com/hawkli-1994/deerflow-book)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 425
+- **核心概述**: 本书围绕 DeerFlow 2.0，从理论到源码，系统讲解如何进行二次开发。(精校)
+- **大概是做什么的**: 《DeerFlow 二次开发：理论、架构与源码剖析》 本书围绕 DeerFlow 2.0，从理论到源码，系统讲解如何进行二次开发。 所有代码示例均基于真实源码，确保与 DeerFlow 实现保持一致。 📖 在线阅读（推荐） 搜索、目录导航、代码高亮、响应式布局 📄 GitHub 阅读 适合直接浏览 Markdown 源码 - 源码级解析 - 每一章都深入 DeerFlow 源码，不是简单的概念介绍 - 实战导向 - 提供完整的二次开发示例，可直接用于项目 - 架构思维 - 不仅讲 "怎么用"，更讲 "为什么这样设计" - 持续更新 - 跟随 DeerFlow 版本迭代，保持内容最新 启动后，打开浏览器访问 http://localhost:2026 ，在对话窗口中输入： @web-researcher 请研究 "LangGraph 的 checkpoint 机制"，深度：技术细节级别，输出格式：Markdown 报告 DeerFlow 会自动加载 web-researcher Skill，执行网络搜索、信息整合，并返回结构化的研究报告。 ------ ------ ------ OPENAI API KEY LLM API Key ✅ DEERFLOW DATABASE URL PostgreSQL 连接串 ✅ SANDBOX MODE local / docker / provisioner 可选，默认 local MCP SERVERS CONFIG MCP Server 配置文件路径 可选 第一章 · 引言 DeerFlow 定位、核心特性、技术栈 第二章 · 核心概念 Skill vs Tool、Sub-Agent、Sandbox、Memory、Context Engineering 第三章 · 架构总览 系统架构图、LangGraph Server、Gateway API、中间件链 ------ ---------- ---------- 第四章 · 项目结构 目录组织、模块职责、配置体系 - 第五章 · Agent 核心 ✅ ThreadState 类型系统 、 14+ 中间件详解 、 DeerFlowClient SDK agents/thread state.py , agents/middlewares/ 第六章 · Skills 与 Tools ✅ Skill 安全扫描 、 历史管理 、 安装器实现 skills/security scanner.py , skills/manager.py , skills/installer.py 第
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, ai-agent, book, bytecode, chinese, deep-research
+
+---
+
+### 🌟 [sycamore](https://github.com/aryn-ai/sycamore)
+- **项目语言**: Python
+- **星标数量**: ⭐ 604
+- **核心概述**: 🍁 Sycamore 是一个由法学硕士支持的非结构化数据搜索和分析平台。
+- **大概是做什么的**: Sycamore 是一款开源、人工智能驱动的文档处理引擎，适用于 ETL、RAG、基于 LLM 的应用程序以及非结构化数据分析。 Sycamore 可以分区和丰富各种文档类型，包括报告、演示文稿、文字记录、手册等。它可以分析和分块复杂的文档，例如带有嵌入表格、图形、图表和其他信息图表的 PDF 和图像。查看示例笔记本。在处理文档时，Sycamore 利用 Aryn DocParse（以前称为 Aryn Partitioning Service），这是一种无服务器、GPU 驱动的 API，用于分割和标记文档、执行 OCR、提取表格和图像等。它利用 Aryn 最先进的开源深度学习 DETR AI 模型，该模型经过超过 80k 企业文档的训练，与替代系统相比，它可以使混合搜索或 RAG 的数据分块准确度提高 6 倍，召回率提高 2 倍。您可以在此处免费注册，或选择在本地运行 Aryn Partitioner。 Aryn DocParse 获取文档并返回 JSON 格式的分区输出，您可以使用 Sycamore 进行添加
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, dataprep, etl, information-retrieval, llm, ml
+
+---
+
+### 🌟 [resume-lm](https://github.com/olyaiy/resume-lm)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 305
+- **核心概述**: 开源人工智能简历生成器 • Next.js 15、React 19、Tailwind CSS • 在几分钟内定制适合工作的简历。
+- **大概是做什么的**: ResumeLM - 免费 AI 简历生成器，在几分钟内创建 ATS 优化的简历 🚀 人工智能驱动的简历生成器，让您被录用 📊 经验证的结果，重要 📈 创建 500 多份简历 🎯 89% 面试率 ⭐ 4.9/5 用户评分 ⏱️ 15 分钟设置时间 :----------------------------: :-------------------------: :------------------------: :-------------------------: 打造专业简历 更高的面试成功率 出色的用户满意度 快速简单的设置 🎯 为什么选择 ResumeLM？ ResumeLM 是一款免费的开源 AI 简历生成器，可帮助求职者创建专业的、经过 ATS 优化的简历，将面试机会提高多达 3 倍。我们的智能平台将尖端的人工智能技术与经过验证的简历最佳实践相结合，帮助您找到梦想的工作。 ✨ 主要功能和屏幕截图 🤖 AI 支持的简历助手 90% 更有效的要点 - 根据您的经验提供智能内容建议 - 简历内容的实时反馈 - 针对行业的优化以获得更好的结果 - ATS 友好的格式和关键字优化 📊 漂亮的简历仪表板器官
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, cover-letter, llm, nextjs, openai, pdf
+
+---
+
 ## 🕔 2026-08-01 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 148 个候选项目中筛选出 6 个未推荐过的新项目。
