@@ -1,3 +1,67 @@
+## 🕔 2026-08-01 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 218 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Kun](https://github.com/KunAgent/Kun)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 5,537
+- **核心概述**: 用于编码、写作、设计、研究和自动化的本地优先 AI 代理工作区——桌面 GUI 和 TUI 的一个运行时。
+- **大概是做什么的**: 一个运行时，GUI + TUI，把 AI Agent 真正放进工作流。 从需求澄清、设计、计划、编码到验收；复杂任务交给 Agent Graph 分工执行，过程可见、可控、可回溯。 Kun 是一个本地优先的 AI Agent 工作台，同时提供桌面 GUI 和终端 TUI。两种界面连接同一个 kun serve 运行时，共享线程、模型连接、审批、计划、子代理、用量和后台任务；你可以在桌面里看清完整过程，也可以在终端里保持手不离键盘。 Kun 的重点不是再做一个聊天框，而是把一次真实工作从输入推进到可以验收的结果： - 需求先行 ：先明确目标、边界和验收标准，再让 Agent 执行。 - 一个运行时，两种界面 ：GUI 与 TUI 可以同时使用，切换界面不丢线程和后台任务。 - Agent Graph ：把可拆分的复杂任务组织成依赖图，由 Lead Agent 派发、监督、返工和汇总。 - 证据化交付 ：文件 Diff、命令结果、测试、浏览器和审查结果都留在任务旁边，不把“Agent 说完成了”当作完成。 - 不绑定单一模型 ：统一管理订阅登录、Coding Plan、Token Plan、API Key、兼容服务和自托管模型。 从 GitHub Releases 下载最新版： macOS .dmg / .zip Apple Silicon / Intel Windows .exe x64 Linux .AppImage / .deb x64 2. 登录模型订阅，或配置一个 API Key / Token Plan / 自定义 Provider。 3. 在 Code 中打开本地项目，然后发送一个目标清楚、��围有限、可以验证的任务。 桌面安装包已内置 TUI。打开新终端，在项目目录运行： GUI 和 TUI 会自动连接同一个本地运行时。服务器或无桌面环境也可以从同一 Release 下载独立 TUI 压缩包。完整说明见 Kun TUI 文档。 Code 理解真实代码库、编辑文件、执行命令、管理计划和审查改动 代码 Diff、测试结果、实施计划、Review findings Design 从需求或现有界面探索视觉方向，生成并迭代交互原型 HTML 原型、设计画布、设计流程、 DESIGN SYSTEM.md Write 写作、润色、研究资料、导出文档或生成演示文稿 Markdown、HTML、PDF、DOCX、可编辑 PPTX TUI 在终端里管理会话、模型、计划、审批、Skills、MCP 和子代理 与 GUI 共享的线程、回合和任务结果 连接手机 从飞书 / La
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflow, ai-agent, ai-assistant, ai-design, automation, coding-agent
+
+---
+
+### 🌟 [turbo-fieldfare](https://github.com/drumih/turbo-fieldfare)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 3,374
+- **核心概述**: 在任何 M 系列 MacBook 上约 2 GB RAM 中进行 Gemma 4 26B-A4B 推理
+- **大概是做什么的**: Gemma 4 26B-A4B 在大约 2 GB RAM 中进行推理适用于任何 Apple Silicon Mac（甚至是 8 GB 的 Mac）的定制 Swift + Metal 运行时。贡献结果 · 内存变得昂贵。所以我给了一个 260 亿参数的模型 2 GB 的预算。 TurboFieldfare 运行经过调整的指令，无需将整个 14.3 GB 模型加载到内存中。它将共享的 1.35 GB 核心和 FP16 KV 缓存保留在内存中，然后仅从 SSD 传输每个令牌所需的专家。这使得模型可以在具有 8 GB 运行时的 Mac 上运行，流安装程序、CLI 和本机 Mac 应用程序都是�� Swift 和 Metal 编写的。 TurboFieldfare 是特定于模型的，而不是 MLX 或 llama.cpp 的包装器。策划的实验记录总结了跨内核、缓存、I/O、预填充的 103 个测量结果，并且在第一次运行时，Swift Package Manager 下载并构建 tokenizer 所需的 Swift 包。完整的发布版本包括前台 Mac 应用程序及其同级解码服务可执行文件。当应用程序打开时，选择“下载”并让 TurboFieldfare 获取并重新打包固定模型（约 15 GB）。一旦重新
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: apple-silicon, gemma, gemma4, gemma4-26b-a4b, gpgpu, llm
+
+---
+
+### 🌟 [awesome-local-llm](https://github.com/rafska/awesome-local-llm)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 2,471
+- **核心概述**: 精选的平台、工具、实践和资源列表，有助于在本地运行法学硕士
+- **大概是做什么的**: 帮助本地运行 LLM 的出色平台、工具、实践和资源的精选列表 - 推理平台 - 大型语言模型 - 浏览器、基准、排行榜 - 检索增强生成 - 模型上下文协议 - 检索增强生成 - 浏览器自动化 - 测试、评估和可观察性 - 培训和微调 - 安全性和沙盒 - 提示工程 - 上下文工程 - 检索增强生成 - LM Studio - 发现、下载和运行本地 LLM - unsloth - 统一的 Web UI，用于在本地训练和运行 Qwen、DeepSeek 和 Gemma 等开放模型 - LocalAI - OpenAI、Claude 等的免费开源替代方案 - jan - ChatGPT 的开源替代方案，可在计算机上 100% 离线运行 - ChatBox - 用于 AI 模型/LLM 的用户友好的桌面客户端应用程序 - Lemonade - 具有 GPU 和 NPU 加速功能的本地 LLM 服务器内容 - ollama - 启动并运行 LLM - llama.cpp - C/C++ 中的 LLM 推理 - vllm - 用于 LLM 的高吞吐量和内存高效的推理和服务引擎 - exo -
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, awesome, awesome-list, llm, local, local-ai
+
+---
+
+### 🌟 [cli-agent-orchestrator](https://github.com/awslabs/cli-agent-orchestrator)
+- **项目语言**: Python
+- **星标数量**: ⭐ 965
+- **核心概述**: 用于 AI 编码 CLI 的多代理编排 — Claude Code、Kiro、Codex 等，在隔离的 tmux 会话中进行协调
+- **大概是做什么的**: CLI Agent Orchestrator (CAO) CLI Agent Orchestrator (CAO) 协调多个 AI 编码 CLI，以便主管可以并行或按顺序将工作委派给专家代理。 📚 文档 — 指南、参考和两门互动课程。 CAO 运行本地 cao-server ，在隔离的终端会话中启动提供程序 CLI，并为主管人员提供用于协调工作人员的工具。代理保留完整的 CLI 流程及其本机身份验证和功能。有关运行时架构和包布局，请参阅 CODEBASE.md。 - Python 3.10 或更高版本 - 至少一个受支持的提供程序 CLI，在启动 CAO 之前经过身份验证：Kiro CLI、Claude Code、Codex CLI、Antigravity CLI，重点提供程序指南包含安装、身份验证和特定于提供程序的行为。将当前主分支安装为 uv 工具：对于标记版本，请从 PyPI 安装 cli-agent-orchestrator。请参阅 DEVELOPMENT.md 查看源代码。对于基于容器的安装，请参阅 devcontainer 功能。要更新现有 CAO 安装：请参阅更新 CAO 了解源感知行为和边缘情况。第一的
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-orchestration, ai-agents, ai-coding-assistant, antigravity, claude-code, codex
+
+---
+
+### 🌟 [cersei](https://github.com/pacifio/cersei)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 435
+- **核心概述**: 用于构建编码代理的 Rust SDK。工具执行、LLM 流、图形内存、子代理编排、MCP — 作为可组合的库函数。
+- **大概是做什么的**: 用于构建编码代理的完整 Rust SDK。 Cersei 为您提供了生产编码代理的每个构建块 - 工具执行、LLM 流、子代理编排、持久内存、技能、MCP 集成 - 作为可组合的库函数。构建 Claude Code 替代品，在您的应用程序中嵌入代理，或者创建全新的东西。 MIT 许可证 由 Adib Mohsin 构建 文档 GitHub Claude Code OpenCode Cersei SDK Abstract CLI 形状因数 CLI 应用程序 CLI 应用程序库 CLI 应用程序 可嵌入 No No Yes No（使用 SDK） Provider Anthropic only 多提供者 多提供者 多提供者 语言 TypeScript TypeScript Rust Rust 自定义工具 插件 插件 impl 工具 / [derive(Tool)] 通过 SDK 启动 269ms 300ms N/A（库） 34ms 二进制 / RSS 174MB / 330MB — N/A 5.8MB / 4.9MB 内存 基于文件的 SQLite 文件 + 图形文件 + 图形技能 .claude/commands/ .claude/skills/ 两种格式 两种格式 Cersei 均基于 Claude Code（逆向工程 Rust 端口）的架构构建，旨在使任何人都可以构建 Claude Code 的完整、直接替代品， OpenCode，或任何编码代理 - 作为
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, antrophic, claude-code, codex, coding-agent, openai
+
+---
+
+### 🌟 [graph-memory](https://github.com/adoresever/graph-memory)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 503
+- **核心概述**: Openclaw记忆插件Knowledge Graph + Memory；OpenClaw的知识图谱上下文引擎——从对话中提取结构化三元组，压缩上下文75%，实现跨会话体验重用
+- **大概是做什么的**: OpenClaw 的知识图谱上下文引擎 作者：adoresever · MIT 许可证 当对话时间变长时，代理会忘记发生了什么。图形内存同时解决了三个问题： 1. 上下文爆炸——174 条消息消耗 95K 个令牌。通过用结构化知识图节点替换原始历史记录，图内存压缩至 24K 2. 跨会话失忆症 — 昨天的错误、已解决的问题，在新会话中全部消失。图记忆通过 FTS5/向量搜索 + 图遍历自动回忆相关知识 3. 技能岛——自我改进代理将学习记录为孤立的降价。图形内存将它们连接起来：“已安装的 libgl1”和“ImportError：libGL.so.1”通过“SOLVED BY”边缘链接起来感觉就像与一个从经验中学习的代理交谈。因为确实如此。 58 个节点、40 个边、3 个社区——从对话中自动提取。右侧面板显示了社区集群的知识图（GitHub ops、B站MCP、会话管理）。左侧面板显示代理使用 gm 统计数据和 gm 搜索工具。社区意识召回现在运行两条合并结果的并行路径：
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, claude-code, codex, graph, knowledge-graph, memory
+
+---
+
 ## 🕔 2026-08-01 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 201 个候选项目中筛选出 6 个未推荐过的新项目。
