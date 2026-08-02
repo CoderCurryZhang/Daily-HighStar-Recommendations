@@ -1,3 +1,67 @@
+## 🕔 2026-08-02 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 226 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [tambo](https://github.com/tambo-ai/tambo)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 11,153
+- **核心概述**: 用于 React 的生成式 UI SDK
+- **大概是做什么的**: React 的开源生成 UI 工具包。连接您的组件 - Tambo 处理流、状态管理和 MCP。坦博1.0来了！ Read the announcement: Introducing Tambo: Generative UI for React - How Tambo Compares Tambo is a React toolkit for building agents that render UI (also known as generative UI).使用 Zod 架构注册您的组件。 The agent picks the right one and streams the props so users can interact with them. “按地区显示销售额”会呈现您的 . “添加任务”会更新���的 . Get started in 5 minutes → https://github.com/user-attachments/assets/8381d607-b878-4823-8b24-ecb8053bef23 Tambo is a fullstack solution for adding generative UI to your app.您将获得一个 React SDK 以及一个处理对话状态和代理执行的后端。 1. 包含代理 — Tambo 为您运行 LLM 对话循环。带上您自己的 API 密钥（OpenAI、Anthropic、Gemini、Mistral 或任何与 OpenAI 兼容的提供商）。 Works with agent frameworks like LangChain and Mastra, but they're not required. 2. 流式传输基础设施——Props 作为 LLM ge 流式传输到您的组件
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, ai, assistant, assistant-chat-bots, generative-ui
+
+---
+
+### 🌟 [CyberScraper-2077](https://github.com/itsOwen/CyberScraper-2077)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,164
+- **核心概述**: 由 LLM 提供支持的强大网络抓取工具 | OpenAI、Gemini 和 Ollama
+- **大概是做什么的**: 🌐 CyberScraper 2077 Rip data from the net, leaving no trace.欢迎来到网络抓取的未来。 CyberScraper 2077 is not just another web scraping tool – it's a glimpse into the future of data extraction.这款人工智能抓取工具诞生于赛博朋克世界的霓虹灯街道，它使用 OpenAI、Gemini 和 LocalLLM 模型来突破网络的防御，以无与伦比的精度和风格提取您所需的数据。无论您是企业数据分析师、街头聪明的网络运行者，还是只是希望从数字领域获取信息的人，Cyber​​Scraper 2077 都能满足您的需求。 - AI-Powered Extraction : Utilizes cutting-edge AI models to understand and parse web content intelligently. - Sleek Streamlit Interface : User-friendly GUI that even a chrome-armed street samurai could navigate. - Multi-Format Support : Export your data in JSON, CSV, HTML, SQL or Excel – whatever fits your cyberdeck. - Tor Network Support : Safely scrape .onion sites through the Tor network with automatic routing and security features. - Stealth Mode : Implemented stealth mode parameters that
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-scraping, gemini-api, llm, llm-scraper, openai, scraper
+
+---
+
+### 🌟 [skill-recorder](https://github.com/microsoft/skill-recorder)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 754
+- **核心概述**: 桌面应用程序，记录您的屏幕上工作会话，并使用 GitHub Copilot CLI 将其重建为意图 + 有序步骤，然后为 Microsoft Scout、Microsoft Copilot Cowork 或 Copilot Studio 构建可重用的技能或自动化。
+- **大概是做什么的**: 记录你自己执行一项任务一次，然后将其转化为你的人工智能代理可以重复的技能。技能记录器在您的屏幕上捕获真实的工作会话：点击、应用程序和窗口切换、您访问的页面以及（如果您愿意）您的口头旁白。 It then uses the GitHub Copilot CLI to reconstruct what you actually did as a clear intent plus an ordered list of steps .从那里开始，一个步骤将单次运行变成 - 技能：代理按需运行的 SKILL.md 程序，或 - 自动化：按计划或触发器执行的相同程序。两者都更喜欢代理的本机工具（例如 gh CLI 或 web fetch ���而不是重放 UI 单击，并且从您的一个示例进行概括，因此记录您自己提交一份表单可以教代理提交所有表单。 1. 🔴记录。 Hit record (or ⌘⇧R / Ctrl+Shift+R from anywhere) and just do your task. Skill Recorder captures your screen and activity locally, in the background. 2.🎛️控制。 While recording, a small always-on-top bar shows capture and microphone state. Mute, unmute, or switch mics on the fly, then finish, or discard (
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, automation, copilot, copilot-cli, copilot-cowork
+
+---
+
+### 🌟 [obelisk](https://github.com/tommy0103/obelisk)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 274
+- **核心概述**: Every past session, subagent, and workflow -- queryable by your agent, browsable by you
+- **大概是做什么的**: Past Claude Code, Codex, and Kimi Code sessions -- queryable by your agent, browsable by you.同一索引的两侧 Obelisk 的两侧共享一个 SQLite 索引： 代理端 — Obelisk CLI 拥有本地运行时，而一项单独的代理技能则教编码代理如何搜索和查询其会话历史记录。 The agent writes JS queries, runs them locally, and answers in plain language. App side — an Electron desktop app for humans to browse sessions, manage memories, view usage stats, and see weekly recap cards. Both read from the same /.obelisk/obelisk.sqlite database.索引器从 /.claude/projects 读取 Claude Code 转录本，从 /.codex/sessions 读取 Codex 转录本，从 /.kimi-code/sessions （或 $KIMI CODE HOME/sessions ）读取 Kimi Code 会话。 Multi-provider support Obelisk indexes every provider into the same SQLite schema instead of keeping separate databases. Rows carry a source value, and non-Claude IDs are provider-prefixed so they cannot collide. Codex root threads become normal Obelisk sessions. Codex child threads are attached through the same subag
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-sessions, ai-agent, ai-agent-tools, claude-code, cli
+
+---
+
+### 🌟 [obsidian-claude-sidebar](https://github.com/derek-larson14/obsidian-claude-sidebar)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 435
+- **核心概述**: 在 Obsidian 中运行 Claude Code、Codex 和其他代理 CLI
+- **大概是做什么的**: 在 Obsidian 侧边栏中运行 Claude Code（和其他代理 CLI）。由 Derek Larson 构建 - 与委托命令配对 → - 自动启动您的代理 - 您的默认 CLI 自动启动 - 多个选项卡 - 并排运行多个代理 - 嵌入式 - 在 Obsidian 侧边栏中带有代理的完整终端 - 文件夹和文件上下文菜单 - 右键单击任何文件夹以打开该目录中的代理，或文件以将其发送路径 - YOLO 模式 - 通过右键单击菜单使用 YOLO 模式启动代理 - 多后端 - 在 Claude 之间切换设置中的 Code、Codex、Grok Build、OpenCode、Gemini、Kimi Code、GitHub Copilot、Cursor Agent 和 Pi，或通过命令面板中的 Switch CLI 提供程序... - macOS、Linux 或 Windows - 代理 CLI - Claude Code（默认）或���何其他受支持的后端 来自社区插件（推荐） 访问community.obsidian.md/plugins/claude-sidebar 上的插件列表，然后单击“添加到 Obsidian”。然后在 Obsidian 中，单击安装 → 启用。 Windows：请参阅下面的 Windows 设置。手动安装 (Mac/Linux) 在您的 Vault 文件夹中，运行：然后在 Obsidian 中：设置 → 社区
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, codex, obsidian, obsidian-plugin, terminal
+
+---
+
+### 🌟 [awesome-vibe-coding-resources](https://github.com/acvnace/awesome-vibe-coding-resources)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 254
+- **核心概述**: A curated list of awesome resources for vibe coding
+- **大概是做什么的**: 很棒的 Vibe 编码资源 :clipboard: 关于 vibe 编码工具、资源和新闻的精选列表 - 什么是 Vibe 编码 - 基于浏览器的工具 - IDE 和代码编辑器 - 插件和扩展 - 命令行工具 - 安全和预部署检查 - AI 编码文档 - 新闻和社交媒体 - 代理 Shadow Brain - 具有无限内存的自我进化 AI 编码智能 (TurboQuant)、遗传算法自我进化、预测错误检测、PageRank 知识图谱、群情报和对抗性防御。 - Omni Skills Forge - 50,000+ curated AI agent skills for Claude Code, Cursor, Copilot, Windsurf, Cline.可视化仪表板、一键安装、技能医生、自动更新。 - Andrej Karpathy 谈 X - “有一种新的编码方式，我称之为“氛围编码”，你可以完全屈服于氛围，拥抱指数，甚至忘记代码的存在。(.) 我正在构建一个项目或 Web 应用程序，但它并不是真正的编码 - 我只是看到东西、说东西、运行东西、复制粘贴东西，而且大多数情况下都有效”。 - 🔥 Bolt.new - 提示、运行、编辑和部署全栈 Web 和移动应用程序。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, ai-coding, ai-coding-tools, awesome
+
+---
+
 ## 🕔 2026-08-02 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 223 个候选项目中筛选出 6 个未推荐过的新项目。
