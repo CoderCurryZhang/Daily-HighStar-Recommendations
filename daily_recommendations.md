@@ -1,3 +1,67 @@
+## 🕔 2026-08-02 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 223 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [shippie](https://github.com/mattzcarey/shippie)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,468
+- **核心概述**: 可扩展的代码审查和 QA 代理🚢
+- **大概是做什么的**: Shippie 🚢（以前称为代码审查 GPT）帮助您更快地交付 Shippie 是一个可扩展的代码审查代理。它运行一个代理循环来读取您的差异，使用真正的开发人员工具探索代码库，并发布重点审查评论 - 找出人类审查员可能会遇到的问题，例如： - 缓慢或低效的代码 - 潜在的错误或未处理的边缘情况 Shippie 还可以充当模型上下文协议 (MCP) 客户端，以访问浏览器自动化、可观察性和文档等外部工具。 https://github.com/mattzcarey/shippie/assets/77928207/92029baf-f691-465f-8d15-e1363fcb808e - 预构建的审核工作流程，而不是定制的 CLI - 代理循环在 Flue + pi 上运行。 - 在任何地方运行：Node、Cloudflare、GitHub Actions、GitLab CI。 - 充当人类代码审查员，使用 Flue 的内置工具而不是手动工具注册表。 - 与提供商无关：Anthropic、OpenAI、OpenRouter 和 Cloudflare Workers AI 开箱即用。 - 充当 MCP 客户端，用于与外部工具集成。运行 npx Shippie init 以构建下面的工作流程，然后将您的提供商 API 密钥添加为存储库机密。或者
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agents, code-quality, code-review, flue, github
+
+---
+
+### 🌟 [memUBot](https://github.com/NevaMind-AI/memUBot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 454
+- **核心概述**: 企业级 OpenClaw。记住一切的主动人工智能助手
+- **大概是做什么的**: 企业级 OpenClaw。 Your Proactive AI Assistant That Remembers Everything. ⭐️ Star the repository If you find memU Bot useful or interesting, a GitHub Star ⭐️ would be greatly appreciated. OpenClaw pioneered the open-source personal AI assistant space — and we love it. But when it comes to production deployments , team-scale usage , and enterprise security requirements , there's a gap. memU Bot 弥补了这一差距。 memU Bot 基于 memU 开源内存框架构建，是一款主动式、24/7 的人工智能助手，从头开始设计，适合企业使用 — 安全、稳定、经济高效且易于部署。 🦞 喜欢 OpenClaw？ Think of memU Bot as OpenClaw for your whole team — with persistent memory, proactive execution, and production-grade reliability. - 🧠 内存优先架构 — 由 memU 提供支持，开源内存层可为您的 AI 代理提供真正的长期理解 - 🏢 企业级 — 本地优先、SOC2 友好、一键部署、多平台集成 - 🤖 主动而非反应 — 在您询问之前持续捕获意图并采取行动 - 💰 10x C
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-memory, openclaw, proactive
+
+---
+
+### 🌟 [MCPJungle](https://github.com/mcpjungle/MCPJungle)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,179
+- **核心概述**: 一站式管理和连接所有 MCP 服务器
+- **大概是做什么的**: 在一个端点后面运行所有 MCP 服务器 MCPJungle 是一种自托管 MCP 网关，适合希望管理多个 MCP 服务器而无需分散的客户端配置、重复的设置或不一致的访问控制的开发人员和团队。在本地使用它可以保持您的个人 MCP 设置干净，或者将其作为团队的共享基础架构运行，具有集中发现、访问控制和可观察性。无需将每个 MCP 服务器连接到每个 AI 客户端，而是在 MCPJungle 中注册您的服务器一次，然后让 Claude、Cursor、Codex 或您自己的代理连接到单个 MCP 端点。 MCP 功能强大，但管理许多 MCP 服务器很快就会变得混乱。 - 🔌 每个客户端都需要自己的 MCP 服务器配置 - 🧩 工具、提示和资源分散在不同的服务器上 - 🔐 访问控制重复或缺失 - 👥 团队没有可用 MCP 工具的共享视图 - 🛠️ 本地设置难以重现 MCPJungle 为您提供单一控制点： - 🌐 用于 Claude、Cursor、Copilot 和自定义代理的一个 MCP 端点 - 🗂️ 一个注册和管理 MCP 服务器的地方 - 🔎 统一d
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, infrastructure, mcp, mcp-gateway, mcp-registry, mcp-server
+
+---
+
+### 🌟 [one-mcp](https://github.com/burugo/one-mcp)
+- **项目语言**: Go
+- **星标数量**: ⭐ 409
+- **核心概述**: 用于 MCP 服务器的集中式反向代理平台 — 从单个端点进行管理、分组和导出为技能。
+- **大概是做什么的**: One MCP - 模型上下文协议 (MCP) 服务的集中代理 ✨ 从单个界面管理、监控和配置您的 MCP 服务 ✨ One MCP 是模型上下文协议 (MCP) 服务的综合管理平台。作为集中式代理，它可以让您发现、安装、配置和监控来自不同提供商的 MCP 服务。它使用 Go 和 React 构建，提供强大的后端功能和直观的 Web 界面。 - 服务管理 — 从市场或自定义来源安装、配置和监控 MCP 服务（stdio/SSE/流式 HTTP） - 服务组 — 将多个 MCP 服务合并到单个端点；导出为 Claude Code 和 Droid 的人类技能 - 分析 — 实时跟踪使用情况、请求率、响应时间和系统运行状况 - 多用户和 OAuth — 使用 GitHub / Google 登录进行基于角色的访问控制 - 灵活部署 — SQLite（默认）/MySQL / PostgreSQL、可选 Redis、Docker 就绪、i18n（EN / ZH） 创建服务组以组合多个 MCP 服务并导出为技能：使用 Homebrew（macOS 和 Li）
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, mcp, mcp-convert-to-skill, mcp-manager, mcp-proxy, modelcontextprotocol
+
+---
+
+### 🌟 [ServerBee](https://github.com/ZingerLittleBee/ServerBee)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 333
+- **核心概述**: 使用代理 + 服务器 + Web 仪表板进行轻量级 VPS 监控。 Rust + React monorepo。
+- **大概是做什么的**: 轻量级、自托管 VPS 监控 — 一个 Rust 二进制文件，一切都实时。 ServerBee 从一处监视您的所有服务器。中央服务器通过 WebSocket 从轻量级代理接收指标，将它们存储在嵌入式 SQLite 中，并提供实时 React 仪表板 - 无需外部数据库，无需繁重的运行时。 - 🪶 占用空间小 - 代理在冷启动时使用 4.3 MB，在稳定状态下使用 27 MB，并且随着您的机队的增长，服务器保持轻量级。 - ⚡ 实时 — CPU、内存、磁盘、网络、负载、温度、GPU 和磁盘 I/O 的实时 WebSocket 仪表板。 - 📦 单一二进制文件 — 服务器 + 嵌入式 Web UI 在一个文件中。使用 Docker、一行脚本或 Railway 进行部署。 - 🔋 包括电池 - 警报、通知、Web 终端、文件管理器、Docker、防火墙、状态页面等。 - 🔒 默认安全 — OAuth + 2FA、RBAC、审核日志、一次性代理注册、代理拥有的功能门。 - ✅ 经过实战测试 — 3,800 多个自动化测试，包括通过模拟代理线束通过 HTTP + WebSocket 驱动真实路由器的集成套件；每次 CI 运行时呈绿色。 ServerBee 处于活动状态
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, axum, dashboard, monitoring, probe, react
+
+---
+
+### 🌟 [meta-prompting](https://github.com/meta-prompting/meta-prompting)
+- **项目语言**: Python
+- **星标数量**: ⭐ 308
+- **核心概述**: 人工智能系统元提示的正式实施（https://arxiv.org/abs/2311.11482）
+- **大概是做什么的**: AI 系统的元提示 这是论文“AI 系统的元提示”(https://arxiv.org/abs/2311.11482) 的官方存储库。摘要：我们引入了元提示（MP），这是一个通过关注任务的形式结构而不是特定于内容的示例来提高大型语言模型（LLM）的推理能力的框架。我们为这一范式建立了理论基础，将 MP 形式化为一个函子，将一类任务映射到一类结构化提示，从而保证组合问题解决策略可以系统地分解为模块化提示结构。我们将这一概念扩展到递归元提示（RMP），这是一个自动化过程，法学硕士可以在其中生成和完善自己的提示。我们将这种自我改进循环正式建模为一个单子，为自动化提示工程提供了原则框架。我们的主张通过多项实验得到验证，证明 Qwen-72B 基本模型在单个与示例无关的元提示的指导下，在 MATH、GSM8K 和 Game of 24 上取得了改进的结果。
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-systems, foundation-models, large-language-models, llm, meta-prompting, prompting
+
+---
+
 ## 🕔 2026-08-02 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 205 个候选项目中筛选出 6 个未推荐过的新项目。
