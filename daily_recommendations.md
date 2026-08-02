@@ -1,3 +1,67 @@
+## 🕔 2026-08-02 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 258 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [PrismerCloud](https://github.com/Prismer-AI/PrismerCloud)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,415
+- **核心概述**: 棱镜云
+- **大概是做什么的**: AI 代理的智能运行时 代理不断进化、协作和记忆。错误变成策略，修复变成建议——在所有代理之间共享。实时进化地图 · 为什么要使用特工安全带？如果没有基础设施，长时间运行的代理就会失败。 Anthropic 的研究确定了核心要求：可靠的上下文、错误恢复、持久内存和跨会话学习。大多数团队都会临时构建这些。 Prismer 将它们作为单个集成层提供。代理从彼此的结果中学习 Web → 压缩的 LLM 就绪内容 4 种、LLM 召回、自动整合 代理和人类论坛、业力市场、信用托管朋友、群组、实时 WS Auto Ed25519 签名、DID 身份 代理会话、任务板、资产预览 未来的代理和模型应该是插件，代理工作区信息和数据应该遵循人类而不是代理。一行 — 检测您的操作系统，如果缺少 Node，则安装 Node，让您登录：或者，如果您已经有 Node.js：密钥保存到 /.prismer/config.toml — 所有 SDK 和插件都会自动读取它。对于 AI 代理：参考 prismer.cloud/docs/Skill.m
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-communication, agent-memory, ai-agents, claude, cursor, docker
+
+---
+
+### 🌟 [win-dev-skills](https://github.com/microsoft/win-dev-skills)
+- **项目语言**: C#
+- **星标数量**: ⭐ 371
+- **核心概述**: 使用 WinUI 3 和 Windows App SDK 构建 Windows 应用程序的代理和技能
+- **大概是做什么的**: 用于 Windows 应用程序开发的 WinUI 代理和技能 GitHub Copilot、Claude Code 和 OpenAI Codex 插件，用于使用 WinUI 3 和 Windows App SDK 构建本机 Windows 应用程序，以涵盖端到端内部循环：脚手架 → 设计 → 构建 → 运行 → 测试 → 打包 → 发布。 🚧 预览 · v0.x — 预计会出现重大变化。技能名称、磁盘布局、代理配置、分析器规则 ID 和 CLI 工具界面如有更改，恕不另行通知。在 v1.0 之前没有 SemVer 承诺。如果您需要稳定的 pin，请从版本标签安装，而不是滚动市场（请参阅固定到版本）。输出是建议，而不是权威答案——在提交或交付它们产生的任何内容之前对其进行审查。该插件需要安装 GitHub Copilot ( winget install GitHub.Copilot )、Claude Code 或 OpenAI Codex。安装插件需要 Git ( winget install Git.Git )。选项 A — 只需要求 Copilot 执行此操作即可将此提示粘贴到 Copilot CLI 会话中。它会安装插件并一次性设置所有先决条件：选项 B — 自行安装插件，然后作为
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, copilot, copilot-cli, ghcp, skills
+
+---
+
+### 🌟 [flowent](https://github.com/ImFeH2/flowent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 288
+- **核心概述**: 只要说你需要什么。 Flowent 完成了它。
+- **大概是做什么的**: 只要说你需要什么。 Flowent 完成了它。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-runtime, agentic-workflows, ai, ai-agent, ai-workspace
+
+---
+
+### 🌟 [ClaudeR](https://github.com/IMNMV/ClaudeR)
+- **项目语言**: Python
+- **星标数量**: ⭐ 310
+- **核心概述**: 通过 MCP 将 RStudio 连接到 Claude Code、Codex、Gemini 和其他 LLM 代理。多代理编排、自动稿件审核和 uvx 的零配置设置
+- **大概是做什么的**: ClaudeR - 现代研究员的工具包将 RStudio 连接到 Claude Code、Codex、Gemini CLI 或任何基于 MCP 的 LLM 代理，以进行交互式编码、多代理编排和自动手稿审核。 ClaudeR 是一个 R 包，它在 RStudio 和 MCP 配置的 LLM 代理（如 Claude Code 或 Codex）之间建立直接链接。这允许交互式编码会话，代理可以在活动的 RStudio 环境中执行代码，以便它可以实时查看执行的代码和任何生成的绘图。如果您需要帮助编辑脚本、完成快速分析，或者需要法学硕士在提交前审核您针对任何稿件的统计声明：ClaudeR 会为您提供支持。此外，该包允许多个代理处理一个脚本，或者它可以使多个 RStudio 窗口隔离，以便多个代理可以在不同的数据集上独立运行。它还与 Cursor 和任何支持 MCP 服务器的服务兼容。 AI 代理：请参阅 llms-install.md 了解自动安装说明。最近更新（单击展开）- 研究人员工具包版本（R 0.5.0 / clauder-mcp 0.8.0）。 F
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, claude, cli, codex, data-science
+
+---
+
+### 🌟 [awesome-llm-unlearning](https://github.com/chrisliu298/awesome-llm-unlearning)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 616
+- **核心概述**: 大型语言模型中机器遗忘的资源库
+- **大概是做什么的**: 🧹 很棒的法学硕士取消学习精选的论文、调查、基准测试、框架和博客文章，用于大型语言模型中的机器取消学习。截至上次提交，共有 607 篇论文、18 篇调查和立场文件、3 个框架和 2 篇博客文章。如果您认为您的关于 LLM unlearning 的论文未包含在内，或者您发现错误、拼写错误或信息不是最新的，请提出问题或提交拉取请求，我将很乐意更新列表。 - 调查和立场文件 - 超越二元奖励：强化遗忘的奖励设计的比较研究 - 作者：Efstratios Zaradoukas、Davide Gabrielli、Bardh Prenkaj、Gjergji Kasneci - 地点：ECML-PKDD 2026 WIPE-OUT 研讨会 - 跨越边缘悬崖：通过边缘校准实现再学习稳健的 LLM 遗忘- 作者：殷翔宇、刘家旭、陈震、程志宏 - 减法还是重放？从语言模型记忆中精确删除 - 作者：Vishwajith Ramesh - Unlearning Under Imbalance: Benchmarking Fairness in Multimodal LLM Unlearning - 作者：Lorenzo Orsingher、Thomas D
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-safety, alignment, awesome, awesome-list, evaluation, knowledge-erasure
+
+---
+
+### 🌟 [DeepEye](https://github.com/HKUSTDial/DeepEye)
+- **项目语言**: Python
+- **星标数量**: ⭐ 221
+- **核心概述**: DeepEye：自治数据代理系统
+- **大概是做什么的**: DeepEye：可操纵的自动驾驶数据代理系统 DeepEye 是一个可投入生产的可操纵的自动驾驶数据代理系统。与线性“ChatBI”工具不同，DeepEye 采用以工作流为中心的架构，可以处理异构数据源和复杂的迭代分析，而无需上下文爆炸。它自主编排多步骤工作流程，生成三类丰富的分析工件： - 🎬 数据视频 — 通过结构化分析呈现的解说动画数据故事 - 📊 仪表板 — 交互式、实时更新的可视化仪表板 - 📝 分析报告 — 结构化、分析师级书面报告 主要架构优势： - 🔗 统一多模式编排 — 将数据库、文档、CSV/Excel 文件和 API 无缝集成在一个单一的版本中工作流程 - 🧠 分层推理 — 将复杂意图分解为独立的 AgentNode 和确定性 ToolNode，以消除幻觉 - ⚙️ 工作流引擎 — 受数据库启发的执行管道，通过拓扑感知调度保证结构正确性并加速运行时间 - 👁 人在厕所
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, data-agent, data-agents, data-science, data-scientist, llm
+
+---
+
 ## 🕔 2026-08-01 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 228 个候选项目中筛选出 6 个未推荐过的新项目。
