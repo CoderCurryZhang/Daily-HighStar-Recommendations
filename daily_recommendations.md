@@ -1,3 +1,67 @@
+## 🕔 2026-08-02 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 205 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [mysql_mcp_server](https://github.com/designcomputer/mysql_mcp_server)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,348
+- **核心概述**: 模型上下文协议 (MCP) 服务器，可实现与 MySQL 数据库的安全交互
+- **大概是做什么的**: 模型上下文协议 (MCP) 实现，可实现与 MySQL 数据库的安全交互。该服务器组件促进人工智能应用程序（主机/客户端）和 MySQL 数据库之间的通信，通过受控接口使数据库探索和分析更安全、更结构化。注意：MySQL MCP 服务器支持标准输入/输出 (STDIO) 和可流式 HTTP (SSE) 传输模式。对于远程/自托管部署，建议使用 SSE 模式。 - 托管 — Fronteir AI 为您运行服务器；无需本地设置。 - 本地 — Smithery 在您自己的计算机上安装并运行服务器。 - 将可用的 MySQL 表作为资源列出 - 读取表内容 - 通过正确的错误处理执行 SQL 查询 - 多数据库模式（可选 MYSQL DATABASE） - SSE/HTTP 传输支持 ( MCP TRANSPORT=sse ) - SSH 隧道支持 - 全面的模式信息 - 表数据采样 - 通过环境变量进行安全数据库访问 - 全面的日志记录 通过 Smithery 安装 要通过 Smithery 自动为 Claude Desktop 安装 MySQL MCP 服务器：
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, claude, claude-code, database, llm, mcp
+
+---
+
+### 🌟 [brigade](https://github.com/spinabot/brigade)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 521
+- **核心概述**: Brigade — 您的个人智能，打造企业级
+- **大概是做什么的**: 🦁 Brigade — 您的个人智能，专为企业规模打造的企业级。向所有人开放。 · 一个生态系统，而不是一个应用程序。 🔐 没有代币可以玩。没有戏剧。没有复制粘贴秘密，没有遥测——我们处理它们，而不是你。您的 API 密钥保留在您自己的计算机上，从未发送给中间人。 🔑 没有 API 密钥？没问题。使用您的 Claude 、 ChatGPT 或 Copilot 订阅登录 - 或者，如果您已经登录 Claude Code 或 Codex CLI，请重复使用该登录信息（无需浏览器，无需重新身份验证）。 🩸💥 B³ — 旅血腥基准 💥🩸 v1.9.0 中的新内容 · 将你的船员扔进狼群的一个命令（可爱地）三个 B。一个血腥的命令。您的团队在开放的互联网上自由活动。旅是你的船员。血淋淋的是你对它所做的事情——把它扔到空旷的地方，没有网，沿着一条炽热的隧道扔到野外。基准是要点：唯一重要的测试不是实验室，而是陌生人在凌晨 3 点戳你的代理。熬过这一关，你就成功了。在幕后它是温和的 - HTTPS 位于边缘，无需帐户，无需设置。默认为 Cloudflare，或者自带中继（ bor
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-runtime, ai, ai-crew, autonomous-agents, brigade, brigade-agent
+
+---
+
+### 🌟 [openeverest](https://github.com/openeverest/openeverest)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 858
+- **核心概述**: OpenEverest 是一个用于自动化数据库配置和管理的开源平台。它支持多种数据库技术，可以托管在任何 Kubernetes 基础设施、云端或本地。
+- **大概是做什么的**: OpenEverest - 在 Kubernetes 上运行数据工作负载 OpenEverest 是一个开源云原生数据库平台，可帮助开发人员更快地部署代码、快速扩展部署并减少数据库管理开销，同时重新控制其数据、数据库配置和 DBaaS 成本。为什么您应该尝试 OpenEverest： - 只需点击几下即可启动数据库实例 - 使您的团队能够更快地开发并缩短上市时间 - 简化维护 - 监控和优化 - 确保数据安全 探索 OpenEverest 的所有特性和功能，并了解它如何改变您的数据库管理体验。有关 OpenEverest 的全面信息，请参阅文档。查看我们的项目路线图，了解即将推出的功能、增强功能和里程碑。使用 Helm 安装 OpenEverest（推荐） Helm 是推荐的 OpenEverest 安装方法，因为它简化了 Kubernetes 环境中的部署和资源管理。 - 确保您已设置 Kubernetes 集群（例如 Amazon EKS、Google GKE）。 - 在本地计算机上安装 Helm：Helm
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: databases, kubernetes, llm, open-source, storage
+
+---
+
+### 🌟 [OpenAI-sublime-text](https://github.com/yaroslavyaroslav/OpenAI-sublime-text)
+- **项目语言**: Python
+- **星标数量**: ⭐ 468
+- **核心概述**: 一流的 Sublime Text AI 助手，支持 gpt-5、Opus 4.6、Gemini 3 和 ollama！
+- **大概是做什么的**: OpenAI Sublime Text 插件 Sublime Text 的 AI 辅助光标级别。我是认真的。可与 OpenAI Responses、Anthropic Claude、Google Gemini 以及整个 OpenAI 兼容 API 配合使用：llama.cpp 服务器、ollama 或您今天决定信任的任何第三方 LLM 托管服务。 - 聊天模式由您想要的任何模型提供支持。 - gpt-5 支持。 - llama.cpp 的服务器、ollama 和所有其他 OpenAI'ish API 兼容。 - 项目的专用聊天记录和辅助设置。 - 能够作为上下文扩展发送整个文件或其部分。 - Phantoms 以无干扰的方式直接内联查看模型的答案。 - 带代码语言语法突出显示的 Markdown 语法（仅限聊天模式）。 - 服务器端流式传输 (SSE) 流式传输支持。 - 状态栏各种信息：型号名称、模式、发送/接收令牌。 - llama.cpp ，已安装 llama 或 - 远程 llm 服务提供商 API 密钥，例如OpenAI - 可选 Anthropic、Google Gemini 或其他���供商 API 密钥，具体取决于您的助手设置。 1. 如果您之前没有安装过 Sublime Text Package Control 插件，请安装此插件。 2. 打开
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-assistant, chatgpt, gpt-4, llm, nlp, o3-mini
+
+---
+
+### 🌟 [rllm](https://github.com/rllm-team/rllm)
+- **项目语言**: Python
+- **星标数量**: ⭐ 442
+- **核心概述**: 用于与法学硕士进行关系表学习的 Pytorch 库。
+- **大概是做什么的**: - [2026.01] 我们发布了 TLSQL ，一个用于表学习的类 SQL API。请参阅我们的论文和代码：arXiv·GitHub。 - [2025.10] 我校学生荣获中国开源安全激励计划一等奖。 - [2025.08] 在CCF-华为Populus Grove基金中期报告中，我们展示了如何通过MySQL以“类似SQL”的方式使用rLLM。观看华为官方账号视频：📺 Bilibili。 - [2025.04] 发布课程视频《表格学习专题（2025年春季，上海交通大学）》。查看课程页面或访问我们的 YouTube 频道。 - [2025.01] 我们已更新至 rLLM v0.1.1，以提高变换和卷积操作之间的一致性。请参阅我们的博客。 - [2024.12] rLLM被著名科技杂志《麻省理工科技评论》专题报道。请阅读此处（中文）或此处（英文）的报告。 - [2024.11] 这项工作已被 Snowflake（人工智能数据云领导者，纽约证券交易所：$57.46B）批准为 RTL 类型任务的一个很好的工具。参见论文：arXiv:2411.11829。 - [2024.10] 我们最近添加了最先进的 GNN 方法 OGC TNNLS 2024]、TNN 方法 ExcelFormer KDD 2024] 和 Trompt ICML 2023]。 - [2024。
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: deep-learning, graph-neural-networks, llm, pytorch, relational-table-learning, tabular-learning
+
+---
+
+### 🌟 [code-graph](https://github.com/FalkorDB/code-graph)
+- **项目语言**: Python
+- **星标数量**: ⭐ 330
+- **核心概述**: 使用 GraphRAG-SDK 和 FalkorDB 的代码图演示
+- **大概是做什么的**: CodeGraph - 知识图可视化工具将代码库可视化为知识图，以分析依赖关系、检测瓶颈和优化项目。连接并提出问题： - Python =3.12，（或原始令牌字符串）当配置了 SECRET TOKEN 时。 - 读取端点使用 public 或 auth 依赖项。 - 变异端点（ /api/analyze 文件夹、 /api/analyze repo 、 /api/switch commit ）使用令牌所需的依赖项。 - 如果未设置 SECRET TOKEN，则当前实现接受没有授权标头的请求。 - 设置 CODE GRAPH PUBLIC=1 会使只读端点公开，即使配置了 SECRET TOKEN 也是如此。 3. 安装依赖项 如果不使用 uv ， pip install -e ".[test]" 还会安装后端包和测试依赖项。具有自动重载功能的后端 API：使用 Vite 进行前端热重载：Vite 开发服务器在 http://localhost:3000 上运行，并代理 /api/ 请求到 http://127.0.0.1:5000 。单进程构建的前端 + 后端：在此模式下，FastAPI 应用程序从 http://localhost:5000 上的 app/dist 提供构建的 React SPA。当前测试点
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: code-graph, genai, graph, graph-database, llm, nextjs
+
+---
+
 ## 🕔 2026-08-02 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 201 个候选项目中筛选出 6 个未推荐过的新项目。
