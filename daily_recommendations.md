@@ -1,3 +1,67 @@
+## 🕔 2026-08-02 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 201 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [h2o-llmstudio](https://github.com/h2oai/h2o-llmstudio)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,044
+- **核心概述**: H2O LLM Studio - 用于微调 LLM 的框架和无代码 GUI。文档：https://docs.h2o.ai/h2o-llmstudio/
+- **大概是做什么的**: 欢迎使用 H2O LLM Studio，这是一个框架和无代码 GUI，旨在微调最先进的大型语言模型 (LLM)。 - 使用 H2O LLM Studio，您可以 - 推荐安装 - 虚拟环境 - 运行 H2O LLM Studio GUI - 使用 Docker 运行 H2O LLM Studio GUI - 使用命令行界面 (CLI) 运行 H2O LLM Studio - 数据格式和示例数据 - 训练模型 - 示例：通过 CLI 在 OASST 数据上运行 使用 H2O LLM Studio，您可以 - 轻松有效地微调 LLM，无需任何编码经验。 - 使用专为大型语言模型设计的图形用户界面（GUI）。 - 使用各种超参数微调任何法学���士。 - 使用最新的微调技术，例如低秩适应 (LoRA) 和低内存占用的 8 位模型训练。 - 使用强化学习 (RL) 微调您的模型（实验）。 - 使用高级评估指标来判断模型生成的答案。 - 直观地跟踪和比较您的模型性能。此外，还可以使用W&B集成。 - 与您的模特聊天并获得有关您的模特的即时反馈
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, chatbot, chatgpt, fedramp, fine-tuning, finetuning
+
+---
+
+### 🌟 [mcp](https://github.com/MicrosoftDocs/mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,805
+- **核心概述**: 官方 Microsoft Learn MCP 服务器和 CLI 工具 – 通过实时、可信的 Microsoft 文档和代码示例为 LLM 和 AI 代理提供支持。
+- **大概是做什么的**: 🌟 Microsoft Learn MCP 服务器阻止 AI 幻觉。让您的 AI 助手（Claude、Cursor、Copilot、Codex...）直接访问最新的 Microsoft 官方文档。 ✨ 免费。一键安装。无需钥匙。 🎯 为什么要安装这个？停止依赖过时的训练数据或有风险的网络搜索。 Learn MCP 服务器提供对 Microsoft 官方文档的安全、直接访问。 🧠消除幻觉。阻止 AI 发明不存在的 Azure SDK 方法或产生幻觉的库包。获取实际编译的代码。 🔌 即插即用（无需授权）。无需 API 密钥、无需登录、无需注册。只需一键安装即可立即开始编码。 🛡️ 100% 可信且安全。保护您的供应链。与可能抓取不安全博客或恶意网站的通用网络搜索不同，此工具仅访问第一方 Microsoft 官方文档。 💸 完全免费。高搜索能力专为无缝、繁重的编码会话而设计。 “向我提供 Azure CLI 命令，以创建具有托管标识的 Azure 容器应用程序。” “gpt-5.4 在 Azure EU 区域可用吗？” “你确定我这个
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, cli, copilot, documentation, learn-cli
+
+---
+
+### 🌟 [cliare](https://github.com/modiqo/cliare)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 592
+- **核心概述**: CLI 代理就绪情况测量、命令形状推理和 CI 记分卡
+- **大概是做什么的**: CLIARE 审核命令行界面以了解代理准备情况。它类似于 CLI 的 OpenAPI/Swagger，但是根据运行时证据而不是手写文档生成的。代理越来越多地使用终端作为操作界面，但大多数 CLI 都是为人们阅读帮助文本而设计的。代理工具在花费代币尝试命令之前需要不同的合约： - 哪些命令实际存在？ - 哪些标志和位置可以安全使用？ - 哪些命令具有可解析的 JSON/YAML 输出？ - 哪些路径需要身份验证、项目目录、固定装置、网络访问或本地守护进程？ - 哪些“安全”发现命令会悄悄写入文件？ CLIARE 通过将发布的 CLI 二进制文件作为黑盒进行测量来回答这些问题。它探测有界控制下的运行时行为、记录证据、推断命令表面、检测副作用并发出命令索引、问题分类帐、记分卡、单命令摘要、角色报告、CI 工件和代理技能。 CLIARE 代表 CLI 代理准备情况评估。从 CLI 漂移到代理就绪命令界面 CLIARE 发音如下
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, cli
+
+---
+
+### 🌟 [minuet-ai.nvim](https://github.com/milanglacier/minuet-ai.nvim)
+- **项目语言**: Lua
+- **星标数量**: ⭐ 1,347
+- **核心概述**: 💃 在代码中与智能共舞。 Minuet 提供流行的 LLM 的代码自动补全功能，包括 OpenAI、Gemini、Claude、Ollama、Llama.cpp、Codestral 等。
+- **大概是做什么的**: - 虚拟文本设置 - 用于内置完成和内联完成的进程内 LSP - LLM 提供程序示例 - Openrouter deepseek-v4-flash - Opencode Go deepseek-v4-flash - Deepseek deepseek-v4-flash - Ollama Qwen-2.5-coder:7b - Llama.cpp Qwen-2.5-coder:1.5b - 选择提供程序或模型 - 了解模型速度 -前缀优先与后缀优先 - OpenAI-FIM 兼容 - 非 OpenAI-FIM 兼容 API - 小步舞曲更改提供程序、小步舞曲更改模型 - 小步舞曲更改预设 - 小步舞曲闪烁、小步舞曲 cmp - 小步舞曲虚拟文本 - Duet（下一个编辑预测） - 标准完成事件 - 自定义源图标和种类图标的 cmp ui - 自定义源图标和种类图标的闪烁 ui - 移动时出现显着的输入延迟使用 nvim-cmp 开辟新路线 - 与lazyvim 集成 - RAG（实验）小步舞曲：在代码中与智能共舞 💃。小步舞曲将小步舞曲的优雅与和谐带入您的编码过程。就像舞者在小步舞中移动一样。 - 具有双重模式的人工智能驱动的代码完成： - 针对基于聊天的法学硕士关于代码完成任务的专门提示和各种增强功能。 -
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, code-completion, llm, neovim, neovim-plugin
+
+---
+
+### 🌟 [wtffmpeg](https://github.com/scottvr/wtffmpeg)
+- **项目语言**: Python
+- **星标数量**: ⭐ 329
+- **核心概述**: 一个最小的字符终端（控制台）REPL UI，用于通过输入文件的自然语言描述和所需的结果来控制 ffmpeg，由本地或远程 LLM 提供支持。 Shell 风格的历史记录，带有箭头键支持、!subshel​​l 支持、/slash REPL op 命令、运行时、env 和 cli 配置。
+- **大概是做什么的**: 更新！对于上周左右尝试在 main 中运行代码的人表示抱歉。当我推送一个出现问题的提交时，wtffmpeg 遇到了“在我的机器上可以工作”的时刻（或者合并了一个，我看起来并没有那么难，我只是一注意到就修复了它，从一个存储库拉到一台以前从未安装过 wtffmpeg 的机器，并发现它无法工作。）耻辱是我的。现在已经修复了。当一张图片就足够了时，我倾向于使用 1000 个单词。因此，为了阐明这一点，请在您阅读下面我有时漫无目的的文字之前或代替您阅读我的所��内容。这是 wtffmpeg 的实际应用！我已将大部分过多的杂乱内容移至此处，如果您需要的话。 https://github.com/user-attachments/assets/75222305-efe3-4581-9172-b6d76ad37eba 这是什么？ ffmpeg ？ wtffmpeg 是一个命令行工具，它使用大型语言模型 (LLM) 将视频或音频任务的简单英语描述转换为实际的可执行 ffmpeg 命令。它的目的是消除一个常见的工作流程，您知道 ffmpeg 是适合某项工作的工具，因此您： 1. 搜索 Stack Overflow 2. 重新
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ffmpeg, llm, repl, wtf, wtffmpeg
+
+---
+
+### 🌟 [minuet-ai.el](https://github.com/milanglacier/minuet-ai.el)
+- **项目语言**: Emacs Lisp
+- **星标数量**: ⭐ 370
+- **核心概述**: 💃 在你的代码中与 LLM 共舞。 Minuet 提供流行的 LLM 的代码自动补全功能，包括 OpenAI、Gemini、Claude、Ollama、Llama.cpp、Codestral 等。
+- **大概是做什么的**: - 快速入门：LLM 提供商示例 - Ollama Qwen-2.5-coder:3b - OpenRouter Deepseek-V4-Flash - Opencode Go Deepseek-V4-Flash - Deepseek Deepseek-V4-Flash - Llama.cpp Qwen-2.5-coder:1.5b - 选择提供商或模型 - 了解模型速度 - 前缀优先与后缀优先 - minuet-context-window - minuet-context-ratio - minuet-request-timeout - minuet-show-error-message-on-minibuffer - minuet-add-single-line-entry - minuet-n-completions - minuet-auto-suggestion-block-predicates - minuet-auto-suggestion-debounce-delay - minuet-auto-suggestion-throttle-delay - Duet （下一步编辑预测） - OpenAI-FIM-Compatible - 非 OpenAI-FIM-Compatible API [gnu-elpa-link]：https://elpa.gnu.org/packages/minuet.html [gnu-elpa-badge]：https://elpa.gnu.org/packages/minuet.svg [melpa-link]：https://melpa.org/ /minuet [melpa-badge]： https://melpa.org/packages/minuet-badge.svg 小步舞曲：在您的代码中与 LLM 共舞 💃。小步舞曲将小步舞曲的优雅与和谐带入您的编码过程。就像舞者在小步舞中移动一样。 - LLM 支持的双模式代码完成： - 专门的提示和 va
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, code-completion, emacs, emacs-plugin, llm
+
+---
+
 ## 🕔 2026-08-02 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 258 个候选项目中筛选出 6 个未推荐过的新项目。
