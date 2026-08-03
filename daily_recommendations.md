@@ -1,3 +1,67 @@
+## 🕔 2026-08-03 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 176 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [vllm-mlx](https://github.com/waybarrios/vllm-mlx)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,482
+- **核心概述**: 适用于 Apple Silicon 的 OpenAI 和 Anthropic 兼容服务器。通过连续批处理、MCP 工具调用和多模式支持运行 LLM 和视觉语言模型（Llama、Qwen-VL、LLaVA）。原生 MLX 后端，400+ tok/s。与克劳德代码一起工作。
+- **大概是做什么的**: 阅读其他语言版本：英语 · 西班牙语 · 法语 · 中文 一台服务器中的连续批处理 + OpenAI + Anthropic API。原生 Apple Silicon 推断。适用于 Apple Silicon Mac 的 vLLM 风格推理服务器。与直接使用 Ollama 或 mlx-lm 不同，它提供连续批处理、分页 KV 缓存、前缀缓存和 SSD 分层缓存，并从单个进程公开 OpenAI /v1/ 和 Anthropic /v1/ 消息。使用统一内存在 Metal 上运行 LLM、视觉模型、音频和嵌入，无需转换步骤。快速入门（30 秒） Anthropic SDK / Claude 代码： - OpenAI 兼容：/v1/chat/completions 、 /v1/completions 、/v1/embeddings 、/v1/rerank 、/v1/responses - Anthropic 兼容：/v1/messages （流、工具使用、系统提示） - MCP 工具调用：12 个解析器（OpenAI、Anthropic、 Gemini、Qwen、DeepSeek、Gemma 等） - 结构化输出：通过响应格式的 JSON 模式 (lm-format-enforcer) - 连续批处理：并发请求的高吞吐量 - 分页 KV 缓存：通过前缀共享提高内存效率 - SSD 分层 KV 缓存：将前缀缓存溢出到磁盘以进行长时间连续处理
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: anthropic, apple-silicon, audio-processing, claude-code, computer-vision, image-understanding
+
+---
+
+### 🌟 [SparkVSR](https://github.com/taco-group/SparkVSR)
+- **项目语言**: Python
+- **星标数量**: ⭐ 693
+- **核心概述**: [ECCV 2026] SparkVSR：通过稀疏关键帧传播实现交互式视频超分辨率
+- **大概是做什么的**: SparkVSR：通过稀疏关键帧传播实现交互式视频超分辨率 Jiongze Yu 1 , Shangobo Gau 1 , Pooja Verlani 2 , Akshay Gadde 2 , Yilin Wang 2 , Balu Adsumilli 2 , Zenzhong Tu †,1 1 Texas A&M University    2 YouTube, Google † 通讯作者 已接受 ECCV 2026 💡 您的⭐ 星星对我们来说意义重大，有助于支持这个项目的持续发展！ - 2026.08.03：SparkVSR 现已在带有代码的论文中提供，有 14 个经过验证的评估。感谢 Hugging Face 开源团队策划和验证结果！ - 2026 年 6 月 20 日：SparkVSR 现已通过社区部署在 RunningHub.ai 和 CNAPS.ai 上提供！ - 2026年6月18日：SparkVSR被ECCV 2026接受！ 🎉🎉🎉 - 2026.05.11：ComfyUI-SparkVSR 发布。🚀🚀🚀 - 2026.03.17：此存储库发布。🔥🔥🔥 摘要：视频超分辨率（VSR）旨在从低分辨率（LR）估计中恢复高质量视频帧，但大多数现有的 VSR 方法在推理时的行为就像黑匣子：用户无法可靠地纠正意外的伪影，而只能接受
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: artificial-intelligence, generative-ai, generative-models, image-processing, llm, machine-learning
+
+---
+
+### 🌟 [Memoria](https://github.com/matrixorigin/Memoria)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 533
+- **核心概述**: AI 代理的安全内存管理 • 确保数据完整性 • 减少幻觉 • 保持一致的长期上下文
+- **大概是做什么的**: 世界上第一个用于 AI 代理内存快照、分支、合并、回滚的 Git — 用于内存，而不是代码。 Git 使代码可以安全地更改。记忆使记忆可以安全地改变。快速入门 · 为什么选择 Memoria · 研究 · 查看实际应用 · API 参考 · 架构 · 开发 · 引文 Memoria 是一个用于 AI 代理的持久内存层，具有 Git 级别的版本控制。每个内存更改都会被跟踪、可审核且可逆 - 快照、分支、合并和时间旅行回滚，所有这些均由 MatrixOne 的本机 Copy-on-Write 引擎提供支持。零拷贝分支、即时快照、时间点回滚 — 每个内存突变的版本控制 矢量 + 全文混合检索通过含义查找内存，而不仅仅是关键字 自动检测矛盾、隔离低置信度内存、维护审核跟踪 🔒 默认私有 本地嵌入模型选项 — 没有数据离开您的机器 🧠 跨会话偏好、事实和决策持续存在 每个内存突变都有一个快照 + 来源链 可与任何内存突变一起使用MCP 兼容代理 ☁️ Memoria Cloud（推荐 — 否
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, database, llm, memory, storage
+
+---
+
+### 🌟 [skill-up](https://github.com/alibaba/skill-up)
+- **项目语言**: Go
+- **星标数量**: ⭐ 346
+- **核心概述**: 座席技能的评估和进化工具。
+- **大概是做什么的**: 座席技能的评估和进化工具。 📖 用户手册 · 用户手册 Skill-Up 是一个 Agent 技能评估和进化工具。 - 评估使技能质量可测量且可重复：声明性 YAML 案例跨多个代理引擎运行，使用规则、脚本或代理判断，并在本地或 CI 中生成结构化报告。 - Evolution 将这些结果转化为下一个改进：通过对话，技能上限读取失败，自动修复或扩展评估套件，重新运行技能提升，并与您一起不断迭代。 - 具有技能升级的评估到进化循环：通过自然对��创建评估、诊断故障、自动修复或扩展案例，并重新运行技能升级，直到评估套件进化。 - 声明式评估配置：通过 YAML ( eval.yaml + Cases/.yaml ) 定义评估环境、引擎、模型和案例。 - 多引擎支持：与 Qoder CLI、Claude Code 和 Codex 一起使用作为内置代理引擎，以及通过 engine.custom 的用户定义代理（本地传输 - 请参阅 docs/design/custom-engine.md）。 - 灵活的判断：支持基于规则，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai, ai-agents, alibaba, skills
+
+---
+
+### 🌟 [SwiftStreamingMarkdown](https://github.com/microsoft/SwiftStreamingMarkdown)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 306
+- **核心概述**: 适用于 iOS 和 macOS、支持流式传输的高性能 Markdown 库
+- **大概是做什么的**: SwiftStreamingMarkdown 一款 iOS 和 macOS Markdown 渲染器，可提供流畅的流媒体体验。 - ⚡ 新接收文本的平滑、高性能流式转换 - 🧮 本机内联和块 LaTeX 数学渲染 - 🔗 基于源代码的 LLM 响应的内联引文 UI - 🎨 高度可配置的版式、主题和 iOS 上下文菜单 - 📊 用于分析和交互跟踪的内置挂钩 - 流性能 - 自定义主题 - 监听事件 以下是一些演示，可帮助您快速了解该库的功能能力。可以在示例应用程序中找到更多信息。渲染器的目标是 LLM 响应实际发出的 CommonMark + GitHub 风格的 Markdown 子集。不受支持的语法会降级为可读文本，因此流式响应永远不会中断。 - [x] 标题 ( … ) - [x] 具有软换行符和硬换行符的段落 - [x] 图像 ( ) — 块级，通过实验性 ImageConfig 选择加入（远程允许列表、资产目录和捆绑资源源；点击可打开内置全屏查看器） - [x] 粗体、斜体、粗体斜体、删除线 - [x] Fenced co
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ios, llm, macos, markdown
+
+---
+
+### 🌟 [llm_aided_ocr](https://github.com/Dicklesworthstone/llm_aided_ocr)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,950
+- **核心概述**: 使用 LLM（本地或 API）增强 Tesseract OCR 输出，以进行纠错、智能分块和扫描 PDF 的降价格式化
+- **大概是做什么的**: 法学硕士辅助 OCR 项目 法学硕士辅助 OCR 项目是一个先进的系统，旨在显着提高光学字符识别 (OCR) 输出的质量。通过利用尖端的自然语言处理技术和大型语言模型 (LLM)，该项目将原始 OCR 文本转换为高度准确、格式良好且可读的文档。要了解 LLM 辅助 OCR 项目的功能，请查看以下示例输出： - LLM 校正的 Markdown 输出 - PDF 到图像转换 - 使用 Tesseract 的 OCR - 使用 LLM（本地或基于 API）进行高级纠错 - 用于高效处理的智能文本分块 - Markdown 格式化选项 - 标题和页码抑制（可选） - 最终输出的质量评估 - 支持本地 LLM 和基于云的 API 提供商（OpenAI、Anthropic） - 异步处理提高性能 - 用于进程跟踪和调试的详细日志记录 - 用于本地 LLM 推理的 GPU 加速 详细技术概述 PDF 处理和 OCR 1. PDF 到图像转换 - 功能：将 pdf 转换为图像() - 使用 pdf2i
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-assist, llama2, llm, ocr, ocr-correction, tesseract
+
+---
+
 ## 🕔 2026-08-02 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 226 个候选项目中筛选出 6 个未推荐过的新项目。
