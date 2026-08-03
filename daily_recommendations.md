@@ -1,3 +1,67 @@
+## 🕔 2026-08-03 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 251 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [loopx](https://github.com/huangruiteng/loopx)
+- **项目语言**: Python
+- **星标数量**: ⭐ 628
+- **核心概述**: 适用于长期运行的 AI 代理团队的轻量级循环工程状态内核。跨 Codex、Claude Code 和其他编码代理的代理循环不可知，具有持久目标、配额感知自动唤醒、可执行待办事项、证据日志和可验证的切换。
+- **大概是做什么的**: 用于长时间运行的人工智能代理工作的本地控制平面。在 Codex、Claude Code、Cursor 或您自己的运行时执行有界轮次时，保持目标、门、待办事项、证据、配额和交接稳定。尝试 LoopX · 查看真实的循环 · 它是如何工作的 · 托管前台 · 用户手册 · 简体中文把会干活的代理，接成可管理、可复盘、可持续改进的数字员工。LoopX 是一个用于循环工程的轻量级状态内核和与代理无关的本地控制平面，使长期运行的工作保持可审查、可重新启动，并且更容易跨轮流、工具和代理进行交接。它不会取代长期运行的 AI 代理和对等代理团队的代理循环工程。保持循环移动。保持人性化的判断。代理可以在一次会话中完成一项任务。长期运行的工作更加困难：目标发生变化，所有者决策出现，证据变得陈旧，代理将工作交给同事，并且调度程序可以在没有有用的过渡后继续支出。聊天内存和计时器不足以控制这一点。 LoopX 将持久控制状态保留在一个紧凑的层中：一个有用���心智模型是用于长期运行工作的代理本机看板。卡片带有身份信息
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-control-plane, agent-ops, ai-agents, codex, long-running-agents, loop-engineering
+
+---
+
+### 🌟 [omnibox](https://github.com/import-ai/omnibox)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,477
+- **核心概述**: 收集、组织、使用和共享，一切都在 OmniBox 中。
+- **大概是做什么的**: OmniBox（小黑）是一个简单、跨平台、一体化的人工智能知识中心。您所需要做的就是收集，然后询问。 1. 通过浏览器扩展将网页的主要内容保存到 OmniBox。 2. PDF、Word、PPT、MP3等格式的文件上传并进行端到端解析和索引。 3. Markdown编辑和渲染（公式、思维导图、流程图、序列图、甘特图、乐谱等） 4. 基于互联网和本地数据库的问答和写作。 5. Flash：在 iOS 上快速捕捉转瞬即逝的想法，支持录音和文字注释。 6. 共享：直接从 iOS 无缝地将文件共享到 OmniBox。 7.微信机器人：通过微信随时随地将文件、网页、视频、语音消息、文本和聊天记录保存到OmniBox。 8. 用户和团队系统、权限、共享管理、多租户、多语言、深色模式、移动响应能力等等。欢迎使用我们的在线服务：omnibox.pro，支持通过电子邮件、Google 和微信登录。浏览器扩展安装 OmniBox Docs - [x] 代理、文件夹和文档公共共享 - [ ] RSS 订阅
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-search, editor, llm, note, rag
+
+---
+
+### 🌟 [PUAX](https://github.com/linkerlin/PUAX)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 320
+- **核心概述**: 用来驯服AI Agent的效果绝佳的多角色 Prompt！
+- **大概是做什么的**: PUAX — AI Agent 激励系统 当 AI Agent 陷入瓶颈时，PUAX 提供角色、方法论与行为协议，驱动有效行动 PUAX 是面向 AI Agent 的 激励与行为驱动 系统，核心能力包括： 混合触发检测 YAML 正则 + TF-IDF/子串语义（paraphrase 可命中） 智能角色推荐 50 内置角色 + 自定义角色，多维度评分 + score explanation 行为有效性闭环 诊断先行、信心门控、失败后切换、Task Contract、独立验证 Hook System 会话状态、L0–L4 压力、突破降压、Compaction 推理保护 自进化 /.puax/evolution.json 跨会话基线与段位 11 种大厂风味 语气 + 行为约束（非仅修辞） 可观测性 匿名本地使用统计 + OpenTelemetry 兼容 span 帮助 Agent 从「分析正确」走向「验证完成、可交付」。 MCP 配置示例（Cursor） — /.cursor/mcp.json ： 详见 puax-mcp-server/README.md。 除 MCP 运行时外，PUAX 亦提供以下入口（详见 distributions/INSTALL.md）： Skills CLI npx skills add linkerlin/PUAX Claude Code 插件市场 claude plugin marketplace add ./distributions/claude-code 平台原生导出 npx puax-mcp-server --export=all --output=./puax-export npx skills 借用 Vercel Skills CLI，按约定扫描 skills/ /SKILL.md ，与 PUAX 角色目录结构相符；其完整工具链仍需 npx puax-mcp-server 。 puax check diagnosis 验证 [PUAX-DIAGNOSIS] 诊断块 puax confidence check 6 步信心门控 puax switch on failure 失败模式 → 方法论/角色切换链 puax define contract Task Contract 定义 puax verify completion 独立验证（非 Agent 自评） 激活角色时自动注入诊断先行协议（ activate with context / get role with methodology ）。 - 状态持久化： /.puax/
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agency, agent, prompt, pua
+
+---
+
+### 🌟 [growth-lab](https://github.com/tsingyuai/growth-lab)
+- **项目语言**: Python
+- **星标数量**: ⭐ 313
+- **核心概述**: An end-to-end growth tool that understands the product, fetch the data it needs, researches the market, executes campaigns, and reviews results to improve the next round of growth. 从代码到市场的开源端到端增长工具。理解产品、接入信息渠道、研究市场、执行增长行动，并基于真实数据自我改进。
+- **大概是做什么的**: 用自然语言运行产品运营和用户增长闭环：理解产品，发现真实需求，采取行动，再从结果中找到下一步。 简体中文 · English · 繁体中文 · Français · Español · Русский · Português · Deutsch · 日本语 · 한국어 · Türkçe · Tiếng Việt · Polski 大多数 AI 增长工具只解决一个局部问题：有的生成文案，有的研究竞品，有的负责发布，有的展示数据。产品上下文在不同工具之间反复丢失，真正重要的决策仍散落在仪表盘、文档、Prompt 和人工交接中。 现代 Coding Agent 已经能够读取代码仓库、搜索网络、操作工具、编辑文件、跨上下文推理，并在会话中与人协作。 Growth Lab 以 Codex 和 Claude Code 作为应用 Runtime，将这些能力组织成端到端的增长工作流。 Skill 教 Runtime 如何理解产品、开展研究、选择工具、形成策略、制作内容、分析反馈和决定下一步。 Client 工具让 Runtime 能够使用浏览器、官方 API、数据导出、内容平台和素材生成等外部能力。文件跨会话保存产品上下文、研究资料、决策与结果。 每个 Model 都是一个“观察—行动—复盘”闭环。每个 Model 都拥有独立的持久化 Memory，用来积累按时间采集的运营数据、分析、行动结果和下一步建议。下一轮工作在开始观察前读取这些 Memory。 闭环方法论保存在 Model 中，并通过直接修改 Skill 与 references 持续演进。 Memory 记录 Model 被实际使用后发生了什么。 Growth Lab 的设计目标是覆盖全部增长渠道，从理解机会、选择行动，到执行、度量和决定下一步。目前已经支持 SEO 页面增长，以及小红书内容采集、爆款研究、创作、生图、卡片渲染、合规检查和发布结果复盘。 自动化不等于一个永远脱离人类运行的后台程序。用户用自然语言持续提出目标、接收已经完成的工作与结果、提供反馈，再让 Agent 继续跟进。对话就是操作入口。 增长信息通常留在报表中，方法存在于专家经验中，执行散落在不同工具里。 Growth Lab 把三者放进同一个工作区，让 Agent 获取证据、应用方法、完成行动，再把真实结果带进下一轮。 Growth Lab 完全开源，产品资料、运营数据、Memory 和产物都保存在用户自己的工作区。它不持有用户数据，不通过私有格式和封闭流程制造迁移壁垒；它致力于让有效的增长知识可以被检查、修改和自由使用。 使用 Codex 或 Clau
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-marketing, ai-agent, claude-code, codex, growth, growth-hacking
+
+---
+
+### 🌟 [codex-vision-proxy](https://github.com/Anionex/codex-vision-proxy)
+- **项目语言**: Python
+- **星标数量**: ⭐ 227
+- **核心概述**: 让纯文本模型在 Codex 中无障碍调用内置看图工具（view_image）的方案，附为纯文本 LLM 设计的视觉工具包&skill ｜ Let text-only models call Codex's built-in view_image seamlessly, plus a vision toolkit&skill designed for text-only LLMs.
+- **大概是做什么的**: 以前的 codex-deepseek-vision 🌐 中文 ｜ English 如果你的 Codex 已经连接到 DeepSeek，但你对模型没有多模态能力感到沮丧——它看不到图像，并且每次尝试查看图像都会被系统阻止——这个存储库提供了一种方法，让纯文本模型可以毫无错误地调用 Codex 的内置视图图像。它不会失败，而是返回图像的详细描述，使纯文本模型的体验尽可能接近多模式体验，无需引入额外的 MCP、技能或 CLI，也没有重复配置的风险。它还提供了一个可选的视觉工具包，利用多模态模型进行图像问答、OCR、视觉基础等。所有代码均已在真实的 Codex + DeepSeek 会话中得到验证。用例包括但不限于：图像问答、屏幕截图分析、计算机使用 GUI 操作、多步图像推理。该存储库不仅仅是将图像传递给多模式模型并传回通用描述；该描述的目标、多图像并发和交叉转弯
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, codex, deepseek, glm, kimi, llm
+
+---
+
+### 🌟 [azure-openai-llm-wiki](https://github.com/kimtth/azure-openai-llm-wiki)
+- **项目语言**: Python
+- **星标数量**: ⭐ 405
+- **核心概述**: 🌌 Azure OpenAI、🦙 LLM（+RAG、代理）的精选资源集合。每月更新。
+- **大概是做什么的**: Azure OpenAI + LLM Wiki 针对 Azure OpenAI、大型语言模型 (LLM) 及其应用程序的全面、精选的资源集合。 🔹简明摘要：对每个资源进行简要描述，以便快速理解。 🔹时间顺序组织：资源附有日期（首次提交、出版物或论文发布）。 🔹每月更新：列表每月更新；更新前的候选条目会在问题中进行跟踪。 🧭 快速导航（Propedia 风格） 图层/时代 它控制什么 跳转到部分 ------------- ---------------------------------------- ------------- 权重 2022-2023 模型中包含参数知识。主题：预训练、缩放法则、微调、RLHF、对齐、指令遵循、小镜头 基础：大型语言模型景观、大型语言模型集合、基础模型提供者 培训：大型语言模型训练和优化、模型训练和推理、训练和微调 行为和安全：信任、安全和保障、安全、安全和 LLMOps 背景 2023-2024 模型在推理中看到的内容时间。这
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, agent-skills, ai-engineering, ai-tools, awesome
+
+---
+
 ## 🕔 2026-08-03 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 176 个候选项目中筛选出 6 个未推荐过的新项目。
