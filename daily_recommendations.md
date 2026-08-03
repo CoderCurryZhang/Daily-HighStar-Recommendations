@@ -1,3 +1,67 @@
+## 🕔 2026-08-03 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 228 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [forge](https://github.com/antoinezambelli/forge)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,209
+- **核心概述**: 用于自托管 LLM 工具调用和多步骤代理工作流程的 Python 框架
+- **大概是做什么的**: 用于自托管 LLM 工具调用的可靠性层。你给forge一套工具；模型以任何顺序调用它想要的任何一个。工作流程结构是可选的 - 所需的步骤、先决条件和终端工具可让您在需要时限制循环，但 Forge 的护栏（救援解析、重试推动、响应验证）也适用于零所需步骤。 Forge 在 Forge 的 26 场景 v0.7.0 评估套件中将 8B 本地模型从个位数提高到 84%，甚至在相同的工作负载上将 Sonnet 4.6 从 85% 提升到 98%（在 v0.6.0 中测量的人为数字；在 v0.7.0 中不重新运行，因为成本不小）。 - 不是代理协调者。 Forge 位于一个代理循环内，并使其工具调用可靠。多智能体图、DAG 规划器和跨智能体协调超出了范围。 - 不是编码线束。 Forge 与领域无关。如果您正在构建编码代理（或已经使用 opencode、aider、Cline 等代理），代理模式将通过 Forge 的护栏提升您现有的安全带 — 无需重写。三种使用方法： - 代理服务器 - 直接代理 ( python -m forge.p
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, agentic-workflow, agents, function-calling, llama-cpp, llamafile
+
+---
+
+### 🌟 [skill-scanner](https://github.com/cisco-ai-defense/skill-scanner)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,392
+- **核心概述**: 代理技能安全扫描器
+- **大概是做什么的**: 针对 AI 代理技能的尽力而为的安全扫描器，可检测提示注入、数据泄露和恶意代码模式。结合基于模式的检测 (YAML + YARA)、LLM-as-a-judge 和行为数据流分析，最大限度地提高可能威胁的检测覆盖率，同时最大限度地减少误报。重要提示：此扫描仪提供尽力检测，但不全面或完全覆盖。未返回任何结果的扫描并不能保证某项技能不受所有威胁。请参阅下面的范围和限制。支持符合代理技能规范的 OpenAI Codex 技能和光标代理技能格式。使用 --lenient ，还可以扫描非标准格式，例如 Claude Code .claude/commands/ .md 和平面 Markdown 技能存储库。 - 多引擎检测 - 静态分析、行为数据流、LLM 语义分析和基于云的扫描，以实现分层、尽力覆盖 - 误报过滤 - 元分析器在保留检测能力的同时显着降低噪音 - CI/CD 就绪 - 用于 GitHub 代码扫描的 SARIF 输出、可重用的 GitHub Actions 工作流程，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, security
+
+---
+
+### 🌟 [AgentNetworkProtocol](https://github.com/agent-network-protocol/AgentNetworkProtocol)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 1,379
+- **核心概述**: AgentNetworkProtocol(ANP) 是一种用于代理通信的开源协议。我们的愿景是定义智能体如何相互连接，为数十亿智能体构建开放、安全、高效的协作网络。
+- **大概是做什么的**: 代理网络协议 (ANP) ANP 旨在成为代理 Web 时代的 HTTP：用于代理身份、命名、发现、协商、安全消息传递和应用程序级协作的协议套件。当前规范集：核心协议文档已围绕 ANP 1.1 发布线组织。发布的套件涵盖了did：wba身份、WNS句柄、代理描述、代理发现、端到端即时消息传递和AP2代理支付协议。元协议规范仍是草案，尚未发布。 Messaging vNext 草案：已发布的 v1.1 消息配置文件保持不变。单独版本的 vNext 草案套件定义了一个 DID 下的多设备加密端点； P1–P8 使用 .v2 配置文件 ID，而 P9 只是未更改的 Mention 有效负载的 vNext 绑定。草案存在并不意味着实施支持或公共能力广告。版本说明：版本：1.1 标识规范/文档发布版本。它不会更改 ANP 有效负载字段 protocolVersion ；使用“protocolV”的示例和协议字段
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, communication, protocol
+
+---
+
+### 🌟 [bug-hunter](https://github.com/codexstar69/bug-hunter)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 473
+- **核心概述**: 对抗性 AI 错误猎人，具有 Claude Code、Cursor、Codex CLI、GitHub Copilot CLI、Kiro CLI、Opencode、Pi Coding Agent 等自动修复技能。多代理管道发现安全漏洞、逻辑错误和运行时错误，然后在安全分支上自主修复它们。
+- **大概是做什么的**: 由人工智能驱动的对抗性错误发现可以与自身争论，以暴露真正的漏洞，并安全地自动修复它们。此更新中的新增功能 · Bug Hunter 是一款面向编码代理的开源 AI 代码审查和安全扫描器。猎人发现错误，怀疑论者试图反驳错误，裁判做出最终裁决。只有通过对抗性审查的结果才能进入明确授权的修复渠道。或者通过 npm 全局安装：可选（推荐）：安装 Context Hub 以进行策划的文档验证：要求：Node.js 22+。安装的运行时没有 npm 依赖项。 Claude Code、Codex、Cursor、Windsurf、Kiro、Copilot、OpenCode — 或任何可以读取文件和运行 shell 命令的 AI 代理。此版本是一个完整的安全性和可靠性强化过程，涉及突变控制、工件合约、编排、依赖性分析、打包和发布证明。 - 高强度在任何地方都有效。所有 JSON 架构、严重性排名和有效负载防护模板现在都可识别 High - 以前仅接受 Critical 、 Medium 和 Low ，默默地 Dr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: adversarial-ai, ai-code-review, auto-fix, bug-detection, claude, claude-code
+
+---
+
+### 🌟 [ADR](https://github.com/uber/ADR)
+- **项目语言**: Python
+- **星标数量**: ⭐ 437
+- **核心概述**: ADR 通过可观察性、安全基准测试和威胁检测来保护企业 AI 代理。部署在 Uber。
+- **大概是做什么的**: ADR：代理人工智能检测和响应 ADR（代理人工智能检测和响应）是针对人工智能代理的企业安全系统。它可以帮助组织保护面向员工的代理（例如 Cursor、Claude Code 和 Codex）以及面向客户的代理（例如 AI 支持代理）。 ADR 已在 Uber 的生产环境中部署，随附论文已被 MLSys 2026 接受：论文 PDF · 幻灯片 PDF ADR 如何保护企业 AI 代理 ADR 通过四种互补功能保护企业 AI 代理：观察代理活动、评估防御、检测威胁和防止不安全行为。 1. ADR 可观察性：了解人工智能代理正��做什么以及为什么。在生产中，ADR 跨 macOS、Linux 和 Windows 上的 7 种以上 AI 编码工具以及内部自动化和面向客户的支持代理捕获代理意图、工具使用和执行跟踪。 2. ADR 基准：在实际企业条件下测试代理安全性。 ADR-Bench 包括 300 多个任务、133 个 MCP 服务器，覆盖所有 17 种代理攻击技术。 3. ADR检测：高效检测代理人的危险行为
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-security, ai-agents, ai-security, benchmark, claude, claude-code
+
+---
+
+### 🌟 [OSWorld-V2](https://github.com/xlang-ai/OSWorld-V2)
+- **项目语言**: Python
+- **星标数量**: ⭐ 225
+- **核心概述**: OSWorld 2.0：在长期现实世界任务中对计算机使用代理进行基准测试
+- **大概是做什么的**: Trajectory Viewer - 开发版本：主分支包含最新的开发代码。对于可重复的基准评估，请改用受支持的版本。目前支持： osworld-v2-2026.06.24 。有关详细信息，请参阅基准版本。 - 2026-06-26：我们发布了论文、环境和基准测试以及项目页面。 💾 设置评估环境发布版本控制：为了进行可重复的评估，请使用同一版本中的 OSWorld-V2 代码、Hugging Face Python 任务文件、Hugging Face 任务资产和模拟网站部署。当前支持的版本是 osworld-v2-2026.06.24 ： - OSWorld-V2 代码：xlang-ai/OSWorld-V2@v2026.06.24 - Python 任务文件：xlangai/osworld v2task@v2026.06.24 - 任务资产：xlangai/osworld v2 资产 ated@v2026.06.24 - 模拟网站：团队托管后缀 web.hku.icu 或 Task-Web/OSWorld-web@v2026.06.24 自托管时请勿混合版本或将固定标签替换为 main 或latest 。对于当前的 0624 版本，仅使用 main 作为版本感知下载脚本的设置引导程序，然后将评估签出切换到 v20
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, artificial-intelligence, benchmark, computer-use-agent, cua, gui
+
+---
+
 ## 🕔 2026-08-03 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 233 个候选项目中筛选出 6 个未推荐过的新项目。
