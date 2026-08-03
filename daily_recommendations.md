@@ -1,3 +1,67 @@
+## 🕔 2026-08-03 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [open-vibe-island](https://github.com/Octane0411/open-vibe-island)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 1,875
+- **核心概述**: The open-source alternative to vibe-island, designed for heavy code agent users, supporting cc/codex/opencode, terminal/ghostty/cmux/kaku/iterm. 开源的vibe-island替代品，为重度code agent用户设计，支持cc/codex/opencode, terminal/ghostty/cmux/kaku/iterm
+- **大概是做什么的**: 为什么只是为了监控您的编码代理而付费购买闭源应用程序？适用于 AI 编码代理的开源、本地优先、本机 macOS 伴侣。什么是开放岛？ Open Island 位于 Mac 的凹口（或顶部栏）中，为您的 AI 编码代理提供实时控制界面 - 会话状态、权限批准以及即时跳回正确的终端。一切都无需离开您的流程。将其视为一个开源 Vibe 岛 - 免费、本地优先，并且您拥有它的每一部分。您不需要为可以振动的产品付费，因为您是振动编码器。 - 开源 — GPL v3、分叉、修改、发布您自己的版本 - 本地优先 — 无服务器、无遥测、无帐户。一切都在您的 Mac 上运行 - 本机 macOS - SwiftUI + AppKit，而不是 Electron 包装器 - 多代理 - Claude Code、Codex、Cursor、Gemini CLI、OpenCode 等的一个表面 - 多终端 - 一键跳回到确切的终端/IDE 会话 支持的代理和终端 10 个代理：Claude Code、Codex、Cursor、Gemini CLI、Kimi CLI、OpenCode、Qoder、Qwen Code、Factory、 CodeBuddy 15+ 终端和 IDE：术语
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, claudecode, code-island, codeisland, codex, gemini-cli
+
+---
+
+### 🌟 [webgradients](https://github.com/itmeo/webgradients)
+- **项目语言**: CSS
+- **星标数量**: ⭐ 2,465
+- **核心概述**: 180 个免费 CSS3、Figma、Sketch 和 PSD 渐变 — 以及用于设计工具、生成器和 AI 代理的 JSON 数据集。
+- **大概是做什么的**: 如果您喜欢 WebGradients，请考虑支持该项目 - 它有助于保持工具免费、快速且无广告。精选的 180 个精美渐变集合，采用 CSS3、.sketch、.PSD 和 Figma 格式制作 - 免费供个人和商业使用。在这里查看所有渐变 » 由 Dima Braven · itmeo 制作 机器可读数据 所有 180 个渐变也可以作为结构化 JSON 提供 - 对于设计工具、生成器或将渐变数据提供给 LLM/代理非常有用： -gradients.json - 包含每个停止点颜色位置的完整数据集 -gradients-parsed.json - 带有零填充索引的扁平变体 deg 是 CSS 渐变角度，组是主颜色，梯度是颜色停止点的有序列表（ pos in %）。安装 WebGradients Figma 插件可直接在 Figma 内使用所有 180 个渐变。 1. 下载文件 webgradients.css 。 2. 将文件放入项目文件夹中。 3. 链接文档中的文件。浏览器兼容性 某些渐变使用 background-blend-mode CSS 属性。大多数现代浏览器都支持它。查看完整的兼容性列表（在 Caniuse 上查看）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, background, colors, css, css-gradients, dataset
+
+---
+
+### 🌟 [llama.vim](https://github.com/ggml-org/llama.vim)
+- **项目语言**: Vim Script
+- **星标数量**: ⭐ 2,119
+- **核心概述**: 用于 LLM 辅助代码/文本完成的 Vim 插件
+- **大概是做什么的**: 本地法学硕士辅助文本完成。中间填充 (FIM) 完成 基于指令的编辑 https://github.com/user-attachments/assets/641a6e72-f1a2-4fe5-b0fd-c2597c6f4cdc https://github.com/user-attachments/assets/68bff15b-2d91-4800-985d-b7f110a0ccb7 -在插入模式下对光标移动自动建议 - 使用 Tab 接受建议 - 使用 Shift+Tab 接受建议的第一行 - 使用 lli 进行基于指令的编辑 - 控制最大文本生成时间 - 配置光标周围的上下文范围 - 使用打开和编辑的文件和拉出的文本中的块来环形上下文 - 通过智能上下文重用，即使在低端硬件上也支持非常大的上下文 - 显示性能统计信息 然后将插件“llama.vim”添加到 vundle begin() 中的 .vimrc部分。插件配置 您可以通过设置 g:llama 配置变量来自定义 llama.vim。 1. 禁用内联信息： 2. 相同，但直接设置 3. 使用lazy.nvim禁用自动FIM（中间填充）完成 4. 配置FIM键盘映射： 5. 配置基于指令的编辑键盘映射 请参阅:help llama config 或源码
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: copilot, developer-tool, llama, llm, vim, vim-plugin
+
+---
+
+### 🌟 [Awesome-FDE-Roadmap](https://github.com/pierpaolo28/Awesome-FDE-Roadmap)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 746
+- **核心概述**: 🚀 成为前向部署工程师 (FDE) 的明确路线图。掌握人工智能代理、企业数据架构和战略咨询。缩小总部与现场之间的差距。受到 Palantir、OpenAI 和 Scale AI 中“Delta”角色的启发。
+- **大概是做什么的**: 🚀 出色的正向部署工程 (FDE) 正向部署工程是将复杂软件交付到最重要的地方的艺术。它是一个混合角色——部分是软件工程师，部分是人工智能/数据架构师，部分是战略顾问。 FDE 是“技术特别行动”，他们弥合了核心产品与客户混乱的现实世界之间的差距（三角洲）。 📑 目录 1. FDE 角色和使命 2. 硕士课程 - 第 1 阶段：数据工程 - 第 2 阶段：云架构 (GCP) - 第 3 阶段：咨询思维 3. 应用人工智能和技术手册 - 多代理编排 (ADK) - LLM 系统评估 - 企业 RAG 蓝图 4. 气隙和战术边缘部署 5. “软堆栈”：咨询与策略6. 面试黑皮书和案例研究 7. 工件模板（复制粘贴） 8. 综合阅读列表 9. FDE 术语表 🛸 FDE 角色和使命 FDE 是总部“完美代码”和客户“混乱现实”之间的桥梁。问题：标准软件在遇到现实世界数据时经常会失败（损坏的模式、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, awesome-list, forward-deployed-engineering, gcp, roadmap
+
+---
+
+### 🌟 [agent-spec](https://github.com/ZhangHanDong/agent-spec)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 441
+- **核心概述**: `agent-spec` 是一个用于任务执行的 AI 原生 BDD/spec 验证工具。
+- **大概是做什么的**: agent-spec 是一个用于 AI 代理编码的意图编译器：它将人类意图（通过结构化需求作为中间表示（IR））编译为可验证的任务契约，然后根据它们机械地验证其实现。 BDD/spec 验证是该编译器的后端。编译管道： - 意图（PRD、问题、对话）被捕获为结构化需求 - IR - 要求降低到任务合同 - 可验证的目标 - 代理根据合同实施；机器验证代码是否满足它 - 活性追踪使编译后的知识在事后保持诚实核心审查循环很简单：人类审查合同，代理根据合同实施，机器验证代码是否满足合同。架构：下面的 Intent Compiler Current pipeline；需求治理、代码图 IR、意图代码链接器、质量规划和执行包的详细合同位于 docs/intent-compiler/architecture.md 中。人工智能仅在边缘参与——起草候选人要求
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-coding, sdd, spec
+
+---
+
+### 🌟 [LambChat](https://github.com/Yanyutin753/LambChat)
+- **项目语言**: Python
+- **星标数量**: ⭐ 209
+- **核心概述**: LambChat — 用于受治理的 AI 代理的企业代理基础设施。技能 + MCP 支持，循环代理就绪，多租户设计。
+- **大概是做什么的**: 一个开源 AI 代理平台，用于构建、运行和共享实际完成工作的代理。英语 · 简体中文 · 文档 · 贡献 - 🤖 代理运行时 — 深度代理图、子代理、思维模式、流输出和人工批准 - 🔧 MCP 和工具 — 系统/用户 MCP、加密秘密、沙箱执行（Daytona/E2B/CubeSandbox） - 🧠 内存和技能 — 跨会话内存、技能市场、GitHub 同步、角色预设 - 📱 全栈客户端— React 19 Web、Capacitor 移动、Tauri 桌面、PWA 支持 - 🚀 生产就绪 — FastAPI、auth/RBAC、实时同步、Docker/K8s 部署 - 🌍 国际化 — 英语、中文、日语、韩语、俄语 LambChat 不仅仅是一个聊天机器人 UI。它是一个全栈 AI 代理系统，在一个项目中具有代理运行时、模型管理、MCP 工具、技能、内存、文件、共享、批准、计划任务和生产就绪部署部分。如果您想... 转到此处 查看 LambChat 可以做什么 产品预览和现场示例 快速运行 快速入门 了解系统架构和功能图 配置生产
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, deepagents, infra, mcp, skills
+
+---
+
 ## 🕔 2026-08-03 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 228 个候选项目中筛选出 6 个未推荐过的新项目。
