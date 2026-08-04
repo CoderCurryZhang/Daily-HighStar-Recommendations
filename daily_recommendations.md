@@ -1,3 +1,67 @@
+## 🕔 2026-08-04 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 253 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [RD-Agent](https://github.com/microsoft/RD-Agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 14,127
+- **核心概述**: 研发对于工业生产力的提升至关重要，特别是在人工智能时代，研发的核心主要集中在数据和模型上。我们致力于通过 R&D-Agent 实现这些高价值通用研发流程的自动化，让 AI 驱动数据驱动的 AI。 🔗https://aka.ms/RD-Agent-Tech-Report
+- **大概是做什么的**: 🎥 演示视频 ▶️YouTube 🗞️ 新闻 📝 描述 -- ------ ICML 2026 接受 我们很高兴地宣布，我们的论文 FT-Dojo: Towards Autonomous LLM Fine-Tuning with Language Agents 已被 ICML 2026 接受。FT-Agent 实现可在 LLM 微调指南中找到。 ACL 2026 调查结果被接受 我们很高兴地宣布，我们的论文 Reasoning as Gradient 已被 ACL 2026 调查结果接受。执行跟踪可在国美 GPT-5 Traces Web UI 版本中获得。我们发布了一个新的前端，可以由 rdagent 服务器 ui 构建和服务，用于实时交互和跟踪查看，目前不包括数据科学场景。 NeurIPS 2025 接受 我们很高兴地宣布，我们的论文 R&D-Agent-Quant 已被 NeurIPS 2025 技术报告发布 MLE-bench 上的整体框架描述和结果 R&D-Agent-Quant 发布 将 R&D-Agent 应用于量化交易 MLE-Bench 结果发布 R&D-Agent 目前是 MLE-bench 上表现最好的机器学习工程代理 支持 LiteLLM 后端 我们现在完全支持 LiteLLM我们的德法
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, automation, data-mining, data-science, development
+
+---
+
+### 🌟 [openllmetry](https://github.com/traceloop/openllmetry)
+- **项目语言**: Python
+- **星标数量**: ⭐ 7,353
+- **核心概述**: 基于 OpenTelemetry 的 GenAI 或 LLM 应用程序的开源可观测性
+- **大概是做什么的**: LLM 应用程序的开源可观察性我们的语义约定现在是 OpenTelemetry 的一部分！加入讨论并帮助我们塑造法学硕士可观察性的未来。正在寻找 JS/TS 版本？查看 OpenLLMetry-JS。 OpenLLMetry 是一组基于 OpenTelemetry 构建的扩展，可让您对 LLM 应用程序具有完全的可观察性。由于它在底层使用 OpenTelemetry，因此可以连接到您现有的可观测性解决方案 - Datadog、Honeycomb 等。它由 Traceloop 根据 Apache 2.0 许可证构建和维护。该存储库包含适用于 LLM 提供程序和矢量数据库的标准 OpenTelemetry 仪器，以及 Traceloop SDK，可以轻松开始使用 OpenLLMetry，同时仍然输出可连接到可观测性堆栈的标准 OpenTelemetry 数据。如果您已经安装了 OpenTelemetry 仪器，则可以直接添加我们的任何仪器。最简单的入门方法是使用我们的 SDK。如需完整指南，请访问我们的文档。然后，要开始检测您的代码，只需将此行添加到
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: artifical-intelligence, datascience, generative-ai, good-first-issue, good-first-issues, help-wanted
+
+---
+
+### 🌟 [electric](https://github.com/electric-sql/electric)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 10,300
+- **核心概述**: 代理平台建立在同步之上。
+- **大概是做什么的**: Postgres 的实时同步。 - Phoenix LiveDashboard - 开发电气 - 演示（另请参阅 ./examples 文件夹） 同步是快速、现代软件背后的神奇成分。从 Figma 和 Linear 等应用程序到在实时本地数据上运行的 AI 代理。 Electric 是 Postgres 同步引擎。它为您解决同步难题，包括部分复制、扇出和数据交付。因此，您可以构建出色的软件，而无需自行同步。具体来说，Electric 是 Postgres 的读取��径同步引擎。它将 Postgres 中的数据同步到...任何您喜欢的内容。核心同步协议基于低级 HTTP API。它与 CDN 集成以实现高度可扩展的数据交付。部分复制是使用形状进行管理的。同步可以直接使用，也可以通过客户端库和框架集成使用。请参阅快速入门指南来启动和运行。简而言之，你需要： 1. 拥有一个启用了逻辑复制的Postgres��据库；然后 2. 在其前面运行 Electric，通过 DATABASE URL 连接 例如，从该存储库的根目录使用 Docker Compose：然后您可以
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, crdt, crdts, data, elixir
+
+---
+
+### 🌟 [awesome-LLM-resources](https://github.com/WangRongsheng/awesome-LLM-resources)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 8,798
+- **核心概述**: 🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处���、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources.
+- **大概是做什么的**: 全世界最好的大语言模型资源汇总 持续更新 挖掘那些真正有价值的项目，而不仅仅是噱头 如果您对 医疗数据集/大模型/多模态/评估相关资源感兴趣 ！请访问我们的 🤗 Awesome-AI4Med ! - 世界模型 World Models 🔥 - 统一模型 Unified Model 🌟 - 小语言模型 Small Language Model 🌟 - 小多模态模型 Small Vision Language Model 🌟 - 谷歌AI的14年、Gemini翻身之战，与视觉理解模型：专访DeepMind前核心科学家Andrew Dai｜Neolabs特辑 - 140. 对姚顺宇的4小时访谈：请允许我小疯一下！在Anthropic和Gemini训模型、技术预测、英雄主义已过去 - 张驰: A Year Inside ByteDance's AI Lab - Luo Fuli: OpenClaw, Agent Frameworks — The AI Paradigm Has Already Changed Dramatically! - A 7-hour marathon interview with Saining Xie: World Models, AMI Labs, Yann LeCun, Fei-Fei Li, and 42 - 翁家翌：OpenAI，GPT，强化学习，Infra，后训练，天授，tuixue，开源，CMU，清华｜WhynotTV Podcast - Lovart 创始人陈冕×罗永浩！且让我大闹一场，然后悄然离去 - MiniMax 创始人闫俊杰×罗永浩！大山并非无法翻越 - 影视飓风TIM×罗永浩！用影像打开世界的梦想家 - 129. 全球大模型第一股的上市访谈，和智谱CEO张鹏聊：敢问路在何方？ - 128. Manus决定出售前最后的访谈：啊，这奇幻的2025年漂流啊… - 122. 朱啸虎现实主义故事的第三次连载：人工智能的盛筵与泡泡 - 119. Kimi Linear、Minimax M2？和杨松琳考古算法变种史，并预演未来架构改进方案 - 118. 对李想的第二次3小时访谈：CEO大模型、MoE、梁文锋、VLA、能量、记忆、对抗人性、亲密关系、人类的智慧 - 115. 对OpenAI姚顺雨3小时访谈：6年Agent研究、人与系统、吞噬的边界、既单极又多元的世界 - 113. 和杨植麟时隔1年的对话：K2、Agentic LLM、缸中之脑和“站在无限的开端” 此处命名为 数据 ，但这里并没有提供具体数据集，而是提供了处理获
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: awesome-list, book, course, large-language-models, llama, llm
+
+---
+
+### 🌟 [CliRelay](https://github.com/kittors/CliRelay)
+- **项目语言**: Go
+- **星标数量**: ⭐ 881
+- **核心概述**: 用于编码 CLI 的自托管 AI 网关 — 一个与 OpenAI/Claude/Gemini/Codex 兼容的端点，具有多租户 Web 控制台、请求日志和支出配额。
+- **大概是做什么的**: AI CLI 工具的统一代理服务器 - 将您现有的订阅与任何 OpenAI / Gemini / Claude / Codex 兼容的客户端一起使用。多租户 Web 面板 · 请求日志和配额 · 路由组和故障转移 · 自托管 🖥️ 管理面板 · ✨ CLIProxyAPI 项目的大幅增强分支 — 使用生产级管理层、Web 控制面板托管和用于第 2 天操作的终端 TUI 进行重建。 CliRelay 将 AI CLI 订阅、OAuth 凭证、API 密钥和兼容的上游服务转变为一个托管 API 层。它通过统一端点代理 Claude Code、Gemini CLI、OpenAI Codex、Qwen、iFlow、Kimi、Antigravity、xAI/Grok、OpenCode Go、ClinePass、Ollama Cloud、Bedrock、Amp、Vertex、OpenAI 兼容客户端和其他 AI 编码工具，然后添加路由组、故障转移、请求日志记录、配额控制、模型定价、图像生成支持、内容审核、在线更新、/管理 Web 托管和终端管理工作流程那个交通。它专为多人操作而设计。租户、用户、角色和细粒度的权限
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-gateway, anthropic, api-gateway, claude-code, gemini-cli, go
+
+---
+
+### 🌟 [nuwax](https://github.com/nuwax-ai/nuwax)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 859
+- **核心概述**: Nuwax Agent OS - 企业级人工智能代理开发和运营平台 - 为代理创建和分发、知识库管理、模型代理、内存系统和插件生态系统提供完整的解决方案。
+- **大概是做什么的**: Nuwax AI - 轻松构建和部署您的私有 Agentic AI 解决方案。官方网站：https://nuwax.com 演示：https://agent.nuwax.com 中文文档 English Doc 贡献文档 安装部署 使用官方的 nuwax-cli 命令工具在本地快速部署服务。环境准备 - 系统要求：Ubuntu 22.04 LTS 或更高版本（其他 Linux 版本未完全测试）、macOS 10.15+、Windows 10/11（即将支持） - 硬件要求：4 核 8GB RAM 或更高 - 环境要求：docker、docker-compose V2 环境 Docker 安装指南 - Linux：x86 64、ARM64 - Ubuntu 22.04 LTS（推荐） - 当前用户需求Docker 权限，使用 docker ps 进行验证。如果遇到权限问题，可以使用sudo权限运行。 - 推荐阿里云镜像加速 - macOS：Intel、Apple Silicon (M1/M2)、通用 - macOS 10.15 (Catalina) 及更高版本 - 推荐 OrbStack（免费供个人使用，性能更好） - 确保 OrbStack 或 Docker Desktop 已启动 - 首次使用可能需要允许未知开发人员
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: a2a, agent, agent-os, agent-sandbox, agentic, agentic-rag
+
+---
+
 ## 🕔 2026-08-04 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 254 个候选项目中筛选出 6 个未推荐过的新项目。
