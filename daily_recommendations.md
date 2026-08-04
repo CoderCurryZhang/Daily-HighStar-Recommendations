@@ -1,3 +1,67 @@
+## 🕔 2026-08-04 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 221 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [awesome-agent-skills](https://github.com/libukai/awesome-agent-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,916
+- **核心概述**: Agent Skills 终极指南：快速入门、资源推荐、精选技能与实用工具 ｜The Ultimate Guide to Agent Skills: QuickStart, Resources, Features&Toolkit
+- **大概是做什么的**: 简体中文 English 日本语 本项目致力于遵循少而精的原则，收集和分享最优质的 Skill 资源、教程和实践案例，帮助更多人轻松迈出搭建 Agent 的第一步。 如果觉得这个项目对你有所帮助，还请帮忙点个 🌟 让更多人知晓。同时，也欢迎关注我的 𝕏 账号 @李不凯正在研究 ，即时获取 Agent Skill 的最新资源和实战教程！ Skill 是一种轻量级的 Agent 构建方案，通过封装特定的业务流程与行业知识，强化 AI 执行特定任务的专业能力。 面对重复性的任务需求，你无需在每次对话中反复输入背景信息。只需安装对应的 Skill，AI 即可习得该领域的专业技能。 历经半年的迭代演进，Skill 已成为增强 AI 垂直领域能力的标准方案，并获得了各类 Agent 框架与 AI 产品的广泛支持。 Agent Skills 是由 Anthropic 发起、社区共同维护的开放规范。每个 Skill 都是一个规范化命名的文件夹，其中包含流程、资料、脚本等资源；Agent 通过渐进式加载减少无关上下文。 SKILL.md 的 YAML frontmatter 必须包含 name 和 description ，还可声明 license 、 compatibility 、 metadata ，以及实验性的 allowed-tools 。名称需要与父目录一致，正文建议少于 500 行。可使用官方参考实现校验： Skill 可以在 Claude 和 ChatGPT 这类 GUI App 中使用，也可以在 Cursor、Claude Code 等 IDE、TUI CLI 与其他兼容的 Agent Harness 中使用。 安装 Skill 过程的本质，其实就是将 Skill 对应的文件夹放到特定的目录下，以便 AI 能按需加载和使用。 目前在 App 中使用 Skill 的方式主要有两种：通过 App 自带的 Skill 商店安装，或者通过上传压缩包的方式安装。 对于官方商店中没有的 Skill，可以从下方推荐的 Skill 第三方商店中下载并手动上传安装。 推荐使用 skillsmp 商店发现 Github 上的 Skill 项目，并按照分类、更新时间、星标数量等标签筛选。 可辅助使用 Vercel 出品的 skills.sh 排行榜，直观查看当前最受欢迎的 Skills 仓库和单个 Skill 的使用情况。 对于特定的 skill，使用 npx skills 命令行工具可快速发现、添加和管理 skill，具体参数详见 vercel-labs/skills。 当前 s
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, awsome-list, claudecode, openclaw, skills
+
+---
+
+### 🌟 [Pentest-Swarm-AI](https://github.com/Armur-Ai/Pentest-Swarm-AI)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,152
+- **核心概述**: 使用一群人工智能代理进行自主渗透测试。通过 ReAct 推理协调侦察、分类、利用和报告专家 — 支持错误赏金、持续监控和 CTF 模式。使用 Go、Claude API 和 7+ 本机安全工具构建。
+- **大概是做什么的**: 第一个开源渗透测试工具构建在真正的集群上，而不仅仅是连续的多个代理。快速入门 · Swarm 与多代理 · 工作原理 · 专为 Mythos 时代打造 Anthropic 的 Claude Mythos 于 2026 年 4 月通过 Project Glasswing 发布，在每个主要操作系统和浏览器中都出现了数千个零日漏洞。前沿推理已经跨过门槛；瓶颈不再是模型。 Pentest Swarm AI 是此类模型运行所需的工具链。实时访问 nmap、sqlmap、Burp、ZAP、Metasploit 以及其他攻击���堆栈。通过污蔑黑板进行多代理协调。证据捕获、重复数据删除、可提交的报告。立即连接您选择的模型 - Claude Sonnet、Opus、Llama 以及任何与 OpenAI 兼容的模型 - 并在访问开放当天交换 Mythos。不隶属于人类。 Mythos 和 Glasswing 是 Anthropic 项目。鸣谢与灵感 该项目站在巨人的肩膀上。我们赞扬并感谢这些项目开创了人工智能驱动的进攻性安全： - PentestGPT - OG
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, bug-bounty, cybersecurity, offensive-security, penetration-testing, penetration-testing-framework
+
+---
+
+### 🌟 [pinvou-agent](https://github.com/Pinvou/pinvou-agent)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 306
+- **核心概述**: 用于工具、文件、知识、工作流程和实际交付成果的开源桌面 AI 代理。
+- **大概是做什么的**: 用于工作、设计和编码的开源桌面 AI 代理工作区。 ▶ 观看90秒功能演示（中文） Pinvou Agent不仅仅是一个聊天窗口。它将日常工作、视觉设计和软件开发带入一个桌面工作区 - 专为应以结果结束的任务而设计，而不仅仅是另一个聊天响应。使用工具、处理文件并积累个人知识；通过 ACP 将专用编码代理引入实际项目；或者将提示变成您可以继续编辑的视觉工件。使用本地模型实现完全私有循环，连接任何 OpenAI 兼容端点，并使用 MCP 服务器、CLI 连接器、技能和工作流程扩展代理。 🧭 一个工作区，三种工作方式 💼 工作：为客服人员提供真正的任务 结合附件、个人知识、专家角色、技能、MCP 工具和工作流程来研究、分析、编写和交付可重用文件，而不仅仅是另一块聊天文本。 🎨 设计：从提示到可编辑的视觉效果 用自然语言创建海报和数据可视化。在设计模式下打开结果，选择元素
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, automation, desktop-app, llm, local-first, mcp
+
+---
+
+### 🌟 [DeskcommCRM](https://github.com/melgarafael/DeskcommCRM)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 302
+- **核心概述**: 开源人工智能销售操作系统——带有原生人工智能代理的自托管 CRM + WhatsApp (WAHA)。为任何通过聊天进行销售的企业提供 Kommo、Octadesk 和 Intercom 的开放替代方案。 MCP 就绪、多租户、LGPD。
+- **大概是做什么的**: 🇧🇷 葡萄牙语 · 🇺🇸 英语 · 🇪🇸 西班牙语 🛠️ DeskcommCRM — 用于在 WhatsApp 上提供服务、资格和销售的 WhatsApp AI 代理的开源 AI 销售操作系统 — 在服务器上运行的开源 CRM 中。无月租费，无锁定功能，您的数据随身携带。 Kommo、Octadesk 和 Intercom 的开放替代方案。 🧭 愿景 · 📘 设置指南 · 🏗️ 架构 · 🤝 贡献 · 📋 PRD · 🗺️ 路线图 ☁️ 使用 1 个命令在生产中运行此 CRM DeskcommCRM 是与 HostGator 合作开发的：hostgator-setup-kit/ 使用单个命令在 VPS 上安装完整的 CRM（应用程序 + WAHA + 银行），并且已经有了生产运行手册假设这个环境。 👉 以合作伙伴折扣订阅 HostGator VPS — 圣保罗数据中心，非常适合 24/7 运行 WhatsApp。 （合作伙伴链接 - 订阅它支持该项目并且更便宜）已经有 VPS 了？通过 SSH 输入并运行：安装程序仅询问您的信息（域、Supabase 密钥、AI 密钥、管理员密码），在继续之前验证每个答案，自行生成所有其他机密，应用方案
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, chatbot, crm, customer-support, ecommerce
+
+---
+
+### 🌟 [ratchet](https://github.com/0xwilliamortiz/ratchet)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 429
+- **核心概述**: 您的代理人阅读规则。这会检查它是否跟随他们。
+- **大概是做什么的**: 您的代理人阅读规则。这会检查它是否跟随他们。棘轮向一个方向转动。代码库的复杂性会下降或保持不变，除非有人故意将其转向另一个方向并写下原因。编码代理的每个极简主义规则集都是一个开环。您注入更喜欢标准库，不添加依赖项，保持差异较小，模型读取它，然后不检查是否发生了任何情况。假设合规。当模型发生漂移时（这种情况会持续很长时间），在审查之前没有人会发现。这会做什么 规则集仍然会进入。但是 PostToolUse 挂钩会读取代理所做的每个编辑，对其进行测量，并将其发现的内容报告回同一会话，同时代理仍在工作。这里不依赖于模型是否被系统提示说服。然后，您想要观看的每个存储库一次：这就是整个设置。它注册钩子，开始测量，接受代码中已有的所有内容作为基线，然后打开窗口：重新启动代理。完毕。要求。节点 20 或更高版本。 Git 在 PATH 上进行测量
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, claude-code-plugin, claude-skills, code-quality, developer-tools
+
+---
+
+### 🌟 [robonix](https://github.com/syswonder/robonix)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 273
+- **核心概述**: 嵌入式人工智能操作系统（EAIOS）
+- **大概是做什么的**: Robonix — 体现人工智能操作系统 用于跨异构机器人构建体现智能的系统基础。 Robonix 是一个体现智能的操作系统。它探讨了如何在系统级别构建机器人的“大脑”：模型可以通过异构机器人身体感知、理解、计划和行动的通用基础，而无需围绕每个供应商 SDK 进行重写。 Robonix 将人工智能模型和技能视为程序，并将机器人硬件视为可发现的功能。这种分离使机器人开发人员可以一次性集成身体，而模型和技能开发人员可以根据相机、激光雷达、底盘、手臂、地图、导航、语音和其他功能的共享接口进行构建。长期目标很简单：训练一次，部署在任何机器人上。 Robonix 正处于早期开发阶段。 API 和内部设计可能会在版本发布之前发生变化。由部署目录维护的机器人集成硬件 --- --- --- --- --- AgileX Ranger Mini v3 Ranger Mini v3 机箱； Livox MID-360 激光雷达和 IMU；英特尔实感 D435i RGB-D 摄像头；可选 AgileX Pi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, embodied-ai, robotics, ros2, skill-md, vla
+
+---
+
 ## 🕔 2026-08-04 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 253 个候选项目中筛选出 6 个未推荐过的新项目。
