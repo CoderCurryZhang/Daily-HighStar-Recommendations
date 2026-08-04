@@ -1,3 +1,67 @@
+## 🕔 2026-08-04 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 254 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [hands-on-modern-rl](https://github.com/walkinglabs/hands-on-modern-rl)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,422
+- **核心概述**: 🚀 一个开源的实践课程，弥合了从基本 RL 概念到 LLM 对齐、RLVR 和高级 Agentic 系统的差距。
+- **大概是做什么的**: 现代 RL 的实践优先指南，从经典控制到 LLM 训练后、RLVR 和多模式代理。讨论群（微信） 清晰的学习地图 从前言和基础到前沿主题，章节树和页面大纲帮助您快速导航。逐行代码焦点关键的 PPO、DPO 和 GRPO 实现包括将公式连接到可读代码的代码映射。训练指标可视化真实曲线、指标解释和故障信号放在一起，以便您可以在运行实验时进行调试。 LLM 培训后流程 RLHF、DPO、GRPO、RLVR 和相关主题通过流程、工件和案例联系在一起。代理 RL 实验 DeepCoder 风格的 GRPO 训练曲线在可重复的实验室中将工具使用代理、响应长度和奖励动态联系起来。 Atari 游戏实验 Atari Pong 游戏截图和 DQN 训练笔记展示了基于像素的代理如何将屏幕转化为决策。我们希望这个公开课程能够让更多的学习者有勇气攀登智能前沿，解决更多AGI路上的难题。凑
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agentic, agentic-ai, agentic-rl, dpo, grpo
+
+---
+
+### 🌟 [AIHelms](https://github.com/beizhu-1209/AIHelms)
+- **项目语言**: Python
+- **星标数量**: ⭐ 932
+- **核心概述**: 企业级 AI 资源纳管平台，提供统一 AI网关，纳管 OpenAI、Azure、Claude、DeepSeek 等主流模型，并支持 MCP 工具与 Skill 的集中注册分发。具备内外双轨定价、成本归因、统一身份认证、安全审计与效能报表，帮助企业精准控制成本、量化 ROI，高效治理 AI 资产。
+- **大概是做什么的**: 承载 AI 数字资产 · 释放 AI 生产力 · 链接未来 核心价值 · 功能展示 · 快速开始 · 部署文档 · 使用手册 AIHelms 是面向企业的 AI 资源纳管平台。帮助企业 管理 AI 资产、控制 AI 成本、衡量 AI 价值 的管理工具。 - 决策层 - 平台全程记录用量、核算成本、生成报表，让看得见 AI 的投入产出比 - 管理员 - 通过后台统一接入模型、分配身份、设定预算 - 员工 - 通过用户端获取 AI 身份，接入任意客户端使用 企业使用 AI 最大的焦虑是"钱花了但不知道花在哪"。AIHelms 建立了完整的成本体系： - 内外双轨定价 — 外部成本（供应商实际收费）和内部结算价（企业对部门的计费）分开核算。企业可以按成本价透传，也可以加价内部结算 - 多维预算管控 — 按人、按部门、按项目、按模型设预算，支持软限制（预警）和硬限制（超支停用） - 实时成本归因 — 每一次调用都能追溯到具体的人、部门、项目、模型，精确到 token 级别 - 每位员工一个 AI 身份（API Key），一个入口访问所有 AI 资源 - 覆盖率 — 部门覆盖率、人员激活率、模型使用分布 - 活跃度 — 日均调用量、人均 token 消耗、使用趋势曲线 - 成本效能 — 部门成本排名、模型性价比、预算消耗进度、内外成本差异 - 效能报告 — 周/月自动生成，支持按部门、项目、模型多维下��� - 模型纳管 — 多供应商统一接入，同模型多部署负载均衡，OpenAI/Anthropic 双格式兼容 - Skill & MCP — 企业内部 AI 工具统一注册、审批、分发 - 权限精细化 — 谁能用什么模型、用多少额度、什么时候过期，全部可配置 最近版本汇总自 GitHub Releases，完整变更请以发布页为准。 ------ ---------- ---------- 0.1.20 2026-08-04 解决日志同步问题；修复时间显示；更新模型广场接入信息 0.1.19 2026-07-23 更新Hy3、Grok支持；改造静态资源托管；更新部分API批量功能；更新模型管理底座Litellm到1.93版本 0.1.18 2026-07-22 成本明细部门/项目新增 Token 列并支持行内穿透查看下属人员；效能总览、成本、预算及看板新增 Token 用量统计与人员 Top10 榜单 0.1.17 2026-07-17 统一 AI 效能部门/项目筛选并修复成本明细；日志及管理页增加模糊搜索，完善人员与 Key 联动；用户端接入说明补充 Workbuddy。 0.1
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai-gateway, ai-management, ai-observability, claude, cost-control
+
+---
+
+### 🌟 [pegainfer](https://github.com/openinfer-project/pegainfer)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 625
+- **核心概述**: 纯 Rust + CUDA LLM 推理引擎 — 无 PyTorch，兼容 OpenAI，服务于 Qwen3 到 Kimi-K2
+- **大概是做什么的**: 纯 Rust + CUDA LLM 推理引擎。没有 PyTorch。无模型框架运行时。快速入门 · 性能 · 架构 · PegaInfer 是一个完全用 Rust 和 CUDA 构建的 LLM 推理引擎 — 没有 PyTorch、没有 ONNX、没有框架运行时，每个内核和调度程序都是手写的。它为从 Qwen3 到万亿参数 Kimi-K2 的前沿规模模型提供服务，并且已经在最好的开源推理框架中占有一席之地。 open-infer.org 提供文档、指南和工程深入研究 — 从 PegaInfer 0.1.0 开始：用 Rust 编写生产级推理引擎并在一个 GPU 上共置预填���和解码。 - Rust（2024 版）、CUDA 工具包（nvcc、cuBLAS）、支持 CUDA 的 GPU - NVIDIA 驱动程序 R545 (CUDA 12.3) 或更高版本； cuFuncGetName 设置此层，而每个符号延迟加载使 cuda-12090 cudarc 绑定不需要 CUDA 12.9 驱动程序 - 默认构建 (Qwen3-4B / 8B) 是纯 Rust + CUDA - 根本没有 Python - Python 3 + Triton 用于 qwen35 功能构建（仅构建时 - 运行时没有 Python） - kimi-k2 EP 路径另外需要 NCCL ≥ 2
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: cuda, cuda-kernels, deepseek, gpu, inference, inference-engine
+
+---
+
+### 🌟 [LLMInternSkill](https://github.com/wanyichen06/LLMInternSkill)
+- **项目语言**: Markdown
+- **星标数量**: ⭐ 263
+- **核心概述**: LLMInternSkill: LLM internship resume and job-search Codex Skill for resume polish, JD tailoring, evidence guard, interview grilling, and Project Scout. 大模型实习简历与求职工具箱。
+- **大概是做什么的**: LLMInternSkill / LLM Intern Skill 大模型实习简历与求职工具箱：LLM internship resume polish, JD tailoring, RAG / Agent / Post-training 项目包装、面试拷打、开源项目补强。 一个面向大模型实习、AI 求职和 Codex Skill 工作流的 evidence-bound resume toolkit：不只是把简历写好听，而是让每一行都能扛住面试追问。 Keywords: LLM internship resume, 大模型实习简历, Codex Skill, resume polish, JD tailoring, interview prep, RAG, Agent, post-training, pretraining, search ranking, AIGC, multimodal. 30 秒看懂 · 快速开始 · Seed 示例 · 功能地图 · Star History · 参考 一份原始简历 📝 润色成更清楚、更技术、更像实习候选人的表达 一个目标 JD 🎯 判断匹配度，重排经历，生成定制版简历 一个材料文件夹 🔍 审计代码、项目素材、论文笔记、日志、截图和奖项 一堆单薄项目 🧪 包装成真实、可讲、能补证据的项目故事 一份担心被问穿的简历 🎤 生成面试官式追问、危险回答、及格回答、强回答 证据不足 🌱 推荐开源项目学习、复现、改造，形成新证据 最终要投递 📄 用 Bill Ryan LaTeX 模板生成 PDF-ready 简历草稿 围绕搜索相关性场景整理 query-doc 样例与长尾查询 bad case，分析歧义查询、时效性不足和低权威 DOC 对检索结果的影响。 没有指标时不写“优化效果”；先把真实证据写成问题分析能力。 完成企业文档问答 demo 的文档切分、向量检索和 Prompt 模板配置，记录召回错误、引用错位和无依据回答等问题。 没有上线、权限、监控和用户记录时，不写“企业级系统”。 复现小参数 LLM 的训练与推理流程，记录配置、日志、样例输出和 bad case，形成端到端理解笔记。 没有数据、配置、训练日志和 checkpoint 时，不写“训练大模型”。 重启 Codex 或开启新会话后，直接说： 这个示例故意选了一个强 JD：豆包大模型团队 Seed 搜索 / Ranking / DOC 理解研究实习。 📝 Resume Polish Before/After、技术表达增强、CN/EN 版本、ATS 关键
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-career, aigc, chinese, codex-skill, interview-prep
+
+---
+
+### 🌟 [flutter-ai-rules](https://github.com/evanca/flutter-ai-rules)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 604
+- **核心概述**: 适用于 Claude、Codex、Cursor 和其他 AI 驱动的 IDE 的 Flutter AI 技能和规则
+- **大概是做什么的**: 适用于 Cursor、Claude、Codex、Antigravity 和其他 AI 支持的 IDE 的 Flutter AI 技能和规则 主要方法：将技能文件夹从 Skills/ 复制到 IDE 的技能目录（例如 .cursor/skills/ 、 .windsurf/skills/ ）。代理会根据您的任务自动使用相关技能。对于传统规则：如果您想使用 .cursor/rules 或 .windsurfrules ，只需将您选择的规则集的内容（例如 6K.md 下的组合/flutter dart ）复制到 IDE 的全局或本地规则中。为了获得最大程度的控制，您还可以将 /rules 文件夹复制到您的项目中，并根据需要引用规则（例如，“阅读 @rules/ effective dart.md 并遵循其约定。”）。对于特定于工具和包的指导（Firebase、Bloc、Riverpod、Mockito 等），请使用 Skills/ 中的匹配技能。该存储库提供了一个全面的、（几乎）非固定的 Flutter 相关规则集合，专为与 Windsurf 、 Cursor 和其他人工智能驱动的 IDE 一起使用而定制。这些规则旨在改进您的开发工作流程、确保一致性并帮助您充分利用 AI 编码
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-rules, ai-skills, antigravity, claude, claude-ai
+
+---
+
+### 🌟 [zero2Agent](https://github.com/ranxi2001/zero2Agent)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 204
+- **核心概述**: 面向大厂Agent研发岗位求职的agent教程网站，涵盖技术路线与面试八股文
+- **大概是做什么的**: 面向程序员的 Agent 工程教程 · 从概念到生产 在线阅读 · Agent Basic · OpenClaw · Claude Code · LangGraph · SDK 框架 · 框架调研 · 训练实战 · 应用实战 · 面试通关 · Final Project zero2Agent 是一个面向程序员的 Agent 工程教程仓库，目标是帮助已经会写代码、会用 AI 工具，但还没系统做过 Agent 工程的开发者，真正从零搭出自己的 Agent 系统。同时也适合应届生或转行开发者，作为 AI Agent 方向面试备战的系统性参考。 内容不停留在 Demo、Prompt、套壳工作流，而是从核心机制出发，覆盖 Agent 的工程设计原理、框架拆解、代码实现，最终落到完整的实战项目与大厂面试题深度拆解。 在线阅读（GitHub Pages） ：https://onefly.top/zero2Agent ------ -------- ------ ------ Agent Basic 10 篇 ✅ 完成 Agent 核心概念、模型 API、Tool Calling、Context、Memory、Loop 与 Infra OpenClaw Agent 9 篇 ✅ 完成 60 行核心框架，从 Node 推导到 Agent，pi-mono 架构解析，部署实战 Claude Code 12 篇 ✅ 完成 12 节课手写 Coding Agent：Loop → Tools → Subagent → Teams → Worktree 隔离 LangGraph 7 篇 ✅ 完成 StateGraph 三件套、条件分支、并行 Fan-out/Fan-in、Prompt Chaining、LLM 集成 SDK 框架 4 篇 ✅ 完成 OpenAI Agents SDK · Google genai SDK · Claude Anthropic SDK · 三大 SDK 横向对比 框架调研 13 篇 ✅ 完成 AgentScope · Mastra · Semantic Kernel · Eino · DeerFlow · LangChain · Google ADK · AutoGen · Vercel AI SDK 等 Agent 训练实战 6 篇 ✅ 完成 SFT、RL、GRPO/PPO、数据配比、Agent 评测与部署 Agent 应用实战 3 篇 🚧 进行中 Vibe Coding、AI Coding 面试与日常 Agent 开发工作流 面试通关 15 篇 ✅ 完成 大
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, langraph, learning, llm
+
+---
+
 ## 🕔 2026-08-03 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
