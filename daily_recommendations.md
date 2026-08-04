@@ -1,3 +1,67 @@
+## 🕔 2026-08-04 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 208 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [magic](https://github.com/dtyq/magic)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 4,967
+- **核心概述**: 魔法师。首个开源一体式AI生产力平台（通才AI代理+工作流引擎+IM+在线协同办公系统）
+- **大概是做什么的**: 🔥 Magic - 企业级开源 AI 代理平台 🦞 OpenClaw 是一款出色的个人 AI 助手 - 连接所有主要 IM 作为对话渠道，支持任何 LLM，24/7 自主运行。但当我们将其带入企业环境时，新的挑战自然会出现：数据分散在各个账户中、没有预算护栏、仅以纯文本形式输出、没有审批关卡的高风险操作。 Magic 正是为了应对这些挑战而构建的：一个为安全、控制、直接业务成果和自主 24/7 运营而构建的企业 AI 代理平台。停止修补。开始构建您的企业人工智能引擎。个人人工智能工具在大规模部署时始终会遇到同样的问题。 Magic 是这样解决每一个问题的： - 数据锁定在员工帐户中，当他们离开时就消失了 → 统一数据中心；机构知识留在组织内 - 不可预测的 API 成本、月底预算超支 → 每个部门、每个用户、每个任务的预算上限 - 员工使用第三方工具，核心数据面临风险 → 内部沙箱隔离；数据永远不会离开可信边界
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agi, ai, gpt, llm, low-code
+
+---
+
+### 🌟 [CORAL](https://github.com/Human-Agent-Society/CORAL)
+- **项目语言**: Python
+- **星标数量**: ⭐ 870
+- **核心概述**: 由自主编码代理提供支持的开源自动研究。通过分级、共享内存和多代理进化来运行 Claude Code、OpenCode 和 Codex。 COLM 2026 被接受。
+- **大概是做什么的**: CORAL：由自主编码代理提供支持的开源自动研究强大的轻量级基础设施，用于多代理自我进化，专为自动研究而构建。安装 · 插件 · 支持的代理 · 工作原理 · 示例 · 文档 · Paper CORAL 是自主 AI 代理组织的基础设施，用于运行实验、共享知识并不断改进解决方案。给它一个代码库和一个评分器，CORAL 就会处理剩下的事情：隔离的工作空间、安全评估、持久共享状态和多代理协作。与 Claude Code、OpenCode、Codex、Cursor Agent 和 Kiro 原生集成。 - [2026-07-08] CORAL已被COLM 2026录取！ 🎉 - [2026-06-24] Docker 会话现在将代理与评分者隔离：每个代理以非特权用户身份运行（管理员和评分者保持 root 权限），因此代理无法再读取 .coral/private/（评分者 venv、答案键）——甚至无法通过 Bash 读取。在主机上，这通过agents.isolate user保持选择加入。 - [2026-06-13] 旧版 eval/grader.py 分级机自动发现已弃用并删除 — 通过 Grader.entrypoint 指向的线分级机
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-framework, agent-orchestration, agentic-ai, ai-agents, alpha-evolve, autonomous-agents
+
+---
+
+### 🌟 [mcp-gateway](https://github.com/microsoft/mcp-gateway)
+- **项目语言**: C#
+- **星标数量**: ⭐ 767
+- **核心概述**: MCP Gateway 是 MCP 服务器的反向代理和管理层，可在 Kubernetes 环境中实现 MCP 服务器的可扩展、会话感知状态路由和生命周期管理。
+- **大概是做什么的**: MCP Gateway 是模型上下文协议 (MCP) 服务器的反向代理和管理层，可在 Kubernetes 环境中实现 MCP 服务器的可扩展、会话感知路由、授权和生命周期管理。 - 入门 - 本地部署 - 入门 - 一键部署到 Azure 该项目提供： - 一个数据网关，用于通过会话关联将流量路由到 MCP 服务器。 - 用于管理 MCP 服务器生命周期（部署、更新、删除）的控制平面。 - 企业级集成点，包括遥测、访问控制和可观察性。 - MCP 服务器：实现模型��下文协议的服务器，通常是可流传输的 HTTP 端点。 - 适配器：代表网关中 MCP 服务器的逻辑资源，在 /adapters 范围下管理。旨在与其他资源类型（例如 /agents ）在统一的 AI 开发平台中共存。 - 工具：使用 MCP 工具定义注册的资源，可以通过工具网关路由器动态路由。每个工具都包含有关其执行端点和输入模式的元数据。 - 工具网关路由
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, api-gateway, arm-deployments, asp-net-core, azure, bicep
+
+---
+
+### 🌟 [agent-inspect](https://github.com/rajudandigam/agent-inspect)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 300
+- **核心概述**: TypeScript AI 代理的本地执行树。 agent-inspect 可帮助您了解本地运行的 AI 代理内部发生的情况。它将手动步骤、工具调用、LLM 调用、结构化日志、故障、持续时间和运行元数据转换为可从终端检查的可读执行树。它是为 TypeScript/Node.js 开发人员构建的。
+- **大概是做什么的**: TypeScript 代理的本地证据调试器 - 忠实执行树、确定性回归检查、共享检查证据以及无需收集器或帐户的编码代理访问。无帐户 · 无默认上传 · 默认情况下仅元数据 · 可选的客户拥有的 Studio 工作流程 您做什么 -------- -------------- 调试一次运行 捕获/导入 → 树/时间轴/报告 → 第一个因果故障 防止一次回归 TraceContract / 检查 → 套件/队列 → CI 门 共享一个安全工件 编辑 → 验证安全 → 离线捆绑 → 可选 Studio 审查 编码代理循环（可选）：本地只读 @agent-inspect/mcp-server — 请参阅编码代理循��.md。以团队形式审核（可选）：工作区 + 可选 SQLite 索引 → 客户拥有的 Studio Beta（无 AgentInspect 托管云）。投资组合层：POSITIONING-AND-PORTFOLIO.md。下面的命令与打包的快速入门相匹配。替换为 list 中的值。初始化脚手架配置和演示脚本；演示写入跟踪。指南：5 分钟内首次跟踪 · 仓库 · 黄金路径 · 编码代理循环 独特位置： Type 的本地证据调试器
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-observability, agentic-ai, ai, ai-agent, ai-debugging, ai-logging-library
+
+---
+
+### 🌟 [patina](https://github.com/devswha/patina)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 309
+- **核心概述**: 韩/英/中/日人工智能书写人性化
+- **大概是做什么的**: 剥去AI包装。保留意义。在浏览器中尝试一下 — 无需安装 粘贴 AI 听起来的文本 → 铜绿将其重写到位，保留事实（“30 个模板”数字保留），并丢弃确定性 AI 信号 100 → 0 (MPS 100 / Fidelity 75)。言语并不能说明一切。架构是。我们与独立的跨家庭法学硕士法官进行了一项预先注册的研究：重写可以剥夺人工智能词汇，但法官仍然可以通过形状来识别人工智能文档——统一的段落、清单完整的覆盖范围、整洁的问题→课程弧。单词级清理对英语文档的人工智能相似性判断有很大影响（−23 点），而对长韩语文档则几乎没有影响。该结果决定了 patina 的设计：检测两层，并在胜利旁边发布损失（研究）。 patina 是一种确定性的、基于模式的人性化工具，适用于韩语、英语、中文和日语。它找到听起来像人工智能的措辞并重写它，而不改变主张、数字、极性或因果关系。它不是黑盒释义器、作者检测器��检测器绕过工具——它是为允许的人工智能辅助而构建的
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-detection, ai-humanizer, ai-writing, claude, claude-code, codex
+
+---
+
+### 🌟 [picollm](https://github.com/Picovoice/picollm)
+- **项目语言**: Python
+- **星标数量**: ⭐ 316
+- **核心概述**: 由 X 位量化支持的设备上 LLM 推理
+- **大概是做什么的**: picoLLM 推理引擎 由 Picovoice 在加拿大温哥华制造 picoLLM 推理引擎是一款高精度、跨平台的 SDK，针对运行压缩的大型语言模型进行了优化。 picoLLM 推理引擎： - 准确； picoLLM 压缩显着提高了 GPTQ - 私有； LLM 推理在本地运行 100%。 - Linux (x86 64)、macOS (arm64、x86 64) 和 Windows (x86 64、arm64) - Raspberry Pi (3、4、5) - Chrome、Safari、Edge 和 Firefox - 在 CPU 和 GPU 上运行 - 对于开放重量模型免费 - 跨浏览器本地 LLM - GeForce RTX 4090 上的 Llama-3-70B-Instruct - 本地 LLM 支持的语音助手在 Raspberry Pi 上 - 本地 Llama-3-8B-Instruct CPU 上的语音助手跨浏览器本地 LLM 现场演示 - 离线工作！ GeForce RTX 4090 上的 Llama-3-70B-Instruct Raspberry Pi 上的本地 Llama-3-8B-Instruct 语音助手 CPU picoLLM 压缩是一种在 Picovoice 内开发的新型大语言模型 (LLM) 量化算法。给定特定于任务的成本函数，picoLLM Compression 自动学习最佳位分配策略
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: compression, efficient-inference, gemma, generative-ai, language-model, language-models
+
+---
+
 ## 🕔 2026-08-04 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 221 个候选项目中筛选出 6 个未推荐过的新项目。
