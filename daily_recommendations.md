@@ -1,3 +1,67 @@
+## 🕔 2026-08-05 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 223 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [WrenAI](https://github.com/Canner/WrenAI)
+- **项目语言**: Python
+- **星标数量**: ⭐ 16,817
+- **核心概述**: 适用于 AI 代理的 GenBI（生成式 BI）是一种开源的、通过开放上下文层进行管理的文本到 SQL 的解决方案，可将自然语言问题转换为跨 20 多个数据源（例如 BigQuery、Snowflake、PostgreSQL、ClickHouse、Amazon Redshift、Databricks 等）的可信仪表板、图表和 SQL。
+- **大概是做什么的**: 开源 GenBI：人工智能代理的生成 BI。您的代理从任何数据库生成、部署和管理仪表板，这些仪表板基于他们真正信任的上下文层。文档 · Discord · 愿景 · 博客 📣 2026-05-07 ：Wren Engine 已合并到 core/ 下的此存储库中。先前的 Canner/wren-engine 存储库已存档。之前的 WrenAI GenBI 应用程序（基于 Docker 的聊天优先 BI 产品）保留在 Legacy/v1 分支（标签 v1-final ）上，现在是 Wren GenBI Classic ；请参阅下面有关“GenBI”名称的注释���阅读公告 → WrenAI 是开源 GenBI 引擎：它允许 AI 代理跨 22 个以上的数据源生成、部署和管理商业智能，从 SQL 答案到可共享的仪表板。使输出值得信赖的是下面的层：一个开放的上下文层，它为代理提供了模式所没有的功能。这意味着业务语义、批准的定义、示例、内存和治理，以及存在于文档、维基和聊天线程中的非结构化公司知识。生成式 BI 的好坏取决于它所处的环境，而 Wren 就是这个环境，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, bigquery, business-intelligence, charts, clickhouse, context-engineering
+
+---
+
+### 🌟 [awesome-data-agents](https://github.com/HKUSTDial/awesome-data-agents)
+- **项目语言**: Python
+- **星标数量**: ⭐ 682
+- **核心概述**: 不断更新有关数据代理进展的论文列表。我们的论文“数据代理调查：新兴范式还是夸大炒作？”的配套存储库
+- **大概是做什么的**: 🌟 很棒的数据代理 🌟 有关数据代理的精选论文和资源。我们关于数据代理的调查的配套存储库和论文列表 - 数据代理调查：新兴范式还是夸大的炒作？ [[Paper]](https://arxiv.org/pdf/2510.23587) 我们还在 SIGMOD 2026 上提供了一个 3 小时的教程！查看幻灯片：[[幻灯片]]（幻灯片/SIGMOD2026 教程）如果您发现我们的工作有用或鼓舞人心，请给我们一颗星 ⭐️ 并引用我们的论文和教程：🎉 2026 年 6 月 3 日我们在 SIGMOD 2026 上提出了一个 3 小时的教程“数据代理：级别、最先进的技术和开放问题”！幻灯片现已提供：[[Slides]]（幻灯片/SIGMOD2026 教程）🔥 2026 年 3 月 28 日我们很高兴推出 KDD Cup 2026：复杂数据分析赛道的数据代理！与我们一起探索数据代理的前沿：[[官方网站]](https://dataagent.top/) 📢 2025 年 10 月 27 日 我们很高兴与大家分享，我们的调查现已在 arXiv 上提供：[[Paper]](https://arxiv.org/pdf/2510.23587) - 🪜 数据代理级别 - 💬 L0-L1：来自体力劳动初步协助 - L1 数据代理的比较 - 🌏 L2：Perce
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: data-analysis, data-analytics, data-cleaning, data-discovery, data-integration, data-management
+
+---
+
+### 🌟 [open-multi-agent-canvas](https://github.com/CopilotKit/open-multi-agent-canvas)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 517
+- **核心概述**: 开源多代理聊天界面，可让您在一个动态对话中管理多个代理并添加 MCP 服务器以进行深入研究
+- **大概是做什么的**: 开放式多代理画布 开放式多代理画布由 CopilotKit 创建，是一种开源多代理聊天界面，可让您在一个动态对话中管理多个代理。它使用 Next.js、LangGraph 和 CopilotKit 构建，可通过 MCP 服务器帮助完成旅行规划、研究和通用任务。查看这些很棒的代理（它们位于不同的存储库中）。您可以单独运行它们或将它们部署在 LangSmith 上： - CoAgents Travel Agent - CoAgents AI Researcher 此外，该项目现在包括一个内置的 MCP（多通道协议）代理： - MCP 代理：能​​够通过可配置的 MCP 服务器处理各种任务的通用代理。运行此项目需要 Copilot Cloud：运行前端 将前端文件夹中的 example.env 文件重命名为 .env ：安装依赖项：需要 CopilotKit API 密钥？在这里买一个。然后，启动 Next.js 项目： MCP 代理允许您连接到各种 MCP 兼容服务器： 1. 配置自定义 MCP 服务器： - 单击界面右上角的“MCP 服务器”按钮 - 添加服务
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, copilotkit, mcp-client, multi-agent, open-canvas, python
+
+---
+
+### 🌟 [awesome-claude-skills](https://github.com/karanb192/awesome-claude-skills)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 452
+- **核心概述**: 🎯 50 多个经过验证的令人敬畏的 Claude 技能的权威集合，适用于 Claude Code、Claude.ai 和 API。通过 TDD、调试、git 工作流程、文档处理等提高生产力。社区驱动，积极维护。
+- **大概是做什么的**: Awesome-claude-skills Claude 代理技能的权威集合 - 通过 Claude Code、Claude.ai 和 API 增强您的 AI 工作流程 Claude 刚刚获得了技能！这是 Claude Code、Claude.ai 和 Claude API 的 50 多种代理技能的权威集合，可提高生产力、实施最佳实践并自动化复杂的工作流程。 🎯 为什么要列出这个列表？经过验证的技能 ✓ 主动维护 ✓ 清晰的用例 ✓ 社区驱动 ✓ 50 多种技能 ✓ 💡 技能新手？从快速入门指南开始 • 正在寻找特定的东西？使用Ctrl+F 进行搜索 • 想要贡献吗？检查贡献 - 如何安装技能 - 技能、MCP 与系统提示 - 📄 文档和文件处理 - 🧪 测试和质量 - 🐛 调试和故障排除 - 🤝 协作和工作流程 - ⚙️ 开发和架构 - 🔒 安全性和性能 - 📚 文档和自动化 - 🎬 媒体和内容创建 - 📊 数据和分析 - ✍️ 写作和研究 在 30 秒内获得你的第一项技能：就是这样！相关技能会自动加载。无需配置。代理技能是模块化能力
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai, anthropic, anthropic-claude, artifical-intelligence, automation
+
+---
+
+### 🌟 [anolisa](https://github.com/alibaba/anolisa)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 319
+- **核心概述**: ANOLISA（代理 Nexus 操作层和接口系统架构）
+- **大概是做什么的**: Agent Nexus 操作系统层和接口系统架构 Agent 工作负载的操作系统层。让代理直接从您的终端驱动系统，并在您付出代价之前剥离到达模型的工具响应，同时保留您已经运行的 Shell、代理框架和沙箱。 ANOLISA 是用于 AI 代理工作负载的服务器端操作层。它解决了 Agent 执行的三个实际约束：终端进入、Token 成本和执行环境。保留您已使用的 Shell、代理框架和沙箱。 ANOLISA CLI 提供单一安装入口点，而每项功能都可以独立启用。 01·代理界面 让代理直接在终端中工作 cosh-ng 为代理提供了一个用于 Shell 和系统操作的结构化、可预测的接口。保持已使用的代理框架和沙箱，并将系统工作引入现有的终端工作流程中。开始使用 cosh-ng → 02 · 上下文效率 查看令牌的去向并在其到达模型之前减少浪费 无令牌从工具模式中删除冗余
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-infrastructure, agent-memory, agent-runtime, agent-security, agentic-ai, agentic-os
+
+---
+
+### 🌟 [OpenAI4S](https://github.com/PKU-YuanGroup/OpenAI4S)
+- **项目语言**: Python
+- **星标数量**: ⭐ 206
+- **核心概述**: 9.9 元豆包API复刻 Claude Science
+- **大概是做什么的**: 为科学家开放 AI 💸 用两次或更短的时间复制 Claude Science 开源混合科学研究代理。 JSON 工具编排；持久的 Python/R 内核在做科学。由北京大学-元控智能人工智能联合研究实验室发起。为什么要“两刀切”？无需昂贵的前沿模型密钥 — OpenAI4S 通过 Volcengine Ark（火山方舟）上最便宜的“小”计划在豆包上运行：9.9 日元/月（约 1.4 美元）。在用户界面中选择方舟提供商，您只需花不到一杯咖啡就可以获得克劳德科学级代理。 Volcengine Ark · 代理计划（个人）——入门小档 9.9 元/月。 🧬 JSON 编排，代码即动作科学 OpenAI4S 故意有两个动作平面。提供者本机 JSON 工具调用处理确定性编排、权限、元数据、外部服务和人工审批。 Python/R 代码即操作在持久内核中处理计算、探索、分析、模拟和长期运行的科学工作。 Python单元可以���运行时同步调用内核主机API； R是一个独立的持久分析Cha
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai4science, claude-science, mit-license, open-source, science-research
+
+---
+
 ## 🕔 2026-08-05 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 223 个候选项目中筛选出 6 个未推荐过的新项目。
