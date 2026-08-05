@@ -1,3 +1,67 @@
+## 🕔 2026-08-05 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 255 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [code-interpreter](https://github.com/e2b-dev/code-interpreter)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,372
+- **核心概述**: Python 和 JS/TS SDK，用于在您的 AI 应用程序中运行 AI 生成的代码/代码解释
+- **大概是做什么的**: E2B 是一种开源基础设施，可让您在云中安全隔离的沙箱中运行 AI 生成的代码。要启动和控制沙箱，请使用我们的 JavaScript SDK 或 Python SDK。运行您的第一个 Sandbox JavaScript / TypeScript 2. 获取您的 E2B API 密钥 1. 在此处注册 E2B。 2. 在此处获取您的 API 密钥。 3. 使用您的 API 密钥设置环境变量。 3. 使用 Sandbox 内的代码解释器执行代码 JavaScript / TypeScript 访问 E2B 文档。访问我们的食谱，从不同法学硕士和人工智能框架的示例中获得灵感。 Customizing the sandbox template Need extra packages or a different runtime?您可以构建自己的代码解释器沙箱模板。请参阅模板指南，了解创建、构建和使用自定义模板（以及构建生产 code-interpreter-v1 模板）的分步演练。
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-data-analysis, anthropic, code-interpreter, cohere, gpt
+
+---
+
+### 🌟 [open-webui-tools](https://github.com/Haervwe/open-webui-tools)
+- **项目语言**: Python
+- **星标数量**: ⭐ 781
+- **核心概述**: Open-WebUI Tools 是一个模块化工具包，旨在扩展和丰富您的 Open WebUI 实例，将其转变为强大的 AI 工作站。该项目拥有超过 15 个专业工具、功能管道和过滤器套件，支持学术研究、代理自主、多模式创造力、工作流程等
+- **大概是做什么的**: Open WebUI 工具集合🚀 工具、函数管道和过滤器的模块化集合，可增强您的 Open WebUI 体验。使用此综合工具包将您的 Open WebUI 实例转变为强大的 AI 工作站。从学术研究和图像生成到音乐创作和自主代理，该集合提供了扩展 AI 功能所需的一切。该存储库包含 20 多个专门的工具和功能，旨在增强您的开放式 WebUI 体验： - arXiv 搜索 - 学术论文发现（无需 API 密钥！） - Perplexica 搜索 - 使用 Perplexica API 进行网页搜索和引文 - Pexels 媒体搜索 - 来自 Pexels API 的高质量照片和视频 - YouTube 搜索和嵌入 - 搜索 YouTube 并在嵌入式播放器中播放视频 - Xquik X 数据工具 - 搜索和查找 X 帖子、用户、时间表和趋势 - 本机图像生成器 - 直接打��使用 Ollama 模型管理生成 WebUI 图像 - 拥抱脸部图像生成器 - AI 支持的图像创建 - ComfyUI 图像到图像 (Qwen Edit 2509) - 使用多图像 su 进行高级图像编辑
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: academic-research, ai-agents, ai-workstation, arxiv, comfyui, image-generation
+
+---
+
+### 🌟 [jobsync](https://github.com/Gsync/jobsync)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 794
+- **核心概述**: 自托管、开源工作申请跟踪器和人工智能驱动的职业助理。通过人工智能简历审查、职位匹配、任务记录和应用程序分析帮助求职者管理他们的搜索过程，同时保持数据的私密性。
+- **大概是做什么的**: 自托管求职助手具有人工智能驱动的简历审核、职位匹配和自动发现功能 JobSync 是您求职的免费开源伴侣：跟踪申请、管理和导出简历、运行人工智能驱动的简历审核、职位匹配、生成求职信 — 所有这些都在您自己的服务器上自托管，因此您的数据始终在您的控制之下。 AI 功能可以通过 Ollama 或通过您选择的云提供商完全在本地运行，JobSync 的内置 MCP 服务器可让 Claude Desktop 等 AI 代理直接从您的聊天中添加职位和面试问题。 - 申请跟踪器：保留您所有工作申请的详细记录，包括公司详细信息、职位名称、申请日期和当前状态。 - 监控仪表板：通过交互式仪表板可视化您的求职进度，深入了解您的申请活动、成功率和即将到来的任务。 - 简历管理：存储和管理您的简历，将其导出为专业格式的 PDF（简单或专业模板），并将其与 AI 结合使用以获得评论并与职位匹配
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-resume-analyzer, application-tracker, application-tracking-system, ats
+
+---
+
+### 🌟 [mcp-server-bash-sdk](https://github.com/muthuishere/mcp-server-bash-sdk)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 513
+- **核心概述**: MCP 服务器 SDK/示例完全在 bash 中实现 - 构建一个模型上下文协议服务器，除了 POSIX shell 之外没有运行时依赖性。
+- **大概是做什么的**: 🐚 Bash 中的 MCP 服务器纯 Bash 中模型上下文协议 (MCP) 服务器的轻量级、零开销实现 — 针对当前的 2026-07-28 修订版。 📖 文档站点 · 🧩 示例 · 🧠 架构决策 · 🔬 尖峰 为什么？大多数 MCP 服务器只是具有模式转换的 API 包装器。此实现为 Node.js、Python 或其他繁重的运行时提供了零开销替代方案。为什么是现在？ 2026-07-28 修订版使 MCP 无状态：没有初始化握手、没有会话、没有服务器发起的请求。一行输入，一行输出——这正是 shell 读取循环的形状。 Bash 从一种尴尬的状态变成了一种自然的状态。 ✅ MCP 2026-07-28 — 无状态、按请求版本协商 ✅ 两种标准传输：stdio 和 Streamable HTTP，来自同一服务器文件 ✅ server/discover 、 tools/list 、 tools/call ✅ 通过函数命名约定进行动态工具发现 ✅ 通过 JSON 文件进行外部配置 ✅ 根据官方发布的 JSON 模式验证输出 - Bash 3.2 或更高版本（3.2 是 macOS 作为 /bin/bash 提供的） - jq用于 JSON 处理（brew in
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, bash, mcp, model-context-protocol, sdk
+
+---
+
+### 🌟 [openyida](https://github.com/openyida/openyida)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 201
+- **核心概述**: 你专属的亿达AI助手！🤖
+- **大概是做什么的**: 用于构建钉钉易达低代码应用的AI原生CLI。 OpenYida将人工智能编码代理与亿达的低代码平台连接起来，因此开发人员可以从正常的聊天驱动的开发工作流程创建应用程序、表单、工作流程、自定义页面、报告、集成和部署配置。快速入门 · 帮助中心 · 功能 · 完整功能列表 · CLI 参考 · 示例 · 贡献 · 更改日志 帮助中心: 简体中文 · 繁体中文(中国台湾) · 繁体中文(中国香港) · 英语 · 日本语 · 한국어 · Tiếng Việt · ไทย · 印尼语 · 马来语 · 法语 · 葡萄牙语 · Türkçe · Español · Русский English README · 简体中文 README OpenYida 提供什么 OpenYida 是 AI 编码工具和易达之间的桥梁。它为代理提供了整个应用程序生命周期的稳定命令行界面： 区域 您可以做什么 ------------------ ----- 应用程序交付 创建、更新、导出和导入易达应用程序 表单建模 创建表单、更新字段、检查架构和管理权限 自定义页面 生成基于 React 的页面、lint 易达运行时规则、编译和发布 工作流程自动化 创建流程
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, assistant, low-code-platform, skills, yida
+
+---
+
+### 🌟 [Paper-Agent](https://github.com/Tswoen/Paper-Agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 365
+- **核心概述**: Paper-Agent 是一个面向科研人员和学生的智能论文检索与调研工具。项目基于多智能体协作架构（AutoGen + LangGraph），通过自然语言处理（NLP）、自动化搜索和知识库构建，帮助用户高效查找学术论文、分析文献内容，并进行论文调研。Paper-Agent 支持多平台集成、关键词搜索、自动分析、论文调研，提升了学术研究的效率。适用于论文写作、学术调研、科研项目管理等多种场景，是学术调研的理想助手。
+- **大概是做什么的**: Paper-Agent · 智能学术调研报告生成系统 输入一个研究主题 → 收获一份深度领域综述报告 输入研究主题，实时追踪搜索→阅读→分析→写作全流程进度 🎯 为什么是 Paper-Agent？ 场景 传统方式 Paper-Agent ------ --------- ----------------- 从 0 了解一个陌生领域 手动搜索 → 读 20+ 篇论文 → 做笔记 → 梳理脉络， 耗时 1 2 周 输入研究主题， 5 分钟 拿到结构完整的领域综述 写综述报告 边读边写，反复调整结构， 常常写到一半推倒重来 自动生成大纲 → 并行写作各章节 → review 审查质量， 一次成型 挖掘研究趋势 靠个人经验判断， 容易遗漏重要方向 KMeans 聚类 + 深度分析 + 全局分析， 数据驱动发现热点 和 ChatGPT 聊论文 单轮对话， 无法系统化组织 ，输出碎片化 多智能体流水线， 检索→阅读→分析→写作 全流程自动化 Paper-Agent 不是论文摘要工具，而是一个完整的 AI 研究助理——它读得懂论文、理得清脉络、写得出报告。 -- ------ ----------- 🤖 多智能体协作流水线 Search / Reader / Cluster / DeepAnalyse / Writer / Reviewer 各司其职，像一支研究团队自动协作 🔬 三阶段深度领域分析 聚类分析 → 每簇深度挖掘 → 六大模块全局综述，从微观到宏观全景透视 ⚡ 并行写作 + 质量审查 写作主管拆解大纲，多个写作小组并行输出章节，Reviewer 逐章��关 📡 实时流式输出 基于 SSE 技术，从搜索到报告每一步进度实时推送到 Web 界面 🧠 检索增强写作 (RAG) ChromaDB 向量库存储论文结构化数据，写作时自动检索相关内容辅助生成 🎛️ Web 可视化配置 在浏览器中管理多模型 Provider、为每个 Agent 单独指定模型、一键测试连通性 AI 框架 AutoGen, LangGraph, LangChain 后端 Python 3.12+, FastAPI, Uvicorn, SSE 机器学习 scikit-learn (KMeans, Elbow Method), NumPy 前端 React 19, TypeScript, Vite 7 论文检索 arXiv API, aiohttp PDF 解析 PyMuPDF (fitz) 包管理 Poetry (Python) / npm (Web) LLM 兼容 OpenAI, Sili
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, ai, autogen, chroma, langchain
+
+---
+
 ## 🕔 2026-08-05 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 223 个候选项目中筛选出 6 个未推荐过的新项目。
