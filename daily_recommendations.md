@@ -1,3 +1,67 @@
+## 🕔 2026-08-05 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 223 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [x-cmd](https://github.com/x-cmd/x-cmd)
+- **项目语言**: Awk
+- **星标数量**: ⭐ 4,561
+- **核心概述**: 壳牌人工智能代理的超能力。
+- **大概是做什么的**: English 中文 源代码 ⭐ AI 代理的 Shell 超能力 X-CMD（发音为“X Command”）是 POSIX shell（bash、zsh、ash、dash）的现代工具包 — 旨在使 shell 与 Python 标准库一样强大。最初的“shell 标准库”后来演变为更大的东西： 1. Shell 标准库 — 我们在 shell/awk 中构建了 300 多个模块，为任何仅使用 POSIX shell 的系统带来现代功能 — 甚至包括 BusyBox、Alpine 或旧机器。 2. 按需软件包系统——某些模块需要 POSIX 之外的功能。我们设计了 pkg：600 多个精选的现代 CLI 工具（jq、fzf、fd、ripgrep...），由我们的团队审核和��包 - 最大化环境兼容性、最小化依赖关系、轻量级下载、按需加载、无需 root、无系统污染。 3. 丰富的模块——除了传统工具之外，我们还为各种场景构建了实用的模块：theme（跨 shell 主题）、advise（6 个以上 shell 的补全）、githook（husky 替代）、free（macOS 缺少命令）、ccal（农历）、weixin（微信集成）等等 - 全部都在 shell/awk 中。 4.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, bash, cli, cloud, shell
+
+---
+
+### 🌟 [KiroCrew](https://github.com/kirodotdev/KiroCrew)
+- **项目语言**: Python
+- **星标数量**: ⭐ 538
+- **核心概述**: 一个用于开发工作的持久工作空间，可以自我改进并在一次会议之后继续进行。
+- **大概是做什么的**: 一个用于开发工作的持久工作空间，可以自我改进并在一次会议之后继续进行。 Kiro Crew 是一个开源开发工作区，可在您的硬件上本地或远程运行。它是持久的、自我学习的、自我进化的。从桌面应用程序、Web 仪表板和 CLI 中使用它，或者通过 Slack 和 Discord 等连接工具继续相同的工作。您的多步骤任务可以在无人值守的情况下运行，按照您的计划运行重复作业，并通过心跳监控系统，直到需要注意某些事项为止。 Kiro Crew 应用程序根据特定工作定制体验，将专门构建的界面与代理、技能、日程安排、集成和后端服务相结合。您可以选择如何运行 Kiro Crew：具有自动更新功能的桌面应用程序、在您的计算机或远程主机上进行单行安装、始终在线服务器的 Docker 映像或从源代码构建。每个路径都在下面的 kiro-cli 上运行，因此第一次启动时会根据需要安装它并引导 Kiro 设备代码登录。当没有本地网关正在运行时，桌面应用程序会启动捆绑网关，并在计算机上自行更新
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agents, ai-agent, ai-agents, automation
+
+---
+
+### 🌟 [FinanceMCP](https://github.com/guangxiangdebizi/FinanceMCP)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 640
+- **核心概述**: 这是一个金融领域相关的mcp,本项目通过集成 Tushare API 和 Binance API 为语言模型（如Claude）提供全面的实时金融数据访问能力，支持股票、基金、债券、宏观经济指标、稳定币、虚拟货币等多维度金融数据分析。其中也包含了金融数据查询、财经新闻查询、国家统计局数据查询等
+- **大概是做什么的**: FinanceMCP (Synapse) - 专业金融数据MCP服务器 🚀 基于MCP协议的专业金融数据服务器，集成Tushare API，为Claude等AI助手提供实时金融数据和技术指标分析。 🔗 项目联动：FinNote 智能金融文档系统 FinanceMCP 已与 MarkiNote 进行项目联动与融合，形成面向金融投研与智能文档管理场景的一体化项目 FinNote 。该项目已参加上海市大学生计算机应用能力大赛，并获得省级二等奖，在线体验地址为：https://finvestai.top/。 在 FinNote 整体架构中，FinanceMCP 作为后端金融数据 MCP 服务器，基于 Node.js、Express 与 MCP SDK 构建，负责封装和标准化多源金融数据能力。目前系统聚合 100+ 金融数据接口，并整理为 18 个 MCP 工具，为大模型提供股票、基金、债券、宏观经济、财经新闻、技术指标等多类型金融数据调用能力。 MarkiNote / FinNote 前端则作为 AI Agent 驱动的智能文档系统，负责接收用户自然语言需求，展示 AI 分析过程，并将分析结果保存为可管理、可追踪、可复用的文档资产。两者通过 HTTP 通讯，形成从“金融数据获取”到“智能分析”，再到“文档沉淀与知识管理”的完整闭环。 因此，FinanceMCP 不仅可以作为独立的 MCP 金融数据服务器接入 Claude、GPT 等大模型，也可以作为 FinNote 的金融数据后端，为 AI Agent 文档系统提供实时、结构化、可调用的数据基础。 访问我们的在线体验网站： https://finvestai.top/ - ✨ 零配置体验 - 无需任何设置，打开网页即用 - 🤖 集成大模型 - 直接与AI助手对话，获取金融分析 - 💬 智能交互 - 自然语言提问，实时获取金融数据 - 📱 多端适配 - 支持电脑、手机、平板访问 ⚠️ 服务说明 : 这是个人小服务器，请合理使用，勿攻击滥用。 🆕 最新版本(v4.3.0) - 使用您的API密钥 🎯 推荐生产环境使用，配置您自己的Tushare令牌： 1. 在 tushare.pro 注册账户 3. 将 您的tushare令牌 替换为您的实际令牌 您也可以使用我们的共享服务，无需API密钥(可能有速率限制)： - ✅ 最新版本(v4.3.0) - 使用您自己的API密钥，享受无限制访问 - ✅ 7×24可用 - 服务器持续运行 - ✅ 完整功能 - 全部14个工具和技术指标 - ✅ 实时数据 - 连接Tush
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: binance, data, finance, llm, mcp, mcp-server
+
+---
+
+### 🌟 [paritok-4b-v1](https://github.com/Paritok-official/paritok-4b-v1)
+- **项目语言**: Python
+- **星标数量**: ⭐ 345
+- **核心概述**: 非破坏性压缩网关，可在单轮中将 AI 编码代理令牌费用减少 25%，在长时间的多轮会话中增加至 90% 以上。由第一个开源代码原生 4B 压缩模型提供支持。 Claude Code、Cursor、Codex、OpenHands 的直接插入。代理代码没有更改。
+- **大概是做什么的**: 第一个专门为编码代理训练的开源压缩模型。经过 45K 真实编码代理轨迹的训练，Paritok 理解函数签名和调试行之间的区别 - 因此它保留重要的内容并删除不重要的内容。与 Claude Code、Cursor、OpenHands 以及任何使用标准消息格式的代理框架完全兼容。典型工作负载上的令牌减少了 74%（在大的长会话流量上最多减少 95%），在 Claude / GPT 上将输入令牌费用减少高达 95%，同时在 SWE-bench 上匹配 gpt-4.1-mini，以一小部分成本进行验证 - 部署为非破坏性网关，不会永久丢弃任何内容。 - 2026-07-14  Paritok-4B-v1 在 Hugging Face Hub 上发布，并经过完整的 SWE-bench 验证的端到端评估。 - 2026-06-25 培训结束。 Qwen3-4B 主干上有 45K 个教师提取的样本。 - 🎨 代码原生。在真实的编码代理轨迹（文件读取、bash 命令、日志输出等）上进行端到端训练。 Paritok 知道导入语句相对于调试行的价值，因此它可以保护函数名称，pa
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-coding, ai, ai-agents, ai-coding, ai-infrastructure, developer-tools
+
+---
+
+### 🌟 [skill-based-architecture](https://github.com/WoJiSama/skill-based-architecture)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 486
+- **核心概述**: 产生技能的元技能。将其指向任何代码库，它就会将项目的规则、工作流程和来之不易的经验教训提炼到专用的 Skills/<name>/ 目录中，该项目技能成为每个 AI 代理（Cursor、Claude Code、Codex、Windsurf、Gemini）在执行每项任务之前都会查阅的唯一事实来源。
+- **大概是做什么的**: 基于技能的架构 AI 代理规则系统的生命周期框架。将分散的提示文档（ AGENTS.md 、 CLAUDE.md 、 .cursor/rules/ 、 README 规则）转化为 Skills/ / 下可路由、可验证、可更新的工程资产。它专注于规则系统本身：结构、路由、工作流程、验证、事后学习和上游/下游更新。它不提供特定于技术的规则——这些规则属于您的下游项目技能。克劳德代码——一行：然后触发它；稍后使用 /plugin market update 拉取更新。尝试不安装：通过 ClawMama 的技能目录在 Telegram 或 WhatsApp 中运行基于技能的架构。将其与复制粘贴演示输入或其他非敏感规则文件一起使用。捆绑的演示故意是最基本的冒烟测试输入，因此生成的结构会很小；对于真正的项目迁移，请使用 Claude Code 在本地安装或克隆存储库。 Cursor / Codex / Gemini /其他工具不共享 Claude Code 的插件系统 - 而是克隆存储库（请参阅快速入门）。症状 出了什么问题 Single SKILL.md with
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, chatbot, claude, markdown, skill
+
+---
+
+### 🌟 [TensorSharp](https://github.com/zhongkaifu/TensorSharp)
+- **项目语言**: C#
+- **星标数量**: ⭐ 325
+- **核心概述**: 适用于 GGUF 模型的本机 .NET LLM 推理引擎。 TensorSharp 提供控制台应用程序、基于 Web 的聊天机器人界面以及用于编程访问的 Ollama/OpenAI 兼容 HTTP API。它支持 Windows/MacOS/Linux 并具有完整的 GPU 功能
+- **大概是做什么的**: 适用于 GGUF 模型的本机 .NET LLM 推理引擎 — 自回归 LLM 和 DiffusionGemma 风格的文本扩散，以及 Qwen-Image-Edit 图像编辑。提供控制台应用程序、浏览器聊天 UI 和 Ollama/OpenAI 兼容的 HTTP API。纯 .NET 引擎在相同的 GGUF 文件和相同的 GPU 上与手动调整的 C++ llama.cpp 相媲美。从张量到代币 — 傅忠凯 (Zhongkai Fu) 的 TensorSharp 书籍《从张量到代币：使用 TensorSharp 和 Gemma 4 E4B 从头开始​​构建多模态 LLM 推理引擎》将这个存储库转变为引导式端到端学习之旅。它使用 Gemma 4 E4B 连接张量基础知识、模型执行、多模式输入和工作 LLM 推理引擎的应用程序界面。探索本书及其存储库阅读路径 · 在 Amazon 上购买平装本 - ⚡ 使用 llama.cpp 交易获胜 — 来自纯 .NET。在相同的 GGUF 文件和相同的 GPU 上，TensorSharp 在重要的工作负载上匹配或击败 llama.cpp：Gemma 4 E4B 和 2 位 Qwen 3.6 35B-A3B MoE 在 CUDA 上预填充速度快 1.28 倍，第一个令牌更快 1.27 倍（多轮高达 1.49 倍）；
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, csharp, cuda, cuda-programming, deepseek-v4, dotnet
+
+---
+
 ## 🕔 2026-08-04 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 208 个候选项目中筛选出 6 个未推荐过的新项目。
