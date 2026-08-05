@@ -1,3 +1,67 @@
+## 🕔 2026-08-05 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 211 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [AI-Coding-Guide-Zh](https://github.com/KimYx0207/AI-Coding-Guide-Zh)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 5,555
+- **核心概述**: Claude Code + OpenClaw + Codex 中文教程 | 39篇完整教程 + 1张速查卡 | 80万+内容量 | 1500+实操示例 | AI Coding / Agent 三线学习路径
+- **大概是做什么的**: Claude Code & OpenClaw & Codex & WorkBuddy 中文教程 AI Coding / Agent 工作流中文实战教程 🎯 从个人上手到团队落地：Claude Code + OpenClaw + Codex + WorkBuddy 老金基于 15+ 年游戏研发、项目管理、多部门协同、里程碑制定与数据分析经验 整理本教程，面向 中小企业 AI 赋能、高校培训、开发团队 AI Coding 落地、国内办公场景 。 Codex 主线以 Codex App 为核心；CLI / Web / SDK / GitHub Action 等只作为 App 生态补充。WorkBuddy 主线面向 办公人和国内团队 ，跟另外三条开发者主线互补不冲突。 📚 50 篇完整教程 + 1 张速查卡 80万+ Markdown 内容量 1500+ 代码块 / 命令 / 配置示例 250+ 问答条目 ⭐ 新手能入门 开发者能提效 团队负责人能建规范 企业和高校能做培训 🔗 GitHub 仓库 ：https://github.com/KimYx0207/AI-Coding-Guide-Zh 这是一套 系统化、适合循序学习、也能进入团队落地 的 AI Coding 与 Agent 工作流中文教程，覆盖三类代表性工具： Claude Code OpenClaw Codex WorkBuddy -- ------------- ---------- ------- --------- 是什么 Anthropic 官方 AI 编程 CLI 工具 开源 AI 私人助手框架 OpenAI 编程 Agent 平台 腾讯 AI 办公助手桌面 App 干什么 终端里写代码、调Bug、做架构 消息平台上管邮件、排日程、自动化一切 App / CLI / Web / IDE / SDK 分层协作的编程 Agent 专家/专家团/技能/自动化/腾讯生态，办公出活 谁出的 Anthropic 官方 Peter Steinberger（原名 Clawdbot，因 Claude 商标被迫改名） OpenAI 官方（CLI 开源 Apache-2.0） 腾讯云（与 CodeBuddy 同根生） 教程数 13 篇 + 1 速查卡 12 篇完整教程 14 篇完整教程 11 篇完整教程 老金是合伙创业游戏研发公司出身，15 余年一线项目经验：从策划到整体项目负责人，长期处理多部门协同、团队管理、研发里程碑、版本节奏、数据分析和交付风险。 这套教程的目标不是堆命令，而是把 AI Coding / A
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-assistant, ai-tutorial, anthropic, chinese, claude
+
+---
+
+### 🌟 [workflow](https://github.com/vercel/workflow)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,282
+- **核心概述**: 工作流 SDK：在 TypeScript 中构建持久、可靠且可观察的应用程序和 AI 代理
+- **大概是做什么的**: Workflow SDK 可让您轻松为异步 JavaScript 添加耐用性、可靠性和可观察性。构建可以轻松暂停、恢复和维护状态的应用程序和 AI 代理。访问 https://workflow-sdk.dev 查看完整文档。 Workflow SDK 社区可以在 GitHub 讨论中找到，您可以在其中提出问题、表达想法并与其他人分享您的项目。欢迎并高度赞赏对 Workflow SDK 的贡献。请使用 GitHub 问题和讨论与团队和更广泛的社区进行协作。如果您认为自己在 Workflow SDK 中发现了安全漏洞，我们鼓励您负责任地披露这一点，而不是公开发布问题。要参与我们的开源软件错误赏金计划，请发送电子邮件至 Responsible.disclosure@vercel.com。我们会将您添加到该计划中，并提供有关提交报告的进一步说明。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, durable-execution, orchestration, serverless, vercel, workflow-engine
+
+---
+
+### 🌟 [anyquery](https://github.com/julien040/anyquery)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,739
+- **核心概述**: 一个 SQL 接口可用于 60 多种工具（例如 GitHub、Notion、Airtable）。通过 MCP 插入任何 LLM。
+- **大概是做什么的**: 一个用于法学硕士、图像和视频生成的 AI API — 300 多个模型 Atlas Cloud 是一个全模式 AI 推理平台：一个 API 和一个帐户，用于跨 300 多个精选模型（DeepSeek、FLUX、Kling、Qwen...）完成聊天、图像生成和视频生成。使用 Anyquery 插件，您可以直接从 SQL 调用所有这些。 Anyquery 是一个 SQL 查询引擎，允许您对几乎所有内容运行 SQL 查询。它支持查询文件、数据库和应用程序（例如 Apple Notes、Notion、Chrome、Todoist 等）。它构建在 SQLite 之上，并使用插件来扩展其功能。它还可以连接到 LLM（例如 ChatGPT、Claude、Cursor、TypingMind 等）以允许他们访问您的数据。最后，它可以充当 MySQL 服务器，允许您从您最喜欢的 MySQL 兼容客户端（例如 TablePlus、Metabase 等）运行 SQL 查询。 LLM 可以使用模型上下文协议 (MCP) 连接到 Anyquery。该协议为支持它的法学硕士提供了背景。您可以使用以下命令启动MCP服务器： 也可以连接到支持功能校准的客户端
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, analytics, api, business-intelligence, chatgpt, csv
+
+---
+
+### 🌟 [predict-rlm](https://github.com/Trampoline-AI/predict-rlm)
+- **项目语言**: Python
+- **星标数量**: ⭐ 419
+- **核心概述**: 专注于生产的自驾驭 LM 运行时 (RLM)，允许 LM 使用 DSPy 签名调用其子 lm。定义您的输入、输出和工具——模型处理自己的控制流。获得完全可解释的轨迹和性能，可直接随着模型的改进而扩展。没有上下文腐烂。
+- **大概是做什么的**: 阅读我们优化的 SpreadsheetBench 技能的发布文章。许多 LLM 工作流程对于一个提示来说过于复杂，对于固定的预测来说过于适应性，rlm 为模型提供了这些工作流程的运行时：检查文件、保持状态、分支、调用重点子模型、使用工具、通过代码管理大型上下文以及返回类型化输出。您定义输入、输出、工具和操作过程。该模型在沙盒 REPL 中编写和执行 Python，并在发现证据时进行调整。当您知道想要的结果但不知道确切的路径时，请使用它。基于来自 MIT CSAIL 的 Alex L.Zhang 和 Omar Khattab 的递归语言模型论文。由 Trampoline AI 在 MTL · NYC · FLP 中使用 ♥ 精心制作的 Predict-rlm 非常适合当模型需要在生成最终输出之前进行探索、推理和适应时： - 代码库分析和调查 - 文档审查、编辑、提取和比较 - 日志分析和事件式证据收集 - 电子表格和财务模型工作流程 - 审计、合规性审查和混乱的数据转换 - 使用类型化的多文件合成
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: dspy, llm, rlm
+
+---
+
+### 🌟 [Tracely](https://github.com/Jwuthri/Tracely)
+- **项目语言**: Python
+- **星标数量**: ⭐ 373
+- **核心概述**: 用于 AI 代理的 Trace-native CI/CD - 生产故障成为阻碍 PR 的回归测试。自动检测、集群、冻结到密封案例中，在 CI 中重播只需 0 美元。
+- **大概是做什么的**: 生产故障变成回归测试。用于 AI 代理的跟踪本机 CI/CD。 Tracely 在每个代理跟踪落地时对其进行分级，将失败聚集为问题，将不良运行冻结为密封的可重播案例，并阻止将再次发送它们的拉取请求。网站 · 文档 · 导览 · 2 分钟演示 · 设计档案 为什么要使用另一个代理可观察性工具？因为可观察性仅限于仪表板。你可以看到你的代理破产了——然后呢？每个评估工具都要求您手动编写数据集：坐下来，发明问题，写出理想的答案，并随着产品的变化保持最新。该数据集是对可能出现问题的猜测。生产已经为您提供了真实的东西：失败的确切运行的跟踪，以及准确的输入、准确的工具调用、准确的模型响应。记录的运行是测试。 Tracely 将该跟踪冻结到一个封闭的回归案例中，并在每个 PR 上重播它。其他一切——质量分数、故障集群、建议的修复、CI 判决、趋势——都源自跟踪。没有手工编写的数据集。数据集优先工具 T
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ci-cd, evals, llm-evaluation, llm-observability, llm-ops
+
+---
+
+### 🌟 [agent-vision-toolkit](https://github.com/Anionex/agent-vision-toolkit)
+- **项目语言**: Python
+- **星标数量**: ⭐ 300
+- **核心概述**: 给纯文本 LLM agent 装上眼睛：图片问答、OCR、截图分析、视觉定位等一套视觉工具箱 + skill，并可无缝接入 Codex、Claude Code、OpenCode、Pi ｜ Give text-only LLM agents vision: image Q&A, OCR, screenshot understanding, visual grounding, image-to-SVG - a vision toolkit & skill, with drop-in integration for Codex, Claude Code, OpenCode, Pi
+- **大概是做什么的**: agent-vision-toolkit 所想即所见 — 为任何纯文本编码代理提供眼睛：图像问答、OCR、屏幕截图理解、视觉基础和图像到 SVG，作为视觉工具包和一项技能，并可选择与 Codex、Claude Code、Pi、Oh My Pi 和 OpenCode 进行直接集成。 🌐 中文 ｜ English 如果你的编码代理运行在像 DeepSeek V4 这样的纯文本模型上，它就无法查看图像——屏幕截图、模型、图表和错误对话框都是死胡同。该存储库分为两层： 1. 工具包 — 四个 CLI，以及一项指导代理何时接触每个 CLI 的技能。适用于任何带外壳的代理。 2. 无缝集成（可选升级）——透明的本地代理和单文件本机扩展，因此粘贴图像和内置图像工具也可以工作，无需工具调用，也无需额外提示。所有代码均已在真实的 Codex + DeepSeek 会话中进行了验证，并且同一管道已在 Claude Code、Pi、Oh My Pi 和 OpenCode 中进行了端到端的实时验证。使用案例包括但不限于：图片问答、截图分析、电脑使用GUI操作
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agent-skills, claude-code, cli, codex, computer-use
+
+---
+
 ## 🕔 2026-08-05 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 255 个候选项目中筛选出 6 个未推荐过的新项目。
