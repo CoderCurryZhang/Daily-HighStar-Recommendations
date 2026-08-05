@@ -1,3 +1,67 @@
+## 🕔 2026-08-05 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 223 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [pentest-ai-agents](https://github.com/0xSteph/pentest-ai-agents)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 2,076
+- **核心概述**: 将 Claude Code 变成您的进攻性安全研究助手。专门的 AI 子代理，用于授权渗透测试计划、分析侦察、研究漏洞、构建检测、审核 STIG 和编写报告。
+- **大概是做什么的**: 50 个用于渗透测试的 Claude Code 子代理。快速入门备忘单覆盖代理示例 - v3.3 中的新增功能 - v3.2 中的新增功能 - v3.1 中的新增功能 - 在容器中运行工具 - 令牌优化 pentest-ai-agents 是 50 个 Claude 代码子代理的集合，可将 Claude 转变为进攻性安全研究助理。每个代理都拥有特定领域的深厚领域知识：侦察、网络、Active Directory、云、移动、无线、社会工程、有效负载制作、逆向工程、漏洞利用链、检测工程、取证等等。安装代理文件。打开克劳德代码。描述你的任务。克劳德自动路由到正确的专家。没有服务器，没有 Python 依赖，除了复制文件之外没有任何设置。 - 可作为克劳德代码插件安装。两行 - /plugin market add 0xSteph/pentest-ai-agents 然后 /plugin install pentest-ai-agents@pentest-ai-agents 。 install.sh 卷曲路径仍然有效。 - 15 个新代理（35 → 50）：ai-recon（AI 攻击面映射）、代��审核器、加密分析器、密码审核器、数据库攻击者、网络
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-security, bug-bounty, claude-code, ctf, cybersecurity
+
+---
+
+### 🌟 [repo2txt](https://github.com/abinthomasonline/repo2txt)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,830
+- **核心概述**: 基于 Web 的工具将 GitHub 存储库内容转换为单个格式化文本文件
+- **大概是做什么的**: 💡 寻找经典版本？查看 repo2txt-classic 将存储库转换为 LLM 提示的纯文本 用于 AI 辅助开发的基于浏览器的快速工具 - GitHub - 具有令牌支持的公共和私有存储库 - 本地文件 - 本地项目的目录选择器 - Zip 上传 - 拖放 zip 文件 - GitLab（测试版） - GitLab 存储库支持 - Azure DevOps（测试版） - Azure Repos 集成 - 扩展过滤器 - 按文件类型选择/取消选择 - Gitignore 支持 - 自动尊重.gitignore 模式 - 自定义模式 - 添加您自己的忽略模式 - 目录选择 - 精挑细选特定文件夹 - 文件树预览 - 通过虚拟滚动进行可视化文件选择 - 虚拟滚动 - 处理包含 10,000 多个文件的存储库 - 代码分割 - 延迟加载的提供程序以实现最佳包大小 - Web Workers - 标记化在后台线程中运行 - 渐进式加载 - 在加载时流式传输文件内容 - 智能缓存 - 大型存储库的高效内存使用 - 深色模式 - 系统，浅色和深色主题 - 响应式设计 - 适用于台式机、平板电脑和移动设备 -
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, anthropic, chatgpt, developer-tools, devtools, llm
+
+---
+
+### 🌟 [opskat](https://github.com/opskat/opskat)
+- **项目语言**: Go
+- **星标数量**: ⭐ 621
+- **核心概述**: OpsKat — 一体化服务器操作工作站
+- **大概是做什么的**: 您的一站式服务器操作工作台 SSH 和 RDP、数据库、对象存储、Redis、Kafka、Kubernetes……操作人员必须接触的所有内容，统一在一个跨平台桌面应用程序中。您可以让 AI 以自然语言执行受支持的操作，并为每个路径提供适用的策略、审批和审核控制。管理服务器通常意味着使用一堆工具——SSH 客户端、数据库 GUI、Redis 管理器、Kafka 控制台——并不断在它们之间切换。 OpsKat 将所有日常资产操作整合到一个界面中，因此一个应用程序就足够了。就其本身而言，这已经是一个完整的操作工作台。其之上是 AI 层：只需用自然语言说出您的需求，AI 代理就可以使用其注册的工具来提取日志、运行 SQL、检查集群状态等。适用的操作使用其策略和批准路径，而工具调用则携带审计跟踪和可用的决策上下文。如果您觉得它有用，请给我们一个 Star ⭐——这意味着很多！从发行版获取适合您的平台（macOS、Windows 或 Linux）的最新版本
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ops, ssh-client
+
+---
+
+### 🌟 [talkio](https://github.com/llt22/talkio)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 314
+- **核心概述**: 本地优先的多 AI 群聊桌面应用程序 — 将 gpt、Claude、Gemini、DeepSeek 纳入一个对话中。金牛座 2 + 反应 19。
+- **大概是做什么的**: 多模型群聊 · 身份角色系统 · MCP 工具调用 · 文件解析 · 本地优先 · Tauri 2 + React 19 Talkio 不只是又一个 ChatGPT 客户端——你可以把多个 AI 模型拉进同一个群聊，让它们各自扮演不同角色，围绕同一个话题展开讨论、辩论、接龙。 对话列表 · AI 单聊 · 多模型群聊 · 托管讨论（成语接龙） Mermaid 图表渲染 · HTML/Three.js 预览 · 模型浏览 · 身份角色 不同于传统的一对一聊天，Talkio 支持 多模型群聊 ： - 让不同的 AI 模型进入同一个对话——它们会有不同的思考方式和观点 - 每个参与者可以绑定不同的 身份（Persona） ，拥有独立的系统提示词和参数 - AI 之间能看到彼此的发言，独立思考，不会简单附和 - 用 @提及 指定某个模型回答，或让所有人轮流发言 - 支持 群组系统提示词 ，引导 AI 角色行为和讨论方向 为 AI 创建角色：翻译官、代码审查员、辩论对手、成语接龙玩家…… - 独立调节温度（Temperature）和 Top-P - 推理力度控制（Reasoning Effort） - 一个模型可以在不同对话中扮演不同角色 通过 Model Context Protocol 连接外部工具服务器： - 支持 SSE（远程）和 Stdio（本地，桌面端）两种传输模式 - API Key 加密存储，永远不离开你的设备 - 多 Provider — OpenAI / Anthropic / DeepSeek / Groq / Ollama 等，支持 OpenAI Chat / Responses API 和 Anthropic Messages API - 流式输出 — 实时渲染，支持 Markdown / 代码高亮 / Mermaid 图表 / HTML 预览 - 深度推理 — 支持 DeepSeek、Qwen 等模型的 reasoning content 和 标签 - 工作区工具 — 绑定本地项目目录，AI 可读取、搜索、编辑文件，支持逐文件预览确认 - Git 工具 — 在对话中执行 git status / diff / log 等操作，Rust 层白名单 + 确认对话框保障安全 - 文件解析 — 支持 PDF / Word / Excel / 多种文本格式，拖拽上传或 Ctrl+V 粘贴图片 - 语音输入 — 接入 Whisper 兼容 STT 服务（Groq / OpenAI），按住录音自动转文字 - 上下文压缩 — 长对话自动或手动压缩历史，节省 T
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, chat, chatbot, chatgpt, claude, deepseek
+
+---
+
+### 🌟 [ai-sns](https://github.com/ai-sns/ai-sns)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 337
+- **核心概述**: OpenClaw Hermes AI 代理社交网络🦞💬🦞基于 Google 3D 地图和 A2A 协议构建，在 3D 环境中连接全球 OpenClaw 和 Hermes 代理。
+- **大概是做什么的**: 🦞 AI-SNS：OpenClaw、Hermes 和其他 Agent 的社交网络🌍 一个由 Agent 联合、由 Agent 管理的开放式分布式网络 — 它们在本地运行，但与世界各地的其他人协作和竞争。您可以将其视为全球规模的 AI 智能体斯坦福小镇 - 一个充满活力的分布式社区，智能体在实时 Google WebGL 3D 地图上在世界各地生活、探索、协作和竞争。 🌐 网站：ai-sns.org     💬 Discord：立即加入     🐦 X：关注     📄 中文：自述文件 分布式 · 基础设施 · A2A · 本地运行 🌟 您的代理可以在网络中做什么？ 🤝 结交朋友，甚至与其他特工约会。 💰赚钱养家。 🏛️ 创建自己的组织或结成联盟。 🌍探索世界并发现宝藏。 🌟 寻找有趣的地方。 ⚔️🤝 与他人竞争或合作。 🚀 加入网络，看看谁的特工最强！你的特工能存活多久？开始实验并找出答案！ 🌱 展示示例场景 🦞 相互交易。 🦞 探索世界。 🦞 发现宝藏。 🦞 菲
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, a2a-protocol, agent-skills, agent-social-network, agent-to-agent, ai-agents
+
+---
+
+### 🌟 [dify-helm](https://github.com/BorisPolonsky/dify-helm)
+- **项目语言**: Go Template
+- **星标数量**: ⭐ 660
+- **核心概述**: 使用 Helm Chart 在 kubernetes 上部署基于 LLM 的应用程序 langgenious/dify。
+- **大概是做什么的**: 使用 Helm Chart 在 Kubernetes 上部署 langgenius/dify，这是一个基于 LLM 的聊天机器人应用程序。 - Kubernetes：1.23+ 如需定制安装，请参阅 README.md 文件。网络架构 下图展示了 Dify Helm 部署的完整网络架构和服务拓扑： 流量路由规则 Nginx 代理按照以下规则处理流量路由： 组件 镜像 端口 角色 ----------- ------- ------ ------ API langgenius/dify-api:1.16.1 5001 RESTful API 服务器，业务逻辑处理 Web langgenius/dify-web:1.16.1 3000 Web UI 前端 Worker langgenius/dify-api:1.16.1 - 后台任务处理 (Celery) Beat langgenius/dify-api:1.16.1 - 定期任务调度程序 (Celery Beat) 沙箱 langgenius/dify-sandbox:0.2.15 8194 安全代码执行环境 代理后端 langgenius/dify-agent-backend:1.16.1 5050 代理运行编排 本地沙箱langgenius/dify-agent-local-sandbox:1.16.1 5004 Agent shellctl 执行环境 Plugin Daemon langgenius/dify-plugin-daemon:0.6.3-local 5002, 5003 插件管理和执行 SSRF Proxy ub
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: charts, dify, helm, helm-chart, k8s, llm
+
+---
+
 ## 🕔 2026-08-05 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 223 个候选项目中筛选出 6 个未推荐过的新项目。
