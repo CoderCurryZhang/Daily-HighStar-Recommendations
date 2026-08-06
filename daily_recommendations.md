@@ -1,3 +1,67 @@
+## 🕔 2026-08-06 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 201 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [AutoR](https://github.com/tangxiangru/AutoR)
+- **项目语言**: Python
+- **星标数量**: ⭐ 808
+- **核心概述**: 人工智能负责执行，人类掌握方向，每次运行都成为磁盘上可检查的研究工件。
+- **大概是做什么的**: AutoR：以人为本的研究操作系统 AI 负责执行。人类拥有方向。终端优先的研究工具，带有本地浏览器工作室，可以将冗长、混乱的研究工作转变为可重复的、有工件支持的运行。 AutoR 不是一个聊天演示，不是一个通用代理框架，也不是一个纯 Markdown 的研究玩具。它是编码代理执行层上的结构化研究工具：人工智能处理执行，人类掌握方向，每次运行都成为磁盘上可检查的研究工件。新用户应��从分步指南开始：英语指南或中文教程。大多数自动研究系统都会针对自主性进行优化。 AutoR 采取了不同的立场：研究太重要了，不能作为盲目的端到端循环而移交。目标不是将人类从研究中剔除。目标是给他们一个更强大的执行系统。执行模型 编码代理作为执行层，AutoR 作为研究控制循环 控制模型 默认情况下由人工批准，具有可选的严格审阅者代理门，用于无人值守运行 研究单元 运行下的可重复运行/ / 工作流程形状 9 阶段 w
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-scientist, auto-research, claude, claude-code
+
+---
+
+### 🌟 [langchainrb](https://github.com/patterns-ai-core/langchainrb)
+- **项目语言**: Ruby
+- **星标数量**: ⭐ 1,990
+- **核心概述**: 在 Ruby 中构建 LLM 支持的应用程序
+- **大概是做什么的**: ⚡ 在 Ruby 中构建 LLM 支持的应用程序 ⚡ 对于深度 Rails 集成，请参阅：langchainrb Rails gem。可用于付费咨询活动！给我发电子邮件。检索增强生成 (RAG) 和矢量搜索助手（聊天机器人） - LLM 的统一接口 通过执行以下命令安装 gem 并添加到应用程序的 Gemfile：bundle add langchainrb 如果未使用捆绑器来管理依赖项，请通过执行以下命令安装 gem：gem install langchainrb 可能需要其他 gem。默认情况下不包含它们，因此您可以仅包含您需要的内容。 LLM 的统一接口 Langchain::LLM 模块提供了与各种大型语言模型 (LLM) 提供商交互的统一接口。这种抽象允许您轻松地在不同的 LLM 后端之间切换，而无需更改应用程序代码。支持的 LLM 提供程序 所有 LLM 类都继承自 Langchain::LLM::Base 并为常见操作提供一致的接口： 1. 生成嵌入 2. 生成提示完成 3. 生成聊天完成 大多数 LLM 类可以使用 API 密钥进行初始化
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agents, artificial-intelligence, machine-learning, ml, rubyml
+
+---
+
+### 🌟 [navop](https://github.com/feigeCode/navop)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 305
+- **核心概述**: 一个用于数据库、SSH、SFTP、终端、远程桌面、监控和 AI 的本机一体化工作区。
+- **大概是做什么的**: 老仓库/旧仓库： · 一个原生的、一体化的数据库、SSH、SFTP、终端、远程桌面、监控和人工智能工作区。使用 GPUI 和 Rust 构建 · GPU 加速渲染数据库和数据工具 - 连接到 MySQL、PostgreSQL、SQLite、DuckDB、SQL Server、Oracle 和 ClickHouse。 - 在没有 Instant Client 的情况下安装 Dameng DM、KingbaseES、GBase 8s、OceanBase、openGauss、Apache IoTDB 和 Oracle 的扩展驱动程序。 - 浏览数据库对象、编辑和运行 SQL、检查执行计划、导入或导出数据、比较模式和数据以及使用 ER 图可视化关系。 - 通过专用接口与 Redis 和 MongoDB 配合使用。 - 通过 SOCKS5 或 HTTP CONNECT 代理和 SSH 隧道路由支持的网络连接。远程访问和操作 - 使用 SSH 和本地终端，并具有可拖动拆分、快速命令、历史记录、广播输入、shell 集成和终端 AI。 - 通过 SFTP 上传、下载、搜索、收藏夹、远程编辑、拖放和服务器到服务器复制来管理远程文件。 - 创建可重用的本地、远程 ( ssh -R ) 和动态 SOCKS p
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, clickhouse, dameng, duckdb, iotdb, kingbase
+
+---
+
+### 🌟 [beever-atlas](https://github.com/Beever-AI/beever-atlas)
+- **项目语言**: Python
+- **星标数量**: ⭐ 437
+- **核心概述**: 您的第一个 LLM-Wiki 对话知识库
+- **大概是做什么的**: 自动将团队的 Slack、Discord、Teams 和 Mattermost 聊天变成自我维护的 wiki。 Beever Atlas 会提取您的团队在 Slack、Discord、Microsoft Teams 和 Mattermost 上已有的对话，提取原子事实、删除重复数据，并将它们聚集到带有引文的主题页面中。图表存储将跨渠道提到的人员、决策和项目联系起来。用自然语言提出问题，并通过仪表板或通过 MCP 进入 Claude Code 和 Cursor 获取源消息中引用的答案。如果您想要一个可以从团队已有的聊天中自行增长的知识库，那么这就是它。 ✨ 实际功能 六个短片 — 连接工作区、同步历史记录、观察内存构建、浏览自动生成的 wiki、提出问题、通过 MCP 插入外部 AI 代理。连接 Slack、Discord、Teams、Mattermost 或文件导入。一个机器人，每个工作区。按需或按计划提取频道历史记录。可恢复且具有速率限制意识。 6 阶段 ADK 管道将消息提炼为原子事实、实体和关系。自动维护的维基
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, agents, discord-bot, fastapi, gemini, google-adk
+
+---
+
+### 🌟 [llm-inference-handbook](https://github.com/modular/llm-inference-handbook)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 371
+- **核心概述**: 关于 LLM 推理您需要了解的一切
+- **大概是做什么的**: LLM 推理手册 此存储库包含 LLM 推理手册的源代码，这是理解、优化、扩展和操作 LLM 推理系统的实用指南。该手册是一个独立的 Docusaurus 网站，采用模块化设计语言系统。其未来的规范源代码主页是 module/llm-inference-handbook 。安装依赖项并启动本地开发服务器：该站点在 http://localhost:3000/ 上运行。要在本地构建或提供生产输出：Markdown 文件使用 rumdl 进行 linted。散文共 80 ��字符。在本地运行与 CI 相同的检查：某些行长度违规（长 URL、API 引用）可能需要手动回流 rumdl 通过以下方式支持编辑器内 linting： - VS Code 扩展：从市场安装，或运行 pnpm exec rumdl vscode 。请参阅下面的 VS Code 设置以匹配 CI 规则并启用保存时修复。 - LSP 服务器：运行 pnpm exec rumdl 服务器并将编辑器的 LSP 客户端指向它。默认情况下，扩展使用自己的内置规则，而不是此存储库的配置。要匹配 CI，请将其指向 .rumdl.toml 并在保存时应用 rumdl 修复
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: inference-handbook, inference-infrastructure, inference-optimization, llm, llm-inference
+
+---
+
+### 🌟 [unified-cache-management](https://github.com/ModelEngine-Group/unified-cache-management)
+- **项目语言**: Python
+- **星标数量**: ⭐ 313
+- **核心概述**: 坚持并重用 KV 缓存来加速你的 LLM。
+- **大概是做什么的**: 文档网站 路线图 English 统一缓存管理器（UCM）的核心原理是持久化LLM KVCache，并通过多种检索机制替换冗余计算。 UCM不仅支持前缀缓存，还提供多种免训练的稀疏注意力检索方法，在处理极长序列推理任务时提供更高的性能。此外，UCM还提供基于存储计算分离架构的PD分解解决方案，使异构计算资源的管理更加简单、灵活。与 vLLM 集成时，UCM 可将各种场景（包括多轮对话和长上下文推理任务）的推理延迟降低 3-10 倍。随着模型大小的增加，KV缓存变得更大、更稀疏，特别是对于长序列请求。为了减少GPU内存的使用，将完整的KV卸载到外部存储，只在GPU内存中保留部分或压缩的KV成为流行的方向。这也可以减少GPU计算，增加序列长度和b
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ascend, cuda, deepseek, dram, gpu, hbm
+
+---
+
 ## 🕔 2026-08-05 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 211 个候选项目中筛选出 6 个未推荐过的新项目。
