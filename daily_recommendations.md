@@ -1,3 +1,67 @@
+## 🕔 2026-08-07 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 226 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [claude-skills](https://github.com/Jeffallan/claude-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 10,915
+- **核心概述**: 全栈开发人员的 66 项专业技能。将 Claude Code 转变为您的专家结对程序员。
+- **大概是做什么的**: 然后，安装技能：所有安装方法和第一步，请参阅快速入门指南。完整文档：jeffallan.github.io/claude-skills 12 个类别的 66 项专业技能，涵盖语言、后端/前端框架、基础设施、API、测试、DevOps、安全、数据/ML 和平台专家。有关完整列表、决策树和工作流程组合，请参阅技能指南。情境感知激活技能会根据您的请求自动激活： 多技能工作流程 复杂的任务结合了多种技能：使用 /common-ground 揭示并验证 Claude 关于您的项目的隐藏假设。请参阅通用接地指南以获取完整文档。 9 个工作流程命令可管理从发现到回顾的史诗，并与 Jira 和 Confluence 集成。有关完整的命令参考和生命周期图，请参阅工作流命令参考。设置：工作流命令需要 Atlassian MCP 服务器。请参阅 Atlassian MCP 设置指南。 - 快速入门指南 - 安装和第一步 - 技能指南 - 技能参考和决策树 - Common Gro
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude, claude-code, claude-marketplace, claude-skills
+
+---
+
+### 🌟 [FastFlowLM](https://github.com/ROCm/FastFlowLM)
+- **项目语言**: C++
+- **星标数量**: ⭐ 1,678
+- **核心概述**: 只需几分钟即可在 AMD Ryzen™ AI NPU 上运行法学硕士。就像 Ollama - 但专为 AMD NPU 构建并深度优化。
+- **大概是做什么的**: ⚡ FastFlowLM (FLM) — 解锁 Ryzen™ AI NPU 只需几分钟即可在 AMD Ryzen™ AI NPU 上运行大型语言模型，现在具有视觉、音频、嵌入和 MoE 支持。无需 GPU。速度更快，能效提高 10 倍以上。支持高达 256k 令牌的上下文长度。超轻量级 (17 MB)。 20 秒内安装。 📦 唯一专为 Ryzen™ AI 构建的开箱即用、NPU 优先的运行时。 🤝 想想 Ollama — 但针对 NPU 进行了深度优化。 ✨ 从闲置芯片到即时供电 — FastFlowLM 让 Ryzen™ AI 大放异彩。 FastFlowLM (FLM) 支持所有配备 XDNA2 NPU 的 Ryzen™ AI 系列芯片（Strix、Strix Halo、Kraken 和 Gorgon Point）。 🔽 下载 📊 基准测试 📦 型号列表 🐧 Linux 入门指南 📖 文档 📺 演示 💬 Discord 此处提供了打包的 FLM Windows 安装程序： flm-setup.exe 。有关更多详细信息，请参阅发行说明。 📺 观看快速入门视频 (Windows) ⚠️ 确保 NPU 驱动程序版本 = 32.0.203.304（最低要求为 .304，但建议使用 .311；通过任务管理器→性能→NPU 或设备管理器检查）。建议：尝试运行 Windows Update 或 Driver Downloadl
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: amd, deepseek, llama, llm, npu
+
+---
+
+### 🌟 [emilia-protocol](https://github.com/emiliaprotocol/emilia-protocol)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 486
+- **核心概述**: 机器操作的结果防火墙。 EMILIA Gate 在资金、代码、权限、基础设施或受监管状态发生变化之前验证确切的权限；开放协议使证据可以独立验证。
+- **大概是做什么的**: 协议证明。门阻止。 EMILIA Gate 是商业后果防火墙，可防止未经可验证授权的受保护执行器路径上的后果性机器操作。它位于执行者或记录系统边界，在突变之前拒绝，消耗一次接受的授权，并留下另一方可以验证的证据。 EMILIA 是自主工作的权限控制平面：人类或机构定义一次有限的操作任务，代理在其中无人值守地工作，Gate 强制执行每个相应的工作单元。扫描 ( npx @emilia-protocol/scan ) → 保护一个特权 MCP 工具调用 → 2.5 万美元试点。 - EMILIA 协议是 Gate 下的开放 Apache-2.0 验证和证据基础。 - EMILIA Approver 通过本机应用程序和嵌入式 SDK 捕获设备相关的人类对确切操作的决策。 - EMILIA Assurance Plane 提供范围验证、重新性能、一致性报告和部署证据。它为审计师、保险公司、监管机构和客户提供支持； EMILIA 不是审核员或认可的认证机构，也不是公共 EMI
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-security, agentic-ai, ai-agents, ai-security, audit-evidence, authorization
+
+---
+
+### 🌟 [kubernetes-plugin](https://github.com/jenkinsci/kubernetes-plugin)
+- **项目语言**: Java
+- **星标数量**: ⭐ 2,309
+- **核心概述**: 用于在 Kubernetes/Docker 环境中运行动态代理的 Jenkins 插件
+- **大概是做什么的**: Jenkins 的 Kubernetes 插件 Jenkins 插件可在 Kubernetes 集群中运行动态代理。基于使用 Kubernetes 扩展 Docker 文章，自动扩展在 Kubernetes 中运行的 Jenkins 代理。该插件为每个启动的代理创建一个 Kubernetes Pod，并在每次构建后停止它。代理作为入站代理启动，因此预计容器会自动连接到 Jenkins 控制器。为此，会自动注入一些环境变量： JENKINS URL ：Jenkins Web 界面 url JENKINS SECRET ：身份验证的密钥 JENKINS AGENT NAME ：Jenkins 代理的名称 JENKINS NAME ：Jenkins 代理的名称（已弃用。仅在此处用于向后兼容）使用 jenkins/inbound-agent 进行测试，请参阅 Docker 镜像源代码。不需要在 Kubernetes 内运行 Jenkins 控制器。 📜 目录 - 配置参考 - 声明式管道 - 在 OpenShift 上运行 - 使用系统属性控制的功能 - minikube 上的配置 - Google Container Engine 上的配置 - 故障排除 🔨 - B
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, cloud, kubernetes
+
+---
+
+### 🌟 [openase](https://github.com/PacificStudio/openase)
+- **项目语言**: Go
+- **星标数量**: ⭐ 264
+- **核心概述**: 票证驱动的自动化软件工程。 OpenASE 是一个一体化平台，可将票证转化为工作代码——人工智能代理自动获取票证，在您的机器上执行工作流程，并提供具有完全可追溯性的结果。
+- **大概是做什么的**: OpenASE 票证驱动的自动化软件工程 OpenASE 是一个一体化平台，可将票证转化为工作代码 — AI 代理自动获取票证，在您的计算机上执行工作流程，并提供具有完全可追溯性的结果。 🖼️ 产品截图 嵌入式 Web UI 涵盖工单编排、AI 辅助规划、技能创作和实时项目跟踪。当工单在待办事​​项、待办事项、进行中和审核中移动时，监控实际项目工作。票务板 使用看板式票务视图管理待办事项和执行流程。 Project AI 将工作分��为工单，并直接在看板旁边检查工作空间环境。技能编辑器编辑驱动可重复自动化工作流程的内置或自定义技能。 OpenASE 是一个单一的 Go 二进制文件，它将 API 服务器、工作流编排器和嵌入式 Web UI 一起提供。它遵循票证驱动的模型：每一项工作都是一张票证，每张票证都有一个工作流程，人工智能代理根据状态触发器自动拾取并执行票证。运行时没有 Node.js — SvelteKit 前端被编译并嵌入到 t 中
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, software-engineering
+
+---
+
+### 🌟 [lobu](https://github.com/lobu-ai/lobu)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 200
+- **核心概述**: 组织代理的开源控制平面和运行时：共享公司上下文、独立执行、批准和 MCP。
+- **大概是做什么的**: Lobu — AI 队友的开源后端 Lobu 是用于自主代理的开源基础设施，可以在您的团队已经工作的地方进行观察、记忆和行动。连接公司工具，构建实时内存，让代理按计划在 Slack 线程中或通过 MCP 运行 — 每个用户或通道的沙盒执行和代理永远看不到的凭证。在幕后，工作人员在每次对话的隔离沙箱内运行 Lobu 基于 Pi 的代理循环（bash、文件、MCP 工具、技能）。一个节点进程服务多个代理和渠道；共享内存和连接器位于 Postgres (pgvector) 中。将代理嵌入您的产品中，或者为您的团队提供自己的代理，而无需每人运行单独的实例。 https://github.com/user-attachments/assets/d72a9286-0325-4b8b-afc0-c1efe9c96f4e Lobu 不是您必须构建的安全带。它是您的代理工作所针对的数据层——持久的事件日志和组织工具上的类型化本体。自带代理并通过 MCP、CLI 或 TypeScript SDK 访问它；或者在上面运行Lobu自己的代理。相同的组织范围图支持所有这些。 1.满龄
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agent-infrastructure, agent-memory, ai-agents, chatbot, clawdbot
+
+---
+
 ## 🕔 2026-08-07 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 226 个候选项目中筛选出 6 个未推荐过的新项目。
