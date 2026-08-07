@@ -1,3 +1,67 @@
+## 🕔 2026-08-07 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 287 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [superpowers-zh](https://github.com/jnMetaCode/superpowers-zh)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 7,544
+- **核心概述**: 🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活
+- **大概是做什么的**: superpowers-zh（AI 编程超能力 · 中文增强版） 🌐 简体中文 繁体中文 English (upstream) 🦸 superpowers（250k+ ⭐）完整汉化 + 4 个中国原创 skills — 让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI / Qoder 等 23 款 AI 编程工具 真正会干活。从头脑风暴到代码审查，从 TDD 到调试，每个 skill 都是经过实战验证的工作方法论。 Chinese community edition of superpowers — 20 skills across 23 AI coding tools, including full tr​​anslations and China-specific development skills. 📖 免费配套学习 → 从零学会 AI 编程（180 节）＋ 从零构建 AI 智能体（40 节）：两门免费实操课 + 实战社区，superpowers 装好后配上方法论效率翻倍 🌍 Also available in English · 日本语 · Español · 한국어 · 繁体中文 🆕 v1.7.7 更新亮点 （完整 Release Notes →） - 🆕 新增 Crush （工具数 22 → 23）—— 若你已为 CC / Cursor / Codex 装过，Crush 其实已经能读到，别重复装 - 🎯 上游 v6.2.0 对齐完成 —— audit 的结构漂移告警清零；C 块盘点时发现其中 3 项不是风格改动而是实质新规则 - 🐛 两个 worktree / Gemini 的真问题 —— 修掉 worktree 清理静默空转；更正「Gemini 不支持子智能体」的错误说法（原说法会让 3 个 skill 在 Gemini CLI 上瘸腿） - 🔄 测试参考重构 —— testing-anti-patterns → writing-good-tests ：从 5 个反模式清单改为两条原则 + 变异检查 - 🔄 SDD 同步上游 v6.2.0 —— plan 作用域工作区（一份过期账本再也不会让控制者跳过整段任务）+ 五轮上限的唤回式修复循环与熔断裁定 - 🪟 Windows bootstrap 修复 —— SessionStart hook 改经 Git Bash 分发（同步上游），hook 不加载 skill 就是
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agentic-coding, ai-coding, chinese, claude-code, code-review
+
+---
+
+### 🌟 [minutes](https://github.com/silverstein/minutes)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,415
+- **核心概述**: 每次会议、每个想法、每个语音笔记，都可以通过人工智能搜索。开源、隐私优先的对话内存层。
+- **大概是做什么的**: 开源对话记忆。   useMinutes.app 您的人工智能会记住您授权的对话，没有人可以从您手中夺走它们。代理有运行日志。人类有对话。分钟捕捉人性的一面——决策、意图、代理需要但无法观察到的背景——并使其可查询。记录会议。散步时录制语音备忘录。在光标处口述一个想法。问克劳德“我向莎拉承诺了什么？” - 并得到答案。所有内容都在您的机器上转录并以简单的 Markdown 形式写入 /meetings/。策略感知本地工具向您选择的 AI 客户端（Claude Code、Codex、Gemini CLI、Cursor、OpenCode、Pi）公开正常源，而默认情况下受限会议仍被排除。分钟永远不会上传您的音频；仅当您明确将策略授权的上下文发送到连接的云代理或摘要生成器时，会议文本才会离开您的设备。当云存储应用程序被收购或传唤时，您的录音就不是他们可以交出的——它们永远不会成为私有的、拥有的对话存储层。不是另一个人工智能记事员——该类别
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai, claude, mcp, meeting-notes, meetings
+
+---
+
+### 🌟 [atmosphere](https://github.com/Atmosphere/atmosphere)
+- **项目语言**: Java
+- **星标数量**: ⭐ 3,792
+- **核心概述**: Java AI 代理的实时传输层。使用 @Agent 构建一次 — 通过 WebSocket、SSE、gRPC 和 WebTransport/HTTP3 进行交付。谈论 MCP、A2A 和 AG-UI。
+- **大概是做什么的**: JVM 上 AI 代理的实时引擎。令牌从 LLM 运行时通过广播器流向客户端，您可以通过 WebSocket、SSE、长轮询或 gRPC 进行过滤、门控和观察，并通过 MCP、A2A 和 AG-UI 流出。普通的 @Agent 是一个完整的深度代理，包含电池，Atmosphere 负责重新连接、授权和治理。 Atmosphere 是为需要 AI 代理表现得像生产服务的团队而构建的：通过真实传输进行流式传输，在每次工具调用之前进行保护，可由租户观察和运行，并且可以跨 AI 框架移植，而无需重写端点。需要什么 Atmosphere 向真实客户端提供流 WebSocket、SSE、长轮询和 gRPC 通过一个广播管道作为始终在线的默认值运行； HTTP/3 上的 WebTransport 是可选的 交换 AI 集成 一个 AgentRuntime SPI，具有 12 个运行时适配器和经过合同测试的功能标志 运送深度代理 普通 @Agent 包含电池 — 内存、计划（写入待办事项）、虚拟文件系统和子代理委派（任务），默认情况下通过线束启用 治理执行策略广告
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acp, agentic-ai, embabel, event-driven, java, koog
+
+---
+
+### 🌟 [inspector](https://github.com/MCPJam/inspector)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,119
+- **核心概述**: 用于聊天、检查和调试 MCP 服务器、MCP 应用程序和 ChatGPT 应用程序的测试和评估平台。
+- **大概是做什么的**: MCPJam 是 MCP 服务器、MCP 应用程序和 ChatGPT 应用程序的开发平台。 - 调试：检查每个 JSON-RPC 消息和跨主机配置的 OAuth 交换，并提供完整的跟踪。 - 聊天：与您的服务器上的任何 LLM 进行交谈，并全面跟踪跨代理、主机应用程序和服务器的工具调用和上下文。 - 检查：在一处探索服务器的工具、资源和提示。 - 评估：跨多个法学硕士运行评估并跟踪一段时间内的准确性，以便您尽早发现回归。 - CLI：探测服务器、运行医生检查、执行 OAuth 流程以及直接从终端列出工具/资源/提示。 - SDK：以编程方式驱动检查、快照服务器功能，并根据您自己的测试对工具/资源形状进行断言。 - CI/CD：将 CLI 和 SDK 连接到 GitHub Actions（或任何管道），以在每个 PR 上运行 e2e 测试、评估、OAuth 检查和规范一致性。不再需要 ngrok 或 ChatGPT/Claude 订阅。 MCPJam 是迭代任何 MCP 项目的最快方法。打开托管的 Web 应用程序。无需安装。或者在本地运行 MCPJam 以获取 HTTP/S 和本地
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: anthropic, chatgpt, cicd, debugger, evals, evaluation
+
+---
+
+### 🌟 [kody](https://github.com/kentcdodds/kody)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 434
+- **核心概述**: 🐨 您助手的家 — AI 代理保留的内存、密钥、代码和自动化功能，可在每个 MCP 主机上移植。基于 Cloudflare Workers 构建。
+- **大概是做什么的**: 您的助手的家 — AI 代理保留的内存、密钥、代码和自动化功能，可在每个 MCP 主机上移植。基于 Cloudflare Workers 构建。 Kody 是您助手的家 - 您的 AI 代理保留的内存、密钥、代码和自动化功能，可在每个 MCP 主机上移植。它基于 Cloudflare Workers 和模型上下文协议 (MCP) 构建，提供 Remix UI、基于 Worker 的请求路由、包运行时管道和受 OAuth 保护的 MCP 端点。该项目倾向于紧凑的 MCP 界面，在大型静态​​工具目录上提供强大的搜索和代码模式执行流程。 Kody 是一个多用户个人助理：每个登录用户都会获得一个完全隔离的助理（包、工作、秘密、值、记忆和相关状态）。测试和装置可能会产生确定性的本地帐户，但没有帐户在运行时具有特权。该存储库遵循几个 Epiflare 入门约定。该存储库被组织为 Nx monorepo，共享模块位于packages/shared（@kody-internal/shared）中，主应用程序worker位于packages/worker下，模拟Workers位于packages/mock-servers/下。开发服务器运行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-assistant, cloudflare-workers, code-mode, mcp, personal-assistant
+
+---
+
+### 🌟 [tokentelemetry](https://github.com/VasiHemanth/tokentelemetry)
+- **项目语言**: Python
+- **星标数量**: ⭐ 303
+- **核心概述**: 适用于 AI 自主和编码代理的令牌遥测仪表板 — 跨 Hermes 代理、Claude Code、Antigravity CLI、Codex 等跟踪令牌、会话、工具调用和推理。 100%本地化。
+- **大概是做什么的**: 令牌遥测 (TokenTelemetry) AI 编码代理和自治代理的本地可观测性 — Claude Code、Codex、Gemini CLI、Cursor、Copilot、Qwen、OpenCode、Vibe、Antigravity、Grok Build 和 Nous Research 的 Hermes Agent。 Token Telemetry（一个词：TokenTelemetry）——免费、开源、100% 本地化。 ☤ 新功能：专用 Hermes Agent 仪表板 — 跨 38 个平台（CLI、Telegram、Discord、cron、webhook 等）的自主代理可观察性。 TokenTelemetry 是一个免费、开源、100% 本地可观察性仪表板，可在一个统一的位置跟踪所有 AI 编码代理的代币使用情况、LLM 成本、工具调用、会话跟踪和推理步骤。没有注册。没有云。您的日志永远不会离开您的机器。 🌐 网站和文档：https://tokentelemetry.com 🎥 演示：3 分钟演练 🖥️ macOS/Linux：curl -fsSL https://raw.githubusercontent.com/VasiHemanth/tokentelemetry/main/install.sh bash 🧰 Windows：irm https://raw.githubusercontent.com/VasiHemanth/tokentelemetry/main/install.ps1 iex 🐙 GitHub：github.com/VasiHemanth/tokentelemetry AI 编码代理，例如 Claude Code、Gemini CLI、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, codex, cost-tracking, cursor, dashboard
+
+---
+
 ## 🕔 2026-08-07 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 226 个候选项目中筛选出 6 个未推荐过的新项目。
