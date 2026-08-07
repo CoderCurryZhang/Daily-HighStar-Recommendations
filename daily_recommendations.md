@@ -1,3 +1,67 @@
+## 🕔 2026-08-07 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 228 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [OM1](https://github.com/OpenMind/OM1)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,893
+- **核心概述**: 适用于机器人的模块化 AI HAL（硬件抽象层）
+- **大概是做什么的**: OpenMind 的 OM1 是一个模块化 AI 运行时，使开发人员能够跨数字环境和物理机器人创建和部署多模式 AI 代理，包括类人机器人、手机应用程序、四足动物、TurtleBot 4 等教育机器人以及 Gazebo 和 Isaac Sim 等模拟器。 OM1 代理可以处理各种输入，例如网络数据、社交媒体、摄像头馈送和激光雷达，同时支持包括运动、自主导航和自然对话在内的物理动作。 OM1 的目标是轻松创建高性能的以人为本的机器人，这些机器人易于升级和（重新）配置以适应不同的物理外形因素。 OM1 最初是用 Python 构建的，而 Go 运行时是一种更新的、注重性能的实现。我们迁移到 Go 以获得更低的延迟、更好的性能、高效的并发性、更小的边缘设备内存占用以及作为单个 Go 二进制文件的更简单的部署（与它捆绑在一起的 Zenoh C 库）。 Go 运行时涵盖了核心代理管道，但 Python 运行时中可用的一些功能仍在积极开发中
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: llm, multiagent, robotics, ros2, zenoh
+
+---
+
+### 🌟 [SkillZero](https://github.com/ZJU-REAL/SkillZero)
+- **项目语言**: Python
+- **星标数量**: ⭐ 360
+- **核心概述**: “SKILL0：技能内化的情境代理强化学习”的官方代码
+- **大概是做什么的**: SKILL0：用于技能内化的上下文代理强化学习 我们介绍 SKILL0，一个专为技能内化而设计的上下文强化学习框架。 SKILL0 在 ALFWorld 和 Search-QA 上的标准 RL 基线上实现了实质性改进。 - 2026-8-6 : 🔥🔥 我们发布了 AgentOPSD，引入了 SDAR 的递归信用更新。 - 2026-7-29 : 🔥🔥 我们发布了 SkillRise，通过代理强化学习引入了跨任务技能进化。 - 2026-7-17 : 🔥🔥 我们发布了 SEED，引入了超越技能内化的自我进化 opd。 - 2026-6-25 : 🔥 我们发布了 OPID，引入了超越技能内化的技能进化。 - 2026-5-15 : 🔥 我们的新作品发布：SDAR，引入了自蒸馏代理强化学习。 - 2026-5-07 : 🔥 我们的新作品发布了：SKILL1，它在一个统一的策略中发展了技能增强的代理。 - 2026-4-03：我们发布了我们的论文和代码。如果您使用 WandB 日志记录，请登录权重和偏差（在许多情况下，脚本通过 trainer.logger=['console','wandb']）： 安装支持的环境 准备数据集（数据将在
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, curriculum-learning, in-context-reinforcement-learning, openclaw, openclaw-skills, rl
+
+---
+
+### 🌟 [LongHorizon-Harness](https://github.com/AMAP-ML/LongHorizon-Harness)
+- **项目语言**: Python
+- **星标数量**: ⭐ 352
+- **核心概述**: 远视电脑用安全带。跨桌面应用程序和 CLI 长时间运行 AI 代理，同时保留任务状态并在复杂的工作流程上取得可靠的进展。具有新鲜上下文执行、持久验证状态、独立审计、可恢复进度以及本机 Claude Code/Codex/OpenClaw 集成。
+- **大概是做什么的**: 为现实世界的任务推进长视野代理像人一样操作整个计算机。跨桌面应用程序和命令行工作数十个小时。无状态漂移。可验证的进展。复杂的任务一直持续到完成。用途 · 您得到什么 · 工作原理 · 结果 · 项目网站 · 简体中文 该模型决定了代理在一轮中可以做什么。 LongHorizo​​n-Harness 确定该工作是否可以得到验证、保留并继续直至任务实际完成。与 Claude Code 和 Codex 一起使用。一键安装，即可运行。 LongHorizo​​n-Harness 是一个用于长期任务的执行、状态管理和结果验证系统。它不会训练新模型或替换现有代理。它运行在 Codex 和 Claude Code 等系统之上，帮助代理在真实的计算机环境中长时间自主运行，并不断推进复杂的任务。 - [2026-08-06] LongHorizo​​n-Harness 在 Hugging Face Daily Papers 周排行榜��排名第一。 - [v0.1.2 · 2026-08-06] 增加统一电脑使用插件管理，更强奥迪
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, claude, claude-code, claude-plugin, cli, codex
+
+---
+
+### 🌟 [anda](https://github.com/ldclabs/anda)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 436
+- **核心概述**: 🤖 使用 Rust 构建的 AI 代理框架。
+- **大概是做什么的**: 用于构建可组合 AI 代理运行时的 Rust 框架。 English readme 中文说明 日本语の说明 Anda 是一个用于构建 AI 代理的 Rust 框架，可以将模型、工具、内存和其他代理组合到单个运行时中。它侧重于可组合性、类型安全扩展点、异步执行和实用的运行时控制。核心引擎允许开发人员注册代理和工具，通过功能标签路由模型请求，调用本地或远程函数，隔离上下文状态，并在应用程序需要时添加可选的持久层或内存层。 1. 可组合的代理和工具代理和工具通过稳定的特征和功能定义进行注册，因此可以将专用组件组合到更大的工作流程中，而无需对一种应用程序形状进行硬编码。引擎可以通过标记的模型层（例如 Primary 、 pro 、 flash 或 lite ）路由完成请求，而特定于提供者的适配器则保留在通用请求和输出协定之后。 3.运行时编排CompletionRunner处理迭代模型轮转、工具调用、代理调用、使用情况统计、工件、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agi, autonomous, decentralize
+
+---
+
+### 🌟 [machine-learning-interview-questions](https://github.com/amitshekhariitbhu/machine-learning-interview-questions)
+- **项目语言**: Markdown
+- **星标数量**: ⭐ 311
+- **核心概述**: 机器学习面试备忘单 - 问题与解答。
+- **大概是做什么的**: 机器学习面试问题和答案 机器学习面试问题和答案 - 机器学习面试备忘单 这些面试问题和答案对以下职位很有帮助： - 机器学习工程师 - 深度学习工程师 机器学习基础知识 数据预处理和特征工程 大语言模型系统设计和 MLOps 概率和统计 行为和场景问题 由 Outcome School 创始人准备和维护：Amit Shekhar Follow Outcome School 我在 Outcome School - AI 任教和机器学习 加入 Outcome School 并获得一份高薪技术工作：Outcome School 注意：我们将不断更新新的问题和答案。了解 LLM、RAG、MCP、Agent、微调和量化：AI 工程解释：LLM、RAG、MCP、Agent、微调、量化 所有 AI 工程面试 - 问答：请参阅 AI 工程面试问答基础机器学习 - 解释 Epoch、Batch、Batch Size 和 Iteration。 - 答案：纪元、批次、蝙蝠
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, artificial-intelligence, deep-learning, deep-learning-interview, deep-learning-interview-questions, interview
+
+---
+
+### 🌟 [machi](https://github.com/qntx/machi)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 564
+- **核心概述**: 编译的代理行为
+- **大概是做什么的**: 一个轻量级、符合人体工程学的人工智能代理框架。根据以下任一许可获得许可： - Apache 许可证，版本 2.0（LICENSE-APACHE 或 ） - MIT 许可证（LICENSE-MIT 或 ） 除非您另有明确说明，否则有意提交包含在本项目中的任何贡献均应如上所述获得双重许可，没有任何附加条款或条件。 QuantX 开源项目。代码就是法律。我们都写。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, agent, mcp, web4, x402
+
+---
+
 ## 🕔 2026-08-06 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 178 个候选项目中筛选出 6 个未推荐过的新项目。
