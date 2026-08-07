@@ -1,3 +1,67 @@
+## 🕔 2026-08-06 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 178 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [SkillClaw](https://github.com/AMAP-ML/SkillClaw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,374
+- **核心概述**: 让技能与 Agentic Evolver 一起进化
+- **大概是做什么的**: ✨ SkillClaw：让技能与 Agentic Evolver 一起进化 ✨ AI 代理技能从每次真实的互动中进化而来——只是说说而已。跨会话、代理、设备和用户。体验化合物。技能不断增长。 🚀 快速安装 💬 只需聊天 🔌 广泛的兼容性 🧬 适用于 macOS/Linux 的 Collective Skill Evolution Shell 安装程序，以及适用于 Windows 的手动 Python 安装路径。然后运行 ​​Skillclaw setup 和 Skillclaw start --daemon 。只需像往常一样与您的代理交谈即可 - 技能演变在后台悄然发生。零额外努力。 🔌 广泛的兼容性 与 Hermes 、 Codex 、 Claude Code 、 OpenClaw 、 QwenPaw 、 IronClaw 、 PicoClaw 、 ZeroClaw 、 NanoClaw 、 NemoClaw 和任何 OpenAI 兼容的 API 原生集成。 🧬 集体技能进化 技能从每个会话、每个代理、每个环境中进化。单人或团队——循环是相同的。每一次经历都会复合。 SkillClaw ��� Hermes 用户带来了什么 使用 Hermes 一段时间了 - 您的技能库仍然一团糟吗？重复的、过时的、半生不熟的都像一个未分类的战利品箱一样堆在一起。问题所在
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, ai-agent, collective-intelligence, continual-learning, hermes
+
+---
+
+### 🌟 [local-ci](https://github.com/redwoodjs/local-ci)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 725
+- **核心概述**: 在本地运行 GitHub Actions — 失败时暂停，就地重试，并在计算机上保留缓存。
+- **大概是做什么的**: 在您的计算机上运行 GitHub Actions。 0 毫秒内缓存。失败时暂停。修复并重试——在提交之前、推送之前。本地 CI 是 GitHub Actions 编排层的彻底重写，完全在您自己的计算机上运行。它不会包装或填充运行器：它取代了官方 GitHub Actions Runner 所使用的云 API，因此在 GitHub.com 上执行作业的同一运行器二进制文件会在本地逐位执行它们。像 actions/checkout 、 actions/setup-node �� actions/cache 这样的操作是开箱即用的——没有补丁，没有分叉，没有对 GitHub 的网络调用。在 GitHub 的运行程序上安装需要几分钟的依赖项在第二次运行时只需几秒钟即可安装，因为包管理器缓存保留在本地，并且可以从不可变的快照克隆完整的依赖项树。远程 CI 是最后的看门人——它在每次推送时运行并决定发送什么。这就是它的工作。问题是失败时会发生什么：你推送，你等待，你读取日志，你再次推送。每次重试都会支付新运行的全部成本，并且网守最终会被使用
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: act-alternative, ai-agent, ci-cd, developer-experience, devtools, github-actions
+
+---
+
+### 🌟 [SwiftLM](https://github.com/SharpAI/SwiftLM)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 735
+- **核心概述**: ⚡ 适用于 Apple Silicon 的原生 MLX Swift LLM 推理服务器。 OpenAI 兼容 API、适用于 100B+ MoE 模型的 SSD 流、TurboQuant KV 缓存压缩、MACOS + iOS iPhone 应用程序。
+- **大概是做什么的**: 速度极快的原生 Swift 推理服务器，通过严格的 OpenAI 兼容 API 为 MLX 模型提供服务。没有Python运行时，没有全局解释器锁（GIL），没有不必要的内存复制。只是将裸机 Apple Silicon 性能编译为单个二进制文件。最快：下载预构建的二进制文件 该存档是独立的 - mlx.metallib 与二进制文件捆绑在一起。构建脚本处理一切：子模块、cmake、Metal 内核编译和 Swift 构建。 1. 初始化 git 子模块 2. 通过 Homebrew 安装 cmake（如果尚未安装） 3. 从 Metal 内核源代码编译 mlx.metallib 4. 在发布模式下构建 SwiftLM 二进制文件 然后启动服务器（如果未缓存，模型会自动下载）：（在运行超大 MoE 模型时添加 --stream-experts，以绕过 macOS 虚拟内存交换并直接从 NVMe SSD 传输专家层。） 📊 性能：MTP 推测解码— Gemma 4-26B (MacBook Pro M5 Pro 64 GB) 使用 gemma-4-26b-a4b-it-4bit 进行基准测试，在 512 / 40K / 100K 令牌上下文中运行三种配置。生成速度 (tok/s) — 高
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: apple-sili, inference, ios, llm, metal, mlx
+
+---
+
+### 🌟 [MemoMind](https://github.com/24kchengYe/MemoMind)
+- **项目语言**: Python
+- **星标数量**: ⭐ 696
+- **核心概述**: 为您的人工智能代理提供一个具有记忆能力的大脑。 Claude Code 的本地内存系统 — 100% 私有、GPU 加速、零云依赖。
+- **大概是做什么的**: 为您的人工智能代理提供一个具有记忆能力的大脑。用于 AI 编码代理的完全本地、GPU 加速的内存系统。立即开始构建您的数字孪生内存 — 可移植、不断发展，并准备好在更好的系统出现时进行迁移。两种人工智能记忆 人工智能记忆有两种受众——机器和人类。大多数工具只解决一个问题：对于人工智能（它知道什么）对于人类（您可以查看什么）目标人工智能记住偏好、决策、跨会话的上下文您浏览、搜索和管理对话历史记录问题已解决“为什么它总是忘记我的编码风格？” “我们上周二讨论了什么？” MemoMind 处理 AI 方面——它为您的编码代理提供持久的、结构化的、智能的记忆。对于人性化方面，请参阅 Recall（我们的对话历史记录管理配套项目）。两者一起使用以获得完整的体验。你已经在人工智能上花费了数千个小时——但它什么都不记得。 - 每天早上，你的编码人工智能都是一个陌生人。您花了 20 分钟解释您的架构、技术堆栈决策和命名约定。会议结束。友
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai, claude-code, llm, local-first, mcp
+
+---
+
+### 🌟 [human-review](https://github.com/petergyang/human-review)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 457
+- **核心概述**: 一个可视化工具，用于编辑 HTML 和 Markdown 文件，像 Google 文档一样留下评论，并向您的 AI 代理发送反馈。在您最喜欢的人工智能安全带内工作。
+- **大概是做什么的**: 直接编辑 HTML 和 Markdown 文件，像 Google 文档一样留下评论，并将所有反馈立即发送给您的 AI 代理。阅读完整的发布文章 https://github.com/user-attachments/assets/7cab09c9-eaa0-4e8b-984d-2925e810b5c2 在聊天中提供有关文件的 AI 反馈是痛苦的。有时你想自己改变一句话。相反，您最终会输入： 在第三段中，将 X 更改为 Y。剪切第三张卡片，因为它重复第一张卡片。还要重写 CTA。然后代理更改文件，您必须检查它是否理解每条指令。当您查看长计划、Markdown 文档、登陆页面或多页面网站时，这会变得更加困难。如何安装 / human-review 安装该技能的最简单方法是将其粘贴到 ChatGPT、Claude Code、Codex 或您最喜欢的编码代理中：您还可以使用 npx 安装它：如何使用 / human-review 打开 HTML 或 Markdown 文件：审查在本地主机上运行的页面：Human Review 在浏览器中打开文件。直接编辑、发表评论，然后单击“发送”。您的代理人一次性收到您的所有反馈
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, cli, codex, feedback, html
+
+---
+
+### 🌟 [voiceai](https://github.com/mahimairaja/voiceai)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 307
+- **核心概述**: 📝 与 🔗 套装，可帮助构建语音 AI 代理🎙️🤖
+- **大概是做什么的**: 精心策划的、开发人员友好的学习路径，用于构建实时语音 AI 代理，从第一次 STT 呼叫到扩展生产电话。语音人工智能在不到三年的时间里就从研究演示转变为交付产品。现代堆栈围绕着一个清晰的模式：实时传输层（WebRTC 或电话）、语音到文本 → LLM → 文本到语音的流式传输管道，以及决定代理何时发言的轮流模型。该列表的结构反映了学习顺序：从基础开始，选择一个框架，然后深入研究各个组件和生产问题。学习资源被标记为 🟢 初级 、 🟡 中级 或 🔴 高级（第 17-19 部分中的博客、播客和社区故意未标记）。喜欢免费的官方文档和供应商中立的指南；标记作者拥有商业利益的地方。如何使用此列表 如果您是新手，请从上到下阅读。推荐路径： 1. 基础 → 了解管道和延迟预算 2. 框架 → 选择一个（LiveKit Agents 或 Pipecat 是最安全的操作）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, asr, awesome, awesome-list, beginners, conversational-ai
+
+---
+
 ## 🕔 2026-08-06 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 200 个候选项目中筛选出 6 个未推荐过的新项目。
