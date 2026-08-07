@@ -1,3 +1,67 @@
+## 🕔 2026-08-07 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 205 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [claude-code-workflow](https://github.com/runesleo/claude-code-workflow)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 708
+- **核心概述**: QuietHarness：Claude Code、Codex、Cursor 共用的轻量 AI 工作系统
+- **大概是做什么的**: QuietHarness：让你的 AI 编程 Agent 更可靠 给你已经在使用的 AI 编程 Agent 装上一层极小、可回滚的工作边界：先看现状、保留无关改动、按风险验证、对不可逆动作先确认。 只用 Claude Code、Codex 或 Cursor 中的一个就能获得同一组核心可靠性边界。 多端兼容是以后更换工具时可以带走这些边界，不是安装门槛。 QuietHarness 不会给每个请求套一层仪式，也不是要求你复制我的私人系统。它把我长期使用后仍值得保留的行为压缩成 1,604 字节共享 Core，并提供 dry-run、备份、隔离测试和可逆安装。 适合正在用任意一种 AI 编程 Agent 维护真实项目，并遇到过这些问题的人： - Agent 没检查现有改动就覆盖文件； - 一个小修改被扩成不必要的重构和流程； - 删除、发布、生产变更或凭证操作没有在正确位置停下来确认； - 更换 Agent 后，又要从头重写同一套基本边界。 如果你需要完整任务数据库、后台自动化或团队编排平台，QuietHarness 本身并不提供这些能力；后文的 Leo System 只是可选参考。 下面三个选项只选一个。先 dry-run 查看精确目标，再执行 --apply ；试用规则只写入 $demo dir ，不会改动你的用户级 Claude/Codex 配置。 写入 $demo dir/AGENTS.md 与 $demo dir/CLAUDE.md 。 只写入 $demo dir/AGENTS.md 。 只写入 $demo dir/.cursor/rules/quiet-harness.mdc 。 安装器��认只预览；明确 --apply 才写入。它不联网、不登录账号、不修改 scheduler。 在 $demo dir 打开你选择的 Agent，只发送： 成功时，它应当在没有被题目逐条提醒的情况下，发现并保留一条无关用户改动、只修折扣计算、运行现有测试，并在最终回复中给出真实验证证据。 这个练习是 onboarding 行为检查，不是“QuietHarness 必然提升模型”的因果实验。设计目标是十分钟内完成；目前自动化只验证 fixture 可重复，真实非作者计时仍是下一道产品门。 Claude 用户级安装影响 /AGENTS.md 与 /.claude/CLAUDE.md ；Codex 影响 $CODEX HOME/AGENTS.md ，默认是 /.codex/AGENTS.md 。覆盖已有文件前会在原位置创建带时间戳的 .bak-ai-workflow- 备份。恢复时
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-workflow, ai-agents, claude-code, codex, cursor, developer-tools
+
+---
+
+### 🌟 [Soup](https://github.com/MakazhanAlpamys/Soup)
+- **项目语言**: Python
+- **星标数量**: ⭐ 370
+- **核心概述**: 从一个 YAML 微调 LLM。层流在 4 GB 笔记本电脑 GPU 上训练 8B 模型。
+- **大概是做什么的**: 通过一个命令即可对 LLM 进行微调和后期培训。没有 SSH，没有配置地狱。快速入门·Soup 将 LLM 微调的痛苦变成了一个简单的工作流程。一项配置，一项命令，完成。在 4 GB 笔记本电脑 GPU 上微调 8B 模型。层流式传输将冻结的基础数据排除在 VRAM 之外，并将其一次一个解码器层馈送到 GPU。在 RTX 3050 笔记本电脑 4 GB 上测量：Llama-3.1-8B-Instruct + NF4，速度为 119.6 tok/s，峰值为 3.32 GB — 与正常驻留运行完全一致。选择加入（流层： true ）且仍为 BETA — 所有测量 · 论文 Llama-3.1-8B-Instruct + NF4、LoRA、批次 1、seq 512，在 RTX 3050 笔记本电脑上 4 GB — 3.32 GB 峰值，119.6 tok/s。完整视频（90 年代） 培训 LLM 仍然很痛苦。即使是经验丰富的团队也会花费 30-50% 的时间来对抗基础设施，而不是改进模型。汤可以解决这个问题。 - 零 SSH。永远不要再次通过 SSH 连接到损坏的 GPU 盒子。 - 一个配置。您只需要一个简单的 YAML 文件即可。 - 自动一切。批量大小、GPU 检测、量化 — 已处理。 - 在本地工作。使用 QLoRA 在您自己的 GPU 上进行训练。无需云。 v0.72.4 — 在笔记本电脑上对齐：DPO、ORPO、
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: cli, consumer-gpu, dpo, fine-tuning, gguf, huggingface
+
+---
+
+### 🌟 [Awesome-MCP-Servers](https://github.com/YuzeHao2023/Awesome-MCP-Servers)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,054
+- **核心概述**: 模型上下文协议 (MCP) 服务器的精选列表
+- **大概是做什么的**: 由社区驱动的精心策划的模型上下文协议 (MCP) 服务器、工具、框架、客户端和实用程序列表。 MCP 是一种开放协议，使 AI 模型能够通过标准化服务器实现与本地和远程资源安全地交互。顺便说一句，我们提供了 MCP（主控程序）服务器的完整列表，该列表由网络爬虫编译，包含大约 6000 个条目。征集翻译人员！我们正在寻找翻译人员来帮助为每个人翻译此规范！请阅读我们以下语言版本的文��： ---------- ------------------------------------------------------------------------- MCP 是一种开放协议，使 AI 模型能够通过标准化服务器实现安全地与本地和远程资源交互。此列表重点关注生产就绪和实验性 MCP 服务器，这些服务器通过文件访问、数据库连接、API 集成和其他上下文服务扩展 AI 功能。模型上下文协议 (MCP) 快速入门设置 Claude 桌面应用程序以使用 SQLite 数据库 在没有 prop 的情况下运行 MCP 服务器时
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: awesome, awesome-list, llm, mcp, mcp-server
+
+---
+
+### 🌟 [PhysiClaw](https://github.com/physiclaw/PhysiClaw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 323
+- **核心概述**: 在现实世界中与您互动的人工智能代理。
+- **大概是做什么的**: 人工智能代理可以像您一样实际操作手机。中文文档 · 演示视频 PhysiClaw 用摄像头观看手机屏幕，并用手写笔轻敲手机屏幕，就像人一样操作手机。没有 API，没有 OAuth，没有 ADB 电缆，手机上没有安装任何东西 - 只需解锁它，将其放在桌子上，然后让它为堆积如山的日常事务而构建 - 订购外卖，购买杂货，预订乘车，支付账单，回复消息。您可以在手机上手动完成的任何操作，PhysiClaw 都可以为您完成。为什么是肉体？运行你日常生活的应用程序是关闭的：大多数不公开公共 API，并且模拟输入（桌面自动化或 Android 的 ADB）会留下反机器人系统标记的软件指纹。因此，PhysiClaw 将屏幕本身视为 API：摄像头读取屏幕，手写笔执行手势。对于手机来说，它与真正的手指没有什么区别——没有什么可检测的——而且它几乎可以可靠地到达任何应用程序。代价是速度：每个动作几秒钟，以换取通用性 PhysiClaw 有自己的专用电话运行其 o
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agent, embodied-agent, embodied-ai, gui-agent, gui-agents
+
+---
+
+### 🌟 [minebench](https://github.com/Ammaar-Alam/minebench)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 302
+- **核心概述**: 用于比较 AI 模型的 Minecraft 风格体素基准（竞技场 + 沙盒）
+- **大概是做什么的**: 通过 Minecraft 风格的体素构建评估 AI 空间推理的基准。模型会得到自然语言提示，并且必须生成 JSON 格式的原始 3D 坐标。在工具模式下，模型调用 voxel.exec （最小原语： block 、 box 、 line ）来生成超出仅限令牌 JSON 限制的大型构建。 MineBench 通过使用具有信任意识的 Glicko 式系统（按保守分数进行公共排序）的头对头投票来可视化输出并对模型进行排名。大多数法学硕士基准测试文本和原始准确性。相反，MineBench 测试模型是否可以推理 3D 空间。给出像“一座有四座塔楼的中世纪城堡”这样的提示，模型必须在心里构建几何图形、挑选材料并输出数千个精确的块坐标。没有视觉模型或扩散——只有数学和空间逻辑。事实证明，这种空间推理与模型的原始一般智力密切相关。有趣的是，MineBench 排行榜跟踪了大多数人在现实世界使用中观察到的相同层次结构：当被问及什么时，最聪明的推理模型是清晰可见的。
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, benchmark, comparison-benchmarks, llm, lmarena, minecraft
+
+---
+
+### 🌟 [EdgeChains](https://github.com/arakoodev/EdgeChains)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 427
+- **核心概述**: EdgeChains.js 是全栈 GenAI 库。前端、后端、api、提示管理、分布式计算。所有核心提示和链都在 jsonnet 中以声明方式管理（并且不隐藏在类中）
+- **大概是做什么的**: 加入我们的 Discord - 我们是生成 AI 领域最友好、最好的开发团队之一！通过视频直接跳到我们的示例！ EdgeChains 生产准备好了吗？与许多框架不同 - 我们将其构建在 honojs 和 jsonnet 之上，这两个框架分别由 cloudflare 和 google 构建。所以即使你不信任我...你也可以信任他们；）我们不会构建我们自己风格的 json 或特定的 DSL（本质上是脆弱的）并给你编译步骤。我们的底层库坚如磐石且稳定。了解 EdgeChains 在 EdgeChains，我们采用独特的方法来实现生成式 AI - 我们认为生成式 AI 是一项部署和配置管理挑战，而不是 UI 和库设计模式挑战。我们基于在不同领域解决了这个问题的技术——Kubernetes 配置管理——并将其引入生成人工智能。 Edgechains 建立在 jsonnet 之上，jsonnet 最初是由 Google 基于管理 Borg 基础设施中大量配置代码的经验而构建的。 Edgechains 为您提供： 只需一个脚本文件：EdgeChains
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, autogpt, chatbot, generative-ai
+
+---
+
 ## 🕔 2026-08-07 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 228 个候选项目中筛选出 6 个未推荐过的新项目。
