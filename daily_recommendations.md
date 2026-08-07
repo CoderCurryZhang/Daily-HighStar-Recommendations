@@ -1,3 +1,67 @@
+## 🕔 2026-08-07 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 226 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agent-scan](https://github.com/snyk/agent-scan)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,883
+- **核心概述**: 针对 AI 代理、MCP 服务器和代理技能的安全扫描器。
+- **大概是做什么的**: 发现并扫描计算机上的代理组件以查找提示注入和漏洞（包括代理、MCP 服务器、技能）。注意：CLI 输出是实验性的，可能会发生变化 此 CLI 的原始输出（包括问题代码、字段名称、严重性标签和响应结构）是实验性的，可能会在版本之间发生变化，恕不另行通知。我们不建议构建依赖于特定 CLI 输出字段或问题代码的生产工作流程。如果您是使用 Snyk 大规模管理代理安全风险的企业客户，CLI 输出可能无法反映发送到 Evo 平台并在 Evo 平台中显示的内容。为企业部署提供支持的底层集成、发现和风险评估是稳定且受支持的 - 任何更改都将根据标准 Snyk 产品实践进行传达。请联系您的客户团队获取部署指南。新阅读我们与 Agent Scan 0.4 一起发布的有关代理技能生态系统新兴威胁的技术报告，该报告增加了对扫描代理技能的支持。代理扫描可帮助您保留所有信息的清单
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, mcp, modelcontextprotocol, security
+
+---
+
+### 🌟 [sandbox-sdk](https://github.com/cloudflare/sandbox-sdk)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,094
+- **核心概述**: 在 Cloudflare 的边缘网络上运行沙盒代码环境
+- **大概是做什么的**: Cloudflare Sandbox SDK Sandbox SDK 可让您在隔离的容器中安全地运行不受信任的代码。执行命令、管理文件、运行后台进程和公开服务——所有这些都来自您的 Workers 应用程序。非常适合人工智能代码执行、交互式开发环境、数据分析平台、CI/CD 系统以及任何需要在边缘安全执行代码的应用程序。 1. 安装 Node.js（版本 16.17.0 或更高版本） 2. 确保 Docker 在本地运行（请参阅设置指南） 3. 要部署到生产，请注册 Cloudflare 帐户 1. 创建新项目 使用最小模板创建新的 Sandbox SDK 项目： 启动开发服务器： 注意：首次运行会​​构建 Docker 容器（2-3 分钟）。随后的运行速度要快得多。 3. 部署到生产环境 部署您的 Worker 和容器： 等待配置：首次部署后，等待 2-3 分钟后再发出请求。 📖 查看完整的入门指南以获取详细的说明和解释。将选项作为第三个参数传递给 getSandbox() 以配置沙箱生存期和容器启动满足
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, ai, code-interpreter, containers, devtools
+
+---
+
+### 🌟 [con-terminal](https://github.com/nowledge-co/con-terminal)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 541
+- **核心概述**: 具有内置 AI Harness 的本机终端模拟器
+- **大概是做什么的**: 带 AI 线束的终端模拟器，仅此而已 开源。 GPU 加速。终端优先。专为 SSH、tmux 和代理本机工作流程而构建。 con 适合那些首先想要一个严肃的终端并且人工智能只有在它赢得一席之地时才提供帮助的人。如果您是老派终端用户，并且只在需要时想要足够的 AI 工具，那么 con 适合您。 - a terminal that is fast and elegant - a built-in AI harness that can read context, ask before acting, and work directly in the terminal you can already see - terminal-native workflows for CLI work, with ssh , tmux , and coding-agent-aware orchestration con is in active beta development. - 完全支持 macOS，测试版。 - Windows 早期测试版。 Tracker：34。- Linux 预览。 Tracker: 18. View the full screenshot gallery Action macOS Windows / Linux Switch focus between terminal and input ⌘ I ⌃ ⇧ I Show or hide the bottom input bar ⌃ \ ⌃ \ Show or hide the agent panel ⌘ L ⌃ ⇧ L Cycle bottom-bar mode ⌘ ; ⌃ ;显示或隐藏���速终端 ⌘ 启用后反斜杠 不可用 - 智能模式决定您的文本是 shell 命令还是
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, libghostty, rust, skills, terminal, workflow
+
+---
+
+### 🌟 [camofox-browser](https://github.com/redf0x1/camofox-browser)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 342
+- **核心概述**: 用于 AI 代理的反检测浏览器服务器 — REST API 包装 Camoufox 引擎并支持 OpenClaw 插件
+- **大概是做什么的**: CamoFox 浏览器服务器 用于 AI 代理的反检测浏览器服务器 — TypeScript REST API 包装 Camoufox 隐形浏览器引擎 - Playwright 跟踪 - 与 AI 代理一起使用 - 结构化提取 - 环境变量 问题：标准浏览器自动化（Puppeteer、Playwright、Selenium）很容易被现代反机器人系统检测到。 JavaScript 级别的补丁很脆弱，很快就会被绕过。解决方案：CamoFox 浏览器服务器封装了 Camoufox，这是一个具有 C++ 引擎级指纹欺骗功能的 Firefox 分支。无 JavaScript 注入——反检测发生在浏览器引擎级别。功能 Puppeteer/Playwright CamoFox 浏览器服务器 --------- --------------------- ------------------------ 反检测 JavaScript 补丁（脆弱） C++ 引擎级（稳健） 指纹欺骗 有限 完整（引擎级） 令牌效率 原始 HTML/屏幕截图 可访问性快照（较小 + 结构化） 集成 适用于任何语言的直接 SDK REST API/AI 代理 AI 代理支持 变化 兼容 MCP + OpenClaw - C++ 反检测 — 指纹欺骗在 Camoufox 发动机级别（
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, anti-detection, automation, bot-detection, browser-automation, browser-server
+
+---
+
+### 🌟 [old-coder](https://github.com/AmazingAng/old-coder)
+- **项目语言**: Python
+- **星标数量**: ⭐ 331
+- **核心概述**: 一位老程序员在代理时代的策略是：不要阅读代码——让它接受挑战。编码代理的证据优先开发技能，受到鲍勃叔叔的启发。
+- **大概是做什么的**: 老编码员技能（老码农技能） 代理时代老编码员的策略：不要阅读代码 - 让它运行挑战。一项使编码代理证明其工作的技能。您不必阅读代理编写的每一行，代理必须通过一系列检查来推动其代码 - 并在编码之前向您提供测试计划，并在编码之后向您提供证据报告。您查看这两个文档，而不是代码。它是简单的降价，因此它可以与任何遵循指令的编码代理一起使用：Claude Code、Codex CLI、Cursor、Aider 或您自己的代理循环。 - Claude Code — 将技能复制到技能文件夹中，然后调用 /old-coder 或让它触发“证明它有效”式的请求： - 其他代理 — 将 Skills/old-coder/SKILL.md 添加到您的 AGENTS.md 、规则文件或系统提示符中，并将引用/gauntlet.md 放在旁边。来自鲍勃叔叔（罗伯特·C·马丁）关于与编码代理一起工作的信息（原始推文）：我当前的策略是不阅读我的代理编写的任何代码。这是我可以利用他们生产力的唯一方法。相反，我所做的就是用极端的限制包围特工。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, skills, tdd
+
+---
+
+### 🌟 [pi-atelier](https://github.com/michaelmjhhhh/pi-atelier)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 224
+- **核心概述**: Pi Agent 的优雅、信息丰富的状态、菜单和侧栏。
+- **大概是做什么的**: Pi 的响应式状态栏和活动侧边栏。 - 响应式单行状态栏 - 实时代理、工具、上下文、工作区、使用情况和 TODO 信息 - 模型、思维级别和工具控件 - 可配置的显示预设、分段和侧边栏面板 - 会话详细信息、重命名和压缩操作 - macOS 和 Windows 上的完成通知 - 无遥测或外部网络请求 - Pi 0.80.7 或更高版本 - Node.js 22.19.0 或更高版本 - 交互式 TUI 模式 运行本地结账而不安装：Pi 软件包以您的系统权限运行。安装前查看第三方源。打开控制中心： 默认快捷键：alt+a 控制中心包括显示设置、侧边栏控件、模型和工具选择、会话详细信息、重命名和压缩。当终端太窄时，侧边栏开始可见并隐藏。按 Ctrl+Shift+R 调整其大小。 TODO 面板支持 Pi todo 结果和可选的 @juicesharp/rpiv-todo 扩展。状态轨预设： - 编辑：默认布局 - 最小：紧凑布局 - 经典：详细遥测 Pi 支持
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, cli, cli-tool, extension, ghostty, mit-license
+
+---
+
 ## 🕔 2026-08-07 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 205 个候选项目中筛选出 6 个未推荐过的新项目。
