@@ -1,3 +1,67 @@
+## 🕔 2026-08-08 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [dembrandt](https://github.com/dembrandt/dembrandt)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,531
+- **核心概述**: 在几秒钟内将任何网站的设计系统提取为令牌：徽标、颜色、版式、边框等。一声令下。
+- **大概是做什么的**: 在几秒钟内将网站的设计系统提取为设计标记：徽标、颜色、排版、边框等。一声令下。需要浏览器步骤。 dembrandt 通过 playwright-core 驱动 Chromium，它不附带浏览器二进制文件，因此全新安装在运行之前不会启动任何内容。跳过它失败，浏览器引擎不可用。或者使用 npx 而不安装： npx dembrandt dembrandt.com 。浏览器步骤也适用于此 - 首先运行 npx dembrandt install-browser。浏览器登陆共享的 Playwright 缓存，因此任一路由只需要一次。需要 Node.js 18+ AI 代理集成 (MCP) 在 Claude Code、Cursor、Windsurf 或任何 MCP 兼容客户端中使用 Dembrandt 作为工具。要求您的代理“从 dembrandt.com 提取调色板”，它会自动呼叫 Dembrandt。或者添加到项目的 .mcp.json 中：可用工具包括获取设计标记、获取调色板、获取版式、获取组件样式、获取表面、获取间距和获取品牌标识，以及纯分析工具（计算漂移、获取结果、导出 dtcg、生成设计 md）
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: brand-audits, css, design-engineering, design-md, design-ops, design-systems
+
+---
+
+### 🌟 [llm-wiki](https://github.com/nvk/llm-wiki)
+- **项目语言**: Python
+- **星标数量**: ⭐ 936
+- **核心概述**: 适用于任何 AI 代理的法学硕士编译的知识库。并行多智能体研究、论文驱动的调查、源代码摄取、wiki 编译、查询和工件生成。
+- **大概是做什么的**: llm-wiki.net · @LLMWIKI on X · github.com/nvk/llm-wiki LLM 编译的适用于任何 AI 代理的知识库。捕捉粗略的想法，研究并塑造它们，然后明确地将批准的概要推进到交付项目中。还包括并行研究、收集器目录、会话内存、源摄取、编译、审计、查询和工件生成。适用于 Claude Code、OpenAI Codex、OpenCode 和便携式代理。黑曜石兼容。安装·快速入门·会话·命令·工作原理·研究模式·论文研究·查询深度·链接·黑曜石·架构·Nono沙箱·升级·变更日志·学分v0.17.0 - 想法工作流程。添加模糊概念 → 想法 → 项目路径：在 inventory/ideas/ 下捕获和编录粗略提案，随着时间的推移研究和塑造它们，然后明确批准冻结的 Brief.md 并将其推广到其工作区拥有交付事实的链接项目中。 v0.16.0 — Query Lite 和令牌基准测试。添加跨 Claude Code、Codex、Pi、DS4、OpenCode 和便携式代理的紧凑只读查询协议；减少克劳德/wiki：查询指令
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, agentic-skills, agentic-workflow, claude-code, codex, llm
+
+---
+
+### 🌟 [ship-safe](https://github.com/asamassekou10/ship-safe)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 813
+- **核心概述**: 专为代理时代而构建的 CLI 安全扫描器。检测 CI/CD 错误配置、代理权限风险、MCP 工具注入、硬编码机密和 DMCA 标记的 AI 依赖项。
+- **大概是做什么的**: 在发货前查找有风险的代码、人工智能代理漏洞和供应链问题。网站·文档·安全和数据流·基准·定价·博客·贡献 Ship Safe 是一款面向现代软件团队的人工智能安全扫描仪。它在您的存储库中本地运行，查找应用程序代码、AI 代理、MCP 配置、提示、依赖项、CI/CD、机密和云相邻配置中的问题，然后帮助您检查和应用安全修复。使用一个命令开始扫描：无需注册。扫描不需要 API 密钥。离线工作以进行核心检查。 AI 支持的红队模式使用您配置的提供商（如果可用）。使用 --no-ai 来保证完全本地扫描。提供商支持的分类、深度分析和 GPT-Red 在尽力进行凭证屏蔽后将有界上下文直接发送到您选择的提供商。有关确切的边界和上下文限制，请参阅安全和数据流。 Ship Safe 发现了什么 AI 和 LLM 安全 提示注入、代理劫持、过度代理、内存中毒、RAG 中毒、不安全的工具调用 MCP 和代理配置 过于广泛的工具权限、中毒注册表、不真实
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-security, cli, devscops, llm-security, mcp
+
+---
+
+### 🌟 [optio](https://github.com/jonwiggins/optio)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,027
+- **核心概述**: AI 编码代理群的工作流程编排，从任务到合并 PR。
+- **大概是做什么的**: 自托管人工智能工程平台——您的集群、您的代理、您的代码。 Optio 将代理工作分为三层，所有层均由相同的触发器类型、提示模板引擎、日志流和 /api/tasks HTTP 表面驱动： - 任务（Repo 任务）— 将票证转换为合并的拉取请求。提交任务（手动，从 GitHub Issue、Linear、Jira 或 Notion），Optio 会提供一个隔离的环境，运行 AI 代理，打开 PR，监视 CI，触发代码审查，自动修复故障，并在一切通过后进行合并。 - 作业（独立任务）——可重用、参数化代理运行，无需签出存储库。生成报告、分类警报、审核依赖项、查询数据库、发布到 Slack - 任何不需要作为 PR 落地的内容。 - 代理（持久代理）— 长期存在的、命名的、消息驱动的代理进程。每个都有一个稳定的 slug、一个收件箱和一个循环状态机。通过用户消息、代理消息、webhook、cron 滴答或票证事件唤醒。三种 Pod 生命周期模式（始终开启/粘性/按需）。通过代理间 HTTP API 相互寻址。参见四特工Fo
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, ai, claude-code, copilot, gemini
+
+---
+
+### 🌟 [loong](https://github.com/eastreams/loong)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 641
+- **核心概述**: 轻量级、清晰且完全可扩展的 AI 代理基础架构 — 轻松学习，自定义任何内容 🐉
+- **大概是做什么的**: 🐉 Loong - 垂直 AI 代理的 Rust 基础 “源自东方，造福世界” 安全、可扩展、可持续发展 — Loong 是一个用 Rust 构建的垂直 AI 代理的代理库。在安全和受控的基础上，它支持更长期的工作流程构建、复合任务执行和闭环改进，使人们和人工智能能够在现实场景中进行协作。因为它已经具备了您需要检查、操作和扩展的核心功能： - 🚀 开箱即用的丰富配置：42 个以上内置提供程序、25 个以上通道 - 只需几个命令即可启动和运行。 - 👀 透明可控：产��命令在根部保持简短，而会话、技能、通道、网关、运行时、插件和飞书则保持分组在命名的操作员 shell 下，而不是单一的命令堆。 - 🛡️ 安全可控的基础：提供商选择、工具、内存、渠道、批准、策略和审计在明确的运行时边界内运行。还因为无论您是初学者还是高级用户，它都适合您： - ⚡ 易于启动：几个命令
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agents, ai, assistant, framework
+
+---
+
+### 🌟 [davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,044
+- **核心概述**: DaVinci Resolve Studio 的 MCP 服务器集成
+- **大概是做什么的**: DaVinci Resolve MCP 服务器 -18%20tools-blueviolet.svg) 一个模型上下文协议 (MCP) 服务器，可让 AI 助手通过官方脚本 API 控制 DaVinci Resolve Studio。它提供完整的 API 覆盖范围以及受保护的工作流程帮助程序，用于编辑、媒体池组织、渲染设置、审阅标记、分级、Fusion、Fairlight、项目生命周期任务、扩展创作和源安全媒体分析。服务器附带一个本地浏览器控制面板，用于检查 Resolve 状态、运行源安全分析、深入分析剪辑和镜头以及内联编辑分析输出。有关完整教程，请参阅��制面板指南。连接之前，打开 DaVinci Resolve Studio 并将“首选项”“常规”“外部脚本使用”设置为“本地”。 （在免费版本上，该首选项没有帮助 - 请参阅下面的免费版本。）npm 启动程序会在用户应用程序数据目录下安装托管副本，然后运行通用 Python 安装程序。安装程序创建虚拟环境，检测Resolve路径，并可以配置Claude Desktop、Claude Code、Cursor、VS Code、
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: blackmagic, blackmagic-design, blackmagicdesign, davinci-resolve, davinciresolve, mcp
+
+---
+
 ## 🕔 2026-08-08 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 223 个候选项目中筛选出 6 个未推荐过的新项目。
