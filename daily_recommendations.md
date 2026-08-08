@@ -1,3 +1,67 @@
+## 🕔 2026-08-08 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [GoNavi](https://github.com/Syngnat/GoNavi)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,839
+- **核心概述**: High-performance multi-data-source database client — ~30MB, AI & MCP ready, zero Electron bloat. | 高性能多数据源数据库客户端：约 30MB，AI 与 MCP 就绪，告别 Electron 膨胀。
+- **大概是做什么的**: 浏览每个数据源——本机速度、代理就绪、零电子膨胀。使用Wails（Go）+ React构建的高性能跨平台数据库客户端。桌面优先。 MCP 就绪。 30MB 级二进制文件。语言 : English · 简体中文 华龙中转站 / Hualong Transfer Station 大多数数据库 GUI 都是带有兆字节税的 Electron shell。 GoNavi 采取了不同的路径： 典型的 Electron 客户端 GoNavi 运行时 Chromium + Node Go + 原生 WebView 二进制大小 数百 MB 30MB 级别 启动 重型快速内存 高基线 精益 AI / 代理 附加或不使用 一流�� MCP + 多提供商 AI 数据源 主要是 RDBMS SQL · 缓存 · 矢量 · MQ · 搜索 · 时间序列 · 国内数据库 MySQL、Postgres、Redis、Kafka、Milvus 的一个驾驶舱， OceanBase、ClickHouse……查询、编辑、审核、同步，并将结构化上下文交给编码代理，而不会在主机外泄露密码。每个图像都是一个完整的 GoNavi 应用程序窗口，按比例缩放以供 README 显示。真实桌面捕获 · 全窗口 🤖 AI 了解您的架构 - OpenAI · Gemini · Claude · 自定义 OpenAI 兼容 API - 附加实时表架构
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, cross-platform, database-client, database-gui, desktop-app, developer-tools
+
+---
+
+### 🌟 [ableton-mcp](https://github.com/MCPBlender/ableton-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,883
+- **核心概述**: 🎵 使用 Claude AI 控制 Ableton Live — 通过 MCP 创建曲目、排列剪辑并创作音乐
+- **大概是做什么的**: 通过模型上下文协议将 Claude AI 连接到 Ableton Live Discord · 教程 · 发布 AbletonMCP 通过模型上下文协议 (MCP) 将 Ableton Live 连接到 Claude AI，让 Claude 对您的 Live 会话进行直接、双向的控制。创建完整的编曲、操纵曲目、加载乐器和效果以及创作音乐——所有这些都通过自然语言提示进行。 - 1. 安装 MCP 服务器 - 2. 安装 Ableton 远程脚本 - 3. 配置您的 AI 客户端 功能描述 🎛️ Claude 和 Ableton Live 之间的双向通信实时套接字桥 🎹 音轨操作 创建、修改和删除 MIDI 和音轨 🎸 乐器和效果加载 从 Ableton 浏览器访问和加载乐器、效果和声音 📋 剪辑创建 使用以下工具创建和编辑 MIDI 剪辑完整音符控制 🎼 编曲作曲 在编曲视图中构建完整的歌曲 - 前奏、增强、下降、分解、结尾 ▶️ 会话控制 在会话和编曲视图中开始/停止播放、触发剪辑、控制传输 🎚️ 参数控制 设置速度、调整设备参数、修改混音器
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ableton, ai, claude, daw, generative-ai, llm
+
+---
+
+### 🌟 [codexpro](https://github.com/rebel0789/codexpro)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,532
+- **核心概述**: 通过 MCP 使用 ChatGPT 开发人员模式作为存储库的本地编码代理。
+- **大概是做什么的**: 为您明确允许的存储库提供 ChatGPT 本地编码工具。 CodexPro 是本地 MCP 服务器。它将您的 ChatGPT 会话连接到您的计算机和您允许的存储库。 ChatGPT 可以读取、搜索、编辑、审查、验证、导入附件以及编写交接计划。它留在那些根部里面。它不是托管 SaaS 产品、模型代理、配额旁路、帐户池或远程 shell 服务。 - 可以创建自定义 MCP 插件的 ChatGPT 帐户 - 用于 ChatGPT Web（隧道或 Tailscale Funnel）的计算机的 HTTPS URL 1. 设置 - 安全和登录 → 打开开发人员模式（保持 CSP 强制执行）。 2. 设置 - 插件 → 插件选项卡 → 搜索插件旁边的 +。 3. 创建一个名为 CodexPro 的插件。 4. 连接：服务器 URL → 粘贴 CodexPro 复制的 URL。 5. 身份验证：无身份验证/无（如果表单默认为 OAuth，请更改此设置）。 CodexPro auth 是该 URL 中已有的令牌。不要共享 URL。打开插件并单击 + 完成新插件表单 来自同一存储库的日常使用：如果插件创建失败，请运行 codexpro 连接测试并检查 ChatGPT 请求是否到达
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: apps-sdk, chatgpt, cloudflare-tunnel, codex, local-development, mcp
+
+---
+
+### 🌟 [rocketmq-rust](https://github.com/mxsm/rocketmq-rust)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,496
+- **核心概述**: 🚀Apache RocketMQ 使用 Rust 构建。更快、更安全、内存使用率更低。 ⭐ Star 支持我们的工作❤️！
+- **大概是做什么的**: 🚀 Apache RocketMQ 的高性能、可靠且功能丰富的非官方 Rust 实现，旨在将企业级消息中间件引入 Rust 生态系统。 RocketMQ-Rust 是 Apache RocketMQ 在 Rust 中的完整重新实现，利用了 Rust 在内存安全、零成本抽象和无畏并发方面的独特优势。该项目旨在为 Rust 开发人员提供一个可用于生产的分布式消息队列系统，该系统可提供卓越的性能，同时保持与 RocketMQ 协议的完全兼容性。 🎯 为什么选择 RocketMQ-Rust？ - 🦀 内��安全：基于 Rust 的所有权模型构建，消除了整类错误，如空指针取消引用、缓冲区溢出和数据竞争 - ⚡ 高性能：零成本抽象和高效的异步运行时以最小的资源开销提供卓越的吞吐量 - 🔒 线程安全：无所畏惧的并发性可实现安全并行处理，而不存在竞争条件的风险 - 🌐 跨平台：对 Linux、Windows 和 macOS 的一流支持在每个平台上具有本机性能 -
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-sre, cloud-native, mcp, mcp-server, mcp-tools, messaging
+
+---
+
+### 🌟 [cyrus](https://github.com/cyrusagents/cyrus)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 751
+- **核心概述**: 适用于 Linear、Slack、Github、GitLab 等的 Claude Code 后台代理，您可以部署在任何地方。也支持 Codex、Cursor 和 Gemini。
+- **大概是做什么的**: 您的 (Claude Code Codex Cursor Gemini) 支持的 (Linear GitHub GitLab Slack) 代理。 Cyrus 监视分配给它的 (Linear GitHub GitLab Slack) 问题，为每个问题创建独立的 Git 工作树，运行 (Claude Code Codex Cursor Gemini) 会话来处理它们，并将详细的代理活动更新流回 (Linear GitHub)，以及下拉选择和批准等丰富的交互。注意：Cyrus 是一个 BYOK 代币平台（带上您的密钥/订阅）。端到端自托管（社区）零成本选项 - 使用您自己的 Linear OAuth 应用程序、GitHub 应用程序和 Slack 应用程序自行托管所有内容。人工智能引导的设置技能可以处理整个入门过程：安装依赖项、配置身份验证、创建集成应用程序和连接存储库，因此您无需遵循手动指南。然后在任何 AI 编码代理（Claude Code、Codex、Cursor 等）中：或者如果您愿意，请按照手动设置指南进行操作。通过 app.atcyrus.com 上的仪表板配置 Cyrus。对于付费自托管部署它被称为“自托管”，因为它使用您控制的机器作为代理运行时
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, claude, claudecode, codex, cursor
+
+---
+
+### 🌟 [Dex](https://github.com/davekilleen/Dex)
+- **项目语言**: Python
+- **星标数量**: ⭐ 461
+- **核心概述**: 您的人工智能参谋长——适合您角色的个人操作系统入门套件。无需编码。
+- **大概是做什么的**: Dex by Dave — 您的 AI 参谋长 由 Claude 提供支持的个人操作系统。战略工作管理、会议情报、关系跟踪、日常计划——所有这些都针对您的特定角色进行配置。无需编码。 Dex 背后的故事：🎥 可延展的软件——当每个人都可以构建时，什么才是伟大的产品？ （Dave 关于 Dex 背后思想的主题演讲） · 🎙️ The Vibe PM 播客第 8 集（完整演练） · ✍️ 最初的发布帖子 · 💬 构建它的诚实的高潮和低谷 — 暂停、解锁和两周内发布 52 个版本 🖥️ 不想看到终端？ Dex 桌面和移动应用程序即将推出 - 在 heydex.ai/beta 注册抢先体验。 📖 新来的？从 Dex 指南开始 → 简单的英语演练，从安装到使 Dex 成为您自己的，整个过程中都有复制粘贴提示 - 为非技术专业人士编写，无需任何编码背景。下面的自述文件以参考形式涵盖了相同的内容。 （AI 代理：llms.txt。）总时间：10 分钟。粘贴一行即可安装所有内容，然后你告诉 Dex 你的角色。选择其中之一即可获得 s
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-assistant, anthropic, claude-code, cursor, mcp, personal-knowledge-management
+
+---
+
 ## 🕔 2026-08-08 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 272 个候选项目中筛选出 6 个未推荐过的新项目。
