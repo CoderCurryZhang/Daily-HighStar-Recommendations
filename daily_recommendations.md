@@ -1,3 +1,67 @@
+## 🕔 2026-08-08 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [mcporter](https://github.com/openclaw/mcporter)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 4,885
+- **核心概述**: 通过 TypeScript 调用 MCP，伪装成简单的 TypeScript API。或者将它们打包为 cli。
+- **大概是做什么的**: MCPorter 🧳 — 将 MCP 工具引入脚本、CLI 和代理中 MCPorter 是一个 TypeScript 运行时和命令行工具，用于发现和调用模型上下文协议服务器。它适用于需要来自终端、脚本或生成的独立 CLI 的相同 MCP 工具的开发人员和编码代理。尝试不安装 CLI：安装它以重复使用命令行：npm 安装需要 Node 24 或更高版本。对于 TypeScript 运行时，请使用包管理器将 mcporter 添加到您的项目中。安装指南中介绍了签名的 macOS 二进制文件和其他支持的安装路径。检查公共 MCP 服务器，然后调用其中一个工具：第一个命令打印服务器的 TypeScript 样式工具签名。第二个返回匹配的 Context7 库 ID，无需本地配置或凭据。请参阅资源、生成的 CLI 和类型化客户端的五分钟快速入门。目标 命令或 API 详细信息 ----------------------------------------------------- ------------------------------------------------ ------------------------------------------ 发现服务器和工具 mcport
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: cli, mcp, ts-api
+
+---
+
+### 🌟 [spacebot](https://github.com/spacedriveapp/spacebot)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 2,354
+- **核心概述**: 适用于团队、社区和多用户环境的 AI 代理。
+- **大概是做什么的**: 运行团队、社区和公司的代理工具。使用 spacebot.sh 一键部署 — 连接您的 Discord、Slack、Telegram 或 Twitch，配置您的代理，然后开始。无需自托管。 Spacebot 是固执己见的代理基础设施，专为团队构建，可供任何人使用。状态属于结构化存储，而不是 LLM 管理的 Markdown 文件。内存存在于 SQLite 中的类型图中。 Autonomy 在链接到目标的任务状态机上运行，​​而不是在 heartbeat.json 上运行。 LLM的原因。系统保持状态。您使用得越多，它就会变得越聪明。在完成复杂的任务后，代理将其学到的知识捕获为可重用的技能。对话闲置后，后台进程会默默保存值得保留的技能和记忆。每个会话都建立在上一个会话的基础上，无需任何用户操作。它开箱即用，可以从一个人扩展到整个社区。大多数人工智能代理框架在单个会话中运行所有内容。一个 LLM 线程在一个循环中处理对话、思考、工具执行、内存检索和上下文压缩。当它工作时，它不能和你说话。当我
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic, ai, automation, developer-tools, enterprise
+
+---
+
+### 🌟 [Shannon](https://github.com/Kocoro-lab/Shannon)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,181
+- **核心概述**: 面向生产的多代理编排框架。
+- **大概是做什么的**: Shannon — 实际工作的生产型 AI 代理将可靠的 AI 代理交付到生产中。多策略编排、群体协作、代币预算控制、人工审批工作流程和时间旅行调试 — 全部内置。 实时演示 查看实时代理执行和事件流 具有执行策略、WASI 沙箱和内置可观察性的多代理编排 问题 Shannon 的解决方案代理会默默失败吗？具有时间旅行调试功能的临时工作流程 - 逐步重播任何执行 成本急剧失控？每个任务/代理的硬代币预算，具有自动模型回退 无法了解发生了什么？实时事件流、Prometheus 指标、OpenTelemetry 跟踪 安全问题？用于代码执行、OPA 策略、多租户隔离的 WASI 沙箱 供应商锁定？通过 Ollama 与 OpenAI、Anthropic、Google、DeepSeek、xAI、本地模型配合使用 - Docker 和 Docker Compose - 至少一个 LLM 提供商（OpenAI、Anthropic 等）的 API 密钥。这将下载配置、提示输入 API 密钥、提取 Docker 映像并启动服务。所需的 API 密钥
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, multi-agent-systems
+
+---
+
+### 🌟 [edgeever](https://github.com/tianma-if/edgeever)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 814
+- **核心概述**: Serverless, 100% free, and open-source Evernote alternative on Cloudflare with native MCP | 无需服务器、0费用、原生支持 AI Agent 的开源自托管『印象笔记』
+- **大概是做什么的**: EdgeEver：无服务器、100% 免费、开源、AI 原生的自托管 Evernote 替代品。 EdgeEver 是一个现代化的开源笔记工作区，专为轻松的知识管理而构建。它恢复了人们喜爱的 Evernote 风格的三窗格布局，同时提供开放数据架构和无缝 AI 代理集成，以实现完全所有权和智能生产力。 💡 无服务器且永远 100% 免费 EdgeEver 使用纯粹的无服务器架构。无需购买服务器或租用VPS，也无需配置Docker或SSL证书。通过在 Cloudflare 的免费配额内运行，个人使用是 100% 免费且零维护。 ⭐ 如果 EdgeEver 对您有用，请考虑给它一颗星。您的支持可以帮助更多人发现该项目。许多 Evernote 长期用户只是想要一个可靠、开放且快速的个人知识库。然而，现有的主流解决方案都存在权衡： Evernote：它因商业广告和不必要的功能而变得越来越臃肿，从而降低了性能。数据导出繁琐，免费套餐受到严格限制，AI
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: cloudflare, cloudflare-d1, cloudflare-r2, cloudflare-workers, electron, evernote
+
+---
+
+### 🌟 [agentrq](https://github.com/agentrq/agentrq)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,066
+- **核心概述**: AgentRQ：人工智能代理的人机交互实时对话任务管理器。
+- **大概是做什么的**: AgentRQ ── 智能体与人类协作平台 在 YouTube 上观看高清视频 AgentRQ 是一个现代化的高性能平台，专为人类操作员和人工智能智能体之间的无缝协作而设计。它利用模型上下文协议 (MCP) 允许 AI 模型（如 Claude）直接与工作空间的任务管理系统交互。将 AgentRQ 视为人类和 AI 代理无缝协作的共享工作区。您可以将复杂的目标分解为可管理的任务，并将工作直接委托给您的 AI 代理。由于代理通过 MCP“查看”工作区状态，因此他们可以自主提取分配��任务、更新状态、请求敏感操作的权限以及与您进行通信——所有这些都在整个平台上实时同步。 AgentRQ 遵循解耦的面向服务的架构： 后端（Go / Fiber） - API 服务器：用于工作区和任务管理的基于 Fiber 的 REST API。 - MCP 服务器：集成的 mcp-go SSE 服务器，向 AI 模型公开工具和资源。 - CoreMCP（Supervisor）：全局MCP服务器，允许代理管理所有工作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acp-client, acp-gateway, agentic-ai, agentic-workflow, agents, mcp
+
+---
+
+### 🌟 [MinecraftDev](https://github.com/minecraft-dev/MinecraftDev)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 1,777
+- **核心概述**: IntelliJ IDEA 插件，为 Minecraft 模组项目提供特殊支持。
+- **大概是做什么的**: 适用于 IntelliJ 的 Minecraft 开发信息和文档 请访问 https://mcdev.io 了解有关该项目的一些信息。该插件可在 JetBrains IntelliJ 插件存储库中找到。因此，您可以通过 IntelliJ 的内部插件浏览器安装该插件。导航到“文件”-“设置”-“插件”，然后单击窗口底部的“浏览存储库...”按钮。在搜索框中，只需搜索 Minecraft 。您可以从那里安装它并重新启动 IntelliJ 以激活该插件。 Gradle 将下载构建项目所需的所有依赖项，但您确实需要安装 JDK 21 并可供 Gradle 使用才能构建。您可以轻松地从 Adoptium 安装 JDK 21。插件的输出 .zip 文件将位于 build/distributions 中。在 IntelliJ 中测试插件：代码在构建任务期间生成，运行生成任务而不构建使用：此任务对于在初始构建之前处理代码而没有错误是必要的。要格式化此项目中的代码：这将使用下面样式指南部分中描述的 ktlint 进行格式化。钍
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: architectury, bukkit, bungeecord, fabricmc, forge, gradle
+
+---
+
 ## 🕔 2026-08-07 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 287 个候选项目中筛选出 6 个未推荐过的新项目。
