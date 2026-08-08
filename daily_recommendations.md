@@ -1,3 +1,67 @@
+## 🕔 2026-08-08 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 272 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Burrow](https://github.com/caezium/Burrow)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 1,216
+- **核心概述**: 🐹 在一款免费、开源、本机 Mac 应用程序中进行清理、应用程序管理、维护、磁盘分析和实时状态 + 对 AI 代理的广泛支持。即将登陆 Windows
+- **大概是做什么的**: Burrow 是一个独立的开源项目。它捆绑了自己的 MIT 引擎 - burrow-engine ，是 tw93 的 Mole ( mo ) CLI 的一个分支 - 并且不隶属于 mole.fit （由 mo 的作者开发的 Mole for Mac 应用程序），也不受其认可；它自己的名称、标记、调色板和副本都是原创的。如果您喜欢 Mole 并想资助 mo 的开发 – 购买mole.fit（19 美元）。 🐹 Mac 的开源系统伴侣 — 清理、卸载、分析、优化和监控，专为您和您的 AI 代理而构建。 Burrow 将您的 Mac 所需的一切都放在一个免费的本机应用程序中：垃圾清理、开发工件清除、应用程序卸载并删除剩余内容、重复查找、安全维护、磁盘映射和实时系统状态 - 由捆绑的、经过审核的开源引擎（burrow-engine，Mole's mo 的一个分支）提供支持，因此无需安装其他任何东西。它所做的事情是其他清理器无法做到的：它保留数月的本地指标历史记录并运行内置的 MCP 服务器，因此 Claude Code、Codex 和 Cursor 等 AI 代理可以监视、查询和维护您的 Mac — 每个操作都经过同意门控、审核且可逆。原生于 macOS，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: cleaner, disk-usage, macos, mcp, menubar, mole
+
+---
+
+### 🌟 [deja-vu](https://github.com/vshulcz/deja-vu)
+- **项目语言**: Go
+- **星标数量**: ⭐ 599
+- **核心概述**: 你的代理已经解决了这个问题。 deja 找到了它——它索引了您的编码代理已经写入磁盘的会话、安装它之前的几个月的历史记录，并在会话开始时跨 17 个线束自动调用它们。 LongMemEval-S 上的命中率为 84.9%，无法学硕士，无嵌入。一个零深度二进制文件，完全本地化。
+- **大概是做什么的**: 你的代理已经解决了这个问题。德雅找到了它。记忆工具开始为空并向前记录。 deja 完全启动：它会索引您的编码代理已写入磁盘的会话（从安装它之前的几个月的历史记录），在 1.5 毫秒内搜索 3.5 GB，通过 MCP 将其返回给任何代理，并通过 SSH 在计算机之间移动。一种零依赖二进制文件，完全本地化。 LongMemEval-S 检索的命中率为 84.9%，无法学硕士、无嵌入、无 API 密钥。利用回购协议，自己运行它。 vshulcz.github.io/deja-vu · deja 如何比较 每一行都引用自两个真实的 Claude Code 会话 — 同样的问题，同一个代理，一次没有记忆，一次有 deja。没有人搜查任何东西：特工自己打电话给 deja。 LongMemEval-S 上的命中率为 84.9% · LoCoMo 上的命中率为 69.8% · 零 LLM 调用、零嵌入、零 API 密钥 · 3.5 GB 上的中值搜索时间为 1.5 毫秒 两个工具都在此存储库中提供，并在几分钟内即可在公共数据集上运行 - 请自行检查数字。对于以捆绑形��安装 MCP 服务器的桌面应用程序，每个版本
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-memory, claude, claude-code, cli, codex
+
+---
+
+### 🌟 [ifc-lite](https://github.com/LTplus-AG/ifc-lite)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 323
+- **核心概述**: 开源 IFC 工具包：WebGPU 渲染、柱状内存存储、精确算术几何内核。从 CDN 运行。 30 多个 TypeScript 包和 5 个 Rust 箱。
+- **大概是做什么的**: 打开、查看和使用 IFC 文件。就在浏览器中。完全在客户端解析、查看、查询、编辑、验证和导出 IFC 文件。编译为 WASM 的 Rust 核心负责解析和几何图形，WebGPU 渲染器将其显示在屏幕上，36 个 npm 包可让您准确选择所需的部分。 Geometry 在精确算术 CSG 内核上运行，并在公共基准语料库中针对 IfcOpenShell 逐个元素进行验证。适用于 IFC2X3、IFC4/IFC4X3 和 IFC5 (IFCX)。现场演示请访问 ifclite.com，更多信息请访问 ifclite.dev。这将为您提供一个可运行的 WebGPU IFC 查看器，具有拖放、层次结构、属性和 2D 绘图功能。其他模板： basic 、 Threejs 、 Babylonjs 、 server 、 server-native 。要将 IFClite 添加到现有项目：更喜欢终端？整个工具包也是一个 CLI：对于 Three.js 或 Babylon.js，以相同的方式解析和提取几何体并将网格提供给您的引擎。请参阅 Three.js 集成和 Babylon.js 集成。对于更复杂的查询，请通过 DuckDB-WASM 使用 SQL： 针对 IDS 进行验证 编辑属性（带撤消） 从终端工作 ifc-lite CLI c
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: 3d-viewer, bcf, cli, columnar, ids, ifc
+
+---
+
+### 🌟 [scientific-illustrator](https://github.com/icebird1998/scientific-illustrator)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 428
+- **核心概述**: 通过 Codex/MCP 和设计者-绘图者-审阅者-校正者质量门可在 PowerPoint 和draw.io 中编辑科学图表。
+- **大概是做什么的**: Scientific Illustrator 把参考图上传给 Codex，插件会在 Microsoft PowerPoint、WPS 演示或 draw.io 中尽量用可编辑对象重新绘制，并自动检查和修正。 本项目是 drawio-scientific-illustrator 的升级整合版，后续功能只在本项目更新。 请安装 https://github.com/icebird1998/scientific-illustrator。 把仓库根目录注册为 Codex Marketplace，然后安装 scientific-illustrator@scientific-illustrator-tools。完成后提醒我重启 Codex。 3. 打开准备使用的 PowerPoint、WPS 演示或 draw.io Desktop。 把参考图上传到 Codex，然后从下方选择与你的软件对应的提示词， 整段复制发送 即可。 软件 Windows macOS 使用方式与结果 Microsoft PowerPoint 支持 支持 绘制为可编辑 PPTX；Windows 可实时绘制，Mac 可选择普通模式或实时加载项模式 WPS 演示 支持 支持 绘制为可编辑 PPTX 工作副本；默认按检查点后台刷新，不会持续抢占窗口 draw.io Desktop 支持 支持 直接控制 draw.io 画布，保存可编辑 .drawio 并导出预览图 默认情况下，PowerPoint 和 WPS 会在后台绘制，你可以继续使用电脑。WPS 使用可编辑 PPTX 工作副本，不会假装已经连接任意未保存的当前窗口；macOS 会验证文件是否真的由 WPS 打开，Windows 无法验证时会明确显示“未知”。draw.io 不认识的图形名会直接报错，不会悄悄退化成矩形。显微照片、复杂纹理等确实无法用形状还原的内容，只会把最小必要区域作为图片插入，其余文字、箭头和边框仍保持可编辑。 每次更新都会在 Ubuntu、macOS 和 Windows 上运行代码、MCP、Python、PowerShell、路径发现与 OOXML 回归测试。本版另在真实 Mac 上验证了 PowerPoint 精确打开/刷新/关闭、WPS 指定文件打开和 draw.io 实时画布；GitHub 公共测试机没有商业版 PowerPoint/WPS，因此 Windows 的应用内联调必须由安装后的状态工具确认，不能把模拟测试当成实机连接成功。 使用 Microsoft PowerPoint 先打开 PowerPoint 并上传参考图，然后复
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: codex, drawio, editable-figures, mcp, powerpoint, scientific-illustration
+
+---
+
+### 🌟 [mingyu](https://github.com/Brhiza/mingyu)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 280
+- **核心概述**: 八字、紫微、星盘、六爻、梅花、奇门、大六壬、小六壬、塔罗、雷诺曼、灵签、择日一站式排盘，输出结构化提示词与数据。提供公开 API、MCP Server 与 skill。
+- **大概是做什么的**: 命语是一个算命、占卜、择日的提示词生成项目，目标是把排盘、起卦、抽牌、结构化数据和 AI 提示词连接成一条清晰可复用的流程。让所有人都可以快速的生成专业可靠的排盘信息，而不是依靠模糊的关键词和无脑堆叠专业词汇，让AI占卜相对更加可靠，享受术数的神秘智慧。 你可以在网页端快速完成排盘或占卜，时间类占卜支持使用当前时间或自定北京时间，并复制提示词给你常用的所有 AI 工具继续解读；对于移动端用户还可以使用分享功能快速跳转；也可以通过公开 API、MCP Server 或 skill，把命语的排盘与提示词能力接入自己的应用、工作流和智能体系统。 项目网页目前按“排盘、合盘、占卜、择日”组织：排盘包含八字、紫微、星盘、七政四余和住宅风水，占卜包含六爻、梅花易数、奇门遁甲、大六壬、太乙神数、塔罗牌和三山国王灵签。住宅风水为产品统一入口，后台分层计算八宅与玄空飞星后再合参；底层八宅、玄空仍可通过 API / MCP 单独调用。 公开 API：https://aov.cc/api/v1/manifest OpenAPI：https://aov.cc/api/v1/openapi.json 公开 skill：https://aov.cc/skills/aov-mingyu-api/SKILL.md 以上 aov.cc 是本项目的官方线上实例；如果你 fork 后部署到自己的 Cloudflare Pages 或其他域名，公开 API 会按实际访问域名生成元数据和 OpenAPI 地址。 ��德箱：https://lk.sydf.cc/ - 八字排盘：四柱、十神、藏干、纳音、神煞、大运、流年、旺衰、格局、用神与调候分析；出生时间必须通过输入约束后才进入排盘，不生成模糊时间候选盘；年限提示词可输出原局—大运—流年—流月—流日逐层合冲刑害破、伏吟、岁运并临与天克地冲证据；双盘可计算日主、日支、四柱交叉关系、双向十神、喜忌覆盖与结构化证据，支持传统派、盲派、新派流派指引。 - 紫微斗数：以 iztro 原生能力输出十二宫、星曜、亮度、四化、三方四正及本命、大限、流年、流月、流日、流时，并随结果披露实际安星、闰月、分年、运限月份、小限年龄和晚子时口径；三合派、飞星派、四化派选项只改变解读侧重点，不改底层安星。固定版本传统目录现登记 87 项，其中 55 条具备原文与可复算条件，32 项因原文含糊或依赖运限只登记边界、不伪造命中；原 84 条未校勘项目规则继续停用，目录外格局不作判断。 - 星盘排盘：西方占星完整排盘，包含太阳、月亮、上升星座与宫位、十大行星、逆行提示与主要相位分析；本命、行
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, bazi, da-liuren, divination, fortune-telling, lenormand
+
+---
+
+### 🌟 [ContribAI](https://github.com/tang-vu/ContribAI)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 246
+- **核心概述**: 为开源做出贡献的自主人工智能代理——发现存储库、分析代码、生成修复程序并提交 PR
+- **大概是做什么的**: 自主 AI 代理，用于发现、分析并向 GitHub 上的开源项目提交 Pull 请求。入门 · 功能 · 命令 · 架构 · 名人堂 PR 已提交 44 多个存储库 贡献了 21 多种语言分析 13 个显着贡献： 🌍 Worldmonitor — 45k ⭐ · 3 项合并 🕵️ Maigret — 19k ⭐ · 3 项合并 🤖 AI-Research-SKILLs — 6k ⭐ · 1 项合并 📊 s-tui — 5k ⭐ · 1 合并 🔍 HolmesGPT — 2k ⭐ · 1 合并 查看完整的名人堂→ 每个 PR 的链接。 📝 config.yaml 示例 请参阅 config.yaml.template 了解所有选项。 - 通过树托管的 13 种语言 AST - 安全性：SQLi、XSS、资源泄漏 - 代码质量、复杂性、死代码 - 性能瓶颈 - 文档差距 - 按需加载 27 种渐进技能 🤖 多 LLM 支持 - Gemini 3.x（默认） - Flash、Pro、Lite 层 - OpenAI、Anthropic、Ollama、Vertex AI - 跨模型层的智能任务路由 - 5 个专门的子代理 - 多轮自主狩猎 - 问题优先策略 - 每个存储库的结果学习 - 监控 PR 以获得审查反馈 - LLM 对维护者评论进行分类 - 自动推送代码修复 - Au
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, automation, autonomous-agent, code-analysis
+
+---
+
 ## 🕔 2026-08-08 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
