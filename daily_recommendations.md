@@ -1,3 +1,67 @@
+## 🕔 2026-08-09 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 224 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [PyTorch-Tutorial-2nd](https://github.com/TingsongYu/PyTorch-Tutorial-2nd)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 4,579
+- **核心概述**: 《Pytorch实用教程》（第二版）无论是零基础入门，还是CV、NLP、LLM项目应用，或是进阶工程化部署落地，在这里都有。相信在本书的帮助下，读者将能够轻松掌握 PyTorch 的使用，成为一名优秀的深度学习工程师。
+- **大概是做什么的**: 时隔5年，历时4年，耗时2年的《PyTorch实用教程》（第二版）完成了。在第一版的精华之上，增加了丰富详实的 深度学习应用案例 和 推理部署框架 ，使本书更系统性的涵盖深度学习工程师所涉及的知识面。如人工智能技术发展一浪接一浪，《Pytorch实用教程》（第二版）不是结束，而是再次扬帆起航，开启新的技术、新的领域、新的篇章，希望未来能继续与大家一起在人工智能技术里学习、进步。 📚 在线阅读（ 开源免费 ）：《PyTorch实用教程》（第二版） 🖥️ 配套代码（ 开源免费 ）：《PyTorch实用教程》（第二版） 📢📢📢：请 点个Star ，予以鼓励！ 本项目已被 HelloGitHub 社区收录，已加入 HelloGitHub 徽章计划 本书以基础概念为基石，计算机视觉、自然语言处理和大语言模型为核心，推理部署框架为桥梁，皆在为读者提供面向项目落地的代码工程与理论讲解。本书整体分三部分，上篇：入门，中篇：应用，下篇：落地。 PyTorch基础。针对刚入门、非科班、本科生，提供PyTorch介绍，讲解开发环境的搭建，介绍PyTorch的数据、模型、优化、可视化等核心模块，最后利用所讲解的PyTorch知识点构建一套自己的代码结构，为后续的应用打下基础。 产业应用。经过上篇，磨了一把好刀，接下来就用它在各领域上大显身手。将��讲解三个主题，分别是计算机视觉（Computer Vision）、自然语言处理（Natural Language Processing）和大语言模型（Large Language Model）。 在CV章节，包括主流的任务，有 图像分类、图像分割、目标检测、目标跟踪、GAN生成、Diffusion生成、图像描述和图像检索 八大任务。 在NLP章节，包括RNN、LSTM、Transformer、BERT和GPT模型详解与应用，应用的任务有 文本分类、机器翻译、命名体识别、QA问答和文章生成 五大任务。 在LLM章节，包括4个LLM部署与代码分析和一个LLM行业应用—— GPT Academic（GPT 学术优化） ，LLM包括国内开源的四大主流模型， Qwen、ChatGLM、Baichuan和Yi 。 工业落地。有了工具，有了场景，接下来就要让它产生价值，变成可用的、好用的算法服务。因此，从pytorch这样一个训练框架、重框架中剥离出来进行部署、加速、量化是常见的方法。本章将介绍 ONNX和TensorRT 的原理与使用，同时借助TensorRT详细分析模型量化概念、 PTQ和QAT量化 实战与原理。 相信经过上、中、下篇的学习，可
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: computer-vision, deepsort, diffusion-models, llm, onnx, pytorch
+
+---
+
+### 🌟 [Compartment](https://github.com/MaxFreedomPollard/Compartment)
+- **项目语言**: Python
+- **星标数量**: ⭐ 509
+- **核心概述**: 加密的、完全离线的代理内存。一键安装、带内存映射的 GUI、所有操作系统和代理。卓越的记忆创建、存储和检索。
+- **大概是做什么的**: 列出于：PyPI · Glama · LobeHub · MCP Toplist · mcpservers.org · TensorBlock · Libraries.io · Snyk Advisor · deps.dev 持久代理内存，静态加密。会话结束后，您的人工智能代理就会忘记您。车厢结束了。借助 Compartment，您的 AI 代理会随着经验的积累而变得更好：它会将您提供的每一个决定、偏好和详细信息永久加密地保存在您自己的计算机上。 Hermes、Claude、OpenClaw 等 AI Agent 可以通过一条命令安装。一个完全可转移的内存��储由计算机上的所有代理同时共享。 100%离线：没有网络、没有API密钥、没有云帐户、没有遥测。嵌入模型在包内提供，完整搜索将在大约 12 毫秒内返回，这比托管内存收取的往返费用要高。每个静态字节都经过 AEAD 加密，包括嵌入向量，并且只有您的密码才能打开它。与其他代理内存不同，我们提供了一个从内存开始的选项 - 在安装时植入的 6,718 个精选事实：物理常数和单位转换、800 多个具有真实规格的硬件事实（Apple silico
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, ai-agents, ai-memory, claude, claude-code, claude-desktop
+
+---
+
+### 🌟 [AI-Stock-Master](https://github.com/hengruiyun/AI-Stock-Master)
+- **项目语言**: Python
+- **星标数量**: ⭐ 361
+- **核心概述**: AI股票大师-基于AI 的股票趋势分析平台，通过AI 解读中国、香港、美国股票市场，融合三大核心算法，独家预分析多维数据，为投资者提供全方位的学习支持. This is an AI-based stock trend analysis platform that integrates three core algorithms:
+- **大概是做什么的**: 由 Refine AI Publisher 赞助 - AI 增强功能可在 macOS 上实现更清晰的文档、更智能的报告和专业的 PDF 导出。了解更多 这是一个基于人工智能的股票趋势分析平台，利用大语言模型解读中国、香港和美国股市。它集成了RTSI个股趋势强度指数、MSCI市场情绪指数、核心强度分析器等多种核心算法，为投资者提供全面的投资决策支持。对于 OpenClaw：Master OpenClaw 重要提示：该项目用于学习和研究。这不是财务建议，历史结���并不能保证未来的业绩。 - 人工智能与大语言模型技术架构 - 核心算法详情 - 使用说明 - 风险提示与免责声明 - 多维数据：整合多维度数据点，捕捉市场关键信息 - 多层次分析：涵盖个股、行业、市场的三层分析体系 - 多种算法：AI增强的RTSI/MSCI/核心强弱分析算法 - 优势一
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, analysis, finance, fund, llm, stocks
+
+---
+
+### 🌟 [askimo](https://github.com/askimo-ai/askimo)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 300
+- **核心概述**: 用于聊天、RAG、计划、MCP 工具和代理的 AI 客户端。支持多个LLM（Anthropic、OpenAI、VertexAI、vLLM、Nvidia NIM、Gemini、OpenRouter）
+- **大概是做什么的**: 一个应用程序。每个人工智能模型。您的文件保留在本地。聊天 · 搜索文件和网络 · 运行脚本 · 构建多步骤 AI 工作流程 · 执行 AI 代理技能 - 全部都可以离线使用，全部在您的计算机上。 ⭐ 如果 Askimo 节省了您的时间，星星会帮助其他人找到它 - 并让项目继续进行。在 GitHub 上加注星标 → 📖 文档 • 您不必在最佳 AI 模型、您的隐私和完成实际工作之间做出选择。 - 一个应���程序，每种型号。停止玩弄浏览器选项卡。与 OpenAI、Claude、Gemini、Grok 或本地 Ollama 模型聊天，几秒钟内切换，无需复制粘贴。 - 作为本机桌面应用程序构建。不是网络包装器。启动快速，运行精简，即使在使用数小时和一次对话中包含数千条消息后也能保持响应。 - 真正有效的长对话。没有崩溃，没有选项卡重新加载，没有丢失上下文。 Askimo 以真正的桌面应用程序应有的方式处理深度、扩展的会话。 - 您的文件保留在您的计算机上。使用本地 RAG 搜索您自己的文档并与之聊天。没有上传任何内容。没有任何东西离开您的设备。 - 不仅仅是聊天。运行 Python/Bash 脚本，cha
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-workflow, ai, ai-assistant, artificial-intelligence, chat-client, chatgpt
+
+---
+
+### 🌟 [Joanium](https://github.com/Joanium/Joanium)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 204
+- **核心概述**: 您智能、可靠、友好的个人人工智能助理。
+- **大概是做什么的**: 实际上存在于您机器上的人工智能桌面助手。多模型聊天 · 预定的自动化 · 后台代理 · MCP · 真正的集成 等等，这是什么？ Joanium 是一个本地优先的人工智能桌面代理，它确实在做事——而不仅仅是谈论做事。你知道每个人工智能工具都只是一个非常奇特的聊天框吗？你打字。它回复了。到明天你就会失去上下文，然后你又得将整个代码库复制粘贴到提示中，就像 2023 年一样。单身的。早晨。是的。我们也对此感到厌倦。 Joanium 存在于您的机器上。它知道你的文件。它在您睡觉时运行作业。你的数据呢？它永远不会离开您的设备。一点点也没有。每天早上 8 点，Joanium 都会提取我的 GitHub 问题，用 AI 进行总结，然后将优先级列表放入我的 Slack 中。我设置过一次。它只是运行。永远。那不是聊天机器人。这才是真正的经纪人。 🧠 多模型，零锁定在 Gemini、Claude、GPT、Grok、Mistral 之间切换，或使用 Ollama / LM Studio 完全离线。 10+ 提供商。使用赢得基准测试的任何模型
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, automation, claude-code, codex
+
+---
+
+### 🌟 [agent-graph](https://github.com/keta1930/agent-graph)
+- **项目语言**: Python
+- **星标数量**: ⭐ 213
+- **核心概述**: Agent Graph 是一个基于上下文工程原理构建的多代理系统
+- **大概是做什么的**: Agent-Graph 是一个基于上下文工程原理构建的多代理系统。它集成了子代理、长期记忆、MCP、基于代理的工作流等功能。通过将上下文工程最佳实践集成到可视化开发体验中，Agent-Graph 使开发人员能够快速构建、测试和部署复杂的多代理应用程序。文档 https://keta1930.github.io/agent-graph/ - 配置和启动 Docker 服务 - 访问应用程序 5. 前端功能展示 📖 详细安装文档：docs/first-steps/install.md 组件要求 ---------- ------------- 操作系统 Linux、macOS 或 Windows（需要 WSL2） Docker 版本 20.10+ 和 Docker Compose Python 版本 3.11+ 内存 最低 4GB（建议 8GB）存储 至少 10GB 可用空间 2.2.配置并启动 Docker 服务 默认服务地址： - MongoDB Express（数据库管理）：http://localhost:20041 - MinIO Console（文件存储）：http://localhost:20043 使用 uv（推荐）：2.4。 Access Application 打开PUBLIC API BA配置的地址
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-framework, agentic-workflow, graph, mcp
+
+---
+
 ## 🕔 2026-08-08 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
