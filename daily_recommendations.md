@@ -1,3 +1,67 @@
+## 🕔 2026-08-09 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 274 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 11,208
+- **核心概述**: 由 AI 驱动的逆向工程助手，通过 MCP 将 IDA Pro 与语言模型连接起来。
+- **大概是做什么的**: 简单的 MCP 服务器允许在 IDA Pro 中进行振动反转。 https://github.com/user-attachments/assets/6ebeaa92-a9db-43fa-b756-eececce2aca0 视频的二进制文件和提示可在 mcp-reversing-dataset 存储库中找到。 - Python（3.11 或更高版本） - 使用 idapyswitch 切换到最新的 Python 版本 - IDA Pro（8.3 或更高版本，推荐 9），不支持 IDA Free - 支持的 MCP 客户端（选择您喜欢的一个） - Amazon Q 开发人员 CLI - 其他 MCP 客户端：运行 ida-pro-mcp --config 以获取客户端的 JSON 配置。注意：这需要全局激活 idalib 并安装 uv： 安装（Claude Code） 要在 Claude Code 中安装最新的 IDA Pro MCP： 安装（Codex） 要在 Codex 中安装最新的 IDA Pro MCP： 安装（Kimi Code） 要在 Kimi Code 中安装最新的 IDA Pro MCP，请在聊天中运行此斜线命令： 这将安装 idalib MCP 服务器和 idapython 技能。插件被复制到 $KIMI CODE HOME/plugins/management/ ，因此 uv 必须位于您的 PATH 中。安装后的第一个会话比较慢，因为uv在se之前解决了依赖关系
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, aiagent, binary-analysis, ida-plugin, ida-pro, mcp
+
+---
+
+### 🌟 [Observal](https://github.com/Observal/Observal)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,272
+- **核心概述**: Observal 是 AI 组件的本地注册和分析平台。设置观察、定义范围并分享您的技能、MCP 和代理。
+- **大概是做什么的**: ██████╗██████╗███████╗███████╗██████╗██╗██╗█████╗██╗ ██╔═══██╗██╔══██╗██╔════╝██╔════╝██╔══██╗██║ ██║██╔══██╗██║ ██║ ██║██████╔╝███████╗█████╗ ██████╔╝██║ ██║███████║██║ ██║ ██║██╔══██╗╚════██║██╔══╝██╔══██╗╚██╗██╔╝██╔══██║██║ ╚██████╔╝██████╔╝███████║███████╗██║ ██║╚████╔╝██║██║███████╗╚═════╝ ╚═════╝╚══════╝╚══════╝╚═╝╚═╝╚═╝╚═══╝╚═╝ ╚═╝╚══════╝ Observal 是内部 AI 组件的控制平面和记录系统如果您发现 Observal 有用，请考虑给它一颗星。它可以帮助其他人发现该项���并保持开发的进行。什么是 Observal？它能解决什么问题？ Observal 是内部人工智能组件的控制平面和记录系统。如今，每个技术领先的组织都会创建内部技能、代理、MCP 服务器和其他 AI 组件来提高生产力。尽管这些组件的创建非常丰富，但此类组件的采用和使用却很少。如今，开发人员/人工智能用户最终会创建自己版本的人工智能组件，而无需重用现有的软件包。究其原因，很大程度上是由于两个问题： 1. 缺乏系统
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, analytics, antigravity, claude-code, cli-tool, codex
+
+---
+
+### 🌟 [kubb](https://github.com/kubb-labs/kubb)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,771
+- **核心概述**: 🧡 代码生成的元框架。使用模块化、基于插件的引擎将 OpenAPI 自动化为类型安全的 TypeScript、Zod 和 TanStack 查询。
+- **大概是做什么的**: 用于代码生成的元框架 将 Kubb 指向模式，它会生成类型、客户端、钩子、验证器、模拟等。运行安装向导来创建 kubb.config.ts ：向导会根据需要创建 package.json ，指导您完成插件选择、安装包并写入 kubb.config.ts 。然后生成您的代码：有关详细用法和高级功能，请参阅文档。 - 从一种模式生成 TypeScript 类型、类型安全客户端、TanStack 查询和 SWR 挂钩、Zod 验证器、Faker 模拟和 MSW 处理程序。 - 生成带有状态键控结果、身份验证、验证、文件上传、服务器发送事件、拦截器和可交换传输的类型化 axios 或 Fetch 客户端。 - 通过 @kubb/adapter-oas 等适配器读取 OpenAPI 2.0、3.0 和 3.1，并输出 Node.js 和 Bun。 - 仅启用您需要的插件：plugin-ts、plugin-axios、plugin-fetch、plugin-react-query、plugin-vue-query、plugin-swr、plugin-zod、plugin-faker、plugin-msw、plugin-cypress、plugin-redoc、plugin-mcp。 - 通过按标签对文件进行分组来调整输出，包括或排除操作
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: axios, claude, codegen, faker, kubb, mcp
+
+---
+
+### 🌟 [KKTerm](https://github.com/ryantsai/KKTerm)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 434
+- **核心概述**: 适用于 vivi 编码员和系统管理员的超级工具 — 终端、SSH、SFTP、RDP/VNC、仪表板、安装帮助程序和内置 AI 助手。
+- **大概是做什么的**: 一个用于终端、SSH、SFTP、RDP/VNC 和仪表板的本机桌面窗口，以及可根据要求构建您自己的小工具的 AI。因为你的任务栏不应该看起来像维加斯老虎机。台湾系统管理员在服务器上放置的绿色椰子零食以乖乖 (Kuāi Kuāi) 命名，以保持服务器行为良好。我们希望这个应用程序能够在货架上占据一席之地。 KKTerm 将本地终端、SSH/SFTP、FTP/FTPS、Telnet、串行、RDP/VNC、嵌入式网页、本地文件和文档集成到一个桌面工作区中。选项卡可以混合不同的窗格类型，因此一项作业的终端、文件浏览器和远程屏幕可以保持在一起。它在 Windows、macOS 和 Linux 上运行，具有本地优先存储且无遥测。内置有审批门控的人工智能、可定制的仪表板小部件、工作区、IT 运营和 Windows 安装帮助程序。走进任何台湾数据中心，看看机架顶部。经过台积电晶圆厂、台北地铁控制室、国泰银行服务器大厅、中华电信交换机——你会发现一小袋乖乖（Kuāi Kuāi），这是一种 1960 年代的椰子味玉米零食。 KK 术语是
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-tools, devops, local-first, mcp, rdp, react
+
+---
+
+### 🌟 [scrumboy](https://github.com/markrai/scrumboy)
+- **项目语言**: Go
+- **星标数量**: ⭐ 427
+- **核心概述**: 自托管看板和项目管理，具有可共享看板、语音命令、便签、多语言和 MCP 支持
+- **大概是做什么的**: 自托管项目管理和问题跟踪解决方案 + 即时共享和可定制面板 + 实时协作、自动化、API 访问和 MCP 兼容客户端支持 - 运行官方 Docker 映像 - 从源代码本地构建 - 运行 Windows 可执行文件 - 可选配置 - 环境变量 - 加密和 TLS - SMTP（自助密码重置） - 公共 URL 和反向代理 - 用于 2FA/密码重置的加密密钥 - 用于自助密码重置的 SMTP（可选） - OIDC / SSO 登录（可选） -所有者灾难恢复 - TLS / HTTPS（可选） - PWA / Web 推送（可选） - 前端构建说明 - 集成和 API 访问 - 用于 AI 代理的 MCP (JSON-RPC) - Webhooks（出站 HTTP） - 系统角色（实例范围） - 项目角色（每个项目） - 许可证和贡献 在几秒钟内运行。无需设置。启动应用程序不需要 .env 文件、TLS 证书或加密密钥。 Scrumboy 默认在 ./data 下创建运行时数据。默认的 SQLite 数据库是 ./data/app.db ，并且 SQLite 还可能在服务器运行时创建 app.db-wal 和 app.db-shm
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: agile, ai-integration, collaboration, docker, go, golang
+
+---
+
+### 🌟 [Containarium](https://github.com/FootprintAI/Containarium)
+- **项目语言**: Go
+- **星标数量**: ⭐ 268
+- **核心概述**: 开源代理运行时 — SSH 本机隔离、eBPF 出口策略、Kubernetes + LXC 后端、GPU 直通、MCP 本机 CLI
+- **大概是做什么的**: Containarium — 代理运行时 开源代理运行时 · SSH 原生隔离 · eBPF 出口策略 · Kubernetes + LXC · MCP 原生 CLI · GPU 直通 用于 AI 代理的开源、自托管代理运行时。每个代理都会获得一个持久的、可通过 SSH 访问的盒子，并且具有每个租户的网络隔离功能——没有 kube-apiserver 令牌，没有主机访问，没有跨租户泄漏。带上您自己的代理 — Cursor、Claude Code、OpenCode、您自己的 MCP 客户端。 🌐 项目站点：containarium.dev · 🎬 55s 演示：youtu.be/IBDDD tb8FY · 🚀 实时应用程序：helloworld.demo.containarium.dev 为什么要使用代理运行时？人工智能代理日益成为开发基础设施的主要用户。他们想要构建、安装、部署和验证——不是在人类的笔记本电脑上（太吵闹、太危险、太本地化），而是在持久的、隔离的运行时上： - 持久：状态在代理运行之间保留。 - 隔离：行为不当的安装不会影响您的计算机或集群。 - 真实：一个完整​​的 Linux 环境，具有 systemd、真实网络以及在开放互联网上托管事物的能力。 - 由结构���工具驱动：而不是由代理典型驱动
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-native, agent-runtime, agent-sandbox, agentic-ai, ai-agents, claude
+
+---
+
 ## 🕔 2026-08-09 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 220 个候选项目中筛选出 6 个未推荐过的新项目。
