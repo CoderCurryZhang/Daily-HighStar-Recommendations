@@ -1,3 +1,67 @@
+## 🕔 2026-08-09 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 227 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [VulnClaw](https://github.com/Netw0rkNoob/VulnClaw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,658
+- **核心概述**: 基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。
+- **大概是做什么的**: AI 驱动的渗透测试 CLI 工具 — 说人话，打漏洞。 🌐 English version : README EN.md 本项目是可独立运行的 AI 渗透测试 Agent。 项目官网：https://unclecheng-li.github.io/vulnclaw.com/ 基于 LLM Agent + MCP 工具链 + 可选 Skill 参考资料， 配合 OpenAI / Anthropic / MiniMax / DeepSeek 等兼容模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。 快速开始 · 架构 · 内置 Skill 输入自然语言，AI 自动执行渗透测试全流程： 适用于已授权的渗透测试、CTF 竞赛、安全教学、红队演练等场景。 - 模型主导求解引擎（默认） — 类似 Claude Code/Codex 的自主循环，模型自己决定下一步、何时调用工具、何时完成/询问/判定无路可走 - AgentState 证据记忆 — 工具结果统一写入 AgentState.evidence ，raw 原文完整保留；active context 默认只注入高信号预览， evidence search / evidence view 用于按需回查原始证据 - 轻量纠偏层 — 工具调用前后记录重复调用、失败降级、耗时和新发现等信号；重复读取同一 evidence 范围会被抑制，连续证据空转会触发 stall guard，但不恢复旧阶段规划器 - 证据级反幻觉闸门 — 声称的 flag/结论必须在真实工具输出里逐字符出现才被采信，杜绝凭空编造 flag 的假胜利 - 自然语言驱动 — 用人话描述渗透意图，自动识别阶段���工具 - 14 个 LLM Provider — OpenAI / Anthropic / MiniMax / DeepSeek / 智谱 / Moonshot / 千问 / SiliconFlow / 豆包 / 百川 / 阶跃星辰 / 商汤 / 零一万物 / 本地 Ollama，一键切换 - MCP 工具链 — 4 个 MCP 服务： fetch / memory 本地实现开箱即用， chrome-devtools / burp 对接外部 MCP 服务实现浏览器自动化和 HTTP 抓包重放 - 增强 fetch 请求工具 — 默认直接 GET 并返回完整响应 body，支持 HTTP/HTTPS、自定义 method/headers/params/cookies/body/data/form/json、t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-tools, ctf, cybersecurity, openclaw
+
+---
+
+### 🌟 [agentql](https://github.com/tinyfish-io/agentql)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,443
+- **核心概述**: AgentQL 是一套用于将 AI 连接到网络的工具。具有查询语言和 Playwright 集成，用于与元素交互并快速、精确和大规模地提取数据。包括 REST API、Python 和 JavaScript SDK、浏览器调试器。
+- **大概是做什么的**: AgentQL 将 LLM 和 AI 代理连接到整个网络 AgentQL 是一套工具，用于在实时网站上提取数据和自动化工作流程，具有 AI 支持的查询语言、Python 和 JavaScript SDK、基于浏览器的调试器和 REST API 端点。它使用自然语言查询来查明任何网页上的数据和元素，包括经过身份验证和动态生成的内容。用户可以定义结构化数据输出并在查询中应用转换。 AgentQL 的自然语言选择器根据网页内容直观地查找元素，并在类似的网站上工作，随着 UI 随着时间的推移而变化，可以进行自我修复。通过我们的快速入门，5 分钟内即可开始！ - Playwright AgentQL 的 Python SDK 和 JavaScript SDK 与 Playwright 无缝集成，以实现高级自动化和测试。 - 跨站点兼容性使您可以在具有相似内容的不同站点上使用相同的查询。 - 由查询的形状定义的结构化输出。 - 自然语言选择器使用直观的查询在网站上的任何位置查找元素和数据。 - 转换和扩展
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, aiagent, automation, javascript, playwright
+
+---
+
+### 🌟 [deer-workflow](https://github.com/deerwork-ai/deer-workflow)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 412
+- **核心概述**: 一个开源图形工程运行时，可在 TypeScript 中保持编排并将语义工作委托给可替换的代理运行时。
+- **大概是做什么的**: 用于构建可观察、可重用的 Agent deer-workflow 的开源 Dynamic Workflow 运行时是 DeerFlow 3.0 的一个试点项目，也称为 DeerWork 。 Deer Workflow 是图形工程的代码优先实现：TypeScript 定义有效的执行路径，而编码代理在每个节点内执行语义工作。 - 代码就是计划。控制流、阶段、输入和故障处理存在于可审查的 TypeScript 中，而不是不透明的代理对话中。 - 代理是可更换的。 Codex 是默认运行时；内置 Claude Code 和 Pi；并且公共代理接口保持供应商中立。 - 执行是可观察的。交互式运行提供阶段感知 TUI；自动化可以使用稳定的 JSONL 事件流。安装 Bun 并登录 Codex CLI，然后安装已发布的 CLI： 描述您想要的编排。 Deer Workflow 要求 Codex 应用捆绑的工作流创建器技能并编写可运行的 TypeScript 模块：使用 --agent claude 或 --agent pi 与另一个安装的 Harness 一起生成。 Codex 仍然是默认值。运行生成的工作流程及其
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, ai-agents, ai-coding, bun
+
+---
+
+### 🌟 [opencode-goal-plugin](https://github.com/prevalentWare/opencode-goal-plugin)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 238
+- **核心概述**: OpenCode 目标插件适用于 Codex 风格的目标模式、/goal 斜杠命令、持久目标和 AI 编码代理焦点。
+- **大概是做什么的**: OpenCode Goal Plugin OpenCode Goal Plugin 为 OpenCode 添加了 Codex 风格的长时间运行目标模式。它为 AI 编码代理提供了 /goal 斜杠命令、持久目标状态、完成证据、空闲延续和终端 UI 目标指示器，以便 OpenCode 会话可以继续朝着一个明确的目标努力，直到完成、阻止或清除。如果您正在寻找 OpenCode 目标插件、OpenCode 的目标模式，或者让 OpenCode AI 编码代理专注于长时间运行的任务的方法，那么此包就是该工作流程的 npm 插件。 - npm 包：@prevalentware/opencode-goal-plugin - GitHub 存储库：prevalentWare/opencode-goal-plugin - OpenCode 插件命令：opencode 插件 @prevalentware/opencode-goal-plugin OpenCode Goal 插件添加了： - /goal 作为 TUI、桌面和 Web 的 OpenCode 命令。 - 侧边栏目标指示器，包含状态、已用时间和目标。 - 代理工具：获取目标、获取目标历史、创建目标、设置目标、更新目标、更新目标和明确目标。 - 目标接近证据：完成需要经过验证的证据，未满足需要
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, coding-agent, developer-tools, goal, goal-mode
+
+---
+
+### 🌟 [academic-commercialization-agent](https://github.com/shuxiachai/academic-commercialization-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 313
+- **核心概述**: 将任何研究论文转化为商业化报告 - 6 个人工智能代理、TRL/MRL 评分、专利情况、市场情报、经过验证的引文。 DeepSeek / OpenAI / 克劳德。
+- **大概是做什么的**: 学术商业化评估代理在几分钟内将任何研究论文或主题转化为商业化准备情况报告 - 六个人工智能代理收集学术、专利和市场证据，然后生成带有可验证引用的评分报告。基于 CrewAI 构建的多智能体系统，用于评估学术研究的商业化准备情况。输入研究方向或论文主题。六个专门的人工智能代理自动从学术文献、专利数据库和市场情报来源收集证据，然后生成带有可验证引用和定量记分卡的结构化商业化评估报告。 ▶ 正在进行的分析 — 实时代理状态 +​​ 来源列表 ▶ 完整结果 — 记分卡、雷达图和完整报告 与 CrewAI 入门模板有何不同 原始演示 该项目 代理 2（研究人员 + 报告分析师） 6（专业角色） 任务 2 6（顺序 + 护栏验证） 工具 无 OpenAlex + Semantic Sc​​holar + SerperDevTool + Crossref 源集合 无 通过 URL 可达性检查进行确定性预运行检索
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: academic-research, ai-agent, anthropic, commercialization, crewai, deepseek
+
+---
+
+### 🌟 [pi-extensions](https://github.com/narumiruna/pi-extensions)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 301
+- **核心概述**: Pi Coding Agent 扩展的 TypeScript monorepo，用于自动化、规划、语言工具、浏览器控制、网络研究、Git 工作流程和配置同步。
+- **大概是做什么的**: 🧩 Pi Coding Agent 的 Pi 扩展 可独立安装的 Pi Coding Agent 扩展和可重用扩展库，用于编码、研究、浏览器自动化、工作流程管理、可观察性和终端 仅安装您需要的内容。每个包都在 @narumitw npm 范围下单独发布。永久安装扩展：尝试一个而不永久添加：组合多个扩展：Pi 扩展以您的完整用户权限运行。在从任何第三方安装扩展之前先检查它。 📦 选择扩展 编码和委托包 使用它来安装 pi-lsp 跨 JavaScript、TypeScript、Python、Rust、Go、Ruby、C/C++、JVM、.NET、Swift、shell、基础设施格式等的语言服务器诊断和代码操作。 pi install npm:@narumitw/pi-lsp pi-plan-mode 类似 Codex、只读/在实施开始之前计划协作。 pi install npm:@narumitw/pi-plan-mode pi-subagents 以单一、并行或链式执行模式委托独立的工作。 pi install npm:@narumitw/pi-subagents 浏览器和研究包 使用它进行安装
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, codex, codex-cli, coding-agent, nodejs, npm-package
+
+---
+
 ## 🕔 2026-08-09 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 274 个候选项目中筛选出 6 个未推荐过的新项目。
