@@ -1,3 +1,67 @@
+## 🕔 2026-08-10 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [butterbase](https://github.com/butterbase-ai/butterbase)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,969
+- **核心概述**: 开源后端即服务。 Postgres、身份验证、存储、功能、AI 网关、MCP。
+- **大概是做什么的**: 人工智能原生、开源后端即服务。 Postgres · 身份验证 · 存储 · 功能 · AI 网关 · MCP 服务器 Butterbase 为您提供了无需锁定的 AI 驱动应用程序的构建块：具有行级安全性的 Postgres 支持的后端、无服务器功能、LLM 网关、实时订阅、键值存储、文件存储、RAG、持久的每键参与者以及内置的模型上下文协议 (MCP) 服务器，以便代理可以使用工具而不是粘合代码来操作您的后端。 - Postgres 数据平面 — 每个应用程序的数据库，具有声明性模式 ( /schema )、自动 REST 端点 ( /auto-api ) 和迁移。 - 行级安全性 — 具有用户隔离助手 ( /rls ) 的一流 RLS 策略管理。 - 键值存储 — 具有 TTL 的区域性、配额保护的 KV、审计跟踪和仪表板公开规则 ( /v1/:app/kv/ )。 v0.2.0 中的新功能。 - 文件存储 — S3/R2 支持的对象存储，具有预签名 URL、ACL 和异步索引 ( /storage )。 - 无服务器函数 — 在 Deno 运行时 ( /functions ) 上执行的 TypeScript 函数。 - 耐用对象 - 聊天室的有状态的每键参与者
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: baas, backend-as-a-service, mcp, open-source, postgres, supabase-alternative
+
+---
+
+### 🌟 [camel](https://github.com/apache/camel)
+- **项目语言**: Java
+- **星标数量**: ⭐ 6,282
+- **核心概述**: Apache Camel 是一个开源集成框架，拥有 350 多个连接器。使用 Java、YAML 或 XML 编写路由。在 Spring Boot、Quarkus 或独立运行。阿帕奇许可证 2.0。
+- **大概是做什么的**: Apache Camel 是一个开源集成框架，拥有 350 多个用于数据库、API、消息代理和云服务的连接器。使用 Java、YAML 或 XML 编写路由。在 Spring Boot、Quarkus 上运行，或使用 Camel CLI 独立运行。自 2007 年起投入生产 — 被全球数千家公司使用。阿帕奇许可证 2.0。什么是阿帕奇骆驼？入门 组件 工具 几秒钟内即可开始使用 或添加到您现有的 Spring Boot 项目：YAML、Java 或 XML 中的相同路线 — 选择适合您团队的路线：运行时 它的作用 --------- ------------- Camel Spring Boot Camel on Spring Boot，具有 350 多个连接器的启动器 Camel Quarkus 云原生 Camel，具有快速启动、低内存、本机编译 Camel CLI 从命令行运行、开发、测试和跟踪路由 其他运行时：Camel K (Kubernetes)、Camel Karaf (OSGi)、Camel Kafka Connector (Kafka Connect) 用于连接任何内容的 350 多个连接器 — Kafka、REST、JDBC、AWS、Azure、GCP、Salesforce 等：企业集成模式 (EIP) Apache Camel 为 AI 编码辅助提供 MCP 服务器（模型上下文协议）
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: camel, cloud-native, data-transformation, enterprise-integration-patterns, integration, integration-framework
+
+---
+
+### 🌟 [openchoreo](https://github.com/openchoreo/openchoreo)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,334
+- **核心概述**: OpenChoreo 是 Kubernetes 的内部开发者平台
+- **大概是做什么的**: Kubernetes 的完整开源开发人员平台 OpenChoreo 是 Kubernetes 的开发人员平台，可让开发人员和 AI 代理构建、部署和操作应用程序、资源和代理工作负载。它提供开发和平台抽象、后台支持的开发人员门户、CI/CD、GitOps 和可观察性。 Kubernetes 为您提供了强大的原语，例如命名空间、部署、CronJobs、服务和网络策略，但它们对于大多数开发人员来说太低级了。平台工程师最终从头开始构建实际的平台：定义更高级别的抽象，将交付、安全性和可观察性工具连接在一起，并将所有这些作为内部产品进行维护。这意味着将开发人员门户、CI 管道、GitOps 工作流程、可观察性堆栈和访问控制缝合在一起，然后无限期地拥有它们之间的粘合剂。结果是一个脆弱的定制系统，维护成本高昂且难以发展。开发人员和平台工程师需要同一平台上的不同东西。开发人员想要一个简单的自助服务体验
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ci-cd, cncf, developer-platform, devops, gitops
+
+---
+
+### 🌟 [memorix](https://github.com/AVIDS2/memorix)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 618
+- **核心概述**: 通过 MCP 用于编码代理的开源跨代理内存层。与 Claude Code、Codex、Cursor、Windsurf、Gemini CLI、Antigravity、OpenClaw、Hermes Agent、Oh-my-Pi、Pi、Copilot、Kiro、OpenCode 和 Trae 兼容。
+- **大概是做什么的**: AI 编码代理的本地优先共享内存层。一种项目内存系统，适用于 Claude Code、Codex、Cursor、Windsurf、Copilot、Gemini CLI、OpenCode、OpenClaw、Hermes Agent、Oh-my-Pi、Pi、Kiro、Antigravity、Trae 和任何支持 MCP 的代理。官方 MCP 注册表中列出了共享项目内存 MCP Git 内存推理内存插件编排维护者状态以及当前公共工作边界位于 ACTIVE WORK.md 中。它是存储库的单一活体工作，Memorix 为您已经使用的 AI 编码代理提供了一个共享的、可搜索的项目内存，可以在新的聊天、IDE 切换、终端会话和切换中幸存下来。内存存在于 Git 项目下，而不是在一个聊天窗口或一个工具内。今天使用 Claude Code，明天使用 Codex，下午使用 Cursor。代理人可以变更；项目内存保持不变。当您不断向新的代理会话重新解释同一个项目时，请使用 Memorix：上一个会话已经解决了一些问题，另一个 IDE 无法看到它，或者设计决策被隐藏在您无法再找到的聊天中。问题 Memorix 添加了什��� 下一个学期
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, ai-coding, antigravity, claude-code, codex, coding-agents
+
+---
+
+### 🌟 [openaccountants](https://github.com/openaccountants/openaccountants)
+- **项目语言**: Python
+- **星标数量**: ⭐ 314
+- **核心概述**: AI 代理的开源税务指南，由指定的注册会计师 (CPA)/注册会计师 (CA)/EA 审查。超过 190 个司法管辖区的 1,000 多个指南。包括 MCP 服务器。与 Claude、ChatGPT、Cursor 一起使用。
+- **大概是做什么的**: 您的 AI 可以引用的开源税务指南 — 由指定的持证会计师审核。每个人工智能都可以进行税务数学计算。他们都无法给出答案。在这里，真正的会计师将他们的姓名、证书和审查日期放在你的人工智能阅读的指南上——公开地、记录在这个存储库中。跨越 232 个司法管辖区的 1,791 份指南 · 188 名会计师经过审核 · 33 名指定会计师 · 通过 openaccountants.com 实时连接的 AI 回答了 5,639 个问题 — 于 2026 年 8 月 10 日夜间同步更新。 60 秒内尝试 将托管连接器添加到 Claude、ChatGPT、Cursor、Windsurf 或任何 MCP 客户端： 指导设置：openaccountants.com/connect 然后提出一个问题，否则您的 AI 会猜测到：“佛罗里达州海牛县 2026 年的综合销售税率是多少？”如果没有 OpenAccountants，模型将根据训练数据进行回答。答案中引用了当前的指南，并指出了审阅该指南的会计师的名字。喜欢自托管还是手动文件？ - pip MCP 服务器：pip install openaccountants-mcp （镜像此存储库的 packages/ ） - 手动：从 packages/ 和 upl 下载您所在辖区的文件夹
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accountant, accounting, agentic-tax, ai, chatgpt, claude
+
+---
+
+### 🌟 [bitrouter](https://github.com/bitrouter/bitrouter)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 216
+- **核心概述**: 上下文感知模型路由器可不断改进您的代理工作流程，可与任何线束、任何模型、任何循环配合使用。
+- **大概是做什么的**: 自我改进的 LLM 路由器可在每次运行时优化您的代理工作流程，适用于任何线束、任何模型、任何循环。你正在生产中进行代币最大化。每个循环的每一步都按前沿价格计费——文件读取、工具调用、子代理跳跃、重试。大多数人不需要它。 BitRouter 将每个呼叫、工具和代理路由到仍能到达目标的最便宜的路径，并在循环运行时收紧该路由。成本现在已经存在，其次是延迟和准确性。三个原语，一个网关代理循环消耗三件事。其他路由器仅管理第一个路由器。 BitRouter 使所有三个都可路由、可观察和受管理： - 模型 — 跨提供商、帐户和有线协议路由 LLM 调用：OpenAI 聊天完成、OpenAI 响应、Anthropic Messages 和 Google Gemini。 （经典路由器、跨协议 — 任何请求格式到任何上游并返回） - 功能 — MCP 网关和 AgentSkills 网关：工具和技能成为受管理的、可路由的资源，而不是硬编码的端点。 （一旦 MCP 技能生效，技能网关就会合并到 MCP 网关中）
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: acp, agent-guardrails, agent-harness, agent-observability, ai-agent, anthropic-compatible
+
+---
+
 ## 🕔 2026-08-10 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
