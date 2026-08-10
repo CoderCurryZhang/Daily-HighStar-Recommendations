@@ -1,3 +1,67 @@
+## 🕔 2026-08-10 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 290 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Peekaboo](https://github.com/openclaw/Peekaboo)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 4,979
+- **核心概述**: Peekaboo 是一款 macOS CLI 和可选的 MCP 服务器，使 AI 代理能够捕获应用程序或整个系统的屏幕截图，并通过本地或远程 AI 模型提供可选的视觉问答。
+- **大概是做什么的**: Peekaboo 🫣 — Mac 自动化，可查看屏幕并进行点击。 Peekaboo 是一款 macOS CLI 和菜单栏应用程序，用于屏幕捕获、可访问性检查和本机 UI 自动化。直接使用它，让其代理计划多步骤工作，或向 MCP 客户端公开相同的工具集。发布的 CLI 和应用程序需要 macOS 15 或更高版本。带有 npm 的 MCP 包 npm 包需要 Node.js 22 或更高版本，并包括 CLI 及其 MCP 启动器。请参阅 MCP 设置以将其连接到 Codex、Claude Code、Cursor 或其他 MCP 客户端。有关源版本和替代安装的详细信息，请参阅安装指南。检查 Peekaboo 可用的权限，然后进行屏幕截图： 屏幕截图需要屏幕录制权限。可访问权限允许 UI 检查和控制；权限指南涵盖了设置和用于合成输入的附加权限。检查正在运行的应用程序以获取具有不透明元素 ID 的结构化 UI 映射：这是核心循环：观察当前屏幕，从结果中选择一个元素，然后对其进行操作。 Peekaboo 4 具有精确的 33 个命令根表面，
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, macos, mcp, screenshots, swift
+
+---
+
+### 🌟 [PhyAgentOS](https://github.com/PhyAgentOS-Dev/PhyAgentOS)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,717
+- **核心概述**: PhyAgentOS 是一个基于代理工作流程构建的自我进化的嵌入式人工智能操作系统。
+- **大概是做什么的**: 认知-物理解耦 — 以会话为中心的实体智能运行时 版本更新 :------ :----- :------- 2026-07-5 支持策略循环和目标本机内置路径的基准测试；合并代理验证和故障恢复服务器 2026-06-27 支持Behavior 1K； SessionVerfier用于Agent验证； verifySessionTool 2026-06-11 清理协议文件和文档；游戏场景分离到general-game-agent分支；主分支现在专注于sim & real 2026-06-5 优化用户友好的入职流程；通信协议规范；更合理的编码标准；游戏代理和基准测试准备就绪 2026-05-25 严格分离PolicySkillRuntime/BuiltinSkillRuntime；游戏代理和基准测试准备就绪 2026-05-20 感知插件系统：SensorConfig / PerceptionConfig YAML + EnvironmentWriter 可审核写回 2026-05-18 以会话为中心的运行时 MVP：DummySimTarget + DummyAdapter + DummyClient 串行管道 2026-04-29 黑客马拉松基线：基于插件的 HAL、ReKep / SAM3 真实机器人抓取 & VLN 全管道 Traditi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, claw, embodied-agent, embodied-ai, harness
+
+---
+
+### 🌟 [toolhive](https://github.com/stacklok/toolhive)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,998
+- **核心概述**: ToolHive 是一个用于运行和管理模型上下文协议 (MCP) 服务器的企业级平台。
+- **大概是做什么的**: 深受开发人员和企业信赖的开源 MCP 平台 随时随地安全、即时地运行任何 MCP 服务器。 ToolHive 在隔离的容器中运行每个 MCP 服务器，在配置身份验证源时强制执行每个请求的身份和访问策略，并为平台团队提供将 MCP 投入生产所需的可观察性。以下是 ToolHive 的一些更常见的用例： 开发人员。运行 MCP 服务器时具有更高的安全性和更多（令牌）节省 平台工程师。在现有 Kubernetes 基础设施企业上运行 MCP。自托管 MCP 服务器并保持对数据的控制，只需单击或命令即可将 Claude Code、Cursor、GitHub Copilot 或您的首选客户端连接到 MCP 服务器。 ToolHive 将每个 MCP 服务器包装在一个具有最小权限文件（无本地凭据）的隔离容器中，并使用语义工具搜索将令牌使用量减少高达 85%。结束开发人员使用影子 MCP，并为您的安全团队提供他们所需的审核日志和可配置的身份实施。 ToolHive 包含一个 Kubernetes 运算符，
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-security, aicodeassistant, golang, kubernetes, mcp
+
+---
+
+### 🌟 [marmot](https://github.com/marmotdata/marmot)
+- **项目语言**: Go
+- **星标数量**: ⭐ 603
+- **核心概述**: AI 的开源上下文层。对您的表、主题、队列和 API 进行编目，然后向您的 AI 代理公开真实的元数据。
+- **大概是做什么的**: 在几秒钟内发现任何数据资产。然后让你的人工智能也做同样的事情。 AI 的开源上下文层。对您的表、主题、队列和 API 进行编目，然后向您的 AI 代理公开真实的元数据。文档 • 现场演示 • 部署 • 社区 Marmot 是一个开源数据目录，适用于希望实现强大的数据发现而又无需企业复杂性的团队。对每个数据资产进行编目，使用重要的上下文对其进行丰富，并使其可供您的团队和 AI 工具访问。与需要大量基础设施和配置的传统目录不同，Marmot 作为具有直观 UI 的单个二进制文件提供，可以轻松部署并在几分钟内开始编目。 ▶ 观看 2 分钟演示 - 搜索所有内容：通过全文搜索以及结构化查询、布尔逻辑和元数据过滤器，在几秒钟内找到任何数据资产。 - 交互式沿袭：跟踪从源到目的地的数据流并在进行更改之前分析影响。 - 元数据优先：存储任何资产类型的丰富元数据，从表和主题到 API 和仪表板。 - 团队协作：分配所有权、文档
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: bigdata, data-catalog, data-collaboration, data-discovery, data-exploration, data-governance
+
+---
+
+### 🌟 [attackgen](https://github.com/mrwadams/attackgen)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,234
+- **核心概述**: AttackGen 是一款网络安全事件响应测试工具，利用大型语言模型和综合 MITRE ATT&CK 框架的强大功能。该工具根据用户选择的威胁参与者群体和组织的详细信息生成定制的事件响应场景。
+- **大概是做什么的**: AttackGen 是一款网络安全事件响应测试工具，它利用大型语言模型以及全面的 MITRE ATT&CK 和 ATLAS 框架的强大功能。该工具根据用户选择的威胁参与者群体、人工智能攻击案例研究和组织的详细信息生成定制的事件响应场景。 - 安全最佳实践如果您发现 AttackGen 有用，请考虑在 GitHub 上为该存储库加注星标。这可以帮助更多的人发现该工具。非常感谢您的支持！ ⭐ - 根据选定的威胁参与者群体或 ATLAS 案例研究生成独特的事件响应场景。 - 允许您为定制方案指定组织的规模和行业。 - 支持 MITRE ATT&CK Enterprise、ICS（工业控制系统）和 ATLAS（AI 系统对抗威胁格局）框架。 - 显示所选威胁参与者团体或案例研究所使用的技术的详细列表。 - 根据选择的 ATT&CK 或 ATLAS 技术创建自定义场景。 - 使用场景模板，根据常见类型快速生成自定义场景
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-security, cybersecurity, generative-ai, incident-response, llm, mitre-atlas
+
+---
+
+### 🌟 [Equibles](https://github.com/daniel3303/Equibles)
+- **项目语言**: C#
+- **星标数量**: ⭐ 195
+- **核心概述**: 适用于 AI 代理的自托管开源金融数据 MCP 服务器 — SEC 文件、XBRL 财务数据、13F 持股、内幕交易和国会交易、空头利息、FRED、CFTC/CBOE 以及 64 个 MCP 工具的每日价格。 Equibles Cloud 添加了财报电话会议记录、实时报价、希腊期权链、指导和筛选器。
+- **大概是做什么的**: Equibles 是一个自托管的开源金融数据 MCP 服务器，是 Bloomberg 终端的开源替代品，专为人工智能代理而不是人类而构建。它抓取、存储和服务 SEC 文件和 XBRL 财务数据、13F 机构持股、内幕交易和国会交易、FINRA/SEC 空头​​数据、FRED 经济指标、CFTC 和 CBOE 头寸、基金备案、政府合同和每日股票价格，并通过模型上下文协议公开所有这些信息，因此 Claude、ChatGPT、Cursor 或任何代理都可以直接查询。使用 Docker 在您自己的硬件上运行，永久免费。这是 Equibles 的开源核心。 Equibles Cloud 运行这个核心，并添加了 33 个工具，总共 97 个——财报电话会议记录和音频、实时报价、希腊期权链、LLM 提取的 KPI 和指导、回购、IPO 备案、高管变动、估值倍数以及完整的美国市场筛选器。相同的协议，相同的工具名称，无需运行 - 看看包含什么。不想运行任何东西？将您的 AI 助手指向 https://mcp.equibles.com/mcp 并获取免费的 API 密钥
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, artificial-intelligence, claude, earnings-calls, finance
+
+---
+
 ## 🕔 2026-08-10 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 273 个候选项目中筛选出 6 个未推荐过的新项目。
