@@ -1,3 +1,67 @@
+## 🕔 2026-08-10 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 227 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [nasiko](https://github.com/Nasiko-Labs/nasiko)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 4,346
+- **核心概述**: 人工智能代理的开发者控制平面
+- **大概是做什么的**: README 关键内容暂时读取失败或内容较少，建议点进项目主页查看完整说明。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-security, ai, ai-agents, cli, hacktoberfest, llms
+
+---
+
+### 🌟 [griptape](https://github.com/griptape-ai/griptape)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,571
+- **核心概述**: 用于人工智能代理和工作流程的模块化 Python 框架，具有思想链推理、工具和内存。
+- **大概是做什么的**: Griptape 是一个 Python 框架，旨在简化生成式 AI (genAI) 应用程序的开发。它提供了一组简单、灵活的抽象，用于处理大型语言模型 (LLM)、检索增强生成 (RAG) 等领域。寻找无代码体验？查看 Griptape Nodes，这是一个用于构建和运行 AI 工作流程的可视化桌面应用程序。 - 🤖 代理由单个任务组成，配置为特定于代理的行为。 - 🔄 管道组织一系列任务，以便一个任务的输出可以流入下一个任务。 - 🌐 工作流将任务配置为并行操作。任务是结构中的核心构建块，支持与引擎、工具和其他 Griptape 组件进行交互。 - 💬 对话记忆使法学硕士能够在交互过程中保留和检索信息。 - 🗃️ 任务内存将大型或敏感的任务输出保留在发送到 LLM 的提示之外。 - 📊 元记忆可以将额外的元数据传递给法学硕士，增强交互的上下文和相关性。司机方便
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, anthropic, claude, gpt, huggingface, llm
+
+---
+
+### 🌟 [pegainfer](https://github.com/pegainfer-project/pegainfer)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 636
+- **核心概述**: 纯 Rust + CUDA LLM 推理引擎 — 无 PyTorch，兼容 OpenAI，服务于 Qwen3 到 Kimi-K2
+- **大概是做什么的**: 纯 Rust + CUDA LLM 推理引擎。没有 PyTorch。无模型框架运行时。快速入门 · 性能 · 架构 · PegaInfer 是一个完全用 Rust 和 CUDA 构建的 LLM 推理引擎 — 没有 PyTorch、没有 ONNX、没有框架运行时，每个内核和调度程序都是手写的。它为从 Qwen3 到万亿参数 Kimi-K2 的前沿规模模型提供服务，并且已经在最好的开源推理框架中占有一席之地。 open-infer.org 提供文档、指南和工程深入研究 — 从 PegaInfer 0.1.0 开始：用 Rust 编写生产级推理引擎并在一个 GPU 上共置预填���和解码。 - Rust（2024 版）、CUDA 工具包（nvcc、cuBLAS）、支持 CUDA 的 GPU - NVIDIA 驱动程序 R545 (CUDA 12.3) 或更高版本； cuFuncGetName 设置此层，而每个符号延迟加载使 cuda-12090 cudarc 绑定不需要 CUDA 12.9 驱动程序 - 默认构建 (Qwen3-4B / 8B) 是纯 Rust + CUDA - 根本没有 Python - Python 3 + Triton 用于 qwen35 功能构建（仅构建时 - 运行时没有 Python） - kimi-k2 EP 路径另外需要 NCCL ≥ 2
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: cuda, cuda-kernels, deepseek, gpu, inference, inference-engine
+
+---
+
+### 🌟 [boost](https://github.com/jfrog/boost)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 419
+- **核心概述**: 保存代币。安全地最大化上下文
+- **大概是做什么的**: 保存代币。锐化剂。用于编码代理和 shell 命令的智能令牌节省。由 JFrog 赞助 我们的吉祥物 Frogi 在您跑步时会出现 boost 。 Boost 包装了代理已经运行的命令，将嘈杂的日志转换为紧凑的结构化上下文，保留信号（错误、计时、更改的计数、缓存命中），同时消除噪音。 Boost 绝不会为了节省而牺牲质量。它只修剪那些可以安全掉落的东西，因此特工输出保持同样的锐利。我们的 Terminal-Bench 2.0 基准测试表明：相同的任务通过率，成本降低 12% - Boost 使代理保持优化，而不会中断他们的步伐。 macOS / Linux / Windows WSL：将其连接到 Cursor、Claude Code、GitHub Copilot 和 Codex CLI：对于在用户计算机上安装 Boost 的 AI 编码代理，请遵循 AGENT-INSTALL.md 。 - 长时间的编码代理会话 — 在数十个 shell 命令中保持上下文精简，以便代理在任务上花费令牌，而不是回滚。 - 嘈杂的测试、构建和调试循环——压缩 npm test 、 pytest 、 go test 、 docker build 、 linter 和日志，同时��留失败和摘要。 - CI 管道 — Sho
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acceleration, ai, ai-agents, claude-code, cli, codex
+
+---
+
+### 🌟 [linearis](https://github.com/linearis-oss/linearis)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 239
+- **核心概述**: Linear.app 的 CLI 工具，具有 JSON 输出、智能 ID 解析和优化的 GraphQL 查询。专为法学硕士代理人和喜欢结构化数据的人而设计。
+- **大概是做什么的**: 专为 AI 代理以及喜欢结构化数据的人们构建的高效代币 Linear.app CLI。 Linearis 是 Linear 的命令行界面，仅支持 JSON。它将人性化的 ID（例如 ENG-42 或团队名称）解析为 UUID，并公开两层使用系统，以便代理可以准确地发现它所需的命令，而无需将整个 API 表面加载到上下文中。官方的 Linear MCP 运行良好，但仅在代理执行任何操作之前连接就需要花费 13k 代币。 Linearis 采用了不同的方法：代理通过两层使用系统按需发现功能。 - Linearis 用法 — 每个领域的紧凑概述（200 个标记）。 - Linearis 用法 — 一个域的完整参考（300-500 个标记）。典型的代理交互需要 500-700 个上下文令牌，而不是 13k。代理只需为其使用的内容付费，一次一个域。权衡是覆盖范围。 Linearis 专注于对日常工作至关重要的操作 - 问题、讨论、周期、项目、文档和文件。对于自定义工作流程、集成或工作区设置
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, cli, command-line-tool, linear, linearapp, llm
+
+---
+
+### 🌟 [chatgpt-subtitle-translator](https://github.com/Cerlancism/chatgpt-subtitle-translator)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 388
+- **核心概述**: 基于 ChatGPT 或任何 OpenAI 兼容的 LLM 聊天完成 API 的高效翻译工具
+- **大概是做什么的**: ChatGPT API SRT 字幕翻译器 大型语言模型 (LLM)，例如 ChatGPT，已经展示了其作为强大翻译器的功能，能够处理具有上下文理解的常见自然语言，以及诸如单词扰乱之类的非常规书写形式。然而，它可能并不总是产生确定性的输出或遵循行与行的相关性，可能会扰乱字幕的时间，即使在指示遵循精确的指令并将模型温度参数设置为 0 时也是如此。该实用程序使用 OpenAI ChatGPT API 来翻译文本，特别关注基于行的翻译，尤其是 SRT 字幕。翻译器通过消除 SRT 开销并将文本分组到批次中来优化令牌使用，从而在不消耗过多令牌的情况下实现任意长度的翻译，同时确保行输入和输出之间的一对一匹配。从 v2 升级？有关重大更改，请参阅 v2 - v3 迁移指南。 - Web 用户界面 (Web UI) 和命令行界面 (CLI) - 支持结构化输出：获得更简洁的结果
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, chatgpt, cli, gpt, gui, llm
+
+---
+
 ## 🕔 2026-08-10 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
