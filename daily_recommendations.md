@@ -1,3 +1,67 @@
+## 🕔 2026-08-10 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 273 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [repowise](https://github.com/repowise-dev/repowise)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,077
+- **核心概述**: 适用于人工智能和人类的代码库智能：代码健康评分、自动生成的文档、git 分析、死代码检测以及通过 MCP 进行的架构决策。
+- **大概是做什么的**: 为团队托管 → · 您的 AI 代理会消耗大部分预算来重新发现您的代码库。索引一次，就再也不用索引了。找到正确的文件。在密封的 42 个实例拆分上，文件覆盖率为 0.876，而下一个工具的文件覆盖率为 0.610。 p=0.00004 代理自己的输出令牌，在 3.8 工具调用中达到，而裸代理需要 7.2。 n=43，p<0.0001，更倾向于 44 个较少标记中的 37 个来加载提交。根据 30 次提交的确定性 tiktoken 计算，原始数量为 393 个，而不是 13,984 个。 35.6x，在每一轮改进中坚持的实例上，针对开源代理上下文领域进行了面对面的测量。缺陷风险在 21 个存储库和 9 种语言中分别以 ROC AUC 0.737 进行验证，无泄漏。每一层的计算均为零 LLM 调用。我们发布丢失的行，并且我们是这里最慢的索引器。所有这些，包括损失 → 免费和自托管，都在您的计算机上运行，​​并且第一个索引不需要 API 密钥。您的代理询问的有关您的存储库的每个问题都有一个可以提前计算出的答案。谁调用这个函数？如果我 ch 会发生什么情况
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, code-complexity, code-health, code-intelligence, code-quality, dead-code
+
+---
+
+### 🌟 [mcp-context-forge](https://github.com/IBM/mcp-context-forge)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,294
+- **核心概述**: 位于任何 MCP、A2A 或 REST/gRPC API 前面的 AI 网关、注册表和代理，通过集中发现、防护和管理公开统一端点。优化Agent & Tool调用，并支持插件。
+- **大概是做什么的**: 一个开源注册表和代理，将 MCP、A2A 和 REST/gRPC API 与集中治理、发现和可观察性联合起来。优化Agent & Tool调用，并支持插件。 ContextForge 是一种开源注册表和代理，可将工具、代理和 API 联合到 AI 客户端的一个干净端点中。它提供跨 AI 基础设施的集中治理、发现和可观察性： - 工具网关 — MCP、REST、gRPC 到 MCP 转换和 TOON 压缩 - 代理网关 — A2A 协议、OpenAI 兼容和 Anthropic 代理路由 - API 网关 — REST 服务的速率限制、身份验证、重试和反向代理 - 插件可扩展性 — 40 多个用于其他传输、协议和集成的插件 - 可观察性 — 使用 Phoenix 进行 OpenTelemetry 跟踪， Jaeger、Zipkin 和其他 OTLP 后端 它作为完全兼容的 MCP 服务器运行，可通过 PyPI 或 Docker 部署，并通过 Redis 支持的联合和缓存扩展到 Kubernetes 上的多集群环境。 - 快速入门 - PyPI - 快速入门 - 容器 - VS Code Dev 容器资源描述
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai, api-gateway, asyncio, authentication-middleware, devops
+
+---
+
+### 🌟 [apify-mcp-server](https://github.com/apify/apify-mcp-server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,132
+- **核心概述**: Apify MCP 服务器使您的 AI 代理能够使用 Apify 商店中提供的数千个现成的抓取工具、爬虫和自动化工具从社交媒体、搜索引擎、地图、电子商务网站或任何其他网站提取数据。
+- **大概是做什么的**: mcp.apify.com 上的 Apify 模型上下文协议 (MCP) 服务器使您的 AI 代理能够使用 Apify 商店中数千个现成的抓取工具、爬虫和自动化工具从社交媒体、搜索引擎、地图、电子商务网站和任何其他网站提取数据。它支持 OAuth，允许您仅使用 URL 从 Claude.ai 或 Visual Studio Code 等客户端进行连接。 🚀 使用托管的 Apify MCP 服务器！为了获得最佳体验，请将您的 AI 助手连接到我们的托管服务器：https://mcp.apify.com。托管服务器支持最新功能（包括结构化 Actor 结果的输出模式推断），这些功能在通过 stdio 本地运行时不可用。 ⚠️ 旧版 SSE 传输已删除。 https://mcp.apify.com/sse 端点已被删除，以支持 Streamable HTTP。将您的客户端迁移到 https://mcp.apify.com — 从您的配置中删除 /sse 后缀。 💰 服务器还支持代理支付：从 AGI 购买代币来运行任何 Actor，或者通过直接 x402（仅按事件 Actor 付费）或 Skyfire 按请求付费。 Apify MCP 服务器与 Clau 兼容
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, mcp, mcp-server
+
+---
+
+### 🌟 [agentgateway](https://github.com/agentgateway/agentgateway)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 4,291
+- **核心概述**: 适用于 AI 代理和 MCP 服务器的下一代代理代理
+- **大概是做什么的**: 第一个完整的 Agentic AI 连接解决方​​案。 Agentgateway 是一个基于 AI 原生协议（MCP 和 A2A）构建的开源代理，为跨任何框架和环境的代理到 LLM、代理到工具以及代理到代理通信提供直接安全性、可观察性和治理。 Agentgateway 简介视频 通过统一的 OpenAI 兼容 API，将流量路由到主要的 LLM 提供商（OpenAI、Anthropic、Gemini、Bedrock 等），并具有预算和支出控制、提示丰富、负载平衡和故障转移功能。通过 MCP 通过工具联合、stdio/HTTP/SSE/Streamable HTTP 传输、OpenAPI 集成和 OAuth 身份验证将 LLM 连接到工具和外部数据源。通过功能发现、模式协商和任务协作，使用 A2A 实现安全的代理间通信。 - 推理路由使用 Kubernetes 推理网关扩展智能路由到自托管模型，并根据 GPU 利用率、KV 缓存、LoRA 适配器和队列深度做出决策。使用正则表达式、OpenAI 审核、AWS Bedrock Guar 进行多层内容过滤
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-gateway, api-gateway, gateway-api, kubernetes
+
+---
+
+### 🌟 [kagent](https://github.com/kagent-dev/kagent)
+- **项目语言**: Go
+- **星标数量**: ⭐ 3,490
+- **核心概述**: 云原生代理人工智能 |不和谐：https://bit.ly/kagentdiscord
+- **大概是做什么的**: kagent 是用于构建 AI 代理的 Kubernetes 原生框架。 Kubernetes 是最流行的运行工作负载的编排平台，kagent 可以让您在 Kubernetes 中轻松构建、部署和管理 AI 代理。 kagent框架旨在易于理解和使用，并提供灵活而强大的方式来构建和管理AI代理。 - 安装指南 - 代理：代理是 kagent 的主要构建块。它们是系统提示符、一组工具和代理，以及用名为“Agent”的 Kubernetes 自定义资源表示的 LLM 配置。 - LLM 提供商：Kagent 支持多个 LLM 提供商，包括 OpenAI、Azure OpenAI、Anthropic、Google Vertex AI、Ollama 以及可通过 AI 网关访问的任何其他自定义提供商和模型。提供者由 ModelConfig 资源表示。 - MCP 工具：代理可以连接到任何提供工具的 MCP 服务器。 Kagent 附带了一个 MCP 服务器，其中包含适用于 Kubernetes、Istio、Helm、Argo、Prometheus、Grafana、Cilium 等的工具。所有工具都是 Kubernetes 自定义资源（ToolServer），可供多人使用
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, cncf, devops, mcp
+
+---
+
+### 🌟 [kotlin-sdk](https://github.com/modelcontextprotocol/kotlin-sdk)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 1,433
+- **核心概述**: 适用于模型上下文协议服务器和客户端的官方 Kotlin SDK。与 JetBrains 合作维护
+- **大概是做什么的**: 用于模型上下文协议的 Kotlin 多平台 SDK。它使面向 JVM、Native、JS 和 Wasm 的 Kotlin 应用程序能够使用标准化协议接口实现 MCP 客户端和服务器。可流式 HTTP 传输 ChannelTransport（测试） 连接服务器 模型上下文协议允许应用程序以标准化方式为 LLM 提供上下文，从而将提供上下文的问题与实际的 LLM 交互分开。此 Kotlin SDK 实现了 MCP 规范，可以轻松： - 构建可连接到任何 MCP 服务器的 MCP 客户端 - 创建公开资源、提示和工具的 MCP 服务器 - 从单个代码库定位 JVM、Native、JS 和 Wasm - 使用 stdio 、 SSE 、 Streamable HTTP 和 WebSocket 等标准传输 - 使用协程友好的 API 处理 MCP 协议消息和生命周期���件 - io.modelcontextprotocol:kotlin-sdk – 伞式 SDK（客户端 + 服务器 API） - io.modelcontextprotocol:kotlin-sdk-client – 仅限客户端 API - io.modelcontextprotocol:kotlin-sdk-server – 仅限服务器 API 添加 Maven 中央存储库和 S
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: kotlin-multiplatform, mcp
+
+---
+
 ## 🕔 2026-08-10 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 227 个候选项目中筛选出 6 个未推荐过的新项目。
