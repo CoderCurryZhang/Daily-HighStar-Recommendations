@@ -1,3 +1,67 @@
+## 🕔 2026-08-10 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [paperjury](https://github.com/Spark-To-Paper-Skills/paperjury)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 924
+- **核心概述**: 研究论文提交前人工智能审查压力测试。克劳德代码技能：审查、裁决、修改、验证。
+- **大概是做什么的**: 真正投稿前，先让 AI reviewer 把该挑的坑挑出来。 直接对 Claude Code 说：「审稿，重点看实验和 claim 是否站得住。」 📄 论文已上 arXiv，欢迎阅读和引用。 PaperJury: Due-Process Review for Bounded LaTeX Revision 🏆 Dogfood showcase · 🧑‍✈️ Agent Guide · 一篇真实草稿的完整多轮评审：仓库里放了 修改前后 PDF ，以及 人工核对过的运行报告 。先看样例，再决定要不要把自己的论文交给它挑刺。 PaperJury 是投稿前的自查工具， 不能替代作者的科学判断，也不能替代 peer review 。它不能用来编造实验、伪造结果、添加没有证据支撑的 claim，或掩盖论文局限。遇到需要新实验、缺证据、需要作者私有知识或研究判断的问题，它都会交回作者处理。 - 🎉 RedNote（小红书）里程碑： 相关分享已经达到 3 万浏览 、 1.8k 收藏 。感谢大家转发和收藏，也感谢大家把 PaperJury 推荐给更多正在赶论文、改论文的朋友。 - 📄 2026-06-15：PaperJury 论文已上 arXiv。 arXiv 页面： PaperJury: Due-Process Review for Bounded LaTeX Revision （arXiv:2606.16322）。论文系统介绍了「审稿 → 裁定 → 修改 → 复查」这套引擎：哪些事交给确定性脚本，哪些判断交给语义 agent；有争议的问题如何进入审议；不同风险的编辑该上什么护栏。 - 🔔 2026-06-10：v1.0.0 发布。 这是第一个稳定版，和 Codex 版 v1.0 对齐。新增软更新提醒：发现新的稳定 tag 时只提示，不打断当前工作。 - 🚀 2026-06-05：PaperJury 的 Codex 版已经推送。 入口在这里：paperjury-codex。 - 🧪 Dogfood sample 已加入。 仓库里放了一个紧凑的 dogfood sample：修改前后 PDF，以及人工核对过的运行报告。 如果 PaperJury 对你的研究或写作流程有帮助，可以引用这篇 arXiv 论文： 同一条目也放在 CITATION.bib 。 不需要背命令。PaperJury 会根据你的描述选择 direct-edit、review 或 auto 模式；真正落稿前，会先把补丁交给你确认。 PaperJury 以 Claude Code skill 的形式提供
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: academic-writing, ai-agents, claude-code, latex, llm-agents, paper-review
+
+---
+
+### 🌟 [Empryo](https://github.com/proxysoul/Empryo)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 922
+- **核心概述**: Empryo 问题跟踪器 + SoulForge (v2) 存档 — Empryo 是图形驱动的 AI 编码代理，可以编辑符号，而不是字符串：AST 手术、完整的 LSP、实时代码基因组。请访问 https://empryo.com 获取
+- **大概是做什么的**: 以前的 SoulForge 是编辑符号而不是字符串的 AI 编码代理。 Empryo 将您的存储库视为一个生命系统：它对基因组进行排序（每个符号的实时排序依赖图），并通过 AST 进行编辑，从不查找和替换。网站 · 下载 · 基准 · 变更日志 · 讨论 · Discord SoulForge 现在更名为 Empryo — 相同的符号级、图形驱动的代理，使用桌面应用程序、更快的引擎和可组合核心进行重建。该存储库是 Empryo 的问题和讨论的公共主页。官方安装程序和直接下载只能从 empryo.com/download 获得。 Empryo 不通过 Homebrew、WinGet 或 npm 分发。桌面应用程序和预构建的二进制文件：empryo.com/download。在 macOS、Linux 和 Windows 上运行。不要从 GitHub Releases 或第三方包管理器下载 Empryo 二进制文件。大多数编码代理 grep、读取整个文件并修补字符串 - 他们永远不知道什么取决于他们刚刚更改的代码。 Empryo 在改变任何东西之前就建立了理解： - 它在读取之前进行映射。启动时，tree-sitter 将您的存储库解析为 l
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-coding-agent, claude-code, claude-code-alternative, cli
+
+---
+
+### 🌟 [graymatter](https://github.com/angelnicolasc/graymatter)
+- **项目语言**: Go
+- **星标数量**: ⭐ 452
+- **核心概述**: 三行代码即可为您的人工智能代理提供持久记忆。减少 90% 的代币消耗，同时保持质量。
+- **大概是做什么的**: 三行代码即可为您的 AI 代理提供持久内存并将令牌使用量减少 90%。一个二进制。将其放入并运行。没有 Docker，没有数据库，没有配置文件，没有云帐户，没有废话。通用 MCP 服务器。零供应商锁定。可与 Claude Code、Cursor、Codex、OpenCode、Antigravity 以及任何 MCP 兼容的客户端配合使用。如果您不使用 MCP，也是一个普通的 Go 库。自由的。离线。无需帐户。默认情况下，每个 AI 代理都是无状态的。每次运行都会重新注入完整的对话历史记录 - 并且该历史记录呈线性增长。两次提示后，您已经消耗了每日配额的一半。这不仅仅是一个记忆问题。这是一个金钱和性能问题。 Mem0、Zep、Supermemory 解决了这个问题——但它们仅支持 Python/TypeScript，并且需要正在运行的服务器。 Go 生态系统没有用于代理的生产就绪、可嵌入、零依赖的内存层。这个差距就是灰质。与完整历史记录注入相比，上下文标记减少了 97%。随着时间的推移，上下文质量会不断提高，因为整合只显示重要的内容。没有码头工人。没有 Redis。 sto 无需 API 密钥
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agents, ai-tools, claude-code, cli, go
+
+---
+
+### 🌟 [Tutel](https://github.com/microsoft/Tutel)
+- **项目语言**: C
+- **星标数量**: ⭐ 1,008
+- **核心概述**: Tutel MoE：优化的专家混合库，支持使用 FP8/NVFP4/MXFP4 的 GptOss/DeepSeek/Kimi-K2/Qwen3
+- **大概是做什么的**: Tutel MoE：优化的专家混合实现，也是第一个针对具有动态行为的现代训练和推理提出“无惩罚并行/稀疏/容量/..切换”的并行解决方案。支持使用 A100/A800/H100/MI300/.. 对基于 MoE 的 GLM-5.x / DeepSeek-3.x / Kimi-2.x / Kimi-3.x / Qwen3 / Gpt-OSS 进行直接 NVFP4/MXFP4/BlockwiseFP8 推理 Kimi-K3/GLM-5.x（克劳德代码模式）的步骤： ☑ A100x8/H100x8 (80G SXM) 用于 GLM-5.x (0.8T)：最大上下文大小 = 1M ☑ MI300x8 (192GB PCIe5) 用于 GLM-5.x (0.8T)：最大上下文大小 = 1M ☑ MI300x8 (192GB PCIe5) 用于 Kimi K3 (2.8T)：最大上下文大小 = 1M Azure GPU 类型 (x8) vLLM/SGL Kimi K3（无 MTP） Tutel Kimi K3（无 MTP） ---- ---- ---- AMD MI300X 2023 (750W x8) 0 t/s (OoM) 73.4 t/s AMD MI325X 2024 (1000W x8) 3.1 t/s 82.0 t/s AMD MI355X 2025 (1400W x8) 43.5 t/s (待定，无可用环境) NVIDIA B200 2024 (1000W x8) 0 t/s (OoM) (待定，无可用环境) FP4 + 无工具 FP4 + 使用工具 ---- ---- ---- Kimi-K3 @ GSM8K 96.9% 97.3% GLM-5.2 @ GSM8K 97.1% 97.8% GLM-5.2 @ AIME25 96.1% 99.7% GLM-5.2 @ AIME26 93.5% 99.6% K3 K
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: deepseek, llm, mixture-of-experts, moe, pytorch
+
+---
+
+### 🌟 [leanctx](https://github.com/jia-gao/leanctx)
+- **项目语言**: Python
+- **星标数量**: ⭐ 316
+- **核心概述**: 适用于生产 LLM 应用程序的直接即时压缩。无需更改代码即可将代币账单削减 40-60%。 Python SDK、LLMLingua-2、麻省理工学院。
+- **大概是做什么的**: 适用于生产 LLM 应用程序的直接即时压缩。将您的输入令牌账单削减 40-60% - 无需更改您的代码。在完整的 LongBench v2 集 (N=503) 上，在已经运行的压缩器之上分层，leanctx 删除了额外的 18.7% 的令牌，在散文密集的流量上上升到 36.7%，但准确性降低了 1.8 个百分点。每个数字都是从提交给此存储库的每个项目记录中重新生成的。开源模型，在本地运行，获得 MIT 许可。默认情况下，您的提示和用户数据永远不会离开您的基���设施。快速入门 · 有何不同 · 基准 · 集成 · 工作原理 有何不同 丢失容限路由 — 根据提示的每个片段可以承受的失真程度对其进行分类，然后以不同的方式压缩每个类别。类内容 处理效果 零容忍代码、堆栈跟踪、工具使用 ID、工具名称和输入、JSON 逐字修改 0 % 更改 高容忍文档、检索到的段落、日志、先前的轮次 LLMLingua-2、设备上 50 % 已删除 有条件的低置信度散文、超大上下文自我 LLM、选择加入 41–49 % 已删除 压缩 ap
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: anthropic, cost-optimization, gemini, langchain, langgraph, llm
+
+---
+
+### 🌟 [collie](https://github.com/AltanS/collie)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 315
+- **核心概述**: PWA 可以随时随地管理 🐑 herdr。 Tailnet 可访问、推送通知、快速操作等等。
+- **大概是做什么的**: 为您的 Herdr 代理群提供的电话 Web UI，通过 Tailscale 提供服务。打开 URL，查看哪个客服人员正在等待您，然后使用手机键盘接听。每个代理都有一个彩色终端镜子、一个斜线命令调色板、一个特殊键盘以及可以滚动和搜索的对话历史记录。回复框是一个普通的文本字段，因此您手机自己的语音听写可以在其中使用；柯利牧羊犬不运送自己的东西。一个 Herdr 插件（瘦启动器）加上一个作为 systemd --user 服务运行的 Bun/TypeScript 桥，为 Vite + React + shadcn PWA 提供服务。 - 安全性 — 首先阅读 - 首次运行 - 您将看到什么 - 深色模式/浅色模式 - 命令 · Herdr 操作 - 部署变体 - Windows（实验性） - 开发此插件 通过手机运行群体：仪表板将需要您的代理浮动到顶部，您深入到空间的选项卡和窗格（长按窗格丸或选项卡芯片以重命名或关闭它 - 克劳德窗格显示您使用 /rename 为其指定的名称） ），点击回答 AskUserQuestion 提示，在群组之间切换，并在出现问题时收到推送通知
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai, ai-agents, ai-coding, ai-tools, herdr
+
+---
+
 ## 🕔 2026-08-09 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 227 个候选项目中筛选出 6 个未推荐过的新项目。
