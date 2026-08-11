@@ -1,3 +1,67 @@
+## 🕔 2026-08-11 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 216 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ableton-mcp](https://github.com/ahujasid/ableton-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,896
+- **核心概述**: 🎵 使用 Claude AI 控制 Ableton Live — 通过 MCP 创建曲目、排列剪辑并创作音乐
+- **大概是做什么的**: AbletonMCP - Ableton Live 模型上下文协议集成 AbletonMCP 通过模型上下文协议 (MCP) 将 Ableton Live 连接到 Claude AI，允许 Claude 直接与 Ableton Live 交互并控制 Ableton Live。这种集成可以实现提示辅助音乐制作、端到端曲目创建以及现场会话和编曲操作。提供反馈、获得灵感并在 MCP：Discord 的基础上进行构建。由 Siddharth 制作 - 双向通信：通过基于套接字的服务器将 Claude AI 连接到 Ableton Live - 音轨操作：创建、修改和操作 MIDI 和音轨 - 乐器和效果选择：Claude 可以从 Ableton 库中访问和加载正确的乐器、效果和声音 - 剪辑创建：创建和编辑带音符的 MIDI 剪辑 - 编曲视图合成：在编曲视图中自主构建完整歌曲，包括前奏��构建、删除等部分，故障和结尾 - 会话控制：开始和停止播放、触发剪辑以及控制跨会话视图和安排视图的传输 - 匿名遥测：使用情况跟踪
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ableton, ai, claude, daw, generative-ai, llm
+
+---
+
+### 🌟 [armory](https://github.com/Mathews-Tom/armory)
+- **项目语言**: Python
+- **星标数量**: ⭐ 312
+- **核心概述**: 为 AI 编码代理精心策划的生产级技能。为认真使用人工智能的开发人员提供经过实战检验的工作流程。
+- **大概是做什么的**: 用于 AI 编码代理的精选生产级技能、代理、挂钩、规则、命令、实用程序和预设。没有魔法，没有演示——为认真使用人工智能的开发人员构建的经过实战考验的工作流程。 armory 是 Claude Code 和 Claude.ai 的软件包集合。每个包都是一个独立的提示或自动化单元，它通过针对特定任务域的可重复的、固定的工作流程扩展了 Claude。包涵盖七种类型：技能、代理、挂钩、规则、命令、实用程序和预设。理念：该系列中的包实用且与上下文无关。它们定义了“如何”，而不仅仅是“内容”——涵盖输入、输出、边缘情况和故障模式。它们是在实际工作负载中进行测试的，而不是作为示例构建的。面向将 AI 编码代理视为工作流程重要组成部分的开发人员。代理 — Orchestrator Orchestrator 代理将技能和其他代理组合成多阶段工作流程。每个代理都可以单独运行，也可以通过代理工具由另一个代理生成。代理模型说明------------------------------------------------------------------------------------------------
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, coding-agents, open-source, skills
+
+---
+
+### 🌟 [pi-from-scratch](https://github.com/SaladDay/pi-from-scratch)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 381
+- **核心概述**: 600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent
+- **大概是做什么的**: 从零手写一个能读文件、改代码、执行命令的 TypeScript coding agent。 项目沿着 pi 的数据流拆解，需要什么、我们造什么，所有组件都是符合直觉的。 删除 pi 的工程细节，留下 pi 的核心思想。 放轻松，这是一篇文章，不是一本书，你会很容易看懂。 网站把文章和源码放在一起。阅读推进时，右侧编辑器会逐步补全代码，当你看完的时候，nano-pi 的代码也会全部呈现在编辑器中。 同时设计了一个 Trace 跟踪，可以打断点逐行过代码，希望能帮助大家理解代码执行流。 在线阅读 PI from Scratch 文章保留古法手敲，尽可能没有ai味，希望大家读的开心。 需要 Node.js 22 或更高版本，以及一个 OpenAI 兼容 API。 - NANOPI MODEL ：模型名 - NANOPI BASE URL ：OpenAI 兼容接口地址，默认 https://api.openai.com/v1 线上 trace 是预先生成的静态数据，浏览网站不会发起模型请求。 - 感谢 OpenModel 为本项目提供 API 测试支持。OpenModel 提供稳定可靠的 AI API 和生产级 SLA 保障，一个接口即可调用 50+ 主流模型，并可直接用于 Claude Code、Codex，以及你刚刚亲手做好的 nano-pi 😈。 - 感谢 Cubence 对本项目的赞助。Cubence 自 2025 年 9 月起提供稳定高效的 API 中转服务，兼容 OpenAI 与 Anthropic 协议，可直接接入 Codex、Claude Code、pi 和 oh-my-pi 等主流编程工具。 - 感谢 pi-book 带来的���发，为本项目从零实现 nano-pi 提供了不少思路和参考。如果你想在完成 nano-pi 后继续深入理解 pi，这本书很值得读。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-loop, ai-agent, coding-agent, llm, llm-agent, pi
+
+---
+
+### 🌟 [vibe](https://github.com/mondaycom/vibe)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 666
+- **核心概述**: 🎨 Vibe Design System - 用于 React.js 中应用程序开发的官方 monday.com UI 资源
+- **大概是做什么的**: 用于在 React.js 中进行应用程序开发的 monday.com 官方 UI 资源 Vibe Design System 是一个软件包集合，旨在通过提供一组用于在 React.js 中构建应用程序的组件、样式和指南来简化您的开发流程并增强用户体验。要加载所有相关 CSS 令牌，请在根应用程序文件中导入令牌文件： 组件从库的根条目导入：Vibe 包含一个 MCP（模型上下文协议）服务器，可为使用 Vibe 组件提供智能帮助。 MCP 服务器可以帮助您发现组件 API、获取使用示例、找到合适的图标并遵循最佳实践。首先，请按照 @vibe/mcp 文档中的安装说明将其集成到您首选的 AI 开发工具中。 - @vibe/core：核心组件库 - @vibe/icons：图标库 - @vibe/testkit：Playwright 测试实用程序 - @vibe/codemod：Codemod 和 CLI 工具 - @vibe/style：样式基础（包含在 @vibe/core 中） - vibe-storybook-components：Vibe Storybook Blocks - Storybook
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: codemod, component-library, design-system, hacktoberfest, icons, javascript
+
+---
+
+### 🌟 [ingest](https://github.com/sammcj/ingest)
+- **项目语言**: Go
+- **星标数量**: ⭐ 384
+- **核心概述**: 将文件（例如代码存储库）和网站解析到剪贴板或供 AI/LLM 摄取的文件
+- **大概是做什么的**: Ingest 将纯文本文件的目录（例如源代码）解析为适合 AI/LLM 摄取的单个 Markdown 文件。 Ingest 还可以将提示直接传递给任何 OpenAI 兼容的 API 进行处理。并提取网址。 - 遍历目录结构并生成树视图 - 基于 glob 模式包含/排除文件 - 使用 Tree-sitter 压缩代码以提取关键结构信息，同时省略实现细节 - 将输出直接解析到任何 OpenAI 兼容 API 进行处理 - 生成并包含 git diff 和日志 - 使用捆绑的离线标记生成器对标记进行计数（默认）或选择使用 Anthropic API（需要 API 密钥，但计数不收费） - 可自定义的输出模板 - 将输出复制到剪贴板（如果可用） - 导出到文件或打印到控制台 - 可选 JSON 输出 - 可选择将输出保存到 /ingest 中的文件 - Bash、Zsh 和 Fish 的 Shell 补全 - 网络爬行以将网页摄取为 Markdown - PDF 到 Markdown 转换和摄取 摄取介绍（“播客”剧集）：go install（推荐） 确保您已安装 Go
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, codegen, ingest, llama, llm, ollama
+
+---
+
+### 🌟 [AReno](https://github.com/inclusionAI/AReno)
+- **项目语言**: Python
+- **星标数量**: ⭐ 274
+- **核心概述**: 一个易于使用、快速的工具包，用于在单个节点上扩展 RL 后训练。
+- **大概是做什么的**: 👋大家好！ AReno 是一个快速、轻松且独立的工具包，可在本地扩展 RL 后训练，由clusionAI ASystem 团队发起并由 AReno 社区维护。 AReno：ASystem 强化学习 Nano AReno 是一个本地 LLM 训练后工具包，用于 RL、SFT/DPO 式训练、服务和代理 RL。它最初是由蚂蚁集团 ASystem 团队的工程师开发的。 AReno 基于独立的全栈设计而构建，经过优化，可从单个节点获取最大性能，使其非常适合快速、本地后训练，无需外部训练或循环中的推理后端。 AReno 的使命是让 LLM RL 可供广泛的研究人员和开发人员社区使用，这样您就可以从基础检查点到单个节点上经过训练的服务模型，而无需建立集群或将训练框架、推理服务器和内核库连接在一起。小而完整，就像它的名字一样——纳米尺寸，全栈功能。我们希望 AReno 能够快速在本地扩展您的想法 - ✨ 即插即用
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, grpo, llm, local-ai, local-llm
+
+---
+
 ## 🕔 2026-08-11 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 245 个候选项目中筛选出 6 个未推荐过的新项目。
