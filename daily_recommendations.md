@@ -1,3 +1,67 @@
+## 🕔 2026-08-11 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 245 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [brain.md](https://github.com/mindmuxai/brain.md)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 423
+- **核心概述**: 用于编码代理的基于文件的持久内存层 - 通过零依赖 CLI 为 Claude Code、Codex 等提供项目大脑（持久决策、要求、约束）。
+- **大概是做什么的**: 编码代理的持久内存层。一种开放的、与代理无关的标准，用于将项目的持久知识捕获为普通 Markdown — 通过一个小型 CLI 读取和写入。它存在于您的存储库中，并在代理、机器和模型之间传输。这个存储库是工具包，而不是大脑本身。安装一次，然后在任何项目中运行 Brain init ：它将 BRAIN.md 协议文件、brain/ 目录和 default-wires 代理配置文件构建到您的存储库中。从那时起，任何编码代理——Claude Code、Codex、任何��取文件的东西——只需通过阅读项目的 BRAIN.md 就可以学会使用大脑。大脑是简单的 Markdown，存在于存储库中，并且比编码代理的知识更持久。决定背后的原因、你同意的限制、未采取的路径——它们都存在于聊天日志和你的脑海中，并在会话结束时消失。下一个代理从零开始。大脑可以解决这个问题。它是项目的持久记忆：持久的决策、需求和约束，以简单的 Markdown 形式写在代码旁边。 -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agents, claude-code, cli, codex, coding-agents
+
+---
+
+### 🌟 [cli](https://github.com/modelstudioai/cli)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 300
+- **核心概述**: 官方 Model Studio CLI（阿里云百炼 CLI）专为 AI Agent 框架而构建，将模型、搜索、多模态和工作流功能作为结构化工具调用公开。
+- **大概是做什么的**: 阿里云模型工作室 (DashScope) 人工智能平台官方命令行界面 阿里云模型工作室 CLI 站点 · 中文文档 · API 文档 · 获取 API Key 与 Qwen 聊天，生成和编辑图像和视频，理解图像，合成和识别语音，调用应用程序，管理内存，检索知识，搜索网络 - 每个 AI 功能，一个命令即可完成。专为人工智能代理而构建。每个命令都充当结构化工具调用。 - 模型生成 — 跨文本、图像、视频和语音的全模态生成，支持编辑和基于参考的生成 - 资产理解 — 解析并提出有关图像、文档、音频和长视频的问题 - 应用程序编排 — 调用阿里云 Model Studio 上发布的托管代理、代理和工作流程，连接到知识库、内���、网络搜索和 MCP 工具 - 训练和部署 — 验证和上传数据集、微调模型、将专用模型部署为端点 - 帐户操作 — 登录、基于 UI配置、模型市场、使用和配额、速率限制增加、团队席位管理 - 计划入职 - Connect 订阅 pl
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-cli, aliyun, bailian, cli, command-line-tool
+
+---
+
+### 🌟 [PaperQuay](https://github.com/WangQrkkk/PaperQuay)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 269
+- **核心概述**: 桌面优先的文献管理器，用于 PDF 阅读、翻译、论文概述和 AI 代理工作流程。
+- **大概是做什么的**: 一个开源 AI 论文工作区，用于 PDF 阅读、翻译、结构化概述、内联注释、Zotero 导入、代理工作流程和本地 RAG。问题和定位有何不同 Zotero 兼容性 v0.1.24 版本重点关注评论写作、知识图可用性、MinerU 配置、库存储迁移和笔记同步完善： - Review Word 导出现在可以处理 LaTeX 公式、缺失的图形、本地化的章节标题、更丰富的参考以及模型输出中的内联图形放置。 - 知识图工作流程现在包括参考同步、更清晰的关系控制、边缘图例、导出工具和更直接的节点交互。 - MinerU 解析可以使用可配置的 API 基本 URL，使本地 MinerU 部署更易于使用。 - 库存储文件夹更改现在会将现有目录结构和附件路径迁移到新位置。 - 阅读器和笔记工作流程获得了选择翻译突出显示、可调整大小的库导航、纸张列表排序和更安全的笔记外部更新检测。 PaperQuay - 开放 AI 纸张工作空间
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-tools, desktop-app, electron, mineru, open-source
+
+---
+
+### 🌟 [DeterminFlow](https://github.com/alikon-art/DeterminFlow)
+- **项目语言**: Python
+- **星标数量**: ⭐ 308
+- **核心概述**: A production-oriented AI workflow runtime for building, validating, recovering, and shipping complex AI workflows as dependable services. 面向生产的 AI 工作流运行时：快速开发、验证和恢复复杂 AI 工作流，并将其稳定交付为服务。
+- **大概是做什么的**: 把复杂 AI 流程快速开发、验证、恢复，并稳定交付为服务。 为什么是 DeterminFlow · 真实正文生产流程：导演、上下文、专业写手、整合、校验、渲染与落库。 DeterminFlow 是一个面向生产的 AI 工作流运行框架。它把 LLM、脚本、API、数据库操作 和人工审批组织成有版本、可校验、可重试、可恢复、可审计的工作流。 每个 Agent 只负责一个边界清楚的节点：读取这一步需要的上下文，使用被授权的工具， 交付可校验的结果。DeterminFlow 负责控制流、数据流、重试与恢复，让整条流程稳定跑完。 DeterminFlow 已经在 笔枢写作 的真实 AI 小说生产链路中 为什么不直接用 Codex、Claude 这类单智能体框架？ Codex、Claude 等单智能体框架很适合探索未知问题。但流程已经明确时，让一个 Agent 反复阅读全部上下文、自己记住每一步，还要负责调用所有工具，通常更慢、更贵，也更难维护。 要解决的问题 Codex、Claude 等单智能体框架 DeterminFlow 改流程 修改 Prompt、Skill 和自然语言约束 调整版本化节点、变量、分支和子流程 上下文隔离 长链执行通常持续携带越来越长的历史 每个 Agent Node 只看自己的局部上下文 结构化输出 依赖模型持续遵守自然语言约定 结构化输出、脚本校验、自动修复和定向重试 失败处理 人工判断从哪里重来 从失败节点继��，已经完成的部分不用重跑 控制权限 单个 Agent 通常拿到整条流程所需的工具 每个节点只拿自己需要的工具 成本审计 消耗通常汇总在整次任务中 每个节点、尝试和模型调用单独记账 对外交付 需要额外搭建交付外壳 包装成 API、后台服务、Automation 或 Plugin - 开发更快： 把可靠节点组合起来，验证通过就能接 API 或业务服务。 - 维护更轻松： 流程、参数和输出都有固定结构，不靠一大段 Prompt 维持秩序。 - 运行更稳定： 模型只处理需要判断的部分，控制流和数据流交给 Runtime。 - 失败不重来： 任意节点都能审计、重试和恢复，长流程不必从头再跑。 - Token 更省： 每个模型只读取自己需要的上下文，不重复背完整历史。 - 权限更小： 工具可以按节点收窄，更强的 LLM 工作区沙箱也在 Roadmap 中。 案例：在 AI 小说正文生产环节中节省 70%–89% Token 笔枢写作 使用 DeterminFlow 串起导演、世界状态、角色维护、多个 专业写手、整合、校验、渲染和落库，形成一条可以断点
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agents, ai-workflow, fastapi, llm, multi-agent
+
+---
+
+### 🌟 [skills](https://github.com/vibe-motion/skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,001
+- **核心概述**: 氛围运动的代理技能
+- **大概是做什么的**: 提示：这是一个交互式安装脚本。用空格选择要安装的 skills，建议全部安装；另外别忘了选择对应的智能体（例如 Claude Code），不同智能体的 skill 存放路径不同。 ruler-progress-render 生成尺子进度动画。触发关键词：尺子进度动画；可配置文字和进度等参数。 把提示词文本转换为 Claude Code CLI 风格的打字动画演示。 procedural-fish-render 生成循环游动的 procedural fish 动画。 svg-assembly-animator 将静态矢量图转化为“力量感 + 速度感”明显的组装动效。 将 PNG/JPG/WebP/截图里的 logo 转成平滑、低复杂度、可动效化的 SVG，再生成品牌 logo motion、交互式 HTML 展示、GIF/视频预览和运动 QA 证据。适用于 logo animation、SVG logo reveal、品牌动效交付和像素图到矢量动效的工作流。 brand-launch-video-star 从公司官网、官方品牌资料或用户上传的产品图出发，制作 15–30 秒、快节奏、强视觉、丝滑的品牌与产品宣传视频。Skill 会先核验 logo、字体、颜色、图片与产品信息，再设计叙事、逐帧时间线和真实产品演示；默认英文、16:9、15 秒，也支持用户自定义时长和画幅。 适合 AI/SaaS 发布片、官网动效视频、消费品牌广告、实体产品宣传、服务与公司理念片。重点不是套模板，而是用真实素材突出产品特性、使用场景、交互过程和结果。 Burger King — Flame Shift Moonshot AI — Product Hypercut remotion-candlestick 在 Remotion 项目中创建带动画的金融 K 线图（蜡烛图），涵盖 Yahoo Finance 数据获取、Canvas 逐帧绘制、深色交易终端风格、时间线设计，以及 Studio 预览和渲染输出。 light-spotlight-render 生成摆动聚光灯扫过文字的 reveal 动画 HTML，可配置文本、摆幅、灯罩缩放、辉光和背景颜色。 生成基于 Remotion 的无限循环 3D 照片滚动墙/瀑布流动画。可自由配置图片列、滚动方向与速度。 remotion-vinyl-player 生成优雅逼真的黑胶唱片机/音乐播放器动画。支持自定义专辑封面、歌曲信息，并包含唱片无限旋转与文字无缝循环滚动（跑马灯）的视觉效果。 threejs-earth-render 克隆或更新 vibe
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, skills, vibe-coding, vibe-motion
+
+---
+
+### 🌟 [anp](https://github.com/agent-network-protocol/anp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 340
+- **核心概述**: 我们的愿景是为智能代理提供通信能力，使它们能够相互连接，形成智能代理的协作网络。
+- **大概是做什么的**: AgentConnect：ANP 的多语言 SDK AgentConnect 是代理网络协议 (ANP) 的多语言 SDK 和参考实现。它帮助代理相互识别、发布可发现的接口、通过标准 RPC 相互调用、附加可验证的证明、解析人类可读的句柄以及构建端到端加密通信流。 Python 包名称是 anp ；该存储库还包含 Go、Rust、Dart、TypeScript 和 Java SDK 实现或 SDK 工作区。 ANP 是一个用于可互操作代理的开放网络的协议栈。在实践中，它回答了以下问题： - 我在和谁说话？ DID WBA 身份、DID 文档、HTTP 消息签名和验证程序帮助程序。 - 这个代理能做什么？代理描述文档、OpenRPC 接口文档和 JSON-RPC 端点。 - 我可以信任这个对象或请求吗？ W3C 数据完整性证明、附录 B 对象证明、IM/来源证明和 DID-WBA 绑定证明。 - 人类和特工如何找到彼此？ WNS 处理验证、解析和绑定验证。 - 代理如何私下沟通
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, did
+
+---
+
 ## 🕔 2026-08-11 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 237 个候选项目中筛选出 6 个未推荐过的新项目。
