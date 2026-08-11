@@ -1,3 +1,67 @@
+## 🕔 2026-08-11 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 237 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [subtitle-translator](https://github.com/rockbenben/subtitle-translator)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,008
+- **核心概述**: ⚡ Blazing-fast batch subtitle translation, .srt/.ass/.vtt/.lrc, 17+ LLM providers ｜ 批量字幕翻译，支持 120+ 语言
+- **大概是做什么的**: ⚡️ 字幕翻译器 超快速批量字幕翻译，支持 120 多种语言 — 由 AI 提供支持 将字幕文件粘贴到通用翻译器中，会出现两件事：模型重写了您的时间码，而您一次只处理一个文件。字幕翻译器会在本地删除超时，只将对话发送到引擎——时间线在物理上是无法触及的——然后一次完成整个季节。 Subtitle Translator 是一款基于浏览器的免费批量字幕翻译工具，适用于 .srt 、 .ass 、 .vtt 和 .lrc 文件。通过分块压缩和并行处理，每集可达到 1 秒。一次性批量上传整个季，连接到 7 个传统翻译 API（DeepL、Google、Azure、DeepLX、Qwen-MT、TranslateGemma、GTX）或 17 个以上的 LLM 提供商，并翻译成 120 多种语言 - 或一次翻译成多种目标语言，每种语言导出为自己的文件。一切都在您的浏览器本地运行；字幕内容和 API 密钥永远不会接触服务器。 👉 在线尝试： - 实时翻译：分块压缩 + 并行处理 → 1 秒 pe
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-translation, ass, batch-translation, bilingual-subtitles, chatgpt, gpt
+
+---
+
+### 🌟 [powercontext](https://github.com/oceanbase/powercontext)
+- **项目语言**: Python
+- **星标数量**: ⭐ 837
+- **核心概述**: PowerContext：下一代 PowerMem。
+- **大概是做什么的**: PowerContext 为代理提供持久的、项目范围的上下文。稍后的会话可以恢复决策、结果、当前状态或下一步，而无需依赖聊天历史记录。 PowerContext 包括本地服务器、SQLite 存储、异步 Python 客户端、Core SDK、CLI 和 Codex 插件。 PowerContext 可以直接从其 Git URL 安装。用户需要对该 URL 的读取访问权限，但不需要克隆存储库或从其工作树运行命令。 - 对 oceanbase/powercontext 的读取权限。安装该工具并配置 Codex 插件：您不需要创建或管理存储库签出。在终端中启动本地服务：在另一个终端中，验证包、插件、服务器和数据库：安装后启动新的 Codex 会话。如果 Codex 请求信任，请打开 /hooks 一次并批准 PowerContext 挂钩。默认数据库是持久的，不需要配置。请参阅 Codex 快速入门了解第一个跨会话工作流程。界面 将其用于 Codex 插件 恢复相关项目内存并在 codin 时明确记���、修改或撤销条目
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, agents, ai, ai-agents, ai-companion, chatbot
+
+---
+
+### 🌟 [JamAIBase](https://github.com/EmbeddedLLM/JamAIBase)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,104
+- **核心概述**: 人工智能的协作电子表格。将单元链接到强大的管道中，尝试提示和模型，并实时评估法学硕士的反应。无缝协作以构建和迭代人工智能应用程序。
+- **大概是做什么的**: JamAI Base 是一个开源 RAG（检索增强生成）后端平台，集成了嵌入式数据库 (SQLite) 和嵌入式矢量数据库 (LanceDB)，具有托管内存和 RAG 功能。它具有内置的 LLM、向量嵌入以及重新排序编排和管理，所有这些都可以通过方便、直观、类似电子表格的 UI 和简单的 REST API 进行访问。从 v1 到 v2 的迁移指南 请参阅迁移指南 - 嵌入式数据库 (SQLite) 和矢量数据库 (LanceDB) - 托管内存和 RAG 功能 - 内置 LLM、矢量嵌入和重新排序编排 - 直观的类似电子表格的 UI 将静态数据库表转换为动态的 AI 增强实体。 - 动态数据生成：使用法学硕士生成的相关数据自动填充列。 - 内置 REST API 端点：简化将 AI 功能集成到应用程序中的过程。促进应用程序前端和 LLM 后端之间的实时交互。 - 实时响应：为应用程序提供响应式AI交互层。 - 自动化 Bac
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai, ai-agents-framework, baas, backend-as-a-service, chatbot
+
+---
+
+### 🌟 [Awesome-LLM4Security](https://github.com/liu673/Awesome-LLM4Security)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 343
+- **核心概述**: 该项目旨在整合和共享整个网络安全领域的优质资源和工具。
+- **大概是做什么的**: Awesome-LLM4Security 以下是关于使用NLP、KG、 GPT 进行网络安全模型研究的精选资源列表，包含模型/项目、论文、数据以及相关产品。 这是一个精心整理的网络安全模型资源汇总，旨在为研究人员、工程师及安全爱好者提供一个全面的参考集合。本项目覆盖了模型/项目、学术论文、数据集以及相关产品信息，帮助你深入了解和应用网络安全领域的最新进展。 名称 简介 链接 ------------------------------------------------------------ ------------------------------------------------------------ ------------------------------------------------------------ reverse-skill 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库。支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端 reverse-skill OWASP 智能体内存防护框架（OWASP Agent Memory Guard） 一款官方 OWASP 安全框架，用于保护 AI 智能体内存免受投毒、注入和数据窃取攻击。它为 LangChain、LlamaIndex 及自定义智能体流水线提供检测中间件、清理钩子和审计日志功能。 OWASP Agent Memory Guard Dark-Moon 自主式 AI 渗透测试平台，覆盖 Web、云、Active Directory、Kubernetes 与 API，采用按技术栈划分的进攻型子智能体，为每个漏洞提供可复现的证据链；模型无关，针对 Claude Opus 调优。 Dark-Moon Shannon Shannon 是一款能够提供实际漏洞利���的 AI 渗透测试工具，而不仅仅是发出警报。在无提示、源感知的 XBOW 基准测试中达到了 96.15%的成功率。 shannon LLMVault 面向 OWASP LLM Top 10 2025 的 CTF 风格 LLM 安全训练靶场，包含 Prompt Injection、RAG 安全、Agent 安全和 GenAI 渗透测试等实验。 LLMVault Decepticon : Vibe Hacking Agent 基于自主多智能体红队测试服务，利用 AI agents在攻击者自动化它们之前自动化红队测试 Decepticon Awesome
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: cybersecurity, llm, sec, security, security-tools, tools
+
+---
+
+### 🌟 [MimirQ](https://github.com/skygazer42/MimirQ)
+- **项目语言**: Python
+- **星标数量**: ⭐ 323
+- **核心概述**: 中文优先的企业 RAG 知识库：可控解析、治理、切块、混合检索、重排、引用、GraphRAG��评测与 Dify 接入。
+- **大概是做什么的**: 中文优先的企业 RAG 知识库 把解析、治理、切块、检索、重排与引用做成可检查、可替换、可回归的知识流水线。 企业知识库真正难的，不是把文档向量化，而是让错误可定位、策略可替换、质量可回归。 MimirQ 起源于一次真实的政务知识库交付。回答出错时，团队必须能判断：解析是否丢了表格，治理是否漏了规则，切块是否破坏了语义，召回是否漏掉了证据，重排是否排错，还是生成偏离了引用。把整条链路藏在一个“上传并开始问答”的按钮后面，原型很快，长期交付却难以估算、验收和治理。 数据评估 → 场景化解析 → 清洗治理 → 业务切块 → 向量 / 全文索引 → 混合召回 → 重排与引用 → Golden 回归 真实项目先抽样评估数据：统计扫描页、图片、表格、公式和版式复杂度，验证解析质量并估算资源与人工成本；再按材料选择解析器。复杂版式或扫描件可优先评估 MinerU / DeepDoc，公式、表格与版面结构密集的材料可纳入 Docling，数字原生 Office 或纯文本可从 MarkItDown 等轻量路径开始。高风险资料仍需人工校验。 解析结果经脚本、规则 DSL 或插件治理后，再按标题、章节、业务记录或父子关系切块，而不是统一套用固定长度和重叠窗口。索引层可使用 Milvus 等向量库，并组合 BM25、向量检索与重排；上层应用可以是 Dify、LangGraph、PydanticAI 或一个简单 API 服务。 - 业务简单、流程稳定、低代码优先 ：直接使用 Dify 或 RAGFlow 通常更快。 - 希望一体化使用 DeepDoc 与 GraphRAG ：RAGFlow 是成熟选择。 - 知识链路需要按业务替换、审计和回归 ：MimirQ 将知识能力从具体聊天业务中解耦，也可作为 Dify 的外部知识层。 当前仓库覆盖 30 个解析后端、86 种切块策略、13 类重排器，并保留固定 800 题的实测证据。数字只是实现广度，核心是每一步都能检查输入输出、追溯引用与版本，并用 Golden 题集守住发布质量。完整方法见企业知识流水线设计准则。 最新稳定版：v1.0.1。见 发布说明 与 发布索引。 以下界面使用仓库内公开的政务插件演示样例生成，不含生产知识库数据。 在同一画布中检索和分析实体、事件与关系。 集中查看数据集、文档、Chunk 与入库状态。 标准问答、运行记录与 Recall / MRR 等指标同屏可查。 集中查看依赖状态、解析能力以及模型服务接入。 检索历史会话，并回看完整回答、来源与反馈入口。 按数据集观察解析、切块、治理、导出和失败重试状态。 在同一工
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: dify, document-parsing, enterprise-rag, fastapi, graphrag, hybrid-search
+
+---
+
+### 🌟 [x402-openai-python](https://github.com/qntx/x402-openai-python)
+- **项目语言**: Python
+- **星标数量**: ⭐ 260
+- **核心概述**: 具有透明 x402 支付支持的嵌入式 OpenAI Python 客户端。
+- **大概是做什么的**: 具有透明 x402 支付支持的嵌入式 OpenAI Python 客户端。使用加密钱包包装标准 openai.OpenAI 客户端。当服务器以 HTTP 402 响应时，库会自动签名并重试该请求 - 需要零代码更改。将 EvmWallet 替换为 SvmWallet 以在 Solana 上付款 — API 是相同的。 BIP-39 助记符（EVM） 协议根据服务器的支付要求自动选择正确的链。当有多种支付选项可用时，使用策略来控制首选链或方案： X402OpenAI / AsyncX402OpenAI openai.OpenAI / openai.AsyncOpenAI 的直接替代品。只提供一个凭证来源： 参数 类型 说明 wallet Wallet 单个钱包适配器钱包列表[Wallet] 多个适配器（多链）策略列表[Policy] 支付策略（链/方案偏好、金额上限） x402 客户端 x402HTTPClient 预配置的 x402 客户端（绕过策略） 所有标准 OpenAI kwargs（基本 url 、超时、最大重试次数等）均被转发。默认基本网址：https://llm.qntx.fun/v1 Class Chain Extra EvmWallet(priva
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ethereum, llm, openai, python, solana
+
+---
+
 ## 🕔 2026-08-10 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 290 个候选项目中筛选出 6 个未推荐过的新项目。
