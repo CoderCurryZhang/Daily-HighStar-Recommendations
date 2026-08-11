@@ -1,3 +1,67 @@
+## 🕔 2026-08-11 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [skills](https://github.com/microsoft/skills)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,877
+- **核心概述**: 技能、MCP 服务器、自定义代理、用于 SDK 的 Agents.md 来接地编码代理
+- **大概是做什么的**: 正在进行的工作——该存储库正在积极开发中。正在添加更多技能，正在更新现有技能以使用最新的 SDK 模式，并且正在扩展测试以确保质量。欢迎投稿！适用于与 Azure SDK 和 Microsoft AI Foundry 配合使用的 AI 编码代理的技能、自定义代理、AGENTS.md 模板和 MCP 配置。博客文章：上下文驱动开发：Microsoft Foundry 和 Azure 的代理技能 🔍 技能浏览器：通过一键安装浏览所有 175 种技能 从向导中选择您需要的技能。技能将安装到您选择的代理的目录（例如 .github/skills/ 对于 GitHub Copilot），并且如果您使用多个代理，则会进行符号链接。替代安装方法 手动安装 (git clone) VS Code 中的 Copilot CLI 和 GitHub Copilot 等编码代理功能强大，但它们缺乏有关 SDK 的领域知识。这些模式已经在预训练的权重中。您所需要的只是正确的激活上下文来呈现它们。有选择地使用技能。加载所有技能会导致上下文���烂：注意力分散，浪费资源
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agents, azure, foundry, mcp, sdk
+
+---
+
+### 🌟 [saiku](https://github.com/spiculedata/saiku)
+- **项目语言**: Java
+- **星标数量**: ⭐ 1,314
+- **核心概述**: 开源语义层：Excel (MDX/XMLA)、仪表板和 AI 代理 (MCP) 的一个多维数据集。蒙德里安+阿帕奇方解石。
+- **大概是做什么的**: 多维数据集的开源语义层分析 - 在浏览器中拖放、通过 Mondrian + Calcite 执行 SQL 以及类型化的 REST 表面，以便 AI 代理无需查看 MDX 即可进行查询。 30 秒后尝试然后打开并使用 admin / admin 登录。演示模式提供了一个独立的 H2 + FoodMart 多维数据集 — 将字段拖动到行、列或过滤器上，SPA 会为您写入 MDX。对于真正的部署，删除 SAIKU DEMO=true 并设置管理员密码： -e SAIKU ADMIN PASSWORD='a-strong-password' 。一旦网络可访问，Saiku 拒绝在默认的 admin / admin 上启动，因此这两���之一是托管实例始终处于活动状态（自动重置 Saiku 于 2010 年作为 Mondrian 的开源 OLAP 浏览器开始。2026 年，它被重建为现代语义层： - Mondrian 4.8.1.x（Spicule fork） - 带有基于方解石的 SQL 规划器以及遗留版本SqlQuery 构建器。Calcite 是默认值；使用 -Dmondrian.backend=legacy 强制继承 - Apache Arrow 有线格式，因此浏览器和任何编程消费者共享零复制结果信封 - Jetty 12 EE10 + Jersey 3。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: analytics, apache-calcite, business-intelligence, mcp, mdx, mondrian
+
+---
+
+### 🌟 [sceneview](https://github.com/sceneview/sceneview)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 1,280
+- **核心概述**: 适用于 Android (Jetpack Compose + Filament)、iOS (SwiftUI + RealityKit) 和 Web 的 3D 和 AR SDK。 AI-first：llms.txt、MCP 服务器、Copilot/Cursor 规则。唯一的 Compose 原生 3D 库。
+- **大概是做什么的**: 适用于每个平台的 3D 和 AR。相同的概念，相同的简单性——Android、iOS、Web、桌面、电视、Flutter、React Native。查看实际的 SceneView 功能 — 一键安装现场演示：浏览示例/中的所有示例源 — Android · iOS · Web · 桌面 · TV · Flutter · React Native。提示 - 每个演示都直接通过 https://sceneview.github.io/open?demo= 打开。例如，只需点击任何二维码或链接，.../open?demo=ar-rerun 即可直接登陆 AR Rerun 调试屏幕。没有发动机样板。没有生命周期回调。运行时处理一切。平台渲染器框架状态 Android Filament Jetpack Compose Stable Android TV Filament Compose TV Alpha iOS / macOS / VisionOS RealityKit SwiftUI Alpha Web Filament.js (WASM) Kotlin/JS + sceneview.js Alpha 桌面软件渲染器 Compose Desktop Alpha Flutter Native 每个平台 PlatformView Alpha React Native 每个平台 Fabric Alpha Compose Multiplatform 每个平台 (Filament / RealityKit) sceneview-compose Alpha — 查看器子集，Android + iOS Claude / AI — MCP ���务器稳定 Compose-native 后继者
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: 3d, ai, android, ar, arcore, arkit
+
+---
+
+### 🌟 [figwright](https://github.com/awdr74100/figwright)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 473
+- **核心概述**: 免费的双向 Figma MCP 服务器。将设计转化为框架感知代码，并将代码推回画布。可与 Claude Code、Cursor、Codex 和任何 MCP 客户端配合使用。
+- **大概是做什么的**: Playwright 驱动浏览器，Figwright 驱动Figma。 Figwright 通过本地 WebSocket 中继将 MCP 服务器连接到 Figma 插件，因此 AI 代理（Claude Code、Cursor、Codex 或任何其他 MCP 客户端）可以使用 Figma，而不仅仅是查看它。它在两个方向上工作：阅读 - 将 Figma 选择转换为框架感知的代码，基于忠实的、去重复的设计上下文（布局、排版、变量、组件）。编写 — 直接创作和编辑画布：框架、文本、自动布局、样式、变量、组件、整个屏幕。一切都在您的机器上运行，并通过插件与Figma对话，因此它不需要Figma Dev Mode席位，也不需要付费层。 - 免费 — 没有 Figma 开发模式或付费席位。官方开发模式 MCP 已被门禁；菲赖特不是。 - 双向 — 非只读。 112 个工具涵盖画布的读取和写入，因此代理可以实现设计并构建它们。 - 提供商优先的代码生成 - Figwright 检测您的真实堆栈（框架 + 样式系统）并重用您现有的组件、令牌和图标，而不是发出您的通用标记
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, claude-code, codegen, codex, cursor, design-to-code
+
+---
+
+### 🌟 [Puppetmaster](https://github.com/professorpalmer/Puppetmaster)
+- **项目语言**: Python
+- **星标数量**: ⭐ 308
+- **核心概述**: 用于持久状态代理群的提供商中立控制平面：子流程工作人员、租赁、工件、内存和确定性缝合。
+- **大概是做什么的**: Puppetmaster 通过您已使用的代理工具运行多步骤工程工作：Cursor、Claude Code、Codex、Hermes 或提供商 API。它启动独立的工作人员，将任务路由到可用模型，并将其键入的结果存储在 SQLite 中，以便可以检查和恢复作业。它针对的是需要持久状态和可审查输出以进行存储库调查、审计、重构和实现的开发人员。 - SWE-bench Lite：通过成本路由和持久重试，实际支出降低 29%； 47–48% 的代币匹配节省。这是一项单种子研究，并未建立质量均等。学习。 - NL2Repo-Bench：平均通过率 91.1%，约为已发布的 40% 基线的 2.28 倍。基准和方法。 - 更多文档设置是幂等的，跳过未安装的平台，并打印每个更改。它要求您至少启用一个适配器；例如：设置后重新启动 Cursor、Codex、Claude 或 Hermes。然后，主机拥有 puppetmaster MCP 工具，以及在支持的情况下建议委派较大任务的挂钩。使用 PUPPETMASTER AUTO INVOK 禁用这些挂钩
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-swarms, agents, ai-agents, claude-code, codex, cursor
+
+---
+
+### 🌟 [EpicStaff](https://github.com/EpicStaff/EpicStaff)
+- **项目语言**: Python
+- **星标数量**: ⭐ 327
+- **核心概述**: 用于构建 AI 代理流程的可用源、自托管平台 - Django 后端上的可视化编辑器。
+- **大概是做什么的**: EpicStaff：面向运营团队的 AI 代理编排 可用源代理编排平台 — 自托管、Django 支持 EpicStaff 是一个用于构建运营团队拥有的 AI 代理流程的平台。部署模型是自托管且源可用的。工程师通过 MCP 和 Python 将 EpicStaff 连接到您的内部系统 - 就像连接任何其他内部服务一样。可视化编辑器在 Django 后端上运行，因此可以检查每个节点、编辑每个步骤以及审查代理做出的每个决定。我们的核心理念：我们隐藏复杂性，而不是逻辑。 ⭐ 如果 EpicStaff 对您的工作有用，请为存储库加注星标。保留您的编码代理 保留您的编码代理。它出色地编写了工具、流程和路由规则——EpicStaff 是它们运行的​​受管理运行时：会话账本、沙盒执行、每个代理权限以及运营团队可以读取的画布。 Visual Agent Orchestrator 的实际应用 为什么我们要创建 EpicStaff？代理工作流程存在所有权问题。如今，大多��代理流程都以代码形式存在——由工程师编写，可以在
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ade, ai, ai-agents, aiagents, automation, gui
+
+---
+
 ## 🕔 2026-08-11 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 216 个候选项目中筛选出 6 个未推荐过的新项目。
