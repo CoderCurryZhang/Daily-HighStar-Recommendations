@@ -1,3 +1,67 @@
+## 🕔 2026-08-11 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 291 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [mcp](https://github.com/awslabs/mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 9,585
+- **核心概述**: 适用于 AWS 的开源 MCP 服务器
+- **大概是做什么的**: 适用于 AWS 的开源 MCP 服务器 一套专用 MCP 服务器，可帮助您充分利用 AWS，无论您在何处使用 MCP。 AWS 代理工具包现已上线！ Agent Toolkit for AWS 是 AWS 实验室提供的 MCP 服务器、插件和技能的继承者，并且是根据像您这样的客户的反馈而设计的。如果您使用编码代理构建生产软件或为自己的客户构建代理，我们建议您使用 Agent Toolkit for AWS。它包括用于区分代理操作与人工操作的 IAM 条件键、CloudWatch 和 CloudTrail 可见性以及经过准确性和有效性评估的技能。该存储库将继续工作并接受贡献。随着时间的推移，这里最有用的项目将转移到 Agent Toolkit for AWS 中。 - 适用于 AWS 的开源 MCP 服务器 - 什么是模型上下文协议 (MCP) 以及它如何与适用于 AWS 的 MCP 服务器配合使用？ - 适用于 AWS 传输机制的开源 MCP 服务器 - 支持的传输机制 - 服务器发送事件支持删除 - 为什么选择适用于 AWS 的 MCP 服务器？ - 可用的MCP服务器：快速安装
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: aws, mcp, mcp-client, mcp-clients, mcp-host, mcp-server
+
+---
+
+### 🌟 [vestige](https://github.com/samvallad33/vestige)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 602
+- **核心概述**: Vestige 为 AI 代理提供了敏锐的记忆：一个本地优先的 Rust MCP 服务器，可以通过时间向后追溯，找到导致今天失败的安静变化、决策或服务，而不是相似的东西。
+- **大概是做什么的**: 通过 MCP 交付的 AI 代理的本地优先长期记忆。 Vestige 会记住您的决定，在矛盾导致您付出代价之前发现它们，并将失败追溯到实际导致失败的旧记忆。一个 25MB Rust 二进制文件。没有云。您的数据永远不会离开您的机器。它是什么 · 安装 · 首次交互 · 与 RAG · 向后触及 · 基准 · 科学 · 工具 · 仪表板 · 集成 · 专业版 · 文档 你好，我是 Sam。我之所以建立 Vestige，是因��我的代理人不断地重新学习相同的课程。他们会建议我已经测试并拒绝的更改，重新导出已经写下的修复程序，并将每次会话视为上次会话从未发生过。 Vestige 是解决这个问题的内存层。它作为 MCP 服务器在本地运行，因此任何支持 MCP 的代理（Claude Code、Claude Desktop、Codex、Cursor 等）都可以在会话期间写入内存并在以后检索它们。您的数据位于您自己计算机上的 SQLite 文件中。一次性模型下载���，它可以完全离线工作，无需 API 密钥，也无需遥测。让它不仅仅是一个笔记商店的部分：Vestige 模型
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-memory, claude, cognitive-science, cursor, embeddings, fsrs
+
+---
+
+### 🌟 [open-ontologies](https://github.com/fabio-rovai/open-ontologies)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 398
+- **核心概述**: AI 原生本体引擎：Rust MCP 服务器，带有用于通过 RDF/OWL 本体构建、验证、查询和推理的工具。内存中 Oxigraph 三重存储、本机 OWL2-DL 表格推理器、SHACL 验证、SPARQL、版本控制。单一二进制文件，无 JVM。
+- **大概是做什么的**: 用于知识图的地形改造 MCP 验证、分类和管理人工智能生成的本体。用 Rust 编写。作为单个二进制文件发布。 Open Ontologies 是一个 Rust MCP 服务器和桌面工作室，用于 AI 原生本体工程。它公开了 70 多个工具，让 Claude 使用内存中的 Oxigraph 三重存储来构建、验证、查询、差异、lint、版本、推理、对齐、计划、认证和管理 RDF/OWL 本体 - 具有完整的三层 Dynamics → Causal → Planner 架构、33 个标准本体的市场、临床交叉、语义嵌入和完整的沿袭审计跟踪。 Studio 将引擎包装在可视化桌面环境中：具有层次结构线、面包屑导航和连接资源管理器的虚拟化本体树； AI聊天面板带有/build（IES级深度）和/sketch（快速原型）命令；门徒式的财产检查员；和谱系查看器。新功能（三层架构 + 13 个新原语） 完整的 Dynamics → Causal → Planner 堆栈加上 13 个新原语。每个部分都遵循 MCP 原生约定：服务器��供验证和
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-native, claude, description-logics, knowledge-graph, linked-data, mcp
+
+---
+
+### 🌟 [obot](https://github.com/obot-platform/obot)
+- **项目语言**: Go
+- **星标数量**: ⭐ 939
+- **核心概述**: Obot AI 完整的人工智能治理平台
+- **大概是做什么的**: Obot 是一个开源平台，可供组织管理、保护和治理其人工智能生态系统。它提供共享基础设施，用于将 AI 客户端连接到模型和工具、分发经批准的 MCP 服务器和技能、管理代理访问和凭据、运行托管 AI 工作负载以及记录托管服务和用户设备之间的活动。 Obot 不要求组织对单个 AI 客户端、模型提供商或工具生态系统进行标准化。桌面代理和工具（例如 Claude Code、Codex、Cursor、VS Code 以及其他 IDE 和 CLI）可以使用适用于它们的平台部分。 Obot 平台将用户设备上的 AI 活动与由 Obot 服务器管理或代理的服务连接起来。在用户设备上，桌面代理和工具连接到 Obot 网关，而 Obot Sentry 会扫描、审核设备上发生的 AI 活动并强制执行策略。 Obot CLI 允许用户和 AI 客户端发现、安装和管理经批准的 MCP 服务器和技能。 Obot Server 提供： - MCP 和 LLM 网关，用于控制对 MCP 服务器和模型提供程序的访问。
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, chat, mcp, modelcontextprotocol
+
+---
+
+### 🌟 [warren](https://github.com/jayminwest/warren)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 302
+- **核心概述**: Coolify 用于编码剂。您的代理的控制平面可以在您的基础设施上独立运行、自我管理、自我修复和自我改进。
+- **大概是做什么的**: 在您的 GitHub 存储库中生成云代理。观看他们现场工作，引导他们进行中途操作，收回分支。观看演示 ​​— 一次调度、流式传输、引导和收获的运行。观看直播 - 公共只读实例。真实项目、真实运行、实时事件流，无需登录。编码剂的 Coolify。自托管控制平面：将其指向存储库，带上您自己的密钥，代理在您的基础设施上的沙箱中运行，PR 就会出来。 Warren 是一个用于临时编码代理的自托管控制平面。它与线束无关——在一个接口后面运行 pi、Claude Code 和其他代理——在您自己的基础设施上使用您自己的 API 密钥。每次运行都是短暂的并且是沙盒的。运行完成任务、验证更改、推送分支并退出。一个容器、一个卷、一个 HTTP API、一个 UI。 Warren 将预构建的映像发布到 ghcr.io/jayminwest/warren 。无需克隆，无需编译：打开并粘贴令牌。单击项目 → 添加并为其指定 GitHub URL。然后 Dispatch run ，选择 claude-code ，编写提示，然后启动它。活动面板进行直播。当跑步结束时，沃伦·普
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agents, autonomous-agents, bun, claude, control-plane
+
+---
+
+### 🌟 [DashClaw](https://github.com/ucsandman/DashClaw)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 291
+- **核心概述**: 🛡️ AI 代理的审批和策略层。在危险操作运行之前拦截、阻止或远程批准它们。
+- **大概是做什么的**: 当您的 AI 编码代理尝试进行破坏性操作时，DashClaw 会在运行之前捕获它并首先询问您，即使您不在键盘前也是如此。在无人值守的情况下运行代理，而不给予他们无条件的权力。您会得到什么  ·  它会停止什么  ·  循环  ·  它不是什么  ·  快速入门  ·  AI 代理：为您的用户设置 DashClaw？运行 npx dashclaw up --yes --no-browser — 普通命令提示符并将挂起非交互式 shell。 API 密钥位于 /.dashclaw/instance.json ；使用 GET http://localhost:3000/api/health 和 npx dashclaw doctor 进行验证。完整操作手册：dashclaw.io/llms.txt。不要无头尝试托管试验 - 它的验证码需要您的人类。代理尝试调用破坏性工具。 DashClaw 在运行之前将其冻结，将其路由到“批准”收件箱，并在解决问题时写入可重播的决策记录。 ▶ 观看 55 秒的发布影片（包含完整演练）或在 dashclaw.io 上观看。在密集部分��前进行 10 秒能力扫描： - 故障关闭拦截。永远不会阻止工具调用
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-framework, agent-governance, agent-runtime, ai-agents, ai-governance, ai-infrastructure
+
+---
+
 ## 🕔 2026-08-11 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
