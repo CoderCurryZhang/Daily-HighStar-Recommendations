@@ -1,3 +1,67 @@
+## 🕔 2026-08-12 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 216 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [cc-safety-net](https://github.com/kenryu42/cc-safety-net)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,480
+- **核心概述**: AI 编码代理护栏 — 一个 CLI 挂钩，可在执行之前阻止破坏性的 git 和文件系统命令以及秘密文件访问。支持 Amp Code、Antigravity CLI、Claude Code、Codex、Copilot CLI、Cursor、Gemini CLI、Hermes Agent、Kimi Code、OpenClaw、OpenCode 和 Pi。
+- **大概是做什么的**: CC Safety Net（Coding CLI Safety Net 的缩写）是一种 PreToolUse 挂钩，可在 AI 编码代理运行之前阻止破坏性命令以及对 SSH 密钥和 .env 文件等机密的访问。它解析命令语义，因此标志重新排序、shell 包装器和解释器单行代码无法绕过它。完整文档 → — 安装、配置、参考、指南和安全模型位于文档站点上。本自述文件是简短版本。我们惨痛地认识到，指令不足以控制人工智能代理。在代理使用单个 rm -rf / 或 git checkout -- 默默地擦除数小时的进度后，很明显 CLAUDE.md 或 AGENTS.md 文件中的软规则无法取代硬技术约束。 CC Safety Net 就是这样的约束：它观察相关的工具调用，并在破坏性命令和秘密访问到达 shell 之前阻止它们。请参阅什么是 CC Safety Net 了解完整背景。 v2.0.0 中的新增内容 已经在运行 v1 了吗？一条命令可将每个已安装的集成升级到 v2： npx -y cc-safety-net@latest update 。如果您在 v 下定义了自定义规则
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-safety, antigravity, claude, claude-code, claude-code-plugin
+
+---
+
+### 🌟 [deep-research-web-ui](https://github.com/AnotiaWang/deep-research-web-ui)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,203
+- **核心概述**: （支持 DeepSeek R1）人工智能驱动的研究助手，通过结合搜索引擎、网络抓取和大型语言模型，对任何主题进行迭代、深入研究。
+- **大概是做什么的**: Deep Research Web UI 这是 https://github.com/dzhng/deep-research 的 Web UI，有多项改进和修复。 - 🚀 安全可靠：在客户端模式下，配置和 API 请求保留在本地浏览器中 - 🕙 实时反馈：流式传输 AI 响应并实时反映在 UI 上 - 🌳 搜索可视化：使用树结构显示研究过程。支持以不同语言进行搜索 - 📄 导出为 PDF：将最终研究报告导出为 Markdown / PDF - 🤖 支持更多模型：使用简单的提示，而不是更新的、支持较少的功能（例如结构化输出）。这确保了与更多尚未跟上最新 OpenAI 功能的提供商合作。 - 🐳 Docker 支持：通过一行命令在您的环境中部署 - 🔧 服务器模式：使用环境变量进行部署，无需用户配置 API 密钥 目前可用的提供商： - AI：OpenAI 兼容、SiliconFlow、InfiniAI、DeepSeek、OpenRouter、Ollama 等 - Web 搜索：Tavily（1000 个免费积分/月）、Firecrawl（云/自托管）、fastCRW（云/自托管）自托管），Go
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, free, gpt, nuxt, openai
+
+---
+
+### 🌟 [agent-style](https://github.com/yzhao062/agent-style)
+- **项目语言**: Python
+- **星标数量**: ⭐ 617
+- **核心概述**: AI编码和编写代理的21条编写规则。 Claude Code、Codex、Copilot、Cursor 和 Aider 的插入，因此它们的输出读起来就像技术专家一样。
+- **大概是做什么的**: 代理风格的要素 让您的人工智能代理像技术专家一样写作。 21 条规则：12 条来自经典写作指南，9 条来自 2022-2026 年法学硕士输出的实地观察。之前/之后·· 它是什么·· 它有效吗？  · 最上面一行是恒等式：21 条规则，12 条规范加上 9 条现场观察；红色边框标记了两个关键规则（RULE-01 知识诅咒和 RULE-H 引用规则）。下面三行是机制，每行都取自真实的 v0.3.0 工作台草案对（相同的提示，带或不带规则集的独立生成）：Gemini 3 Flash 的产品描述（8 → 0 违规）、Claude Opus 4.7 的设计文档部分（14 → 7）以及 Gemini 3 Flash 的论文相关工作部分（6 → 4；源草案锚定到三个提示命名的基准） （AgentBench、BFCL、tau-bench），因此通过代理风格评审测量的风格增量与捏造的引用噪声隔离，尽管显示的基线片段在第三个名称之前停止，以使面板保持在三个句子）。每行左侧显示 AI 草稿，其中包含违反规则的内容
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, llm, prompt-engineering, style-guide, technical-writing, writing-style
+
+---
+
+### 🌟 [remote_pi](https://github.com/jacobaraujo7/remote_pi)
+- **项目语言**: Dart
+- **星标数量**: ⭐ 223
+- **核心概述**: 从您的手机控制您的 Pi 编码代理。与一次性二维码配对并与您当地的代理聊天 - 即使您不在计算机旁边。
+- **大概是做什么的**: 从您的手机控制您的 Pi 编码代理。与一次性二维码配对并与您当地的代理聊天 - 即使您不在计算机旁边。 - 官方网站 — - 包文档 — Google Play (Android) 在 Google Play App Store 上获取 (iOS) 在 App Store 上下载 APK (sideload, Android) GitHub 发布包 Stack Role 应用程序/ Flutter (iOS / Android) 移动客户端 pi-extension/ Node + TypeScript Pi 扩展公开 /remote-pi 中继/ Rust + Tokio WebSocket 路由 + 签名的网状会员存储站点/ NextJS 登陆页面 + 合法页面 - 通过短期 QR 码配对；对等点保留在钥匙串（移动）和 /.pi/remote/（桌面）中 - Ed25519 身份验证 - 中继握手证明拥有连接密钥； App↔Pi 配对由端点强制执行。对于 Pi↔Pi 路由，当正确签名的 Owner blob 列出两个 Pi 键时，当前中继允许路由；该检查不能证明所有者与 Pi 配对或控制 Pi - TLS 保护传输中的流量，但当前的有效负载不是 E2E；有关确切的信任边界，请参阅relay/README.md
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, flutter, ia, pi, picode
+
+---
+
+### 🌟 [chartr](https://github.com/rengwu/chartr)
+- **项目语言**: Go
+- **星标数量**: ⭐ 276
+- **核心概述**: 具有地图绘制功能的代理多路复用器
+- **大概是做什么的**: 代理多路复用器具有工作映射。 （Apple 芯片，未签名）（ amd64 或 arm64 ）在 Chartr 内绘制寻路地图，然后驱动其完成。该平面图呈现为星图；从边境拿一张票，选择一个代理，会话就会打开，地图、票及其阻止者的答案已经在“没有地图”中，它是一个普通的多路复用器：侧边栏、外壳和代理中的项目 - 实时地图视图。 .plan/maps/ 中的文件一旦从票证开始，就会显示为星图。选择未阻止的票证、角色���代理以打开已提交所需上下文的会话。 - 您自己的 CLI 代理。在 PATH 上注册任何兼容的 CLI。 Chartr 默认检测 claude、codex、opencode、kimi、grok 和 pi。 - 代理状态。侧边栏显示每个客服人员是否正在工作或等待 - 侧边栏订购。拖动空格以重新排序。订单跨 Scratch 终端保存。在主目录中打开 shell，无需注册或初始化存储库。 - 会话通知。当长时间运行的会话完成、阻塞或退出时接收系统通知
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-orchestration, ai, ai-agents, developer-tools, golang
+
+---
+
+### 🌟 [azure-openai-llm-notes](https://github.com/kimtth/azure-openai-llm-notes)
+- **项目语言**: Python
+- **星标数量**: ⭐ 407
+- **核心概述**: 🌌 Azure OpenAI、🦙 LLM（+RAG、代理）的精选资源集合。每月更新。
+- **大概是做什么的**: 针对 Azure OpenAI、大型语言模型 (LLM) 及其应用程序的全面、精选的资源集合。 🔹简明摘要：对每个资源进行简要描述，以便快速理解。 🔹时间顺序组织：资源附有日期（首次提交、出版物或论文发布）。 🔹每月更新：列表每月更新；更新前的候选条目会在问题中进行跟踪。 🧭 快速导航（Propedia 风格） 图层/时代 它控制什么 跳转到部分 ------------- ---------------------------------------- ------------- 权重 2022-2023 模型中包含参数知识。主题：预训练、缩放法则、微调、RLHF、对齐、指令遵循、小镜头 基础：大型语言模型景观、大型语言模型集合、基础模型提供者 培训：大型语言模型训练和优化、模型训练和推理、训练和微调 行为和安全：信任、安全和保障、安全、安全和 LLMOps 背景 2023-2024 模型在推理中看到的内容时间。主题：提示、连锁
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, agent-skills, ai-engineering, ai-tools, awesome
+
+---
+
 ## 🕔 2026-08-11 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 291 个候选项目中筛选出 6 个未推荐过的新项目。
