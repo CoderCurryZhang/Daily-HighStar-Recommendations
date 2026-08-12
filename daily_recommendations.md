@@ -1,3 +1,67 @@
+## 🕔 2026-08-12 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 153 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [nodeterm](https://github.com/eneskirca/nodeterm)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 554
+- **核心概述**: 用于 AI 编码代理的基于节点的终端管理器 — tmux 支持的终端和并行代理会话，作为无限平移/缩放画布上的可拖动节点。 macOS、Linux 和浏览器服务器版。
+- **大概是做什么的**: 基于节点的终端管理器——无限画布上的终端和代理。多个真实终端作为可拖动节点存在于单个平移/缩放画布上，并且每个项目都兼作实时 Claude Code 会话的 Trello 风格板。专为 ADHD 和分散工作流程的人士打造：空间布局，而不是一堆 %20·%20Linux%20(x64)-black) ▶ 观看 30 秒的有声导览 堆叠的终端选项卡隐藏上下文 — 您将无法追踪正在运行的内容。 nodeterm 将其转换为地图：每个 shell 都是一个节点，您可以放置​​、分组、标记和放大。会话是空间性的且持久的，因此您的心理模型在重新启动后仍保持完整。由于该应用程序是围绕干净的服务缝构建的，因此同一画布以三种方式运行 - 作为 macOS 和 Linux 的桌面应用程序，作为您可以从任何地方访问的自托管浏览器应用程序（服务器版），以及附加到 📚 完整文档的 iOS 伴侣，位于 nodeterm.dev/docs - 入门、概念、代理、远程访问、故障排除。一切都是节点右键单击画布打开终端 - 或 AI 代理
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: adhd, agent-orchestration, ai-agents, canvas, claude-code, codex
+
+---
+
+### 🌟 [servicenow-mcp](https://github.com/aartiq/servicenow-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 354
+- **核心概述**: ServiceNow MCP 服务器：450 多个工具和 26 个 AI 功能，适用于任何 AI（Claude、ChatGPT、Gemini、Cursor、Copilot）。多传输（stdio、SSE、HTTP）、A2A、动态模式发现、默认只读。免费并提供源代码。 NowAIKit 套件的一部分。
+- **大概是做什么的**: ServiceNow MCP 服务器 (NowAIKit) 将 Claude、ChatGPT、Gemini、Cursor、Copilot 或任何 AI 连接到 ServiceNow。涵盖 ITSM、ITOM、CMDB、HRSD、CSM、Flow Designer、脚本和门户的 450 多个工具。用简单的英语阅读、构建、查询和自动化任何实例。 4.4 至 4.7 中的新增功能：影响分析（列出表配置/查找字段引用/查找脚本引用）可在更改之前查看表、字段或脚本所依赖的内容，本地同步可将工件提取到本地文件，以及服务器端报告的聚合报告（计数加平均值，无截断）。 🚀 安装（2 分钟）需要 Node.js 20+ 。重新启动您的 AI 客户端（Claude Desktop、Cursor 等）并开始询问。完毕。更喜欢用户界面？ npx nowaikit web 用于本地仪表板 - 或使用 NowAIKit Cloud（无需安装）。 🔌 手动设置（跳过向导）将此添加到客户端的 MCP 配置（Claude Desktop claude Desktop config.json 、 Cursor /.cursor/mcp.json 等）：OAuth、多个实例和每个客户端步骤 → 客户端设置 · OAuth 设置 。没有实例吗？在developer.servicenow.com 获取免费的个人开发者实例。 💬 使用它 — j
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agent, ai-tools, anthropic, automation, chatgpt
+
+---
+
+### 🌟 [UnifiedModel](https://github.com/alibaba/UnifiedModel)
+- **项目语言**: Go
+- **星标数量**: ⭐ 301
+- **核心概述**: 语义层使人工智能代理能够理解企业数据——对实体和关系进行一次建模，通过 SPL/MCP/REST 进行查询，并在一个对象图中连接遥测、服务和业务对象。
+- **大概是做什么的**: UModel（统一模型）是一个供应商中立的语义运行时，用于企业人工智能、数据治理和运营智能。它将碎片化的模式、实体、业务对象、遥测链接和拓扑关系转变为工作区范围的图形上下文，人类、系统和人工智能代理可以通过一项本地服务理解和使用。使用 UModel，您可以： - 创作和导入定义企业对象、操作对象、数据集、链接、存储和拓扑语义的模型包。 - 通过一个 SPL 表面查询模型、实体和拓扑： .umodel 、 .entity 和 .topo 。 - 通过本地 Web UI 探索工作区。 - 通过 AgentGateway 和 MCP 连接代理客户端。 - 使用公共 REST、CLI 和 SDK 合约，而不依赖于服务器内部结构。 AI 代理读取快速入门多域工作区中的对象图（90 秒）：它发现服务，遍历跨域拓扑，并通过模型范围的查询计划提取指标和日志，而无需手动编写单个查询。 - 大规模加速企业人工智能。统一语义标准助力AI
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, aiops, cmdb, data-modeling, knowledge-graph, mcp
+
+---
+
+### 🌟 [awesome-hermes-skills](https://github.com/ZeroPointRepo/awesome-hermes-skills)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 392
+- **核心概述**: Hermes Agent (v0.17.0) 的精选、可安装技能。 72 种内置 + 101 种可选捆绑技能 + 85 种社区技能、插件和工具，用于 Nous Research 的自我改进 AI 代理。与 Claude Code、OpenClaw、Cursor 和 Windsurf 交叉兼容。
+- **大概是做什么的**: 很棒的 Hermes 技能 Hermes Agent（来自 Nous Research 的自我改进 AI 代理）精心策划的、可立即安装的技能目录。涵盖 Hermes 附带的 72 种内置技能和 101 种技能可选目录，以及经过质量审查的 86 种社区技能、插件和工具。 Hermes 是唯一具有真正学习循环的代理。它从您的工作流程中编写自己的技能，搜索自己过去的对话，并在任何地方运行 - 5 美元的 VPS、GPU 集群、无服务器或您的笔记本电脑。但代理的强大程度取决于您赋予它的技能。该列表是快捷方式。选择三个，一分钟内安装，到今晚您的代理的有用性就会增加一倍。 youtube-full — 获取 YouTube 文字记录、搜索视频、浏览频道以及从任何 AI 代理中提取播放列表。以最快的方式感受爱马仕的能力。安装，然后询问：“总结 Lex Fridman 的最近 5 个视频。”您的代理会获取文字记录、总结并记住您观看的内容 - 所有这一切都在一个提示中完成。没有 Google API 密钥，没有无头浏览器，没有 yt-dlp 与云 IP 块共舞。由 TranscriptAPI 提供支持（15M+ 转录本/分钟
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, awesome, awesome-list, claude-code, hermes-agent
+
+---
+
+### 🌟 [typescript-style-guide](https://github.com/mkosir/typescript-style-guide)
+- **项目语言**: MDX
+- **星标数量**: ⭐ 777
+- **核心概述**: ⚙️ TypeScript 风格指南和代理技能。一组简洁的约定和最佳实践，用于实现一致、可维护的代码。
+- **大概是做什么的**: TypeScript 风格指南 TypeScript 风格指南和代理技能。一组简洁的约定和最佳实践，用于实现一致、可维护的代码。转到 👉 TypeScript 样式指南 - 随着项目规模和复杂性的增长，维护代码质量和确保一致的实践变得越来越具有挑战性。 - 定义并遵循编写 TypeScript 应用程序的标准方法可以实现一致的代码库和更快的开发周期。 - 在代码审查期间无需讨论代码风格。 - 节省团队时间和精力。欢迎所有贡献！发起 PR、问题或讨论。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-skill, ai-tools, coding-conventions, coding-guidelines
+
+---
+
+### 🌟 [agent-skills](https://github.com/oxylabs/agent-skills)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 454
+- **核心概述**: Oxylabs产品官方代理技能
+- **大概是做什么的**: Oxylabs 代理技能 Oxylabs 产品的官方代理技能。每项技能都提供了人工智能代理可以用来与 Oxylabs 服务交互的结构化指令。技能目录描述 ------- ----------- ------------- 代理技能/代理 住宅、移动、数据中心、专用数据中心、ISP 和专用 ISP 代理网络，具有地理定位、IP 轮换和会话持久性 Web Unblocker 技能/web-unblocker AI 驱动的代理，可处理指纹识别、JavaScript 渲染、CAPTCHA，并自动提高访问可靠性 Web Scraper API 技能/web-scraper-api 使用结构化 JSON 的生产级网页抓取解析 40 多个目标和地理定位 无头浏览器技能/无头浏览器 通过 CDP（Playwright/Puppeteer）远程无头浏览器，具有内置请求处理和住宅代理 视频数据技能/视频数据 视频数据提取（元数据、字幕、搜索、频道）和高带宽代理视频下载 自带 HTTP 客户端、代理身份验证、IP 轮换、粘性会话或原始地理定位代理流量 代理获取保护
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, agent-skills, ai-agent, ai-agents, claude-code, claude-skills
+
+---
+
 ## 🕔 2026-08-12 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 181 个候选项目中筛选出 6 个未推荐过的新项目。
