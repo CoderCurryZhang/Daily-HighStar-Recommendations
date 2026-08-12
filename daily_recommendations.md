@@ -1,3 +1,67 @@
+## 🕔 2026-08-12 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 264 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [py-gpt](https://github.com/szczyglis-dev/py-gpt)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,879
+- **核心概述**: 桌面 AI 助手由 GPT-5、GPT-4、o1、o3、Gemini、Claude、Ollama、DeepSeek、Perplexity、Grok、Bielik、聊天、视觉、语音、RAG、图像和视频生成、代理、工具、MCP、插件、语音合成和识别、网络搜索、内存、预设、助手等提供支持。 Linux、Windows、Mac
+- **大概是做什么的**: PyGPT - 桌面人工智能助手 版本：2.8.0 版本：2026-08-12 Python：=3.10，官方网站：https://pygpt.net 文档：https://pygpt.readthedocs.io Discord：https://pygpt.net/discord Snap：https://snapcraft.io/pygpt PyPi：https://pypi.org/project/pygpt-net Linux 编译版本 ( zip ) 和Windows 10/11 ( msi ) 64 位：https://pygpt.net/ 下载 ❤️ 捐赠：https://www.buymeacoffee.com/szczyglis https://github.com/sponsors/szczyglis-dev PyGPT 是一款一体化桌面 AI 助手，可通过开放人工智能 API 。通过利用其他 SDK 和 LlamaIndex ，该��用程序还支持替代 LLM，例如 HuggingFace 上提供的那些、通过 Ollama 本地可用的模型（例如 gpt-oss 、 Llama 3 、 Mistral 、 DeepSeek V3/R1 或 Bielik ）以及其他模型，例如 Google Gemini 、 Anthropic Claude 、 Perplexity / Sonar 和 xAI Grok 。该助手提供聊天、助手、代理、补全等多种操作模式，以及图像生成和图像等与图像相关的任务
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-assistant, artificial-intelligence, autonomous-agent, chatbot, claude
+
+---
+
+### 🌟 [Introduction-to-Quantitative-Finance](https://github.com/Barca0412/Introduction-to-Quantitative-Finance)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,637
+- **核心概述**: AI+金融（量化）：1.多因子股票量化框架开源教程 2.学界和业界的经典资料收录 3.AI + 金融的相关工作，包括LLM, Agent, benchmark(evaluation), etc.
+- **大概是做什么的**: 面向量化研究者与学习者的中文开源知识库：多因子投研框架、AI + Finance arXiv Radar，以及经过整理的工具、课程与研究资源。 查看 AI + Finance Radar · - 多因子量化投研教程 ：从研究框架到因子、回测与组合优化的学习路线。 - AI + Finance arXiv Radar ：工作日自动抓取、聚类与检索相关论文，提供趋势与标签视图。 - 精选资源地图 ：量化数据、回测、因子挖掘、机器学习、强化学习与金融课程的持续整理。 系统学习量化投研 多因子投研框架教程 跟踪 AI + Finance 最新论文 arXiv Radar 提出建议或补充资源 GitHub Discussions 如果这个项目对你有帮助，欢迎点一个 Star ⭐；它能帮助更多量化学习者发现这份资料。 欢迎star⭐，欢迎一同contribute AI + Finance arXiv Radar 站点已集成新的 /arxiv/ Radar 子站，替换原有的旧版 arXiv 文档体验。 - 入口：VitePress /arxiv/ 子区块 - 能力：论文列表、趋势图、语义检索、机构筛选、标签聚合 - 数据： data/papers.json 、 data/stats.json 、 data/embeddings index.json - 管线： scripts/arxiv radar/ Machine-updated arXiv Radar Status - Latest update: 2026-08-12 - Indexed papers: 14705 - Focus papers: 6126 - Latest publication date: 2026-08-11 - Monitored categories: 10 如需刷新数据与 README 状态块，可运行： npm run arxiv:update 欢迎补充高质量资料、修复失效链接、改进教程或���善 Radar 标签。提交前请先在 Discussions 交流想法；小型修正可直接提交 Pull Request，并说明资料来源与适用场景。 - 本部分计划开源自湖南大学金融科技协会Quant Group的研究内容，框架（英文版）如下图 - 湖南大学金融科技协会的详细介绍：https://www.guohaoqi.cn/hft-association ，欢迎关注我们 - 量化金融、机器学习、数学参考书与资料📐 - 量化研究实习中的代码知识（比较杂乱） - microsoft/qlib - AI导向量化
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai4fin, finance, investment, llm, llm4fin
+
+---
+
+### 🌟 [Fuxi](https://github.com/fuxicodex/Fuxi)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 472
+- **核心概述**: FuXi 是一种快速、独立的 AI 编码代理，位于您的终端中 — 编辑代码、运行命令和驱动工具，并具有跨 LLM 提供商的成本感知路由。
+- **大概是做什么的**: 驻留在您终端中的人工智能编码代理。代号一花开天——“一划开天”。 FuXi 是一个快速、独立的 AI 开发者终端：从丰富的 TUI 中读取代码、编辑文件、运行命令和驱动工具，并具有跨多个 LLM 提供商的成本感知路由和自动故障转移功能。一个静态二进制文件，无运行时 终端优先 · 与提供商无关 · 自带密钥 · MCP 客户端 · 自更新主页：https://www.fuxicode.com - 评估和基准测试 - 键盘快捷键 模型就是引擎。伏羲就是交通工具。模型本身就能回答问题； FuXi 将其变成了一个工人——推理、根据你的真实代码库采取行动、验证结果，并在你的控制下以经济实惠的方式完成它。 - 思考→行动→验证循环——伏羲不只是回答。它以一个循环的方式工作：推理任务、使用工具（编辑文件、运行命令、搜索代码）、检查结果并迭代，直到工作完成并得到验证——修复失败的测试、绿色套件、准备好 PR。 - 智能路由——每个请求都会根据复杂性进行评分，并路由到正确的模型���：廉价模型
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, ai-coding, cli, code-assistant
+
+---
+
+### 🌟 [stashbase](https://github.com/liliu-z/stashbase)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 307
+- **核心概述**: 将本地文件转变为 AI 代理的可搜索上下文。
+- **大概是做什么的**: 将本地文件转换为代理的可搜索上下文。您的大部分最佳上下文都存在于特工无法轻松搜索的本地文件中——文件、合同、扫描文档、录音。 📂 在 StashBase 中打开一个文件夹，其支持的内容将变得可搜索： - 📄 准备：从 PDF、DOCX 文件、图像、音频和视频中提取可搜索文本。 - 🔎 搜索：通过含义查找相关上下文，而不仅仅是关键字。 - 🤖 连接：在 Claude、Codex 和其他 MCP 客户端之间共享可搜索上下文。您的文件夹仍然是事实的来源； StashBase 添加了一个可以从中重建的搜索索引。在StashBase中打开这个repo并询问内置Agent：这个项目是如何设计的？ StashBase 的主要平台是 macOS 12+ (Apple Silicon) 和 Windows 10+ (x64)。社区支持的 Linux 版本也适用于 x86 64 Debian 12+ / Ubuntu 22.04+ 。运行 macOS 12 或更高版本的 Apple Silicon Mac 可以使用 Homebrew 进行安装：或者从 Releases 下载 StashBase- -mac-arm64.dmg，将应用程序拖至“应用程序”，然后在此处打开它。如果 macOS 提示应用程序已损坏或要求将其移至垃圾箱
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, document-search, electron, knowledge-base, local-first, mcp
+
+---
+
+### 🌟 [e2b-cookbook](https://github.com/e2b-dev/e2b-cookbook)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,383
+- **核心概述**: 使用 E2B 的示例
+- **大概是做什么的**: 使用 E2B SDK 构建的示例代码和指南。在 E2B 网站和官方 E2B 文档上阅读有关 E2B 的更多信息。 - E2B AI Analyst - 分析数据并创建交互式图表 - E2B Fragments - 提示不同的 LLMS 通过 UI 生成应用程序 - E2B Surf - 计算机使用由 OpenAI 提供支持的 AI 代理 在 E2B 沙箱中运行的代理工作流程 CSV 的数据分析和可视化 代码解释器和图像数据推理 OpenAI Codex 数据集上的 ML 代码解释器，在沙箱内运行 Claude 代码，在沙箱内运行 Claude 托管代理 自托管工作运行通过函数调用 Qwen2.5-Coder-32B-Instruct Llama 3.1 405B、70B、8B Llama 3.1、Qwen 2、Code Llama、DeepSeek Coder IBM Graphite、Llama、Mistral AI 框架集成 LangChain 与代码解释器 LangGraph 与代码解释器 CrewAI 代理与沙盒 Python 执行 Autogen 与安全沙盒代码解释 Next.js + AI SDK + Code Interpreter Feedback 分析代理，沙箱后端为 E2B，从沙箱发布 HTML 报告
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, code-interpreter, cookbook, devtools
+
+---
+
+### 🌟 [testdriverai](https://github.com/testdriverai/testdriverai)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 238
+- **核心概述**: 计算机使用的端到端QA测试SDK
+- **大概是做什么的**: 用于 E2E QA 测试的计算机使用 SDK TestDriver SDK 是 vitest 的 JS 插件，可以轻松生成临时设备并使用基于视觉的 LLM 来构建德特曼和可靠的测试。 🚀 快速入门 • 📖 文档 • 💻 示例 • 📖 定价 • 💬 不和谐 • 🌐 网站 不要发布错误，因为流程太难测试。 TestDriver 可帮助工程团队轻松测试、调试和监控其他工具难以或无法覆盖的 E2E 流程，例如：第三方 Web 应用程序 • 桌面应用程序 • VS 代码扩展 • Chrome 扩展程序 • AI 聊天机器人 • OAuth 流程 • PDF 内容 • 拼写和语法 • 文件系统和上传 • 操作系统可访问性 • 视觉内容 • • • 查看完整示例 • 浏览所有示例 第 1 步：创建 TestDriver 帐户 无需信用卡！步骤 2：初始化您的项目 - 创建项目文件夹 - 安装依赖项（Vitest + TestDriver） - 设置 API 密钥 - 为您的 AI 助手（VS Code、Cursor、Claude Desktop 等）配置 MCP - 生成示例测试 步骤 3：作为 TestDriver 运行您的第一个测试观察： 1. 生成云沙箱 3. 运行您的 t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, agentic-coding, ai, ai-agent, ai-testing
+
+---
+
 ## 🕔 2026-08-12 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 286 个候选项目中筛选出 6 个未推荐过的新项目。
