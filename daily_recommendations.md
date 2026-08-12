@@ -1,3 +1,67 @@
+## 🕔 2026-08-12 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 286 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [inspector](https://github.com/modelcontextprotocol/inspector)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 10,653
+- **核心概述**: MCP服务器可视化测试工具
+- **大概是做什么的**: 用于检查模型上下文协议 (MCP) 服务器的开发人员工具。它作为单个包 @modelcontextprotocol/inspector 提供，提供三种检查服务器的方法： - Web — 带有 Node 后端的 Vite + React + Mantine 单页应用程序。 - CLI — 用于自动化、CI 和快速代理反馈循环的可编写脚本的命令行客户端。 - TUI — 使用 Ink 构建的交互式终端 UI。所有这三个都通过一个全局 mcp-inspector 二进制文件运行：从 v1 升级？阅读 v1 → v2 迁移指南 — CLI 标志、新的 --config 与 --catalog 拆分、Node 引擎碰撞以及不再提供的内容。回购状态。这是 Inspector 的 v2 系列。积极的开发发生在 v2/main（开发分支 - 所有 v2 PR 都以它为目标），它在里程碑版本中合并到 main 中； main 是默认分支，保存最新发布的 v2，发布到 npmlatest 标签。旧版 v1 系列位于 v1/main 上 —​​ 仅安全修复，直接从该分支发布到 npm v1-latest 标签 ( npx @modelcontextprotocol/inspector@v1-latest )。请参阅 AGENTS.md 了解分支/董事会约定。 v2 不是
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: debug, mcp, tool
+
+---
+
+### 🌟 [browser-tools-mcp](https://github.com/AgentDeskAI/browser-tools-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 7,290
+- **核心概述**: 直接从 Cursor 和其他 MCP 兼容 IDE 监控浏览器日志。
+- **大概是做什么的**: 让您的 AI 编码代理关注浏览器。 BrowserTools MCP 将控制台输出、网络活动、屏幕截图和 Lighthouse 审核从您的真实 Chrome 会话（已登录到您的应用程序的会话）流式传输到任何 MCP 兼容客户端：Cursor、Claude Code、Windsurf、Cline、Zed、Gemini CLI 等。 2.0版本是重写的。一个进程而不是三个，没有未经身份验证的本地服务器，凭据在离开浏览器之前被清除，以及一个真正的测试套件。如果您来自 1.x，请阅读 MIGRATION.md — 并升级，因为 1.2.x 有一个严重漏洞。了解为什么使用它而不是基于 CDP 的服务器 Chrome DevTools MCP 和 Playwright MCP 等工具可驱动全新的自动化浏览器。这是编写测试的正确选择。对于调试您实际正在查看的应用程序来说，这是错误的选择，因为自 Chrome 136 以来，浏览器拒绝对您的默认配置文件（保存您的登录信息的配置文件）进行远程调试。因此，在调试任何内容之前，您最终会在一次性配置文件中重新创建身份验证状态。 BrowserTools 通过一个连接到您已经所在的会话
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, anthropic, cursor, mcp, mcp-server
+
+---
+
+### 🌟 [VibeUE](https://github.com/kevinpbuckley/VibeUE)
+- **项目语言**: C++
+- **星标数量**: ⭐ 592
+- **核心概述**: 虚幻引擎 Vibe 编码工具
+- **大概是做什么的**: VibeUE — AI 驱动的虚幻引擎开发 🧩 适用于虚幻引擎 5.8+ 的 MCP 扩展 + AI 编辑器工具集 https://www.vibeue.com/ VibeUE 是适用于虚幻引擎 5.8+ 的 MCP 扩展 + AI 编辑器工具集。 Unreal 5.8添加了内置MCP服务器和AI工具集； VibeUE 是一个 MCP 扩展，可直接插入其中并添加深度 AI 编辑器工具集 — 一个编辑器功能库 — 蓝图、材质、景观、树叶、动画、Niagara、UMG、音频、StateTree、游戏标签、输入、UV、性能/分析等 — 注册到引擎自己的 ToolsetRegistry 和 ModelContextProtocol 服务器中，以及通过 Unreal 的本机 AgentSkill 系统提供的丰富领域技能。任何支持 MCP 的代理（Claude Code、Cursor、Copilot 等）都可以通过 Unreal 的标准 MCP 端点驱动您的编辑器。 ⚠️ VibeUE 需要首先设置 Unreal 的本机 MCP — 启用 Unreal MCP 插件（自动启用 Toolset Registry ）和编辑器工具插件，然后启动 MCP 服务器。按照 Epic 的指南：虚幻编辑器中的虚幻 MCP 进行操作。然后，VibeUE 扩展该端点 — 无需单独的服务器
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-tools, automation, blueprint, claude, copilot
+
+---
+
+### 🌟 [waku](https://github.com/egoist/waku)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 552
+- **核心概述**: ⚡ 适用于所有编码代理的本机应用程序。
+- **大概是做什么的**: Waku 是一款快速的本机桌面应用程序，用于与本地编码代理合作。它是用 Rust 和 GPUI 构建的，并将项目、会话、记录保存在你的机器上。在启动 Waku 之前，安装并验证至少一个受支持的代理 CLI。 Waku 自动检测可用的 CLI，并使用每个提供商的本机结构化协议和会话连续性。 - 将项目和独立代理会话保留在一个本机应用程序中。 - 从共享界面切换模型、推理工作和访问模式。 - 在客服人员工作时对后续消息进行排队或引导。 - 使用对话感知检查点回滚 Git 支持的任务。 - 在本地存储应用程序状态，无需 Waku 帐户或远程服务。目前开发需要 macOS、Rust 1.96 或更高版本，请参阅 CONTRIBUTING.md 了解开发工作流程和检查。版本维护者还应该阅读 RELEASING.md。您可以通过 GitHub Sponsors 支持项目开发。 Waku 仅根据 GNU 通用公共许可证 v3.0 获得许可。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, amp, claude-code, codex, coding, cursor
+
+---
+
+### 🌟 [os-clovy](https://github.com/open-software-network/os-clovy)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 341
+- **核心概述**: Mac 上的私人 AI。在一个开源工作区中进行聊天、听写、会议记录和本地代理。
+- **大概是做什么的**: Mac Clovy 上的私人 AI 将聊天、语音听写、会议记录和本地代理带入单个私人工作区。默认情况下是本地的，通过保护隐私的人工智能和开源进行路由，因此可以检查而不是相信隐私声明。大多数人工智能应用程序都会要求您交出最敏感的数据并信任它们。每个提示、文件和会议都会揭示有关您的一些信息，而具有这种影响力的云代理是远程公司了解您工作的窗口。 Clovy 的构建方式正好相反。该应用程序和代理在您的 Mac 上运行。默认情况下，笔记、录音、文字记录、文件、会话和座席内存保留在您的计算机上。当 Clovy 需要模型推理时，请求会通过 Clovy API，这是一种经过 TEE 认证的开源服务，该服务将提供者密钥保留在服务器端，并默认路由到私有模型，数据保留为零。您不必相信这些：整个产品均获得 MIT 许可，并且服务于生产的确切代码是加密的 - Chat。提出问题、进行研究、集思广益并制定计划，无需进行对话训练
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, dictation, local-first, macos, meeting-notes
+
+---
+
+### 🌟 [agentregistry](https://github.com/agentregistry-dev/agentregistry)
+- **项目语言**: Go
+- **星标数量**: ⭐ 454
+- **核心概述**: 通过集中、可信、精心策划的注册表快速跟踪人工智能创新
+- **大概是做什么的**: 建造。部署。发现。 MCP 服务器、代理、技能和提示的一个注册表。网站 · 文档 · Discord · GitHub · 快速入门 什么是 agentregistry？ agentregistry 是一个开源平台，让您可以在一个地方查找、管理和运行 MCP 服务器、AI 代理和技能。目前，您的团队所需的 MCP 服务器和 AI 工具分布在 npm、PyPI、Docker Hub、GitHub 存储库和随机 URL 中。没有人知道哪些版本值得信赖，哪些版本有效，或者如何让它们运行。每个开发人员都在进行自己的手动 Docker 设置和 IDE 配置。 agentregistry 将所有这些都放入具有 CLI 和 Web UI 的单个注册表中。您发布工件一次，然后团队中的任何人都可以发现它们，使用一个命令部署它们，并自动将其 IDE 配置为使用它们。 - AI 构建块的一个值得信赖的来源 - 一个精心策划的目录，而不是分散的存储库、脚本和一次性 MCP 设置 - 更快的开发人员入门 - 通过更少的手动配置快速发现批准的工件 - 从笔记本电脑到集群的一致路径 - 相同的发现
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, mcp, registry, skills
+
+---
+
 ## 🕔 2026-08-12 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 153 个候选项目中筛选出 6 个未推荐过的新项目。
