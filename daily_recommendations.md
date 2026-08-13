@@ -1,3 +1,67 @@
+## 🕔 2026-08-13 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [csharp-sdk](https://github.com/modelcontextprotocol/csharp-sdk)
+- **项目语言**: C#
+- **星标数量**: ⭐ 4,471
+- **核心概述**: 适用于模型上下文协议服务器和客户端的官方 C# SDK。与 Microsoft 合作维护。
+- **大概是做什么的**: 模型上下文协议的官方 C SDK，使 .NET 应用程序、服务和库能够实现 MCP 客户端和服务器并与之交互。请访问 API 文档以获取有关可用功能的更多详细信息。 SDK 包包括： - ModelContextProtocol.Core - 适用于仅需要使用客户端或低级服务器 API 并需要最少数量的依赖项的项目。 - ModelContextProtocol - 具有托管和依赖项注入扩展的主包。参考 ModelContextProtocol.Core 。这非常适合大多数不需要 HTTP 服务器功能的项目。 - ModelContextProtocol.AspNetCore - 基于 HTTP 的 MCP 服务器的库。参考 ModelContextProtocol 。 - ModelContextProtocol.Extensions.Apps - MCP Apps 扩展，用于构建在 MCP 主机内呈现的交互式 UI 应用程序。 - ModelContextProtocol.Extensions.Tasks - MCP 任务扩展，用于与状态轮询和输入请求异步运行长时间运行的工具调用。要开始使用，请参阅概念文档中的入门指南
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: csharp, dotnet, mcp, mcp-client, mcp-server, modelcontextprotocol
+
+---
+
+### 🌟 [ai-crawler-py](https://github.com/oxylabs/ai-crawler-py)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 3,178
+- **核心概述**: 从 URL 开始抓取网站，查找相关页面并提取数据 - 所有这些都由您的自然语言提示引导。
+- **大概是做什么的**: AI-Crawler 是 Oxylabs AI Studio 的一款实验性数据提取应用程序，它使用先进的 AI 算法来抓取给定的域。它根据自然语言提示识别相关页面并提取结构化 JSON 或 Markdown 输出数据。这种低代码工具旨在简化复杂的数据采集任务，使开发人员和数据科学家能够专注于分析，而不是构建和维护自定义网络抓取工具。 AI 网络爬虫提供高级过滤、基于模式的解析以及与各种自动化管道的无缝集成。 - 从任何给定 URL 开始爬行：使�� AI Crawler 作为起点，从任何有效网址开始提取数据。 - 自然语言提示：用简单的英语定义您的数据需求，抓取代理将解释提示以查找相关内容。 - 人工智能辅助 URL 选择：人工智能网络爬虫智能地探索网站，识别并优先考虑与您的提示最相符的页面。 - 多种输出格式：在结构化 JSON 或 Markdown 输出之间进行选择，以便无缝集成到
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-crawler, ai-scraping, ai-studio, ai-web-crawler
+
+---
+
+### 🌟 [jscpd](https://github.com/kucherenko/jscpd)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 5,993
+- **核心概述**: 用于编程源代码的复制/粘贴检测器，支持 223 种格式。 AI 就绪，具有代币高效的报告器、技能和 MCP 服务器。
+- **大概是做什么的**: 用于编程源代码的复制/粘贴检测器。支持 224+ 格式。 AI 就绪，配有 MCP 服务器和令牌高效报告器。现在采用 Rust 驱动的引擎 — 速度提高 24-37 倍。 jscpd 实现 Rabin-Karp 算法来查找跨文件的重复代码块。文档说明 ---------- ------------- TypeScript (v4.x) Node.js 引擎 — CLI、记者、配置、检测模式 Rust (v5.x) Rust 引擎 — 安装、CLI、记者、责任、Rust API AI-Ready AI 记者、代理技能、MCP 服务器 编程 API TypeScript 和 Rust 编程 API CI 和预提交挂钩 GitHub 操作、预提交挂钩 软件包 Monorepo 软件包和箱概述 TypeScript (v4) Rust (v5) npm 软件包jscpd@4 jscpd@5 或 cpd CLI 命令 jscpd jscpd（来自 jscpd@5 ）或 cpd（来自 cpd ） 速度基线快 24-37 倍 格式 224 223 需要 Node.js 是 否（独立的二进制文件） 编程 API TypeScript ( jscpd() 、 detectorClones() ) Rust ( cpd-finder crate) LevelDB 存储 是否 记者 13 13 jscpd@5 安装 jscpd 命令。 cpd npm 软件包安装 cpd 命令。两者都包含相同的 Rust 二进制文件
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, clones-detection, code-quality, coding-agents, copy-paste, copy-paste-detection
+
+---
+
+### 🌟 [godot-ai](https://github.com/hi-godot/godot-ai)
+- **项目语言**: GDScript
+- **星标数量**: ⭐ 1,622
+- **核心概述**: 用于 Godot 引擎的生产级 MCP 服务器和 AI 工具。一键安装。完全免费且有趣。
+- **大概是做什么的**: 通过模型上下文协议将 MCP 客户端直接连接到实时 Godot 编辑器。 43 个 MCP 工具（完整列表）中的 120 多个操作让 AI 助手（Claude Code、Codex、Grok Build、Antigravity、Hermes Agent 等）构建场景、编辑节点和脚本、连接信号以及配置 UI、材质、动画、粒子、相机和环境。 🎉 现在在 Godot Asset Library 和新的 Godot Asset Store 上 - 从 Godot 的 AssetLib 选项卡一键安装。 Python 服务器仍然需要 uv（请参阅快速入门）。 💬 加入 Discord — 问题、展示和贡献者聊天。 UI 演示在 2 小时内构建，零编码，零图像生成，全部由 Godot AI 以编程方式绘制 — 源 - Godot 4.5+（推荐 4.7+） - uv（对于 Python 服务器）如何安装 uv（macOS / Linux / Windows / 包管理器） - macOS / Linux：curl -LsSf https://astral.sh/uv/install.sh sh - Windows (PowerShell)：powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 iex" - 更喜欢您的包管理器？ uv 是一种流行的开源工具，大多数发行版存储库中都包含该工具，因此您不必
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, game-development, godot, godot-plugin, mcp
+
+---
+
+### 🌟 [CloudBase-AI-Toolkit](https://github.com/TencentCloudBase/CloudBase-AI-Toolkit)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,068
+- **核心概述**: CloudBase 上的 AI 编码代理后端 — 数据库、身份验证、通过插件、技能和 MCP 实现的功能。
+- **大概是做什么的**: CloudBase AI Toolkit AI 编写代码。 CloudBase 运行后端。 AI 编码工具的 CloudBase 集成层：插件安装堆栈，技能指导代码的编写方式，MCP 操作数据库、函数、存储并通过聊天进行部署。 English · 简体中文 · [文档][文档] · [更改日志][更改日志] · [问题][github-issues-link] ![][github-license-shield] ![][github-contributors-shield] - 网关：启用/禁用 HTTP 路由 (enableRoute /disableRoute)；托管/env 表面在返回访问 URL 之前检测禁用的默认域路由 (901、902、903) - 身份验证：接受 CLOUDBASE APIKEY 作为 API 密钥环境变量回退 (900) - ��能：尚未加载 MCP 工具时首次会话的 MCP 到 CLI 工具回退 (889) - 模板/CI：将兼容代理指南缩小到 40 KiB 以下； Harden ClawHub 发布幂等性和上传票重试 (895, 893, 894) - 技能/RAG：searchKnowledgeBase 中的minimal-web-baas-demo； CloudRun/Gateway VPC & 自定义域访问； PG 迁移强化 — 完整列表请参阅 [Releases][changelog] [Releases][changelog] · [Star][gith]
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai, aicoding, claude-code, cloudbase, cursor
+
+---
+
+### 🌟 [memorax-code](https://github.com/memorax-ai/memorax-code)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 444
+- **核心概述**: 一个用于 AI 编码的内存插件，可将工程经验、存储库知识和您的工作方式转化为内存，在未来的任务中仍然有用。
+- **大概是做什么的**: 永远不要失去背景。永远不要重新开始。除了代码之外，它还记得您的架构如何演变以及您的工程如何展开。让每次交互成为下一个交互的起点 编码代理擅长完成他们面前的任务，但新的会话通常在没有之前建立的体系结构、失败的尝试、存储库规则或工作首选项的情况下开始。 MemoraX Code 为 Codex 和 Claude Code 提供了该上下文的共享内存层。它可以回忆先前的工程知识，从已完成的工作中捕获可重复使用的经验教训，维护存储库知��，并将您的程序和偏好带入未来的会话中。目标不是记住所有事情。它是带回与当前任务相关的少量内存，以便代理可以更快地进行有用的调查和验证。准备 Node.js 24+ 和 Codex 或 Claude Code。 Repo Memory 操作需要 Python 3。 1. 获取 MemoraX 内存密钥 在 MemoraX 控制台注册并创建 API 密钥。仅在本地安装终端中��入密钥；不要将其粘贴到聊天或公共问题中
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, codex, coding-memory, developer-tools, memorax
+
+---
+
 ## 🕔 2026-08-13 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 253 个候选项目中筛选出 6 个未推荐过的新项目。
