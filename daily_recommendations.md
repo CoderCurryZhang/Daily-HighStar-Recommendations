@@ -1,3 +1,67 @@
+## 🕔 2026-08-13 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [llm-for-zotero](https://github.com/yilewang/llm-for-zotero)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,632
+- **核心概述**: 一个深深植根于您的 Zotero 库中的开源研究代理系统。
+- **大概是做什么的**: llm-for-zotero：Zotero 图书馆的研究代理系统 llm-for-zotero 将大型语言模型引入 Zotero 阅读器，因此您无需离开图书馆即可提出问题、总结论文、检查数据、比较来源和保存笔记。它与标准 API 提供商、本地 OpenAI 兼容模型、WebChat、Codex 应用程序服务器、- MinerU PDF 解析 - 隐私和数据流 - 直接在 Zotero 内与当前 PDF、选定的文本、图形、屏幕截图和上传的文档进行聊天。 - 通过跳转回源段落的引文获得接地气的答案。 - 比较多篇打开的论文或添加外部文件作为额外的上下文。 - 将答案、完整对话和研究笔记保存到 Zotero 笔记或本地 Markdown 文件夹（例如 Obsidian 和 Logseq）。 - 启用代理模式以进行图书馆范围内的阅读、搜索、标记、元数据、导入、笔记编辑和组织工作流程。 - 使用您首选的后端：API 密钥、本地模型、ChatGPT WebChat、Codex 应用服务器或 Claude Code。 - Codex App Server 是 ChatGPT Plus 用户推荐的 Codex 路径。它贯穿于
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: academic-paper, codex, literature-analysis, llm-agent, mcp, rag
+
+---
+
+### 🌟 [relaticle](https://github.com/relaticle/relaticle)
+- **项目语言**: PHP
+- **星标数量**: ⭐ 1,506
+- **核心概述**: 具有本机 AI 代理支持的开源 CRM。 30 个 MCP 工具、REST API、自托管。使用 Laravel 和 Filament 构建
+- **大概是做什么的**: 专为人员和人工智能支持的工作而构建的开源 CRM 使用 Filament 5 和 Livewire 4 Relaticle 构建的干净、现代的界面是一个带有生产级 MCP 服务器的自托管 CRM。将任何 AI 代理（Claude、GPT 或开源模型）与 30 种工具连接起来，以实现完整的 CRM 操作。 22 种自定义字段类型、REST API 和多团队隔离。非常适合：开发人员主导的团队、人工智能前沿初创公司以及希望在不受供应商锁定的情况下集成人工智能代理的中小企业。 - 代理本机基础设施 - 具有 30 个工具的 MCP 服务器、具有完整 CRUD 的 REST API、AI 代理的模���发现 - 可定制的数据模型 - 22 种字段类型，包括实体关系、条件可见性和每字段加密。无需迁移。 - 多团队隔离 - 具有团队范围数据和工作空间的 5 层授权 - 现代技术堆栈 - Laravel 13、Filament 5、PHP 8.4、2,000+ 自动化测试 - 隐私优先 - 自托管、AGPL-3.0，您的数据保留在您的服务器上 - Composer 2 和 Node.js 20+ - 用于队列的 Redis（开发可选） 请参阅 Docker 和手动部署的自托管指南指示
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, alpine, attio-alternative, company, contacts
+
+---
+
+### 🌟 [openchatbi](https://github.com/zhongyu09/openchatbi)
+- **项目语言**: Python
+- **星标数量**: ⭐ 622
+- **核心概述**: OpenChatBI 是一款基于聊天的智能 BI 工具，由大型语言模型提供支持，旨在帮助用户通过自然语言对话查询、分析和可视化数据。它使用 LangGraph 和 LangChain 构建支持自然语言到 SQL 转换和数据分析的聊天代理和工作流程。
+- **大概是做什么的**: OpenChatBI 是一款基于大型语言模型的开源、基于聊天的智能 BI 工具，旨在帮助用户通过自然语言对话查询、分析和可视化数据。它建立在 LangGraph 和 LangChain 生态系统之上，提供支持自然语言到 SQL 转换和简化数据分析的聊天代理和工作流程。加入 Slack 频道讨论： 邀请链接加入 1. 自然语言交互：通过用自然语言提问来获取数据分析结果 2. 自动 SQL 生成：使用高级 text2sql 工作流程、模式链接和组织良好的提示工程，将自然语言查询转换为 SQL 语句 3. 数据可视化：生成直观的数据可视化（通过绘图） 4. 数据目录管理：自动发现并索引数据库表结构，支持基于向量或基于向量的灵活目录存储后端基于BM25的检索，轻松维护表列的业务说明并优化提示。 5.时间序列预测：内部预测模型，acce
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, analytics, anomaly-detection, bi, chatbi
+
+---
+
+### 🌟 [mcp-gateway-registry](https://github.com/agentic-community/mcp-gateway-registry)
+- **项目语言**: Python
+- **星标数量**: ⭐ 862
+- **核心概述**: 企业就绪的 MCP 网关和注册表，通过安全的 OAuth 身份验证、动态工具发现以及对自主 AI 代理和 AI 编码助手的统一访问来集中 AI 开发工具。通过 Keycloak/Entra 集成，将分散的 MCP 服务器混乱转变为受管理、可审核的工具访问。
+- **大概是做什么的**: 统一代理和 MCP 服务器注册表 – 用于 AI 开发工具的网关 立即运行 文档 执行简介幻灯片演示视频 AWS 研讨会社区 MCP 网关和注册表是一个单一的、受管控的控制平面，适用于组织中的每个 AI 资产，从 MCP 服务器和 AI 代理到技能以及您团队构建的任何自定义资产。它是开源的，在 Apache 2.0 下获得许可，并在 Kubernetes (Amazon EKS)、完全托管的无服务器 (Amazon ECS) 或 Docker Compose (Amazon EC2) 上运行。它最初是模型上下文协议 (MCP) 的网关和注册表：许多 MCP 服务器的一个安全入口点，具有集中发现和治理功能。随着团队开始在服务器上注册代理、技能和其他资产，它在最初的网关、访问控制和审计模型上发展成为通用人工智能资产注册表。如果没有控制平面，每个团队都会手动连接自己的 MCP 服务器和代理：每个点文件中都有单独的凭据，没有共享清单，没有审计跟踪，也无法发现或管理存在的内容。代理无法找到其他代理；服务器
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, agentic-ai, agents, ans, documentdb, ecs
+
+---
+
+### 🌟 [Abu-Cowork](https://github.com/PM-Shawn/Abu-Cowork)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 280
+- **核心概述**: Claude Cowork 的开源替代方案 — 本地优先的 AI 代理桌面应用 · 多模型 · 自我进化技能 · 隐私优先
+- **大概是做什么的**: 你的 AI 桌面办公助手——交给 Abu 一款本地运行的 AI 桌面助手，灵感来自 Claude Code 的 Cowork 模式。告诉 Abu 您需要什么 - 它读取文件、运行命令、编写文档和构建报告，所有这些都在您的计算机上进行。功能 Abu 常规 AI 聊天 传统自动化 --------- ----------------- ---------------- ---------------------- 自主规划和任务执行 :white check mark: :x: :x: 读/写本地文件，运行命令 :white check mark: :x: :white check mark: 自然语言交互 :white check mark: :white check mark: :x: 29 种内置技能 + 自我进化（Abu 自己成长） :white check mark: :x: :x:多会话 项目聚合 :白色对勾: :x: :x: 计划任务和事件触发器 :白色对勾: :x: :白色对勾: IM bot (Lark/DingTalk/WeCom/Slack) :白色对勾: :x: 部分 多智能体并行执行 :白色对勾: :x: :x: 浏览器和计算机控制 :白色对勾: :x: 部分 100% 本地数据，隐私安全：白色复选标记：：x：：白色复选标记：最近亮点：工作区文件树+代码画布（浏览/
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-assistant, automation, desktop-app, dsh-plugin, dsh-plugins
+
+---
+
+### 🌟 [iam-policy-autopilot](https://github.com/awslabs/iam-policy-autopilot)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 395
+- **核心概述**: IAM Policy Autopilot 是一款开源静态代码分析工具，可帮助您快速创建基线 AWS IAM 策略，并可随着应用程序的发展进行优化。该工具可用作命令行实用程序和 MCP 服务器，可在 AI 编码助手中使用，以快速构建 IAM 策略。
+- **大概是做什么的**: IAM 策略 Autopilot 一种开源模型上下文协议 (MCP) 服务器和命令行工具，可帮助您的 AI 编码助手快速创建基线 IAM 策略，您可以随着应用程序的发展进行完善，从而加快构建速度。 IAM 策略 Autopilot 在本地分析您的应用程序代码，为应用程序角色生成基于身份的策略，从而实现更快的 IAM 策略创建并减少访问故障排除时间。 IAM Policy Autopilot 支持为 Python、Go、TypeScript、JavaScript 和 Java 构建的应用程序生成策略 — 请参阅策略生成支持的语言和 SDK。我们希望���到您的来信。在讨论中提出问题或分享想法，通过问题报告错误，或直接通过 Pull 请求做出贡献。 - IAM 策略自动驾驶仪适合谁？ - IAM 策略自动驾驶仪有何帮助？ - 最佳实践和注意事项 - 网络要求 - 用于策略生成的支持语言和 SDK - 构建说明 - 工作区结构 IAM Policy Autopilot 适合谁？ IAM Policy Autopilot 适用于 AWS 上使用 AI 编码助手的构建者，包括
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: aws, aws-iam, aws-iam-policies, aws-security, cli, cloud-security
+
+---
+
 ## 🕔 2026-08-13 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
