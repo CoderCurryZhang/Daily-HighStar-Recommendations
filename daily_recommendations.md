@@ -1,3 +1,67 @@
+## 🕔 2026-08-13 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 253 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ii-agent](https://github.com/Intelligent-Internet/ii-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,373
+- **核心概述**: II-Agent：用于构建和部署智能代理的新开源框架
+- **大概是做什么的**: II-Agent 是一款专为实际工作而构建的开源 AI 代理 - 现已结束测试版。在 Apache-2.0 许可证下 100% 开源。无论您是独立开发人员、研究团队还是构建内部工具的企业，您都可以运行它、分叉它并扩展它。没有黑匣子。没有供应商锁定。携带您自己的 API 密钥 (BYOK)，以完全控制成本和模型提供商。尝试网络应用程序 加入我们的 Discord https://github.com/user-attachments/assets/430425c4-2352-4101-9fdb-46bdfc63d26a 移动应用程序开发 — 从简短的提��到完整的移动应用程序 网站应用程序开发 — 从简短的提示到完整的网站应用程序 故事书生成 — 从单个提示创建完整插图的图画书 视频和图像生成 — 一个工作流程中的多个模型支持 实时编辑 — 实时编辑网站、幻灯片和故事书 计划模式 — 构建之前的可视化项目规划 快速研究和深入研究 — 快速回答或多步骤调查 交互式网站生成 — 将研究摘要转变为具有结构、视觉效果、引文的完整网站
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, ai, ai-agent, ai-agent-framework, llm
+
+---
+
+### 🌟 [skillpack](https://github.com/CreminiAI/skillpack)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,197
+- **核心概述**: 在几分钟内为您的团队打包并部署本地 AI 代理
+- **大概是做什么的**: SkillPack — 在几分钟内为您的团队打包和部署本地 AI 代理 Skillpack 帮助团队将 AI 技能转变为可在自己的环境中运行并直接从 Slack 和 Telegram 使用的值得信赖的本地代理。我们的愿景是实现分布式智能网络，就像从巨大的、互连的菌丝网络中生长出来的蘑菇一样。 Skillpack.sh 是一种将 AI 技能打包到可运行的本地代理中的开源方法。如果技能和工具就像乐高积木，那么技能包就是将它们组装成完整解决方案的成品。 Skillpack 无需兼顾提示、脚本、文档和一次性自动化，而是为您提供一种简单的方法： - 将 AI 技能打包到可重复使用的代理中 - 将敏感数据保留在您自己的环境中 - 使用团队已使用的工具（例如 Slack 和 Telegram）中的代理 Skillpack 专为希望 AI 代理可部署、可信且易于使用的团队而构建。 1. 下载示例 - Garry Tan SkillPack - Company Deep Research SkillPack 2. 解压并在 Mac OS 上运行 ./start.sh，或在 Windows 上双击 start.bat（见下文），然后
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, agentic, agentic-ai, agentic-workflow, ai-skills
+
+---
+
+### 🌟 [phone-harness](https://github.com/ShawnPana/phone-harness)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,662
+- **核心概述**: 让您的代理控制您的手机
+- **大概是做什么的**: 使用可编辑的细线带将 LLM 直接连接到您的真实 iPhone。没有越狱，没有 Xcode，没有 WebDriverAgent。 Mac 的 iPhone 镜像窗口是整个传输：针对眼睛的屏幕捕获 + Vision 框架 OCR，针对手的 HID 级 CGEvents。代理和电话之间没有任何关系。代理将执行期间缺少的内容写入 agent-workspace/agent helpers.py 中。您的手机，由代理驾驶。粘贴到 Claude Code 或 Codex 中：代理将引导您完成只有您可以做的两件事：将 iPhone Mirroring 与您的手机配对一次（配对提示需要实体手机），并在系统设置→隐私和安全中授予终端可访问性（点击和击键）和屏幕录制（查看手机）。终端重启后屏幕录制生效；可立即访问。然后 ./phone-harness --doctor 验证整个这些是目前已知需要的权限。第一次运行操作时，新机器可能会提示更多信息 - 如果 --doctor 通过但静默点击或捕获不执行任何操作，请注意 macOS 权限提示
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, automation, developer-tools
+
+---
+
+### 🌟 [zeraix](https://github.com/zeraix/zeraix)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 330
+- **核心概述**: 开源本地人工智能工作区——推进设备上推理。
+- **大概是做什么的**: 本地人工智能，从工作空间到运行时都经过精心设计。 Zeraix 是一个开源桌面工作区，用于在您自己的计算机上运行私有本地模型、工具、文件和 AI 代理。除了应用程序之外，我们还不断研究现代人工智能模型如何在个人硬件上更有效地运行。 ExactFlux 是通过这项工作开发的运行时技术，重点关注实际内存使用、持续生成速度、硬件适配和验证输出正确性。 · 模型系统研究 Zeraix 围绕两项相互关联的工作而构建： 人们现在可以使用的开源应用程序： - 无需 Zeraix 帐户或订阅即可运行受支���的本地模型； - 使用对话、文件、终端工具、技能和子代理； - 安排重复的人工智能工作流程并查看其运行历史记录； - 连接本地或远程MCP服务并安装兼容插件； - 安装和管理GGUF模型和兼容的运行时； - 使用硬件感知模型和量化建议； - 通过可选的基于 QEMU 的沙箱执行代理命令； - 连接自定义 OpenAI 兼容端点
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-runtime, apple-silicon, desktop, llm, llm-inference, local-ai
+
+---
+
+### 🌟 [Omega-AI](https://github.com/dromara/Omega-AI)
+- **项目语言**: Java
+- **星标数量**: ⭐ 470
+- **核心概述**: Omega-AI：基于java打造的深度学习框架，帮助你快速搭建神经网络，实现模型推理与训练，引擎支持自动求导，多线程与GPU运算，GPU支持CUDA，CUDNN。
+- **大概是做什么的**: 自己打造一个深度学习框架 for java 从2016年开始利用空余时间研究深度学习的方面，由于工作的原因，最熟悉的编程语言就是java，所以框架的编程语言自然而然就使用了java。自己打造框架的初衷就是为了更加深入了解各个算法、模型、实现的原理和思路，同时让java开发者更加容易接触AI领域。 Omega-AI：基于java打造的深度学习框架，帮助你快速搭建神经网络，实现训练或测试模型，支持多GPU训练。框架目前支持BP神经网络、卷积神经网络、循环神经网络、vgg16、resnet、yolo、lstm、transformer、gpt、llama、diffusion、stable diffusion等模型的构建，目前引擎最新版本支持CUDA和CUDNN两种GPU加速方式，关于GPU加速的环境配置与jcuda版本jar包的对应依赖，引擎中所实现的模型和算法除了使用cuda和cudnn相关依赖包之外均不使用任何api和第三方依赖包。欢迎添加QQ群([119593195]())进行技术讨论和交流，别忘了给Omega-AI项目点个star，项目需要你们的支持。 https://gitee.com/dromara/omega-ai https://github.com/dromara/Omega-AI https://gitcode.com/dromara/omega-ai 由于omega-engine-v4-gpu加入了jcuda支持，所以omega-engine-v4-gpu需要安装与jcuda版本对应的cuda，如果您的机器安装的CUDA版本是11.7.x，那么对应omega-engine需要引入的jcuda 11.7.0版本。 https://developer.nvidia.com/cuda-toolkit-archive 3.引入或下载与当前CUDA版本对应的omega-engine包 由于训练vgg16模型的参数比较庞大，所以在部署项目的时候需要对jvm内存进行调整. 调整事例如：-Xmx20480m -Xms20480m -Xmn10240m Omega-mini-dit（130M参数文生图） 基于dit b/1+va-vae+clip+repa+sprint+rms OmegaDiT pytorch版本：https://github.com/yongchuan/OmegaDiT 注：以下演示图片训练集为2M图文对数据集 A cat A dog A cat holding a sign that says hello world A lovely corg
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, deeplearning, diffusion, llm, neural-network, yolo
+
+---
+
+### 🌟 [SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 327
+- **核心概述**: Claude Code 和 AI 代理的 197 项生物信息学和生命科学技能 — BixBench 准确度为 92.0%。 RNA-seq、单细胞、药物发现、蛋白质组学等。为 OmicsHorizo​​n 提供动力。
+- **大概是做什么的**: 将您的 AI 编码代理变成生命科学专家 — Claude Code 的 199 项生物信息学技能，涵盖 RNA-seq、单细胞分析、基因组学、蛋白质组学、药物发现等。 BixBench 从 65% 提升至 92%。开源。 SciAgent-Skills 是最大的科学 AI 代理开源技能库。它为 Claude Code（以及任何与 Markdown 兼容的代理）配备了计算生物学、生物信息学、化学信息学和生物统计学的特定领域知识——无需微调，只需插入并分析即可。关键词：生物信息学 AI 代理、Claude Code 技能、科学计算、RNA-seq 分析、单细胞 RNA-seq、药物发现流程、蛋白质结构预测、计算生物学工具、生命科学自动化、BixBench 基准 基准：BixBench-Verified-50 上的 92.0% BixBench 是评估 AI 代理在现实世界生物信息学任务中的基准。 SciAgent-Skills 在 BixBench-Verified-50 上实现了 92.0% 的准确度，是所有测试系统中最高的：系统 BixBench-Verified-50 准确度 -------- :----------------------------: Claude Code (O
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, bioinformatics, biostatistics, bixbench, cheminformatics, claude-code
+
+---
+
 ## 🕔 2026-08-12 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 264 个候选项目中筛选出 6 个未推荐过的新项目。
