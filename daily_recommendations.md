@@ -1,3 +1,67 @@
+## 🕔 2026-08-13 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [webiny-js](https://github.com/webiny/webiny-js)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 8,029
+- **核心概述**: AWS 无服务器（Lambda、DynamoDB、S3）上的开源自托管 CMS 平台。具有多租户、生命周期挂钩、GraphQL API 和通过 MCP 服务器进行 AI 辅助开发的 TypeScript 框架。专为大型组织的开发人员而构建。
+- **大概是做什么的**: 适用于托管在 AWS 开源内容平台上的企业的 AI 可编程 CMS。在 AWS 无服务器上自托管。构建为可使用代码扩展的 TypeScript 框架，而不是通过 UI 配置的封闭产品。在您自己的 AWS 账户内的 Lambda、DynamoDB、S3 和 CloudFront 上运行。自动缩放。无需管理服务器。通过 IaC (Pulumi) 在单个部署命令中配置基础设施。由管理数亿内容记录、PB 级资���和数千名编辑的团队在生产中使用，包括亚马逊、阿联酋航空、财富 500 强公司、政府机构和在自己的产品中添加 Webiny 白标签的 SaaS 平台。文档 · 学习 Webiny 课程 · 社区 Slack .png%3Foriginal&w=3840&q=75 ) Headless CMS — 自定义内容模型、GraphQL API、字段级权限、本地化、版本控制。模型可以通过管理 UI 或通过框架在代码中定义。 Website Builder — 带有 Next.js SDK 的可视化拖放页面编辑器。通过您自己的前端（Vercel、CloudFront 等）渲染页面。创建自定义页面元素
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-assisted-development, aws, aws-lambda, cms, graphql, headless-cms
+
+---
+
+### 🌟 [Deuz-SDK](https://github.com/Deuz-AI/Deuz-SDK)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 479
+- **核心概述**: 用于生产 AI 代理的零依赖 TypeScript 框架：持久执行、长期记忆、混合 RAG、MCP 工具调用、人机交互批准、规划和 CodeAct 沙箱。一种适用于 Claude、GPT、Gemini、Grok、Mistral 和 DeepSeek 的流式 API — Node、Bun、Deno、无服务器和边缘。
+- **大概是做什么的**: 用于必须在生产环境中生存的代理的 TypeScript 运行时 文档 · 2.0 中的新增功能 · 来自 Vercel AI SDK · 变更日志 调用模型是一个已解决的问题。没有解决的是它周围的一切：跨会话记住用户，在四十号时留在上下文窗口中，在不可逆转的事情之前询问人类，在进程中途终止后恢复，以及在不手动滚动 OAuth 的情况下连接工具服务器。大多数 SDK 将这些留给您。 @deuz-sdk/core 提供了它们——一个包，零运行时依赖，没有任何环境：时钟、随机性、获取、密钥和日志记录都被注入，因此相同的代码在 Node、Bun、Deno 和边缘上运行，并且测试保持确定性。我们并不是声称要建立 ASI。这意味着该道路上的诚实基础设施 - 车辆，而不是目的地。没有其他人提供的两个东西每个 SDK 都为您提供了generateText。这些是你自己建造的，否则你会糟糕地建造两次。比会话更持久的内存。不是消息数组 - 从对话中提取持久事实并协调它们的管道
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-framework, agentic-ai, ai, ai-agents, ai-sdk, anthropic
+
+---
+
+### 🌟 [purple](https://github.com/erickochen/purple)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 419
+- **核心概述**: 适用于 macOS 和 Linux 的 Rust 中的免费开源终端 SSH 管理器和 SSH 配置编辑器使 ~/.ssh/config 与 16 个云提供商保持同步，监控实时 SSH 隧道并管理整个舰队的 Docker 和 Podman 容器。加上 scp、Vault SSH 证书和用于 AI 代理的 MCP 服务器。
+- **大概是做什么的**: 您的 ssh 配置已与您的云同步。 Purple 是一个免费的开源终端 SSH 管理器和 SSH 配置编辑器，使用 Rust 编写，适用于 macOS 和 Linux，它使 /.ssh/config 与 16 个云提供商保持同步，监控实时 SSH 隧道并管理整个舰队的 Docker 和 Podman 容器。在 AWS、GCP、Azure、Hetzner、Proxmox 或其他 11 个云提供商上启动虚拟机，在控制台跟上之前它就会出现在您的主机列表中。杀死一只，紫色就表明它已经过时，所以你的清单永远不会说谎。每次 Terraform 运行后不再需要手动编辑 /.ssh/config，也不再需要通过云控制台挖���正确的 IP。您通过 SSH 执行的所有其他操作都位于同一个终端中：跨数百个主机的模糊搜索、可视化文件传输、多主机 SSH 密钥推送、短期 HashiCorp Vault SSH 证书和用于 AI 代理的 MCP 服务器。键盘驱动。单个二进制。麻省理工学院许可。 brew、cargo、nix、AUR 或来自 Claude Desktop 的源代码用户可以安装 .mcpb 捆绑包以进行一键式 MCP 集成（默认情况下为只读）。 MCP 服务器 wiki 上的设置详细信息。没有数据离开您的机器。请参阅 PRIVACY.md。跑紫。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: cli, cloud-sync, devops, docker, hashicorp-vault, homelab
+
+---
+
+### 🌟 [coderunner](https://github.com/instavm/coderunner)
+- **项目语言**: Python
+- **星标数量**: ⭐ 882
+- **核心概述**: 适合您的 AI 代理的本地沙箱
+- **大概是做什么的**: CodeRunner：AI 代理的本地沙箱 CodeRunner 可帮助您在沙箱内对 AI 代理及其操作进行沙箱化。关键用例：您可以在我们的沙箱中运行多个 Claude Code 或 AI 代理，而不必担心数据丢失和泄露。对于代理的云管理虚拟机，我们推出了 - InstaVM - 用于 AI 代理的即时计算机 先决条件：配备 macOS 和 Apple Silicon (M1/M2/M3/M4)、Python 3.10+ 的 Mac 完成后停止沙箱：稍后恢复相同的沙箱，保留上传、内核和已安装的软件包：要从干净的沙箱开始，请删除容器并再次运行安装程序：禁用出站网络访问 默认情况下，在沙箱中运行的代码具有不受限制的网络访问。要在无法访问 Internet 的仅主机网络上运行它： 在此模式下，MCP 服务器位于 http://127.0.0.1:8222/mcp 。该设置在容器创建时就固定了；安装程序拒绝恢复具有不同网络模式的容器。在沙箱内运行 Claude Code ./install.sh （如果尚未完成）容器 exec -it coderunner /bin/bash roo
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: anthropic, apple, apple-container, claude-code, claude-skills, containerization
+
+---
+
+### 🌟 [always-accompany](https://github.com/beilusaiying/always-accompany)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 260
+- **核心概述**: Companionship, chat, coding, and work share one memory and context framework — the kind of AI you see in science fiction: it keeps you company, and it gets things done with you.(这是一个基于上下文和注意力机制做的一个多元化的agent项目)
+- **大概是做什么的**: 一个专注于情境和注意力机制的多用途 AI + Agent 项目 陪伴、聊天、编码和工作共享同一个记忆和情境框架——就像你在科幻小说中看到的那种人工智能：它陪伴着你，并与你一起完成任务。动态注意力 · 固定注入 · 项目隔离 · 专业模式 English · 简体中文 · 繁体中文 · 日本语 · 한국어 · Русский · Deutsch · Español · Français · Português 开发说明：这个项目大部分是一个人在三个月左右构建完成的，接下来大约一个月的时间专注于算法优化。鉴于开发周期短和功能范围广泛，当前的项目结构、基本功能和边缘情况���理可能仍然不稳定或不完整。 AI辅助了一些基础功能，而复杂功能的框架、算法和关键设计则由作者亲自规划和指导，因此各个模块的成熟度有所不同。手动审查、微调和工程改进将继续进行。如果遇到Bug，请提供复现步骤和日志。接下来会发生什么：新插件和功能
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, ai-agents, ai-coding, bot, cli
+
+---
+
+### 🌟 [codex-settings](https://github.com/feiskyer/codex-settings)
+- **项目语言**: Python
+- **星标数量**: ⭐ 232
+- **核心概述**: 精心策划的技能、配置文件和配置模板可增强 Codex CLI — 多模型、深入研究、图像生成和浏览器自动化。
+- **大概是做什么的**: Codex CLI Skills & Profiles 给 Codex CLI 加上深度调研、图片生成、浏览器调试等能力，配好多模型切换，开箱即用。 仓库采用面向个人开发效率的默认配置；你可以整套使用，也可以按需选取 Profiles 或 Skills。使用前请确认模型提供商、权限和外部依赖，并避免提交真实密钥。 如果你想少花时间调配置，多花时间完成真正的开发工作，这个仓库提供了一套可以直接运行、也可以自由组合的 Codex CLI 工作台。 - 灵活切换模型 ：预置 copilot-gateway、ChatGPT、Azure OpenAI、OpenRouter 和 LiteLLM/GitHub Copilot Profiles。 - 复用成熟工作流 ：通过 Skills 完成需求梳理、深度调研、图像生成、字幕提取和任务交接。 - 连接真实开发环境 ：通过 Chrome DevTools MCP 调试网页、检查性能并执行浏览器自动化。 - 整套或按需使用 ：既可以作为完整的 Codex Home，也可以只复制需要的 Profile 或 Skill。 本项目面向 Codex CLI；Claude Code 的配置、Skills 与 Agents 请查看 Claude Code Settings。 也可以参考 Codex CLI 官方文档 选择其他安装方式。 2. 推荐：使用 Codex Plugin 安装 Skills 如果你已经有自己的 Codex 配置，只想安装本仓库提供的 Skills，可以把仓库作为 Plugin Marketplace 添加： 安装完成后启动一个新的 Codex 会话，让 Codex 重新发现 Plugin 中的 Skills。未指定 --ref 时，Marketplace 使���仓库默认分支，因此首次安装会获取当时的最新版本。当前发布版本为 Plugin 1.1.0 / Git v1.1.0 。 仓库发布新版并更新 Plugin 版本后，刷新 Marketplace 快照并重新安装： 如果使用本仓库 clone，也可以运行更新脚本。它会刷新所有已配置的 Git Marketplace，同时在刷新前冻结当前已安装且启用的 Plugin 列表，随后只更新这份列表中的 Plugin；不会安装 Marketplace 中其他未安装的 Plugin： 为避免改变启用状态，已安装但被禁用的 Plugin 会被跳过；本地或系统管理的 Marketplace 也不会由该脚本刷新。更新完成后请启动新的 Codex 会话。 也可以从本地干净 clone 测试
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, agentic-ai, agents, ai, ai-coding, codex
+
+---
+
 ## 🕔 2026-08-13 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
