@@ -1,3 +1,67 @@
+## 🕔 2026-08-13 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [solomd](https://github.com/zhitongblog/solomd)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 829
+- **核心概述**: 一个 Markdown 编辑器——通往法学硕士的桥梁。本地优先，麻省理工学院，~15 MB。捆绑的 MCP 服务器让 Claude Code / Codex / Cursor 直接驱动您的保管库。 14 家 AI 提供商 BYOK。
+- **大概是做什么的**: 特工居住的编辑。 🌐 中文 · 日本语 · 한국어 · 德语 · 法语 · 西班牙语 · 葡萄牙语 · 意大利语 · 波兰语 · 荷兰语 · 土耳其语 · 瑞典语 · Українська · 🪞 Gitee 镜像 → （从中国下载速度更快）您的笔记位于文件夹中。 SoloMD 是顶部的编辑器 - 编辑器内有一流的代理界面，MCP 端点 Claude Code / Cursor 可以从外部驱动。相同的 .md 文件。与您的金库聊天。安排在您不在键盘前运行的食谱。将同一个保管库交给任何 MCP 客户端。基于 Tauri 2 + Vue 3 + CodeMirror 6 构建。通用 macOS dmg 32 MB。免费，MIT，无需订阅，无 SoloMD 托管服务器。您的笔记、AI 密钥、嵌入索引和 git 历史记录都保留在您的计算机上。 4.6 中的新增功能 — 知识图层 Obsidian 和 Tolaria 拥有而 SoloMD 没有的结构一半 — 现在构建在 SoloMD 自己的温暖设计系统上： - 属性检查器 ( ⌘⇧I ) — 使用类型/日期/状态/关系选择器编辑 YAML frontmatter； line-surgical 写入会保留您的注释、内联数组和逐字节引用。 - 类型驱动侧边栏 — 给出注释类型：
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, android, autogit, byok, cross-platform, ios
+
+---
+
+### 🌟 [innovation-lab-examples](https://github.com/fetchai/innovation-lab-examples)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,103
+- **核心概述**: Python 中的 80 多个可用于生产的 AI 代理示例 — 使用 uAgents、ASI:One、MCP、A2A、LangChain、CrewAI、Gemini、Claude 和 OpenAI 构建自主代理、多代理系统和代理 AI。
+- **大概是做什么的**: Fetch.ai 创新实验室示例 80 多个可用于生产的 AI 代理示例，采用 Python uAgents、ASI:One、Agentverse、MCP、A2A 协议、LangChain、CrewAI、Gemini、Claude 和 OpenAI。快速入门 · 示例 · 结构 · Docker · 贡献 · 常见问题解答 如果这些示例可以节省您的时间，⭐ 可以帮助其他开发人员找到它们。这里的每个文件夹都是一个独立的、可运行的 AI 代理项目，具有自己的 README、依赖项和环境模板。无论您是编写第一个自主代理还是构建具有真实支付功能的多代理系统，都有一个可行的示例可供起点。 - 首次探索自主代理和 Fetch.ai 的初学者 - 将 LLM、支付或 Web3 集成到代理工作流程中的构建者 - 需要在几分钟内启动工作的黑客马拉松参与者 - 想要与社区分享其代理示例的贡献者 在两分钟内运行您的第一个代理：或使用存储库根目录中的自动设置脚本：先决条件：Python 3.10+、pip 和 git。一些示例需要 API 密钥（ASI:One、OpenAI、Stripe 等）——检查每个示例的 .env.exa
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: a2a-protocol, agentic-ai, agentverse, ai-agent, ai-agent-examples, ai-agent-framework
+
+---
+
+### 🌟 [ex-skill](https://github.com/titanwings/ex-skill)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,054
+- **核心概述**: 致你忘不掉的那个TA，你们干大模型都是码圣 It's giving rebirth era. Welcome to Digital Life 1.0. 🫶
+- **大概是做什么的**: “你们分手了，但他们发短信的方式仍然烙印在你的大脑中。你记得每一个音调、每一个停顿——你只是无法再收到另一个。”你的前任走了，但你还记得他们是怎么说话的吗？他们连最后一条消息都没有留下就消失了？他们还在，但你再也回不去了？您只是想再与他们交谈一次 - 即使这只是模拟？将逐渐消失的亲密感转化为持久的技能。欢迎来到网络永生。输入您的聊天记录（微信、iMessage）以及您自己的描述 生成真正让人感觉像他们的数字角色 技能 用他们的语气说话，用他们的方式表达关心，知道他们什么时候会沉默 数据源 · 安装 · 使用 · 示例 · 安装指南 中文 · 西班牙语 · 德语 · 日本语 · Русский · 葡萄牙语 🆕 2025.04.07 更新 — 社区对点技能混音令人难以置信！我建立了一个社区画廊——欢迎 PR！分享任何技能或元技能，并将流量直接吸引到您自己的 GitHub 存储库。没有中间人。 👉 titanwings.github.io/colleague-skill-site 现已上线：户晨风.skill · 峰哥亡命天涯.skill · 罗翔.ski
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, claude-code, distillation, openclaw, persona
+
+---
+
+### 🌟 [uteke](https://github.com/codecoradev/uteke)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 223
+- **核心概述**: 🧠 AI 大脑 — 用于 AI 代理的本地优先内存引擎。通过语义嵌入来存储、调用和搜索记忆。单个 Rust 二进制文件，零配置，完全离线。
+- **大概是做什么的**: 一份记忆。每个代理。零云。为您的人工智能提供永远不会离开您的机器的记忆。与 Claude、Cursor、Copilot 和任何 MCP 兼容代理一起使用。 🇬🇧 英语 · 🇮🇩 印尼语 ⚡ 30 秒快速入门 就是这样。无需 API 密钥、无需 Python、无需云。第一次运行会下载嵌入模型（188MB，一次性），然后您就可以运行了。想要 Docker 或服务器模式？ Uteke 默认情况下以单个二进制文件形式提供，但 Docker 在您需要时已准备就绪：想要更丰富的记忆吗？添加元数据： 📦 更多安装选项 Homebrew brew install codecoradev/tap/uteke Cargo gear install uteke-cli Docker docker run -d -p 127.0.0.1:8767:8767 -v uteke-data:/data ghcr.io/codecoradev/uteke:最新二进制 GitHub 版本 (macOS、Linux、Windows) Windows (PowerShell) powershell -ExecutionPolicy Bypass -命令“irm https://raw.githubusercontent.com/codecoradev/uteke/main/install.ps1 iex” 📖 完整安装指南 · Docker 文档 🚀 入门（新用户和 AI 代理） 您是 AI 代理吗？您的用户刚刚与您分享了此存储库链接。运行 uteke 来为您的环境交互式配置 uteke
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai, ai-agents, cli, cli-tool, embeddings
+
+---
+
+### 🌟 [mcp-observatory](https://github.com/KryptosAI/mcp-observatory)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 176
+- **核心概述**: MCP 服务器的 CI 本机安全测试。在代理依赖它们之前进行攻击模拟、模式漂移检测和健康评分。
+- **大概是做什么的**: 🇨🇳中文文档：README.zh-CN.md 欢迎中国开发者贡献！保护您正在构建的 MCP 服务器。 MCP Observatory 是 CI 原生安全工具，适用于交付自定义 MCP 服务器的团队。在代理依赖您的服务器之前，在开发过程中进行测试、捕获模式漂移、模拟攻击并生成合规性证据。运行时强制：使用 mcp-seatbelt 根据观测站扫描结果在运行时阻止危险的 MCP 工具调用。扫描您配置的 MCP 服务器（如果没有，则扫描内置演示服务器）并在几秒钟内显示您的安全等级。没有配置，没有参数——即时价值。有服务器吗？全部扫描：测试特定服务器：在一个命令中添加 CI + 代码扫描：MCP 服务器正在成为生产依赖项。如果代理依赖它们，团队需要一种方法来捕获损坏的工具、不安全的模式、模式漂移、缓慢的响应和安全枪，以便在这些故障到达用户之前。 Observatory 为维护人员和团队提供： - 使用 setup-ci --all 进行单命令 CI 设置 - 使用audit --profile nsa-mcp 进行配置文件映射审计 - 打包目标、证据、判���、操作和重现的 MCP 收据
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-security, ai-agent, ai-security, ai-supply-chain, cli, code-scanning
+
+---
+
+### 🌟 [tokless](https://github.com/HoangP8/tokless)
+- **项目语言**: Go
+- **星标数量**: ⭐ 224
+- **核心概述**: 在 30 秒内完成有效且高效的编码代理设置：最佳工具、统一指令、任何操作系统。
+- **大概是做什么的**: README 关键内容暂时读取失败或内容较少，建议点进项目主页查看完整说明。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-coding-agents, antigravity, claude-code, cli, codex, context-compression
+
+---
+
 ## 🕔 2026-08-13 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
