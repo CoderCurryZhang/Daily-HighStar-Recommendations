@@ -1,3 +1,67 @@
+## 🕔 2026-08-14 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [greptimedb](https://github.com/GreptimeTeam/greptimedb)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 6,547
+- **核心概述**: 开源可观测性数据库。一种用于对象存储上的指标、日志和跟踪的列式引擎。
+- **大概是做什么的**: 一个用于指标、日志和跟踪的数据库取代了 Prometheus、Loki 和 Elasticsearch 统一的 OpenTelemetry 后端 — 在对象存储上使用 SQL + PromQL。生产稳定  ·  最新版本包括预发布  ·  每晚是主要版本的每周快照 - GreptimeDB 比较方式 - 工具和扩展 - 商业支持 GreptimeDB 是一个为 Observability 2.0 构建的开源可观测性数据库 — 将指标、日志和跟踪视为一个统一的数据模型（广泛事件），而不是三个独立的支柱。将其用作单一 OpenTelemetry 后端 — 使用基于对象存储构建的一个数据库取代 Prometheus、Loki 和 Elasticsearch。使用 SQL 和 PromQL 进行查询，轻松扩展，将成本降低高达 50 倍。快速概述 GreptimeDB 摄取的内容、它如何连接到其他系统以及它的分布式引擎可以让您做什么。功能描述 --------- ------------- Observability 2.0 原生日志、指标和跟踪位于一个带有 SQL + PromQL 的引擎中。原生 OpenTelemetry、Prometheus 远程写入和 Jaeger。一次迁移一个信号，或用作单个信号
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cloud-native, distributed-database, greptimedb, high-cardinality, logs
+
+---
+
+### 🌟 [hister](https://github.com/asciimoo/hister)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,883
+- **核心概述**: 您自己的搜索引擎
+- **大概是做什么的**: 您自己的搜索引擎 Hister 是您访问的页面和您保存的文件的私人搜索引擎。它会索引其完整内容，以便您可以从 Web 界面、终端或通过 MCP 连接的 AI 助手再次查找信息。尝试演示 · 下载 Hister · 阅读快速入门 · 文档 1. 从最新版本下载适合您平台的二进制文件，然后将其重命名为 hister（Windows 上为 hister.exe）。 2. 在 Linux 或 macOS 上，使其可执行： 3. 在 Linux 或 macOS 上启动 Hister：在 Windows 上，运行 .\hister.exe 在 PowerShell 中监听。 4. 打开并安装 Firefox 或 Chrome 浏览器扩展。本地个人设置不需要配置。请参阅完整的快速入门，以导入现有浏览器历史记录并选择 Hister 索引的内容。 - 注重隐私：无遥测或强制云服务。在本地或您控制的基础设施上运行 Hister。 - 全文索引：搜索访问页面和本地文件的实际内容，而不仅仅是标题和 URL。 - 自动浏览器索引：使用 Firefox 或 Chrome 扩展程序保存新访问的页面。 - 战俘
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: browser-history, go, golang, history, index, mcp
+
+---
+
+### 🌟 [generative_ai_with_langchain](https://github.com/benman1/generative_ai_with_langchain)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 1,405
+- **核心概述**: 使用 Python、LangChain 和 LangGraph 构建可投入生产的 LLM 应用程序和高级代理。这是《LangChain 生成人工智能》一书的配套存储库。
+- **大概是做什么的**: Generative AI with LangChain, Second Edition 这是 Packt 发布的 Generative AI with LangChain, Second Edition 的代码库。本·奥法斯、列昂尼德·库利金 & 8287;& 8287;& 8287;& 8287;& 8287; & 8287;& 8287;& 8287;& 8287;& 8287; & 8287;& 8287;& 8287;& 8287;& 8287; & 8287;& 8287;& 8287;& 8287;& 8287;第二版解决了当今人工智能领域公司面临的最大挑战：从原型转向生产。它经过全面更新，反映了 LangChain 生态系统的最新发展，捕捉了现代人工智能系统如何在企业环境中开发、部署和扩展。此版本重点关注多代理架构、强大的 LangGraph 工作流程和高级检索增强生成 (RAG) 管道。您将探索构建代理系统的设计模式，以及复杂任务的多代理设置的实际实现。本书将指导您完成推理技术，例如思想树、结构化生成和代理切换，并附有错误处理示例。关于测试、评估和的扩展章节
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, chatgpt, claude, claude-3-5-sonnet, deepseek, deepseek-r1
+
+---
+
+### 🌟 [shodh-memory](https://github.com/varun29ankuS/shodh-memory)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 272
+- **核心概述**: 用于 AI 代理的本地、LLM-free 内存。单个离线 Rust 二进制文件（确定性且可审计）可以从使用中学习，忘记不相关的内容，并加强重要的内容。没有云，没有 API 密钥。
+- **大概是做什么的**: 人工智能代理和机器人的持久认知记忆——循环中没有法学硕士。记住重要的事情，忘记不重要的事情，通过使用变得更聪明。人工智能代理会忘记会话之间的一切。机器人在任务之间会失去上下文。他们会重复错误，错过模式，并将每一次互动都视为第一次。 Shodh-Memory 解决了这个问题。真正学习的是持久记忆——你使用的记忆通常会变得更容易找到，旧的不相关的上下文会自动消失，回忆一件事会带回相关的事情。适用于聊天代理 (MCP/HTTP)、机器人 (Zenoh/ROS2) 和边缘设备。没有 API 密钥。没有云。没有外部数据库。循环中没有法学硕士。一个二进制。为什么不直接使用 mem0 / Cognee / Zep？ Shodh mem0 Cognee Zep LLM 调用存储记忆 0 2+ 每次添加 3+ 每次认知 2+ 每集 需要外部服务 无 OpenAI + 矢量 DB OpenAI + Neo4j + 矢量 DB OpenAI + Neo4j 存储记忆的时间 55ms 20 秒 秒 秒 从使用中学习 是 (Hebbian) 否 否 忘记不相关的数据 是（衰减） 否 仅限临时 完全离线运行 是 否 否机器人/R
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, agentic-ai, ai-agents, ai-memory, claude, cognitive-memory
+
+---
+
+### 🌟 [treg](https://github.com/superdesigndev/treg)
+- **项目语言**: Python
+- **星标数量**: ⭐ 397
+- **核心概述**: 用于代理工具的 OpenRouter。在此加入社区：https://discord.gg/6mQYYfFMAn
+- **大概是做什么的**: Treg (OpenRouter for Tools) OpenRouter，但用于代理工具而不是模型。使用一个令牌将代理指向一个基本 URL，它就可以完成这项工作：跨 40 个提供商的 2,600 个编目端点 - SEO 和反向链接、社交和趋势、人员和公司充实、广告、抓取 - 每次调用定价，从一美分起，无需提供商注册。加上您自己团队的密钥、技能和 CLI，每个队友的代理都可以调用，而无需凭证离开服务器。要求任务，而不是工具。您不需要知道哪个供应商出售反向链接数据，也不需要在他们那里持有帐户。搜索您想要做的事情，阅读价格，然后致电。专为 Superdesign 团队打造，位于 treg.to — 任何人都可以自行托管。代理实际工作所需的工具位于没有人一次性购买的订阅后面——Semrush 139 美元/月、Moz 99 美元/月、Crunchbase 99 美元/月、Apollo 59 美元/席位——在注册墙后面，或者根本没有公共 API（仅限邀请、仅限合作伙伴、仅限应用程序审查）。 Treg 负责这些账户，每次通话的费用只有几美分。两种工具，一种代币 - 目录 — external en
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, api-keys, cli, credentials, developer-tools, mcp
+
+---
+
+### 🌟 [orchestkit](https://github.com/yonatangross/orchestkit)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 219
+- **核心概述**: Claude Code 的完整 AI 开发工具包 — 105 个技能、36 个代理、217 个挂钩。用于全栈开发的生产就绪模式。
+- **大概是做什么的**: 105 种技能 · 36 个代理 · 216 个钩子 探索文档 → · OrchestKit 社区 → 技能浏览器、演示库、设置向导 - OrchestKit 观察到的内容 快速入门（克劳德代码） 然后开始您的个性化入门：设置向导会扫描您的代码库、检测您的技术堆栈、根据您的需求推荐技能、配置 MCP 服务器并创建就绪分数 — 所有这些都通过一个命令完成。每个克劳德代码会话都从零开始。你一遍又一遍地解释你的堆栈、模式、偏好。 OrchestKit 为 Claude 提供了自动工作的生产模式的持久知识： 不使用 OrchestKit --------------------- ----------------- “将 FastAPI 与异步 SQLAlchemy 2.0 一起使用...” “创建 API 端点”→ 正确完成 “记住光标分页，而不是偏移...” 代理知道您的模式 “不要提交到主分支...” 挂钩阻止错误提交 “在提交之前运行测试...” /ork:commit 为您运行测试 一个统一的插件，包括所有内容。 ----------- --------- 105 项技能 RAG 模式、FastAPI、React 19、测试、安全、数据库设计、ML 集成 — 按需加载、零开销
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, agents, ai-agents, ai-development, anthropic, claude-code
+
+---
+
 ## 🕔 2026-08-14 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 224 个候选项目中筛选出 6 个未推荐过的新项目。
