@@ -1,3 +1,67 @@
+## 🕔 2026-08-14 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 212 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [automem](https://github.com/verygoodplugins/automem)
+- **项目语言**: Python
+- **星标数量**: ⭐ 799
+- **核心概述**: 人工智能助手的长期记忆。图形+向量存储，可回忆跨会话的决策、关系和上下文。
+- **大概是做什么的**: 人工智能助手的长期记忆。图+向量。在您的硬件上运行。你的人工智能在会话之间会忘记。 RAG 转储看起来相似的文档。矢量数据库与关键字匹配但缺少含义。他们谁也学不会。 AutoMem 存储类型化关系和嵌入。当你问“我们为什么选择 PostgreSQL？”时，recall 不仅返回匹配的内存，还返回你考虑的替代方案、选择背后的原则以及随后的相关决策。在其自己的内部工具上，AutoMem 在 LongMemEval full 上得分为 87.00％（97.00％recall@5），在 LoCoMo full 上得分为 84.74％ - 但这些是由自托管法官（gpt-5.4-mini）评分的工程基线，并且相同的答案仅在法官模型上就可以得到 12 分。为了与其他系统进行比较，重要的数字来自下面的中立第三方委员会。请参阅 benchmarks/EXPERIMENT LOG.md 了解方法、判断政策、类别细分和历史运行。在中立代理内存基准测试中 AutoMem 0.16.0 在自旋转机器上通过中立代理内存基准测试（AMB，由 vectorize-io 提供）运行
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-memory, anthropic, automem, falkordb, graph-database
+
+---
+
+### 🌟 [ima2-gen](https://github.com/lidge-jun/ima2-gen)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 675
+- **核心概述**: 面向人员和编码代理的本地优先视觉生成运行时和工作室，具有跨多个提供商的可复制图像和视频工作流程。
+- **大概是做什么的**: 🌐 实时站点：lidge-jun.github.io/ima2-gen · 한국어 📖 开发人员文档：文档站点 · 한국어 以其他语言阅读：한국어 · 日本语 · 正体中文 · 简体中文 ima2-gen 是一个面向人员和编码代理的本地优先视觉生成运行时和工作室，具有可复制的图像和视频工作流程多个提供商。全局安装并从八个核心通道生成图像和视频：OpenAI OAuth/API、Grok OAuth/API、Antigravity CLI、Gemini API、AtlasCloud 和 MiniMax。 Runway 和 Higgsfield 仍然是独立的 MCP 支持的集成。使用历史记录、引用、节点分支、多模式批处理和画布模式清理进行迭代。然后打开 http://localhost:3333 。请参阅 docs/DOCKER.md 了解 compose 的用法、所需环境和限制。要从 CLI 生成，请检查实时通道目录并选择一次显式图像/视频默认值：ima2 gen 和生成模式 ima2 视频在配置 CLI 目标之前无法关闭且没有默认模型，除非该调用通过 --model / 或显式 --provider 。这可以防止升级时默默地切换提供商或计费通道。如果 3333 已经存在
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, gemini, grok, image-generation, local-first, mcp
+
+---
+
+### 🌟 [polymarket-paper-trader](https://github.com/agent-next/polymarket-paper-trader)
+- **项目语言**: Python
+- **星标数量**: ⭐ 372
+- **核心概述**: Polymarket 的纸质交易模拟器 — 专为人工智能代理而构建。 MCP 服务器、实时订单簿、策略回测。安装：npxclawhub安装polymarket-paper-trader
+- **大概是做什么的**: Polymarket-paper-trader 你的人工智能代理刚刚成为一名 Polymarket 交易员。安装 → 您的代理获得 10,000 美元纸币 → 交易真实的 Polymarket 订单簿 → 跟踪盈亏 → 在公共排行榜上竞争。零风险。真实价格。 “我的人工智能代理在一周内就在 Polymarket 实现了 18% 的投资回报率。零风险，真实的订单簿。” Agent-next 的一部分——自我进化自主代理的开放研究实验室。就是这样。您的人工智���代理现在正在以零风险进行 Polymarket 交易。需要 Python 3.10+。不是玩具 - 这是一个真正的交易模拟器 其他工具模拟价格或使用随机数。我们模拟实际的交易： - 逐级订单簿执行 — 您的订单在真实的 Polymarket 卖价/买价簿上运行，在每个价格水平消耗流动性，就像真实交易一样 - 精确的费用模型 — bps/10000 × min(价格, 1-价格) × 份额 — Polymarket 使用相同的公式 - 滑点跟踪 — 每笔交易记录您的成交量与中点相比差多少，以基点为单位 - 限价订单状态机 — GTC（取消前有效）和具有完整生命周期的 GTD（截止日期） - 策略回测 - 重播您的策略
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, algorithmic-trading, backtesting, clawhub, mcp, openclaw
+
+---
+
+### 🌟 [aaabench](https://github.com/ukanwat/aaabench)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 314
+- **核心概述**: 长期基准测试工具：给编码代理一个真实的游戏引擎、专业条件和时间，并要求它构建一个开放世界的游戏。只用马甲，没有结果。
+- **大概是做什么的**: 给编码代理真正的游戏引擎、专业条件和时间。要求它构建一个开放世界的游戏。然后走开。由 Utkarsh Kanwat 构建和运行 · 𝕏 · 在另一种模型上运行它，并针对破坏 One 代理的问题提出问题。一款虚幻引擎编辑器，通过 MCP 实时驱动。一份激烈的简报、一大堆生产知识，而且没有人工帮助。代理决定一切——地理位置、地区、道路、建筑物、人员、交通、天气、游戏本身的屏幕，以及当它不起作用时要修复什么。没有人指出任何事情。独一法则。提供条件、资源和需求——绝不是诊断，绝不是解决办法，绝不是答案。模型是否注意到自己的错误是被衡量的能力，所以每一个提示都是你不能再声称的结果。请参阅 HARNESS-RULES.md 。它实际测量的内容 事实证明，构建一个世界是一项异常完整的测试，因为它无法通过对熟悉的任务进行模式匹配来伪造： - 现实世界的理解。该模型是否知道城市是如何运作的——深水决定港口的走向，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, benchmark, game-development, llm-evaluation, mcp, unreal-engine
+
+---
+
+### 🌟 [rakazo](https://github.com/elie222/rakazo)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 394
+- **核心概述**: 开源 Grok Bot 替代品。选择您自己的模型和沙箱。
+- **大概是做什么的**: 开源 Grok Bot 替代方案，使用 Cursor 和 Grok 4.6 构建。网络、桌面和移动设备。带上你自己的人工智能和沙箱。该产品还处于早期阶段（测试版）。值得注意的产品更改位于 CHANGELOG.md 中。每个机器人都有一个线程、一台计算机、内存、例程和历史记录。机器人还可以生成更多机器人——每个机器人都有自己的线程和计算机——或者在当前回合内运行短暂的子代理。该存储库是完整的核心产品 - 它无需 Rakazo 操作的控制平面即可运行。 https://github.com/user-attachments/assets/dccdeddb-2134-4a56-8eed-b2e591736b1c - React 19、Vite、Tailwind - 任何沙箱提供程序（使用 Docker 和 E2B 进行测试） - Docker Desktop（Postgres 加上图形机器人计算机） - 在任何网络暴露之前将 BETTER AUTH SECRET 和 ENCRYPTION KEY 设置为长随机字符串。占位符值仅适用于本地开发/测试运行。 - 将您的 OpenRouter 密钥放入 OPENROUTER API KEY 中（或跳过该密钥并在入职期间粘贴一个密钥）。 - ChatGPT Plus 或 Pro、GitHub Copilot 或 SuperGrok / X Premium：跳过密钥并登录“连接”模式
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, chatgpt, docker, electron, expo, grok
+
+---
+
+### 🌟 [exxperts](https://github.com/EXXETA/exxperts)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 317
+- **核心概述**: 本地优先的人工智能代理，具有受监管、经过批准的内存。任何模型提供商；内置 MCP 工具和网络搜索。未经您的许可，任何内容都不会被记住，任何内容都不会离开您的机器。
+- **大概是做什么的**: 善于学习和记忆的人工智能同事。在您的机器上，在您的控制之下。本地优先的人工智能代理，具有受监管、经过批准的内存。与任何模型提供商合作；内置 MCP 工具和网络搜索。未经您的许可，任何内容都不会被记住，任何内容都不会离开您的机器。运行专家的最简单方法：桌面应用程序。下载、打开、连接您的 AI 提供商。不涉及终端。还提供： Windows 便携式 zip · macOS zip · 版本校验和 两个版本均已签名。 macOS 应用程序经过 Apple 公证并干净打开； Windows 安装程序已通过 Exxeta AG 发布者验证。虽然版本是新的，但 Windows SmartScreen 可能会显示一次性通知：“更多信息”显示已验证的发布者，然后“仍然运行”。更喜欢终端？请参阅安装。每条记忆都会显示它的来源：单击任何记住的事实，就会打开从���学到的确切对话。成长图表是可点击的时间旅行：选择一天，阅读你的人工智能当时所知道的一切。工作。房间取代了聊天线程：它是您设置专家工具、文件夹、联系和技能的持久场所 -
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai, llm, local-first, mcp, memory
+
+---
+
 ## 🕔 2026-08-14 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
