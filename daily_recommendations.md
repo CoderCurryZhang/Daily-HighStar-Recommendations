@@ -1,3 +1,67 @@
+## 🕔 2026-08-14 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [playwright-skill](https://github.com/lackeyjb/playwright-skill)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 3,026
+- **核心概述**: 用于编码代理的通用 Playwright 自动化
+- **大概是做什么的**: 用于编码代理的通用 Playwright 自动化 一种代理技能，使编码代理能够动态编写和执行 Playwright 自动化，从简单的页面测试到复杂的多步骤流程。它还打包为 Claude Code Plugin，方便安装。 Claude 根据您的浏览器自动化需求自主决定何时使用此技能，仅加载您的特定任务所需的最少信息。使用克劳德代码制作。 - 任何自动化任务 - Claude 为您的特定请求编写自定义代码，不限于预先构建的脚本 - 默认情况下可见的浏览器 - 使用 headless: false 实时查看自动化 - 便携式执行器 - 以稳定的模块分辨率运行文件��内联脚本 - 渐进式披露 - 仅在需要时加载完整 API 参考的简明 SKILL.md - 安全清理 - 无竞争条件的智能临时文件管理 - 全面的帮助程序 - 用于常见任务的可选实用程序功能 该存储库包含标准代理技能和克劳德代码插件包装器。推荐的安装方法是Vercel的技巧
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, automations, coding-agents, developer-tool, e2e-testing-tools
+
+---
+
+### 🌟 [mq](https://github.com/harehare/mq)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,006
+- **核心概述**: 类似 jq 的 Markdown 查询语言，用于命令行处理
+- **大概是做什么的**: 询问。筛选。转换 Markdown。 mq 是一个命令行工具，使用类似于 jq 的语法处理 Markdown。它是用 Rust 编写的，允许您轻松地切片、过滤、映射和转换结构化数据。该项目正在积极开发中。 mq 使得处理 Markdown 文件就像 jq 处理 JSON 一样简单。它特别适用于： - LLM 工作流程：有效操作和处理 LLM 提示和输出中使用的 Markdown - LLM 输入生成：生成针对 LLM 使用而优化的结构化 Markdown 内容，因为 Markdown 是大多数语言模型的主要输入格式 - 文档管理：在多个文档文件中提取、转换和组织内容 - 内容分析：从 Markdown 文档中快速提取特定部分或模式 - 批处理：在多个 Markdown 文件中应用一致的转换，因为 LLM 输入主要在Markdown 格式，mq 提供了高效的工具来生成和处理法学硕士所需的结构化 Markdown 内容。 - 切片和过滤：提取特定的 p
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: cli, html-to-markdown, interpreter, jq, language-server, markdown
+
+---
+
+### 🌟 [Awesome-Embodied-Robotics-and-Agent](https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,849
+- **核心概述**: 这是“具有大型语言模型的具体人工智能或机器人”研究的精选列表。关注此存储库以获取最新更新！ 🔥
+- **大概是做什么的**: 🤖 很棒的实体机器人和代理这是由 haonan 维护的“具有视觉语言模型（VLM）和大型语言模型（LLM）的实体机器人或代理”研究的精选列表。关注此存储库以获取最新更新，如果您发现一些有趣的论文，请随时提出拉取请求！ [2026/05/11] 🎉 添加 NavSpace：智能代理如何遵循空间智能指令（ ICRA 2026 ），这是评估实体导航中空间智能的第一个基准，具有开源数据集、评估代码和基线 SNav 。 [[arXiv]](https://arxiv.org/abs/2510.08173) [[Github]](https://github.com/TidalHarley/NavSpace) [2025/10/30] 🎉 我们的调���论文“高效视觉-语言-动作模型的调查” [[arXiv]](https://arxiv.org/abs/2510.24795) 已发布！ [2025/04/23] 添加 π-0.5，这是一个轻量级模块化框架，旨在将感知、控制和学习直接集成到物理系统中。 [2025/03/18] 添加一些流行的视觉语言动作（VLA）模型。 🦾 [2024/06/28] 创建了一个关于代理自我进化的新板
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, awesome, embodied-agent, embodied-ai, large-language-model, manipulator-robotics
+
+---
+
+### 🌟 [1flowbase](https://github.com/taichuy/1flowbase)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 253
+- **核心概述**: 1flowbase：自托管 AI 网关，具有协议翻译、调度、聊天日志、内置后端和 React 块，可将 AI 与业务数据相结合。全部由您的代理通过 MCP 管理。
+- **大概是做什么的**: 微信公众号1flowbase是一个面向个人和企业的自托管人工智能网关：除了协议翻译、调度和详细的聊天日志之外，它还内置了应用程序后端和Native React前端模块，可帮助您将人工智能与业务数据相结合。最重要的是，所有这一切都可以由您的代理通过 MCP 进行操作和管理。 1flowbase 允许代理通过 MCP 接管整个应用程序 - 无论是编排和发布 AI 网关、生成后端应用程序端点还是构建本机 React 接口。基金会 提供什么 AI 网关 翻译和调度 OpenAI 响应、聊天完成和 Claude 消息流量；路由模型并将可观察的工作流程作为虚拟模型 MCP Gateway Project 1flowbase 功能发布到逐步可发现的工具中；管理工具、映射、组、绑定、策略、上游 MCP 连接和可重用捆绑包应用程序后端定义具体化 PostgreSQL 表、字段、索引和关系的数据模型；自动生成受管理的 CRUD API 和 p
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-native, agent-observability, ai-app-builder, ai-gateway, claude-api, crud-api
+
+---
+
+### 🌟 [mcp-ssh-manager](https://github.com/bvisible/mcp-ssh-manager)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 427
+- **核心概述**: MCP SSH 服务器：37 个远程 SSH 管理工具 |克劳德代码和 OpenAI Codex | DevOps 自动化、备份、数据库操作、运行状况监控
+- **大概是做什么的**: MCP SSH 管理器 - 通过模型上下文协议进行 SSH 远程服务器管理 🚀 模型上下文协议 (MCP) 服务器，使 Claude Code 和 OpenAI Codex 能够管理多个 SSH 连接。直接从 AI 助手执行命令、传输文件、管理数据库、创建备份、监控运行状况以及跨服务器自动执行 DevOps 任务。 🎉 v3.8.0 中的新增功能 👥 配置中的组、Windows 上的 ssh 同步修复以及导致整个服务器宕机的崩溃（发布时间：2026 年 8 月 14 日） - 每台服务器新的可选组字段（ 56 — 由 @ice616 贡献，在 55 中请求） — 使用组 =“生产”标记服务器，它位于该组中：ssh 执行组和 ssh 组管理列表直接从 .env /TOML 解析成员，因此无需维护 .server-groups.json，并且当您将其导出到另一个工具时，分组会随配置一起移动。成员资格是两个来源的联合，因此您已经存储的组将保持不变。 - 🪟 ssh 同步在 Windows 主机上工作（59 — 由 @2836603852 贡献） — 像 C:\project 这样的本地路径到达 MSYS2 rsy
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: anthropic, automation, backup, claude-code, database, deployment
+
+---
+
+### 🌟 [kontext-cli](https://github.com/kontext-security/kontext-cli)
+- **项目语言**: Go
+- **星标数量**: ⭐ 210
+- **核心概述**: 使用工具的人工智能代理的运行时安全性，具有本地策略、行动前执行和取证审计跟踪。
+- **大概是做什么的**: 人工智能代理的运行时治理，包括本地策略决策、行动前执行和授权分类账。 Kontext 与 AI 代理一起在开发人员计算机和云环境中运行。它通过本地挂钩接收工具使用事件，在执行后续操作之前评估策略，并将决策和结果记录在授权分类帐中。决策路径保持本地化；托管部署可以将编辑记录导出到 Kontext 仪表板。代理支持矩阵对于每个代理和事件表面都是权威的。默认情况下，阻止功能处于关闭状态，并且仅在受支持的同步时可用。 当安装程序要求创建一个安装令牌时，请在 Kontext 仪表板中创建一个安装令牌。安装程序将令牌存储在登录钥匙串中，安装受支持代理的挂钩，并启动后台守护程序。使用 doctor 检查自助挂钩状态、守护程序运行状况和托管导出积压。当配置的安装不正常时，它会以非零值退出。对于自助过时守护进程， kontext doctor --fix 执行验证重启；其他发现包括手动修复。重新运行 k
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, audit-logging, cli, credential-management, developer-tools
+
+---
+
 ## 🕔 2026-08-14 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
