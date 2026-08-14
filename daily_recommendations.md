@@ -1,3 +1,67 @@
+## 🕔 2026-08-14 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 224 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [whichllm](https://github.com/Andyyyy64/whichllm)
+- **项目语言**: Python
+- **星标数量**: ⭐ 6,239
+- **核心概述**: 找到在您的硬件上实际运行并表现最佳的本地法学硕士。按真实的、近期感知的基准进行排名，而不是参数计数。一条命令，立即运行。
+- **大概是做什么的**: 找到实际在您的硬件上运行的最佳本地法学硕士。自动检测您的 GPU/CPU/RAM，并对 HuggingFace 中适合您系统的顶级型号进行排名。运行推荐命令一次，无需项目设置。在购买硬件之前模拟 GPU。当您经常使用时安装它。其他安装路径。默认情况下，whichllm 是雄心勃勃的。它对看起来可在您的计算机上运行的最佳模型进行排名，包括部分 RAM 卸载和近边缘 VRAM 适合何时如果您想要��舒适的 LM Studio 风格推荐，请从以下开始：这仅保留完全适合 GPU VRAM 的模型，过滤掉缓慢的估计，并为运行时开销留下额外的 VRAM。如果LM Studio仍然说模型稍微太大，请增加headroom：安装后，直接运行whichllm。对于一次性运行，请将whichllm替换为uvxwhichllm@latest。 32B 型号非常适合您的卡 - 仍然将 27B 评为 1，因为它在实际基准测试中得分更高，并且是新一代。仅限尺寸“什么合适？”工具会给你更大的。这个差距就是整个问题的关键。 （注3：a MoE m
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, apple-silicon, benchmarks, cli, command-line-tool, gguf
+
+---
+
+### 🌟 [awesome-pretrained-chinese-nlp-models](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,582
+- **核心概述**: Awesome Pretrained Chinese NLP Models，高质量中文预训练模型&大模型&多��态模型&大语言模型集合
+- **大概是做什么的**: Awesome Pretrained Chinese NLP Models 论文: A Survey of Large Language Models 在自然语言处理领域中，预训练语言模型（Pretrained Language Models）已成为非常重要的基础技术，本仓库主要收集目前网上公开的一些高质量中文预训练模型、中文多模态模型、中文大语言模型等内容(感谢分享资源的大佬)，并将持续更新...... 国内下载HuggingFace仓库模型推荐使用HuggingFace镜像地址: 分类 说明 链接 :------- :------------- :------------------------ 通用基础大模型 参数 7B 的基础语言模型 查看 垂直基础大模型 金融、医疗、法律等垂直领域 查看 通用对话大模型 对话式通用语言模型 查看 垂直对话大模型 垂直领域对话模型 查看 多模态对话大模型 图文等多模态模型 查看 推理类大模型 数学、逻辑推理模型 查看 系列 代表模型 链接 :------------ :-------------------------------------------------- :------------------------ NLU系列 BERT · RoBERTa · ALBERT · ERNIE · MacBERT · ELECTRA 查看全部 29 个 NLG系列 GPT · GPT-3 · T5 · BART · CPM · RWKV 查看全部 18 个 NLU-NLG系列 UniLM · GLM · CPT · SimBERT 查看全部 9 个 多模态系列 WenLan · CogView · Chinese-CLIP · OFA 查看全部 13 个 📊 大模型评估基准 · 📦 开源模型库平台 · 📚 开源数据集库 · 📝 中文指令数据集 · 🎯 Embedding · 🔗 Other-Awesome ND: Non-Causal Decoder (非因果���码器) CD: Causal Decoder (因果解码器) ED: Encoder-Decoder (编码器-解码器) 大规模基础模型：表格中只罗列出参数量 大于7B 以上模型。查看完整列表 → 模型 大小 时间 语言 架构 下载 项目 机构 备注 :--- :--- :--- :--- :--- :--- :--- :--- :--- XVERSE-MoE 255B / A36B 2024-09 中英 MoE 🤗HF GitHub xverse-
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: bert, chinese, dataset, ernie, gpt, gpt-2
+
+---
+
+### 🌟 [Hypha](https://github.com/CodeSoul-co/Hypha)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 324
+- **核心概述**: 用于生产级LLM代理应用程序的面向线束的代理系统框架
+- **大概是做什么的**: Agent Core + Production Harness 用于受治理、持久且可重用的域代理。 DomainPack · 事件优先运行时 · 受控功能 · 恢复 · 缓存和重用 · 官方网站 当前公开版本：v1.0.1，有 15 个名为 @codesoul-co/hypha- 的对齐包。版本化用户指南包括每个包的 API 图集、自定义 FSM 控件和完整的组合示例。 hypha 是一个开源 TypeScript 框架，围绕两个协作层构建：Agent Core 和 Production Harness。 Agent Core 处理推理/ReAct、规划、工具选择、内存访问和模型/上下文编排； Production Harness 通过 FSM 控制、策略/批准、检查点、恢复、重播和审计将这些决策转化为有界的、事件支持的执行。产品特定的行为是通过 DomainPack 声明的，而不是硬编码到运行时中。 DomainPack 将任务、工作流程、功能、提示、内存、策略、评估和输出契约编译到共享的 Core + Harness 中。然后，跨领域的缓存和重用平面重用经过验证的工作
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-framework, agent-harness, agent-memory, agent-runtime, ai-agents, cache
+
+---
+
+### 🌟 [xinfer](https://github.com/guoqingbao/xinfer)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 302
+- **核心概述**: 纯 Rust 中的极速 LLM 推理。没有 PyTorch 和 Python 运行时。
+- **大概是做什么的**: 纯 Rust 中的极速 LLM 推理。没有 PyTorch。没有 Python 运行时。只是快速、便携、可用于生产的推理。 0️⃣ 零 Python 依赖 纯 Rust 后端 - 没有 PyTorch，没有 CUDA Python 绑定 ⚡ 快速本机 Flash Attention、FlashInfer、CUDA Graphs、连续批处理、前缀缓存、PD 分解。消费者 GPU 上 30B+ 模型的解码速度高达 197 tok/s 🪶 选项 1 中的微小占用核心调度 + 注意力逻辑 - 安装 DEB 或 Python 包 使用 HuggingFace 模型 ID：使用本地模型路径： 提示：打开 http://IP:8001 以获取内置聊天 UI，或使用 http://IP:8000/v1/ 作为 API 基本 URL 。 🗜️ KV 缓存压缩 添加 --kvcache-dtype 来压缩 KV 缓存并扩展上下文长度： Flag ( --kvcache-dtype ) 压缩质量 GPU 要求（默认） 1× (BF16) Baseline All fp8 2× 近无损 SM70+ / Apple M1 Turbo8 2.6× 79–100% 吞吐量 SM70+ / Apple M1 Turbo4 3.7× 最佳平衡SM70+ / Apple M1 Turbo3 4.7× 最大压缩 SM70+ 在 V100-32G、A100-40G、Hopper-80G 和 RTX 5090 上测试 型号 格式 大小 解码速度（无 MTP） Ministral-3-3B（多模）
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, llm, qwen, rust, vllm
+
+---
+
+### 🌟 [Agentero](https://github.com/poco-ai/Agentero)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 209
+- **核心概述**: Agent 友好的文献管理方式
+- **大概是做什么的**: 如果本项目对你有帮助，请在右上角 给个 star 吧！ 传统文献管理器对 Agent 并不友好： - 阅读高亮和笔记被锁在单篇文件里，Agent 很难跨论文复用。 - 每次对话都要重新提供上下文，缺少稳定的本地知识地图。 - PDF 对人友好，但对 Agent 来讲不是最舒服的阅读材料。 Agentero 旨在构建 Agent 友好、Agent 原生的文献管理方式，探索人与 Agent 在文献管理中的协作方式。 - BYOA （Bring Your Own Agent）：通过 ACP 连接本机 Agent，Agentero 不锁定具体 Agent 或模型，工作上下文留在本地 Vault。 - Agent 原生体验 ：支持划词对话、论文导入与 Skill 导入，让 Agent 参与检索、阅读与整理工作流。 - 衔接 Zotero 生态 ：兼容 Zotero 生态的导入方式，支持从标识符、链接或浏览器插件保存论文。一键导入 Zotero 书库，保留标签、笔记和附件。随时导出 BibTeX / BibLaTeX，衔接 LaTeX 写作流程。 - 图表公式解析 ： 论文中的图、表、公式与算法，都可以解析出来，结合上下文理解。 - 论文翻译 ： 全局论文翻译。也支持划词后并排查看原文与译文，结合论文上下文统一术语。 - 双链与知识图谱 ：使用 Obsidian 风格的 [[wikilinks]] 连接论文、概念和笔记，浏览本地知识图谱。 - PDF 深度阅读 ：支持页码导航、适应宽/整页、大纲、⌘F 查找、平滑划词、高亮、批注、提问与翻译。 - 所见即所得的 Markdown ：支持实时预览和编辑。 - 参考文献管理 ：解析论文的参考文献，并支持一键导入。 - 远程文献访问 ：通过 SSH 隧道浏览远程知识库，数据保留在用户自己的服务器上。 - 多系统兼容 ：Mac、Windows、Linux，快捷键与常用软件保持对齐，不改变使用习惯。 - 多种主题风格 ： 支持多种主题风格，满足不同用户需求。 前往 Agentero 或 Releases 下载。 Linux 需 Ubuntu 22.04+ （webkit2gtk 4.1）。详见 安装文档。 - 前端 ：React、TypeScript、Tailwind CSS、shadcn/ui、AI Elements - 窗口管理 ： Dockview - PDF ： Embedded PDF - 编辑器 ：Plate / Markdown - Agent ：Agent Client Protocol、BYOA 2. 保持改动聚焦，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, research
+
+---
+
+### 🌟 [awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness)
+- **项目语言**: Python
+- **星标数量**: ⭐ 233
+- **核心概述**: DeepSeek Harness (DSH) 生态系统：来自 dsh-external/hub 和公共 dsh-plugin 主题的精选插件、工具和基础设施。
+- **大概是做什么的**: 英语       Awesome DeepSeek Harness 安装     贡献指南     DeepSeek 文档     公共插件主题     问题     完整目录     精心策划的 DeepSeek Harness (DSH) 生态系统：插件、工具和基础设施。来源：dsh-external/hub 目录和公共 GitHub dsh-plugin 主题。注意：GitHub dsh-plugin 主题是公开的；某些 dsh-external 存储库链接可能仍需要组织访问权限。 - 模型和推理 - 通知和渠道​​ - 基础设施和开发 - 科学与研究 使用 Node.js 安装官方运行时：在 PATH 上使用 pnpm 安装外部配置文件包：dsh 插件将包操作转发到 pnpm，因此支持 npm、Git/GitHub、本���路径、文件：和链接：包规范。只有声明 dsh.bundle.patch 的包才会成为活动配置文件层；普通依赖项仍然已安装但不活动。安装或更新捆绑包后重新启动 dsh --profile web。前面的&path:子路径和Repository Plugin安装形式不适用
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, ai-tools, awesome, awesome-list
+
+---
+
 ## 🕔 2026-08-13 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
