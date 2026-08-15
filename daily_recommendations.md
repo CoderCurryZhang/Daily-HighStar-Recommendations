@@ -1,3 +1,67 @@
+## 🕔 2026-08-15 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 261 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Gemini-API](https://github.com/HanaokaYuzu/Gemini-API)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,396
+- **核心概述**: ✨ 针对 Google Gemini Web 应用程序的逆向工程 Python API
+- **大概是做什么的**: 用于 Google Gemini Web 应用程序（以前称为 Bard）的逆向工程异步 Python 包装器。 - 持久 Cookie - 在后台自动刷新 Cookie。针对始终在线的服务进行了优化。 - 图像生成 - 原生支持用自然语言生成和编辑图像。 - 视频和音频生成 - 支持原生生成视频和音频/音乐内容。 - 深度研究 - 完整的深度研究工作流程，包括计划创建、状态轮询和结果检索。 - 系统提示- 支持使用Gemini Gems自定义模型的系统提示。 - 扩展支持 - 支持使用 Gemini 扩展生成内容，例如 YouTube 和 Gmail。 - 分类输出 - 对响应中的文本、想法、图像、视频和音频进行分类。 - 流模式 - 支持流生成，在生成时生成部分输出。 - CLI 工具 - 用于快速交互的独立命令行界面。 - 官方风格 - 提供一个简单而优雅的界面，灵感来自 Google Generative AI 的官方 API。 - 异步 - 利用 asyncio 运行生成任务并
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, api, async, bard, chatbot, gemini
+
+---
+
+### 🌟 [agent-safe-pipeline](https://github.com/decionis/agent-safe-pipeline)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 437
+- **核心概述**: 提出操作但无法授权的 AI 代理的参考架构 — 不可变的意图捕获、独立的 Decionis 策略判决（允许/升级/阻止）、经过验证的人工批准以及使用一次性意图绑定授权的 SafeExecutor。
+- **大概是做什么的**: 让代理人提议。让政策决定吧。 Agent-Safe Pipeline 是一种通过独立授权边界执行 AI 代理操作的参考架构。该存储库是一个库和可运行的参考实现，而不是托管授权服务或提供商方身份、最小权限、网络隔离和事件响应的替代品。其安全声明仅在保留记录的信任边界时才适用。代理可以推理、计划并提出行动建议。他们不得确定自己的���作是否获得授权、拥有下游特权凭证或选择运行哪个受信任的处理程序。要求：Node.js 22.14 或更高版本和 pnpm 9。演示使用明确的非生产设备权限。生产集成使用 DecionisGate 和 DecionisGrantVerifier 以及服务器端凭据。执行者接受捕获的意图和决定。它不接受来自代理的任意回调。密封的 ActionRegistry 将操作名称映射到受信任的处理程序，并在使用一次性授权之前验证参数。 - 包/p
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agent-permissions, ai-agents, ai-governance, ai-safety, authorization
+
+---
+
+### 🌟 [RPG-ZeroRepo](https://github.com/microsoft/RPG-ZeroRepo)
+- **项目语言**: Python
+- **星标数量**: ⭐ 589
+- **核心概述**: [ICLR 2026] RPG：用于统一和可扩展代码库生成的存储库规划图
+- **大概是做什么的**: RPG-ZeroRepo 将存储库规划图转变为长期 AI 编码代理的控制层。 🔥 新功能：CoderMind 现已为 Claude Code 和 GitHub Copilot 开源。编码代理经常会在长期任务中丢失存储库级别的上下文：需求漂移、架构决策消失以及编辑遗漏隐藏的依赖项。 CoderMind 为代理提供了一个持久的 RPG 工作空间，以便他们可以通过共享图来规划、生成、理解和更新存储库，而不是短暂的聊天历史记录和文件搜索。该存储库还包括研究代码：ZeroRepo 实现正向管道（需求 → RPG → 存储��），RPG-Encoder 实现反向管道（存储库 → RPG）。 - [2026-05-15] 🚀 CoderMind 现已为 Claude Code 和 GitHub Copilot 开源。它使用存储库规划图作为长期编码代理的控制层，包括规划、多文件生成、存储库理解和图形感知更新。 - [2026-05-01] 🎉 RPG-Encoder（关闭循环：使用 RPG-Encoder 进行通用存储库表示）已被接受
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, application, iclr, llm, memory, software-engineering
+
+---
+
+### 🌟 [claude-auto-retry](https://github.com/cheapestinference/claude-auto-retry)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 331
+- **核心概述**: 自动重试有关订阅速率限制、API 过载 (529/5xx) 的 Claude 代码并保护误报 — 等待打印的重置、指数退避、基于 tmux
+- **大概是做什么的**: 当您达到 Anthropic 订阅速率限制时，自动重试 Claude Code 会话。当 Claude Code 显示“已达到 5 小时限制 - 下午 3 点重置”时，该工具会等待重置并自动发送“继续”。你回来发现你的工作已经完成了。没有依赖性。没有工作流程变化。只需安装即可忘记。 📢 状态（2026 年 8 月）：Claude 桌面应用程序现在可以本地执行此操作 - “☑ 重置限制时自动继续”复选框（已在野外确认）。 CLI 仍然没有它——这就是这个工具今天所弥补的空白。跟踪本机 CLI 版本的 anthropics/claude-code 35744；在它落地之前，npm i -g claude-auto-retry 就是这样。 💡 为什么要等待限制结束？当您受到速率限制时，该工具会自动恢复 Claude Code - 但如果您运行通宵作业或始终在线的代理，则有一种方法可以从一开始就避免碰壁。了解它是如何完成的 → 您正在与 Claude Code 一起执行一项复杂的任务。过了一会儿，你看到：克劳德停了下来。您必须等待几个小时，然后回来并输入“继续”。如果你整夜或离开时运行长时间的任务，这会杀死你的
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, anthropic, automation, backoff, claude, claude-code
+
+---
+
+### 🌟 [realm](https://github.com/spellshift/realm)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 633
+- **核心概述**: Realm 是一个跨平台红队参与平台，专注于自动化和可靠性。
+- **大概是做什么的**: Realm 是一个对手模拟框架，重点关注可扩展性、可靠性和自动化。它具有高性能，专为任何规模的参与（最多数千个信标）而设计。只需几分钟即可开始。想参与吗？加入我们的不和谐！ - Eldritch，一种用于进攻性安全的 Pythonic DSL：抛弃笨重的脚本并拥抱 Eldritch，Realm 基于 Google Starlark 的 Pythonic 领域特定语言 (DSL)。编写清晰、简洁、可重用的代码，反映您的战略思维并简化��攻行动。 Eldritch 原生编译为 Rust，为低级系统交互提供高性能抽象。 - 轻松的多主机管理：在复杂的活动中跨多台机器处理任务？ Realm 简化了流程，使您能够同时控制多个主机上的代理。 - 原生 GCP 集成：直接在红队活动中利用 Google Cloud 的强大功能和可扩展性。 Realm 与 GCP 服务无缝集成，无需重新发明轮子即可增强您的攻击能力。 - 斯塔特莱斯
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, bot, c2, cyber, cybersecurity, golang
+
+---
+
+### 🌟 [freecad-ai](https://github.com/ghbalf/freecad-ai)
+- **项目语言**: Python
+- **星标数量**: ⭐ 426
+- **核心概述**: 适用于 FreeCAD 的人工智能辅助工作台 — 从自然语言生成 3D 模型
+- **大概是做什么的**: Alpha 软件——该项目正处于早期开发阶段。 LLM 生成的代码可能会带来粗糙、重大更改和偶尔的 FreeCAD 崩溃。谨慎使用并经常保存您的工作。适用于 FreeCAD 的人工智能辅助工作台，可生成并执行 Python 代码以根据自然语言描述创建 3D 模型。 - 聊天界面 - 具有流式 LLM 响应的停靠小部件 - 计划/行动模式 - 在执行（计划）或自动执行（行动）之前检查代码 - 工具调用 - 50 个结构化 FreeCAD 操作（行动模式），以实现更安全、更可靠的建模 - 工具重新排名 - 可选关键字或基于 LLM 的过滤器每回合仅向 LLM 发送前 N 个最相关的工具，在注册许多工具 + MCP 服务器时保存提示令牌 - 技能 - 模型自动或��过调用的可重用指令集/command（外壳、齿轮、紧固件孔、图像草图等） - 技能优化器 — 通过迭代测试-评估-修改循环 ( /optimize-skill ) 自动改进技能指令 - 钩子 — 用于生命周期事件的用户定义的 Python 钩子（块工具、修改
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: addon, ai, anthropic, cad, freecad, freecad-addon
+
+---
+
 ## 🕔 2026-08-15 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
