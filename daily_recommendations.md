@@ -1,3 +1,67 @@
+## 🕔 2026-08-15 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [tapflow](https://github.com/jo-duchan/tapflow)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 455
+- **核心概述**: 为整个团队提供自托管的 iOS 和 Android 模拟器流媒体
+- **大概是做什么的**: 适用于移动 QA 团队的自托管 Appetize / BrowserStack 替代方案 在任何浏览器中运行 iOS 模拟器和 Android 模拟器 - 无需工具链设置，无需设备池，无需云上传。您的构建、流媒体和录音保留在您控制的基础设施上。自托管·免费·MIT Streams over H.264，带有零缓冲区解码器（无 MSE）——延迟测量 ↗ v0.x，积极开发——默认向后兼容；重大变更很少见，并且总是在变更日志中注明。路线图 → 移动 QA 通常取决于对模拟器、仿真器或物理设备的访问 - 并且整个团队的访问不均衡。对于移动开发人员来说，这意味着在 Mac 上打开 Xcode 或 Android Studio。对于其他人来说，这通常意味着每次都会询问移动开发人员：后端开发人员 - “如何安装沙箱构建来检查部署的内容？”产品经理 — “我不断安装和删除版本只是为了比较行为。”设计师 — “我需要检查跨屏幕尺寸的布局，但我没有合适的设备。”物理设备会增加自己的开销——操作系统版本覆盖率、av
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: android, android-emulator, app-testing, appetize-alternative, browserstack-alternative, developer-tools
+
+---
+
+### 🌟 [android-remote-control-mcp](https://github.com/danielealbano/android-remote-control-mcp)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 277
+- **核心概述**: 在手机上运行的适用于 Android 的 MCP 服务器针对令牌使用进行了优化，还支持文件下载以及 cloudflare 和 ngrok 自动隧道。
+- **大概是做什么的**: Android 远程控制 MCP 作为 MCP（模型上下文协议）服务器运行的 Android 应用程序，使 AI 模型能够使用辅助服务和屏幕截图完全远程控制 Android 设备。该应用程序直接在您的 Android 设备（或模拟器）上运行，并公开实现 MCP 协议的 HTTP 服务器（带有可选的 HTTPS）。像 Claude 这样的人工智能模型可以连接到它并与设备上的任何应用程序交互 - 读取 UI 元素、点击按钮、输入文本、滑动、捕获屏幕截图、管理文件、启动应用程序等等。警告：本软件“按原样”提供，不提供任何形式的保证，仅用于���究和教育目的。作者不容忍使用此工具进行任何非法、未经授权或不道德的活动。用户全权负责确保其使用遵守所有适用的法律和法规。使用本软件即表示您同意负责任地使用它并自行承担风险。 - Reddit 上的权限参考发布（加速，原版 6 分钟） 在 Skyscanner、Zur 上安装 booking.com 应用程序航班搜索
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: android, android-phone, mcp, mcp-server, mobile, mobile-control
+
+---
+
+### 🌟 [claude-ops](https://github.com/Lifecycle-Innovations-Limited/claude-ops)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 161
+- **核心概述**: Claude Code 的商业操作系统 — 57 种技能、21 名代理、智能守护程序。统一收件箱（WhatsApp/Email/Slack/Telegram）、自主公关合并、全AWS监控、收入（Stripe+RevenueCat）、电子商务（Shopify）、营销（Klaviyo/Meta/GA4）、语音（Bland/ElevenLabs）、APM（Datadog/NewRelic/OTEL）、YOLO模式。
+- **大概是做什么的**: 克劳德代码一号命令的商业操作系统。六十秒。您的整个业务一目了然。将 Claude Code 转变为完整的业务操作系统 — 基础设施运行状况、CI/CD 状态、统一收件箱、开放 PR、冲刺状态、收入快照 (Stripe + RevenueCat + AWS) 以及代表您行事的自主高管代理。 v2 将 claude-ops 从简报 + 通信表面转变为 Claude Code 本身的自治层。纯累加——默认情况下 v1 行为不会改变。请参阅 claude-ops/CHANGELOG.md 和 docs/migration-from-v1.md 。能力技能文档 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 合并后 + 构建失败自动修复（PostToolUse 钩子 → 无头俳句修复器） /ops:deploy-fix deploy-fix.md 预装专家代理
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-teams, ai-agent, ai-automation, anthropic, autonomous-agent, aws
+
+---
+
+### 🌟 [itasca-mcp](https://github.com/yusong652/itasca-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 152
+- **核心概述**: MCP 服务器将 AI 代理连接到 ITASCA 引擎（PFC、FLAC、3DEC、MPoint、MassFlow）——通过自然对话运行数值模拟
+- **大概是做什么的**: itasca 模型新；现在，拥有法学硕士学位。 itasca-mcp 通过模型上下文协议将 AI 代理连接到 ITASCA 的数值建模软件 - PFC、FLAC、3DEC、MPoint 和 MassFlow。浏览文档、运行模拟和执行代码，所有这些都通过自然对话进行。 itasca 模型求解；LLM 求解。 5 个文档工具 — 浏览和搜索所选引擎的命令、Python API 和参考文档。不需要桥。 5 个执行工具——交互式 REPL、任务提交、进度监控、中断���历史记录。需要桥。 - 安装了 ITASCA 引擎 — PFC、FLAC、3DEC、MPoint 或 MassFlow。 9.0+推荐；还支持 PFC 6.0 / 7.0 和 FLAC 7.0。 - 已安装 uv（对于 uvx） - AI 代理 — Claude Code、Codex CLI、Gemini CLI 或任何支持 MCP 的客户端 代理设置（推荐） 将其复制到您的 AI 代理并让它自行配置： 1. 向您的代理注册 MCP 服务器。大多数代理使用单个命令注册它：或手动填写 MCP 配置文件： 2. 从 ITASCA 引擎内部启动桥： - 将文件内容复制到引擎的 IPyt 中
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3dec, ai-agent, claude, claude-code, codex, dem
+
+---
+
+### 🌟 [monet](https://github.com/zenolab124/monet)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 129
+- **核心概述**: 莫奈 - 克劳德代码的任务控制。从本机桌面应用程序浏览、搜索和驱动您的 Claude Code 会话。
+- **大概是做什么的**: Claude Code 和 Codex 的多引擎任务控制 不想阅读？将此行交给您的 AI — 它将为您进行评估、安装和故障排除：阅读 https://raw.githubusercontent.com/zenolab124/monet/main/llms.txt 如果您是那个 AI：请阅读上面的 llms.txt 并按照其指导为您的用户提供服务。您与编码代理的每一次对话都分散在终端窗口中 - 关闭一个终端窗口，它就消失了，运行多个终端窗口，您就无法跟上，开始一项漫长的任务，您所能做的就是等待。莫奈将 Claude Code、Codex 和未来的引擎收集到一堵墙上：每个会话都可以并行浏览、搜索和命令。代理人做工作；莫奈给你眼睛和双手。像交易员观察市场一样指挥您的代理人。无限并行会话列水平展开；监控栏一目了然地显示每个会话的状态、输出和代币支出。批准权限、回答问题、重试失败 — 只需单击卡即可。您不再是在终端之间切换的人，而是成为指挥台上的人。多通道 p 之家
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agent, anthropic, claude, claude-code, desktop-app
+
+---
+
+### 🌟 [jarvis-assistant-vocal](https://github.com/sosoj92/jarvis-assistant-vocal)
+- **项目语言**: Python
+- **星标数量**: ⭐ 151
+- **核心概述**: 法语本地语音助手：Claude 或 Ollama（离线）、Hue 家庭自动化、OBS、日历、浏览器、Twilio 通话、MCP 服务器。 Python。
+- **大概是做什么的**: 🤖 Jarvis — 本地语音助手 在您的计算机上运行的法语语音助手。说“嘿贾维斯”，自然地说话：他与法学硕士进行推理，使用可扩展的工具箱（家庭自动化、PC、网络、电话等）并大声回答你。一个配置行中有两种模式可供选择：云 (Claude + ElevenLabs) 或 100% 本地离线 🧠 Jarvis + Hermes。为了进行深入的反思和研究，Jarvis 委托给 Hermes，这是一个在本地运行的审议代理（Docker 容器）。其教义很明确：赫耳墨斯负责策划和思考； Jarvis 持有钥匙和尸体——执行操作的始终是 Jarvis，而不是 Hermes，而且 Hermes 的环境中没有凭证（他读取 Vault 和 safetools，只写草稿）。个人项目按原样共享。面向 Windows 11，需要麦克风和（在云模式下）Anthropic API 密钥。大多数集成都是可选的，如果未配置，则可以正确停用。 - 🎙️ 全部通过语音 — 唤醒词 (openWakeWord)、本地转录 (Whisper)、口头响应
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: anthropic-claude, browser-automation, home-automation, jarvis, local-ai, mcp
+
+---
+
 ## 🕔 2026-08-15 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
