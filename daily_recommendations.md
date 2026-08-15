@@ -1,3 +1,67 @@
+## 🕔 2026-08-15 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,244
+- **核心概述**: 🪐 🔧 Jupyter 的模型上下文协议 (MCP) 服务器。
+- **大概是做什么的**: 🪐🔧 Jupyter MCP 服务器 为 AI 开发的 MCP 服务器，用于实时连接和管理 Jupyter Notebook，并将代码沙箱从本地扩展到云端（Datalayer、Kaggle、Google Colab、Modal...）由 Datalayer 开发 - 加入我们的 Discord 📖 文档  ·  🔧 工具  ·  💬 社区 没有可运行的进程。 Datalayer 现在在 https://mcp.datalayer.run/mcp 上为您托管该服务器 — 每个代理和每个笔记本都有一个端点。从浏览器登录，批准代理可以执行的操作，并且在代理断开连接后，您的工作将继续在服务器上运行。 → 托管 Jupyter MCP 服务器 一个连接 Claude Code 的命令，顶部有 /datalayer:notebook 、 /datalayer:run 和 /datalayer:status： → Claude Code 的 Datalayer 插件 免费且开源，BSD 3-Clause — 将其指向您已运行的任何 Jupyter，本地或 JupyterHub，无需帐户。由 Datalayer 构建和维护，其中同一服务器通过 GPU 代码沙箱和持久执行来驱动始终在线的笔记本电脑 - 因此，当您的笔记本电脑不工作时，您的代理可以继续处理您的数据。没有要复制和 p 的令牌
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, jupyter, mcp, mcp-server, tools
+
+---
+
+### 🌟 [okf-skills](https://github.com/scaccogatto/okf-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 272
+- **核心概述**: 适用于 Claude Code 的 OKF 工具包 — 创作、维护、验证和可视化开放知识格式包。插件、代理技能和 GitHub Action。
+- **大概是做什么的**: 📚 okf：Claude Code 的开放知识格式工具包 教您的编码代理编写、维护、验证和可视化可移植知识包：标记您的团队和代理的阅读内容。专为 OKF v0.2（信任信号、出处、过时性）而构建，而生态系统的其余部分仍以 v0.1 为目标。 ▶ 打开现场演示：真正的 OKF 捆绑包作为交互式图表 单击任何节点即可呈现降价、派生的信任层和陈旧性、可信度信号的出处以及“链接/引用”反向链接。没有后端，没有任何内容离开页面。是一种开放的、供应商中立的格式（由 Google Cloud 于 2026 年 6 月发布），它将知识（系统周围的上下文和精选洞察）表示为带有 YAML frontmatter 的 markdown 文件目录。没有架构注册表、没有运行时、没有 SDK。如果你能cat一个文件，你就可以读取它；如果你可以 git clone 一个仓库，你就可以发送它。这是 Claude Code 原生 OKF 工具链。它教 Claude 生成、维护、使用、验证和可视化 OKF 包，作为其已经工作方式的正常部分，由逐字规范驱动
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude-code, claude-code-plugin, developer-tools, knowledge-graph
+
+---
+
+### 🌟 [trueforge](https://github.com/truefoundry/trueforge)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 261
+- **核心概述**: 开源代理工具 - 将 LLM 转变为工作代理的运行时层。
+- **大概是做什么的**: 开源代理工具 - 将 LLM 转变为工作代理的运行时层 TrueForge 为您运行代理执行循环 - 模型调用、MCP 工具、技能、沙箱、批准、上下文管理和会话状态 - 并以三种方式公开它：聊天 UI、带有 TypeScript SDK 的 HTTP API 和可嵌入 UI SDK。建立代理很容易。运行良好并不需要 - 您需要流、会话持久性、工具服务器、沙箱、批准和 UI。 TrueForge 为您提供开箱即用的功能： - 从目录进行初始设置 - 配置模型、MCP 服务器、技能和沙箱一次；代理从您连接的内容中进行选择。预设来自您可以自定义的已发布 YAML 目录。 - 任何模型提供商 - OpenAI、Anthropic、Google Gemini 和其他目录提供商，或任何 OpenAI 兼容端点。 - MCP 工具 - 具有标头身份验证或 OAuth 的远程 MCP 服务器，包括聊天内授权。 - 技能 - git 支持的 SKILL.md 指令包，在沙箱中按需加载。 - 沙盒作为工具 - 隔离代码/文件执行（今天的 Daytona；计划提供更多提供商），前提是
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agents, harness, harness-engineering
+
+---
+
+### 🌟 [seo](https://github.com/iannuttall/seo)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 230
+- **核心概述**: 您的代理需要的唯一 SEO 技能。通过本地 CLI 和 MCP 服务器使用您自己的抓取、Search Console 和 GA4 数据，提供 70 多个 SEO 审核工具。
+- **大概是做什么的**: AI 代理的 SEO 命令。通过一台本地命令和 MCP 服务器审核站点、寻找搜索机会、研究竞争对手并验证工作。 seo 命令将抓取、搜索控制台、连接的流量分析和可选的研究提供商数据转变为您可以检查和发送的工作。查找技术障碍，恢复现有需求，研究新的关键字和竞争对手，审查程序化页面模式，并捕获发布后的回归。 - 运行自己网站的人想要清晰的审核和修复的排名列表，而不需要学习繁重的仪表板。 - 人工智能代理需要真正的爬行、搜索控制台、流量分析、关键字、结果、域名、竞争对手和通过 MCP 的链接证据以及一项打包的 SEO 技能，而不是屏幕截图或猜测。 - 想要在脚本、CI 作业或需要 Node 22 或更高版本中嵌入相同报表引擎的开发人员。该设置将引导您完成 Google 登录、Search Console 属性、可选的流量分析连接和本地项目配置文件。公开版本可以包含共享的 Google 应用程序。如果无法使用
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cli, google-analytics, local-first, mcp, search-console
+
+---
+
+### 🌟 [moli](https://github.com/lexmount/moli)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 304
+- **核心概述**: 适用于 AI 代理的最佳浏览器，采用 Rust 构建。
+- **大概是做什么的**: Moli 是一款适用于 AI 代理的生产就绪型无头浏览器。其按需布局和渲染设计将完整的浏览器运行时与轻量级 Moli 相结合，帮助您的 AI 代理获取和提取网页、搜索网络以及自动化浏览器任务。通过 CLI、CDP、WebDriver Classic 或 WebDriver BiDi 使用它。向您的 AI 编码代理提供此提示：由 Moli 渲染并通过 Chrome DevTools 实时检查的 HTML5 游戏。 rust-lang.org 由 Moli 渲染，其实时 DOM、CSS 和几何图形可在 Chrome DevTools 中使用。使用 Moli 的默认完成策略将页面渲染为 Markdown：或者直接返回紧凑、模型友好的语义树：对于视觉输出，启用按需布局并编写视口 PNG 屏幕截图或分页 PDF：运行 fetch --help 以获取完整的选项列表，包括输出格式、页面加载/响应等待、配置文件、代理设置、资源策略和启动自动化服务器 同一端点服务于所有三种协议：CDP、WebDriver Classic 和 WebDriver BiDi。剧作家可以直接通过 CDP 进行连接：三个特点
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-tools, browser, browser-automation, cloud-browser, playwright
+
+---
+
+### 🌟 [diri](https://github.com/cristicretu/diri)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 258
+- **核心概述**: 用于编码代理的本机 macOS 编排器 — 在 git 工作树和远程主机上并行运行 Claude Code、Codex、Cursor、Gemini 和 shell
+- **大概是做什么的**: 用于 macOS 和 Linux 上编码代理的本机桌面编排器。并行运行 Claude Code、Codex、Cursor、Gemini 和普通 shell — 跨 git 工作树或远程主机 — 每个都有实时状态（正在工作/需要您/已完成）和类似 tmux 的持久性：关闭应用程序永远不会终止会话，并且守护进程重新启动会恢复对话。或者从发行版下载最新的 DMG，打开它，然后将 diri 拖到应用程序中。无论哪种方式，它都是相同的通用构建（Apple 芯片和英特尔），经过签名和公证。 diri 从那里更新自己。水龙头必须完整命名 - 裸露的 diri 仅针对 Homebrew 的默认水龙头进行解析。该木桶位于 cristretu/homebrew-diri 中，而不是 homebrew-cask 中，这需要 diri 尚未满足的知名度阈值。发布。 Ubuntu 22.04 和 24.04 在 X11 和 Wayland 下受支持，并具有支持 Vulkan 1.3 的 GPU。请参阅 Linux Beta 指南，了解校验和、升级和卸载步骤、XDG 路径、图形故障排除和当前限制。 1. 添加项目目录并为 Claude Code、Codex、另一个受支持的 ag 创建会话
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: claude-code, coding-agents, gpui, macos, mcp, rust
+
+---
+
 ## 🕔 2026-08-15 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
