@@ -1,3 +1,67 @@
+## 🕔 2026-08-15 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 256 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [FounderOS-DEMO](https://github.com/Bennettxai/FounderOS-DEMO)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 505
+- **核心概述**: 开源、单运营商业务指挥中心：通过一个实时仪表板作为人工智能辅助部门（通信、漏斗、社交、财务、代理和知识图）运营一家单人运营的公司。
+- **大概是做什么的**: 适用于单人企业的个人操作系统：一个实时网络指挥中心，将您的公司作为一组人工智能辅助的“部门”来运行。 Founder OS 将经营独立业务的选项卡、工具和精神开销转变为一个屏幕：统一通信、客户漏斗、社交增长、财务、知识图谱，以及一系列指定的人工智能代理，每个代理都有一份真正的工作。该存储库是开源演示版本。它附带了真实的占位符数据，因此每个页面都是开箱即用的，没有帐户，没有 API 密钥，也不需要配置任何内容。这与 Founder OS 团队中现场教授的系统相同；这个存储库可以让您自己探索和运行它。想要在指导下建立自己的、实时的吗？这就是队列的目的。需要节点 18+ 。本地 SQLite 数据库在首次运行时植入了演示数据，因此每个页面都会立即填充。浏览时无需任何凭据。使用侧边栏或命令面板 (Cmd/Ctrl + K) 进行导航。发布了五个主题，包括 Monolith 默认主题（黑底白字，颜色仅表示状态）；从调色板中选择它 ico
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, dashboard, founder-os, nextjs, open-source, operator-os
+
+---
+
+### 🌟 [sandbase-harness](https://github.com/sandbaseai/sandbase-harness)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 576
+- **核心概述**: 适用于任何模型的开源 CMA 兼容代理运行时，具有 MCP 工具、沙盒会话、审核、重播和本地控制台。包括基于 stdio MCP 的本机 DeepSeek Harness 捆绑包。
+- **大概是做什么的**: AI 代理的本地优先运行时。会话、沙盒工具、内存、凭证、审计跟踪和内置控制台——所有这些都在您的计算机或您自己的基础设施中运行。代理 SDK 处理模型循环。生产代理需要更多：持久会话、工具治理、沙箱边界、凭证处理、内存、可审计性以及供人们检查发生情况的 UI。托管代理是运行时层——不是可视化工作流构建器，也不是另一个模型 SDK。 - Claude Managed Agents-style /v1 API 和本地控制台 - SQLite ���持的代理、会话、环境、凭证库、内存存储、文件、技能和 API 密钥 - 默认情况下 SQLite 元数据 - 存储在工作区状态目录中的本地文件/技能字节 - 用于会话重播和调试的可恢复服务器发送事件 - 通过 Settings V2 配置的一个活动模型提供程序边界 - 沙盒后端：本地进程、Docker（每个会话容器）、Kubernetes (kubectl) exec/cp)，自托管工作队列 - 设置 V2：一个工作区模型供应商、循环引擎、存储、内存、沙箱 - 带验证
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-observability, agent-runtime, ai-agents, deepseek, deepseek-harness, dsh-plugin
+
+---
+
+### 🌟 [memra](https://github.com/avifenesh/memra)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 304
+- **核心概述**: memra 是专为 NVIDIA RTX PRO 6000 Blackwell 和 RTX 5090 构建的 Rust + CUDA 推理引擎。它通过 OpenAI 兼容的 API 为 GGUF 模型提供服务，并且它提供的每个默认值都是在这两张卡上测量的 - 两张卡都是 Blackwell sm_120a，旁边还有单独编译门控的 Hopper/H100 (sm_90a) 通道。
+- **大概是做什么的**: memra 是专为 NVIDIA RTX PRO 6000 Blackwell 和 RTX 5090 构建的 Rust + CUDA 推理引擎。它通过 OpenAI 兼容的 API 提供受支持的 Hugging Face 安全张量检查点和 GGUF 工件，并且它提供的每个默认值都是在这两张卡上测量的 - 两张卡都是 Blackwell sm 120a ，旁边还有单独编译门控的 Hopper/H100 ( sm 90a ) 通道。这个焦点是重点，而不是限制。主流服务堆栈针对数据中心 Hopper 和 Blackwell 进行了调整； memra 针对人们实际拥有的 Blackwell 卡（96 GB PRO 6000 工作站/服务器版和 5090）进行了调整，假设您希望您的卡饱和而不是仅仅受到支持。具体来说，在 ONE PRO 6000 上，它在 262,144 个令牌上下文中为 35B MoE 提供服务，拥有 48 GiB VRAM 前缀缓存，并通过干净的 429 摆脱多余负载，而不是降低每个人的延迟； 5090 在其自己的测量设置下搭载相同的发动机。两张卡都是一流的，并且都没有以牺牲对方为代价进行调整。根据设备选择臂：当某个机制在 5090 上获胜而在 PRO 6000 上失败时，或者
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, blackwell, cuda, gemma, gguf, gpu
+
+---
+
+### 🌟 [dsh-handbook](https://github.com/Electricitysheep/dsh-handbook)
+- **项目语言**: Python
+- **星标数量**: ⭐ 206
+- **核心概述**: DeepSeek Harness (dsh) 从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF）
+- **大概是做什么的**: DeepSeek Harness 白皮书 · dsh-handbook 从 0 到 1 玩转 DeepSeek Harness 的新手百科全书 · 中文 · English 📖 在线阅读 · 📄 下载 PDF · ⭐ 点 Star 支持 dsh 当前为 0.1.0-rc.6 （预发布阶段），生产环境请谨慎评估，详见 ℹ️ 版本说明。 想系统学？看 🗺 学习路径（3 天计划）；想先跑？第 2 章：五分钟快速上手；想速查？📇 一页速查卡 30 秒看懂 dsh Web UI ：新建会话 → 输入任务 → 模型选择 → 发送 → AI 回复 DeepSeek Harness（ dsh ） 是 DeepSeek 官方 2026-08-13 开源的 Agent 运行时——一个"一切皆插件"（everything is a plugin）的框架。 但官方文档以架构说明为主， 缺少一条从零上手的路径 。 这本白皮书补上这条路 ：从"什么是 Agent 运行时"讲起，到安装、使用、开发插件、性能调优——每一章都有可复制、可运行的命令，全部在本机实测验证。 目标是：任何一个开发者，跟着这本书都能从 0 到 1 用起来、写起来。 架构视角（AGENTS.md / architecture.md） 新手视角 ：一条从 0 到 1 的路径 零散示例 每章可运行 ，命令全部实测 无中文教程 中文优先 ，英文同步 无生态实操 真实插件/PR 拆解 （含踩坑与安全约束） 🆕 第一次接触 dsh 3 天从 0 到 1 学习路径（每天有目标+验收） 🛠 开发者 可克隆的插件模板 + 配置参考大全（照抄能跑） ⚖️ 正在选��� 6 个主流 Agent 对比（表格+文字）+ 同模型实测 benchmark ⚡ 要调优 推理档位策略 + 缓存命中率专题（实测 97%） 📚 要案例 5 个真实复杂案例（含耗时/产物/验证） 首先要感谢每一位 Star、回复和投稿——这本手册不是一个人的作品，是 dsh 社区一起"长"出来的。 - ⭐ 170+ Stars ——对一份刚发布的教程来说远超预期，感谢大家认可 - 💬 官方库 138 帖回应 ——我们持续在讨论区和大家一起踩坑、排障、交流 - 🧠 FAQ 里的 39 条问题大多来自真实提问 ——社区问什么，我们沉淀什么（ 380/ 817/ 1052…） - 📦 收录于 awesome-dsh-plugin，阮一峰周刊自荐也已提交 - 🤝 与 20+ 社区项目互链（dsh-usage / dsh-sgme / AgentSoul / dsh-
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, ai-agents, beginners, deepseek, deepseek-ai
+
+---
+
+### 🌟 [VAGEN](https://github.com/mll-lab-nu/VAGEN)
+- **项目语言**: Python
+- **星标数量**: ⭐ 493
+- **核心概述**: 多轮 VLM 代理的世界模型推理 RL
+- **大概是做什么的**: VAGEN: Reinforcing World Model Reasoning for Multi-Turn VLM Agents 用多轮强化学习训练 VLM 智能体 Kangrui Wang, Pingyue Zhu, Zihan Wang, Yaning Gang, Linjie Li, Qieng Wang, Hanyang Chen, Chi Wan, Yiping Lu, Zenyuan Yang, Lijuan Wang, Ranjay Krishna, Jiajun Wu, Li Fei-Fei, Yejin Choi, Manling Li (同等贡献) VAGEN 是一个强化学习 (RL) 框架，可训练多轮 VLM 代理（视觉语言模型代理），通过显式视觉状态推理构建内部世界模型。 VAGEN 不是仅仅奖励任务成功，而是强化了智能体的世界模型推理本身，将其分解为 StateEstimation（“当前状态是什么？”）和 TransitionModeling（“接下来会发生什么？”），并提供回合级 WorldModeling 奖励（LLM-as-Judge）和��于回合感知信用分配的 Bi-Level GAE。将世界模型与强化学习相结合，使用 VAGEN 训练的 3B VLM 在五个视觉代理基准测试中得分为 0.82，比未经训练的主干网 (0.21) 提高了 3 倍，优于 GPT-5 (0.75)、Gemini 2.5 Pro (0.67) 和 Claude 4
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, embodied-ai, multi-turn-reinforcement-learning, reinforcement-learning, vision-language-models, vlm-agent
+
+---
+
+### 🌟 [LLMTornado](https://github.com/lofcz/LLMTornado)
+- **项目语言**: C#
+- **星标数量**: ⭐ 633
+- **核心概述**: 用于构建具有 30 多个内置连接器的 AI 代理的 .NET 库。
+- **大概是做什么的**: LLM Tornado 是一个与 .NET 提供商无关的 SDK，使开发人员能够构建、编排和部署 AI 代理和工作流程。无论您是构建简单的聊天机器人还是自主编码代理，LLM Tornado 都能提供您所需的工具，并与人工智能生态系统进行无与伦比的集成。 - 使用任何提供商：内置连接器：Alibaba、Anthropic、Azure、Blablador、Cohere、DeepInfra、DeepSeek、Google、Groq、MiniMax、Mistral、MoonshotAI、OpenAI、OpenRouter、Perplexity、Requesty、Upstage、Voyage、xAI、Z.ai 等。连接器通过强类型代码公开所有利基/独特功能，并与最新的人工智能开发保持同步。不依赖第一方 SDK。功能矩阵跟踪详细的端点支持。 - 一流的本地部署：与 vLLM、Ollama 或 LocalAI 一起运行，并集成了对请求转换的支持。 - 代理编排：协调可以自主执行复杂任务的专业代理，具有三个核心概念：Orchestrator（图）、Runner（节点）和Advanced（边缘）。带有切换、并行执行、Mermaid 导出和 bu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, agent, agent-framework, agent-orchestration, agent2agent, agentic-ai
+
+---
+
 ## 🕔 2026-08-14 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 212 个候选项目中筛选出 6 个未推荐过的新项目。
