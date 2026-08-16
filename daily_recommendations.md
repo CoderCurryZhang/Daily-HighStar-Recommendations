@@ -1,3 +1,67 @@
+## 🕔 2026-08-16 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 207 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [thinking-orbs](https://github.com/Jakubantalik/thinking-orbs)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,480
+- **核心概述**: 用于 AI 和代理 UI 的点状思想球加载指示器，9 种调整类型，两种尺寸，自动变暗/亮
+- **大概是做什么的**: AI 和代理 UI 的点状思想球加载指示器。九种手动调整的动画状态，每种状态都有两种专门调整的尺寸，在普通的 2D 画布上渲染 - 没有 WebGL，没有过滤器，在 Chrome、Safari 和 Firefox 中的工作方式相同。现场演示 · 存储库 · 报告问题 代理可以执行九个动词，每个动词都有一个独特的动画： 两个经过调整的预设 - 单独的设计，而不是比例因子。聊天头像比例为 64，内嵌文本比例为 20。每个都有自己的点数、点大小和速度调整：严格单色 - 浅色墨水用于深色背景，深色墨水用于浅色背景 - 从主机项目自���选择模式：自动解析为三层，并在其中任何一个发生变化时实时更新： 1. 祖先 data-theme="dark light" 属性或暗/亮类（Tailwind / shadcn 约定），通过 MutationObserver 观看； 2. 另外更喜欢-color-scheme ，订阅 live OS 主题切换； 3. SSR安全——画布仅在主题解析后在客户端上绘制。所有其他属性（ className 、 style 、 data- 、...）都会通过。可访问性和每
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, chat, loader, ui, ux
+
+---
+
+### 🌟 [Awesome-RL-for-LRMs](https://github.com/TsinghuaC3I/Awesome-RL-for-LRMs)
+- **项目语言**: TeX
+- **星标数量**: ⭐ 2,478
+- **核心概述**: 大型推理模型强化学习综述
+- **大概是做什么的**: 大型推理模型的强化学习调查 我们欢迎大家为我们尚未讨论的任何相关工作提出问题，我们将尽力在下一个版本中解决它！ - [2026-07-31] 🎉 第一个 OpenRSI 版本：Frontis-MA1（35B / 30B，带有 GGUF 衍生品）、OpenMLE 堆栈（Gym / RL / Evo）以及 OpenMLE 任务和 OpenMLE SFT 跟踪数据集。查看：GitHub。 - [2026-06-25] 🎉 我们的调查《体验时代的自我改进代理：自我进化到元进化的调查》现已在 OpenReview 上发布。查看：GitHub 和 OpenReview。 - [2025-11-05] 🔥 很高兴发布有关智能体记忆的论文列表，涵盖上下文管理和从经验中学习方面的突破，为自我改进的人工智能智能体提供动力。查看：GitHub - [2025-10] 🎉 很荣幸在 BAAI、青客 Talk 和腾讯 Wiztalk 做演讲！这是幻灯片。 - [2025-09-18] 🎉 我们更新了调查类别结构中的完整论文列表！ - [2025-09-12] 🎉 我们的调查在🤗抱脸日报上排名第一！ - [2025-09-11] 🔥 很高兴能看到
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: awesome-list, deepseek-r1, llm, lrm, open-source, reasoning
+
+---
+
+### 🌟 [ai-agent-papers](https://github.com/masamasa59/ai-agent-papers)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,606
+- **核心概述**: AI Agents 论文集（每两周更新）
+- **大概是做什么的**: This repository curates the latest research papers on the applications and architectural technologies of AI agents. We perform weekly Arxiv searches using specific keywords and pick only those that are particularly interesting. Rather than striving for comprehensiveness, we add papers when they introduce a distinctively new approach or novel concept that stands out from existing methods. An AI Agent is an autonomous system powered by large language models that can perceive its environment, reason through complex tasks, and use tools to take actions in pursuit of specific goals. It combines reasoning, planning, memory, and tool-use capabilities to operate independently or as part of a multi-agent system. Papers are filed in four layers — capabilities (what an agent can do), architecture (how it's built), operations (how it's run), and applications (where it's used). Each entry links to a curated, date-ordered reading list. 🔥: Recommended papers ⚖️: Benchmark papers 🔄 Badges show papers added in the last 2 months (Jul–Aug 2026); cluster headings show the sum: (+N) recent additions, �
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, llm, paper-list, planning, reasoning, survey
+
+---
+
+### 🌟 [dsh-desktop](https://github.com/dataelement/dsh-desktop)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 425
+- **核心概述**: DeepSeek Harness 的桌面应用程序
+- **大概是做什么的**: DSH Desktop 是适用于 Beyond 官方 DeepSeek 模型的本地优先、跨平台桌面 shell，支持主流第三方模型提供商，即将推出更多由 DSH 支持的桌面体验。 DSH Desktop 将本地 DeepSeek Harness Web 体验打包为桌面应用程序。它会自动启动本地 Harness 实例，管理随机环回端口，保留配置文件、插件和会话，并在 Harness 准备就绪后立即打开完整界面。项目工作区完全在 Harness 界面中添加和管理。 DSH Desktop 目前是早期预览版，依赖于快速发展的 @deepseek-ai/dsh@0.1.0-rc.6 。 macOS 版本由 Apple 进行代码签名和公证；当前的安装程序是通过官方网站分发的。安装的 macOS 和 Windows 版本会在启动后每六个小时自动检查一次更新。更新在后台下载，并在准备好后提示您重新启动。您还可以从应用程序菜单中选择检查更新...。使用微信扫描下方二维码即可加入DSH Desktop社区群。磷
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, deepseek, desktop, dsh-plugins
+
+---
+
+### 🌟 [CyberClaw](https://github.com/ttguy0707/CyberClaw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 327
+- **核心概述**: 👾 下一代透明智能体架构 | Next-Gen Transparent Agent Architecture 🔍 全行为审计 | 🛡️ 两段式安全调用 | 🧠 双水位记忆 | ⏰ 心跳任务 📊 P0 级事故率降低 80% | 兼容 OpenClaw + Claude Code 技能生态
+- **大概是做什么的**: 当 AI 开始"黑箱操作"，你需要一双透视眼 下一代透明智能体架构 · Next-Gen Transparent Agent Architecture 🌐 Language: 中文 · English 中文导航: 快速开始 · 核心能力 · 架构图 · 示例 English Nav: Quick Start · Core Capabilities · Architecture · Examples 🤖 你的 AI 在背着你做什么？CyberClaw 让所有行为无所遁形 💡 灵感来源 ：受 OpenClaw 的启发，CyberClaw 专注于解决 AI 智能体的透明度和可控性问题。 CyberClaw 是一个 企业级透明可控智能体 ，重新定义 AI 系统的可信边界： - 🔍 白盒化决策 → 5 类事件审计 + JSONL 日志 + Rich 监控终端，所有行为可追溯 - 🛡️ 零信任执行 → 两段式调用（help → run），先看说明书再执行，P0 级事故率降低 80% - 🧠 持续学习 → 双水位记忆系统（长期画像 + 短期摘要），越用越懂你 - ⚡ 复杂任务编排 → 心跳任务系统 + 可插拔技能 + MCP 服务集成，解放双手 CyberClaw 支持 OpenClaw 技能 和 Claude Code 技能 ，可直接使用两个生态系统的丰富技能资源，无需重新开发。 ------ ------ ------ 🧠 双水位记忆 长期画像 + 短期摘要，持续学习用户偏好 越用越懂你，避免重复询问 🔍 全行为审计 5 类事件实时审计，JSONL 日志 + Rich 监控终端 告别黑箱，所有决策可追溯 🛡️ 零信任执行 help → run 两段式调用，先看说明书再执行 P0 级事故率降低 80%（50% → 10%） ⏰ 心跳任务引擎 后台独立进程，自动执行定时任务 解放双手，复杂任务自动化 🖥️ 跨平台支持 Unix + Windows 双平台自适应，LLM 自主选择命令 一套代码，全平台运行 - 长期画像 ( user profile.md )：用户偏好、职业、特殊要求 - 近期摘要 (SQLite)：每 MAX TURNS 轮自动摘要，保留最近 KEEP TURNS 轮 - 上下文修剪：智能保留关键对话，防止 Token 爆炸 - mode='help' ：查看完整说明书（SKILL.md） - mode='run' ：执行具体操作 - 5 类事件审计： llm input , tool call , tool result , ai mes
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, ai-agent, ai-safety, claude-code, cross-platform
+
+---
+
+### 🌟 [offer-toolkit-skill](https://github.com/yanliudesign/offer-toolkit-skill)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 303
+- **核心概述**: 完整的求职 Claude 技能包 — 职位描述解码器 + 简历生成器（11 个模板）+ 行为面试/故事库。具有顶级路由器的三个独立子技能。
+- **大概是做什么的**: 一个代理技能包中的四种求职工具 - 搜索·JD·简历·BQ。四种求职工具捆绑为代理技能包。使用整个文件，或仅使用您需要的部分 - 每个子文件夹都可以独立工作。子技能 用途 job-hunt-list 提供简历、目标方向、种子 JD 或现有工作链接。它搜索公共资源、删除重复的候选人、将经过验证的事实与推论分开，并生成可搜索的 HTML 职位列表。它发现并分析；它永远不适用于你。工作描述技能 给它一个 JD 和你的简历。你会收到一份 HTML 报告，告诉你：这份工作是否值得申请、你与它的匹配程度、差距在哪里、面试中你可能会被问到什么、薪水是否合理以及接下来六周要做什么。简历技能 完善现有简历，从 LinkedIn 获取一份简历，或者通过与您聊天从头开始构建一份简历。然后内容流入 11 个可打印的模板（Classic-ATS、Ledger、Tech Compact、Modern Sidebar、Pillar、Elegant Serif、Atelier、Timeline、Swiss、Executive、Color-block）。埃亚
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, ai-agent, anthropic, behavioral-interview, bilingual, career
+
+---
+
 ## 🕔 2026-08-16 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 244 个候选项目中筛选出 6 个未推荐过的新项目。
