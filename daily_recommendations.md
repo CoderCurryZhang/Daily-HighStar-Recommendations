@@ -1,3 +1,67 @@
+## 🕔 2026-08-16 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 269 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Recaf](https://github.com/Col-E/Recaf)
+- **项目语言**: Java
+- **星标数量**: ⭐ 7,336
+- **核心概述**: 现代 Java 字节码编辑器
+- **大概是做什么的**: 一个易于使用的现代 Java 字节码编辑器，可以抽象出 Java 程序的复杂性。 - 在启动器存储库中找到用法和说明 - 查看发布工件的 CI 操作 - 独立版本（目前没有 4X） - 从高或低级别轻松编辑 Java 字节码（减去烦人的部分） - Recaf 中的编辑器功能抽象出已编译 Java 应用程序的复杂细节，例如： - 堆栈帧计算 - 需要时使用宽指令 - 易于使用的可导航界面和上下文相关操作 - 支持标准 Java 和 Android 应用程序 - 可以在多个反编译器之间切换，其所有参数都完全可配置- 内置编译器允许重新编译反编译的类，即使缺少某些引用的类（如果支持，支持可能会根据代码复杂性和混淆而有所不同） - 具有简单语法和支持工具的字节码汇编器 - 在方法中的任何点查看局部变量和堆栈值的状态 - 通过名称而不是索引访问变量，以获得更清晰的反汇编代码 - C
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, asm, bytecode, bytecode-engineering, bytecode-manipulation, decompile
+
+---
+
+### 🌟 [WhisperJAV](https://github.com/meizhong986/WhisperJAV)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,124
+- **核心概述**: ASR/STT 字幕生成器。使用 Qwen3-ASR、本地法学硕士、Whisper、TEN-VAD。 JAV 抗噪音
+- **大概是做什么的**: 日本成人视频的字幕生成器。免费，在您自己的计算机上运行，​​无需将媒体上传到云端。文档：英语 简体中文 Whisper 等语音识别模型是在干净、精心设计的语音上进行训练的。 JAV 音频与此相反，这种不匹配以特定的、易于理解的方式破坏了它们： 1. 声学特征。 JAV 音频具有低信噪比和高密度的非语言发声（呼吸、喘气、呻吟），其频谱通常模仿真实的日语音节（例如 fu ），欺骗模型听到不存在的单词。再加上训练语料库中缺少的极端音量波动（从低语到尖叫）和戏剧角色语言 (yakuwarigo)，模型的假设就不再成立。 2.长篇漂移和幻觉。这些是长片长度的录音，而不是 30 秒的剪辑。在长时间模糊的音频中——沉默、有节奏的呼吸——模型的注意力崩溃了，并用重复或发明的文本填补了空白。这是 Whisper 系列模型已记录的故障模式 [3,4,5]。 3.预处理悖论。直觉
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: aitranslate, hallucination, japanese, llm, modelscope, qwen3
+
+---
+
+### 🌟 [ironcurtain](https://github.com/provos/ironcurtain)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 578
+- **核心概述**: 自主人工智能代理的安全*运行时。来自通俗易懂的英语宪法的政策。 (*https://ironcurtain.dev)
+- **大概是做什么的**: 自主人工智能代理的安全\运行时，其中安全策略源自人类可读的宪法。 \ 当有人写“安全”时，你应该立即表示怀疑。我们所说的安全是什么意思？研究原型。 IronCurtain 是一个早期研究项目，探索如何使人工智能代理足够安全并真正有用。 API、配置格式和架构可能会发生变化。欢迎贡献和反馈。要求代理克隆存储库并推送更改。 git clone 和 git push 均由策略引擎升级，但自动审批程序会自动批准它们 - 用户从命令模式 (Ctrl-A) 的可信输入提供了明确的意图，因此不需要手动 /approve。自主 AI 代理可以代表您管理文件、运行 git 命令、发送消息以及与 API 交互。但今天的代理框架赋予代理与用户相同的权限，例如对文件系统、凭据和网络的完全访问权限。安全研究人员将此称为环境权威，这意味着单次即时注入或多轮漂移可能会导致
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, mcp, model-context-protocol, policy, sandbox, security
+
+---
+
+### 🌟 [PotPlayer_ChatGPT_Translate](https://github.com/Felix3322/PotPlayer_ChatGPT_Translate)
+- **项目语言**: C++
+- **星标数量**: ⭐ 1,025
+- **核心概述**: [support ollama/other model]【兼容ollama和其他模型】将任何具有OpenAI API调用方法的模型集成到PotPlayer中。它使你在观看视频时能够实时翻译字幕，从而打破语言障碍，提升你的观看体验。 This real-time subtitle translation plugin integrates OpenAI's ChatGPT API (or any model with the same API calling method) into PotPlayer. It enables you to translate subtitles on-the-fly while watching videos.
+- **大概是做什么的**: 如果你只是想正常使用插件，请在这里下载： Fully Automatic Installation - 【PotPlayer AI 翻译插件安装教程 - 哔哩哔哩】 https://b23.tv/ntF2dxu DolOffer - 一站式数字订阅充值平台 主营 GPT、Claude 等 AI 服务会员正版订阅充值。 PotPlayer ChatGPT Translate 🚀 A PotPlayer subtitle translation plugin powered by OpenAI-compatible AI APIs. It translates subtitles in real time and can use subtitle context to improve accuracy. Works on my machine — but bug reports are welcome.  ·   ·  The source-code version of this project is mainly for development and testing. It is not currently designed as the recommended installation method for normal users, and not every source-code path has been fully tested. If you only want to use the plugin, please install it from the release package: Recommended download: Fully Automatic Installation The repository was temporarily unavailable for a period of time because my GitHub account was suspended. The project is now available again. - Bilibili: PotPlayer AI Translation Plugin Installation Tutorial 1. What This Project Does - Fully Automatic Installation Recommended - Manual Installation 4.
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-translator, anglescript, api, chatgpt, chatgpt-api, language
+
+---
+
+### 🌟 [agentdock](https://github.com/uvwt/agentdock)
+- **项目语言**: Go
+- **星标数量**: ⭐ 289
+- **核心概述**: 安全的 MCP 运行时，供 AI 代理通过多设备编排操作本地计算机、服务器和容器。
+- **大概是做什么的**: 让人工智能代理对您操作的每台机器进行安全、受控的访问。在浏览器中打开 ChatGPT，通过一次对话管理多台计算机和服务器。编写代码、更改配置、运行命令并在工作所属的真实环境中进行部署，而无需消耗专用的 Codex 编码配额。快速入门 · 文档 · 发布 · 问题 AgentDock 是一个用于 AI 代理的独立工具运行时。它跨本地计算机、远程服务器和容器提供统一、安全和受控的文件、命令、Git、Skill、MCP、浏览器自动化和任务执行。连接多个 AgentDock 实例以协调跨设备的工作并在单个对话中完成多机工作流程。 AgentDock不提供聊天界面或执行模型推理。它专注于一个职责：让人工智能代理在明确的权限边界内操作真实环境，并返回结构化、可追踪和可验证的结果。 AgentDock 可以做什么？ - 直接从 ChatGPT 管理多台计算机和服务器，无需重复切换 SSH 会话 - W
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-agents, automation, devops, docker, mcp
+
+---
+
+### 🌟 [FofaMap](https://github.com/asaotomo/FofaMap)
+- **项目语言**: Python
+- **星标数量**: ⭐ 698
+- **核心概述**: 证据驱动的 FOFA 资产测绘智能体：自然语言侦察、AI 反思、CLI / MCP / Skill / REST API，以及经人工审批的 Nuclei 扫描。
+- **大概是做什么的**: 把自然语言资产发现、FOFA 证据检索、AI 反思总结与经人工审批的 Nuclei 扫描，放进同一条可追溯工作流。 FofaMap 既能像传统 CLI 一样直接执行 FOFA 语句，也能让 Agent 把一句自然语言需求拆成多组查询，依据真实命中自我反思，最后输出带证据边界的资产简报。需要扫描时，它只先生成方案；目标、模板和严重级别必须经过一次性审批才能交给 Nuclei。 海报与截图不包含真实账号、密钥或资产信息。终端案例使用合成域名和文档保留网段。 新用户 日常使用 AI 与平台接入 安全与维护 5 分钟上手 FOFA 查询教程 本地 Agent Nuclei 审批 Windows / macOS / Linux 完整 CLI 参数 MCP / Skill 配置与密钥 三种入口怎么选 分页、字段与导出 REST / OpenAPI 常见问题 快速链接：效果预览 · 项目结构 · 迁移指南 · 安全策略 · Agent 集成 FofaMap 2.0 完成了从查询脚本到自然语言助手的跨越；2.0.1 把 Agent、Skill、MCP、CLI 和扫描审批收敛到同一套核心契约。 经典查询 -q / -hq / -cq / -ico / -bq 保持可用，不需要 AI 模型 自然语言侦察 规划多组 FOFA 查询，按命中量和新增资产反思，最多两轮修正 组织网站收集 输出 corroborated / observed / candidate 候选与证据，不把搜索命中直接写成归属结论 高质量总结 固定覆盖结论、高置信资产、噪声、暴露面、证据缺口和下一步 Agent 接入 一条命令安装到 Cursor、Codex、Claude Code、LM Studio、OpenCode 等宿主 Nuclei 基线 默认组合 10 个低影响 Web/TLS 基线模板，覆盖常见配置与证书检查 自定义扫描范围 模板 ID 和严重级别均可修改；输入 all 表示该维度全部执行 审批边界 精确展示目标、模板和级别；一次性令牌绑定方案， -batch 也不能绕过 数据输出 XLSX / CSV / JSONL；连续分页、流式大结果导出、Markdown Agent 报告 Agent 负责规划和总结；查询、分页、字段映射、导出、审批与扫描均由确定性代码执行。鉴权失败、额度耗尽、权限不足、限速或网络错误会明确失败，不会被伪装成“0 结果”。 普通查询不需要模型。终端展示适合人读的字段，导出文件仍保留完整字段。 开放式任务会组合域名、证书、页面品牌和内置规则；总结明确区分高置信资产、候选、噪声与尚未
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, asset-discovery, asset-mapping, attack-surface-management, cybersecurity, fastapi
+
+---
+
 ## 🕔 2026-08-15 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 261 个候选项目中筛选出 6 个未推荐过的新项目。
