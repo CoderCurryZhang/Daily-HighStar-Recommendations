@@ -1,3 +1,67 @@
+## 🕔 2026-08-16 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 229 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [fastapi-langgraph-agent-production-ready-template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,591
+- **核心概述**: 一个可用于生产的 FastAPI 模板，用于通过 LangGraph 集成构建 AI 代理应用程序。该模板为构建可扩展、安全且可维护的 AI 代理服务提供了坚实的基础。
+- **大概是做什么的**: FastAPI LangGraph 代理模板 用于使用 FastAPI 和 LangGraph 构建 AI 代理后端的生产就绪模板。处理困难的部分——有状态对话、长期记忆、工具调用、可观察性、速率限制、身份验证——这样您就可以专注于代理逻辑。专为想要坚实基础而不是教程项目的人工智能工程师而设计。由 Atlas Cloud 提供支持 — LangGraph 代理的嵌入式 LLM 后端 Atlas Cloud 提供了一个与 OpenAI 兼容的 LLM API，可无缝集成到此 FastAPI + LangGraph 模板中 — 无需对代理图进行任何代码更改。只需交换 OPENAI BASE URL 和 OPENAI API KEY 即可通过单个统一端点访问 DeepSeek、Qwen、GLM、Kimi、MiniMax、Gemini、Claude、GPT 等。此模板中的 LLMRegistry 使用 langchain openai.ChatOpenAI — Atlas Cloud 是有线兼容的，因此您可以立即访问 130 多个精选模型，而无需接触任何 LangGraph 逻辑。第 1 步 — 获取免费 API 密钥：atlascloud.ai/console/coding-plan 第 2 步 — 更新 .env.development ：第 3 步 — 或直接在代码中使用：这可以作为任何地方的直接替代品
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, docker, fastapi, fastapi-template, langchain
+
+---
+
+### 🌟 [wllama](https://github.com/ngxson/wllama)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,165
+- **核心概述**: llama.cpp 的 WebAssembly 绑定 - 启用浏览器上的 LLM 推理
+- **大概是做什么的**: wllama - llama.cpp 的 Wasm 绑定 llama.cpp 的 WebAssembly 绑定 👉 请参阅博客文章，介绍 llama.cpp 和 wllama 中的 WebGPU 支持 有关更改日志，请访问发布页面 🔥🔥 V3 已推出，具有 WebGPU、多模式和工具调用支持。阅读 V3 发布指南 兼容性问题请参考@wllama/wllama-compat - 🔌 OpenAI 兼容 API（全类型内置） - 🔥 多模态支持（图像和音频文件输入） - 🔥 工具调用支持 - 可以直接在浏览器上运行推理（使用 WebAssembly SIMD），无需后端或 GPU！ - 无运行时依赖性（请参阅 package.json） - 能够将模型拆分为较小的文件并并行加载它们（与 split 和 cat 相同） - 根据浏览器支持在单线程和多线程构建之间自动切换 - 推理在工作程序内部完成，不会阻止 UI 渲染 - 预构建的 npm 包 @wllama/wllama - 要启用多线程，必须添加 Cross-Origin-Embedder-Policy 和 Cross-Origin-Opener-Policy 标头。有关更多详细信息，请参阅此讨论。 - 由于 ArrayBuffer 的大小限制，最大文件大小为 2GB。
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: llama, llamacpp, llm, wasm, webassembly
+
+---
+
+### 🌟 [macai](https://github.com/Renset/macai)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 905
+- **核心概述**: 适用于几乎所有 AI 提供商的一体化本机 macOS AI 聊天应用程序
+- **大概是做什么的**: macai (macOS AI) 是一款简单但功能强大的原生 macOS AI 聊天客户端，支持大多数 AI 提供商：ChatGPT、Claude、xAI (Grok)、Google Gemini、Perplexity、Ollama、OpenRouter 以及几乎所有与 OpenAI 兼容的 API。 - 使用 ChatGPT、Claude、xAI 或 Google Gemini 运行 - 系统要求 - iCloud 同步配置 使用自制软件安装 macai cask：brew install --cask macai 欢迎贡献。在创建新功能/错误之前，请查看“问题”页面以查看已添加的功能/错误。您还可以通过资金支持项目。这种支持对我来说非常重要���让我能够更加专注于 Macai 的开发。 - macOS 原生且轻量级 - 用户友好：设置简单，简约的明/暗 UI - 功能丰富：视觉、图像生成、搜索、推理、导入/导出等 - iCloud 同步：跨设备保持聊天、消息和设置同步 - 私密且安全：macai 不会进行遥测或使用情况跟踪（注意：启用 iCloud 同步时，Apple 可能会收集匿名遥测数据） 使用 ChatGPT、Claude、xAI 或 Google Gemini 运行使用 ChatGPT 或 Claude 运行 macai，你需要 ha
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, api-client, bot, chat, chatgpt, chatgpt-api
+
+---
+
+### 🌟 [ccteam](https://github.com/firstintent/ccteam)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 252
+- **核心概述**: ccteam turns the coding agents you already run (Claude Code, Codex, Grok, Kimi, DeepSeek Harness) into one team — any session can spawn, dispatch, and collect work from any vendor on any machine, while you steer it all from Telegram, Lark, or a browser tab. 把你在用的编程 agent 编成一支团队,跨厂商跨机器派活,Telegram/飞书/网页统一指挥。
+- **大概是做什么的**: ccteam 将您已经运行的编码代理（Claude Code、Codex、Grok、Kimi、Deepseek Harness）转变为一个团队 - 任何会话都可以在任何机器上生成、调度和收集来自任何供应商的工作，而您可以通过 Telegram、Lark 或浏览器选项卡来控制这一切。每个编码 CLI 都很出色，但可以单独工作 - 一个终端，一个上下文，没有同事： - Claude Code - 计划最深入 - Codex - 毫不犹豫地完成长时间的工作 - Grok - 回答速度最快 - Kimi - 处理小额账单的批量工作 - DSH - 带有冷简历的原生插件 DeepSeek Harness 会话 - Pi - 一个 CLI 覆盖许多提供商（anthropic/...，openai/...），在你自己的机器上 ccteam 是他们缺乏的结缔组织 - 身份、路由、交付保证、护栏、成本分类账——并留下团队如何组织自己来提示您版本。团队页面上的一个下午 — 四个供应商的 50 场现场会议，每个代表团都有一个可追踪的父→子边缘，每一美元都在账本上。 1 · 从 Telegram / Lark 进行远程控制 粘贴一次机器人令牌（设置 → 访问），聊天就变成了完整的控制台 - 完成
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, claude-code, codex, deepseek-harness, grok, skill
+
+---
+
+### 🌟 [resume_render_from_job_description](https://github.com/feder-cr/resume_render_from_job_description)
+- **项目语言**: Python
+- **星标数量**: ⭐ 414
+- **核心概述**: Resume_Builder_AIHawk 是一款功能强大的 Python 工具，可让您根据职位 URL 自动自定义简历，确保其完美符合职位要求和技能。通过交互式命令行界面，该工具可以轻松浏览选项并从各种预定义样式中进行选择
+- **大概是做什么的**: 查找并抓取地球上的任何公司。简历生成器 AIHawk 🚀 加入我们的 Telegram 社区！ 🚀 加入我们的 Telegram 社区，以获得： - 支持 AIHawk 软件 - 分享您使用 AIhawk 的经验并向他人学习 - 求职技巧和简历建议 - 为您的项目提供想法交流和资源 10. 如何贡献 - 软件工程师 - 其他贡献 简历生成器 AIHawk 是一款功能强大的 Python 工具，可快速轻松地简化视觉效果惊人的简历的创建。使用此工具，您不仅可以从头开始构建简历，还可以根据特定的职位描述完美定制简历。通过输入职位列表的 URL，Resume Builder AIHawk 可以自定义您的简历，以匹配所需的确切要求和技能，使其成为提高您找到工作机会的理想选择。 - 交互式命令行界面：使用用户友好的 CLI 浏览选项和提示。 - 动态风格管理：从各种预定义的简历风格中进行选择。 - 职位描述集成：根据职位 URL 自动定制您的简历。开始使用
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: artificial-intelligence, interview, jobs, jobsearch, langchain, linkedin
+
+---
+
+### 🌟 [WebAI-to-API](https://github.com/Amm1rr/WebAI-to-API)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,341
+- **核心概述**: 网络聊天到 API
+- **大概是做什么的**: WebAI-to-API 是浏览器本机 AI 运行时，通过 OpenAI 兼容的 API 公开基于浏览器的 AI 服务。 WebAI-to-API 将浏览器原生自动化与基于 WebAPI 的提供商集成相结合，通过灵活的 OpenAI 兼容 API 层公开 AI 服务。 OpenAI 兼容 /v1/chat/completions 基于 API 提供者的架构，具有统一路由 流响应支持 (SSE) 对话继续支持 运行状况、就绪性和运行时诊断端点 Docker 部署支持 身份验证管理和浏览器登录工作流程 通过 WebAPI 后端或浏览器本机 Playwright 运行时提供对 Google Gemini 模型的访问。通过由 Atlas Cloud 提供支持的本机 API 集成，提供对云托管 AI 模型的访问。 1. 安装依赖项 详细设置（包括日志级别和访问日志配置）请参见配置指南。新用户可以运行 make setup 和 make doctor 进行自动设置和诊断。请参阅下面的便捷快捷方式。可选：便捷快捷方式 WebAI-to-API 包括一个引导实用程序
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, api, api-less, atlascloud, bard, chatbot
+
+---
+
 ## 🕔 2026-08-16 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
