@@ -1,3 +1,67 @@
+## 🕔 2026-08-16 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 244 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [kungfu](https://github.com/kungfu-systems/kungfu)
+- **项目语言**: C++
+- **星标数量**: ⭐ 4,466
+- **核心概述**: 您的代理人不会移交工作。 Kungfu 使相同的工作在 Codex、Claude、OpenCode 和您自己的执行界面上移动。
+- **大概是做什么的**: 您的代理人不会移交工作。你做。每次切换都意味着复制上下文、重新解释决策、追踪更新以及检查丢失的内容。功夫使同样的工作继续进行，无论哪种，在重要的时候使用最好的特工。如果没有，请使用更便宜的。在 Codex、Claude、OpenCode、Amp 或您自己的执行界面上保持相同的工作。功夫 UNGFU™ · 永远不要猜测。事实揭晓。为什么这个签名看到一个作品在失败中幸存下来功夫目前是阿尔法。在 macOS 或 Linux 上，安装 Kungfu 并通过经过审核的每用户安装程序使 kungfu 命令可用：它不使用 sudo 或编辑您的 shell 配置文件。按照它打印的确切路径步骤进行操作，然后打开一个项目并运行确定性恢复故事：内置模拟代理不需要提供程序凭据。它通过三个连续的尝试来启动相同的工作：断开连接、崩溃、然后恢复交付。因为场景是确定性的，所以它测试的是 Kungfu 的局部连续性和恢复路径，而��是特定的模型。为了更快地进行跨问题、批准和批准的入职检查
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, agent-memory, agent-orchestration, kungfu
+
+---
+
+### 🌟 [Deepseek-Harness-EAC](https://github.com/zouyuxuan122/Deepseek-Harness-EAC)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 360
+- **核心概述**: DeepSeek Harness (dsh) Windows 桌面客户端 - 捆绑 Node.js + dsh CLI，一键启动，10 个内置 UI 皮肤。 EAC：拥抱一切创造 揽尽万象
+- **大概是做什么的**: Deepseek Harness EAC — 揽尽万象 EAC = Embracing All Creation（揽尽万象） 把官方 deepseek-ai/deepseek-harness （ @deepseek-ai/dsh ，一切皆插件的 agent harness） 封装为 开箱即用的 Windows / Linux 桌面客户端 ，并在其上拥抱社区万象：皮肤、插件、工具、记忆——你所能想到的，一键皆可装。 相比原版 DeepSeek Harness 的优势 能力 原版 dsh（官方 deepseek-harness） Deepseek Harness EAC 运行方式 需先安装 Node.js， npx @deepseek-ai/dsh web + 浏览器访问 免装 Node ：内置独立 Node 运行时与 npm CLI，双击即用 界面皮肤 仅官方默认外观 内置 10 款 Web UI 皮肤 （XP / QQ98 / 初音未来 / 我的世界 / 同花顺 / 鲸歌…），设置页一键互斥切换，默认不启用保持原生 窗口体验 浏览器标签页 原生无边框窗口 （自绘玻璃栏）+ 系统托盘常驻 ，关闭不打断任务 便携性 无 便携版 数据跟随 exe，拷到 U 盘即用 余额查看 手动上官网查 对话底部内联「 本轮 ¥X · 余额 ¥Y 」实时小部件，点击跳转充值 文件管理 手动翻目录 会话文件更改追踪 （行级 diff）+ 一键还原 ，全部/逐文件 会话内终端 无 终端标签页 ：会话项目目录内持久 PowerShell，SSE 流式，断线重连 配置上手 手编 YAML 设置页可视化 ：视觉模型一键选择、 soul.md 人设可视化编辑、 从 Codex / Claude Code 一键迁移 skills + MCP + 记忆 插���安装 手动 npm 设置页内置 插件市场 ，搜索/一键安装/卸载 dsh 插件 更新 手动 npm update 双重自动更新 ：官方 agent 更新（npm overlay，失败可回退）+ 客户端本体自更新，均经用户同意 任务通知 无 agent 任务完成弹 Windows 系统通知 ，点击回到窗口 系统要求 Windows/macOS/Linux + Node.js 环境 Windows 10/11、Linux x86 64（x64）， 无需任何运行时 内核零改动：EAC 直接运行官方 dsh web ，完整保留「一切皆插件」架构与全部官方能力， 与 CLI 共享 DSH HOME 配置，已有会话/API Key 直接生效。 GitHub
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, deepseek, desktop-app, dsh, electron, windows
+
+---
+
+### 🌟 [dsh_desktop](https://github.com/myYangyunfan/dsh_desktop)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 320
+- **核心概述**: DeepSeek Harness (dsh) Windows 桌面客户端 - 捆绑 Node.js + dsh CLI，一键启动
+- **大概是做什么的**: 把 @deepseek-ai/dsh（DeepSeek Harness）封装为开箱即用的 Windows 桌面客户端。 🚀 一页看全 ：打开 landing/index.html 宣发落地页（深色科技风，单文件可托管到 Gitee/GitHub Pages 分享），或在 GitHub/Gitee 仓库内直接浏览。 Gitee 单文件限制 100 MB，安装包已拆分为 2 个分片，下载后合并即可。 1. 下载以下文件，放到 同一个文件夹 ： 便携版 （免安装，双击即用，可放 U 盘）： 安装版 （安装到系统，创建桌面/开始菜单快捷方式）： 2. 下载 merge.bat，放到同一文件夹，双击运行即可自动合并出 exe。 merge.bat 说明：脚本使用纯英文提示 + Windows 标准 CRLF 行尾，不依赖代码页切换；合并完成后窗口会停在 pause 等待按键，不会一闪而过。若出现 [MISSING] / [FAILED] ，请确认分片下载完整后重试。 不想用 merge.bat？在 CMD 中手动合并： GitHub 无单文件大小限制，可直接下载完整安装包。 便携版 exe 免安装，双击即用 126 MB 安装版 exe 安装到系统，创建快捷方式 126 MB 首次使用 ：双击运行后会显示启动动画，随后进入 DeepSeek Harness Web UI。如尚未配置 API Key，在界面内完成配置即可开始使用（与命令行 dsh 完全一致）。 便携版数据目录在 exe 旁的 data\ ；安装版在 %APPDATA%\DSH Desktop\ 。 想强制指定 DSH 配置目录？启动前设置环境变量 DSH HOME 即可。 - 免装 Node ：内置独立 Node 运行时与 npm CLI，目标机器无需安装 Node.js - 内置 dsh CLI ：完整打包 @deepseek-ai/dsh 及全部插件，离线可用 - 一键启动 ：双击即启动 dsh web ，优先复用上次端口（被占用时自动换新端口），就绪后加载到原生窗口；稳定 origin 让会话分组等界面偏好可以持久记住 - 风格化无边框窗口 + 系统托盘 ：无原生标题栏/菜单栏，自绘玻璃栏（圆角图标、⋯ 菜单、窗口控制），Win11 圆角；关闭默认隐藏到托盘 - 退出即清理 ：退出应用自动结束 dsh 进程树，不留孤儿进程 - 便携版 ：数据跟随 exe 所在目录，拷到 U 盘就能用 - 与 CLI 共享配置 ：默认沿用 DSH HOME （通常是 \.dsh ），已有会话/API Key 直接生效
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, deepseek, desktop-app, dsh, electron, windows
+
+---
+
+### 🌟 [LLM-API-Key-Proxy](https://github.com/Mirrowel/LLM-API-Key-Proxy)
+- **项目语言**: Python
+- **星标数量**: ⭐ 540
+- **核心概述**: 通用 LLM 网关：每个 LLM 一个 API。具有多提供商转换和智能负载平衡功能的 OpenAI/Anthropic 兼容端点。
+- **大概是做什么的**: 通用 LLM API 代理和弹性库 一种代理。任何法学硕士提供者。零代码更改。一个自托管代理，为您的所有 LLM 提供商提供 OpenAI 和 Anthropic 兼容的 API 端点。可与任何支持自定义 OpenAI 或 Anthropic 基本 URL 的应用程序配合使用（包括 Claude Code、Opencode 等），无需在现有工具中更改代码。该项目由两个组件组成： 1. API 代理 - FastAPI 应用程序，提供通用 /v1/chat/completions (OpenAI) 和 /v1/messages (Anthropic) 端点 2. Resilience Library - 用于智能 API 密钥管理、轮换和故障转移的可重用 Python 库 - 通用兼容性 - 可与任何支持 OpenAI 或 Anthropic API 的应用程序配合使用：Claude Code、Opencode、Continue、Roo/Kilo Code、 Cursor、JanitorAI、SillyTavern、自定义应用程序等 - 一个端点，多个提供商 - 配置 Gemini、OpenAI、Anthropic 和任何 LiteLLM 支持的提供商一次。通过单个 API 密钥访问它们 - Anthropic API 兼容 - 使用 Claude Code 或任何具有非 Anthropic 提供商的 Anthropic SDK 客户端
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: api-key, gemini-api, large-language-model, large-language-models, llm
+
+---
+
+### 🌟 [STS2-Agent](https://github.com/CharTyr/STS2-Agent)
+- **项目语言**: C#
+- **星标数量**: ⭐ 291
+- **核心概述**: 杀戮尖塔2的MOD，将杀戮尖塔2的游戏状态与操作暴露为本地 HTTP API 包装成 MCP Server，供支持 MCP 的AI客户端直接调用
+- **大概是做什么的**: https://github.com/user-attachments/assets/89353468-a299-4315-9516-e520bcbfbd4b 中文版说明请见README.zh-CN.md。 STS2 AI Agent 是 Slay the Spire 2 mod + MCP 服务器捆绑包： - STS2AIAgent：通过本地 HTTP API 公开游戏状态和操作 - mcp 服务器：将该本地 API 包装为 AI 客户端的 MCP 服务器 详细的 MCP 工具文档位于 mcp server/README.md 中。如果您想要在其之上建立代理工作流程，请从 Skills/sts2-mcp-player/SKILL.md 开始。下载并解压发行包后，将这些文件复制到游戏的 mods/ 目录中： 默认的 Steam 安装路径通常是： 您的最终布局应如下所示： 2. 启动游戏并确认 Mod 已加载 正常启动游戏，以便 mod 可以加载。如果端点响应，则 mod 正在运行。 3. 启动MCP 服务器 首先准备环境： 1. 安装Python 3.11+ 在Windows 上安装uv： 然后启动默认的stdio MCP 服务器。这是推荐的默认值。大多数桌面 AI 客户端更喜欢 stdio MCP 集成。 4. 连接您的 MCP 客户端 如果您的客户端支持基于命令的 MCP 启动
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, game, mcp, mod, slay-the-spire, slay-the-spire-2
+
+---
+
+### 🌟 [a2a-directory](https://github.com/sing1ee/a2a-directory)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 236
+- **核心概述**: Agent2Agent (A2A) – AgentCard、服务器、客户端、文档
+- **大概是做什么的**: - 🚀 入门 - 📦 官方示例 - 🤝 社区实施 - 🎯 社区示例 - 🤖 A2A 兼容服务 - 💰 x402 启用服务 A2A (Agent2Agent) 是 Google 的开放协议，使 AI 代理能够安全地通信和协作。它打破了孤立的代理系统之间的孤岛，允许复杂的跨应用程序自动化。 - 🎯 简单：使用 HTTP、JSON-RPC、SSE - 🏢 企业就绪：专注于安全和隐私 - ⚡ 异步优先：处理长时间运行的任务 - 🔄 模态不可知：支持文本、文件、表单、流 - 🔒 不透明执行：代理在不共享内部逻辑的情况下进行交互 - 🌐 网站：google.github.io/A2A - 📦 GitHub： https://github.com/google-a2a/A2A 1. 学习基础知识 - 📖 阅读技术文档 - 🎥 观看演示视频 - 📥 克隆官方仓库 - 📝 按照 /samples 中的说明进行操作 - 🛠️ 使用官方库或改编示例 - 🏗️ 从基本的 A2A 代理或客户端开始 官方文档 - 🇺🇸 技术文档 - 🇺🇸 JSON 规范 - 🇺🇸 代理卡规范社区文档 - 🇺🇸
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, a2a-agents, a2a-client, a2a-protocol, a2a-server, agent
+
+---
+
 ## 🕔 2026-08-16 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 269 个候选项目中筛选出 6 个未推荐过的新项目。
