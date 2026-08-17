@@ -1,3 +1,67 @@
+## 🕔 2026-08-17 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 255 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [LLMForEverybody](https://github.com/luhengshiwo/LLMForEverybody)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 7,156
+- **核心概述**: 每个人都能看懂的大模型知识分享，LLMs春/秋招大模型面试前必看，让你和面试官侃侃而谈
+- **大概是做什么的**: Learning LLM is all you need. 中文 English Русский 👉 点击 LearnLLM.AI 学习大模型，从这里开始 精选大模型面试题库 ：覆盖从基础到前沿的实战题目，助您高效备战求职，抓住职业机遇； 系统化论文研读 ：从2017年Transformer奠基性论文出发，按清晰的知识体系梳理技术演进，适合不同基础的开发者循序渐进地深度提升； 精选实战课程 ：围绕 AI Agent、RAG 知识库、大模型微调与 LLM 应用开发等核心方向，打磨成体系的中文实战课程，覆盖 LangChain、LlamaIndex、Dify、MCP 等主流工具链，配套项目代码与讲师答疑，支持按主题灵活拆分、按需选学，帮你由点及面搭建完整的大模型知识体系。👉 浏览全部课程 我们为Github用户准备了限时专属优惠码： GITHUB50 ，期待在 LearnLLM.AI 与您继续同行，共同成长！ 时间 论文 介绍 视频 开始学习 --- --- --- --- --- 2017-06-12 Transformer 提出自注意力与 Transformer 架构 2018-06-11 GPT-1 预训练 + 微调的生成式 Transformer 2018-10-11 BERT 双向编码器：MLM + NSP 2019-02-14 GPT-2 大规模无监督文本生成 2019-10-23 T5 文本到文本统一框架 2020-05-28 GPT-3 大模型与少样本学习能力 2020-10 ViT 将 Transformer 主干引入视觉领域 2021-02 ViLT 极简视觉语言预训练架构 2021-02 CLIP 用自然语言监督实现零样本视觉学习 2021-02 DALL·E 1 自回归文本生成图像的开端 2021-07-07 CodeX 面向代码生成的 GPT 系列模型 2021-12 Stable Diffusion 潜空间扩散模型推动文生图开源化 2022-02-08 AlphaCode 竞赛级代码生成系统 2022-03-04 InstructGPT 人类反馈对齐与指令微调 2022-04 DALL·E 2 基于 CLIP Latents 的高保真文生图 2022-12 Whisper 大规模弱监督语音识别基础模型 2023-02-27 LLaMA-1 高效开源预训练基座模型 2023-04 LLaVA 开源多模态指令微调的重要起点 2023-07-18 LLaMA-2 LLaMA 升级版，开放商用 2023-08 Qwen-VL 通义千问早期视觉
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, interview-practice, interview-questions, learnllm, llm, rag
+
+---
+
+### 🌟 [AgentChat](https://github.com/Shy2593666979/AgentChat)
+- **项目语言**: Python
+- **星标数量**: ⭐ 863
+- **核心概述**: AgentChat 是一个基于 LLM 的智能体交流平台，内置默认 Agent 并支持用户自定义 Agent。通过多轮对话和任务协作，Agent 可以理解并协助完成复杂任务。项目集成 LangChain、Function Call、MCP 协议、RAG、Memory、HITL、Skill、Milvus 和 ElasticSearch 等技术，实现高效的知识检索与工具调用，使用 FastAPI 构建高性能后端服务。
+- **大概是做什么的**: 最新版本更新日志 (2026-4-12) 1. 基于人机协同（HITL）的OpenAPI信息对话式MCP Server生成 - 支持将OpenAPI信息以人机协同方式进行对话式MCP Server生成。 - 在生成MCP Server的过程中，关键决策节点支持人工介入与确认，实现动态配置与实时交互。 - 提升了服务器的生成灵活性与系统可控性，让用户在自动化流程中保留充分的主动权。 重构对话上下文管理策略，从简单的"最近5段对话"升级为智能三层记忆架构： - 短期记忆 (Short-Term Memory): 保持最近3000 tokens以内的对话内容，确保即时上下文连贯 - 历史信息总结: 自动总结超过3000 tokens的历史对话，提取关键信息 - 长期记忆 (Long-Term Memory): 持久化记录用户偏好、习惯和重要信息，实现个性化对话体验 解决了多个依赖包版本冲突问题，特别是 Pydantic、LangChain、FastAPI 等核心库的兼容性问题，提升系统稳定性。 修复首次启动时缺少模型配置导致的错误，新增配置检查和友好提示，引导用户完成初始化配置，降低使用门槛。 现在支持OSS和MiniO两种对象存储方式，参考文档: 本地安装MiniO，感谢提供Issue的朋友: (1) 前版本docker部署经常会出现 agentchat-frontend 连不上 agentchat-backend 的网络失败情况，已经修复该bug (2) 缺少Win系统下的一键部署脚本，目前已经加上 (start win.bat) 之前点击自定义工具是无事件，目前可通过上传 Swagger/OpenAPI 构建自己的工具。 现已支持通过创建 Skill 绑定到智能体渐进式加载 Prompt 去教模型如何做事。 AgentChat 是一个现代化的智能对话系统，基于大语言模型构建，提供了丰富的AI对话功能。系统采用前后端分离架构，支持多种AI模型、知识库检索、工具调用、MCP服务器集成等高级功能。 - 智能Agent: 支持Sub-Agents协作，具备推理和决策能力 - 知识库检索: RAG技术实现精准知识检索和问答 - 工具生态: 内置多种实用工具，支持自定义扩展 - MCP集成: 支持Model Context Protocol服务器 - 现代界面: 基于Vue 3和Element Plus的美观UI - 三层记忆: 短期保留上下文，历史自动总结，长期记录用户偏好 - 人机协同生成: 基于HITL对话式生成MCP Server，关键节点可人工介入 使用Human
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-memory, agent-skills, human-in-the-loop, langchain, llm
+
+---
+
+### 🌟 [J-Space-Cognition-Suite-V3.6](https://github.com/Tiger3807861189/J-Space-Cognition-Suite-V3.6)
+- **项目语言**: Python
+- **星标数量**: ⭐ 679
+- **核心概述**: J-Space Cognition Suite V3.6 - 基于 Anthropic 的 J-space 全球工作空间研究的人工智能认知增强技能。
+- **大概是做什么的**: J-Space Cognition Suite V3.6 A model-agnostic inference-time control suite for deep reasoning, long-horizon work, tool use, verification, and recovery. 面向深度推理、长程任务、工具调用、验证与恢复的模型不可知推理时控制套件。 J-Space Cognition Suite turns a language model's accessible working representations into a deliberately managed workspace. It provides a compact operating protocol for selecting what stays active, preserving constraints across long tasks, externalizing durable state, detecting reasoning failure, and returning verified results in clean language. J-Space Cognition Suite 将语言模型可访问的工作表征组织为一个可主动管理的工作空间。它通过一套紧凑的运行协议，控制当前激活内容、维持长任务约束、外化持久状态、识别推理失效，并以清晰语言交付经过验证的结果。 The suite changes no model weights, requires no fine-tuning, and adds no hidden service. It is an inference-time cognitive control layer : text establishes the operating frame, modules route computation, and an optional local controller preserves state between task seams. 本套件不修改模型权重、不要求微调，也不依赖隐藏服务。它是一层 推理时认知控制层 ：文本建立运行框架，模块负责计算路由，可选的本地控制器在任务接缝之间保存状态。 J-Space is not merely a Skill; it is an inference-time cognitive control system packaged as a Ski
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai, ai-agent, ai-agents, claude-code, codex
+
+---
+
+### 🌟 [FeedMe](https://github.com/Seanium/FeedMe)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 740
+- **核心概述**: 😋 由人工智能驱动的轻量级 RSS 阅读器。支持：GitHub 页面 |韦尔塞尔 |阿里云ESA页面|码头工人
+- **大概是做什么的**: 中文文档 English Documentation 用 AI 重新定义你的 RSS 阅读体验，轻松部署到 GitHub Pages / Docker - 🪶 告别臃肿 ：拒绝强制登录与 App 下载，一个响应式静态页面解决信息流阅读需求 - 🤖 效率至上 ：AI 自动生成文章摘要，把握重点 - ⚙️ 为你定制 ：无论是订阅源还是 AI 配置，一切设置权归你所有 - 🚀 自由部署 ：零成本部署至 GitHub Pages 或 Docker - 聚合摘要 ：一站式整合多源 RSS，通过 LLM 自动生成摘要 - 自动更新 ：GitHub Actions / Cron 定时保持内容鲜活 - 灵活部署 ：GitHub Pages 零成本静态托管 / Docker 私有化部署 - 现代体验 ：响应式设计，明暗主题 本项目由阿里云 ESA提供加速、计算和保护 本项目使用 GitHub Actions 自动部署到 GitHub Pages，使用工作流处理数据更新和网站部署。 1. Fork 或克隆仓库 到你的 GitHub 账号 2. 设置 GitHub Secrets 在项目顶端 Settings - 左侧 Secrets and variables - Actions 中添加以下密钥（ Secrets ）： - LLM API KEY : 用于 AI 摘要生成的 API 密钥 - LLM API BASE : LLM 服务的 API 基础 URL - LLM NAME : 使用的模型名称 - SUMMARY LOCALES : 需要生成摘要的语言列表，默认 zh,en 3. 启用 GitHub Pages 在仓库设置中，选择从 GitHub Actions 部署 在 GitHub 仓库的 Actions 页面手动触发"更新数据并部署"工作流 更新数据并部署 ( update-deploy.yml )： - 单次构建流程 ：一次性获取 RSS 内容、生成摘要并构建静态网站 - 自动部署到 GitHub Pages - 将构建产物推送到 deploy 分支，供 Vercel 等平台监控部署 编辑 src/config/feedme.config.yaml 文件以修改或添加 RSS 源。类目的展示顺序由 categories 列表顺序决定。每个源需要包含： - 修改更新频率 : 编辑 .github/workflows/update-deploy.yml 中的 cron 表达式 - 调整默认源和保留条目数 : 修改 src/config/feedme.config.ya
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, github-actions, github-pages, llm, rss, rss-reader
+
+---
+
+### 🌟 [ds4-on-spark](https://github.com/Entrpi/ds4-on-spark)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 324
+- **核心概述**: Entrpi/ds4，NVIDIA DGX Spark 上 antirez/ds4 的 Blackwell CUDA 性能分支：单命令安装、~3x 上游预填充、~1.5x 解码、DSpark 和完整的连续批处理支持
+- **大概是做什么的**: 此存储库获取 Entrpi/ds4 - 我们的 DGX-Spark 优化的 antirez/ds4 (DwarfStar 4) 的主要功能分支 - 通过一个命令在 Spark 上运行，完全在设备上为 DeepSeek-V4-Flash 提供服务（GB10 / SM121，128 GB 统一内存 - 119 GiB 可用；RTX PRO 6000 / 5090 级 sm 120 也构建）。与上游引擎相比，您可以获得 2.4–3.3 倍的预填充吞吐量（GB10 与上游主重建本机，2026-08-01，相同的 gguf；在 v0.1.0 标记的 PRO 6000 上为 4 倍），在整个 2k–128k 上下文范围内的解码速度为 1.33–1.47 倍（v0.4.1 标记；v0.5.0 进一步深度解码） 11% at 240k），以及丰富的上游服务体验所不具备的：连续批处理（在 12 个并发请求下聚合 59 tok/s）、前缀缓存（热启动将共享前缀上的第一个令牌时间缩短 7 倍，并行分支的分叉复制扇出和重新启动后仍保留的磁盘持久 KV 库），以及 DSpark 无损推测解码 — 在一起，比单流更快的多代理体验服务。分叉增量表准确列出了更改的内容以及每个声明的衡量方式；基准，t
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: benchmark, cuda, deepseek-v4-flash, dgx-spark, gb10, gguf
+
+---
+
+### 🌟 [poke-env](https://github.com/hsahovic/poke-env)
+- **项目语言**: Python
+- **星标数量**: ⭐ 503
+- **核心概述**: Poke-env：Pokemon Showdown 机器人的 Python 接口
+- **大概是做什么的**: Poke-env：Pokemon Showdown Bot 的 Python 接口 poke-env 是一个 Python 库，用于构建脚本代理、自我对弈实验和强化学习工作流程。该项目需要 Python = 3.10 并访问 Pokemon Showdown 服务器。对于培训和本地开发，强烈建议运行您自己的服务器。您可以使用 smogon 的服务器来针对人类测试您的代理，但强烈建议您拥有一个开发服务器。特别是，建议使用 --no-security 标志来运行本地服务器，并关闭大多数速率限制和限制。请参阅文档以获取详细的设置说明。本地服务器运行后，验证设置的最快方法是运行两个内置播放器相互对抗。 RandomPlayer 使用默认的本地主机服务器配置，因此此脚本应按原样工作：要构建您自己的机器人，子类化 Player 并覆盖选择 move 。快速入门指南逐步介绍了这一点。文档和示例 提供文档、详细示例和起始代码 有用的切入点：您
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, artificial-intelligence, battle, bot, bots
+
+---
+
 ## 🕔 2026-08-16 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 229 个候选项目中筛选出 6 个未推荐过的新项目。
