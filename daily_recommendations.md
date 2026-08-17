@@ -1,3 +1,67 @@
+## 🕔 2026-08-17 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 255 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [DeepAudit](https://github.com/lintsinghua/DeepAudit)
+- **项目语言**: Python
+- **星标数量**: ⭐ 6,841
+- **核心概述**: DeepAudit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 PoC 验证。支持 Ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。
+- **大概是做什么的**: DeepAudit - 人人拥有的 AI 审计战队，让漏洞挖掘触手可及 🦸‍♂️ 首页快速进入 Multi-Agent 深度审计 GitHub/GitLab/Gitea 导入，多项目协同管理 一键导出 PDF / Markdown / JSON （图中为快速模式，非Agent模式报告） DeepAudit（闭源版本） 已成功发现并获得 49 个 CVE 编号 和 6 个 GHSA 安全公告🦞 DeepAudit 内测版本对 OpenClaw 项目进行了深度安全审计，目前已发现 6 个安全漏洞 ，均已被官方确认并发布安全公告（GHSA）。漏洞类型覆盖命令注入、签名验证绕过、远程代码执行、凭证泄露、资源耗尽及敏感信息泄露，其中包含多个 High 级别漏洞。更多漏洞仍在持续挖掘中。 GHSA 编号 项目 项目热度 漏洞类型 严重性 :--- :--- :---: :--- :----: GHSA-g353-mgv3-8pcj OpenClaw Signature Verification Bypass 8.6 GHSA-99qw-6mr3-36qr OpenClaw Code Execution 8.5 GHSA-7h7g-x2px-94hj OpenClaw Credential Exposure 6.9 GHSA-g2f6-pwvx-r275 OpenClaw Command Injection Medium GHSA-jq3f-vjww-8rq7 OpenClaw Resource Exhaustion High GHSA-xwcj-hwhf-h378 OpenClaw Information Disclosure Medium CVE 编号 项目 项目热度 漏洞类型 CVSS :--- :--- :---: :--- :----: CVE-2026-1884 Zentao PMS SSRF 5.1 CVE-2025-13789 Zentao PMS SSRF 5.3 CVE-2025-13787 Zentao PMS Privilege Escalation 9.1 CVE-2025-64428 Dataease JNDI Injection 9.8 CVE-2025-13246 Modulithshop SQL Injection 6.3 CVE-2025-64163 Dataease SSRF 9.8 CVE-2025-64164 Dataease JNDI Injection 9.8 CVE-2025-11581 PowerJob Privilege
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, bug-detection, code-audit, code-quality, code-review, developer-tools
+
+---
+
+### 🌟 [v4-flash-godmode-opencode-go](https://github.com/SheberDavid/v4-flash-godmode-opencode-go)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 512
+- **核心概述**: V4 Flash 神模式 (opencode-go)：让 opencode-go 的 DeepSeek V4 Flash 从鬼模式切换到神模式的 dsh agent preset
+- **大概是做什么的**: V4 Flash 神模式 (opencode-go) 原作者已更新，本项目不再演进，建议使用原作者的项目。 原作者：https://github.com/yjh051108/dsh-routing-suite 原作者预设按模型（而非 provider）路由，不含 opencode-go 特有依赖，理论上可用于 opencode-go + DeepSeek V4 Flash。实际效果请以原作者仓库的安装说明为准，如有问题可在其仓库反馈。 本项目是原作者早期版本在 opencode-go 上的临时适配，用于验证 Flash 模型在引导条件下的效果提升，现已完成其历史使命。 原作者的方案此后已重新设计，包含两种路由模式： - standard（标准） ：执行型，边行动边修正，适合快速交付的任务 - spec（Specification-first） ：规划型，先分析后实施，适合复杂任务 本项目未包含上述更新，仅保留原作者早期版的核心思路，不再跟进。 基于 dsh-routing-suite（MIT）。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, deepseek, dsh, flash
+
+---
+
+### 🌟 [HugAgentOS](https://github.com/ZJU-REAL/HugAgentOS)
+- **项目语言**: Python
+- **星标数量**: ⭐ 410
+- **核心概述**: HugAgentOS：自我进化的 AgentOS，用于基于本体的可信推理
+- **大概是做什么的**: HugAgentOS：用于本体论可信推理的企业代理操作系统企业人工智能代理的开源、自托管基础为模型提供上下文和工具来检索知识、处理文件、运行代码以及完成实际任务。在线尝试 HugAgentOS HugAgentOS 是一种企业级 AgentOS，它将领域本体视为代理推理、决策和操作的控制平面。其开源社区版在一个自托管工作区中结合了代理聊天、私有知识库 RAG、子代理、MCP 工具、代理技能、沙盒执行、长期记忆、自动化和数据画布。该社区存储��是从每个版本的上游主存储库生成的，并标记为 generated 。通过问题或讨论报告对 src/ 的更改。欢迎请求文档和示例。有关详细信息，请参阅 CONTRIBUTING.md。 60 秒的游览：同一个任务运行两次，中间经过审核的自我进化——记忆、技能和编排都已解决，并且只有在你完成之后才会生效 https://github.com/u
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, desktop-app, harness, harness-engineering
+
+---
+
+### 🌟 [casbin-gateway](https://github.com/apache/casbin-gateway)
+- **项目语言**: Go
+- **星标数量**: ⭐ 565
+- **核心概述**: Casbin AI & MCP HTTP 安全网关，在线演示：https://door.caswaf.com
+- **大概是做什么的**: 由 Go 和 React 开发的开源 Web 应用程序防火墙 (WAF) 软件。 - 只读站点：https://door.caswaf.com（任何修改操作都会失败） - 可写站点：https://demo.caswaf.com（每 5 分钟恢复原始数据） Casbin Gateway 包含 2 部分： 名称 描述 语言 源代码 ---------- ---------------------------------------- ------------------------ ---------------------------------------------------------- Casbin Gateway Javascript + React 的前端 Web 前端 UI https://github.com/apache/casbin-gateway/tree/master/web后端 Casbin Gateway Golang + Beego + XORM 的 RESTful API 后端 https://github.com/apache/casbin-gateway Casbin Gateway 开箱即用地独立运行：它将数据存储在本地 SQLite 文件中，因此无需安装数据库服务器，并且它根据自己的用户表登录用户，在首次启动时使用密码 123 为管理员帐户播种。将其连接到 Casdoor 实例是可选的，并启用单点登录以及可选配置下列出的 Casdoor 支持的功能。 - Docker 组合
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, firewall, gateway, http, large-language-model, llm
+
+---
+
+### 🌟 [awesome-deepseek-harness](https://github.com/Anil-matcha/awesome-deepseek-harness)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 915
+- **核心概述**: DeepSeek Harness (dsh) 及其最佳社区插件的精选指南
+- **大概是做什么的**: Awesome DeepSeek Harness DeepSeek Harness ( dsh ) 的精选指南 - DeepSeek 的开源、一切都是插件编码代理 - 以及基于它构建的最佳社区插件。 DeepSeek Harness 是一个基于 Cordis 构建的可运行编码代理（Web UI + 无头），系统的每个部分——模型、工具、沙箱、会话存储、UI，甚至代理循环本身——都是一个可交换的插件。该架构产生了一个庞大、快速发展的插件生态系统：根据最新统计，有超过一千个社区插件。此列表的存在是为了使该生态系统易于扫描：插件的功能在一行中分类到您实际要查看的类别中。另请参阅：awesome-openclaw 和 Awesome-hermes-agent — 为 OpenClaw 和 Hermes Agent 策划的资源，这两个代理是另外两个自托管/一切都是插件代理，利用与 dsh 最接近的生态系统。安装任何第三方 dsh 插件都会使用您自己的权限在您的计算机上运行其代码。此处列出并不是安全审查 - 安装前请阅读源代码，特别是对于涉及凭据、网络、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, ai-agents, awesome, awesome-list, coding-agent, deepseek
+
+---
+
+### 🌟 [MagiCompiler](https://github.com/SandAI-org/MagiCompiler)
+- **项目语言**: Python
+- **星标数量**: ⭐ 326
+- **核心概述**: 即插即用编译器，可为推理和训练提供免费午餐优化。
+- **大概是做什么的**: 突破大型模型本地编译的界限 - [03/25/2026] ⚡️ LightX2V-MagiCompiler 现已推出！ LightX2V 的这个分支展示了如何将 MagiCompiler 无缝集成到 SOTA 框架中。通过最少的代码更改，它可以解锁更大的加速！尝试一下，检查基准测试以了解详细信息，并继续关注更多集成演示！ - [03/23/2026] 🚀 MagiCompiler 正式开源！为多模态推理提供全图编译，为大型模型训练提供 FSDP 感知的全层编译。 MagiCompiler 是一个基于 torch.compile 构建的高级编译器和运行时增强框架。它专为大规模类似 Transformer 的架构而设计，解决了内存墙和操作员开销的关键瓶颈。通过超越传统的本地算子优化，MagiCompiler 引入了系统级优化，以最小的代码侵入无缝加速训练和多模态推理工作负载。 💡 设计理念“重新想象编译器：从生成内核到
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-compiler, inference, llm, multimodality, training, video-generation
+
+---
+
 ## 🕔 2026-08-17 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 255 个候选项目中筛选出 6 个未推荐过的新项目。
