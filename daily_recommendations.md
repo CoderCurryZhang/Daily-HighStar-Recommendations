@@ -1,3 +1,67 @@
+## 🕔 2026-08-17 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [solana-mcp-vybe](https://github.com/vybenetwork/solana-mcp-vybe)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,236
+- **核心概述**: Vybe Solana API 的公共 Solana MCP 注册表元数据
+- **大概是做什么的**: Vybe 的 Solana MCP 允许 Cursor、Claude 和其他 MCP 客户端浏览架构或通过一台公共 MCP 服务器进行实时 Solana API 调用。 Vybe 提供的 Solana MCP 的公共模型上下文协议 (MCP) 注册表元数据。实时 MCP 端点为：https://mcp.vybenetwork.xyz/mcp 产品和设置指南：docs.vybenetwork.com/docs/mcp 此存储库包含： - server.json — 发布到官方 MCP 注册表 (GitHub Actions) 的元数据。注册表遥控器使用 https://mcp.vybenetwork.xyz 。 - .mcp.json 和 mcp.json — 在存储库根目录中打开插件样式的 MCP 配置，以便目录 UI（例如使用自动 GitHub 扫描的光标“提交插件”）可以检测插件组件。他们使用 https://mcp.vybenetwork.xyz/mcp 的本机 HTTP 配置 - 存储库中没有秘密。客户端通过 OAuth 进行身份验证。 - .codex-plugin/plugin.json — 针对同一 MCP URL 进行本地安装/刷新的 Codex 插件元数据。 example/cursor-mcp.json 是相同的本机 HTTP 配置；为此 MCP 使用客户端的 OAuth 流程。 GitHub 存储库���称 vybenetwork/solana-mcp-vybe （以 solana-mcp 开头，包括 Vybe）。发布新的列表
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: claude, cursor, mcp, mcp-client, mcp-clients, mcp-server
+
+---
+
+### 🌟 [prismor](https://github.com/PrismorSec/prismor)
+- **项目语言**: Python
+- **星标数量**: ⭐ 291
+- **核心概述**: 用于人工智能代理的自托管运行时控制平面。在本地仪表板中观察或 HITL 批准或阻止流氓工具调用：秘密泄漏、提示注入、供应链等。与代理无关（克劳德、法典等）
+- **大概是做什么的**: Claude Code、Codex 和其他 AI 编码代理的运行时安全性。 Prismor 可以根据用户自己的策略进行高度定制。观察或强制模式以查看本地自助仪表板中的代理活动加上 Grok Build、Crush、OpenHands、Qwen Code、Continue CLI、Goose、Hermes、OpenClaw、Devin CLI、Factory Droid、Aider 等 - 请参阅 AGENT INTEGRATIONS.md 了解完整覆盖矩阵 AI 编码代理执行 shell 命令、读写文件、访问凭证并调用外部 API。他们自主地执行此操作，通常需要经过许多步骤，且检查点有限。这会产生传统安全工具无法应对的风险： - 提示注入 - 文件、问题或网页中的恶意内容可以在任务中重定向代理 - 意外的破坏性操作 - 代理误解指令并运行不可逆的操作 - 秘密渗漏 - 代理在调试任务中读取 .env 或凭证文件并将内容发送出站 - 权限升级 - 代理修改 sudoers、CI 管道或文件权限以解决问题权限错误 - 部门
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-control-plane, agent-security, agents, ai-agents, ai-security, claude-code
+
+---
+
+### 🌟 [mirroir-mcp](https://github.com/jfarcand/mirroir-mcp)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 193
+- **核心概述**: MCP 服务器，用于通过 macOS iPhone Mirroring 和任何 MacO 应用程序控制真正的 iPhone。从任何 MCP 客户端进行屏幕截图、点击、滑动、输入。
+- **大概是做什么的**: 给你的人工智能眼睛、双手和一部真正的 iPhone。 MCP 服务器可让任何 AI 代理通过 macOS iPhone Mirroring 查看屏幕、点击所需内容并解决其余问题。对 macOS Windows 的实验性支持。 33 种工具，任何 MCP 客户端。 - 通过 iPhone 镜像连接 iPhone 第一次截图时，macOS 会提示屏幕录制和辅助功能权限。两者都授予。 GitHub Copilot (VS Code) 从 MCP 服务器库安装：在扩展视图中搜索 @mcp mirroir，或添加到 .vscode/mcp.json ：添加到��目根目录中的 .cursor/mcp.json ：或添加到 /.codex/config.toml ：使用 .mcp.json 中二进制文件的完整路径： /.build/release/mirroir-mcp 。每次交互都遵循相同的循环：观察、推理、行动。描述屏幕为人工智能提供每个文本元素的点击坐标（眼睛）。 LLM 决定下一步做什么（大脑）。点击，输入文本，滑动执行动作（手）——然后循环回来观察。没有脚本，没有坐标，只有��图。除了基础知识之外，服务器还公开了更高级别的导航和生命周期工具：按返回导航
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, iphone, iphone-mirroring, macos, mcp, mcp-server
+
+---
+
+### 🌟 [unica](https://github.com/IngvarConsulting/unica)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 161
+- **核心概述**: Unica（Unica）是一个公共 Codex 和 Claude Code 插件，用于在 1C:Enterprise 上进行开发。
+- **大概是做什么的**: Unica (Yu& x301;nika) 是一个公共 Codex 和 Claude Code 插件，用于在 1C:Enterprise 上进行开发。它增加了技能和一台 unica MCP 服务器，代理通过该服务器创建和检查元数据、表单、角色、访问控制系统、外部处理和报告，启动 1C 并搜索 BSL 代码。两台主机都接收相同的插件目录：清单并排，.mcp.json 通过替换的变量确定插件的根目录 - 标准 Git，包括 Windows 上的 Git for Windows； - 1C 平台仅适用于实际需要 1C 才能运行的操作。 1C 平台支持的版本 平台版本 状态 这意味着什么 8.5.1.x、8.5.4.x 已计划 我们希望在不久的将来添加它。 8.3.27.x 支持 Unica 支持 8.3.27 分支的所有当前版本。 8.3.26.x 及更低版本 未计划 我们将帮助您迁移到 8.3.27。如果您确实需要旧版本，请创建一个问题并描述原因 - 对我们来说了解这种情况很重要。安装后，打开新的 Codex 任务：技能列表和 MCP 配置固定在新任务的边界，并且不会在已运行的会话中替换。
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: 1c-enterprise, claude-code-plugin, codex-plugin, mcp, skills
+
+---
+
+### 🌟 [prism-coder](https://github.com/dcostenco/prism-coder)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 155
+- **核心概述**: AI 编码代理的持久会话内存 — 本地优先，具有设备上推理、联想召回和漂移检测功能。适用于 Claude Code、Cursor 和 Codex。
+- **大概是做什么的**: 为您的 AI 代理提供持久的记忆。持久会话、知识图和离线工具路由——完全本地化且免费。 Prism Coder 是一款 MCP 服务器，可为 Claude、Cursor 和其他 AI 工具提供跨会话保存的长期记忆。它附带开放式棱镜编码器模型组 (2B–27B)，可实现快速离线工具路由 - 无需云。无需帐户。没有 API 密钥。在您的机器上运行。付费订阅可通过 Synalux 门户添加云同步、更高的模型层和团队功能。 Prism 为您提供的 - 重新启动后仍保留的会话内存 - 通过交接注释、最近的工作、开放的 TODO 以及可配置的快速、标准或深层上下文恢复项目。 - 本地优先推理——有界工作首先通过本地 Ollama 模型进行路由，并根据已安装的模型、可用 RAM、上下文匹配和订阅权利自动进行 2B/4B/9B/27B 选择。 - 路由输出强制 - 路由模式仅返回对主机实际通告的工具的格式正确的调用。标准和更高版本可以添加经过验证的确定性校正；路线守卫：
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, ai-agent, claude-code, codex, cognitive-architecture, drift-detection
+
+---
+
+### 🌟 [gram](https://github.com/speakeasy-api/gram)
+- **项目语言**: Go
+- **星标数量**: ⭐ 265
+- **核心概述**: 在整个组织中安全地扩展人工智能的使用。用于在公司内连接、保护、观察和分发代理、MCP 和技能的单一堆栈。
+- **大概是做什么的**: Speakeasy AI 控制平面 在整个组织中安全地扩展 AI 的使用。专为人类和特工打造。 Gram 是 Speakeasy 人工智能控制平面背后的开源堆栈。通过细粒度的权限、威胁检测以及对令牌使用和成本的全面可观察性，安全并集中管理整个公司要访问的 MCP、技能和助手。每个工具调用、权限更改和访问事件都会被记录并可搜索。 SOC 2 Type II 和 ISO 27001 认证。要开始使用托管平台，您可以注册或查看快速入门指南。支持流行的 AI 提供商                               跟踪跨团队的 AI 使用情况，并通过代币或成本衡量影响。深入探讨昂贵的会议、制定预算并衡量工具的有效性。建立在 Opentelemetry 的基础上。可通过 MCP 平台和内置助手导出和交互。每个提示、响应和代理操作都会被实时检查和执行。敏感数据我
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, aisdk, clis, golang, mcp, mcp-gateway
+
+---
+
 ## 🕔 2026-08-17 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
