@@ -1,3 +1,67 @@
+## 🕔 2026-08-17 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [VLMEvalKit](https://github.com/open-compass/VLMEvalKit)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,345
+- **核心概述**: 大型多模态模型 (LMM) 开源评估工具包，支持 220+ LMM、80+ 基准
+- **大概是做什么的**: 用于评估大型视觉语言模型的工具包。 English 简体中文 日本语 🏆 OC 排行榜 • 📊数据集和模型 • 🤗 HF 排行榜 • 🤗 评测记录 • 🤗 HF 视频排行榜 • VLMEvalKit（python 包名称为 vlmeval ）是大型视觉语言模型（LVLM）的开源评估工具包。它可以在各种基准上对 LVLM 进行单命令评估，而无需在多个存储库下进行繁重的数据准备工作。在VLMEvalKit中，我们对所有LVLM采用基于生成的评估，并提供通过精确匹配和基于LLM的答案提取获得的评估结果。最近的代码库更改 - [2025-09-12] 主要更新：改进了对具有思维模式的模型的处理 PR 1229 中的一项新功能，改进了对具有思维模式的模型的支持。 VLMEvalKit 现在允许使用自定义的分裂思维函数。对于具有思维模式的模型，我们强烈建议这样做，以确保评估的准确性。要使用此新功能，请启用环境变量：SPLIT THINK=True 。默认情况下，该函数将解析 con
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: chatgpt, claude, clip, computer-vision, evaluation, gemini
+
+---
+
+### 🌟 [goraven](https://github.com/8treenet/goraven)
+- **项目语言**: Go
+- **星标数量**: ⭐ 425
+- **核心概述**: 面向团队的开源 AI 代理平台。您的代理不只是聊天 - 他们读取文件、运行代码、调用 API 并交付结果。
+- **大概是做什么的**: 开源·自托管·人工智能利用模型、工具、知识、技能、工作流程 — 全部在一个运行时中。代理不只是聊天。它实际上可以完成工作。 GoRaven 为团队中的每个人提供独立的 Agent 工作区。不是聊天窗口，而是工作站。代理读取文件、编写代码、运行命令、调用 API、搜索知识库、分析数据、编写报告、构建图表。您分配任务；它会将其分解、并行工作并交付结果。您得到的是结果，而不是必须复制粘贴的文本块。每个人都有一个独立的工作空间。该团队共享项目和技能库。管理员控制模型配额、工具权限和数据访问。不是单人玩具。 🔧 实际上做的事情是代理直接读/写文件，运行Shell，调用MCP工具链。内部 API、数据库、私有服务——将它们���部插入。而不仅仅是另一个建议段落。 🧩 技能市场 提示、脚本、工作流程打包为技能。一键安装，集中维护。一个人碰壁了——下次整个团队都会跳过它
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, deepseek, golang, harness, langchain
+
+---
+
+### 🌟 [hermes-web-search-plus](https://github.com/robbyczgw-cla/hermes-web-search-plus)
+- **项目语言**: Python
+- **星标数量**: ⭐ 378
+- **核心概述**: 为您的 Hermes 代理提供网络作为真实来源，而不是虚构的答案 - 使用可选的本地、无密钥 DonSeTch 选项进行多提供商搜索和提取。
+- **大概是做什么的**: Web Search Plus — Hermes 插件 为您的 Hermes 代理提供更好的网络搜索和干净的页面阅读。 Web Search Plus 通过简单的设置即可连接多种搜索服务。它返回原始链接和页面，可以在失败时尝试另一种服务，并且仅与一个配置的提供程序一起使用。它添加了两个 Hermes 工具： - web search plus — 搜索网络并返回有用的资源 - web extract plus — 读取并清理您已有的页面 从 web-search-plus-plugin 移植到 Hermes Agent 插件 API。当前版本：v4.0.1 — 请参阅变更日志。 4.0.0 DonSeTch 迁移说明保留在 4.0.0 发行说明中。 DonSeTch 现在对单个提取调用中的每个 URL 重用一个 stdio MCP 会话，在超时或 MCP 失败时获取子级，并从 setup.py status 报告二进制就绪情况。搜索和提取仅保持显式。 Web Search Plus 现在使用 DonSeTch 2.1.0 作为搜索和 Markdown 提取的可选本地源提供程序。 DonSeTch 作为通过 DONSETCH BIN 配置的单独安装的 stdio MCP 进程运行；它不与该插件捆绑在一起。猎犬提供者
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, donsetch, hermes-agent, mcp, python, research-agent
+
+---
+
+### 🌟 [partmode](https://github.com/BOMWiki/partmode)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 366
+- **核心概述**: 由 OpenCascade WASM 提供支持的浏览器中的开源、本地优先参数化 CAD，供人员和许可类型代理使用。
+- **大概是做什么的**: 面向人员和许可类型代理的开源、本地优先的参数化 CAD。探索架构 PartMode 是基于 OpenCascade WebAssembly、replicad 和 Three.js 构建的基于浏览器的机械 CAD。它将受约束的草图、可编辑的特征历史记录、精确的 B-rep 评估、装配体、工程图和标准交换格式整合到一个无需安装桌面 CAD 即可运行的应用程序中。它是围绕一个简单的想法构建的：人和代理的更改应该使用相同的规范文档模型和精确的内核，而不是并行的、不透明的自动化状态。在浏览器批准的会话中，他们可以修改同一个开放项目；单独的无头路径使用其自己的帐户拥有的文档。默认为本地 精确几何 共享模型 + 内核 在浏览器中匿名模型。可选的托管代理连接和无头文档存储是单独的、明确的选择。 OpenCascade 评估实体 B-rep 几何。阴影的 Three.js 场景是结果的视图，而不是事实的来源。人们使用 CAD 界面。代理使用类型化的、经过许可的操作来针对同一对象
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-modeling, ai-agents, brep, browser-cad, cad, local-first
+
+---
+
+### 🌟 [awesome-dsh-plugin](https://github.com/Anil-matcha/awesome-dsh-plugin)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 927
+- **核心概述**: DeepSeek Harness (dsh) 插件精选列表 - DeepSeek Harness 插件生态系统
+- **大概是做什么的**: DeepSeek Harness ( dsh ) 的精选指南——DeepSeek 的开源、一切都是插件编码代理——以及基于它构建的最佳社区插件。 DeepSeek Harness 是一个基于 Cordis 构建的可运行编码代理（Web UI + 无头），系统的每个部分——模型、工具、沙箱、会话存储、UI，甚至代理循环本身——都是一个可交换的插件。该架构产生了一个庞大、快速发展的插件生态系统：根据最新统计，有超过一千个社区插件。此列表的存在是为了使该生态系统易于扫描：插件的功能在一行中分类到您实际要查看的类别中。安装任何第三方 dsh 插件都会使用您自己的权限在您的计算机上运行其代码。此处列出并不是安全审查 - 在安装之前请阅读源代码，尤其是对于涉及凭据、网络或文件系统的插件。 - 什么是 DeepSeek 安全带？ - 主题和外观 - 模型和提供程序 - 会话和消息 - 工具和功能 - 视觉和多模式 - 工作流程和自动化 - 通知和集成 - 安全和治理
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, ai-agent, ai-agents, autonomous-agent, awesome, awesome-list
+
+---
+
+### 🌟 [StarWhisper](https://github.com/Yu-Yang-Li/StarWhisper)
+- **项目语言**: Python
+- **星标数量**: ⭐ 325
+- **核心概述**: StarWhisper 天文学法学硕士、StarWhisper 望远镜、Virtual-GOTTA 以及用于具体观测工作流程的天文学研究技能
+- **大概是做什么的**: 中文     English StarWhisper 是天文方面的开源工作，由国家天文台、之江实验室等单位支持。2023 年先做语言模型，后来做到 Kepler / K2 光变分类、脉冲星候选，以及接到近邻星系巡天（NGSS）上的观测 agent。2026 年的主线是虚拟司天（SN Clock）。 最新正式论文是 2025 年 11 月的 StarWhisper Telescope。 2023 仓库建立，天文语言模型 LLM Data/ ，StarWhisper3 2024 光变分类、脉冲星、Telescope 预印本 StarWhisper LC/ ，Pulsar 代码 2025 LC、Telescope 发表 NGSS/ 2026 虚拟司天（SN Clock） snclock，SitianClaw StarWhisper 3 做天文问答和写代码。训练数据在 LLM Data/ ，权重在魔搭 AstroYuYang/StarWhisper3。4.0 还在洗科普和科研数据，权重打算放到魔搭。 2024–2025 · 光变曲线和脉冲星 StarWhisper LC 用 Kepler / K2 光变做变星分类，主要看造父变星、RR Lyrae、食双星等。文里除了 Conv1D–BiLSTM 和 Swin Transformer，还有一组少做手工特征的 LLM / 多模态 / 音频模型，准确率大约 90%。2024 年 4 月预印本，2025 年 2 月 26 日发表于 Intelligent Computing 。测试代码在 StarWhisper LC/ 。 2024 年 12 月，StarWhisper-Pulsar 在 NeurIPS 2024 FM4Science workshop 报告，用多模态大模型做脉冲星候选分类。代码在 ACMISLab/StarWhisper-Pulsar。 2025 · StarWhisper Telescope 论文 2024 年 12 月预印本，2025 年 11 月 6 日发表于 Communications Engineering 。观测自动化 agent 接到近邻星系巡天（NGSS）上，大约 10 台业余级望远镜。代码在 NGSS/ 。 夜前计划很少能原样执行。临时目标会插进来，天气会关掉窗口，跟踪、调焦、相机或穹顶也可能出问题。系统要反复决定：继续、插入、延后、安全暂停，还是恢复后重规划。 2026 年才把虚拟司天做成可运行的系统，代码在 snclock（SN Clock）。早期科学应用是超新星时钟
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai4s, astronomy, astrophysics, large-language-models, llm
+
+---
+
 ## 🕔 2026-08-17 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 262 个候选项目中筛选出 6 个未推荐过的新项目。
