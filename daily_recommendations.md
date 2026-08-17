@@ -1,3 +1,67 @@
+## 🕔 2026-08-17 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 262 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [drift](https://github.com/dadbodgeoff/drift)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 784
+- **核心概述**: AI 的代码库智能。检测模式和惯例+记住跨会话的决定。 MCP server for any IDE. Offline CLI.
+- **大概是做什么的**: Drift stops an AI agent from writing code that violates conventions your repo already follows.它完全在您的机器上运行。 Beta 安装：从源代码构建。尚未向 npm 发布任何内容 - npm install -g @drift/cli 不起作用，npm 上的driftDetect 包是 1 月份不相关的 v1。 Building needs a Rust toolchain (rustup) because the scan engine is Rust.然后，在您想要保护的存储库中：start 打印它接受的约定是否实际上会阻塞，如果不会，则打印使其成为门的命令。现在让代理添加一条直接查询数据库的路由（就像存储库中的一百个其他路由所做的那样），然后检查更改：它命名了文件、行和被破坏的约定。在块模式下，它退出 2 。 --diff main...HEAD only works once your branch has commits that main does not. On a freshly cloned repo you are on main , so that range is empty and Drift refuses rather than reporting a pass it cannot support — exit 3 . That refusal is correct;给它一个包含变化的范围。范围 — 在采用 Drift en 之前请阅读此内容
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-tools, cli, code-quality, csharp, java, mcp
+
+---
+
+### 🌟 [Financial-API](https://github.com/HiThink-Tech/Financial-API)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 401
+- **核心概述**: 同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development.
+- **大概是做什么的**: 同花顺金融数据服务（hithink-finance） 是由同花顺官方提供和维护的 A股金融数据服务，面向 AI Agent、量化研究者和应用开发者。 通过一个统一的 API Key，即可查询 A股最新行情、集合竞价、财务报表、估值、指数、板块、公募基金资料与净值、涨跌停、炸板、个股异动、热榜和龙虎榜等数据，并将数据接入 AI 工具、Python 研究脚本、量化程序或业务系统。 一站式同花顺官方金融数据能力，覆盖 API、MCP、CLI、Python SDK、本地数据库和 Agent Skill。 - 查询一只或多只 A股的最新价格、涨跌幅、成交额等行情数据。 - 获取股票、指数和板块的历史 K 线，用于趋势分析和量化研究。 - 查询上市公司的利润表、资产负债表、现金流量表和财务指标。 - 批量查询 A 股最新市盈率、市净率、市销率和市现率估值快照。 - 获取交易日历、公司行动、复权因子等基础研究数据。 - 查询集合竞价快照、短期基准、涨跌停池、炸板池、连板天梯、个股异动、热榜和龙虎榜。 - 查询公募基金资料、公司、经理、财务、持仓、业绩、公开资讯以及 ETF/LOF 场内行情。 - 下载全市场数据，为回测、选股、因子研究和 AI 分析准备数据。 - 让 Claude、Cursor、Windsurf 等支持 MCP 或 Agent Skill 的工具直接调用金融数据。 - 在本地构建 DuckDB 数据库，完成增量同步、SQL 查询、复权计算和文件导出。 同花顺官方面向 AI Agent、量化研究和开发者提供的 A股金融数据服务。 覆盖 A股行情、集合竞价、标的目录、公司行动、财务报表与指标、估值、交易日历、指数、板块、公募基金、涨跌停、炸板、个股异动、热榜、龙虎榜和全市场数据文件。 可以通过 REST API、托管 MCP、 hithink-finance CLI、Python SDK、本地 marketdb 或统一 Agent Skill 接入。 优先安装 hithink-finance Skill。Agent 会识别当前环境和任务，在 API、MCP、CLI 与 Python SDK 之间自动选择合适的能力。 想让 AI Agent 自动查询金融数据 hithink-finance Skill Agent 自动判断使用 API、MCP、CLI 或 Python SDK 想让 Claude、Cursor 等聊天工具快速接入 MCP 配置服务地址和 API Key 后即可在对话中调用 想在 Python、Notebook 中研究股票 Python toolkit
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a-share, ai-agent, china-stock-market, cli, duckdb, financial-data
+
+---
+
+### 🌟 [MasterAgent](https://github.com/OpenSparX/MasterAgent)
+- **项目语言**: C++
+- **星标数量**: ⭐ 344
+- **核心概述**: 构建 100% 在设备上运行的 AI 代理。 Qualcomm NPU 上的延迟低于 100 毫秒。零云依赖。
+- **大概是做什么的**: 🌳 OAK — Open Agent Kernel 用于 AI 代理的 Linux 内核。 构建100%端侧运行的AI Agent。无云端依赖，无网络延迟，无数据丢失。 快速入门 · 为什么选择OAK？ · 文档 · 中文文档 未加载模型。无需 GPU。模式匹配在 0.02ms 内处理完毕。无网络往返。 80% 的请求通过模式匹配在微秒内解决。另外 20% 进行本地 LLM 推理。 🔒 默认私有数据永远不会离开设备。没有遥测。没有云通话。使用设备绑定密钥进行静态加密存储。随时随地在 CPU 上进行开发。部署到 Qualcomm NPU，可在功耗降低 3.5 倍的情况下实现 14 倍加速。相同的代码，不同的后端。 OAK LangChain AutoGPT Apple Intelligence :--- :---: :---: :---: :---: 在设备上 100% 运行 ✅ ❌ ❌ ✅ 开源 ✅ ✅ ✅ ❌ 崩溃恢复 (WAL) ✅ ❌ ❌ ❌ 形式验证 ✅ ❌ ❌ ❌ 多设备网格 ✅ ❌ ❌ ❌ 推测执行 ✅ ❌ ❌ ❌ 设备上学习 ✅ ❌ ❌ ❌ NPU 加速 ✅ ❌ ❌ ✅ 延迟（典型） 87 毫秒 2-5 秒 3-10 秒 200 毫秒 60 秒内您的第一个代理 就是这样。输入消息：💡 sparx run 无需模型即可运行 - 确定性技能仍然会响应。只有开放式问题才需要一个。 📊 完整的架构设计
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, ai-agent, automotive, edge-ai, embedded, iot
+
+---
+
+### 🌟 [reactuse](https://github.com/childrentime/reactuse)
+- **项目语言**: MDX
+- **星标数量**: ⭐ 1,041
+- **核心概述**: 115+ 个用于传感器、UI、状态和浏览器 API 的生产就绪型 React Hook。 Tree-shakable、SSR 安全、TypeScript 优先。由 Shopee、PDD 和携程使用。受到 VueUse 的启发。
+- **大概是做什么的**: 赞助 ReactUse 会将您的产品展示在每月安装 @reactuses/core 的 React 开发人员面前 - 您的徽标位于 README 顶部和reactuse.com/sponsor 上。实时覆盖范围：所有赞助商名额目前均已开放 - 领取一个后，您的徽标将在 48 小时内上线。等级、福利和公司发票：reactuse.com/sponsor。 ReactUse 是 100 多个用于构建现代 React 应用程序的基本 React Hook 的综合集合。受 VueUse 的启发，它为浏览器 API、状态管理、传感器、动画、DOM 元素等提供了生产就绪的挂钩。 - 🎯 100 多个 Hooks — 最全面的 React hooks 集合 - 📦 Tree-Shakable — 只导入您需要的内容 - 🔷 TypeScript — 每个钩子的完整类型定义 - 🖥️ SSR 兼容 — 可与 Next.js、Remix 等一起使用 - 📚 文档齐全 — 每个钩子的交互式演示 - 🤖 MCP 支持 — AI 支持的钩子发现 useClipboard, useColorMode、useCookie、useDarkMode、useDocumentVisibility、useEyeDropper、useFavicon、useFileDialog、useFullscreen、useMediaDevices、useMediaQuery、useOnline、u
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: browser-api, custom-hooks, developer-tools, frontend, hooks, hooks-library
+
+---
+
+### 🌟 [GameDesignOS](https://github.com/DY-2026/GameDesignOS)
+- **项目语言**: Python
+- **星标数量**: ⭐ 341
+- **核心概述**: 适用于人工智能代理的本地优先游戏设计操作系统：将会话转化为证据、实验、可审查的决策和持久的项目记忆——人门和回滚。
+- **大概是做什么的**: 将 AI 输出转化为您可以验证的游戏设计决策。本地优先·证据关联·人控 GameDesignOS 是用于人工智能辅助游戏设计的本地优先操作层。带来想法、游戏示例、研究线索或工作流程问题；获得可审查的证据、实验、建议、决策和项目记忆，而无需将改变承诺的判断交给代理人。演示不进行模型调用，也不需要密钥。它在系统临时目录中创建一个新的公共合成 Lighthouse 工作区，填充决策/假设/证据/审查的实验链，并在决策接受 Human Gate 之前停止。 Ask推荐最小的合适技能，默认不写。对于持久的私人项目，创建一个明确的工作空间：人工智能起草的速度比团队决定的速度要快。在游戏设计中，这通常会产生更多碎片：聊天记录、屏幕截图、一次性提示、竞争对手笔记、GDD 草稿、实验想法和半记得的决定。 GameDesignOS 添加了缺失的操作层。它将代理输出转化为可审查的项目���产，并提供证明
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, decision-support, game-analysis, game-design, game-design-tools
+
+---
+
+### 🌟 [vllm.cpp](https://github.com/mudler/vllm.cpp)
+- **项目语言**: C++
+- **星标数量**: ⭐ 300
+- **核心概述**: 面向社区的 1:1、类似 vLLM（连续批处理、分页 KV）的 C++ 引擎，具有附加功能
+- **大概是做什么的**: 与 vLLM 相同的标记。相同的吞吐量。安装时间减少 140 倍。连续批处理、分页 KV、37 个注册架构、CUDA / CPU / Metal / Vulkan。任何地方都没有Python。由 LocalAI 团队（LocalAI 背后的人员）为您提供，这是一款开源 AI 引擎，可在任何硬件上运行任何模型（LLM、视觉、语音、图像、视频），无需 GPU。独立且非官方。 vllm.cpp 是一个社区端口。它不隶属于 vLLM 项目、PyTorch 基金会或 Linux 基金会，也不受其认可或赞助。 “vLLM”在此仅用于命名此端口镜像并进行测量的上游项目。请参阅为什么存在：MANIFESTO.md。 ⚠️ 正在大力开发中。该项目现在进展很快：内部结构、CLI 标志和服务器行为可能会在提交之间发生变化，因此如果您跟踪 main ，预计会出现损坏。我们保持纪律的一件事是 include/vllm.h 中的 C ABI：它是版本化的（ VLLM ABI VERSION ，可在运行时使用 vllm abi version() 检查），通过附加零值保持现有行为字节相同的字段来增长，并且仅在不兼容的情况下发生冲突
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: cpp20, llm, mlx, vllm
+
+---
+
 ## 🕔 2026-08-17 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 255 个候选项目中筛选出 6 个未推荐过的新项目。
