@@ -1,3 +1,67 @@
+## 🕔 2026-08-18 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [nanobrowser](https://github.com/nanobrowser/nanobrowser)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 13,567
+- **核心概述**: 用于人工智能驱动的网络自动化的开源 Chrome 扩展。使用您自己的 LLM API 密钥运行多代理工作流程。 OpenAI Operator 的替代方案。
+- **大概是做什么的**: Nanobrowser 是一款在浏览器中运行的开源 AI Web 自动化工具。 OpenAI Operator 的免费替代品，具有灵活的 LLM 选项和多代理系统。 ⬇️ 从 Chrome 网上应用店免费获取 Nanobrowser 👏 加入 Discord X 社区 🌟 喜欢 Nanobrowser？给我们一颗星并帮助传播信息！ ❤️ 通过赞助我们来支持该项目 - 每一项贡献都有助于保持 Nanobrowser 的免费和开源！ Nanobrowser 的多代理系统实时分析 HuggingFace，规划器在遇到障碍时智能自我纠正，并动态指示导航器调整其方法 - 所有这些��在浏览器本地运行。 Looking for a powerful AI browser agent without the $200/month price tag of OpenAI Operator? Nanobrowser 作为 Chrome 扩展，提供高级 Web 自动化功能，同时让您完全控制： - 100% 免费 - 无订阅费或隐藏费用。只需安装并使用您自己的 API 密钥，并且只需使用您自己的 API 密钥支付您使用的费用。 - Privacy-Focused - Everything runs in your local browser.您的凭据
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, ai-tools, automation, browser
+
+---
+
+### 🌟 [kaneo](https://github.com/usekaneo/kaneo)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 8,348
+- **核心概述**: 🎯 All you need.没有什么是你不知道的。开源项目管理适合您，而不是对您不利。
+- **大概是做什么的**: 经过多年使用臃肿、过于复杂、分散实际工作注意力的项目管理平台，我们打造了与众不同的 Kaneo。大多数工具的问题不在于它们缺乏功能，而在于它们有太多的功能。每个通知、每个不必要的按钮、每个复杂的工作流程都会让您的团队远离重要的事情：构建出色的产品。我们相信最好的工具是看不见的。他们应该扩大您团队的自然工作流程，而不是强迫您适应他们的工作流程。 Kaneo 的构建原则是“少即是多”：每个功能的存在都是因为它解决了实际问题，而不是因为它在演示中看起来令人印象深刻。它的不同之处在于： - 简洁的界面，专注于您的工作，而不是工具 - 自托管，因此您的数据始终属于您 - 实际上速度很快，因为我们关心性能 - 具有宽松的 MIT 许可证的开源 在我们的文档中了解有关 Kaneo 特性和功能的更多信息。 Kaneo 是开源的。如果您发现它有用，请考虑赞助该项目以帮助支持持续的开发。使用 drim 一键部署 用于直���部署
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: hono, issue-management, issue-tracker, jira-alternative, kanban, linear-alternative
+
+---
+
+### 🌟 [burrow](https://github.com/caezium/burrow)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 1,280
+- **核心概述**: 🐹 在一款免费、开源、本机 Mac 应用程序中进行清理、应用程序管理、维护、磁盘分析和实时状态 + 对 AI 代理的广泛支持。即将登陆 Windows
+- **大概是做什么的**: Burrow 是一个独立的开源项目。它捆绑了自己的 MIT 引擎 - burrow-engine ，是 tw93 的 Mole ( mo ) CLI 的一个分支 - 并且不隶属于 mole.fit （由 mo 的作者开发的 Mole for Mac 应用程序），也不受其认可；它自己的名称、标记、调色板和副本都是原创的。如果您喜欢 Mole 并想资助 mo 的开发 — 购买 molecular.fit（19 美元）。 🐹 Mac 的开源系统伴侣 — 清理、卸载、分析、优化和监控，专为您和您的 AI 代理而构建。 Burrow 将您的 Mac 所需的一切都放在一个免费的本机应用程序中：垃圾清理、开发工件清除、应用程序卸载并删除剩余内容、重复查找、安全维护、磁盘映射和实时系统状态 - 由捆绑的、经过审核的开源引擎（burrow-engine，Mole's mo 的一个分支）提供支持，因此无需安装其他任何东西。它所做的事情是其他清理器无法做到的：它保留数月的本地指标历史记录并运行内置的 MCP 服务器，因此 Claude Code、Codex 和 Cursor 等 AI 代理可以监视、查询和维护您的 Mac — 每个操作都经过同意门控、审核且可逆。原生于 macOS，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: cleaner, disk-usage, macos, mcp, menubar, mole
+
+---
+
+### 🌟 [RCLI](https://github.com/RunanywhereAI/RCLI)
+- **项目语言**: C++
+- **星标数量**: ⭐ 1,542
+- **核心概述**: 与您的 Mac 交谈、查询您的文档，无需云。设备端语音AI+RAG
+- **大概是做什么的**: 与您的 Mac 交谈、查询您的文档，无需云。 RCLI 是适用于 macOS 的设备上语音 AI。在 Apple Silicon 上本地运行的完整 STT + LLM + TTS + VLM 管道 — 通过语音执行 40 个 macOS 操作、文档上的本地 RAG、设备上视觉（摄像头和屏幕分析）、低于 200 毫秒的端到端延迟。没有云，没有 API 密钥。由 RunAnywhere, Inc. 专为 Apple Silicon 构建的专有 GPU 推理引擎 MetalRT 提供支持。 Apple Silicon 上的实时屏幕录制 — 无需云、无需编辑、无需技巧。自然地说话 — RCLI 在设备上聆听、理解并做出响应。单击观看带音频的完整视频 控制 Spotify、调节音量 — 通过语音执行 38 个 macOS 操作。单击观看带音频的完整视频 浏览模型、热插拔法学硕士 — 全部来自 TUI。单击观看带有音频的完整视频 文档智能 (RAG) 摄取文档，通过语音提问 — 4 毫秒混合检索。单击观看带音频的完整视频需要 Apple Silicon 上的 macOS 13+。 MetalRT 引擎需要 M3 或更高版本。 M1/M2 Mac 自动回退到 llama.cpp。故障排除：SHA256 不匹配或版本过时 如果brew inst
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-assistant, apple-silicon, kitten-tts, kokoro-tts, lfm2, llama-cpp
+
+---
+
+### 🌟 [skilldock](https://github.com/wanghuan9/skilldock)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 445
+- **核心概述**: SkillDock 是一款 AI 技能管理器和技能管理桌面应用程序，适用于 Claude Code、Cursor、Codex、Windsurf、Gemini CLI 和其他 AI 编码工具。通过真实目录扫描和 Git 感知差异预览来安装、组织、编辑、同步和更新技能、MCP 服务器和插件。 AI技能管理器/技能管理软件/MCP管理工具。
+- **大概是做什么的**: SkillDock - 适用于 Claude Code、Cursor、Codex 和 MCP 的 AI 技能管理器 SkillDock 是适用于 AI 编码工具的桌面技能管理软件：适用于 Claude Code、Cursor、Codex、Windsurf 等的 AI 技能管理器。它还管理 MCP 服务器和插件，并通过 Git 感知更新来跟踪上游更改和本地修改。 中文说明 · 下载 · 安装问题？ SkillDock 是一个 AI 编码技能管理器和桌面控制中心，适用于 Claude Code、Cursor、Codex、Windsurf、Gemini CLI、GitHub Copilot 和其他 AI 编码代理。它使本地技能、MCP ��置和插件包保持可见、可编辑和同步。它扫描每个工具的真实技能目录，显示托管和非托管技能，并允许用户在更新或推送之前预览本地更改。核心工作流程是团队协作，无需中间交接目录。发布者可以在本地修改技能或插件并一键推送更改；用户可以一键更新，同时查看谁更新了软件包以及更改了哪些内容。 - 技能库——安装、更新、删除、编辑、检查和同步本地技能。 -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-coding-agents, ai-coding-tools, ai-skill-manager, ai-skills, claude-code, claude-code-skills
+
+---
+
+### 🌟 [makerskills](https://github.com/coreyhaines31/makerskills)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 659
+- **核心概述**: 适用于个人操作员技能的人工智能代理技能——决策、研究、第二大脑、内容轮换、场景建模和创作更多内容的元技能。 Works with Claude Code, Codex, Cursor.
+- **大概是做什么的**: 适合个人操作员手艺的人工智能代理技能。决策、研究、第二大脑工作流程、内容轮换、场景建模、首席财务官节奏、领域搜索以及创作更多内容的元技能。 Built for founders and indie operators.可与 Claude Code、Codex、Cursor 和其他代理技能主机配合使用。站点：maker-skills.com 或本地开发的符号链接：请参阅 INSTALL.md 了解环境变量、个人​​配置设置和运行时依赖项。入门 — 5 分钟路径 插件新手？���顺序做这些。 Everything else can wait until you need it. 1. 安装插件（上面），然后在 /.zshenv 中设置基本环境变量： 2. 运行您的第一个技能 - 从decide开始。无需配置：它会询问您面临什么决定，从 37signals 框架中选择正确的问题，并存档结果并注明重新访问日期。这就是第一次接触体验：这个插件的任何技能。结构化输入→结构化输出→写入磁盘。 3. 阅读一个 SKILL.md 以查看模式：每项技能都是一个工作流程文档 - 您可以通过 /decide 调用或阅读 SKILL.md 并手动运行步骤。该插件是
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-agents, claude-code, claude-skills, personal-knowledge-management, productivity
+
+---
+
 ## 🕔 2026-08-17 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
