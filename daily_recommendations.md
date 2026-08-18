@@ -1,3 +1,67 @@
+## 🕔 2026-08-18 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 261 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [im-not-ai](https://github.com/epoko77-ai/im-not-ai)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,479
+- **核心概述**: 克劳德像人类文本一样编辑 AI 编写的韩文的技能 — 韩语 AI 文本人性化：检测并重写翻译语、机械并行性和其他 71 个 AI 讲述
+- **大概是做什么的**: Humanize KR — Hangul AI Tire Remover v2.3.1 这是一项 CLI 技能，可将 AI（ChatGPT、Claude、Gemini 等）编写的韩文文本返回到自然韩语，而不触及内容的单个字母。将翻译困难、过多英文引文、机械排比（“第一、第二、第三”）、“结论/有重大意义”等人工智能专用习语、滥用被动语态、过度使用句首连词、滥用表情符号和项目符号等10大类×70子模式（+1验证）按严重程度分类（S1/S2/S3），以跨度单位检测并交叉检查。支持 Claude Code、GitHub Copilot CLI、OpenAI Codex CLI 和 Gemini CLI。完整指南：INSTALL.md GitHub Copilot CLI — 插件市场（无需克隆，推荐） 使用 Copilot 中的人性化韩语技能删除这篇文章的 AI 味道：像这样请求它或检查它是否加载了 /skills 列表。要更新，copilot 插件更新 humanize-korean@im-not-ai，要卸载，copilot 插件卸载 humanize-korean@im-not-ai。 Copilot 仅提供单个调用路径，并且不运行克劳德代码特定的诊断/最终确定多个调用路径。兼容性说明：从 1.0.79-5 开始，copilot 插件安装 epoko77-ai/im-not-ai 也可以工作，但 CLI 显示直接存储库安装的弃用警告。不建议使用新的安装路径。 Claude Code — 插件市场（无需克隆，推荐）在新会话中，/ humanize-korean（或自然语言中的“摆脱这篇文章的 AI 绒毛”）。 Claude Code · Codex CLI — 克隆 + 脚本 - Claude：/ humanize-korean · Codex：$ humanize-korean - 仅一侧：./install.sh --claude-only / --codex-only · 卸载：./unins
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-detection, claude, claude-code, claude-skill, humanizer
+
+---
+
+### 🌟 [Yuxi](https://github.com/xerrors/Yuxi)
+- **项目语言**: Python
+- **星标数量**: ⭐ 6,496
+- **核心概述**: 可私有部署的多租户知识智能体平台：统一 RAG、知识图谱、多智能体、MCP/Skills、沙盒与权限管理。Self-hosted knowledge agent platform for RAG, knowledge graphs and multi-agent workflows.
+- **大概是做什么的**: 多租户 Harness + 企业知识库 让企业知识可被智能体检索、推理与交付 [[项目文档]](https://xerrors.github.io/Yuxi) · [[版本特性]](http://xhslink.com/o/5Y6QWnmjF2d) · [[🇬🇧 English README]](README.en.md) 语析（Yuxi）是一个基于大模型的智能知识库与知识图谱智能体开发平台。它把 RAG 检索 、 Milvus 知识库内知识图谱 与 LangGraph 多智能体编排 整合进统一的多租户工作台：管理员配置知识库、模型与权限，用户在类 ChatGPT 的界面中与可挂载 Skills、MCP、子智能体和沙盒工具的智能体对话，并获得带引用来源、知识图谱推理与可交付产物的回答。 导航：项目介绍 ｜ 快速开始 ｜ 开发路线图 0.7 版本特性；最新开发动态，详见 changelog。 📢 求职：作者为江南大学软件工程博士研究生，研究方向 AI Agent、知识图谱与大模型应用，预计 2027 年毕业，现寻求实习/全职机会，欢迎联系：wenjie.zhang@stu.jiangnan.edu.cn 前端 Vue 3 · Vite · Pinia 后端 FastAPI · LangGraph · ARQ (异步 worker) 存储 PostgreSQL · Redis · MinIO · Milvus · Neo4j 文档解析 MinerU · PaddleX · RapidOCR 前置要求 ：已安装 Docker 与 Docker Compose，并准备至少一个兼容 OpenAI 接口的大模型 API。 等待启动完成后，浏览器打开 http://localhost:5173 ，使用初始化时生成的管理员账户登录即可。 💡 不需要知识库 / 知识图谱等重���赖时，可使用 make up-lite 以 LITE 轻量模式启动，加快冷启动速度。更多部署说明见 项目文档。 本项目参考并引用了以下优秀开源项目，在此致以诚挚的感谢： - LightRAG - 早期版本曾参考其图谱构建与检索思路；当前 Yuxi 已实现自研 Milvus 知识库/图谱链路以替换历史集成，降低兼容性问题 - DeepAgents - 直接引入作为深度智能体框架 - DeerFlow - 参考了其 Sandbox 智能体架构的实现思路 - RAGflow - 参考了其文档 Text Chunking 的分块策略 - LangGraph - 多智能体编排框架，本项目的核心架构基础 - Qw
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-rag, ai-agents, deepagents, docker, document-ai, fastapi
+
+---
+
+### 🌟 [arcbox](https://github.com/arcboxlabs/arcbox)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 325
+- **核心概述**: 在真实且隔离的机器上运行 AI 代理——自己的内核、文件系统和网络——启动时间小于 100 毫秒。本地优先、OCI 兼容、纯 Rust。
+- **大概是做什么的**: 适用于 macOS 的快速开源容器和 VM 运行时。用 Rust 从头开始​​构建。嵌入式 Docker、代理沙箱、本机 Kubernetes 以及完整的 Linux 和 macOS 虚拟机。 ArcBox 是 macOS 上 Docker Desktop 和 OrbStack 的开源替代品。 OrbStack 为在 Mac 上快速运行 Docker 设定了标准，而且开销很小，但它是闭源的。 ArcBox 在 MIT/Apache-2.0 下开源，并用 Rust 从头开始​​编写——它自己的 VMM、VirtIO 设备、文件系统共享和网络数据路径——并且旨在与之匹配。一个守护进程，一个 CLI，同一运行时上的四种工作负载： 层 它是什么 从哪里开始 ------ ------------------------ ---------------- 容器 嵌入式 Docker 引擎，加上本机 Kubernetes docker ... , abctl k8s 沙箱 用于 AI 代理和不受信任代码的一次性 microVM abctl claude , abctl 沙箱 Linux 机器 拥有自己的内核、磁盘和发行版的完整虚拟机 abctl 机器 macOS 来宾 一次性 macOS 虚拟机，从基础映像克隆 abctl macos 您在本地运行的沙箱与在云中运行的原始 ArcBox 平台相同，因此您可以针对本地沙箱进行构建
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, computer-use, containers, docker, firecracker, microvm
+
+---
+
+### 🌟 [codex-switcher](https://github.com/Lampese/codex-switcher)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 643
+- **核心概述**: 用于管理多个 OpenAI Codex CLI 帐户的桌面应用程序
+- **大概是做什么的**: 用于管理多个 OpenAI Codex 帐户的桌面应用程序 在帐户之间轻松切换、监控使用情况、安排预热并保持对配额的控制 - 多帐户管理 – 在一个位置添加、重命名、屏蔽、导入、导出和管理多个 Codex 帐户 - 快速切换 – 从主窗口、本机托盘菜单或托盘弹出窗口在帐户之间切换 - 使用统计 – 查看 OAuth 帐户的帐户使用统计信息，包括终身令牌、每日存储桶、条纹、活动洞察和顶级集成 - 手动重置积分 – 在每个帐户计划徽章旁边查看可用的手动重置积分，并在临近时突出显示最近的到期日 - 自动预热 – 在每 5 小时重置窗口后或在一天中的特定预定时间手动预热一个帐户或所有帐户 - 系统托盘控件 – 使用托盘弹出窗口切换帐户、检查配额和活动帐户统��信息、刷新使用情况、打开主窗口或退出应用程序 - 托盘显示模式 – 在带有会话百分比的应用程序图标、纯文本之间进行选择每小时/每周百分比显示，或隐藏
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, codex, openai, openai-codex, tauri, vibe
+
+---
+
+### 🌟 [awesome-ai-agents-2026](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents-2026)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 300
+- **核心概述**: 2026 年令人敬畏的 AI 代理
+- **大概是做什么的**: Awesome AI Agents 2026 最全面、结构化的 AI 代理框架、工具和资源指南。每周更新。并排比较。专为发货的开发人员而设计。探索堆栈 • 阅读 CONTRIBUTING.md 中的文档 • 提交工具 - 编排框架 - 内存和上下文 - 多代理系统 - 代理通信协议 - 浏览器和计算机使用代理 - 代理工具和基础设施 - 低代码和无代码构建器 - 语音和多模式代理 - 安全护栏和可观察性 - 代理接口和 UI - 代理部署和托管 - 代理评估和基准 - 代理测试和调试 - 特定于行业的代理 -学习资源 - 代理通信 - 数据管道和工作流程 - 安全执行环境 - 创意人工智能代理 - 客户支持和 CRM 代理 - 语音代理平台 - 深入研究代理 - 提示应用程序生成器 - 多代理消费者平台 - 代理开源模型 - 2026 年市场统计和基准 - 本地和自托管人工智能 - 人工智能治理与合规性 - 网络安全代理 - 医疗保健和治疗 A
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: 2026, agent-frameworks, ai-agents, ai-tools, autonomous-agents, awesome
+
+---
+
+### 🌟 [kitaru](https://github.com/zenml-io/kitaru)
+- **项目语言**: Python
+- **星标数量**: ⭐ 236
+- **核心概述**: 您可以运行代理跟踪，而不仅仅是读取。
+- **大概是做什么的**: 您可以运行跟踪，而不仅仅是读取。 Kitaru（来る，“到达”）是人工智能代理基于重播的评估。它将代理的生产跟踪转换为回归套件：记录或导入每次运行，根据下一次更改重放它，并在发货前查看哪些改进和哪些损坏。开源、自托管、Python 和 TypeScript。来自 ZenML 背后的团队。开始使用 · 您的代理已经在生产中经过了数千次测试。每一次运行都作为记录保存在跟��存储中，您可以读取但不能运行。因此，您更改提示、交换模型、重构工具，并查明它是否因愤怒的用户而损坏。 Kitaru 使这些跟踪可运行： - 每次运行都是一次记录。包装您的代理一次，或导入您已从 Langfuse、LangSmith、Braintrust 或 Logfire 收集的跟踪记录。您的跟踪存储保留您的记录系统。 - 重放是重新执行。您的真实代码再次运行，工具调用从记录中应答，因此卡不会被���款两次。重播不变，再现原作； forked，你看到的差异就是你的改变。 - 改进是
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-orchestration, agentic-ai, agents, ai-agents, checkpoints
+
+---
+
 ## 🕔 2026-08-18 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
