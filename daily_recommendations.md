@@ -1,3 +1,67 @@
+## 🕔 2026-08-18 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [eve-software-factory-template](https://github.com/vercel-labs/eve-software-factory-template)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 895
+- **核心概述**: 来认识一下 Foreman，一个新的软件工厂。
+- **大概是做什么的**: eve 软件工厂模板 Foreman 是一个 eve 软件工厂，它将 AI 代理置于开发循环的每个阶段，并让人们随时做出判断。 Foreman 从 GitHub 和 Linear 接收任务，将每个任务移动到四个工作站，并在您的存储库上提交经过审核的草稿拉取请求。您进行审查、标记为就绪并合并。 - 分类器对任务进行分类：类型、优先级、复杂性、可操作或不可操作。当任务无法执行时，福尔曼会询问请求者，而不是构建错误的东西。 - 分析师将其转化为具有验收标准的计划，并通过实时检查您的存储库进行工作。 - 实施者在自己的沙箱中执行计划，使用存储库自己的检查进行验证，然后推送分支。 - 审阅者根据真实差异独立判断一切，并为每个判决提供证据。每个站都是自己的代理，有自己的指令、沙箱和工具。审阅者只能看到推送的分支，而看不到实施者的推理。在运行之间，Foreman 保留了一个工厂大脑：关于每次运行开始的存储库的注释。请参阅
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, eve, vercel
+
+---
+
+### 🌟 [openGym](https://github.com/DuarteSantos8/openGym)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 553
+- **核心概述**: 自托管健身房和体重跟踪器 — 计划日常活动、记录锻炼（超级组、热身、有氧运动）、查看哪些肌肉经过训练、疲劳或失去训练、从 FitNotes/Strong/Hevy 导入、密钥登录。您的数据，您的服务器。
+- **大概是做什么的**: 您实际拥有的自托管健身房和体重追踪器。计划您的一周，进行指导性锻炼，跟踪每组训练和一段时间内的体重 - 在您的手机上，跨设备同步，在您自己的密码登录后进行。没有别人服务器上的帐户，没有订阅，没有广告。只需 docker compose up 即可。主页 — 今天的锻炼和体重 指导锻炼 — 动画演示和设置 统计 — 热图、图表和 PR 🌐 opengym.duarte-santos.ch · ▶ 尝试现场演示 无需注册，无需安装 — 它完全在您的浏览器中基于示例数据运行。演示背后没有服务器，因此密钥登录、跨设备同步和管理仪表板仅存在于自托管实例中。大多数锻炼应用程序都会在登录后将您的数据锁定在其服务器上，提醒您升级，或者在启动时消失。 openGym 则相反：它在您的盒子上运行，您的数据保留在您控制的文件夹中，并且您可以分叉。它仍然感觉很现代——可以作为主屏幕应用程序安装、密钥登录、离线支持、在手机和笔记本电脑之间同步。 - ⚖️ 体重追踪 — 带有您设定的目标线的交互式图表
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: bodyweight, docker, fitness, fitness-tracker, gym, health
+
+---
+
+### 🌟 [mcp-client-for-ollama](https://github.com/jonigl/mcp-client-for-ollama)
+- **项目语言**: Python
+- **星标数量**: ⭐ 801
+- **核心概述**: 借助适用于 Ollama 的 TUI MCP 客户端，利用本地法学硕士的力量。具有所有核心 MCP 原语（工具、提示、资源）、代理模式、多服务器、模型切换、流响应、人机交互、思维模式、模型参数配置、系统提示和保存的首选项。
+- **大概是做什么的**: 一个简单但功能强大的 Python 客户端，用于使用 Ollama 与模型上下文协议 (MCP) 服务器进行交互，允许您利用本地 LLM 来执行高级工具。 English 简体中文 Español Ollama 的 MCP 客户端 (ollmcp) 在赞助商部分了解如何将 Atlas Cloud 与 ollmcp 一起使用 🎥 观看 Asciinema 录制的演示 - 安装选项 - ✨ 新通过 CLI 管理 MCP 服务器 - 命令行参数 - MCP 服务器配置 - ✨ 新推理提供程序配置 - ✨ 新支持的推理提供程序 - API 密钥解析顺序 - 工具调用如何工作 - 交互式命令- ✨ 新的答案显示模式 - 高级模型配置 - ✨ 新的思维模式和推理工作 - 服务器重新加��以进行开发 - 人在环 (HIL) 工具执行 - 人在环 (HIL) 配置 - 性能指标 - 历史记录管理 - 自动完成和提示功能 - Typer Shell 自动完成 - FZF 式自动完成 - MCP 提示自动完成 - 配置管理 - ✨ 新的每个提供商配置文件 - 服务器配置格式 - 提示：MCP 服务器配置放在哪里
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai, command-line-tool, harness, linux, local-llm
+
+---
+
+### 🌟 [nextclaw](https://github.com/Peiiii/nextclaw)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 250
+- **核心概述**: 一个开源、可扩展、自托管的代理工作区，具有对 Codex、Claude Code 等的多运行时支持，以及用于自定义界面和服务的可重用本地应用程序。
+- **大概是做什么的**: 您的长期个人人工智能合作伙伴。告诉 NextClaw 你想要做什么。它将对话、文件、工具和生成的结果整合到一个工作区中，并持续工作，直到提供有用的内容。从一个请求到一个可用的结果，而不会丢失中间的工作。开源 · 本地优先 · macOS、Windows、Linux、Docker 和云虚拟机 要求报告、分析、文件操作、小应用程序或重复任务。 NextClaw 整理了其背后的工具和步骤。将上下文和结果放在一起对话、本地文件、网络研究、生成的文档和后续工作保持在同一任务中。选择工作的运行方式 使用 Native、Codex、Claude Code、OpenCode 或 Hermes，然后在本地、NAS 或您控制的服务器上运行。新安装已准备好执行第一个任务，无需输入 API 密钥。内置免费试用使用公共网关；限制和模型可能会发生变化，并且敏感或机密数据不应通过它发送。 - 研究和比较——收集页面��注释和参考文献，然后将它们转化为摘要、来源列表或比较表
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflows, ai-agent, ai-assistant, automation, desktop-app, feishu
+
+---
+
+### 🌟 [jumpstarter](https://github.com/jumpstarter-dev/jumpstarter)
+- **项目语言**: Python
+- **星标数量**: ⭐ 211
+- **核心概述**: 软件世界的硬件测试。真实的或虚拟的、本地的或远程的、人工的、自动化的或代理的。
+- **大概是做什么的**: Jumpstarter 是一个免费的开源测试自动化框架。它弥合了嵌入式开发工作流程和部署环境之间的差距，通过 CI/CD 集成实现跨真实硬件和虚拟环境的一致自动化测试。每个接口都是可编程的，因此人类开发人员、测试脚本、CI 管道和 AI 代理通过相同的 API 与设备进行交互。 - 🧪 统一测试 - 一种用于测试物理和虚拟设备的工具 - 🔌 硬件抽象 - 通过驱动程序控制 UART、CAN、SPI、GPIO、电源和 USB - 🐍 Python 驱动 - 与 PyTest 和 Python 的测试生态系统集成 - 🌐 协作 - 跨团队共享和安全地租赁测试硬件 - ⚙️ 自动化就绪 - 为人类、测试脚本、CI 管道和 AI 代理提供相同的 API - 💻 跨平台 - 支持 Linux 和 macOS 存储库结构 该 monorepo 包含所有 Jumpstarter 组件： 目录 描述 ---------- ------------- python/ Python 客户端、CLI、驱动程序和测试框架控制器/ Kubernetes 控制器和操作员 (Jumpstarter 服务) pro
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, automation, board-farm, ci-cd, cloud-native, embedded-systems
+
+---
+
+### 🌟 [jason](https://github.com/jason-lang/jason)
+- **项目语言**: Java
+- **星标数量**: ⭐ 255
+- **核心概述**: Jason 是 AgentSpeak 扩展版本的成熟解释器，AgentSpeak 是一种面向 BDI 代理的逻辑编程语言。
+- **大概是做什么的**: Jason 是 AgentSpeak 扩展版本的翻译员。它实现了该语言的操作语义，并为多代理系统的开发提供了一个平台，具有许多用户可定制的功能。 Jason 以开源形式提供，并在 GNU LGPL 下分发。 Jason 由 https://jomifred.github.io[Jomi F. Hübner] 和 http://www.inf.pucrs.br/r.bordini[Rafael H. Bordini] 开发，基于之前与许多同事所做的工作，特别是 Michael Fisher、Joyce Martins、Álvaro Moreira、Renata Vieira、Willem Visser、Mike Wooldridge，还有许多其他同事，如手册中所承认的（请参阅http://jason-lang.github.io/[文档]页面）。大多数 Jason 文档都可以在 xref:doc/readme.adoc[在 doc 文件夹中] 和 http://jason-lang.github.io[Jason 网站] 上找到。请遵循 xref:doc/tutorials/getting-started/readme.adoc[入门教程]。注意：在 Jason 3.2 中，Jason 发行版中不包含任何 IDE。现在提供了链接：jason-cli[命令行解释器]。 === 对于 Jason 开发者 git clone https://github.com/jason-lang/ja
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-oriented-programming, agentspeak, bdi, programming-language
+
+---
+
 ## 🕔 2026-08-18 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 261 个候选项目中筛选出 6 个未推荐过的新项目。
