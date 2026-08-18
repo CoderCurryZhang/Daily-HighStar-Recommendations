@@ -1,3 +1,67 @@
+## 🕔 2026-08-18 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 264 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [DeepSeek-V4-J-Space-Capability-Realization-Report](https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 974
+- **核心概述**: DeepSeek V4 × J-Space 能力实现报告 — J-Space 减少 DeepSeek V4 (Flash/Pro) 上的能力实现损失的基准证据。
+- **大概是做什么的**: DeepSeek V4 × J-Space：Benchmark 与工程观察记录 © 2026 Tiger3807861189. This work is licensed under the Creative Commons Attribution-NoDerivatives 4.0 International License (CC BY-ND 4.0). © 2026 Tiger3807861189. 本记录采用 知识共享-署名-禁止演绎 4.0 国际许可协议（CC BY-ND 4.0）授权。 页面范围 ：本页记录外部项目已经公开的工程观察、J-Space 使用的操作性术语、项目级 Benchmark 分数及其适用边界。它不是研究论文，非学术性质，不提供模型内部机制证明、形式化判定方法、消融设计或因果贡献分解。 J-Space Cognition Suite V3.6 是一套在推理阶段运行的模型无关控制系统，不修改模型权重。项目地址： 1.1 Anchored Standard：首轮接口锚定 dsh-anchored-standard 关注 DeepSeek Harness 的首轮接口条件。其基础方案在第一次模型请求中恢复 Minimal 的真实双工具 Schema，抑制自动注入内容；会话产生持久事件后，再开放一个较小的常驻工具目录，并按需解锁其他工具。 该项目的公开实验表明，首轮工具 Schema、输出预算和自动注入内容都可能改变首条推理轨迹。它也明确区分了“轨迹被锚定”和“任务能力已经稳定提升”：当前仓库中的通用组合与早期高分运行并不完全相同，小样本独立复现尚不足以确定稳定的能力增益幅度。因此，本页只引用其接口敏感性与路径保持观察，不把单项分数推广为普遍结论。 1.2 Routing Suite：任务感知的入口选择 dsh-routing-suite 使用首轮任务分类、persona 与工具面装配，把新会话送入不同的行为带。其公开材料报告了稳定区域和不稳定过渡区域，并据此避免把连续数值旋钮误当成可连续调节的推理深度。 该项目后来对早期“官方刻意设计双吸引子”“自路由绝对不可能”等强归因作出了公开勘误：实测数据、探针和工程实现继续保留，底层因果解释不再作为已证结论。本页据此只引用可观察现象。其资料中的 mixed 表示不稳定的过渡或竞争区域，不等于一种兼具短、长思维优点的可用中间态。 本页所称 思维链二极管（chain-of-thought diode） ，是一个面向黑盒行为的工程术语：在同一个会话中，连续思维链会稳定落入以下两种形态之一： - 短思维直觉
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, benchmark, deepseek, deepseek-harness, dsh
+
+---
+
+### 🌟 [guild](https://github.com/mathomhaus/guild)
+- **项目语言**: Go
+- **星标数量**: ⭐ 312
+- **核心概述**: 跨 AI 编码代理共享上下文、内存和任务协调。 Single Go 二进制、本地 SQLite、混合关键字和语义搜索。
+- **大概是做什么的**: 跨 AI 编码代理共享上下文、内存和任务协调。 guild 是一个单独编译的 Go 二进制文件，包含由嵌入式 SQLite 支持的一流 MCP 服务器。状态严格依赖于本地主机；没有任何东西离开你的机器。搜索将关键字 (BM25) 与向量相似度混合在一起，通过倒数排名融合进行融合，因此“上次我们如何做 X”会同时显示精确术语和语义邻居。 Guild 旨在由代理商自主运营，为代理商服务。公会大师（我们人类）随时了解重要决策和路线修正。任何 MCP 客户端（Claude Code、Codex、Cursor 等）都可以充当底层的 Gate。这使得不同编辑器之间的并行代理可以安全地共享上下文，使用原子锁来声明任务而不会相互干扰。会话开始时，代理只需进行一次调用即可恢复项目誓言、最新的离别卷轴和最高优先级的任务。执行循环是自主的：领取工作、查阅知识、采取行动并记录结果。清除任务会自动解锁其依赖项，从而允许 ag
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-coordination, agent-memory, ai-agents, claude, claude-code, codex
+
+---
+
+### 🌟 [agent-framework-samples](https://github.com/rwjdk/agent-framework-samples)
+- **项目语言**: C#
+- **星标数量**: ⭐ 314
+- **核心概述**: 使用 C# 演示 Microsoft 代理框架的示例
+- **大概是做什么的**: Microsoft Agent Framework 示例 用 C 语言演示 Microsoft Agent Framework 的示例 什么是 Microsoft Agent Framework (AF)？ AF是Semantic Kernel和AutoGen的继承者； Microsoft 的两个生成式 AI 框架，用于构建多代理应用程序。该框架是开源的，可以在 C 和 Python 中使用（此存储库仅探讨 C）如果您想学习 Microsoft Agent 框架，最好的方法是遵循此 Udemy 课程 YouTube 视频系列 此存储库中的所有示例都是此 YouTube 视频系列的一部分 漫画书 E2E 示例在哪里？它��被移至自己的存储库以使其更易于维护
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, framwork, microsoft
+
+---
+
+### 🌟 [postman-mcp-server](https://github.com/postmanlabs/postman-mcp-server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 298
+- **核心概述**: Postman MCP 服务器 — 通过模型上下文协议 (MCP) 将 AI 代理（Claude Code、Cursor、VS Code Copilot、Gemini CLI）连接到您的 Postman 集合、OpenAPI 规范和环境
+- **大概是做什么的**: Postman MCP 服务器实现模型上下文协议 (MCP)，以将 AI 代理和编码助手（包括 Claude Code、Cursor、VS Code Copilot、GitHub Copilot CLI 和 Gemini CLI）直接连接到您的 Postman 工作区、集合、规范和环境。 Postman 还以 npm 包的形式提供服务器。有关特定于代理的设置的完整安装指南，请参阅 Postman 的 MCP 服务器产品页面。 Postman MCP 服务器集合 Postman MCP 服务器集合是探索、测试和连接 Postman MCP 服务器的最快方法。用它来： - 浏览所有���置的可用工具的完整列表。 - 连接并测试远程服务器 - 完整和最小。 - 连接并测试本地服务器。 - 最小 —（默认）仅包含基本 Postman 操作的必需工具。非常适合想要修改单个 Postman 元素（例如集合、工作区或环境）的用户。 - 代码 — 包括根据公共和内部 API 定义生成高质量、组织良好的客户端代码的工具。非常适合需要消费的用户
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, ai-agents, api-testing, claude, claude-code
+
+---
+
+### 🌟 [llm-engine](https://github.com/scaleapi/llm-engine)
+- **项目语言**: Python
+- **星标数量**: ⭐ 835
+- **核心概述**: 扩展 LLM Engine 公共存储库
+- **大概是做什么的**: 🚀 用于微调和服务大型语言模型的开源引擎。 🚀 Scale 的 LLM 引擎是定制和服务 LLM 的最简单方法。在 LLM Engine 中，可以通过 Scale 的托管版本或使用此存储库中的 Helm 图表来访问模型，以便在您自己的基础设施中运行模型推理和微调。基础模型正在成为人工智能的构建模块。然而，将这些模型部署到云端并对其进行微调是昂贵的操作，需要基础设施和机器学习专业知识。随着���模型的发布以及推理和微调新技术的出现，随着时间的推移，它也很难维护。 LLM Engine 是一个 Python 库、CLI 和 Helm 图表，它提供了服务和微调基础模型所需的一切，无论您使用 Scale 的托管基础​​设施还是在自己的云基础设施中使用 🎁 适用于您最喜欢的模型的即用型 API：部署和服务开源基础模型 - 包括 LLaMA、MPT 和 Falcon。使用 Scale 托管模型或部署到您自己的基础设施。 🔧 微调发现
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: fine-tune, llm, python, scaleai
+
+---
+
+### 🌟 [ps-fuzz](https://github.com/prompt-security/ps-fuzz)
+- **项目语言**: Python
+- **星标数量**: ⭐ 703
+- **核心概述**: 让您的 GenAI 应用程序安全可靠：rocket：测试并强化您的系统提示
+- **大概是做什么的**: 帮助您强化 GenAI 应用程序的开源工具 Prompt Security 为您提供 GenAI 安全完整平台 :rotating light: 功能 :rocket: 安装 :construction: 使用 docker 即将推出 环境变量 命令行选项 快速入门单次运行 :clapper: 演示视频 RAG 和矢量数据库攻击 系统提示提取 :rainbow: 路线图的下一步是什么？ :beers: 贡献 ✨ 什么是 Prompt Fuzzer 1。此交互式工具可评估 GenAI 应用程序的系统提示的安全性，以抵御各种基于 LLM 的动态攻击。它根据这些攻击模拟的结果提供安全评估，使您能够根据需要加强系统提示。 2. Prompt Fuzzer 根据应用程序的独特配置和域动态定制其测试。 3. Fuzzer 还包括一个 Playground 聊天界面，让您有机会迭代改进系统提示，强化其抵御各种生成 AI 攻击的能力。 ：警告：使用提示模糊器将导致代币消耗。 ：警告
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-fuzzer, fuzzer, generative-ai, llm, llm-fuzzer
+
+---
+
 ## 🕔 2026-08-18 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
