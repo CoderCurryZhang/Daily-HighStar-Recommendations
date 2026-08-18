@@ -1,3 +1,67 @@
+## 🕔 2026-08-18 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [php-sdk](https://github.com/modelcontextprotocol/php-sdk)
+- **项目语言**: PHP
+- **星标数量**: ⭐ 1,588
+- **核心概述**: 适用于模型上下文协议服务器和客户端的官方 PHP SDK。与 PHP 基金会合作维护。
+- **大概是做什么的**: 适用于模型上下文协议 (MCP) 的官方 PHP SDK。它提供了一个与框架无关的 API，用于实现 MCP 服务器。该项目代表了 PHP 基金会和 Symfony 项目之间的合作。它采用 Symfony 项目的开发实践和标准，包括编码标准和向后兼容性承诺。在第一个主要版本发布之前，此 SDK 被视为实验性的，请参阅路线图以了解计划的后续步骤和功能。 - 外部资源 - 使用 MCP SDK 的 PHP 库 MCP PHP SDK 为模型上下文协议提供服务器和客户端实现，使您能够： - 构建 MCP 服务器：向 AI 代理公开 PHP 应用程序的功能（工具、��源、提示） - 构建 MCP 客户端：从 PHP 应用程序连接到 MCP 服务器并与之交互 - 工具：AI 代理可以调用的可执行函数 - 资源：可以读取的数据源（文件、配置、数据库） - 资源模板：带有 URI 参数的动态资源 - 提示：用于 AI 交互的预定义模板 - Server-Init
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: mcp, mcp-client, mcp-server, php
+
+---
+
+### 🌟 [spark-nlp](https://github.com/JohnSnowLabs/spark-nlp)
+- **项目语言**: Scala
+- **星标数量**: ⭐ 4,158
+- **核心概述**: 最先进的自然语言处理
+- **大概是做什么的**: Spark NLP：最先进的自然语言处理和法学硕士库 Spark NLP 是构建在 Apache Spark 之上的最先进的自然语言处理库。它为机器学习管道提供简单、高性能且准确的 NLP 注释，可在分布式环境中轻松扩展。 Spark NLP 附带 200 多种语言的 100000 多个预训练管道和模型。它还提供诸如分词、分词、词性标记、词和句子嵌入、命名实体识别、依存分析、拼写检查、文本分类、情感分析、分词分类、机器翻译（+180 种语言）、摘要、问答、表格问答、文本生成、图像分类、图像到文本等任务。文本（字幕）、自动语音识别、零样本学习以及更多 NLP 任务。 Spark NLP 是生产中唯一的开源 NLP 库，提供最先进的转换器，例如 BERT 、 CamemBERT 、 ALBERT 、 ELECTRA 、 XLNet 、 DistilBERT 、 RoBERTa 、 DeBERTa 、 XLM-RoBERTa 、
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: bert, entity-extraction, language-detection, lemmatizer, llamacpp, llm
+
+---
+
+### 🌟 [thoughtdag](https://github.com/chenxiachan/thoughtdag)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 247
+- **核心概述**: 你的思维值得一张地图：一个无限的画布，其中法学硕士对话成长为可编辑的思维图。电线是上下文。
+- **大概是做什么的**: 你的想法值得一张地图。一个无限的画布，法学硕士对话成长为可编辑的思维图。 中文 · 快速入门 · 有何不同 · 研究 · 模型和隐私 ▶ 33 秒的解说导览 Wires 是背景。模型看到的正是连接到节点的内容。编辑图形会编辑模型的内存。许多工具将对话放在画布上。在 ThoughtDAG 中，连线不是装饰，也不是执行路径。它决定了模型接下来会看到什么。每个手势背后都有一个原则：人在循环中，模型在电线上。没有自主代理重绘您的图表。 ✂️ 删除一条边，得到不同的答案模型只能看到电线的内容。删除噪声边，再次询问，相同的提示会返回一个干净的答案。在示例画布的第 ③ 章中复制它。 📖 将论文读成地图 选择一个段落，就在那里提问。答案及其页码落在画布上，p.N 芯片跳回该页面。纸完成了，地图就画好了。 💎 压缩图形，然后缩小 将节点合并为一个更高的结论；编织你的亮点
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-search, ai-tools, context-engineering, dag, human-in-the-loop, infinite-canvas
+
+---
+
+### 🌟 [BossConsole](https://github.com/risa-labs-inc/BossConsole)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 222
+- **核心概述**: 用于 AI 代理的开源、多平台工具 — 一个本机、多线程操作员控制台（JVM，不是 Electron），用于使用真正的浏览器、终端、编辑器、秘密和 100 多个 MCP 工具运行 Claude Code、Codex、Gemini 或 OpenCode。专为企业、科学研究而打造。
+- **大概是做什么的**: 🔬 AI 代理的操作员控制台 - 以及指导它们的科学家第一个用于 AI 代理的开源多平台工具 - 一个适用于代理及其合作人员的可进化工具箱。 🧪 专为企业、科学和研究而打造。 ⚡ 原生多线程 - 构建在 JVM 上，而不是 Electron - 具有实时热重载和笔记本电脑到超级计算机的规模。带上您自己的代理 - Claude Code、Codex、Gemini 或 OpenCode - 并为其提供真正的浏览器、终端、编辑器、秘密和自动化。然后准确决定每个人可以触摸什么。在您自己的机器上运行它，使用二维码将实时终端交给您的手机，并在应用程序保持运行的同时手动或由代理本身重塑任何工具。 ⬇ 下载 · 📊 比较 · ⚡ 浏览器基准测试 · 🤖 运行代理 · 🔐 治理 · 🧰 工具箱 · 🖥️ BossTerm 只是想下载 BOSS？前往 BossConsole-Releases 获取预构建的安装程序。 BOSS 使用 Kotlin Multiplatform 和 Compose Multiplatform 构建，统一了嵌入式浏览器、超快的可共享终端、代码编辑器、可扩展的插件工具箱和 gov
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-harness, ai-agents, browser, claude-code, codex, compose-multiplatform
+
+---
+
+### 🌟 [bagel](https://github.com/Extelligence-ai/bagel)
+- **项目语言**: Python
+- **星标数量**: ⭐ 393
+- **核心概述**: 通过 MCP 服务器以简单的英语查询机器人、无人机和物联网数据，并使用仅保留重要数据的智能边缘数据缩减管道。
+- **大概是做什么的**: Bagel 可让您用简单的英语询问有关机器人、无人机和物联网数据的问题。对消息数据的每次计算都是 DuckDB SQL，而不是模型猜测，Bagel 会向您显示查询，以便您可以审核它。我的 IMU 传感器是否过热？ Bagel 还有一个智能边缘数据缩减管道：描述一个事件，Bagel 在机器人上运行检测，保留重要的窗口并丢弃其余的。 MCP 服务器将所有这些都交给您的 LLM：Claude Code、Gemini、Cursor 或完全本地的模型。 Bagel 是第一个为机器人数据提供真正的分析工具包的 MCP 服务器，它将 LLM 保留在它所属的位置：在您的日志前面，而不是在您的机器人的日志中 - 用简单的语言询问：不需要深入的领域专业知识。 - 透明计算：确定性 SQL 查询。没有黑盒法学硕士数学。 - 自然语言管道：“每个硬刹车保持 10 秒，放弃其余部分”：一句话成为可审核的管道：在写入字节之前预览，然后运行一次，穿过车队，或站在边缘。 - 广泛的法学硕士支持：Claude Code、Gemini、Cursor、Codex、
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ardupilot, betaflight, claude, data-reduction, drone, duckdb
+
+---
+
+### 🌟 [yoagent](https://github.com/yologdev/yoagent)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 172
+- **核心概述**: Rust 的代理循环 — 来自 7 个 LLM 协议的流，运行工具，循环直到完成。
+- **大概是做什么的**: crates.io · 文档 · API · GitHub · DeepWiki · 变更日志 Rust 的代理循环。从 7 个 LLM 协议中的任何一个进行流式传输，运行工具，循环直至完成。在一个命令中尝试它 - 没有 API 密钥 这是您终端中的一个工作编码代理 - 文件读/写/编辑、shell、ripgrep 搜索、流输出、技能。无需注册，无需密钥，无需配置。通过交换标志来将其指向托管模型：实际使用工具的代理 - 板条箱存在的目的：通过交换配置来交换模型 - 提供者紧随其后，并且从该提供者的常规环境变量中读取密钥：yoagent 故意缩小。它是循环、工具执行以及在生产中运行该循环所需的机制。它不提供向量存储、嵌入管道或任务图层 - 如果您的问题是检索或编排，那么其中之一是更合适的：如果您需要查看 RAG 管道、向量存储、嵌入、转录和图像生成装备 - “在 Rust 中构建模块化和可扩展的 LLM 应用程序” 类型化任务图和流式 RAG 索引以及代理 swiftide - “Compos
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, ai, ai-agents, anthropic, claude
+
+---
+
 ## 🕔 2026-08-18 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 264 个候选项目中筛选出 6 个未推荐过的新项目。
