@@ -1,3 +1,67 @@
+## 🕔 2026-08-19 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 250 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [awesome-harness-engineering](https://github.com/walkinglabs/awesome-harness-engineering)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 3,863
+- **核心概述**: 🛠️ 很棒的线束工程工具和指南。
+- **大概是做什么的**: Awesome Harness Engineering 用于线束工程的文章、手册、基准测试、规范和开源项目的精选列表：围绕 AI 代理塑造环境的实践，以便它们能够可靠地工作。线束工程位于上下文工程、评估、可观察性、编排、安全自主和软件架构的交叉点。此列表重点关注使代理在实际工作流程中更加可靠的资源，尤其是长时间运行的编码和研究任务。通用代理工具超出了范围，除非该页面直接涵盖线束设计、上下文管理、评估、运行时控制或其他可靠性关键线束原语。 - 课程和学习资源 - 背景、内存和工作状态 - 背景设计和交付 - 内存和知识系统 - 约束、护栏和安全自主 - 工具设计和执行边界 - 安全、授权和策略 - 操作自主和可靠性 - 规格、代理文件和工作流程设计 - 指令文件和格式 - 规格驱动开发 - 操作原理和人力
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agemt, agentic, agentic-ai, ai, ai-agents, harness
+
+---
+
+### 🌟 [WritingTools](https://github.com/theJayTea/WritingTools)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 2,415
+- **核心概述**: 全球最智能的全系统语法助手； Apple Intelligence 写作工具的更好版本。适用于 Windows、Linux 和 macOS，具有免费的 Gemini API、本地法学硕士等。
+- **大概是做什么的**: 🍎 使用 Mac？跳转到 macOS（原生 Swift 端口）部分 → macOS 使用 AI 在整个系统范围内即时校对和优化您的写作：https://github.com/user-attachments/assets/d3ce4694-b593-45ff-ae9a-892ce94b1dc8 单击即可汇总内容（网页、YouTube 视频、文档...）： https://github.com/user-attachments/assets/76d13eb9-168e-4459-ada4-62e0586ae58c 添加您自己的按钮，发挥无限潜力！ ✨ 什么是书写工具？写作工具是一款受 Apple Intelligence 启发的应用程序，适用于 Windows、Linux 和 macOS，可通过 AI LLM（基于云或本地）增强您的写作能力。只需在系统范围内按一下热键，您就可以修复语法、根据您的指示优化文本、总结内容（网页、YouTube 视频等）等等。它是目前世界上最智能的全系统语法助手，适用于任何语言，并已在 🔥 30 多种全球出版物中得到推荐（Beebom、XDA、How-To Geek、Neowin、Windows Central...）。 2024 年 10 月，Writing Tools 还跻身 GitHub 上全球 10 大最热门人工智能程序之列。嗨！我是杰赛，一个
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, artificial-intelligence, gemini, grammar-checker, largelanguagemodel, llm
+
+---
+
+### 🌟 [mathcode](https://github.com/math-ai-org/mathcode)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 703
+- **核心概述**: MathCode：前沿数学编码代理
+- **大概是做什么的**: MathCode：前沿数学编码代理 项目页面：math-ai-org/mathcode MathCode 是一款内置精益功能的终端人工智能编码助手。代理可以检查目标、检查候选者、搜索声明并以交互方式验证完成的证明。 setup.sh 准备日常使用的版本检查。它下载或修复捆绑的运行时，准备本地配置，并为未来的 shell 安装用户本地数学代码启动器。在 Linux 上，在引导 Lean 工作区之前还需要 bwrap （程序包 bubblewrap ）和 socat。如果您当前的 shell 尚未重新加载其配置文件，请使用 ./run 作为捆绑包本地后备。设置职责 - 当捆绑的运行时文件丢失、陈旧、未经验证或无效时，下载匹配的 mathcode-vX.Y.Z- .tar.gz 资源 - 当需要修复时，从该存档中恢复 ./mathcode 、 ./mathcode-webui 和vendor/ripgrep/ - 使用 shasum 验证当前平台 SHA256SUMS.txt 条目或 - 在替换之前验证下载的运行时文件现有的工作记录发布元数据
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, coding, foundation-models, llm, reasoning
+
+---
+
+### 🌟 [whatsapp-agentkit](https://github.com/Hainrixz/whatsapp-agentkit)
+- **项目语言**: Python
+- **星标数量**: ⭐ 427
+- **核心概述**: 在 30 分钟内使用 AI 构建您的 WhatsApp 代理。克劳德·科德 (Claude Code) 采访您并编写所有代码。 Zernio 或 Meta Cloud API。不知道如何编程。
+- **大概是做什么的**: WhatsApp AgentKit 将 20 分钟的对话变成为您的客户提供服务的 WhatsApp 代理。它不是一个可以复制和改编的模板。这是一个指令系统，Claude Code 会阅读该指令系统来采访您有关您的业务，然后为您编写、测试和部署完整的代理：服务器、与 WhatsApp 的连接、每个客户端的内存以及赋予其个性的提示。你不写代码。你回答问题。我们这样做是因为设置 WhatsApp 代理的 90% 工作不是人工智能，而是管道：网络钩子、签名、令牌、重试、部署。该部分已经在这里解决和审核。剩下的就是只有您知道的唯一事情：您的业务如何运作。它是开源的，获得 MIT 许可，并且是用西班牙语编写的，因为它是为构建者制作的。然后打开 Claude Code 并写入命令： 就这样。克劳德·科德将引导您从那里开始。 start.sh 只需检查您的环境。实际系统使用 /build-agent 启动，这会导致 Claude Code 读取 CLAUDE.md 并执行五个阶段。第 1 阶段 — 检查您的环境 检查 Python 3.11+，创建文件夹
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, anthropic, chatbot, claude, claude-code, fastapi
+
+---
+
+### 🌟 [myrlin-workbook](https://github.com/therealarthur/myrlin-workbook)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 372
+- **核心概述**: 用于 AI 编码 CLI 的开源工作区管理器：一个浏览器应用程序中的 Claude Code 和 ChatGPT Codex。发现磁盘、嵌入式终端、电话就绪、成本跟踪、看板、文档上的每个会话。 Windows、macOS、Linux。
+- **大概是做什么的**: 您计算机上的每个 Claude Code 和 ChatGPT Codex 会话都位于一个侧边栏中。观看 30 秒的教程，我整天运行 Claude Code，并开始同时运行 Codex。在这台机器上，两者之间有数百个对话，分布在两个彼此不了解的 CLI 中，在十几个项目文件夹中，返回其中一个的唯一方法是从列表中选择一个 UUID。同时打开三个，您就需要在终端窗口之间切换。重新启动机器，然后您可以手动重新打开所有内容。在窗格中���上滚动以查找代理一小时前执行的操作，然后您会到达缓冲区的顶部，因为编码代理会重新绘制其屏幕并且根本不保留回滚。所以我建造了我想要的东西。 Myrlin 读取已存储数据的两个 CLI，按其运行的文件夹对每个会话进行分组，并在浏览器选项卡中的真实终端中打开其中的任何一个。您可以回滚整个对话，在一个小时的历史记录中拖动选择并复制它。费用来自成绩单。文档、看板和 git 工作树位于它们所属的会话旁边。它如
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agents, chatgpt, claude-code, codex, coding-agents
+
+---
+
+### 🌟 [deepseek-harness-studio](https://github.com/fufankeji/deepseek-harness-studio)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 319
+- **核心概述**: DeepSeek Harness 零代码桌面端｜一键启动，支持 Windows 与 macOS；内置插件发现、热点插件推送、一键安装与管理、AI 智能推荐和视觉增强。
+- **大概是做什么的**: DeepSeek Harness Studio 官方网站 · 中文 · English 赋范空间出品 · DeepSeek Harness 的零代码桌面增强 视觉增强 + 插件市场 + Preset 广场 · 0 代码一键部署和使用 自动发现并推送生态新插件，AI 智能推荐值得安装的能力；无需命令行即可完成搜索、校验、安装、启停与卸载。 下载 macOS arm64 开发预览版 · 下载 Windows x64 开发预览版 https://github.com/user-attachments/assets/0717f7c7-a872-4d2b-acc2-3a1c4874c732 状态说明：✅ 已支持；🗓️ 规划中。桌面开发工作区、公开插件中心、Preset 广场、应用中心和中文 DeepSeek 控制已经可用；规划能力会在真实功能可运行后更新状态。 插件发现与热门推荐 ✅ 自动读取公开目录，按精选、最近更新、生态热门和使用场景呈现值得关注的插件，并支持按名称、功能或作者搜索。 公开插件中心 ✅ 查看确定版本、能力、权限、兼容性与风险，一键在线安装，并集中管理插件的启用、停用、更新和卸载。 Preset 广场与内置工作流 ✅ 浏览赋范官方与社区 Agent Preset，查看能力组成后完成一键安装，并从“已安装”直接用于新会话；当前内置六套真实场景工作流。 应用中心与内置 AI 应用 ✅ 从独立一级入口启动拥有专属界面、数据和运行流程的完整 AI 应用；首个内置应用 FF–LLM Wiki 提供企业文档、Wiki、知识图谱、溯源问答与质量评估。 桌面开发工作区 ✅ 在本地打开项目、管理会话与工作区，调用 Harness 的模型、工具、Skills 和插件能力，并直接修改完整源码。 视觉增强 ✅ 为 DeepSeek 文本工作流补齐图像理解：读取对话附件和工作区图片，再把可追溯的识别结果交给 Agent。 中文 DeepSeek 控制 ✅ 使用中文权限选项和适配 DeepSeek 的思考模式，在输入区直接完成会话级选择。 内置皮肤与自由换肤 ✅ 默认使用“大肥鱼拟人”皮肤，可切换“官方原版”或“云端猫咪”，也可选择本地图片并自动适配界面配色。 独立 MCP、Skills 与工具管理 🗓️ 后续提供不依赖 Bundle 包装的 MCP Server、Skills 与工具发现和连接管理，按项目自由组合 Agent 能力。 自定义 Agent 与多 Agent 协作 🗓️ 在现有 Preset 安装和使用能力之上，自定义 Agent 与子 Agent，把编码、测试
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, deepseek, deepseek-harness, deepseek-harness-studio, desktop-app, developer-tools
+
+---
+
 ## 🕔 2026-08-19 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 232 个候选项目中筛选出 6 个未推荐过的新项目。
