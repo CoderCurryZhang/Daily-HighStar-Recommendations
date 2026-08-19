@@ -1,3 +1,67 @@
+## 🕔 2026-08-19 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 232 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [llm-internals](https://github.com/amitshekhariitbhu/llm-internals)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,480
+- **核心概述**: 逐步学习 LLM 内部原理 - 从标记化到关注推理优化。
+- **大概是做什么的**: 逐步学习 LLM 内部原理 - 从标记化到关注推理优化。由 Outcome School 创始人 Amit Shekhar 准备和维护 注：随着我撰写更多博客并创建更多关于新主题的视频，该系列将继续发展。继续学习。大型语言模型 (LLM) 在深入了解 LLM 的内部结构之前，最好先了解 LLM 的实际含义。在本视频中，我们将介绍以下内容： 让我们开始吧：AI 工程解释：LLM、RAG、MCP、代理、微调、大型语言模型 (LLM) 中的量化标记化 在本视频中，我们将了解标记化以及为什么它们对于大型语言模型至关重要。让我们开始吧：大型语言模型 (LLM) 中的标记化 LLM 中的字节对编码 在本博客中，我们将了解 BPE（字节对编码）——大多数现代大型语言模型 (LLM) 使用的标记化算法，用于在处理文本之前将文本分解成更小的片段。我们将通过一个简单的示例逐步了解 BPE 是什么、为什么需要它以及它是如何工作的。我们将涵盖t
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: attention-is-all-you-need, attention-mechanism, large-language-models, learn-llm, llm, llm-internals
+
+---
+
+### 🌟 [tongflow](https://github.com/tong-io/tongflow)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 860
+- **核心概述**: TongFlow — 多模式工作流程工作室和引擎（canvas + Python 插件引擎）和 dsh-tongflow（DeepSeek Harness studio 插件）
+- **大概是做什么的**: TongFlow：开源多模式 GenAI 工作流程工作室 英语 · 简体中文 · 日本语 基本 — 输入文本（添加），生成图像（转换），然后将它们混合为一个（撰写）。中级 —（添加主题 → 编写脚本 → 生成语音）+（角色描述 → 生成图像）→ 对口型视频 = 会说话的头像。高级 — 生成歌词+歌曲+人物+场景+故事板→制作音乐视频。借助 TongFlow，您可以通过生成式 AI 扩展您的想象力并扩展您的想法，现在就尝试一下吧！ TongFlow 桌面应用程序是 app.tongflow.com 上的云工作室周围的轻量级 (10 MB) shell — 安装它、登录并开始创建。云工作室还可以在任何现代浏览器中运行。步骤 1 - 安装桌面应用程序 - macOS（通用 - Apple Silicon 和 Intel）：TongFlow-mac-universal.dmg - Windows：TongFlow-win-x64.msi 所有版本均位于“发布”页面上。 macOS：构建尚未经过 Apple 公证，因此 Gatekeeper 将阻止首次启动（“TongFlow 已损坏且无法打开”）。将应用程序移至应用程序后，清除隔离标志一次，然后
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: 3d, agent, ai, ai-tools, aigc, canvas
+
+---
+
+### 🌟 [agentic-ai-landscape](https://github.com/antgroup/agentic-ai-landscape)
+- **项目语言**: Python
+- **星标数量**: ⭐ 533
+- **核心概述**: 数据驱动的代理景观和见解。由 Ant Open Source 和clusionAI 制作。
+- **大概是做什么的**: Agentic AI 格局和趋势 🧐 最新博客：Agentic AI 2026：当黑客马拉松热潮降温时 Agentic AI 格局 2026 2026 年格局遵循三层 Agentic AI 架构：Agent Infra 组织应用程序、框架、运行时和工具生态系统；模型基础设施涵盖数据、训练、服务和部署堆栈；和大型模型提供了为上面各层提供动力的基础。该景观突出显示了当前最能代表每个生态系统的项目，而不是试图覆盖每个项目。访问 InclusionAI Insights，了解更完整、动态的 Agentic AI 生态系统排���、项目数据和开发人员详细信息。 - 景观报告——对生态系统每一层如何演变的过时的双语分析。 - 案例研究——深入研究单个项目或主题。 - 每周报告——自动生成新出现的项目的快照。规范数据集是 data/agentic-ai-projects.csv 。每行都以 GitHub repo id 为键，携带 GitHub 元数据（星号、分叉、许可证、语言、主题）、OpenDigger 信号
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agi, collections, ecosystem, inclusionai
+
+---
+
+### 🌟 [underthesea](https://github.com/undertheseanlp/underthesea)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,804
+- **核心概述**: 海底世界-AI助手
+- **大概是做什么的**: 开源 Agentic AI 工具包 🌊 Agentic AI 工具包。从 v9.3.0 开始，Underthesea 是一个开源 Agentic AI 工具包，内置越南语 NLP 功能。它提供多提供商 AI 代理支持和一套用于越南语自然语言处理的 Python 模块。 🎁 支持我们！每一点支持都有助于我们实现我们的目标。太感谢了。 💝💝💝 零外部依赖的多提供商 AI 代理。仅使用 Python stdlib ( urllib + json ) 与 LLM API 进行通信 — 无需 openai 、 anthropic 或 google-genai 软件包。提供程序： OpenAI Azure OpenAI Anthropic Claude Google Gemini 每个提供程序都是其自己的类，遵循 Anthropic SDK 模式。 12 个内置工具：计算器、日期时间、网络搜索、维基百科、文件 I/O、shell、python exec。长时间运行的代理，具有上下文重置和会话之间的结构化切换，遵循人择利用模式。每个代理调用都会自动追踪到 /.underthesea/traces/ 。使用 UNDERTHESEA TRACE DISABLED=1 禁用。通过 A2A 协议公开任何代理 — 通过 HTTP+SSE 的 JSON-RPC 消息/流
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, agents, ai, assistant, hermes-agent, llm
+
+---
+
+### 🌟 [Modern-Red-Team-Infrastructure](https://github.com/dn9uy3n/Modern-Red-Team-Infrastructure)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 314
+- **核心概述**: 提出了一个全面的现代架构模型来集成平台解决方案和工具来支持专业的红队。
+- **大概是做什么的**: 现代红队基础设施提出了一个全面的现代架构模型来集成平台解决方案和工具来支持专业的红队。这包括参考文档、工作流程、报告模板和工具，以支持红队活动（特别是红队活动）和红队一般运营。参考 描述 红队 GitLab 手册 GitLab 的开源红队运营手册，涵盖进行企业级对抗性活动的方法、流程、工具和最佳实践。 IBM 红队 IBM 对红队方法、对手模拟方法以及组织如何利用进攻性安全测试来加强防御的概述。红队社区驱动的平台为进攻性安全专业人员聚集了红队工具、技术、资源和知识共享。 VECTR VECTR 是一个现代平台，用于可视化、灵活且可扩展的基于图形的调查。适用于网络安全分析师和调查人员。推荐认证，全面提升红队成员技能。证书
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, attack-defense, c2, cobalt-strike, evasion, evasion-techniques
+
+---
+
+### 🌟 [mu](https://github.com/micro/mu)
+- **项目语言**: Go
+- **星标数量**: ⭐ 335
+- **核心概述**: Mu是个人经纪人
+- **大概是做什么的**: 个人代理人。它有一个电子邮件地址。通过你的邮件、手机或任何可以发送消息的东西给它写信，它会在线程中回复并记住最后一条消息。其背后是各种工具：新闻、邮件、搜索、天气、市场、视频、地点、文件、联系人、日历和您自己的文档，可通过一台 MCP 服务器和令牌访问。 One Go 二进制文件、您的域、您的数据。它有一个地址。 agent@yourdomain 达到默认值；您制作的每个代理都有自己的 you+research@yourdomain 。写信给它，它就会回答。在线程中，来自您的邮件客户端、手机、表单、cron 作业或其他代理 — 任何可以发送电子邮件的东西。它会回复写入的位置。一个收件箱，无论它以何种方式到达。每一次对话——地址、网络、Discord、Telegram、WhatsApp——都是一条记录，可以在 /inbox 中读取。无论最后��个消息来自哪个渠道，代理都会记住它。背后的工具。新闻、网络搜索、邮件、市场、天气、地点、交通、文件、联系人、日历以及您自己的笔记和文档，通过一台 MCP 服务器和令牌。您的代理人使用它们；也可以
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, mcp, micro, mu
+
+---
+
 ## 🕔 2026-08-18 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
