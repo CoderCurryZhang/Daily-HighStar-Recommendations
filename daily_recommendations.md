@@ -1,3 +1,67 @@
+## 🕔 2026-08-19 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 287 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [mcp-atlassian](https://github.com/sooperset/mcp-atlassian)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,771
+- **核心概述**: 适用于 Atlassian 工具（Confluence、Jira）的 MCP 服务器
+- **大概是做什么的**: 适用于 Atlassian 产品（Confluence 和 Jira）的模型上下文协议 (MCP) 服务器。支持云和服务器/数据中心部署。 https://github.com/user-attachments/assets/35303504-14c6-4ae4-913b-7c25ea511c3e https://github.com/user-attachments/assets/7fe9c488-ad0c-4876-9b54-120b666bb785 1. 获取您的 API 令牌 转至https://id.atlassian.com/manage-profile/security/api-tokens 并创建令牌。对于服务器/数据中心，请改用个人访问令牌。请参阅身份验证。 2. 配置您的 IDE 添加到您的 Claude Desktop 或 Cursor MCP 配置： 服务器/数据中心用户：使用 JIRA PERSONAL TOKEN 而不是 JIRA USERNAME + JIRA API TOKEN 。有关详细信息，请参阅身份验证。使用与您的 Atlassian 凭据相同的 uvx 服务器：在添加后添加 --scope 项目以将配置保留在当前项目中。有关当前安装和 CLI 详细信息，请参阅 Autohand 代码。让您的 AI 助手： - “查找 PROJ 项目中分配给我的问题” - “搜索 Confluence 中的入门文档” - “为登录问题创建错误单” - “将 PROJ-123 的状态更新为完成” 完整文档
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: atlassian, confluence, jira, mcp
+
+---
+
+### 🌟 [keeper.sh](https://github.com/ridafkih/keeper.sh)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,253
+- **核心概述**: 日历同步工具和通用日历 MCP 服务器。在 Google、Outlook、Office 365、iCloud、CalDAV 或 ICS 上聚合、同步和控制日历。
+- **大概是做什么的**: Keeper.sh 是一个简单的开源日历同步工具。它允许您从 Google 日历、Outlook、iCloud、Fastmail、CalDAV 服务器或远程托管的 iCal 和 ICS 链接中提取事件，并将它们推送到一个或多个日历，以便时间段可以在所有日历中对齐。 Google、Outlook、iCloud、Fastmail 和 CalDAV 是一流的集成，它们都可以用作源或目标，而 iCal 和 ICS 链接只能拉动。它还充当全球 MCP 服务器和 API，供您或您的代理通过一个方便的界面管理您的所有日历。推荐的运行方式是 keeper.sh 上的托管版本：相同的代码，减去服务器、域、升级、备份以及您需要自己注册的 Google 和 Microsoft 登录应用程序。自托管是一流的途径，当您自托管时，所有专业版功能都包含在内 - 这不是试用，也不会消失。它花费你维护费用而不是 5 美元。 - 一流的 Google 日历、Outlook、iCloud、Fastmail 和 CalDAV 集成，每个都可用作源或目标
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: bun, caldav, calendar, calendar-sync, google-calendar, ical
+
+---
+
+### 🌟 [better-chatbot](https://github.com/keinsaasforever/better-chatbot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,166
+- **核心概述**: 以前是更好的聊天机器人。 Navigator 是一个用于代理、MCP 和工作流程自动化的开源 AI 工作区。
+- **大概是做什么的**: Keinsaas Navigator - 适合个人和团队的更好的开源人工智能聊天机器人。最初由崔成根创作。 .+至少+一个+LLM+提供商+API+密钥+（OpenAI、+Claude、+或+Google）+是必需的，+但是+您+可以+添加+所有+它们。+请参阅下面的+链接+了解详细信息。 &envLink=https://github.com/cgoinglove/better-chatbot/blob/main/.env.example&demo-title=better-chatbot&demo-description=An+开源+Ch atbot+Template+Built+With+Next.js+and+the+AI+SDK+by+Vercel.&products=[{"type":"集成","protocol":"存储","productSlug":"neon","in tegrationSlug":"neon"},{"type":"integration","protocol":"storage","productSlug":"upstash-kv","integrationSlug":"upstash"},{"type":"blob"}] ) 🚀 现场演示 在下面的预览中查看实际体验！ - MCP 工具演示：与工具聊天 - 图像生成演示：与图像生成聊天 让您的应用程序在几分钟内运行！无需安装或付款。您只需要一个 AI Provider API 密钥（OpenAI、Claude、Gemini 等）。其他一切都在免费层上运行 - 数据库、文件存储和托管。 👉 点击本指南，只需点击几下即可部署您的网站 Kei
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-chatbot, automation, chatbot, claude
+
+---
+
+### 🌟 [floe-guard](https://github.com/Floe-Labs/floe-guard)
+- **项目语言**: Python
+- **星标数量**: ⭐ 515
+- **核心概述**: AI 语音代理的支出表和预算门。每次通话计量 STT + TTS + LLM + 电话，开箱即用（Pipecat、LiveKit — Python 和 TypeScript）。在它穿过你的天花板之前硬停止下一个转弯。本地、无帐户、无遥测。由 Floe 构建 - 语音 AI 的成本控制。
+- **大概是做什么的**: AI 代理的支出表和预算门。在下一个 LLM 呼叫、语音转向或工具调用超过您的美元上限之前硬停止 - 失控循环在 0.10 美元而不是 4,000 美元时终止。默认情况下，进程内、无帐户、无需注册、无遥测。 Python ( pip install floe-guard )：普通 check() / record() 或 OpenAI · Anthropic · Gemini · CrewAI · LiteLLM · LangChain · LangGraph 的适配器； Pipecat 和 LiveKit 的语音适配器；预先呼叫入场门。 TypeScript ( npm i floe-guard )：Vercel AI SDK 中间件，原生 LiveKit · Vapi · Retell 语音适配器。请参阅适配器矩阵，了解 Python 与 TypeScript 中提供的内容。硬停止是基于合同的：适配器自动门控 LLM 调用；对于付费工具，在调用运行之前保留 tool() /结算 tool() 块（事后仅记录 tool() 米 - 它无法停止已经发出的调用）。最适合使用 Floe 技能的 Floe Guard 是一个本地上限 - 它会在您的预算耗尽之前停止有偿工作，独立，无需帐户。使用 server-si 一键管理您代理的整个供应商账单（LLM、语音、电话、数据）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-agents-cli, ai-safety, bland-ai, budget, cost-tracking
+
+---
+
+### 🌟 [go-modern-guidelines](https://github.com/JetBrains/go-modern-guidelines)
+- **项目语言**: Go
+- **星标数量**: ⭐ 813
+- **核心概述**: 帮助 AI 编码代理编写现代 Go
+- **大概是做什么的**: 现代 Go 指南 该存储库包含代码代理的指南，可帮助他们编写现代 Go 代码。例如，遵循这些准则的代理使用 max(a, b) 代替 if-else 块，使用 slices.Contains 代替手动循环，使用 cmp.Or(a, b, c) 代替 nil 检查链。它还知道最近添加的内容，例如用于获取指向值的指针的 new(42) 和用于类型安全错误匹配的Errors.AsTypeT——两者都来自 Go 1.26。该指南涵盖了从 Go 1.0 到 Go 1.27 的最有用的功能，包括现代化分析器所针对的所有内容。代理��： - 从 go.mod 检测项目的 Go 版本 - 使用该版本之前可用的语言功能和 stdlib 添加 - 更喜欢现代习惯用法而不是旧模式 所有编码代理都倾向于生成过时的 Go。原因有两个：1.训练数据滞后。模型不知道训练截止后添加的功能。如果他们从未见过Errors.AsType[T] (Go 1.26)，他们就不能使用它。 2.频率偏差。即使对于模型知道的特征，它也经常选择较旧的模式。 i := 0; 还有更多内容我<n；我++我
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, coding-agent, developer-tools, go, golang, guidelines
+
+---
+
+### 🌟 [meridian](https://github.com/Meridiona/meridian)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 155
+- **核心概述**: 不要让你的工作被忽视。 Meridian 会自动记录您所做的工作和完成的工作，每天进行总结，并自动为您起草项目票据。
+- **大概是做什么的**: 了解 Meridian 如何将一天的屏幕活动转化为时间线、每日摘要和更新的票证，而无需手动输入任何内容。 https://github.com/user-attachments/assets/5cc26036-3842-4748-85c8-097a8b71f20d Meridian 自动重建您的一天 Meridian 根据屏幕上实际发生的事情重建您的一天，因此您可以像录音一样重新浏览它，而不是试图记住。您的一天总结 在一天结束时，Meridian 会告诉您实际完成了什么，是什么让您偏离了计划，并为您提供了一份已经写好的站立报告，可以粘贴到 Jira 中。您的工作日志更新，为���起草 Meridian 会编写您的工作日志更新并准备好发布。您只需查看它并点击发送即可。问题 Meridian 已回答 您询问 Meridian 的作用 “我实际上在这张票上做了什么？”根据您实际所做的事情起草更新，准备发布。 “三个月前的今天我在做什么？”保存每一天发生的事情，这样您就可以将其中任何一个恢复起来。 “我昨天做了什么？”连夜根据实际情况写出你的脱口秀
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-memory, chatgpt, claude, claude-code
+
+---
+
 ## 🕔 2026-08-19 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 258 个候选项目中筛选出 6 个未推荐过的新项目。
