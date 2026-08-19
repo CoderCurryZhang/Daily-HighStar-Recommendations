@@ -1,3 +1,67 @@
+## 🕔 2026-08-19 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 258 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [world2agent](https://github.com/machinepulse-ai/world2agent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,133
+- **核心概述**: World2Agent（W2A）是一个开放协议，它标准化了人工智能代理如何感知现实世界。
+- **大概是做什么的**: 特工无法对他们无法感知的事物采取行动。观看 W2A 概念视频 什么是 World2Agent？ World2Agent (W2A) 是一种开放协议，用于标准化 AI 代理感知现实世界的方式。安装传感器，您的代理即可获得结构化的实时数据。自由交换传感器——它们都采用相同的模式。 W2A 不是一个产品。这是一个开放的协议和邀请。我们建造了第一个传感器——真正的突破将来自社区。 → 为什么选择 W2A？全文 在使用 W2A 时，我们欢迎您使用我们的合作伙伴 Zeabur 来部署您的代码或代理，让全球用户都能在线体验！世界 → 传感器 → 代理 传感器监视数据源并按照 W2A 协议发出结构化数据。您的代理收到信号并决定做什么。 → 信号格式规范 · 架构深入探讨 W2A 附带适用于 Claude Code、Hermes 和 OpenClaw 的本机代理运行时插件 — 选择您已使用的运行时。在活动会话中，安装 world2agent 插件：添加传感器 - 例如，黑客新闻报道、前沿 AI 实验室帖子：使用插件 c 重新启动 Claude Code
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, proactive-agent, protocol
+
+---
+
+### 🌟 [claude-forge](https://github.com/sangrokjung/claude-forge)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 805
+- **核心概述**: 使用 11 个 AI 代理、36 个命令和 15 种技能为 Claude Code 提供增压 — 受 oh-my-zsh 启发的 claude-code 插件框架。包括 6 层安全挂钩。 5 分钟安装。
+- **大概是做什么的**: English · 한국어 · 中文 oh-my-zsh for Claude Code — 一次安装，完整的专业套件 里面有什么 • 架构 • v4.0.0（2026 年 8 月） — 以对抗性验证循环为主导：每个行为变化都由新的、独立的审阅者 ( adversarial-reviewer ) 检查，该审阅者没有编写代码，也看不到制造者的推理 — 制造者≠检查者，直到检查员问题批准。这不是理论上的：构建 v4.0 本身时，循环捕获了维护者自己的 PR 中的三个真正缺陷（58, 61）——一个 CI 奇偶校验守卫传递了自己的回归，同一守卫的修复将相同的漏洞向下一级，以及一个默默地固定了一年前版本的依赖上限。带有实际信封的完整工作示例：docs/VERIFICATION-LOOP.md。还附带一个可靠性包（无人值守的 API 错误自动恢复、跨 /compact 的会话中继、doom-loop + 编辑时验证钩子、选择加入的预提交秘密防护以及它们构建的共享 libs/hook-guard.sh — 接线指南：docs/RELIABILITY.md ）、调试升级链（系统调试器→ rca-debu）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-assistant, ai-coding, ai-framework, ai-pair-programming, anthropic
+
+---
+
+### 🌟 [MASFactory](https://github.com/BUPT-GAMMA/MASFactory)
+- **项目语言**: Python
+- **星标数量**: ⭐ 540
+- **核心概述**: 用于使用 Vibe Graphing 编排多代理系统的以图为中心的框架。
+- **大概是做什么的**: MASFactory 是一个以图形为中心的框架，用于通过 Vibe Graphing 编排多代理系统：从意图开始，生成图形设计，在可视化环境中预览和完善它，将其编译成可执行工作流，并在运行时跟踪节点状态、消息和共享状态。 - 论文：http://arxiv.org/abs/2603.06007 - 文档：https://docs.masfactory.dev/ - 项目网站：https://masfactory.dev - 演示视频：https://www.youtube.com/watch?v=ANynzVfY32k - Vibe 图形解释器（发现 AI）：https://www.youtube.com/watch?v=QFlQuX cddk - 🪄 Vibe Graphing（意图 → 图形）将自然语言意图转化为结构设计，然后迭代地收敛到可执行、可重用的工作流程。 - 🧱 图式组合使用 Node / Edge 显式描述工作流程和现场契约；支持子图、循环、分支和复合组件。 - 👁️ 可视化和可观察性 MASFactory Visualizer 提供拓扑预览、运行时跟踪和人机交互。 - 🧠 Context 协议 ( ContextBlock ) 组织 Memory / RAG / MCP 上下文
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: graph, llm, mas, multi-agent-systems
+
+---
+
+### 🌟 [aigc-weekly](https://github.com/miantiao-me/aigc-weekly)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 554
+- **核心概述**: Agili 的 AIGC 周刊 - 一个由 Agentic AI Agent ���动的 AIGC（人工智能生成内容）精选周刊。
+- **大概是做什么的**: 一个由 Agentic AI Agent 驱动的 AIGC（人工智能生成内容）精选周刊。本项目利用最新的 AI 和 Serverless 技术，为您提供最新的资讯、工具和资源。 - AI 智能策展 ：利用 Agentic AI Agent 自动发现和筛选内容。 - 现代技术栈 ：基于 Next.js 15、Payload CMS 3.0 和 Cloudflare 边缘基础设施构建。 - Serverless 架构 ：完全部署在 Cloudflare (Workers, D1, R2, Containers) 上，实现高性能和低延迟。 - Agent MCP 集成 ：使用模型上下文协议 (MCP) 允许 AI Agent 直接与 CMS 交互。 - 框架 ：Next.js (App Router) & OpenNext - CMS ：Payload CMS (Headless) - 数据库 ：Cloudflare D1 (SQLite) - 存储 ：Cloudflare R2 (对象存储) - Agent 框架 ：OpenCode - Agent 运行时 ：Cloudflare Containers （需要付费套餐，或者在本地运行） - 边缘运行时 ：Cloudflare Workers 1. Next.js 应用 ( app/ ) ：负责面向读者的前端页面以及 Payload CMS 管理界面。 2. OpenCode Agent ( agent/ ) ：一个独立的 Agent 服务，运行在 Cloudflare Containers 上，负责收集信息并通过 MCP 更新 CMS。 3. Cloudflare Worker ( worker/ ) ：转发请求到 Container 并控制其生命周期。 - Node.js ：v22 或更高版本 - pnpm ：v10 或更高版本 - Cloudflare 账号 ：用于 D1、R2 和 Workers 部署。 - 复制 .env.example 为 .env.local 并填写相应值。 - 复制 worker/.env.example 为 worker/.env.local 并填写相应值。 确保你已��配置了必要的 Cloudflare 绑定, 你需要在 wrangler.jsonc 中配置以下绑定： - PAYLOAD SECRET ：一个安全的随机字符串。 3. 配置 MCP 和 Agent ： 你可以在 agent/opencode.json 配置 MCP Server 和模型，在 agent/.opencode
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, claude-agent, claude-code, cloudflare-containers, payloadcms
+
+---
+
+### 🌟 [LeanCopilot](https://github.com/lean-dojo/LeanCopilot)
+- **项目语言**: C++
+- **星标数量**: ⭐ 1,313
+- **核心概述**: 法学硕士作为精益定理证明的副驾驶
+- **大概是做什么的**: 精益副驾驶：法学硕士作为精益定理证明的副驾驶 🚩 新闻：我们的论文被 2025 年国际神经符号系统会议 (NeuS) 接受。费城见！ Lean Copilot 允许在 Lean 中本地使用大型语言模型 (LLM) 来实现证明自动化，例如建议策略/前提和搜索证明。您可以使用 LeanDojo 中的内置模型，也可以使用您自己的在本地（带或不带 GPU）或云端运行的模型。 1. 在项目中使用 Lean Copilot 1. 添加 Lean Copilot 作为依赖项 1. Lean Copilot 入门 1. 策略建议 1. 前提选择 1. 自带模型 1. 使用预构建的系统库 支持的平台：Linux（优先）、macOS（优先）、Windows 和 Windows WSL。 Optional (recommended if you have a CUDA-enabled GPU): CUDA and cuDNN. Required for building Lean Copilot itself (rather than a downstream package): CMake = 3.7 and a C++17 compatible compiler.下游包通常会下载预构建版本而不是需要这些版本，除非在我们不发布版本的平台上
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: formal-mathematics, lean, lean4, llm, llm-inference, machine-learning
+
+---
+
+### 🌟 [Argus-Agentic-SOC-Platform](https://github.com/Sec-Link/Argus-Agentic-SOC-Platform)
+- **项目语言**: Python
+- **星标数量**: ⭐ 299
+- **核心概述**: 开源 AI 原生代理 SOC 平台
+- **大概是做什么的**: Argus-Agentic-SOC-Platform 该存储库包含 Argus-Agentic-SOC-Platform — 一个 AI 原生代理安全运营中心 (SOC) 平台，专注于统一警报摄取、事件调查、票务协作、资产关联、工作流程编排和 AI 辅助分析。该项目采用前后端分离的架构：前端使用 Next.js + React 构建，提供操作控制台，后端使用 Django + Django REST Framework 提供 API 和编排，PostgreSQL 是主要数据存储。可选择支持 Elasticsearch 作为外部警报源。 1. 产品定位 该平台通过开源解决方案将核心 SOC 对象整合���一个产品中： - 警报：警报摄取、缓存、搜索和显示 - 票证：事件/票证管理和协作 - CMDB：资产库存和上下文链接 - 仪表板：操作仪表板和可视化 - 集成：连接器和外部配置 - 关联：关联规则和分析 - 工作流/编排器：自动化和自动化
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-soc, ai, ai-soc, security, soc
+
+---
+
 ## 🕔 2026-08-19 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 250 个候选项目中筛选出 6 个未推荐过的新项目。
