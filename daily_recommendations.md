@@ -1,3 +1,67 @@
+## 🕔 2026-08-20 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [maka](https://github.com/apache/maka)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,620
+- **核心概述**: Apache Maka（孵化）是本地优先的 AI 代理工作区。模型消息、工具调用、工具结果、权限决策和终止事件都记录为仅附加日志。
+- **大概是做什么的**: 专为实际工作而构建的本地优先代理工作区。 Maka 所做的不仅仅是回答问题。通过受控权限，它可以检查项目、执行工具、生成工件，并将模型消息和工具调用保留为可恢复的执行事实。桌面、终端 TUI、非交互式 CLI 和 Maka 评估主题均通过 Runtime Host 执行。 Maka 正在积极开发中。 macOS Apple Silicon 桌面版本是早期公开版本；数据格式、CLI 命令和实验功能可能仍会发生变化。 - 本地优先而不是托管优先：会话、设置和运行记录默认保留在您的计算机上。您可以选择模型连接：云 API、本地模型或兼容网关。 - 日志是运行时：模型消息、工具调用、工具结果和终止事实进入运行时事件日志。会话、UI、模型上下文和恢复都是对该日志的预测。 - 上下文不是历史：工具结果修剪和 LLM 压缩改变了下一个推论所看到的内容，而不将记录的证据视为一次性上下文。 - 执行机构一名
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-runtime, ai, ai-agent, apache, cli, desktop
+
+---
+
+### 🌟 [GenerativeAIExamples](https://github.com/NVIDIA/GenerativeAIExamples)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 4,153
+- **核心概述**: 针对加速基础设施和微服务架构而优化的生成式 AI 参考工作流程。
+- **大概是做什么的**: NVIDIA 生成式 AI 示例 对于希望与 NVIDIA 软件生态系统集成以加速其生成式 AI 系统的开发人员来说，该存储库是一个起点。无论您是构建 RAG 管道、代理工作流程还是微调模型，此存储库都将帮助您将 NVIDIA 与您的开发堆栈无缝且原生地集成。 Llama 3.1 RAG 的代理工作流程（本地 NIM 部署和 LangChain Vision NIM 工作流程工具调用笔记本）这些教程演示了使用 NVIDIA NeMo 微服务的 Data Flywheel 工作流程。它们包括 NVIDIA NeMo 数据存储、NeMo 实体存储、NeMo 定制器、NeMo 评估器、NeMo Guardrails 微服务和 NVIDIA NIM 等组件。 - 使用 NVIDIA NeMo 微服务和 NIM 进行工具调用微调、推理、评估和防护 - 使用 NVIDIA NeMo 微服务和 NIM 嵌入微调、推理和评估 以下教程说明了如何使用 NeMo Auditor 审核大型语言模型以识别不安全提示的漏洞，以及如何使用多语言运行推理
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: gpu-acceleration, large-language-models, llm, llm-inference, microservice, nemo
+
+---
+
+### 🌟 [clipforge](https://github.com/xixihhhh/clipforge)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 582
+- **核心概述**: ClipForge（原『带货剪手』/ daihuo-jianshou）：开源 AI 带货短视频神器——上传一张商品图，AI 自动提炼卖点 + 写种草脚本 + 锁定商品原图不变形 + 配画面/配音/字幕，一键产出抖音小店 / 快手 / 小红书 / TikTok Shop 卖货短视频。0 成本批量出片、开源无水印、本地自部署。也支持一句话主题成片。Open-source AI e-commerce/UGC short-video generator.
+- **大概是做什么的**: ClipForge — 开源 AI 带货短视频神器 ｜ 一张商品图，自动出卖货视频 把一张商品图，变成会出单的卖货短视频。 上传商品图 → AI 提炼卖点 · 写种草脚本 · 锁定商品原图不变形 · 配音 + 字幕 + BGM → 几十秒产出能直接发 抖音小店 / 快手 / 小红书 / 视频号 / TikTok Shop 的带货视频。 一个人一天出几十条 · 0 成本批量 · 开源无水印。 📌 原『 带货剪手 / daihuo-jianshou』，仓库 · Star · 历史全部延续；也支持「一句话主题成片」做任意非带货题材。 🌐 官网: xixihhhh.github.io/clipforge — 30 秒看懂 ClipForge 能帮你卖什么 🧑‍🎓 第一次用？看这篇 👉 小白使用教程（每一步都写清楚） · English tutorial 安装 · 配 Key · 3 分钟出第一条免费片 · 报错对照表 · 数据存哪，全在里面 🧭 双模式工作台 小白模式「脚本→一键成片」全托管；导演模式解锁分镜、导演台全部专业工具 🚦 免费 / AI 双档出片 创建时明选：免费快剪全程 ¥0；AI 生成成片费用标在选项上、脚本确认后才花一次钱（Key 是你自己的，费用付给模型平台） ⚖️ 小白模式质量不缩水 判官团审词、多视图定妆、运镜全部自动融进一键链——五条全托管链先过质量关，小白只是不用操作，不是没有 🎤 卡拉OK真同步 + 冻帧清零 免费配音回传词级时间戳，逐字点亮跟真实语音节奏走、字幕卡在词边界切换；素材按分镜时长搜、短一截自动慢放补齐，2 秒素材配 10 秒分镜的冻帧尾巴成历史 🧱 成片可靠性三重门 坏素材下载即解码校验、自动换下一候选；付费配音失败回退免费引擎绝不哑镜；思考模型脏 JSON 自动清理+重问——全链的雷都拆在花钱和渲染之前 🎭 真实感全家桶 实拍感 Look（手机直出/前置自拍/搁置机位）+ 人声落地（房间底噪+去播音腔）+ 边走边拍/镜头光晕/平台二压感后期 + Seedance 官方 {} 台词语法——专治「一眼 AI」 🪝 吸引力升级 钩子库扩到 16 款（自曝反转/认缺点/淘汰式/成本拆账/评论回应/跟风真香）+ 留人转化硬规则（商品 3 秒入画/中段续命钩/CTA 双落位/软紧迫话术）+ 发布包附评论区运营物料 🎯 商品保真 AI 换背景打光，商品本体一个像素不改 🎞️ 一键整片 判官团撕台词 → 九宫格锁一致性 → Seedance 2.5 一次生成整片，台词由人物原声说出 🎬 真·动态镜头 图生视频 +
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-ugc, ai-video-creator, ai-video-generator, ai-voiceover, aigc, douyin
+
+---
+
+### 🌟 [iai-personal-memory-engine](https://github.com/CodeAbra/iai-personal-memory-engine)
+- **项目语言**: Python
+- **星标数量**: ⭐ 708
+- **核心概述**: 人工智能的网络大脑。它永远不会忘记任何细节，准确地记住您所说的内容，并随着时间的推移了解您的工作方式。免费、本地，可与 Cursor、Claude Code、Codex、OpenClaw、Hermes 等配合使用。麻省理工学院。
+- **大概是做什么的**: 为您的编码代理提供一个能够在您的机器上永远准确记住您所说内容的大脑。适用于人工智能编码助手的最佳开源个人记忆引擎。用代币来收回成本：注入的内存包比它所取代的代理搜索成本低约 88%。每项主张都附带证明它的工具——您自己运行基准测试。快速入门 · 基准测试 · 仪表板 · 讨论 · 中文 你的人工智能助手每次会话都会忘记你。 iai-pme 给它的记忆却没有。记忆风格是自闭的——有意为之：逐字逐句地解释，精确的线索，罕见的事件保持罕见。 （为什么叫这个名字）独立自闭症智力——个人记忆引擎。完全本地化、环境化。适用于 Claude Code、Claude Desktop、Cursor、Codex CLI、Gemini CLI、Cline、Continue.dev、Zed、Cherry Studio、Goose、Aider、Hermes、OpenClaw、Le Chat、Kimi — 任何使用 MCP-over-stdio 的设备。 - 它所做的一切 - 保持最新状态 - AI 助手注意事项 - 状态和限制 本地服务器采用 MCP 协议，并为 Claude 和任何其他 MCP 兼容助手提供长期管理
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, ai-memory, claude, claude-code, codex, cursor
+
+---
+
+### 🌟 [uniterm](https://github.com/ys-ll/uniterm)
+- **项目语言**: Vue
+- **星标数量**: ⭐ 300
+- **核心概述**: 一款轻量级一体化终端，具有 20 多种协议 - SSH、RDP、SFTP、数据库、Kubernetes 等。内置自主 AI 代理，可规划和运行多轮 shell 命令。
+- **大概是做什么的**: 一款轻量级一体化终端，支持 20 多种协议 — SSH、RDP、SFTP、数据库、Kubernetes 等 内置自主 AI 代理，可规划和运行多轮 shell 命令 🌐 主页     📖 用户指南     💻 GitHub     💻 Gitee English     简体中文 - 支持的协议 - 反馈和贡献 全功能终端 远程终端 (SSH) / Telnet / Mosh）、本地和串行终端（PowerShell / CMD / Git Bash / WSL）、文件传输、远程桌面、数据库、容器和服务器监控——涵盖所有远程访问需求。 - 远程终端 — SSH / Telnet / Mosh，带密码或密钥身份验证；包括 SSH 隧道端口转发，因此任何连接都可以通过 SSH 跳转主机进行路由。 - 本地和串行终端 — PowerShell / CMD / Git Bash / WSL 以及具有可配置波特率、数据位、停止位、奇偶校验和本地回显的串行连接。 - 文件传输 — SFTP / FTP / FTPS / SMB / WebDAV / S3 / Zmodem，在 SSH 终端中具有双窗格浏览和 rz / sz 支持。 - 远程桌面 — RDP（Windows 远程桌面）、VNC（Linux 远程桌面）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, containerd, cross-platform, database-client, docker, ftp
+
+---
+
+### 🌟 [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 184
+- **核心概述**: Xquik 代理用于 REST、MCP、webhooks、导出、监控、推文搜索和确认门控发布的技能。不隶属于 X 公司。
+- **大概是做什么的**: X Twitter Scraper API，用于推文、关注者、MCP Xquik 是一项独立的第三方服务。不隶属于 X Corp。“Twitter”和“X”是 X Corp 的商标。请在 6:07 将 Framer 连接到 Claude Code、Codex、Cursor 等，了解 Xquik MCP 的实际应用。 Xquik 为结构化 X 数据和批准的帐户自动化提供 128 个 REST API 操作。它包括搜索、个人资料、关注者、媒体、社区、趋势、监视器、webhooks、导出、MCP 和 SDK。 npm 包 x-developer 包含此技能和插件包。单独的 x-twitter-scraper 包是 TypeScript SDK。 x-developer 捆绑包是 v2.6.4。托管 MCP v2.6.0 通过 2 个工具公开 120 个目录路由。其中，119 个支持 JSON 或文本。二进制支持下载使用 REST。添加 https://xquik.com/mcp 。当前客户端通过 server/discover 协商 MCP 2026-07-28 。现代调用不需要初始化会话。 2025 时代的无状态客户端仍然兼容。请遵循客户端兼容性指南。支持 OAuth 的客户端使用 OAuth 2.1。 ChatGPT 自定义应用程序需要 OAuth。八个凭据、结帐或客人-
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: advanced-search, agent-skill, ai-agent, data-extraction, follower-export, mcp
+
+---
+
 ## 🕔 2026-08-20 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
