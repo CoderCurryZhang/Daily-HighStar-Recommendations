@@ -1,3 +1,67 @@
+## 🕔 2026-08-20 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [openbot](https://github.com/CopilotKit/openbot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 513
+- **核心概述**: 开源人工智能同事每人都有一台自己的计算机：浏览器、文件和工具，每一个动作在发生之前就决定并在发生之后记录。带上任何 AG-UI 代理。
+- **大概是做什么的**: 您可以将真正的工作交给人工智能同事，并真正信任其访问权限。每个人都有一台自己的计算机：一个真正的浏览器，有自己的登录名、自己的文件以及您授予的工具。每个动作在发生之前就决定并在发生之后记录。 copilotkit.ai/openbot · 快速入门 · 功能 · 自带代理 · 架构 · 文档 https://github.com/user-attachments/assets/535ef7ee-1631-4a69-b839-564c56cf90b4 带来任何 AG-UI 代理，无论是在框架上还是手工编写，它都会作为具有自己通道的同事到达。观察它在自己的屏幕上工作，当它到达不应该单独做的事情时接管方向盘，然后将其交还给它。它用组件而不仅仅是散文来回答，整个事情都在 Alpha 上运行，并且正在积极开发中。 OpenBot 还早。期待粗糙的边缘和错误，并期待事情的发展。欢迎提出问题和拉取请求。在您的机器上运行。下面的所有内容都是针对笔记本电脑编写的。开箱即用�� OpenBot 使用 OPENBOT DEV NO AUTH 运行，它会跳过登录并以一位管理员身份接受每个请求。可以连线 Google 登录
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ag-ui, agent-governance, ai-agents, browser-automation, copilotkit, generative-ui
+
+---
+
+### 🌟 [LLM4AD_Next](https://github.com/Optima-CityU/LLM4AD_Next)
+- **项目语言**: Python
+- **星标数量**: ⭐ 409
+- **核心概述**: 新一代自动算法设计平台，让自动化算法设计更容易、更易用
+- **大概是做什么的**: OpenLoopX · LLM4AD Next 从问题描述到可运行的进化算法搜索 — 只需一个命令。 LLM 驱动的自动化算法设计与进化优化 ⭐ 在 GitHub 上为我们加注星标，即可为在线网站赚取 10 美元奖励代币！ - 🔬[2026.07][新功能]：搜索方法已迁移 - EoH、MEoH、ReEvo 和 MCTS-AHD 现在可作为独立的编排器使用。请参阅搜索方法。 - 🧠 [2026.07][新功能]：MindMemOS 支持的长期内存现已推出，具有全局、项目和任务内存范围以及可配置的聊天和嵌入模型绑定。请参阅内存指南。 - 🚀 [2026.07][新版本]：LLM4AD Next 在线试用现已在 https://llm4ad-next.cn/ 提供 — 直接在浏览器中尝试完整的问题到算法工作流程，无需本地设置。 - ✨ [2026.07][新功能]：引入交互式问题到项目工作流程，将自然语言问题描述转化为可运行的进化算法搜索项目。 - 🐳 [2026.07][新功能]：版本化 Docker Hub 部署映像现在与 reproducib 的 GitHub Release 标签保持一致
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: alpha-evolve, alphacode, alphaevolve, deepmind, discovery, discovery-loop
+
+---
+
+### 🌟 [Gearboy](https://github.com/drhelius/Gearboy)
+- **项目语言**: C++
+- **星标数量**: ⭐ 1,192
+- **核心概述**: 适用于 macOS、Windows、Linux、BSD 和 RetroArch 的 Game Boy / Game Boy Color / Super Game Boy 模拟器、调试器和嵌入式 MCP 服务器。
+- **大概是做什么的**: Gearboy 是一款准确的跨平台 Game Boy / Game Boy Color / Super Game Boy 模拟器，用 C++ 编写，可在 Windows、macOS、Linux、BSD 和 RetroArch 上运行，并带有用于 AI 调试和开发的嵌入式 MCP 服务器。这是一个开源项目，由于这些出色的支持者的支持，其持续开发成为可能。如果您觉得有用，请考虑赞助。请毫不犹豫地通过提出问题来报告错误或寻求新功能。 Gearboy-3.8.12-desktop-windows-x64.zip Gearboy-3.8.12-desktop-windows-arm64.zip brew install --cask drhelius/geardome/gearboy 桌面 Apple Silicon Gearboy-3.8.12-desktop-macos-arm64.zip Gearboy-3.8.12-desktop-macos-intel.zip drhelius/ppa-geardome drhelius/rpm-geardome 桌面 Ubuntu 24.04 x64 Gearboy-3.8.12-desktop-ubuntu24.04-x64.zip 桌面 Ubuntu 22.04 x64 Gearboy-3.8.12-desktop-ubuntu22.04-x64.zip 桌面 Ubuntu 24.04 ARM64 Gearboy-3.8.12-desktop-ubuntu24.04-arm64.zip Libretro 核心文档 - Windows：可能需要 Visual C++ Redistributable 和 OpenGL 兼容包 - Homebrew：如果 Homebrew 要求您信任 th
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: bsd, emulation, emulator, game-boy, gameboy, gameboy-color-emulator
+
+---
+
+### 🌟 [sdl-mcp](https://github.com/GlitterKill/sdl-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 469
+- **核心概述**: Symbol Delta Ledger (SDL-MCP) 是一个面向编码代理的以策略为中心的上下文预算层：符号图智能与精确工具相结合。它将庞大的代码库转变为紧凑的高信号上下文，从而节省令牌、加快工作流程并改进代理输出。
+- **大概是做什么的**: AI 编码代理的卡优先代码上下文。入门 · 文档 · MCP 工具 · npm 从重要的符号开始工作 SDL-MCP 将存储库索引到符号图中，并为编码代理提供从紧凑元数据到源代码的受控路径。代理可以搜索符号、检查卡片、构建任务范围的切片，并仅在需要时请求有界代码窗口，而不是从完整文件开始。结果是一个更小、更仔细的上下文表面，用于调试、审查、实施工作和存储库探索。 SDL-MCP 在本地运行并支持基于 stdio 或 HTTP 的模型上下文协���。几分钟后开始 SDL-MCP 需要 Node.js 24 或更高版本。对于交互式首次安装，请从要索引的存储库运行包装程序包： 对于标准全局安装，初始化存储库，验证它，然后启动 stdio 服务器： 使用 sdl-mcp init -y --auto-index 进行非交互式安装。入门指南涵盖了设置向导、支持的客户端、HTTP 传输和配置示例。受控检索循环 1. 索引
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-context, agent-tools, agentic-coding, agentic-engineering, agentic-workflow, code-analysis
+
+---
+
+### 🌟 [awesome-ai-auto-research](https://github.com/worldbench/awesome-ai-auto-research)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 490
+- **核心概述**: 🔥 AI 自动研究调查
+- **大概是做什么的**: :sunglasses: Awesome AI Auto-Research 该存储库随附调查论文“AI for Auto-Research：路线图和用户指南”，并跟踪有关 AI 辅助和自动化科学研究的论文，涵盖整个研究生命周期。 ：机器人：人工智能自动研究 我们将学术研究生命周期组织为八个相互关联的阶段，分为四个认识论阶段。每个阶段在产生、审查和传播科学知识方面都发挥着独特的作用。第一阶段：创作 产生新颖的研究想法，搜索和综合文献，运行编码实验，并创建出版质量的表格和图形。这一阶段涵盖创意生成、文献综述、编码和实验以及表格和图形。第二阶段：写作 起草、编辑和润色学术手稿。人工智能协助的范围从半自动语法和引文工具到全自动论文生成——商业上最成熟但道德上存在争议的阶段。第 3 阶段：验证 自动同行评审生成、审稿人与论文匹配、审稿质量评估、
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agentic-ai, ai, ai-research, ai-scientist, auto-research
+
+---
+
+### 🌟 [codex-usage-tracker](https://github.com/douglasmonsky/codex-usage-tracker)
+- **项目语言**: Python
+- **星标数量**: ⭐ 195
+- **核心概述**: 本地优先的 MCP 工具和仪表板，用于调查 Codex 令牌使用情况、积分、成本、缓存和线程模式。
+- **大概是做什么的**: Codex 使用跟踪器是一个本地使用数据产品，用于回答有关 Codex 工作如何消耗代币、时间、工具、津贴、积分和成本的问题。它将本地会话元数据转化为代理可以探索和解释的精确、有限的事实和稳定的证据。当前版本和下一步方向 版本 0.28.0 是当前的公开版本。其六工具 MCP 表面、Evidence Console 和 SQLite 内核仍然受支持，而替代产品是一个干净的、代理优先的内核，而不是更大的仪表板： - 快速的近期历史记录设置，具有明确的 24 小时全时覆盖范围； - 以后每次调用时增量重用； - 精确的会话、回合、呼叫、工具、资源、津贴、令牌、信用和成本 - 紧凑的命名查询和稳定的证据选择器； - 代理拥有的解释，而不是服务器编写的叙述结果； - 已安装 Codex 认证，测量延迟、MCP 调用、响应字节、模型令牌、准确性和实用性。 0.28 代码在重写期间仍然是冻结的预言，并在干净的替换版本发布之前被删除
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: cli, codex, codex-cli, codex-plugin, codex-skill, cost-analysis
+
+---
+
 ## 🕔 2026-08-19 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 287 个候选项目中筛选出 6 个未推荐过的新项目。
