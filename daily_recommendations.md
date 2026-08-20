@@ -1,3 +1,67 @@
+## 🕔 2026-08-20 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 268 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 7,277
+- **核心概述**: 🔥 官方 Firecrawl MCP 服务器 - 为 Cursor、Claude 和任何其他 LLM 客户端添加强大的网页抓取和搜索功能。
+- **大概是做什么的**: Firecrawl MCP 服务器 模型上下文协议 (MCP) 服务器，将 Firecrawl 引入与 MCP 兼容的 AI 代理 - 搜索、抓取并与实时网络交互，以获得干净、代理就绪的上下文。非常感谢@vrknetha、@knacklabs 的初步实施！ - 搜索网络并获取整页内容 - 搜索为编码代理构建的索引：GitHub 问题、合并的拉取请求、自述文件和文档 - 将任何 URL 抓取为干净的结构化数据 - 与页面交互 - 单击、导航和操作 - 使用自主代理进行深入研究 - 自动重试和速率限制 - 云和自托管支持 在 MCP.so 的游乐场或 Klavis AI 上使用我们的 MCP 服务器。托管 MCP（无密钥免费层）无需设置即可连接到远程托管服务器：在无密钥免费层上，无需 API 密钥即可进行 scrape 、 search 和 parse 工作（速率受限）。其他工具，例如crawl、map和agent仍然需要密钥。只要有人可以注册，就首选 OAuth 或 API 密钥。它解锁了完整的工具集和更高的限制。对于交互式帐户连接，请将您的 MCP 客户端配置为使用此选项
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: batch-processing, claude, content-extraction, data-collection, firecrawl, firecrawl-ai
+
+---
+
+### 🌟 [openstatus](https://github.com/openstatusHQ/openstatus)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 8,995
+- **核心概述**: 🫖 状态页面，以代码形式提供正常运行时间监控和 API 监控 🫖
+- **大概是做什么的**: 开源状态页面和正常运行时间监控平台。 openstatus 是一个开源平台，它将状态页面和正常运行时间监控结合在一个工具中。让您的用户了解情况并让您的服务可靠。可作为托管服务或自托管服务。 - 状态页面+在一个工具中进行监控 - 无需连接单独的监控服务 - 跨 3 个云提供商并行检查 28 个全球区域 - 统一定价，无限会员 - 无需按席位或按订阅者付费 - 开源且可自托管 - AGPL-3.0，私有位置在单个 8.5MB Docker 映像中运行 - 代码监控 - YAML 配置、CLI、GitHub Actions、Terraform - 事件通信 - 通过电子邮件、RSS 和webhooks 漂亮的、可自定义的状态页面，具有自定义域、密码保护、维护窗口以及通过电子邮件和 RSS 发送的订户通知。建立信任并让用户在发生事件时随时了解情况。监控来自全球多个云提供商的 28 个区域的服务器、网站和 API。通过 Slack、Discord、PagerDuty、电子邮件和 m 获取通知
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: alerting, incident-management, mcp, mcp-server, monitoring, monitoring-as-code
+
+---
+
+### 🌟 [PhyAgentOS-core](https://github.com/PhyAgentOS/PhyAgentOS-core)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,740
+- **核心概述**: PhyAgentOS 是一个基于代理工作流程构建的自我进化的嵌入式人工智能操作系统。
+- **大概是做什么的**: 认知-物理解耦 — 以会话为中心的实体智能运行时 版本更新 :------ :----- :------- 2026-07-5 支持策略循环和目标本机内置路径的基准测试；合并代理验证和故障恢复服务器 2026-06-27 支持Behavior 1K； SessionVerfier用于Agent验证； verifySessionTool 2026-06-11 清理协议文件和文档；游戏场景分离到general-game-agent分支；主分支现在专注于sim & real 2026-06-5 优化用户友好的入职流程；通信协议规范；更合理的编码标准；游戏代理和基准测试准备就绪 2026-05-25 严格分离PolicySkillRuntime/BuiltinSkillRuntime；游戏代理和基准测试准备就绪 2026-05-20 感知插件系统：SensorConfig / PerceptionConfig YAML + EnvironmentWriter 可审核写回 2026-05-18 以会话为中心的运行时 MVP：DummySimTarget + DummyAdapter + DummyClient 串行管道 2026-04-29 黑客马拉松基线：基于插件的 HAL、ReKep / SAM3 真实机器人抓取 & VLN 全管道 Traditi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, claw, embodied-agent, embodied-ai, harness
+
+---
+
+### 🌟 [mcphub](https://github.com/samanhappy/mcphub)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,306
+- **核心概述**: 一个统一的中心，用于集中管理多个 MCP 服务器/API 并将其动态编排到具有灵活路由策略的单独端点中。
+- **大概是做什么的**: MCPHub：模型上下文协议 (MCP) 服务器的统一中心 English Français 中文版 MCPHub 通过将多个 MCP（模型上下文协议）服务器组织成灵活的可流式 HTTP (SSE) 端点，支持对所有服务器、单个服务器或逻辑服务器组的访问，从而轻松管理和扩展多个 MCP（模型上下文协议）服务器。 - 文档：docs.mcphub.app - 演示环境：demo.mcphub.app - 集中管理 - 从统一仪表板监视和控制所有 MCP 服务器 - 灵活路由 - 通过 HTTP/SSE 访问所有服务器、特定组或单个服务器 - 精细组可见性 - 组内每台服务器独立控制工具、提示和资源可见性 - 每服务器共享 - 保持服务器私有、与选定用户共享或公开 - 智能路由 - 使用 AI 支持的工具发现矢量语义搜索（了解更多） - MCP 应用程序代理 - 在单服务器路由上透明地转发交互式 MCP 应用程序（了解更多） - 工具结果压缩 - 在大型文本工具输出到达客户端之前透明地减少它们 - 热插拔配置 - 添加
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: mcp, mcp-gateway, mcp-hub, mcp-router, mcp-server
+
+---
+
+### 🌟 [anysearch-mcp-server](https://github.com/anysearch-ai/anysearch-mcp-server)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,819
+- **核心概述**: 统一实时搜索MCP服务器，支持通用网页搜索、垂直领域搜索、并行批量搜索、整页URL内容提取。
+- **大概是做什么的**: AnySearch MCP Server 统一实时搜索MCP服务器，支持一般网页搜索、垂直领域搜索、并行批量搜索、整页URL内容提取。 - 通用 Web 搜索 — 开放式自然语言查询 - 垂直领域搜索 — 跨金融、学术、安全、法律、代码等的结构化查询 - 并行批量搜索 — 在一次调用中执行多个独立查询 - URL 内容提取 — 以 Markdown 方式获取和提取整页内容 - 匿名访问 — 无需 API 密钥即可工作（具有较低的速率限制） API 密钥配置 API 密钥是可选的，但建议使用。如果没有密钥，所有功能仍然可以通过匿名访问以较低的速率限制运行。注册 API 密钥（推荐） 代理可以在一次调用中注册用户并获取 API 密钥 — 无需验证码，无需手动注册。向用户询问真实的电子邮件地址：它将成为帐户用户名。成功响应（代码：0）返回帐户信息和一次性明文 API 密钥：成功后，代理必须： 1. 将 data.api key.key 放入 MCP 服务器配置中，作为
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: anysearch, hermes, mcp, mcp-server, openclaw, qclaw
+
+---
+
+### 🌟 [tw-legal-rag](https://github.com/aa0101181514/tw-legal-rag)
+- **项目语言**: Python
+- **星标数量**: ⭐ 242
+- **核心概述**: 用于语义台湾法律判决检索的开源 CLI。搜索判断，将它们打包为您自己的 AI (Claude/ChatGPT)，并运行捆绑级别的引文检查。带上你自己的LLM；仅限检索。
+- **大概是做什么的**: Taiwan Legal RAG ( twlegalrag ) 🌐 Language / 语言 / 言语 繁体中文 ・ English ・ 日本语 Source-available CLI for semantic Taiwan legal judgment retrieval, powered by Legal Detective's 22M-judgment retrieval infrastructure. Taiwan Legal RAG CLI retrieves Taiwan court judgments from Legal Detective's public TLR endpoint and packages them for use with your own AI tools . It does not generate legal advice, does not call any LLM, and does not guarantee semantic faithfulness of third-party model outputs. Its built-in citation check only verifies whether cited judgments belong to the retrieved 繁中：Taiwan Legal RAG CLI 是一个公开原始码命令列工具,连接法律侦探建置的 2,250 万笔 台湾裁判语义检索服务（22,519,615 笔，截至 2026-08-20）,让你能用自然语言搜寻判决,并将检索结果带入自己的 AI 工具使用。 资料涵盖（统计截至 2026-08-20，取自 production 资料库） 裁判书 （司法院各级法院） 22,519,615 笔 语义检索＋词汇检索＋案号精确调卷；每日增量同步司法院公开资料 审级关联（上诉链） 4,510,000+ 笔 随判决附 case history ，含主文「废弃／驳回」旗标 行政函释・令函 74,656 笔 字号精确查询＋语义检索（hosted MCP），部会别明细见下表 税务函释（财政部赋税） 9,093 笔 同上 函释效力履历 50,800+ 笔 废止／停止适用／被取代状态追踪，引用前验效力 不当劳动行为裁决（劳动部裁决委员会） 400 笔 劳动议题查询自动并列，明确标示为裁决、非法院判决 法规 11,794 部／236,733 条 dr-lawbot.com 站上检索 裁判书为每日增量同步（司法院公开资料释出有数日时差，极新宣判的裁
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: court-judgments, legal-ai, legal-research, legal-tech, llm, mcp
+
+---
+
 ## 🕔 2026-08-20 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
