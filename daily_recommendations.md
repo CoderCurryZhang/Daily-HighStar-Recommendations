@@ -1,3 +1,67 @@
+## 🕔 2026-08-20 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 230 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [OpenBot](https://github.com/CopilotKit/OpenBot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,277
+- **核心概述**: 开源人工智能同事每人都有一台自己的计算机：浏览器、文件和工具，每一个动作在发生之前就决定并在发生之后记录。带上任何 AG-UI 代理。
+- **大概是做什么的**: 您可以将真正的工作交给人工智能同事，并真正信任其访问权限。每个人都有一台自己的计算机：一个真正的浏览器，有自己的登录名、自己的文件以及您授予的工具。每个动作在发生之前就决定并在发生之后记录。 copilotkit.ai/openbot · 快速入门 · 功能 · 自带代理 · 架构 · 文档 https://github.com/user-attachments/assets/535ef7ee-1631-4a69-b839-564c56cf90b4 带来任何 AG-UI 代理，无论是在框架上还是手工编写，它都会作为具有自己通道的同事到达。观察它在自己的屏幕上工作，当它到达不应该单独做的事情时接管方向盘，然后将其交还给它。它用组件而不仅仅是散文来回答，整个事情都在 Alpha 上运行，并且正在积极开发中。 OpenBot 还早。期待粗糙的边缘和错误，并期待事情的发展。欢迎提出问题和拉取请求。在您的机器上运行。下面的所有内容都是针对笔记本电脑编写的。开箱即用�� OpenBot 使用 OPENBOT DEV NO AUTH 运行，它会跳过登录并以一位管理员身份接受每个请求。可以连线 Google 登录
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ag-ui, agent-governance, ai-agents, browser-automation, copilotkit, generative-ui
+
+---
+
+### 🌟 [Pretty-mermaid-skills](https://github.com/imxv/Pretty-mermaid-skills)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,129
+- **核心概述**: AI 代理技能，可生成并将美丽的美人鱼图渲染为 SVG 或终端 ASCII — 15 个主题、6 种图表类型、批量 CLI，无需浏览器。
+- **大概是做什么的**: 适用于 AI 代理的精美美人鱼图将美人鱼源代码在本地转换为精美的 SVG 和终端就绪的 ASCII，无需浏览器。在 Skills.sh 上查看技能、安装计数和安全审核 → - 专为 AI 代理打造：可与 Claude Code、Cursor、Codex、Gemini CLI 等配合使用 - 一个来源，两个输出：用于文档的精美 SVG 和用于终端的 ASCII/Unicode - 无需浏览器：无需 Chromium、Puppeteer 或 DOM 即可在本地渲染 - 默认情况下灵活：15 个主题、自定义颜色、六种图表类型和批量渲染 - 📊多格式支持：SVG 和 ASCII 渲染导出 - 🎨 丰富的主题：针对不同场景的 15 个内置主题 - 📈 六种图表类型：流程图、序列、状态、类、ER 和 XY 图表 - ⚡ 高性能：批量并行渲染 - 📚 即用型：完整的模板和详细文档 浅色主题 深色主题 其他 zinc-light zinc-dark Nord tokyo-night-light tokyo-night Nord-light catppuccin-latte tokyo-night-storm dracula github-light catppuccin-mocha one-dark Solarized-light github-dark 🤖 AI Assistant 集成 无缝集成
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, ascii-art, claude-code, codex, cursor
+
+---
+
+### 🌟 [bottube](https://github.com/Scottcjn/bottube)
+- **项目语言**: Python
+- **星标数量**: ⭐ 316
+- **核心概述**: 由物理人工智能证明提供支持的人工智能原生视频平台——代理和人类创建、管理和参与经物理验证的硬件。 RustChain DePIN 生态系统的一部分。
+- **大概是做什么的**: AI 原生视频平台 — 向所有人开放，由物理 AI 证明提供支持，智能体和人类可以平等地创建、策划和参与。我们的内部内容运行在通过物理证明其自身存在的硬件上。 BoTTube 支持任何视频源——从任何工具、API 或管道上传。平台上有超过1000个视频。我们的许多内部视频都是在 PPA 指纹硬件上生成和测试的。直播平台 · 代理 API · 管道 · 自托管 · RustChain 生态系统 大多数人工智能视频平台都在租用的云 GPU 上运行。您上传一个提示，某处的数据中心会呈现它，然后平台会收取一定的费用。硬件是看不见的。计算是抽象的。整个堆栈都是别人的。 BoTTub 是不同的。 BoTTube 是一个开放平台——任何人都可以上传任何来源的视频，包括第三方 API、本地渲染、屏幕录制或 AI 生成工具。您不需要特殊的硬件即可参与。 BoTTube 的独特之处在于：我们的大部分内部内容都是在经过物理 AI 证明 (PPA) 验证的 Elyan Labs 硬件上生成的 - 与 6 检查指纹相同
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-economy, ai-agents, ai-video, bot-platform, comfyui, depin
+
+---
+
+### 🌟 [Arkloop](https://github.com/qqqqqf-q/Arkloop)
+- **项目语言**: Go
+- **星标数量**: ⭐ 373
+- **核心概述**: 干净、强大、属于你的 AI Agent 平台 --AI agents, without the clutter.
+- **大概是做什么的**: 开源/干净/强大——您的AI代理平台 Arkloop是一个专注于设计的开源AI代理平台。多模型路由、沙盒执行、持久内存——一个开箱即用的干净桌面应用程序。桌面应用程序捆绑了完整的运行时 - 没有 Docker，无需配置。只需打开并使用即可。通过 GitHub 发布自动更新。首次启动时，Desktop 可以安装 ark 命令行工具。之后，您可以在没有桌面窗口的情况下启动相同的本地运行时：Homebrew 仅安装 Arkloop CLI：对于无头 Linux 机器，使用一个命令：Arkloop 执行其他 AI 聊天工具所做的操作 - 多模型支持、工具调用、代码执行、内存 - 但我们专注于干净地执行： - 多模型路由 - OpenAI、Anthropic 和任何兼容的 API；具有速率限制处理的基于优先级的自动路由 - 沙盒执行 - 代码在具有严格资源限制的 Firecracker microVM 或 Docker 容器中运行 - 持久内存 - 跨对话保留系统约束、长期事实和会话上下文 - 提示注入保护 - Semanti
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acp, agent, ai, anthropic, chat, chatbot
+
+---
+
+### 🌟 [better-github-stars-manager](https://github.com/izumi0uu/better-github-stars-manager)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 203
+- **核心概述**: 管理您的 GitHub 已加星标的存储库：在数千个星标中添加标签、注释、过滤器和搜索。 Chrome MV3 扩展。
+- **大概是做什么的**: Better GitHub Stars Manager 把 GitHub Stars 变成一个可搜索、可分类、可持续维护的个人管理面板。 直接在 GitHub Stars 页面搜索、筛选、添加标签和笔记。需要时再启用 Watch、Following、For You、Secret Gist 同步和 Cubby AI等功能。 主视觉中的产品截图由项目维护者提供并明确批准公开使用；截图展示真实界面和公开 GitHub 数据。 - 主要功能 — Stars 分类、Watch、发现和 Cubby Chrome Web Store Chrome、Edge、Brave、Opera 等 Chromium 内核浏览器 Edge Add-ons · 即将上架 Microsoft Edge Firefox Add-ons · 即将上架 Firefox Opera Add-ons · 即将上架 Opera 扩展基于 Manifest V3。安装后打开 https://github.com/{you}?tab=stars ，管理器会出现在 Stars 页面中。 1. 打开扩展 Options 页 2. 创建 GitHub Classic PAT，并授予 repo 与 gist scope 3. 按需追加 notifications （Watch）和 read:user （Following）权限 4. 粘贴 Token，点击 Save & verify 5. 打开 https://github.com/{you}?tab=stars 自动启动 6. 首次进入时自动运行 Full Sync 打开预填的 Classic PAT 表单，按下图完成配置。 保留 repo 、 gist 、 notifications 和 read:user ；不要勾选 user 。 点击 Generate token ，复制 Token，粘贴到 Options GitHub Classic PAT ，然后点击 Save & verify 。 GitHub 只显示一次 Token，请妥善保管。 GitHub Stars 可以浏览 star 项目，但是有时候你会忘了你 star 过什么。当 stars 超过几百个后，你难以回忆起你之前的收藏，看到仓库名字，你也忘记它是什么了。 Better GitHub Stars Manager 直接挂载在 Stars 页面。它把项目的数据、你自定义的标签、笔记整理到浏览器里中，同时保留 GitHub 原生页面作为随时可切换的入口。 你可以做的 GitHub Stars Bette
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, chrome-extension, gist, github, github-stars
+
+---
+
+### 🌟 [hax](https://github.com/OleksandrChekhovskyi/hax)
+- **项目语言**: C
+- **星标数量**: ⭐ 307
+- **核心概述**: 用 C 编写的极简、终端本机编码代理。
+- **大概是做什么的**: 用 C 编写的极简主义终端本机编码代理。 - 轻量级设计 - 具有小型依赖集的单个本机 C 二进制文件。立即启动，并使用非常少量的内存（仅几 MB） - 因此为您的本地法学硕士留下了更多的 RAM。 - 本地模型是一流的 - 启动 llama-server -m [model].gguf ，然后 hax --provider llama.cpp ，hax 会自动发现模型和运行时功能。默认设置不需要自定义提供程序配置块。 - 尊重您的终端 - 流式 Markdown 和实时工具输出，经过重排以在终端中显示。仅重绘当前流线或输入区域，保留本机回滚。不会接管或弄乱您的终端。 - 可检查 - 准确查看发送到模型的内容以及它在可用的记录视图 (Ctrl+T) 中回复的内容。 （可选）收集详细的线路协议跟踪。 - 使用任何提供商/模型 — 支持 OpenAI（+兼容）、Anthropic（+兼容）、Codex（通过 ChatGPT 订阅）、OpenRouter、OpenCode Zen/Go、llama.cpp 等。 - 行为良好的 Unix 工具 — XDG 路径、干净的标准输出 -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, anthropic, c, cli, coding-agent, coding-assistant
+
+---
+
 ## 🕔 2026-08-20 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 268 个候选项目中筛选出 6 个未推荐过的新项目。
