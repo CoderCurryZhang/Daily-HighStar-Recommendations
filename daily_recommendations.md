@@ -1,3 +1,67 @@
+## 🕔 2026-08-20 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 261 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [open-agents](https://github.com/vercel-labs/open-agents)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 5,784
+- **核心概述**: 用于构建云代理的开源模板。
+- **大概是做什么的**: Open Agents 是一款开源参考应用程序，用于在 Vercel 上构建和运行后台编码代理。它包括 Web UI、代理运行时、沙箱编排以及从提示到代码更改所需的 GitHub 集成，而无需让您的笔记本电脑参与其中。该存储库旨在进行分叉和调整，而不是被视为黑匣子。 Open Agents 是一个三层系统： - Web 应用程序处理身份验证、会话、聊天和流式 UI。 - 代理作为 Vercel 上的持久工作流程运行。 - 沙箱是执行环境：文件系统、shell、git、开发服务器和预览端口。关键的架构决策：代理不是沙箱代理不在虚拟机内部运行。它在沙箱外部运行，并通过文件读取、编辑、搜索和 shell 命令等工具与其进行交互。这种分离是该项目的要点： - 代理执行不依赖于单个请求生命周期 - 沙箱生命周期可以独立休眠和恢复 - 模型/提供者选择和沙箱实现可以单独发展 - 虚拟机保持简单的执行环境
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, ai, background-agents
+
+---
+
+### 🌟 [shux](https://github.com/coder/shux)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,977
+- **核心概述**: 用于隔离、并行代理开发的桌面应用程序
+- **大概是做什么的**: Shux - 编码代理多路复用器 在 Mux.com 提出商标问题后，该项目从 Mux 更名为 Shux。 “Mux”是“多路复用器”的常见技术缩写，我们不希望项目之间发生混淆，但选择重新命名我们的项目，而不是花更多时间在争论上。 “Shux”捕捉了我们对这个过程的反应，没有其他意义。 Shux 是一个用于并行代理开发的桌面和浏览器应用程序。它使开发人员能够在本地或远程计算上使用多个人工智能代理来规划和执行任务。 - 具有 git divergence 中心视图的隔离工作区（文档） - 本地：直接在项目目录中运行 - 工作树：本地计算机上的 git 工作树 - SSH：通过 SSH 在服务器上远程执行 - 多模型（ sonnet-4- 、 grok- 、 gpt-5- 、 opus-4- ） - Ollama 支持本地 LLM（文档） - OpenRouter 支持 LLM 长尾（文档） - VS代码扩展：直接从 VS Code 跳转到 Shux 工作区（文档） - 支持 UI 和按键绑定，以有效管理一组代理 - 丰富的 Markdown 输出（美人鱼图、LaTe
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ide
+
+---
+
+### 🌟 [sivtr](https://github.com/Ariestar/sivtr)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 212
+- **核心概述**: 人类和代理的统一代理内存工作空间
+- **大概是做什么的**: 你的 Agent 记忆，不必是一套笨重的知识系统。 开发者和 Agent 经常浪费时间重建已经存在的上下文：终端报错、测试输出、工具日志、之前的 AI 会话。 sivtr 把这些本地工作变成可搜索的记忆，但不要求你引入一套很重的知识系统。 - 让 Agent 修复最近一次失败，而不用自己粘贴日志； - 几秒钟找回昨天的测试输出、构建报错或关键决策； - 从摘要跳回当时那条命令输出或 Agent 回复； - 把一组有用结果保存成 @failures 这样的变量，在下一条命令里继续用。 Agent 工作流建议安装 sivtr CLI，用 sivtr mcp install 注册 MCP，并可选用内置 sivtr-memory skill。MCP 是 Agent 读取本地证据的主路径；skill 负责教它何时、如何调用。 - MCP 优先的 Agent 记忆 ：一次 sivtr mcp install ，Agent 直接调用 sivtr search / sivtr show / sivtr zoom / sivtr filter / sivtr status ，不用你粘贴日志。 - 带输出的 shell history ：记录 Bash、Zsh、PowerShell、Nushell 里的命令、stdout/stderr、退出码、目录和耗时。 - 一个搜索面覆盖本地工作 ：终端输出 + 所有已注册 Agent provider（Codex / Claude Code / Cursor / Dsh / Gemini / Goose / Hermes / OpenCode / OpenClaw / Grok / Pi / Qoder / Qoder-CN / Qwen …）——MCP 或 CLI 都能用。 - 精确证据，而不是摘要 ：每个命中都落到稳定 ref，可 show / zoom / filter，或交给下一个 Agent。 - 命名���忆变量 ：把结果保存成 @failures ，复用 @last ，管道用 @ ，也可 @failures[1,3..5] 取子集。 - 跨设备访问 ：只读分享 workspace，用 desk:... ref 像读本地一样浏览另一台设备；多设备还能组成 group ，成员间自动同步、一次 sync 拉齐。 - 主题可配 ： [theme] mode = auto dark light ，自动跟随系统外观并检测 truecolor。 - 一键安装与诊断 ： sivtr setup 装 hooks + MCP； sivtr doctor
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, cli, dsh-plugin, dsh-plugins, output, rust
+
+---
+
+### 🌟 [sec-edgar-mcp](https://github.com/stefanoamorelli/sec-edgar-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 350
+- **核心概述**: SEC EDGAR MCP（模型上下文协议）服务器
+- **大概是做什么的**: 用于访问 SEC EDGAR 文件的 MCP 服务器。以精确的数字精度将人工智能助手与公司文件、财务报表和内幕交易数据连接起来。基于 sec-edgar-toolkit 构建。 https://github.com/user-attachments/assets/d310eb42-b3ca-467d-92f7-7d132e6274fe 该项目不隶属于美国证券交易委员会，也不受其认可。 EDGAR 和 SEC 是 SEC 的商标。 MCP 的 JSON-RPC 通信需要 -i 标志。对于其他安装方法（pip、conda、uv），请参阅文档。公司 CIK 查找、公司信息、公司事实 备案 10-K、10-Q、8-K 检索、部分提取 财务 资产负债表、损益表、现金流量（XBRL 解析） 内幕交易表格 3/4/5 交易 所有回复均包括用于验证的 SEC 备案 URL。对于 Dify 等平台，请使用可流式 HTTP 而不是 stdio：不包含身份验证。仅在专用网络上使用。基于 Promptfoo 的测试套件。有关详细信息，请参阅 evals/ 。完整文档：sec-edgar-mcp.amorelli.tech 如果您在研究中使用此软件，请引用它：请参阅 CITATION.cff 了解 addit
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, artificial-intelligence, edgar, edgar-database, finance, genai
+
+---
+
+### 🌟 [marketing-dashboard](https://github.com/builderz-labs/marketing-dashboard)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 442
+- **核心概述**: 用于 CRM、外展、内容、分析、审批、自动化和代理工作流程的本地优先营销运营控制中心。
+- **大概是做什么的**: 本地优先的营销运营控制中心，供运行人员和代理工作流程的团队使用。 Marketing Dashboard 将 CRM、外展、内容规划、分析、审批、自动化计划和代理活动集成到一个自托管界面中。它在 Next.js 和 SQLite 上运行，无需托管基础设施即可运行，并且可以根据您的选择连接到 OpenClaw 和外部营销服务。项目状态：阿尔法。工作面很广泛，但 API、架构和配置可能会在版本之间发生变化。区域 ��前表面 CRM 潜在客户、来源、渠道阶段、潜在客户质量和记录详细信息 外展序列、抑制、暂停、审核和参与 内容日历、内容项、绩效和批准队列 分析 KPI 视图以及可选的 Plausible、GA4、X 和 LinkedIn 连接器 代理 OpenClaw 实例发现、小队、工作区、会话和通信 自动化 Cron 作业、模板、批准、活动和部署状态 仪表板由操作员主导。批准、暂停、写回和主机访问控制保持可见，而不是隐藏
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, analytics, crm, marketing-ops, nextjs, openclaw
+
+---
+
+### 🌟 [skillgrade](https://github.com/mgechev/skillgrade)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 682
+- **核心概述**: 针对您的代理技能的“单元测试”
+- **大概是做什么的**: 评估您的代理技能的最简单方法。测试人工智能代理是否正确发现和使用您的技能。请参阅示例/ — superlint（简单）和 Angular-modern（TypeScript 评分器）。先决条件：Node.js 20+、Docker 1. 初始化 — 转到您的技能目录（必须有 SKILL.md ）和脚手架：使用 AI 驱动的任务和评分器生成 eval.yaml。无需 API 密钥，即可创建一个注释良好的模板。 2. 编辑 — 根据您的技能自定义 eval.yaml（请参阅 eval.yaml 参考）。该代理是从您的 API 密钥自动检测到的：GEMINI API 密钥 → Gemini、ANTHROPIC API 密钥 → Claude、OPENAI API 密钥 → Codex。使用 --agent=claude 覆盖。报告保存到 $TMPDIR/skillgrade/ /results/ 。使用 --output=DIR 覆盖。标记试验用例 ------ -------- ---------- --smoke 5 快速能力检查 --reliable 15 可靠的通过率估计 --regression 30 高置信度回归检测 ------ ------------- --eval=NAME[,NAME] 按名称运行特定评估（逗号分隔） --grader=TYPE 仅运行某种类型的评分器（确定性或 llm rubric ） --Trials=N 覆盖试验计数--parallel=N 运行 t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, claude-code, codex, eval, gemini-cli, skill
+
+---
+
 ## 🕔 2026-08-20 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 230 个候选项目中筛选出 6 个未推荐过的新项目。
