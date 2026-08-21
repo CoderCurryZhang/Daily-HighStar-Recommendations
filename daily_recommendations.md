@@ -1,3 +1,67 @@
+## 🕔 2026-08-21 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [crust](https://github.com/chenxin-yan/crust)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 402
+- **核心概述**: 具有可组合模块的 TypeScript 优先、Bun 原生 CLI 框架。
+- **大概是做什么的**: 具有可组合模块的 TypeScript 优先、Bun 原生 CLI 框架。   •     •     •   Crust 是专为 TypeScript 和 Bun 构建的现代 CLI 框架。它提供了一个模块化架构，用于构建命令行工具，具有命令路由、参数解析、交互式提示、验证和持久性等功能，所有这些都具有一流的 TypeScript 支持。 - Nozomio Labs 的 Nia CLI 软件包描述版本下载 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------- @crustjs/crust CLI 工具 — 构建和分发独立的可执行文件 @crustjs/core 核心：命令定义、arg 解析、路由、扩展、错误 @crustjs/man 从 Crust 命令定义生成手册页 @c
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-tooling, cli, framework, javascript, typescript
+
+---
+
+### 🌟 [dsh-im](https://github.com/xmanrui/dsh-im)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 320
+- **核心概述**: 通过扫码或机器人凭据把IM机器人接入DeepSeek Harness（支持飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord和WhatsApp）。 Connect IM bots to DeepSeek Harness via QR code or credentials (9 channels).
+- **大概是做什么的**: 让 DeepSeek Harness 触手可及 Connecting DeepSeek Harness 通过扫码、App Manifest 或已有机器人凭据把 IM 机器人接入 DeepSeek Harness，并让本机 Harness 主动连接公网 AI Office。一个插件、一个设置入口，统一管理九种 IM 渠道和 AI Office Connector。 每个 IM 渠道都支持接入多个机器人 ，各机器人的连接状态、工作区和会话绑定彼此独立。 Connect IM bots to DeepSeek Harness by scanning a QR code, using an App Manifest, or entering existing bot credentials, and let the local Harness connect outward to a public AI Office. One plugin and one settings entry manage nine multi-bot IM channels and the AI Office Connector. 飞书 扫码创建机器人，或使用 App ID + App Secret 手动绑定 长连接接收消息；通过飞书流式卡片显示思考、工具进度和回答 微信 使用微信扫码绑定机器人 腾讯 iLink 长轮询收发消息 钉钉 扫码创建机器人，或使用 Client ID + Client Secret 手动绑定 钉钉 Stream 长连接；通过 AI Card 流式显示回答 企业微信 使用企业微信 App 扫码创建智能机器人，或使用 Bot ID + Secret 手动绑定 官方 WebSocket 长连接；原生显示“正在思考中”、工具执行进度和流式回答 QQ 使用手机 QQ 扫码创建机器人，或使用 AppID + AppSecret 手动绑定 WebSocket 长连接；私聊显示“正在输入”和流式回答，群聊被 @ 后回复 Slack 使用预置 App Manifest 创建应��，再填写 Bot Token（ xoxb- ）和 App Token（ xapp- ） Socket Mode 长连接；私聊直接回复，频道被 @ 后响应，优先使用官方流式消息 API Telegram 使用 @BotFather 生成的 Bot Token Bot API 长轮询；默认私聊直接响应、群聊被提及或回复时响应，也可为每个机器人独立启用私聊白名单安全模式；通过编辑消息流式显示回答 Discord 使
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, chatbot, cordis, deepseek, deepseek-harness, dingtalk-bot
+
+---
+
+### 🌟 [AI-Search-py](https://github.com/oxylabs/AI-Search-py)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 321
+- **核心概述**: 将简单的英语查询转换为结构化的 Web 数据，具有自动 Markdown 提取和动态网站的完整 JavaScript 渲染功能。
+- **大概是做什么的**: Oxylabs AI Studio 的 AI-Search 应用程序是一个网络搜索工具，允许开发人员检索搜索结果、选择性地抓取它们，并轻松处理 JavaScript 渲染的内容。它旨在充当智能搜索代理，简化将相关信息直接提取到 Python 应用程序中的过程。无论您需要简单的 URL 列表还是深度内容提取，AI 搜索都消除了从头开始构建自定义搜索抓取器的复杂性。 - 使用简单的英语查询网络：只需以自然语言提供您的搜索查询，然后让代理完成繁重的工作。 - 控制搜索结果的数量：轻松定义您想要检索的结果数量。 - 结果页面的可选内容抓取：直接从返回的搜索结果中自动抓取和提取内容片段。 - 动态内容的 Python 渲染：启用渲染以无缝处理和提取来自 JavaScript 密集型网站的数据。要使用搜索代理，请执行以下简单步骤： 1. 输入您要查找的搜索查询。 2. 设置所需号码
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-grounding, ai-search, ai-training, firecrawl-alternative, javascript-rendering
+
+---
+
+### 🌟 [vibing-steampunk](https://github.com/oisee/vibing-steampunk)
+- **项目语言**: Go
+- **星标数量**: ⭐ 444
+- **核心概述**: vs-punk：ADT 到 MCP 的桥梁 - ABAP / AMDP 中的 Vibe 代码
+- **大概是做什么的**: Vibing Steampunk (vsp) AI 代理开发已解锁 ABAP — ECC、S/4HANA，以及 ADT 可用的任何地方。 ADT ↔ MCP Bridge ：为 Claude（和其他 AI 助手）提供对 SAP ADT API 的完全访问权限。阅读代码、编写代码、调试、部署、运行测试 — 全部通过自然语言（或用于自动化的 DSL）进行。新功能：ABAP 调试器通过 SAP 自己的 ADT 资源在经典 RFC（断点、附加、单步执行、调用堆栈）上运行，无需在服务器上安装任何内容，也无需 SAP SDK。另请参阅：OData ↔ 用于 SAP 数据访问的 MCP Bridge。想要回顾或测试？从这里开始：审阅者指南 — 8 个实践任务，无需 SAP。基于 RFC 的 ABAP 调试器 — 服务器上未安装任何内容 调试器首先需要一件事：稳定的 ABAP 会话。 Attach debuggee() 返回一个对象引用，并且步骤、堆栈和变量都挂在它之上 — 这就是为什么分布在独立 HTTP 调用上的调试循环不断丢失其调试对象的原因。固定的经典 RFC 对话本质上是没有 ICF、CSRF 和 WebSocket 升级的会话。为此，服务器上没有安装任何内容。日食驱动非常
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: abap, adt, mcp, vibe-coding
+
+---
+
+### 🌟 [agent-worktree](https://github.com/nekocode/agent-worktree)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 273
+- **核心概述**: 用于 AI 编码代理的 Git 工作树工作流程工具。支持在隔离环境中进行并行开发。
+- **大概是做什么的**: 用于 AI 编码代理的 Git 工作树工作流程工具。支持在隔离环境中进行并行开发。 AI 编码代理在隔离环境中效果最佳： - 并行执行：同时运行多个代理而不受干扰 - 干净分离：每个功能都有自己的工作目录 - 运行引擎：“使用和丢弃”工作流程 — 创建工作树、运行代理、合并、清理。交互式 ( wt run -i ) 用于人类，无头 ( wt run ) 用于 CI/orchestrator 更新到最新版本： Windows 注意 - wt 更新会重新安装 npm 包，如果任何 wt 进程正在运行，则会失败，因为 Windows 锁定正在运行的 .exe 。更新之前关闭所有运行 wt 的 shell。 Shell 集成会自动安装。手动重新安装： 支持的 shell：bash、zsh、fish、PowerShell 其他有用的命令：运行代理 ( wt run ) 一个引擎：创建工作树→在内部运行代理（注入 WT 环境变量）→调度结果。代理命令紧随其后 - 并且直接运行，无需 shell - 没有引用陷阱。失败总是保留工作树以供检查。你决定
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, git, worktree
+
+---
+
+### 🌟 [charlotte](https://github.com/TickTockBent/charlotte)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 175
+- **核心概述**: 令牌高效浏览器 MCP 服务器 — 用于 AI 代理的结构化网页，而不是原始可访问性转储
+- **大概是做什么的**: 你的 AI 代理会烧掉 50,000 个可访问性树字符，只是为了查看黑客新闻首页。 Charlotte 在 364 中做到了这一点。Charlotte 是一个 MCP 服务器，它为 AI 代理提供结构化、令牌高效的网络访问。 Charlotte 不会在每次调用时转储完整的可访问性树，而是仅返回代理所需的内容：到达时的紧凑页面摘要、针对特定元素的有针对性的查询以及仅在明确请求时提供完整详细信息。在内容丰富的页面上，方向比 Playwright MCP 的完整可访问性树快照小 140 倍；在很小的页面上，两者的大小大致相同。大多数浏览器 MCP 服务器会在每次调用时转储整个可访问性树 - 在内容丰富的页面上可能超过一百万个字符的平面文本 blob。无论代理人是否需要，他们都会支付所有费用。 Charlotte 将每个页面分解为类型化、结构化的表示形式（地标、标题、交互元素、表单、内容摘要），并让客服人员通过三个详细级别控制他们接收的内容量。当客服人员导航到新页面时，
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, mcp, mcp-server, model-context-protocol, typescript, web-browsing
+
+---
+
 ## 🕔 2026-08-21 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
