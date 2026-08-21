@@ -1,3 +1,67 @@
+## 🕔 2026-08-21 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Infographic](https://github.com/antvis/Infographic)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 6,370
+- **核心概述**: 🦋 信息图表生成和渲染框架，通过 AI 让文字变得栩栩如生！
+- **大概是做什么的**: 信息图表，让文字变得生动！ 🦋 信息图表生成和渲染框架，让文字栩栩如生！ AntV Infographic是AntV的下一代声明式信息图可视化引擎。通过精心设计的信息图语法，可以快速灵活地渲染高质量的信息图，让信息呈现更高效，让数据故事更简单。 - 🤖 AI 友好：配置和语法针对 AI 生成进行了调整，提供简洁的提示，支持 AI 流式输出和渲染 - 📦 即用型：200 个内置信息图模板、数据项组件和布局，可在几分钟内构建专业的信息图 - 🎨 主题系统：手绘、渐变、图案、多个预设主题，以及深度定制 - 🧑🏻‍💻 内置编辑器：包括信息图表编辑器，以便进一步编辑 AI 生成的结果 - 📐 高质量 SVG 输出：默认使用 SVG 渲染，以确保视觉保真度和轻松编辑 渲染结果如下所示： 使用高度容错的信息图表语法，您可以实时流式传输 AI 输出
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, antv, infographic, llm, visualization
+
+---
+
+### 🌟 [OGAM](https://github.com/off-grid-ai/OGAM)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,958
+- **核心概述**: 离线人工智能的瑞士军刀。在手机或 Mac 上聊天、查看、说话和生成图像 — GGUF LLM、视觉、Whisper 语音转文本、稳定扩散、工具调用和本地网络服务器。在您的 CPU、GPU 或 NPU 上运行。没有帐户，没有 API 密钥，零数据离开您的设备。
+- **大概是做什么的**: 设备上人工智能聊天的瑞士军刀。生成图像。使用工具。看。听。一切都在您的手机或 Mac 上。全部离线。零数据离开您的设备。声音、人物角色和行动。终身 69 美元，或每年 49 美元。 Pro 是可选的附加层。它为助手提供了回嘴的声音、你塑造的角色以及起草你批准的实际���动的工具。一份许可证涵盖您的手机和 Mac。全部在设备上。 - 语音模式 - 免费应用程序转录您的讲话； Pro 添加了设备上的 Kokoro 文本转语音功能，因此它可以进行回复，并且您可以免提运行整个过程。声音在您手机的 RAM 中运行。 - 自定义角色 - 为每个助手提供自己的系统提示、语音和持久记忆，以便在对话中保持角色特色。 - 起草，然后批准 - 连接日历、电子邮件和 MCP 服务器，例如 Linear、Notion 和 GitHub。它起草答复或提交票据并等待。没有您的点击，任何内容都不会发送。 - 同步，登陆至 7 月 - 您的手机和 Mac 通过您自己的网络合并为一张图片，无需中继。您的许可证在发货之日就包含了它。 → 获取专业版
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: android, edge-ai, gguf, ios, llama-cpp, local-ai
+
+---
+
+### 🌟 [OneCompression](https://github.com/FujitsuResearch/OneCompression)
+- **项目语言**: Python
+- **星标数量**: ⭐ 420
+- **核心概述**: 用于LLM压缩的Python包
+- **大概是做什么的**: Fujitsu One Compression Fujitsu One Compression (OneComp) 是一个用于 LLM 压缩的 Python 包。这就是你所需要的。 OneComp 检测您的 GPU VRAM，选择每层的最佳位宽，通过错误传播进行量化、评估和保存 — 全自动。完整文档可在 https://FujitsuResearch.github.io/OneCompression/ 获取。 - 量化误差传播（QEP）：一种训练后量化方法，通过将量化误差传播到后续层来纠正量化误差，从而提高量化 LLM 的准确性。有关详细信息，请参阅 Arai 和 Ichikawa，NeurIPS 2025。原始参考实现可从 FujitsuResearch/qep 获取。 - 层投影坐标下降（LPCD）：统一的训练后量化（PTQ）框架，通过优化宽松目标并使用分层量化器投影解决方案，将分层量化扩展到任意子模块。有关详细信息，请参阅 Ichikawa 等人，2025。 - vLLM 插件集成：通过 DBF 和混合 GPTQ 量化方法的内置插件，使用 vLLM 提供 OneComp 量化模型。与 O 配对
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: llm, qep, quantization, vllm
+
+---
+
+### 🌟 [hunter-community](https://github.com/agentpit-io/hunter-community)
+- **项目语言**: Python
+- **星标数量**: ⭐ 213
+- **核心概述**: Hunter 社区版 · 您的私人金融 AI 团队 · 开源自托管 · 由 opencode + MCP + 多代理提供支持 · 15 分钟 docker 启动
+- **大概是做什么的**: Hunter Community Edition Your investment brain, on your terms 开源自部署 · 一 key 通用 · 5 分钟跑起来 Your private financial AI team · one API key · self-hosted in 5 minutes 🚀 Live Demo · 📖 Docs · 🐦 Twitter · ⭐ Star us https://github.com/user-attachments/assets/37f4a065-663b-4eee-8d3f-c9c0573270e3 SaaS 完整演示 · 3 分 34 秒 · 深度分析 + 走势预测 + SKILL 使用 · 点视频左下角播放 - Community vs Cloud Hunter 是给个人投资者用的金融 AI Agent 平台 。给它 1 把 key + 1 个大模型 · 你就有一个能查行情、拉新闻、跑深度分析、预测走势、盯自选、按 SKILL 方法论工作的 AI 团队 —— 全部在你自己的机器上运行 。 - 🎯 一 key 通用 · hunt tools xxx 一把 key 解锁 32/33 数据源 + 23 个精修 SKILL + Kronos 走势预测 + TrueSource 情报 - 🧠 多模型可插拔 · DeepSeek v4 pro 实测 P0 默认 ( - 30 天 K 线 · 财报 · 新闻 - 北向资金 · 南向资金 · AH 溢价 - 23 个精修 SKILL(下方展开) - Kronos 走势预测(清华时序模型) - DeepSeek/qwen/Claude/GPT 可插拔 - 侧栏三层 (数据源/工具箱/SKILL · 见 截图) - 顶部深度工具菜单(在线分析/K 线预测/信号看板/事件分析 · 见 截图) - docker compose 一键起 - 6 服务 healthy 自动 orchestrate - Docker Desktop(Windows/macOS)或 Docker Engine + Compose v2(Linux) - 磁盘 20 GB(opencode 镜像 7.5 GB)· 内存 4 GB - 能访问 ghcr.io (对话引擎从���里拉) - 大模型 key(DeepSeek 免费送 500 万 tokens · 30 秒申请) - 问"601899 现在多少钱" — 会看到富卡片(实时价 · 52 周分位 · AI 短评) - 问"预测茅台走
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, apache-2, docker-compose, financial-ai, mcp, opencode
+
+---
+
+### 🌟 [awesome-claude-api](https://github.com/peter123023/awesome-claude-api)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 407
+- **核心概述**: 收集和整理的可靠Claude中转API资源列表，帮助开发者快速找到稳定、高性价比的Claude API服务
+- **大概是做什么的**: Awesome Claude API 中转资源汇总 精心收集和整理的可靠Claude中转API资源列表，帮助开发者快速找到稳定、高性价比的Claude API服务。所有信息均来自官方网站，确保时效性和准确性。 本项目致力于收集全球范围内稳定可靠的Claude中转API服务，为开发者提供一个权威、更新及时的资源参考。所有收录的API服务均经过初步筛选，确保具备基本的可用性和稳定性。 1. 所有服务均为第三方提供，使用前请仔细阅读各服务商的官方文档和服务条款 2. 建议先试用免费额度或小额套餐，确认服务符合需求后再进行长期付费 3. 价格和政策可能会有变动，请以服务商官方网站最新信息为准 4. 月访问量数据来自第三方流量统计平台（autotdk.com 与 traffic.cv，数据源为 SimilarWeb 估算），仅供参考，非官方精确统计，实际访问量请以各服务商官方数据为准 服务商 网站地址 费用结构 综合评价 标签 ------- --------- --------- ---------- ------ OpenRouter 月访问量: 19.2M (2026-07) openrouter.ai • 无订阅制，按量付费，统一信用点抵扣所有模型费用 • 价格公开透明，不同Claude版本定价不同 • 新用户注册可获得免费试用额度 • 全球最大的LLM聚合平台，500万+用户，月处理70T Tokens • 全面支持Claude全系列模型（包含最新Claude Opus 4.7） • 多上游自动故障转移，服务可用��高 • 完全兼容OpenAI SDK格式，几乎零代码适配 • 支持边缘节点加速、精细数据隐私控制、团队管理等功能 全球知名 全Claude版本支持 高可靠 SDK兼容好 AIHubMix 月访问量: 163.8K (2026-07) aihubmix.com • 按量付费无强制订阅，价格与官方基本同步 • 新用户及合作伙伴可享10%长期折扣 • 账单透明可查，支持多种支付方式 • 全球主流LLM聚合平台，全面支持Claude全系列模型（含最新Opus 4.7、Sonnet 4.6） • 月处理超千亿Tokens，海量企业开发者使用，服务稳定性极高 • 边缘节点自动路由，全球访问速度快，并发支持强 • 完全兼容OpenAI、Anthropic官方API协议，零代码适配 • 支持联网搜索、多模态、视频生成等高级特性，模型更新速度极快 多模型支持 高稳定 低延迟 SDK兼容好 模型更新快 ZenMux 月访问量: 1.5M (2026-07) zenmux.
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: api, awesome, awesome-list, claude, claude-code, llm
+
+---
+
+### 🌟 [otto-cognitive-nudge](https://github.com/muhammadalicusit56-glitch/otto-cognitive-nudge)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 126
+- **核心概述**: Smart Promise Tracker AI 2026 – Commit 内存引擎
+- **大概是做什么的**: 用于人类通信的同步完整性层。承诺将在哪里坚持下去——安静地、符合宪法、不带评判地。 EchoPact 是一个认知承诺引擎，其灵感源自宪法安全和注意力记忆原则。它会监视您的信息中的承诺（“我会在周一发送”，“我会在周四之前审核”），跨上下文记住它们，并以尊重的精确度进行跟进。当你需要安静时，它就会安静。当你需要问责制时，它会说得很清楚。每天，都有数以千计的承诺通过书面沟通（电子邮件、聊天消息、任务板）做出。大多数都被遗忘了。有些被保留。其中一些已被破坏，信任受到侵蚀。 EchoPact 旨在弥合意图和行动之间的差距，而不增加摩擦或判断。将其视为一个认知见证人 - 一个公正而有爱心的观察者，可以捕捉您承诺的本质并在正确的时间将其浮出水面。它不烦人。这并不羞耻。它只是记住，所以您不必记住。功能描述 --------- ------------- 承诺检测 识别承诺语言 acr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: adhd, adhd-friendly, adhd-tools, agent-sdk, anthropic, claude
+
+---
+
 ## 🕔 2026-08-21 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 263 个候选项目中筛选出 6 个未推荐过的新项目。
