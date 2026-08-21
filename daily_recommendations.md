@@ -1,3 +1,67 @@
+## 🕔 2026-08-21 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 263 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agent-sandbox](https://github.com/kubernetes-sigs/agent-sandbox)
+- **项目语言**: Go
+- **星标数量**: ⭐ 3,583
+- **核心概述**: agent-sandbox 可以轻松管理隔离、有状态、单例工作负载，非常适合 AI 代理运行时和强化学习 (RL) 等用例。
+- **大概是做什么的**: 网站·文档·DeepWiki·入门·示例·路线图代理沙箱可以轻松管理隔离的、有状态的、单例工作负载，非常适合人工智能代理运行时和强化学习等用例。该项目正在 SIG Apps 的保护下为 Kubernetes 开发沙盒自定义资源定义 (CRD) 和控制器。目标是提供一个声明性的、标准化的 API，用于管理需要具有稳定身份的长期运行、有状态、单例容器的特征的工作负载，就像基于 Kubernetes 原语构建的轻量级、单容器 VM 体验一样。适用范围：Agent Sandbox 是一个沙箱编排器。它通过管理配置为使用这些运行时的 Pod（通过 RuntimeClass ）来委托低级容器隔离来保护“沙盒运行时”（如 gVisor 或 Kata 容器）。 Sandbox CRD是agent-sandbox的核心。它提供了一个声明式 API，用于管理具有稳定身份和持久存储的单个有状态 Pod。这对于不太适合 Depl 无状态复制模型的工作负载非常有用
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, kubernetes, rl, sandbox
+
+---
+
+### 🌟 [xum](https://github.com/coder/xum)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,977
+- **核心概述**: 用于隔离、并行代理开发的桌面应用程序
+- **大概是做什么的**: Xum - 编码代理多路复用器 在 Mux.com 提出商标问题后，该项目从 Mux 更名为 Xum。 “Mux”是“多路复用器”的常见技术缩写，我们不希望项目之间发生混淆，但选择重新命名我们的项目，而不是花更多时间在争论上。 - 具有 git divergence 中心视图的隔离工作区（文档） - 本地：直接在项目目录中运行 - 工作树：本地计算机上的 git 工作树 - SSH：通过 SSH 在服务器上远程执行 - 多模型（ sonnet-4- 、 grok- 、 gpt-5- 、 opus-4- ） - Ollama 支持本地 LLM（文档） - OpenRouter 支持 LLM 长尾（文档） - VS代码扩展：直接从 VS Code 跳转到 Xum 工作区（文档） - 支持 UI 和按键绑定以有效管理一组代理 - 丰富的 markdown 输出（美人鱼图、LaTeX 等） Xum 有一个自定义代理循环，但大部分核心 UX 的灵感来自 Claude Code。您会发现熟悉的功能，如计划/执行模式、vim 输入、/compact 以及新功能，如机会压缩和模式提示。阅读完整文档 → Mo
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ide
+
+---
+
+### 🌟 [yt-short-clipper](https://github.com/jipraks/yt-short-clipper)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 959
+- **核心概述**: Windows 桌面应用程序可将 YouTube 长视频转换为 9 分 16 秒的短视频 — AI 高光检测、面部跟踪肖像重构和逐字字幕。
+- **大概是做什么的**: 一款 Windows 桌面应用程序，可将 YouTube 长视频转换为可随时发布的 9 分 16 秒短片 - 使用法学硕士挑选亮点，重新构图为纵向，并刻录逐字字幕。堆栈：React 19 + TypeScript + Vite · Tauri v2 (Rust shell) · Python sidecar（yt-dlp，仅限 Windows。构建脚本是 PowerShell，应用程序以带有 WebView2 引导程序的便携式 zip 形式提供，标题/钩子渲染从 C:\Windows\Fonts 读取字体。目前 macOS/Linux 还没有准备好。状态：测试版。预计版本之间存在粗糙和重大变化。1. 粘贴 YouTube URL 并上传自己的 cookies.txt（请参阅 2. yt-dlp 获取视频及其原始字幕轨道。 3. 法学硕���读取脚本并建议精彩片段（默认为 58-120 秒）。 4. 每个片段都会被剪切、重新构建为 9:16、添加字幕并以 MP4 形式写出。 5. 或者，可以通过 Repliz 上传和安排剪辑。 - 通过任何方式从视频字幕脚本中进行 AI 精彩片段检测兼容 OpenAI 的端点 - 每个视频的 AI 方向 - 自由文本转向：命名时间范围，追踪重复事件
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-video, content-creation, ffmpeg, instagram-reels, llm, mediapipe
+
+---
+
+### 🌟 [fluent-korean](https://github.com/snflkd/fluent-korean)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 457
+- **核心概述**: 输出式插件，让 Claude Code 能说清楚韩语 | Claude Code 输出风格，提供清晰、流利的韩语
+- **大概是做什么的**: 流利的韩语（Claude Code 输出风格） 该插件提供了一种输出风格，指导 LLM（特别是 Claude 及其编码代理）流利地说出清晰的韩语。我们追求清晰的意义传达而不是优雅的写作风格，并追求相对自然的句子。如果您用韩语键入命令并且您的工作输出包含韩语，这尤其有用。该插件适用于Claude Code环境，但可以通过适当利用与书写指令相对应的文本来应用于其他AI。下面会详细说明安装方法，但我们建议您用一句话告诉您目前正在使用的LLM，如下所示。 EN：一种克劳德代码输出样式，可阻止克劳德编写损坏的机器韩语：删除助词和词尾、电报名词字符串和隐喻交换词汇。它优先考虑清晰、明确的含义而不是优雅的散文，旨在获得相当自然的句子。有两种版本可供选择：一种保留了 Claude Code 的编码说明，另一种则没有。指南文本本身也可以作为简单的书写指令粘贴到其他人工智能环境中。由韩国文学专业撰写；本自述文件的韩文部分是人工编写的。如果您在 Anthropic 并希望 Claude 写出正确的韩语，那么维护人员很乐意听取您的意见。最近的人工智能模型并不精通韩语，而是简洁地说话，以减少令牌使用并应对上下文限制。
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: anthropic, claude, claude-code, claude-code-plugin, korean, korean-language
+
+---
+
+### 🌟 [Lealone](https://github.com/lealone/Lealone)
+- **项目语言**: Java
+- **星标数量**: ⭐ 2,579
+- **核心概述**: 能安全适用于氛围编程和企业应用的全栈自进化通用智能体
+- **大概是做什么的**: mvn assembly:assembly -Dmaven.test.skip=true 可以直接下载 lealone-8.0.0-SNAPSHOT.jar java -jar lealone-8.0.0-SNAPSHOT.jar java -jar lealone-8.0.0-SNAPSHOT.jar -agent 在 agent 窗口中执行以下命令配置大模型，只需要执行一次: 在 agent 窗口输入：实现一个 todo 应用 等待20多秒后会返回一个 URL，用浏览器打开即可 零代码零需求文档渐进式开发一个企业级 AI 应用 在 agent 窗口中执行以下命令创建第一个服务然后马上执行它: 通过需求文档直接运行一个企业级 AI 应用 运行: java -jar lealone-8.0.0-SNAPSHOT.jar services.sql Lealone 发音 ['li:ləʊn] 这是我新造的英文单词， 灵感来自于办公桌上那些叫绿萝的室内植物，一直想做个项目以它命名。 绿萝的拼音是 lv luo，与 Lealone 英文发音有点相同， Lealone 是 lea + lone 的组合，反过来念更有意思哦。:)
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acid, agent, ai, async, database, lealone
+
+---
+
+### 🌟 [whisplay-ai-chatbot](https://github.com/PiSugar/whisplay-ai-chatbot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 501
+- **核心概述**: 使用 RPI Zero 2w / 5 构建的袖珍人工智能聊天机器人
+- **大概是做什么的**: 这是一款使用 Raspberry Pi Zero 2w / 5 构建的口袋大小的人工智能聊天机器人设备。只需按下按钮，说话，它就会回复——就像一个具有自己的思想的未来派对讲机。测试视频播放列表：https://www.youtube.com/watch?v=lOVA0Gui-4Q https://www.youtube.com/watch?v=Nwu2DruSuyI 教程（基于 RPi 5 的离线版本）：https://youtu.be/kFmhSTh167U https://youtu.be/QNbHdJUW6z8 https://youtu.be/xGzvFzdBAwc - Raspberry Pi零 2w（推荐 RRi 5，8G RAM 用于离线构建） - PiSugar Whisplay HAT（包括 LCD 屏幕、板载扬声器和麦克风） - PiSugar 3 1200mAh（RPi 5 的 Plus 版本 5000mAh） - 请在项目 wiki 中找到预构建映像：https://github.com/PiSugar/whisplay-ai-chatbot/wiki 您需要首先安装 Whisplay 的音频驱动程序帽子。按照 Whisplay HAT 存储库中的说明进行操作。 1. 克隆存储库： 2. 安装依赖项：需要运行 source /.bashrc 来加载新的环境变量。自定义 npm 注册表：所有脚本都遵循 NPM REGISTRY 环境变量。如果未设置，则官方 npm 注册表 ( htt
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, asr, audio, chatbot, llm, pisugar
+
+---
+
 ## 🕔 2026-08-20 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 261 个候选项目中筛选出 6 个未推荐过的新项目。
