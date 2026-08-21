@@ -1,3 +1,67 @@
+## 🕔 2026-08-21 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [CLI-WeChat-Bridge](https://github.com/UNLINEARITY/CLI-WeChat-Bridge)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 469
+- **核心概述**: 将 AI 命令行工具以最为原生的方式，集成到微信 ClawBot 中，目前支持集成 Codex、Claude Code、OpenCode、Pi Agent。 支持微信和本地终端线程（thread/session）共享、双向对话，支持将本地文件传输至微信，微信也支持发送文件到终端。现已支持多cli切换、微信表情绑定指令。
+- **大概是做什么的**: 命令行工具的微信桥接 ：本项目将微信消息桥接到本地运行的 Codex 、 Claude Code 、 OpenCode 和 Pi ，同时把本地输出、审批请求与运行状态同步回微信。 项目围绕本地工作流设计，重点是保留 本地原生终端体验 ：你仍然在本地使用原生 CLI 和高级启动参数，微信负责远程输入、结果回流与状态同步。 - 问题排查：上下文 token、网络代理、本地 endpoint、已知限制等常见问题。 - 运行配置：数据目录、上传大小限制、调试开关等环境变量。 - 开发说明：源码运行、测试、构建、打包和全局 smoke 验证。 - 通信架构：各 CLI 适配器的通信机制、PTY / RPC 依赖分析和技术决策。 - 你希望继续使用 Codex、Claude Code、OpenCode、Pi 等原生 CLI，而不是迁移到网页或托管机器人； - 你希望离开电脑后，仍能通过微信向本地会话发送请求，并接收必要输出和状态更新。 本项目不试图把微信变成新的主工作界面。它的定位是： - 本地 CLI 仍然是主工作界面，并保持原生的使用逻辑； - 会话一致性、线程状态和审批流仍以 本地会话为中心 。 - Node.js = 24.0.0 （建议直接安装官网 LTS 版本） - 已安装以下任意一种本地 CLI，并尽量保持最新版本： - OpenCode = 1.18.0 安装遇到问题？（node-pty 原生模块） 本项目使用 node-pty 为 CLI 适配器提供完整终端模拟。 Claude Code 适配器当前通过 PTY 交互模式工作 ，node-pty 不可用时会回退到兼容模式，但 Claude Code 在此模式下可能无法正常桥接；Codex 适配器主要通过 WebSocket RPC 通信，通常不受影响；OpenCode 适配器不依赖 node-pty；Pi 直接继承可见 companion 的真实终端，也不需要 node-pty 模拟。 Linux 用户 （最常见）：需要原生模块编译工具： 安装编译工具后重新安装： npm install -g cli-wechat-bridge@latest macOS 用户 ：如遇编译问题，安装 Xcode 命令行工具： xcode-select --install - 需要 Windows 10 1809（build 18309）或更高版本 - 如果 node-pty 加载失败，运行 npm rebuild node-pty 或重新安装 - 确保已安装 Visual C++ Redistributable 运行 wec
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, claude-code, clawdbot, cli, codex
+
+---
+
+### 🌟 [LLM_MultiAgents_Survey_Papers](https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,305
+- **核心概述**: 基于大型语言模型的多智能体：进展和挑战调查（IJCAI 2024）
+- **大概是做什么的**: 🤖 很棒的基于 LLM 的多代理论文 我们关于基于 LLM 的多代理的调查可在以下网址找到：https://arxiv.org/abs/2402.01680 我们总结的基于 LLM 的多代理架构是： 概述表如下。更多细节可以在我们的论文中看到。非常感谢任何建议。 [2024/02] 我们将每两周更新一次论文列表，并将以下所有论文纳入下一版本的论文中。如果我们遗漏任何论文，请随时与我联系！ [2024/01] 创建此存储库是为了维护基于 LLM 的多代理论文。我们将这些论文分为五个主要流： - 多智能体框架 - 多智能体编排和效率 - 多智能体解决问题 - 多智能体世界模拟 - 多智能体数据集和基准 📌 目录 (ToC) - 多智能体框架 - 多智能体编排和效率 - 多智能体解决问题 软件开发实验操作科学团队 - 多智能体世界模拟疾病传播模拟 - 多智能体数据集和基准多智能体 F
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, large-language-models, llm, llms, llms-reasoning, multi-agents
+
+---
+
+### 🌟 [aura](https://github.com/mezmo/aura)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 255
+- **核心概述**: AURA 是一个经过生产测试的 SRE 代理平台，您可以在几分钟内完成部署。 AURA 负责处理让 AI 在生产基础设施上安全运行所需的护栏、API、状态管理、流媒体和故障处理。
+- **大概是做什么的**: AURA 是一个经过生产测试的 SRE 代理平台，您可以在几分钟内完成部署。在此演示中，AURA 通过关联 Mezmo 跟踪和日志、Prometheus 延迟和 Kubernetes 部署历史记录来调查支付失败。三个专业代理发现了 Productcatalogservice 1.13.2 引入的 N+1 回归，建议回滚到 1.13.1，并提供恢复检查和工程后续工作。通过指导设置连接您的堆栈，AURA 的预配置代理团队开始使用您已经依赖的模型调查事件。从那里，自定义现有代理或添加新代理以适应您的基础架构和 SRE 工作流程。 AURA 处理将 AI 模型连接到操作员定义的边界内的生产工具所需的护栏、API、状态管理、流媒体、故障处理和可观察性。经过生产验证 AURA 最初是 Mezmo 运营我们自己的 SaaS 的内部工具。如今，我们的工程和 SRE 团队仍在生产运营中使用它，Mezmo 之外的团队在自己的生产环境中运行 AURA。 AURA 还为数千个
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: a2a, ai-agent-framework, ai-agents, ai-sre, aiops, autodoc
+
+---
+
+### 🌟 [mcpsnoop](https://github.com/kerlenton/mcpsnoop)
+- **项目语言**: Go
+- **星标数量**: ⭐ 340
+- **核心概述**: 用于 MCP 的 Wireshark。透明代理，可在您的终端中显示 AI 客户端和 MCP 服务器之间的每个真实工具调用。
+- **大概是做什么的**: 用于 MCP 的 Wireshark。透明代理，可在您的终端中显示 AI 客户端和 MCP 服务器之间的每个真实工具调用。官方 MCP Inspector 作为自己的客户端进行连接，因此它永远不会看到您的客户端（Cursor、Claude Code、Codex）实际发送给您的服务器的内容。等待请求到达的任何内容都无法显示模型从未进行过的调用，或者使用错误的参数进行的调用。当一个工具没有被静默调用、功能没有排列或者调用只是挂起时，您只能挖掘日志并猜测。 mcpsnoop 位于真实数据路径中。用它包装您的服务器命令并实时观看每个 JSON-RPC 帧，就像您真正的客户端和服务器交谈一样。立即查看，无需任何设置。要真正使用它，请将您的服务器包装在客户端的 MCP 配置中。 -- 之后的所有内容都是通常启动服务器的命令。交换您已经使用的任何内容，例如 python server.py 、 npx -y @scope/server 或 On Claude Desktop，您无需手动进行编辑。 wrap 找到 claude 桌面 config.json ，将其复制到 claude 桌面 config.json.m
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: bubbletea, claude, cli, codex, cursor, debugging
+
+---
+
+### 🌟 [OpenProgram](https://github.com/Fzkuji/OpenProgram)
+- **项目语言**: Python
+- **星标数量**: ⭐ 206
+- **核心概述**: 自编程人工智能助手。捕获、自动化和完善您的所有工作流程。
+- **大概是做什么的**: 自编程人工智能助手。捕获、自动化和完善您的所有工作流程。入门 · API 参考 · 哲学 · “一个人施加的限制越多，就越能释放自己。” — Igor Stravinsky，音乐诗学 我们提出代理编程。法学硕士很灵活；代码是确定性的。让模型运行一切，你就会陷入混乱——不可预测的执行、上下文爆炸、没有输出保证；对���有内容进行硬编码，你就会失去智能。一个工具可以平衡这两者，时时刻刻交错——Python 负责你想要修复的流程，LLM 负责你无法编写脚本的判断。 （完整的理由 →） 🎉 论文：LLM-as-Code：Agentic Programming for Agent Harness — 在 KDD 2026 Agentic Software Engineering (AgenticSE) 研讨会上被接受。 - 2026-08-17 — v0.7.0 — 完整的内置浏览器版本：多窗格浏览器、书签和紧凑历史记录、Chrome/Brave/Edge/Chromium 配置文件导入以及可见内部网页的 DOM 优先代理控制。 - 2026-07-21 — v0.6.0 — 多代理协作：产生 N 个子代理，向它们发送消息
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-orchestration, agent-runtime, agentic, ai-agent, ai-agent-framework
+
+---
+
+### 🌟 [ai-toolkit](https://github.com/softspark/ai-toolkit)
+- **项目语言**: Python
+- **星标数量**: ⭐ 164
+- **核心概述**: 专业级AI编码工具包：94种技能、44种代理、多平台（Claude、Cursor、Windsurf、Copilot、Gemini、Cline、Roo Code、Aider、Augment、Antigravity、Codex CLI、opencode）。
+- **大概是做什么的**: 具有多平台支持的专业级人工智能编码工具包。机器强制安全、109 项技能、44 名代理、扩展生命周期挂钩、角色预设、实验性选择加入插件包和基准工具 - 可与 Claude Code、Claude Chat/Cowork、Cursor、Devin、Cop​​ilot、Gemini、Cline、Roo/Zoo Code、Aider、Augment、Google Antigravity、Codex CLI 和 opencode 配合使用。 v4.29.2 中的新增功能 v4.29.2 使 install --dry-run 能够说出有关 Codex 挂钩的真相： - 选择 codex 始终会在每个配置文件中安装 Codex 生命周期挂钩 - .codex/hooks.json 以及 .codex/hooks/ 下的脚本。试运行分支仅列出了代理和技能，因此预览默默地省略了整个表面，以及要求您使用 /hooks 查看和信任的表面。 - 两个预览现在都将其命名为：项目安装宣布 .codex/hooks.json + .codex/hooks/ ，全局安装在 $CODEX HOME/hooks.json 旁边添加 $CODEX HOME/ai-toolkit-hooks/ 。 - 四项测试将预览与实时安装实际写入的内容固定在一起，因此表面不会再次在空运行中丢失。测试次数：1671 - 1675。 - Key Slash Com
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-skills, anthropic, claude, claude-code, cline
+
+---
+
 ## 🕔 2026-08-21 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 204 个候选项目中筛选出 6 个未推荐过的新项目。
