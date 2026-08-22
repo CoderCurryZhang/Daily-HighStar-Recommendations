@@ -1,3 +1,67 @@
+## 🕔 2026-08-22 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 277 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [aso-skills](https://github.com/Eronred/aso-skills)
+- **项目语言**: MDX
+- **星标数量**: ⭐ 1,781
+- **核心概述**: AI agent skills for App Store Optimization (ASO) and app marketing. Built for indie developers, app marketers, and growth teams who want Cursor, Claude Code, or any Agent Skills-compatible AI assistant to help with keyword research, metadata optimization, competitor analysis, and app growth.
+- **大概是做什么的**: ASO & App Marketing Skills AI agent skills for App Store Optimization (ASO) and mobile app marketing. Built for indie developers, app marketers, and growth teams who want Cursor , Claude Code , or any Agent Skills-compatible AI assistant to help with keyword research, metadata optimization, competitor analysis, market intelligence, and app growth. Powered by real App Store data via the Appeeky API. Agent skills for user acquisition For agent skills for mobile app user acquisition — TikTok ads, Meta ads, Apple Search Ads, ad creatives, and ROAS - see ua-skills. A native macOS app — a local-first for app growth. App Store Connect, Google Play, Apple Search Ads, Meta/TikTok ads, and RevenueCat sync into a cache on your Mac: full history, no CSV exports, credentials in the Keychain. Reviews, ads intelligence, and keyword data stay fast (and work offline). A built-in terminal pairs with MCP, so the same agents that use these skills can talk to your local data. Download from Appeeky. Most ASO knowledge lives in blog posts, courses, and expensive consultants. We packaged it into skills that
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: app-store-analytics, app-store-connect, app-store-live, app-store-optimization, aso, marketing
+
+---
+
+### 🌟 [hotpath-rs](https://github.com/pawurb/hotpath-rs)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,688
+- **核心概述**: Quickly find bottlenecks in Rust - one profiler for CPU, memory, SQL, HTTP, I/O and async code.
+- **大概是做什么的**: hotpath - Rust Performance, CPU & Memory Profiler hotpath-rs is an easy-to-configure Rust performance profiler that shows exactly where your code spends time, burns CPU, and allocates memory. It helps you distinguish between functions that are slow because they wait on I/O and those that are CPU-intensive. Instrument functions, channels, futures, streams, SQL queries, HTTP calls, and byte-level I/O to find bottlenecks and focus optimizations where they matter most. Get actionable insights into time, memory, and async data flow with minimal setup. Try the TUI demo via SSH - no installation required: Or let your own AI agent configure profiling in a repo: Explore the full documentation at hotpath.rs. See CONTRIBUTING.md for development setup and guidelines. You can use it to produce one-off performance (timing, memory or CPU) reports: inspect throughput and latency of network, file or compression I/O streams: analyze SQL/HTTP calls performance with automatic source function attribution: monitor throughput, performance and max queue depth of instrumented channels: or use the live TUI da
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: allocations, benchmark, debugging, mcp, mpsc, performance
+
+---
+
+### 🌟 [Tracely-ai](https://github.com/Jwuthri/Tracely-ai)
+- **项目语言**: Python
+- **星标数量**: ⭐ 965
+- **核心概述**: Trace-native CI/CD for AI agents — production failures become regression tests that block the PR. Auto-detect, cluster, freeze into hermetic cases, replay in CI for $0.
+- **大概是做什么的**: Production failures become regression tests. Trace-native CI/CD for AI agents. Tracely grades every agent trace as it lands, clusters the failures into issues, freezes the bad runs into hermetic replayable cases, blocks the pull request that would ship them again — and tells you the moment any of it happens. production trace → failure detection → regression test → CI gate → alert Website · Docs · Product guide · Agent skill · Guided tour · 2-min demo · Design dossier Self-host the whole stack in one click — API, worker, UI, Postgres, ClickHouse, Redis and MinIO: One workspace: what ran, what broke, what is already pinned as a test. Why another agent-observability tool? Because observability stops at the dashboard. You can see that your agent broke — then what? Every eval tool asks you to hand-author a dataset : sit down, invent questions, write ideal answers, keep them current as the product changes. That dataset is a guess about what might break. Production already handed you the real thing: a trace of the exact run that failed, with the exact input, the exact tool calls, the exact
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-observability, ai-agents, ci-cd, clickhouse, evals
+
+---
+
+### 🌟 [mcp-memory-service](https://github.com/doobidoo/mcp-memory-service)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,900
+- **核心概述**: Open-source persistent memory for AI agent pipelines (LangGraph, CrewAI, AutoGen) and Claude. REST API + knowledge graph + autonomous consolidation.
+- **大概是做什么的**: Persistent Shared Memory for AI Agent Pipelines Open-source memory backend for AI agents — REST API, MCP, OAuth, CLI, dashboard . One self-hosted service, every transport. Agents store decisions, share causal knowledge graphs, and retrieve context in 5ms — without cloud lock-in or API costs. Works with LangGraph · CrewAI · AutoGen · any HTTP client · Claude Desktop · OpenCode ▶ The 3D knowledge graph in motion — every memory a glowing node, every relationship a curved edge. (Video not playing? See it live at mcpmemory.services .) Why Agents Need This Your AI assistant forgets everything when you start a new chat. You spend 10 minutes re-explaining your architecture. Again. MCP Memory Service captures project context, architecture decisions, and code patterns automatically — new sessions start with everything already known. Without mcp-memory-service With mcp-memory-service Each agent run starts from zero Agents retrieve prior decisions in 5ms Memory is local to one graph/run Memory is shared across all agents and runs You manage Redis + Pinecone + glue code One self-hosted service, z
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, agentic-ai, ai-agents, autogen, claude, crewai
+
+---
+
+### 🌟 [ProjectAtlas](https://github.com/styler-ai/ProjectAtlas)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 286
+- **核心概述**: Every file not opened. Every folder not explored. Tokens saved. ProjectAtlas guides coding agents with purpose metadata and an intelligent code graph, reducing token costs by over 90%.
+- **大概是做什么的**: Rust-native, high-performance local repository intelligence for coding agents and large codebases. A persistent SQLite map guides Codex, Claude Code, OpenCode, and other MCP-capable agents to the right code before they spend context reading the wrong files. Every file not opened. Every folder not explored. ProjectAtlas guides coding agents with purpose metadata and an intelligent code graph, reducing token costs by over 90%. The "over 90%" figure is a workload-specific local estimate from the published audit, not a universal savings guarantee or provider-billing result; see One Large-Application Audit. ProjectAtlas is a native Rust CLI and MCP server that keeps a project-local map of folders, files, reviewed purposes, deterministic summaries, symbols, graph relationships, searchable text, health findings, and token telemetry. .gitignore -aware scanning, BLAKE3 hashing, SQLite storage, filesystem watching, and compact TOON output keep repeated repository orientation local and fast. The map is deliberately agent-first: purposes identify the responsible area, graph relationships reveal
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: claude-code, code-intelligence, codex, coding-agents, developer-tools, mcp
+
+---
+
+### 🌟 [dsh-router-standard](https://github.com/yjh051108/dsh-router-standard)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 367
+- **核心概述**: Task-aware reasoning-mode router for DeepSeek Harness: three measured behavior bands (spec/mixed/react) with phase-transition evidence, persona + first-turn tool injection, agent-visible tuning. Dual-attractor policy paper included.
+- **大概是做什么的**: ⚠️⚠️⚠️ 重要勘误与道歉（必读） ⚠️⚠️⚠️ 这篇 README 顶部必须放这段话： 我错了，而且错得很有代表性。 - 论文不撤回 ，但其中 理论解释部分（双吸引子假设 A1–A4 及"god/ghost"、"自路由不可能"等强归因）已正式标注作废 。 - 心路历程 ：我最初把 "We need / Let me" 的差异当成"官方刻意设计的双模式"；后来才意识到那更可能是 一条原生深度路径 + 一条后压未收敛的极简路径 之间的 断层/断裂带 。这个断层 本身就像一层路由层 ——我们实际做的是把它当路由层用，实现了 "Let me / We need" 自路由。 - 我们做对了一件事，也请记住这件事 ： 利用后训练的一个小缺陷（断层/断裂带），我们实现了 V4 Flash 能力的可复现提升 ——这不是我聪明，是那个缺陷恰好可被工程利用。 - Pro 是另一场完全不同的硬仗 ：雷霆大思考、工具面敏感、内部路由不稳定。 我已经找到方向 （黑盒 logprobs / 嵌入向量层逆向 / 语义锚点指纹），初步数据已在仓库。这条路我会继续用实测走，而不是用叙事走。 📄 完整勘误声明：docs/statement.md ｜ 道歉函：docs/apology.md 当前状态（v1.8.0，2026-08-22 · 研发线，尚未发布） Router Standard 已进入「渐进式披露套装」研发线 （五轮真实会话实测驱动；发布与否以研发定稿为准）： - 渐进披露 ：四阶段解锁 + 两档预放（阶段 0 即用 write/edit）+ 直达语义（调用哪档工具就跳到哪档）+ 交付全量开放； - 二级注册表 ： tools catalog （全量索引 + 阶段标记 + 参数名/类型/上限速览）/ tools help （完整 schema）； - PTC 底座 ：run code 阶段化 SDK（39K → 阶段可见签名），工具面注意力税大幅下降； - 页面验证内置 ： dev page check = 截图 + DOM smoke + console/pageerror/title/selector/scale ； {js:…} 模式 = 本地 JS 引擎（语法检查+纯逻辑单测，零外部 node 依赖）； - 描述 ⇄ 行为对齐 ： presentation=code native 自检、阶段文案只说真话、平台事实（win32 仅 pwsh、node 入 PATH）； - 压力感应 ：真实事件通道 + 模型自适应 + 自检信号语义清楚（不是停手命令）。 配套预设： route
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cordis, deepseek-harness, dsh, dsh-plugin
+
+---
+
 ## 🕔 2026-08-22 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
