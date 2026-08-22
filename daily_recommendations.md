@@ -1,3 +1,67 @@
+## 🕔 2026-08-22 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [modelcontextprotocol](https://github.com/modelcontextprotocol/modelcontextprotocol)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 9,021
+- **核心概述**: 模型上下文协议的规范和文档
+- **大概是做什么的**: 模型上下文协议 (MCP) 刚刚听说 MCP，但不知道从哪里开始？查看我们的文档网站。此存储库包含： - MCP 协议架构 - 官方 MCP 文档 该架构首先在 TypeScript 中定义，但也可作为 JSON 架构提供，以供更广泛的使用。官方 MCP 文档是使用 Mintlify 构建的，可在 modelcontextprotocol.io 上获取。模型上下文协议由 David Soria Parra (@dsp) 和 Justin Spahr-Summers (@jspahrsummers) 创建。请参阅 CONTRIBUTING.md。该项目已获得 MIT ���可证的许可。
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: docs, mcp, specification, standard
+
+---
+
+### 🌟 [Kiln](https://github.com/Kiln-AI/Kiln)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,030
+- **核心概述**: 构建、评估和优化人工智能系统。包括评估、RAG、代理、微调、合成数据生成、数据集管理、MCP 等。
+- **大概是做什么的**: 一个免费的应用程序和开源库，用于构建更好的人工智能产品。 Kiln 是完整 AI 开发循环的工作台：评估、优化、提示、RAG、微调、合成数据、代理和工具 - 所有这些都协同工作。桌面应用程序让您的整个团队做出贡献（PM、主题专家和 QA 可以对输出进行评级并添加数据，而无需编写代码）。麻省理工学院许可的 Python 库将相同的任务交付到生产环境中。在本地运行 - 带上您自己的 API 密钥，或者使用 Ollama 完全离线。迭代、优化和协作 - 🖥️ 直观的应用程序 - 适用于 Mac、Windows 和 Linux 的易于使用的应用程序。一键安装。 - 📊 Eval Builder - 自动生成评估（判断+综合评估数据集），并在 10 分钟内根据您的偏好进行调整。 - 🚀 自动优化 - 自动找到运行 AI 任务的最佳方式，优化提示、模型选择、工具、技能、子代理、参数等。 - 💬 AI 助手 - 您的 AI 数据科学合作伙伴。 Kiln Assistant 提出改进建议、优化提示、运行实验、创建评估等。 - 🤝 Git 原生协作 - 应用程序自动同步到 Git
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, chain-of-thought, collaboration, dataset-generation, evals, evaluation
+
+---
+
+### 🌟 [moai-cowork](https://github.com/modu-ai/moai-cowork)
+- **项目语言**: Python
+- **星标数量**: ⭐ 295
+- **核心概述**: 面向非开发人员的韩国实用 AI 同事家族 — 从 Claude Cowork·ChatGPT Work 的一个/项目开始
+- **大概是做什么的**: 每个人的Cowork（MoAI-Cowork）——韩国实用的AI同事家庭。即使是非开发人员也只需一个词就可以开始。这是一个针对韩国实践量身定制的AI同事（专家）家族，Claude Cowork和ChatGPT Work都在使用。 PM 确定项目的性质并指派合适的同事，其余同事在各自的专业领域（营销、内容、媒体、商业、法律、财务、人力资源、计算机科学、设计等）提供实际支持。只需在市场中注册一次即可完成安装，之后您只需用自然语言输入一行即可。 - 支持两个桌面应用程序 - 提供 Claude Cowork 和 ChatGPT Work (Codex) 的清单 (.claude-plugin / .codex-plugin)。将其安装在您经常使用的一侧。 - 韩国实用设计——适应韩国文档、语音和商业标准（韩文、HWPX、智能商店、公共数据等）。 - 无需斜杠命令的自然语言——只需说出您想要做什么，例如“编写商业计划”，就会自动匹配相应的技能。 - 结果是你的——没有商业用途限制。 LICENSE-OUTPUT.md MoAI-Cowork（每个人的 Cowork）是一个 AI 同事系列，即使是非开发人员也可以使用 AI 解决实际问题。 “AI Co-Worker”是一位专门从事某项任务的人工智能专家。不是由一个大型人工智能处理所有事情，而是由按工作职能划分的专家人工智能（例如营销人员、作家、销售人员、法律官员和设计师）负责各自的领域。就像一个公司有多个部门，每个部门都有一个负责人。人工智能工具很强大，但许多人陷入“我如何开始？”的困境。 - 不熟悉英文菜单和面向开发人员的界面的人 - 总是担心“输入什么”的人 - 正在寻找擅长处理韩国工作环境（韩国文档、智能商店、公共数据、韩国口音）的工具的人 MoAI-Cowork 的创建是为了让这些人“只需说出你想做的事情并开始”。一开始是PM同事引导你面试，之后就是一行行自然语言进行实际工作。各岗位的专家AI同事（通用），作家、营销人员、媒体、销售人员、法律事务、财务、设计师等负责各自领域的同事。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-coworker, ai-tools, anthropic, chatgpt, chatgpt-work
+
+---
+
+### 🌟 [open-claude-in-chrome](https://github.com/noemica-io/open-claude-in-chrome)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 189
+- **核心概述**: Claude 在 Chrome 中，逆向工程且开源。没有域阻止列表。任何 Chromium 浏览器。相同的 18 个 MCP 工具，相同的性能。
+- **大概是做什么的**: 在 Chrome 中打开 Claude Chrome 中的官方 Claude 为您提供 58 个被阻止的域和两个浏览器。在 Chrome 中打开 Claude 为您提供整个网络。 Anthropic 浏览器扩展的洁净室重新实现。没有黑名单。任何 Chromium 浏览器。 100% 功能和性能同等。模仿学习 · 观看 Claude 浏览 Tinder、Reddit 和 Robinhood — 官方扩展程序无法访问的网站。 Chrome 中的官方 Claude 扩展程序为 Claude Code 提供了完全的浏览器自动化 - 只要您留在 Anthropic 的“安全”网站许可名单内。 Chrome 中的 Open Claude 是一种全新的重新实现，它消除了限制，同时保留了所有 18 个 MCP 工具并与官方扩展的性能相匹配。 Chrome 中的 Claude 在 Chrome 中打开 Claude 域阻止列表 11 个类别中的 58 个被阻止的域 无阻止列表。导航到任何地方。浏览器仅支持 Chrome 和 Edge 任何 Chromium 浏览器（Chrome、Edge、Brave、Arc、Opera、Vivaldi 等） 源代码 闭源 开源 (MIT) 工具 18 个 MCP 工具 相同的 18 个 MCP 工具 性能基线 统计上无法区分冷度和可测���性
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, anthropic, browser-automation, chrome-extension, chromium, claude
+
+---
+
+### 🌟 [Gearsystem](https://github.com/drhelius/Gearsystem)
+- **项目语言**: C++
+- **星标数量**: ⭐ 384
+- **核心概述**: Sega Master System / Game Gear / SG-1000 模拟器、调试器和嵌入式 MCP 服务器，适用于 macOS、Windows、Linux、BSD 和 RetroArch。
+- **大概是做什么的**: Gearsystem 是一款非常精确的跨平台 Sega Master System / Game Gear / SG-1000 模拟器，用 C++ 编写，可在 Windows、macOS、Linux、BSD 和 RetroArch 上运行，并带有用于 AI 调试和开发的嵌入式 MCP 服务器。这是一个开源项目，由于这些出色的支持者的支持，其持续开发成为可能。如果您觉得有用，请考虑赞助。请毫不犹豫地通过提出问题来报告错误或请求新功能。 Gearsystem-3.9.15-desktop-windows-x64.zip Gearsystem-3.9.15-desktop-windows-arm64.zip brew install --cask drhelius/geardome/gearsystem 桌面 Apple Silicon Gearsystem-3.9.15-desktop-macos-arm64.zip Gearsystem-3.9.15-desktop-macos-intel.zip drhelius/ppa-geardome drhelius/rpm-geardome 桌面 Ubuntu 24.04 x64 Gearsystem-3.9.15-desktop-ubuntu24.04-x64.zip 桌面 Ubuntu 22.04 x64 Gearsystem-3.9.15-desktop-ubuntu22.04-x64.zip 桌面 Ubuntu 24.04 ARM64 Gearsystem-3.9.15-desktop-ubuntu24.04-arm64.zip Libretro 核心文档 - Windows：可能需要 Visual C++ Redistributable 和 OpenGL 兼容包 - Homebrew：如果
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: bsd, emulation, emulator, game-gear, gamegear, libretro
+
+---
+
+### 🌟 [omk](https://github.com/dmae97/omk)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 135
+- **核心概述**: Codex、Claude Code、OpenCode 和本地编码代理的证据门控运行程序。将任务路由到具有可重播工件的范围 DAG 通道中。
+- **大概是做什么的**: 打开 Multi-Agent Kit 确定工作范围。路由正确的代理。验证每个版本。适用于 Codex、Claude Code、OpenCode 和本地模型的提供商中立编码代理 CLI 和多代理控制平面。编码代理可以快速生成代码。他们还可能重叠工作、丢失状态、路由到错误的模型，并在构建绿色之前声称已完成。 OMK 围绕该工作添加了一个控制平面。问题 OMK 不变 可检查的输出 并行代理相互覆盖 拥有的路径和资源声明绑定每个通道 DAG 和工作空间状态 模型说“完成”过早 接受谓词需要新的证据 命令、退出和接收 提供者或模型更改 路由与执行合同保持分离 提供者归因的尝试 会话中途停止 可重播状态支持会话恢复 账本、修复计划、持久目标 OMK 适用于需要可检查结果的工程工作，而不是一个可检查的结果令人信服的聊天无需全局安装：要求：Node.js 22.19 或更高版本。发布的 CLI 包是 open-multi-agent-kit 。 1.范围——将目标变成有界的 DAG w
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-orchestration, agent-runtime, ai-coding, claude-code, cli, code-review
+
+---
+
 ## 🕔 2026-08-21 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
