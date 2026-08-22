@@ -1,3 +1,67 @@
+## 🕔 2026-08-22 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [codex-chatgpt-web](https://github.com/miuuyy/codex-chatgpt-web)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,219
+- **核心概述**: 使用 ChatGPT Web（包括 Pro）作为 Codex 应用程序中的本机模型 - 上下文、工具、流媒体和图像超出 Codex 使用限制。
+- **大概是做什么的**: ChatGPT Web for Codex 使用 ChatGPT Web（包括 Pro）作为本机 Codex 模型。更改模型层，保存您的工作流程。免费和 Go 帐户在 Codex 的本机模型选择器中获得 ChatGPT Web - Luna。公开推理选择器的帐户将在其订阅允许的情况下保留 Instant 、 Medium 、 High 、 Extra High 和 Pro 。该桥将当前编译的 Codex 任务上下文发送到新的 ChatGPT 临时聊天，附加图像，并将可见推理、工具活动和 Markdown 流回同一 Codex 任务。 Codex 保留本机任务、上下文生命周期、UI 和工具工具。本地响应桥仅路由所选模型通过新的 ChatGPT 临时聊天；在完整模式下，MCP 将 ChatGPT 连接回同一 Codex 任务的工具。我还构建了 ChatGPT Persona Voice ，这是一个本地应用程序，可以近乎实时地更改 ChatGPT/Codex 语音。它永远不会触及您的帐户、浏览器会话或 ChatGPT 请求，因此使用它不会带来帐户被阻止的风险。如果您喜欢我的工作， - 一款精美的跨平台启动器。一条命令即可安装本机 macOS、Windows、
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: chatgpt, chatgpt-pro, codex, free-ai, macos, mcp
+
+---
+
+### 🌟 [agentpet](https://github.com/ntd4996/agentpet)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 327
+- **核心概述**: 适用于 macOS 和 Windows 的桌面宠物，可实时监控您的 AI 编码代理（Claude Code、Codex、Cursor、Gemini...），并随着您的编码而成长，为其提供代币、升级、攀登排行榜。
+- **大概是做什么的**: 桌面宠物会在您的人工智能编码代理工作时做出反应，并随着您编码的增加而成长。如果 AgentPet 照亮了您的工作流程，请给它一颗星，它确实可以帮助其他人找到它。同时运行多个编码代理（Claude Code、Codex、Gemini、Cursor 等），很难判断谁在工作、谁已完成以及谁在等待您的输入。 AgentPet 一目了然地回答了这个问题：菜单栏监视器显示每个代理的实时状态，一个小像素宠物漂浮在您的桌面上并对这一切做出反应。它也是一个电子蛋。宠物由真实的工作、代理燃烧的代币以及他们完成的会话喂养，因此它可以赚取 XP、升级、解锁成就，并随着您的编码而进化。免费、开源且完全离线，除非您选择连接。喜欢《代理宠物》吗？帮助保持其免费。它是免费建造和赠送的。一杯咖啡（或一颗星星）可以让功能不断涌现。 - 🐾 环境桌面宠物，可反映您的特工状态，而不会分散您的注意力。 - 📊 菜单栏监控每个代理、其项目、正在执行的操作以及实时计时器。 - 🎮 饲养你的宠物：真正的代币
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, codex, desktop-pet, developer-tools, macos
+
+---
+
+### 🌟 [AgentHound](https://github.com/adithyan-ak/AgentHound)
+- **项目语言**: Go
+- **星标数量**: ⭐ 269
+- **核心概述**: 适用于 AI 代理基础设施的进攻性安全框架 - 跨 MCP、A2A、网关和 AI 服务的侦察、凭证抢劫、模型渗漏、中毒和攻击路径分析。 BloodHound 用于代理堆栈。
+- **大概是做什么的**: 用于代理基础设施 MCP · A2A · 代理客户端 · 模型网关 · 推理服务器 · 矢量存储 · MLOps · 笔记本的进攻性安全框架 仅限授权使用。当满足先决条件时，AgentHound 会执行主动凭证验证、模型调用和可逆突变。仅针对您拥有或有权评估的系统运行它。 AgentHound 是一个用于代理基础设施的开源攻击性安全框架。将一台静态收集器放到受感染的主机上并运行一次扫描。 AgentHound 捕获本地凭据和代理配置，发现可访问的 AI 服务，对其进行指纹识别和清点，重用兼容的凭据，验证具体访问，并将所有内容保留在一个连续检查点的 JSON 工件中。默认扫描处于活动状态，因为立足点访问可能随时消失。 --stealth 当 OPSEC 需要时将相同的工作流程切换为只读收集。可选的分析服务器将工件转换为可查询的攻击图，其中包含凭证链、执行和渗透路径、跨专业
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: a2a, agentic-ai, ai-agents, ai-security, attack-paths, bloodhound
+
+---
+
+### 🌟 [mcp_flutter](https://github.com/Arenukvern/mcp_flutter)
+- **项目语言**: Dart
+- **星标数量**: ⭐ 365
+- **核心概述**: 用于 Flutter AI 代理驱动开发的 MCP 工具包（MCP/CLI + 自定义客户端工具） - 通过闭环反馈环（视觉和语义快照）和适用于任何 Flutter 应用程序的高客户端自定义。如今它通常被称为代理安全带。
+- **大概是做什么的**: 通过 AI 助手检查并驱动正在运行的 Flutter 应用程序。 - 📖 文档：docs.page/arenukvern/mcp flutter - 🤝 贡献：指南·贡献者·行为准则·安全 flutter-mcp-toolkit 是一个 Dart MCP 服务器 + Flutter 包，可让 AI 代理（Codex、Zed、Cursor、Intent、Claude Code、Cline 等）获取（语义快照、点击小部件、输入表单、热重载、并从 Flutter 应用程序读取日志）或使用 MCP Toolkit 在运行时创建自己的工具和资源 - 无需离开对话并在闭环反馈循环中使用 Flutter 应用程序 - 请参阅 OpenAI Agentic Harness 中描述的示例。图片的故事：该工具包为 AI 助手提供了一个共享窗口并控制正在运行的 Flutter 应用程序的循环，因此它可以检查状态、像用户一样行动、热重载、读取校样以及使用应用程序中的自定义工具而不是猜测。 ![注意]：版本 4 目前是预发行版本。仅当您有意测试新架构时才使用 4.0.0-dev.5；否则，请保留最新的稳定 3.x 版本，直到升级 4.0.0。仅需 4 步即可开始 就是这样。你
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, cli-tools, dart, dynamic-tools, flutter, harness
+
+---
+
+### 🌟 [stash](https://github.com/Fergana-Labs/stash)
+- **项目语言**: Python
+- **星标数量**: ⭐ 317
+- **核心概述**: 为您团队的编码代理提供共享内存
+- **大概是做什么的**: 代理时代的知识库。您的代理连接到您的所有数据（GitHub、Drive、Gmail、Notion、Slack、Linear、Jira、Asana、Granola 等）的地方，以及 Markdown 和 HTML 格式的代理本机驱动器，他们的会话、文件和页面都在其中登陆。当我们进行内部测试时，我们发现它使 Claude Code 的长期运行实例速度提高了 49%。 - 会话自动流入。编码代理的钩子会将每个记录（提示、工具调用、工件）推送到您的存储中。 - 文��和会话并存。 Markdown、HTML、表格、PDF。您和您的代理人都写在这里；双方都可以实时看到编辑内容。 - 代理像文件系统一样查询它。 CLI、MCP 服务器（70 个读/写工具）、REST API 和虚拟文件系统 shell 将您的 Stash 暴露给任何代理。一次搜索可以一次性跨越您的页面、会话和每个连接的源。 - 盒子里还有一个特工。与已经拥有所有这些功能的代理聊天 - 在应用程序中、从 Slack 或从 Telegram 中。它是在您自己的云虚拟机上运行的真正的编码代理 CLI（Claude Code、Codex 或 opencode），因此它
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-collaboration, ai, artifacts, claude-code, cli, codex
+
+---
+
+### 🌟 [mcp-server-12306](https://github.com/drfccv/mcp-server-12306)
+- **项目语言**: Python
+- **星标数量**: ⭐ 368
+- **核心概述**: 12306 MCP Server​​ 是一个基于 ​​Model Context Protocol (MCP)​​ 的高性能火车票查询后端系统。它通过标准化接口提供官方 12306 的实时数据服务，包括余票查询、车站信息、列车经停站、中转换乘方案等核心功能。
+- **大概是做什么的**: 基于 Model Context Protocol (MCP) 的 12306 火车票查询服务 支持 余票 / 票价 / 车站 / 经停 / 换乘 / 时间 六大查询能力，开箱即用，适配 AI 助手、自动化脚本、智能终端等场景。 - 方式一：Stdio 模式（本地客户端推荐） - 方式二：Streamable HTTP 模式（远程部署） 🎫 余票查询 余票 / 车次 / 座席 / 时刻一站式查询，支持按车次过滤 💰 票价查询 实时查询各车次各席别票价（商务座 → 无座全覆盖） 🏙️ 车站搜索 全国 3382+ 车站，支持中文 / 拼音 / 简拼 / 三字码模糊搜索 🔄 中转换乘 官方换乘方案自动分页抓取，返回完整路径与等待时间 🛤️ 经停查询 查询指定列车全部经停站与到发时刻 🕐 时间工具 获取任意时区当前时间、相对日期计算，辅助选择出行日期 🔌 双传输模式 Stdio（本地）\ Streamable HTTP（远程），同一核心实例共享 🔄 协议自动协商 基于 MCP SDK v2，自动兼容握手时代（2025-11-25）与现代协议（2026-07-28） Python = 3.10, 💡 推荐使用 uv ：环境隔离、安装快、锁文件管理依赖版本。 方式一：Stdio 模式（本地客户端推荐） MCP Server 通过标准输入/输出与客户端通信， 不占用网络端口 ，适合 Claude Desktop、Cursor 等本地 MCP 客户端。 客户端配置 （如 claude desktop config.json ）： 方式二：Streamable HTTP 模式（远程部署） Server 启动 Web 服务（默认 8000 端口），通过 MCP Streamable HTTP 协议通信： POST 发送 JSON-RPC、 GET 订阅流式响应、 DELETE 结束会话。 ------ ------ ------ /mcp POST / GET / DELETE MCP Streamable HTTP 协议入口 /health GET 健康检查（含已加载车站数、活跃会话数） /schema/tools GET 全部工具 JSON Schema / GET 服务信息（版本、协议版本、端点） -------- ------ ---------- query-tickets 余票 / 车次 / 座席 / 时刻一站式查询 from station 、 to station 、 train date query-ticket-price 实时查询车次票价 f
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 12306, agent, ai, mcp, mcp-servers, mcp-tools
+
+---
+
 ## 🕔 2026-08-22 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
