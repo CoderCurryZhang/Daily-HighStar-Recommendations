@@ -1,3 +1,67 @@
+## 🕔 2026-08-23 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 256 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding)
+- **项目语言**: Python
+- **星标数量**: ⭐ 12,073
+- **核心概述**: Retrieval and Retrieval-augmented LLMs
+- **大概是做什么的**: ⚡️BGE: One-Stop Retrieval Toolkit For Search and RAG - 3/6/2025: :fire::fire: Introduce BGE-VL (HF repo), State-Of-The-Art multimodal embedding models to support Any visual search applications (everything, including text-to-image, image-to-text, image&prompt-to-image, text-to-image&text, and more)! They are released under the MIT license and are completely free for both academic and commercial use. We also release MegaPairs (repo, paper), a massive synthetic dataset which empowers BGE-VL! - 12/5/2024: :book: We built the BGE documentation for centralized BGE information and materials! - 10/29/2024: :earth asia: We created WeChat group for BGE. Scan the QR code to join the group chat! To get the first hand message about our updates and new release, or having any questions or ideas, join us now! - 10/22/2024: We release another interesting model: OmniGen, which is a unified image generation model supporting various tasks. OmniGen can accomplish complex image generation tasks without the need for additional plugins like ControlNet, IP-Adapter, or auxiliary models such as pose detection
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: embeddings, information-retrieval, llm, retrieval-augmented-generation, sentence-embeddings, text-semantic-similarity
+
+---
+
+### 🌟 [agtx](https://github.com/fynnfluegge/agtx)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,418
+- **核心概述**: 🏄🏼‍♂️ The blackboard for coding agents. Terminal-native ADE for claude code, codex, cursor, opencode, grok and more
+- **大概是做什么的**: The blackboard for coding agents - Add tasks. Press one key. An orchestrator agent picks it up, plans, and delegates to multiple coding agents running in parallel. Come back to changes ready to merge. Let different AI coding agents collaborate autonomously on the same task with automatic session switching and context awareness - e.g. Gemini → research Claude → implement Codex → review Capture ideas without leaving your agent session — /agtx:brainstorm to explore freely, /agtx:sweep to push the conversation to the board as tasks in one step. AI coding tools give you one agent, one task, one terminal. agtx gives you a kanban board where multiple coding agents work in parallel — each in its own git worktree, each in its own tmux window, running autonomously through a spec-driven workflow managed by an orchestrator agent. When ideas come up mid-session, /agtx:brainstorm keeps your agent in exploration mode — then /agtx:sweep turns the conversation into board tasks with a single confirmation step. No context switching, no copy-pasting — ideas flow directly into work. With the orchestrator
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ade, ai-agents, claude, claude-code, codex, cursor
+
+---
+
+### 🌟 [mdflux](https://github.com/ibrahimqureshae/mdflux)
+- **项目语言**: Python
+- **星标数量**: ⭐ 405
+- **核心概述**: Turn any document into clean, AI-ready Markdown. Local-first desktop app: reads scanned PDFs, batches folders, runs offline, and uses far fewer tokens than vision models.
+- **大概是做什么的**: Turn any document into clean, AI-ready Markdown. Local-first · reads scanned PDFs · up to 6× fewer tokens than vision models Works with PDF · DOCX · PPTX · XLSX · EPUB · HTML · CSV · JSON · XML · TXT · MD · images · audio Full / offline-ready downloads &nbsp;&nbsp;·&nbsp;&nbsp; &nbsp;&nbsp;·&nbsp;&nbsp; &nbsp;&nbsp;·&nbsp;&nbsp; &nbsp;&nbsp;·&nbsp;&nbsp; &nbsp;&nbsp;·&nbsp;&nbsp; &nbsp;&nbsp;·&nbsp;&nbsp; Getting a document into a shape an LLM can use is more annoying than it should be. You either dump the raw text and lose every heading, table, and list, or you ship your pages to a cloud vision model as images, which means your documents leave your machine and you pay by the page to read your own files. And scanned PDFs? Plain text extractors just hand you back nothing. The text is right there, and the tool acts like the page is blank. MDFlux is what I wanted instead. Drop in a file or a folder and get back clean, structured Markdown, with OCR for those "blank" scanned pages, batch processing for a whole directory, and an optional cleanup pass to tidy up messy extraction. It runs en
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: desktop-app, document-conversion, llm, local-first, markdown, markitdown
+
+---
+
+### 🌟 [x64dbg-mcp-server](https://github.com/duty1g/x64dbg-mcp-server)
+- **项目语言**: Zig
+- **星标数量**: ⭐ 367
+- **核心概述**: x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more. Built with Zig — zero dependencies, single-binary output, cros
+- **大概是做什么的**: MCP-powered agentic reverse engineering for x64dbg. x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more. Built with Zig — zero dependencies, single-binary output, cross-compiles to both x32 and x64 from any host. No .NET, no Python, no runtime — just drop the plugin into your x64dbg plugins folder and go. MCP 2024-11-05 — Streamable HTTP + SSE transports, JSON-RPC 2.0. - 71 MCP Tools: Full debugger control — disassembly, stepping, breakpoints, memory allocation, registers, modules, threads, call stack, pattern scanning, string extraction, xrefs, symbols, bookmarks, PE analysis, OEP detection, module dumping, PEB/SEH inspection, tracing, and more. - 22 Event Callbacks: Full debugger event coverage — init, stop, breakpoint, exception, step, attach/detach, DLL load/unload, threads, and more. - Zero Dependencies: Pure native plugin, no runtime or framework n
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-debugging, binary-analysis, claude, claude-code, malware-analysis
+
+---
+
+### 🌟 [Reviva](https://github.com/mingchen666/Reviva)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 201
+- **核心概述**: Local-first AI learning workspace — ask, note, review and create around your own materials. Wiki KB, Agents, Skills, creation tools.AI 学习工作台，围绕你的资料完成问答、笔记、复习和创作输出。本地优先，多模型，Wiki 知识库，AI Agent，创作工具。
+- **大概是做什么的**: AI 学习工作台，围绕你的资料完成问答、笔记、复习和创作输出。 桌面端 · 本地优先 · AI Agent · 学习工具集 Reviva 是一个面向学习、研究和知识工作的本地桌面 Agent。它把对话、文档、知识库、笔记、复习工具和创作输出放在同一个工作台里。 它不是“聊天窗口 + 一堆工具”的拼接，而是一个 以 Agent 为核心的本地学习工作台 ：Agent 负责理解资料、调用工具、使用技能、遵守权限，输出结果产物。 Reviva = 本地资料库 + Wiki 知识库 + AI Agent + 知识库检索 + 笔记文档管理 + Skills 能力系统 + 创作工具。 它适合希望把 AI 真正接入学习和知识管理流程的人——不是每次都从一个空白聊天框重新开始。 🎉 Reviva v1.2.0系列 正式发布 以 Agent 为核心，连接本地资料、知识库、笔记与学习工具，完成从理解、复习到创作输出的完整学习工作流。 Agent 驱动 · 本地优先 · 多资料对话 · 可视化学习 · 知识持续沉淀 推荐直接下载最新安装包，国内网络环境可以使用夸克网盘。 夸克网盘 打开下载 国内网络备用渠道 GitHub 下载最新版本 官方发布渠道，适合查看版本说明 当前提供 Windows 和 macOS 桌面端安装包。下载前请根据系统和处理器架构选择对应版本；重要资料建议在升级前先备份。 学习工作台 与 Agent 对话、引用资料、调用学习工具 智能体 创建角色、绑定模型、Skills、工具和知识库 Wiki 知识库 让资料持续沉淀为可检索、可追溯的知识 设置中心 配置模型、记忆、权限、环境、主题和用量 普通 AI 工具往往从一个空白聊天框开始，而真实的学习过程会不断积累资料、笔记、问题和复习结果。Reviva 将这些内容放在同一个本地工作区中： - 📚 资料可以被导入、解析、检索和持续维护 - 💬 对话可以分组、分支，并保留上下文与引用来源 - 🧠 可在同一个会话中切换agent，共享上下文。 - ✨ 一份资料可以继续生成测验、闪卡、导图、图表、PPT、播客或研究报告 - 🔁 输出可以保存到笔记、Wiki 和本地目录，形成学习闭环。 - 🎓 学生与备考者 ：整理课程资料、讲义和错题，生成测验、闪卡、导图与复习内容。 - 💼 知识工作者 ：围绕项目资料、会议记录和 Office 文档完成分析、编辑、汇报与知识沉淀。 - 🧠 个人知识管理用户 ：用不同 Agent 管理长期资料、笔记、记忆和 Wiki，构建可持续更新的第二大脑。 🤖 多 Agent 协作 在对话中随
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, knowledge-base, llm, rag
+
+---
+
+### 🌟 [Kori](https://github.com/YangDai2003/Kori)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 370
+- **核心概述**: AI-powered Markdown notepad built with Compose Multiplatform.
+- **大概是做什么的**: Kori - A Unified Note-Taking Experience for All Platforms with AI Capabilities Kori is an evolution of Open Note, aiming to provide a consistent note-taking experience across all platforms. To help cover developer account fees, this app is available for a small price on Google Play and Apple App Store(planned). You can download it for free from GitHub and the Microsoft Store. All versions are identical. Thank you for your support! Kori is packed with features designed to enhance your productivity and creativity: ✍️ Multi-Format Support : Unleash your ideas with comprehensive support for various formats, including Drawing , Markdown , TXT , LaTeX , Mermaid diagrams, and organized Todo.txt 💻 Truly Cross-Platform : Enjoy a unified experience whether you're on Android , iOS , Windows , macOS , or Linux . A Web version is also planned for the future. 🤖 Intelligent & Optional AI Co-writer : Boost your writing with deeply integrated AI capabilities for content generation, summarization, rewriting, and more. Connect to a wide range of large language models (LLMs) from providers like Google
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, android, compose-multiplaform, datastore-preferences, html, ios
+
+---
+
 ## 🕔 2026-08-23 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 208 个候选项目中筛选出 6 个未推荐过的新项目。
