@@ -1,3 +1,67 @@
+## 🕔 2026-08-23 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [zotero-mcp](https://github.com/54yyyu/zotero-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,764
+- **核心概述**: Zotero MCP: Connects your Zotero research library with Claude and other AI assistants via the Model Context Protocol to discuss papers, get summaries, analyze citations, and more.
+- **大概是做什么的**: Zotero MCP: Chat with your Research Library—Local or Web—in Claude, ChatGPT, and more. Zotero MCP seamlessly connects your Zotero research library with ChatGPT, Claude, and other AI assistants (e.g., Cherry Studio, Chorus, Cursor) via the Model Context Protocol. Review papers, get summaries, analyze citations, extract PDF annotations, and more! 🧠 AI-Powered Semantic Search - Vector-based similarity search over your entire research library (requires [semantic] extra) - Multiple embedding models : Default (free, local), OpenAI, Gemini, and Ollama - Intelligent results with similarity scores and contextual matching - Auto-updating database with configurable sync schedules 🔍 Search Your Library - Find papers, articles, and books by title, author, or content - Perform complex searches with multiple criteria - Browse collections, tags, and recent additions - Semantic search for conceptual and topic-based discovery 📚 Access Your Content - Retrieve detailed metadata for any item (markdown or BibTeX export) - Get full text content (when available) - Look up items by BetterBibTeX citation k
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude, mcp, semantic-search, zotero
+
+---
+
+### 🌟 [harnessrouter](https://github.com/HarnessRouter/harnessrouter)
+- **项目语言**: Python
+- **星标数量**: ⭐ 539
+- **核心概述**: HarnessRouter Community Edition: the self-hosted, Apache-2.0 edition of the unified interface for agent harnesses. Run Codex, Claude Code, Hermes, and more through one API, with sessions, streaming, files, cancellation, and failure handling. Implements the Unified Harness Protocol (UHP), an open standard. Your keys, your infrastructure.
+- **大概是做什么的**: Run agent harnesses on your own machine. Run agent harnesses on your own machine. One container, your own API keys, your own data. Configure a harness, give it work, watch it run, with no account, no cloud, and no telemetry. Community Edition implements the Unified Harness Protocol (UHP), the open standard the hosted service implements too. New here? Start with What it is, or read the protocol at unifiedharnessprotocol.org. Six steps, and at the end of them you have a running instance, a signed-in console, and an agent that has answered you. You need Docker, about 4 GB of disk, and an API key from a model provider. There is no account to create and nothing to sign up for. The provider key is the only credential in the story, and it never leaves the box except to call the provider it belongs to. About 700 MB to download. Pinning a version instead of latest latest is the current release, and pulling it again is how you upgrade. Pin a version only when you need two machines to run the same bytes, by naming a version in a compose file you share with a team. Releases are listed on Docker
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-api, agent-framework, agent-harness, ai-agents, ai-infrastructure, coding-agent
+
+---
+
+### 🌟 [robloxstudio-mcp](https://github.com/Chrrxs/robloxstudio-mcp)
+- **项目语言**: Lua
+- **星标数量**: ⭐ 181
+- **核心概述**: MCP server for Roblox Studio runtime debugging, playtest control, screenshots/input, multiplayer testing, and per-peer server/client eval from AI agents.
+- **大概是做什么的**: Connect your coding agent directly to Roblox Studio. It can edit places, run Luau in live server and client contexts, start and stop playtests, and collect logs, screenshots, memory reports, and profiler captures from each peer. Debug a running game - Run Luau with eval server runtime or eval client runtime . Both tools execute in a live server or client context and use the same require cache as your game scripts. - Instrument live code with breakpoints . It records each hit without pausing the playtest. - Read output from edit mode, the server, or a specific client with get runtime logs , including messages logged during startup. - Start, inspect, and stop solo or multi-client sessions with solo playtest and multiplayer playtest . - Open or close Studio windows with manage instance . It can launch a baseplate, a local place file, a published place, or an older place revision. Find performance problems - Record server or client CPU timings with capture script profiler and capture micro profiler . - Break down memory use with get memory breakdown or attribute scene cost with get scene
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: mcp, roblox, roblox-studio
+
+---
+
+### 🌟 [blade-code](https://github.com/echoVic/blade-code)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 176
+- **核心概述**: AI-powered CLI coding agent with 20+ built-in tools, MCP support, and multi-model providers
+- **大概是做什么的**: 新一代 AI 编程助手 — CLI + Web + Headless - 🤖 多模型统一运行时 — 基于 pi-ai 统一 38+ Provider（OpenAI/Anthropic/DeepSeek/Google/Bedrock…），模型元数据动态获取 - 🧠 自动记忆 — 跨会话持久化项目知识，自动学习构建命令、代码模式、调试洞察 - 🌐 三种运行模式 — CLI 终端 / Web UI / Headless JSONL，场景灵活切换 - 📊 多项目任务看板 — 绑定项目、自动派发、阻塞处理、验收归档 - 🛠️ 20+ 内置工具 — 文件编辑、代码搜索、Shell 执行、Git 操作、Web 抓取等 - 📋 结构化工作流 — Task 委托、Goal 模式、Spec/Plan、Subagent 与 Agent Teams 编排 - 🔗 开放扩展 — MCP 协议、插件系统、Skills、Hooks - 🔒 安全可控 — 四级权限模式（default/autoEdit/plan/yolo）+ 工具白/黑名单 - 💰 精确费用追踪 — 多轮累计 token 消耗与缓存价格，支持 /cost 实时查看 - 🎨 现代 UI — React + Ink 终端 / React + Vite Web，支持 Thinking 模式 首次启动会自动进入模型配置向导： 选择 Provider → 选择模型 → 输入 API Key 。 配置文件： /.blade/config.json （全局）或 .blade/config.json （项目级）。 - 凭证独立存储 ： /.blade/auth.json （权限 0600 ），不进入版本控制 - 模型元数据 （contextWindow、maxTokens、pricing）自动从 pi-ai catalog 获取，无需手动填写 - Provider 的 Base URL 仅在使用自定义代理时才需在 overrides.baseUrl 中指定 blade web Web UI（浏览器） blade serve 无头 HTTP 服务器 blade mcp 管理 MCP 服务器 blade doctor 环境诊断 blade --headless "..." 完整 agent loop（非交互） blade --print "..." 单轮打印模式 /model switch 切换当前模型 /btw "..." 询问不写入主会话的旁路问题 /memory list 列出记忆文件 /goal "..." 启动 Go
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, cli, code, llm, mcp
+
+---
+
+### 🌟 [finnts](https://github.com/microsoft/finnts)
+- **项目语言**: R
+- **星标数量**: ⭐ 268
+- **核心概述**: Microsoft Finance Time Series Forecasting Framework (FinnTS) is a forecasting package that utilizes cutting-edge time series forecasting and parallelization on the cloud to produce accurate forecasts for financial data.
+- **大概是做什么的**: Microsoft Finance Time Series Forecasting Framework The Microsoft Finance Time Series Forecasting Framework, aka finnts or Finn, is an automated forecasting framework for producing financial forecasts. While it was built for corporate finance activities, it can easily expand to any time series forecasting problem! - Built in AI agent that can act as your own virtual data scientist, always optimizing for the most accurate forecast. - Automated feature engineering, feature selection, back testing, and model selection. - Access to 25+ models. Both univariate and multivariate models. - Azure integration to run thousands of time series in parallel within the cloud. - Supports daily, weekly, monthly, quarterly, and yearly forecasts. - Handles external regressors, either purely historical or historical+future values. To get a bug fix or to use a feature from the development version, you can install the development version of finnts from GitHub. This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, business, feature-selection, finance, finnts
+
+---
+
+### 🌟 [FlareMo](https://github.com/realchendahuang/FlareMo)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 167
+- **核心概述**: Cloudflare 原生的个人知识管理系统，提供 Memos 兼容 API。
+- **大概是做什么的**: 一个免费账号就能 24 小时跑在云端的个人笔记系统。Cloudflare 原生部署，自带数据库和对象存储，应用层使用 Better Auth 原生登录，对外保留 Memos 兼容 API；Cloudflare Access 可以作为可选外层防线。 截图展示的是当前已接上后端的时间线、编辑、筛选和移动端导航体验；未实现的 AI 回顾、语义搜索、微信输入等能力不会出现在界面里。 Flomo 证明了「快速记录 + 安静时间线」这种轻量笔记体验是有价值的。但自部署这类系统通常意味着一台 VPS、一个 Postgres、一堆 Docker 容器、一份每周要维护的备份脚本，以及硬盘哪天坏了数据全没的风险。 FlareMo 想回答另一个问题： 能不能只用一个免费 Cloudflare 账号，不买服务器、不装数据库、不写备份脚本，就拥有一个 24 小时在线、数据不会丢、可以自定义域名、还能被各种工具调用的个人笔记系统？ 答案是可以。Cloudflare 免费账号就能提供： - Cloudflare D1：5 GB 数据库 —— 用来存笔记、标签、关系、分享、设置。 - Cloudflare R2：10 GB 对象存储 —— 用来存附件、图片、导出包。 - Cloudflare Workers：免费请求额度，全球边缘节点 —— 代码和前端都在离你最近的地方跑。 - Better Auth 原生认证 —— 一次性设置用户名和密码，浏览器使用安全 cookie session，脚本和 Memos 客户端使用可撤销的 memos pat PAT；Cloudflare Access 可继续作为外层防线。 - Workers Static Assets —— 前端和 API 由同一个 Worker 提供，一次部署全搞定。 整套系统跑在一个 Worker 上。你没有一个「服务器」要照看，只有一份代码和一个免费账号。 很多人对 5 GB 数据库 / 10 GB 对象存储没概念，觉得「免费」就是「不够用」。实际上对个人笔记这种写入量极低、纯文本为主的场景，免费额度是溢出的。 - 一条普通笔记（含标签、时间戳、索引开销）算 2 KB，5 GB 可以存约 250 万条笔记 。 - 即使你每天写 100 条，也能写 68 年 。 - 实际上绝大多数人一辈子也写不到 5 GB 的纯文本笔记。 - 一张手机压缩后约 1–2 MB，10 GB 约可存 5000–10000 张图片 。 - 或者约 80 小时 的中等码率语音备忘录。 - R2 的出口流量不收费，分享给别人看图也不会产生流量账单。 换句话说，免
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: build-in-public, cloudflare, cloudflare-d1, cloudflare-r2, cloudflare-workers, d1
+
+---
+
 ## 🕔 2026-08-23 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
