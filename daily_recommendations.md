@@ -1,3 +1,67 @@
+## 🕔 2026-08-23 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [zennotes](https://github.com/ZenNotes/zennotes)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,340
+- **核心概述**: Keyboard-first local Markdown notes with Vim motions, diagrams, and MCP integration.
+- **大概是做什么的**: I build ZenNotes with a lot of help from AI tools like Claude and Codex. They let me move much faster, but I still go through some of the code before I ship it. The architecture, the technical decisions, and the trade-offs are things I still spend a lot of time thinking about. AI helps me write code faster, but it doesn't replace understanding how the system works. ZenNotes is a keyboard-first Markdown notes app with a shared product core and multiple runtimes: - a desktop app built with Electron - a self-hosted web app backed by a Go server - a future hosted deployment mode built on the same web/server stack ZenNotes keeps your notes as ordinary Markdown files on disk. It adds Vim-friendly editing, split and preview workflows, tasks, tags, archive/trash, diagrams, search, daily notes, CSV databases (Notion-style Table + Board views over plain .csv files), and MCP integration on top of the files you already own. On macOS, the first-party zen CLI also powers launcher workflows such as the Raycast extension. Grab the latest build from GitHub Releases — see Install below. Website: zenno
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: electron, local-first, markdown, mcp, notes, vim
+
+---
+
+### 🌟 [J-Space-Cognition-Suite-V3.7](https://github.com/Tiger3807861189/J-Space-Cognition-Suite-V3.7)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,017
+- **核心概述**: J-Space Cognition Suite V3.7 - AI cognitive-enhancement Skills based on Anthropic's J-space global workspace research. | 哔哩哔哩：Tiger380 (UID 3494375382321675) — https://space.bilibili.com/3494375382321675
+- **大概是做什么的**: J-Space Cognition Suite V3.7 J-Space Cognition Suite is a model-agnostic inference-time control system for deep reasoning, long-horizon work, tool use, verification, and recovery. It is packaged as a Skill for cross-platform use, selective loading, and low-friction integration. The suite organizes an agent's accessible working representations into a deliberately managed workspace. It operates through a single entry, nine selectively loaded modules, four supporting references, and an optional standard-library controller for durable task state. J-Space operates at inference time. Model weights and training remain unchanged. Option A — manual installation 1. Download or clone this repository. 2. Locate the user-level Skills directory used by your AI host. 3. Copy the complete j-space/ directory into it so that the installed entry is /j-space/SKILL.md . 4. Run the integrity check with an available Python 3 interpreter: Replace with the Python 3 command available on the host, commonly python , python3 , or py -3 . 5. Reload the host if it discovers Skills at startup. - The directory must
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai, ai-agent, ai-agents, claude-code, codex
+
+---
+
+### 🌟 [skills-hub](https://github.com/qufei1993/skills-hub)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,195
+- **核心概述**: A cross-platform desktop app to manage Agent Skills in one place and sync them to multiple AI coding tools’ global skills directories — “Install once, sync everywhere”.
+- **大概是做什么的**: Skills Hub (Tauri Desktop) A cross-platform desktop app (Tauri + React) for installing, organizing, updating, and syncing Agent Skills to multiple AI coding tools' global or project-level skills directories. Skills Hub prefers symlink/junction and automatically falls back to copy when needed: "Install once, sync everywhere". - English (default): README.md (this file) - 中文： docs/README.zh.md AI coding tools increasingly use their own skills directories and installation flows. Maintaining those directories manually can quickly become messy: the same skill gets copied many times, update sources become unclear, tool activation states drift, and bulk cleanup takes too much effort. Skills Hub installs skills into one central repository, then syncs them to tools such as Claude Code, Codex, Cursor, OpenCode, and Antigravity based on your choices. You can tag skills, choose global or project scope, update tool targets in bulk, and let the system update Git and local-source skills on a schedule. - Centralized library : Install skills into one central repository instead of scattering copies acr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, claude-code, codex, cursor, desktop-app
+
+---
+
+### 🌟 [second-brain-cloudflare](https://github.com/rahilp/second-brain-cloudflare)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 729
+- **核心概述**: One memory layer, every AI tool. Store anything once — recall it in Claude, ChatGPT, Cursor, or any MCP client. Self-hosted on Cloudflare's free tier.
+- **大概是做什么的**: One shared memory for Claude, ChatGPT, Cursor, Codex, and every other AI tool you use. You use Claude for some things, ChatGPT for others, and Cursor for code. But your context, including your projects, decisions, and preferences, does not move with you. You end up explaining yourself again and again. Second Brain gives every AI tool access to the same persistent memory. Unlike memory built into a single app, this memory belongs to you. It runs in your own Cloudflare account, stays under your control, and cannot be locked inside one AI platform. The easiest way to get started is the desktop app. It sets everything up for you in about two minutes — no terminal, no accounts to wire together, no technical steps. ⬇ Download for Mac or Windows Prefer to run it yourself? Use the one-click Deploy to Cloudflare button, or follow the manual steps. See the Quick Start for all three options. 3 Product of the Day on Product Hunt A home screen instead of an empty search box. Open the dashboard and it shows what your brain has been doing: what arrived in the last 48 hours and where it came from, a
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-memory, claude, claude-ai, claude-code, cloudflare, cloudflare-workers
+
+---
+
+### 🌟 [maverick-mcp](https://github.com/wshobson/maverick-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 649
+- **核心概述**: MaverickMCP - Personal Stock Analysis MCP Server
+- **大概是做什么的**: MaverickMCP - Personal Stock Analysis MCP Server MaverickMCP is a personal-use FastMCP server that provides financial data analysis, technical indicators, stock screening, and portfolio tracking tools to any MCP client -- Claude Desktop, Claude Code, Cursor, VS Code, Codex CLI, Antigravity CLI, OpenCode, and others. Built for individual traders and it runs entirely on your own machine with no authentication or billing Core tools need no API key: market data comes from yfinance . Two optional extras add more: [backtesting] (VectorBT-powered strategy backtesting) and [research] (LangGraph-based deep research, bring-your-own LLM key). Skip the setup — hosted version Self-hosting MaverickMCP means Python, uv, and MCP client config (Redis and a research LLM key are optional). If you just want the analysis, Capital Companion is the hosted product built on the same engine: AI technical analysis, trade-plan review sheets with outcome tracking, and price alerts. 25 free analyses, Self-hosting instructions continue below. - No Setup Complexity : make dev gets the server running; no database mi
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, algorithmic-trading, anthropic, backtesting, claude, fastmcp
+
+---
+
+### 🌟 [cymbal](https://github.com/1broseidon/cymbal)
+- **项目语言**: C
+- **星标数量**: ⭐ 308
+- **核心概述**: Language-agnostic code navigation CLI powered by tree-sitter
+- **大概是做什么的**: cymbal is a fast, language-agnostic code navigator. It parses your codebase into a local SQLite index, then answers symbol lookups, cross-references, impact analysis, and relationship queries in milliseconds from your terminal or Use it when you need: - A CLI for understanding an unfamiliar repo without bouncing between grep , find , and ad hoc file reads - An agent-facing code navigation layer that replaces long chains of search/show/refs calls with one focused command - A Go library for embedding indexed code navigation in editor tooling, bots, or internal automation - Commands at a Glance - Supported Languages Operators / CLI users Quick Start · Commands at a Glance · docs/reference/commands.md AI agents / integrations AI Agents · docs/AGENT HOOKS.md · docs/guide/agent-native.md Go library consumers Use as a Library · docs/guide/library.md Contributors / evaluators How It Works · Benchmarks · CHANGELOG.md Full docs site docs/index.md · docs/guide/getting-started.md Homebrew (macOS / Linux): Arch Linux (AUR, community-maintained): Without an AUR helper, build the package from aur.a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cli, code-analysis, code-navigation, developer-tools, golang
+
+---
+
 ## 🕔 2026-08-22 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 277 个候选项目中筛选出 6 个未推荐过的新项目。
