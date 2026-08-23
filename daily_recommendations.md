@@ -1,3 +1,67 @@
+## 🕔 2026-08-23 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 208 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 14,367
+- **核心概述**: Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source AI tool that turns stories and scripts into animated short dramas. Features AI scriptwriting, storyboarding, character and video generation. A cross-platform desktop app for efficient content creation.
+- **大概是做什么的**: 🚀 一站式短剧工程 ：从文本到角色，从分镜到视频，0门槛全流程AI化，创作效率提升10倍+！ ---------- --------------------- 简体中文 Chinese (Simplified) 繁體中文 Chinese (Traditional) English English Tiếng Việt Vietnamese Русский Russian Toonflow 是面向短剧生产的 AI 工作台，围绕“策划 → 编剧 → 分镜 → 出片”构建完整闭环，并支持本地化、可编程、可持续迭代的生产流程。 以类无限画布形式组织剧本、角色、分镜、素材与视频节点，支持自由编排、回溯与并行生产，不受线性步骤限制。 决策层、执行层、监督层协同工作，覆盖任务拆解、内容生成、质量审阅与修订反馈，提升稳定性与成片一致性。 基于本地 ONNX 向量检索的跨会话记忆系统，支持短期消息、长期摘要和语义召回，确保多轮创作连续性。 支持在设置中心直接编写供应商 TypeScript 逻辑并即时生效，无需改源码或重启，便于私有化和多模型接入。 自动提取原著章节事件并结构化存储，剧本改编按事件图谱精准调用上下文，减少长文本信息丢失。 ScriptAgent 与 ProductionAgent 的核心提示词外化为 Markdown Skill 文件，支持在线编辑与快速调优。 1. 启动应用并登录（默认账号： admin / admin123 ）。 2. 在设置中心完成模型供应商配置（文本/图像/视频模型）。 3. 新建项目并导入原著，执行章节事件提取。 4. 进入 ScriptAgent 生成故事骨架、改编策略与结构化剧本。 5. 切换到 ProductionAgent，在无限画布中组织分镜、素材与视频节点。 6. 对分镜图进行节点化精调后回流工作台，完成视频拼接与导出。 https://www.bilibili.com/video/BV1oXD7BqEqJ Toonflow 12 分钟快速上手 AI 视频 以下截图及视频来自使用 Toonflow 制作的一段 AI 短剧 Demo，全程约 2 小时完成，涵盖剧本生成、分镜制作及剪辑环节。 https://github.com/user-attachments/assets/2d9fddac-dfdf-4640-b030-b09d7f7287e9 :--------- :---------------------------------------------- 视频模型 Seedance 2.0 图片模型 GPT Image
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-content-creation, ai-tool, ai-video-generation, automation, content-generation
+
+---
+
+### 🌟 [tick-stock-panel](https://github.com/shy3130/tick-stock-panel)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,484
+- **核心概述**: TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | 基于 TickFlow 数据源 | LLM���力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个��开源 ,非TickFlow官方项目
+- **大概是做什么的**: 自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 快速开始 · 核心功能 · 配置 · 完整文档 本项目个人开源，数据源插件化，可任意接入第三方数据源。仅供学习研究使用，严禁商业用途。 ⚠️ 小白请绕路，本开源项目谨作为本地量化提供解决思路Demo，不作为投资软件或者看盘软件。 明确不做 :不对标同花顺 / 通达信,不内置「AI 荐股 / 涨停预测」。 有问题可以邮件415333856@qq.com,交流群二维码在文末。 模块 一句话 详见 :--------------- :--------------------------------------------------------------------- :-------------------------------- 🔍 选股引擎 18 个内置策略 + 自定义信号 + AI 生成 + 代码迁移,Polars 毫秒级扫全 A 股 strategy.md 📊 指标流水线 MA/EMA/MACD/RSI/KDJ/布林/量比等,一次扫表落盘 enriched Parquet features.md 🧪 回测研究 因子/策略回测 + 财务快照因子(点时口径),T+1/费用/滑点约束,SSE 持久任务 features.md ⛏️ 因子挖掘 嵌套样本外搜索多因子排名组合,与自有策略对照,候选库显式发布、永不自动上线 mining.md 🌡️ 市场环境 情绪周期 6 阶段(连板梯队驱动)+ 概念/行业主线排名,与 5 档环境分并存 market-phase.md 🚨 异动监控 交易所异动规则口径(3/10/30 日偏离值),盘中实时接近度,系统告警与推送接入 — 📡 监控中心 四类监控(策略/个股信号/价格/异动),多条件 AND/OR + 语音播报 + 飞书推送 features.md 📈 个股分析 9 类关键价位 + AI 四维分析(技术/基本面/财务/消息面) features.md 🏆 连板梯队 连板层级统计 + 概念涨幅轮动 + 盘后 AI 复盘 + 炸板/翘板预警 features.md 🧰 数据扩展 数据源插件化(stock-sdk 示例 + YAML 自定义源),扩展字段配成一级页面同台分析 custom-data-source.md - 看板 Dashboard — 市场情绪评分 + 涨跌/成交额榜单 + 概念领涨领跌 + 大盘异动事件流,一日全貌 - 自选 Watchlist — 自选股池,多分组管理(M:N),表格/卡片双视图,换手/量比/RSI 等实时指标
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a-stock, ai-agent, aigc, backtesting, daily, duckdb
+
+---
+
+### 🌟 [unlazy](https://github.com/Leonxlnx/unlazy)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,150
+- **核心概述**: Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers deep and gives every leaf the full time budget of the whole task, so effort multiplies with depth. Grounded in 2025-2026 research on model laziness, underthinking and premature completion.
+- **大概是做什么的**: Completion discipline for substantial AI-agent work, backed by runnable gates. Write the acceptance ledger first. Execute reviewed checks. Reverify returned work. Report only what the evidence supports. Quick start Gate contract Orchestration Security Research The current source targets 2.1.0 . It is not identified here as a tagged GitHub release. Pin an exact commit when you need an immutable installation. See CHANGELOG.md for the unreleased change set. Use the skills CLI for supported agents: Add -g for a user-level install or --all for every detected agent. Clone the repository into the relevant directory. Invoke it as /unlazy where slash skills are supported, $unlazy in Codex, or by a natural-language trigger from the skill description. The core is SKILL.md. The checker and optional hook require Node 16 or newer and use no third-party runtime packages. Ask for substantial work with an explicit trigger: For a solo task, copy templates/gates-leaf.md to GATES.md , replace every placeholder, and inspect it without executing commands: --status is the only mode that is always non-execu
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, claude, claude-code, llm, productivity, prompt-engineering
+
+---
+
+### 🌟 [dsh-desktop](https://github.com/vibeinging/dsh-desktop)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 621
+- **核心概述**: DeepSeek Harness Desktop App: a local AI desktop workspace for DSH Sessions, projects, files, web research, plugins, and Office artifacts.
+- **大概是做什么的**: 以官方 DSH Web 为核心的插件化桌面工作台。 精选社区 Bundle、离线 Profile、Git Worktree、文件附件与受控原生能力，组合在一个 Electron 应用中。 独立的社区开源项目，与深度求索不存在隶属、合作、授权或背书关系。 中文 · English · 二次元版 README DSH Desktop 是社区维护的 Electron 发行版。它固定并运行官方 DeepSeek Harness npm 运行时，把 dsh-web-app 、Session、Agent、Tool、Skill、MCP 与 Profile Bundle 组成可直接运行的本地桌面环境。项目不修改 DSH 源码，不另存一套插件状态，也不用私有 Chat 替换官方 Web。 这个仓库做的是“桌面发行层”：从社区中选择值得默认安装的 Bundle，固定它们的来源、版本、依赖、权限和许可，然后在真实 Profile 与 Electron 中验证安装、停用、卸载、重启和恢复。用户得到的不是一堆手工配置，而是一个可组合、可移除、可复现的 DSH 工作台。 官方 Web 是唯一主界面 主窗口直接加载官方 Client 图，桌面能力也以 dshClient Bundle 加入 跟随 DSH 会话、设置与 Slot 演进，不等第二套界面重写 Profile 是插件状态的唯一权威 市场、设置和 CLI 读写同一个 Profile；更新不补回用户已卸载的 Bundle 不会出现“页面说已安装，DSH 实际没加载”的双状态 社区实现优先 任务看板、插件市场和附件输入直接采用独立社区 Bundle 社区插件可同时服务官方 Web 与桌面发行版，不被锁在本项目里 默认组合可复现 新 Profile 从固定 tarball、SHA-256 和随包 pnpm 离线原子初始化 无需临时从 npm 拼装默认环境，安装失败不会留下半个 Profile 原生能力按最小权限开放 窗口、文件、Browser Workspace 和更新只通过 Session 绑定的方法白名单暴露 第三方 Client 不能直接获取 Electron、Node 或通用 IPC 失败必须可诊断、可恢复 Profile 或 Client 启动失败时进入本地恢复页，保留原 Profile 不用白屏、无限重启或静默改配置掩盖问题 这套路线适合想使用官方 DSH Web，同时需要社区插件、桌面原生能力、可控默认组合和清晰权限边界的用户与插件作者。 Electron 启动本地 DSH Web Profile，并管理窗口、服务启动、退出和
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-workflows, ai-agent, ai-workbench, data-analysis, deepseek-harness, desktop-app
+
+---
+
+### 🌟 [ha-llmvision](https://github.com/valentinfrlch/ha-llmvision)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,435
+- **核心概述**: Visual intelligence for your home.
+- **大概是做什么的**: Visual intelligence for your home. ⬇️ Quick Start Guide 🪲 How to report Bugs LLM Vision is a Home Assistant integration that uses multimodal large language models to analyze images, videos, live camera feeds, and Frigate events. It can also keep track of analyzed events in a timeline, with an optional Timeline Card for your dashboard. - Supports OpenRouter, OpenAI, Anthropic, Google Gemini, AWS Bedrock, Azure, Groq, Ollama, Open WebUI, LocalAI and any provider with OpenAI compatible endpoints. - Answers questions and provides descriptions of images, video files, live camera feeds, and Frigate events based on your prompt. - Remembers people, pets and objects - Keeps a timeline of camera events, so you can display them on your dashboard or ask Assist about them. - Seamlessly updates sensors based on data extracted from camera streams, images or videos See the website for the latest features and examples. LLM Vision is available in the default HACS repository. You can install it directly through HACS or click the button below to open it there. 1. Install LLM Vision from HACS 2. Restart
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, cctv-detection, hacs-integration, home-assistant, llm, multimodal
+
+---
+
+### 🌟 [GraphRAG-SDK](https://github.com/FalkorDB/GraphRAG-SDK)
+- **项目语言**: Python
+- **星标数量**: ⭐ 991
+- **核心概述**: Build fast and accurate GenAI apps with GraphRAG SDK at scale 🌟
+- **大概是做什么的**: The simplest, most accurate GraphRAG framework built on FalkorDB Benchmark-leading accuracy · FalkorDB-fast · Multi-tenant · Graph traversal · 5-minute setup Most GraphRAG systems work in demos and break under production constraints. GraphRAG SDK was built from real deployments around a simple idea: the retrieval harness matters more than the model. The result is a modular, benchmark-leading framework with predictable cost and sensible defaults that gets you from raw documents to cited answers in under 5 minutes. Rank System Novel (Multi-Doc) Medical (Single-Doc) Overall :--- :--- :---: :---: :---: 1 FalkorDB GraphRAG SDK ◄ 66.09 76.87 71.48 2 G-reasoner 58.94 73.30 66.12 3 AutoPrunedRetriever 63.72 67.00 65.36 4 HippoRAG2 56.48 64.85 60.67 5 Fast-GraphRAG 52.02 64.12 58.07 6 RAG (w rerank) (Vector RAG) 48.35 62.43 55.39 7 LightRAG 45.09 62.59 53.84 8 HippoRAG 44.75 59.08 51.92 9 MS-GraphRAG (local) 50.93 45.16 48.05 How these are computed. Per dataset, ACC is the unweighted mean of the four task-category scores, matching the GraphRAG-Bench leaderboard convention: Dataset ACC = (Fact
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: falkordb, genai, graph-database, graphrag, knowledge-graph, llm
+
+---
+
 ## 🕔 2026-08-23 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
