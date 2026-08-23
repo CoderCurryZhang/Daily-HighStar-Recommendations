@@ -1,3 +1,67 @@
+## 🕔 2026-08-23 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ux-ui-agent-skills](https://github.com/plugin87/ux-ui-agent-skills)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 556
+- **核心概述**: Turn Claude into a Senior Design Architect — DTCG design tokens, 42 components, WCAG 2.2 accessibility, any-framework code, 138 design systems, and runnable skills.
+- **大概是做什么的**: Turn Claude into a Senior Design Architect — 15+ years of expertise in design systems, accessibility, and production-ready component engineering. A comprehensive kit of structured instructions, design tokens, runnable skills, and 138 brand-grade design systems that turn Claude into a UX/UI expert agent — targeting any framework and any design system . Drop it into any project for consistent, accessible, token-driven design outputs, every time. Current release: v2.4.0 · See the Changelog · All releases No build tools, dependencies, or runtime required — this is a pure instruction & knowledge layer for AI agents. Capability Description ----------- ------------- Design Token Generation Produces DTCG-format JSON tokens (colors, typography, spacing, shadows, borders, breakpoints, motion) with a 3-tier architecture: Primitive → Semantic → Component Component Design Designs components from Atoms to Templates following Atomic Design, with anatomy, variants, states, token mapping, and accessibility specs Code Generation (any framework) Adapter Protocol targets any stack — React+Tailwind, Next
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, ai-agents, claude, claude-code, claude-skills, component-library
+
+---
+
+### 🌟 [ai-coding-guide](https://github.com/stormzhang/ai-coding-guide)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,717
+- **核心概述**: 「可能是全网最全的」📘 面向小白的 AI 编程 CLI 中文教程：Claude Code + Codex 92 篇精修
+- **大概是做什么的**: AI 编程（Claude Code + Codex）指南 📘 92 篇 · 约 52 万字 精修中文教程，带你从装好到熟练 —— Claude Code 53 篇 + Codex 39 篇 ，把命令行变成你最快的那只手。 📖 在线阅读（暗色终端风、体验更佳）→ - 以官方文档为事实来源 ：所有功能 / 命令 / 默认行为对照 Claude Code 官方 和 Codex 官方 核实，不抄第三方猜测、不靠传言。 - 面向小白做大量易懂化改写 ：每个新概念三段式（场景引入 + 生活化类比 + 实际场景）；不熟命令行也能跟上。 - 有真实经验印记 ：每篇 3+ 处第一人称踩坑/判断（带具体细节、真实数字），不写「我觉得」式空话。 - 可照跑、可自验 ：每个动手环节给完整命令 + 预期输出，让你边读边动手即时反馈。 - 暗色工程风原创配图 ：81 张 SVG/PNG 配图，统一暗色风格、不堆字、节点 ≤ 10。 从「是什么 / 安装」到代理循环、MCP、子代理、Skill、Hooks、Agent SDK、GitHub Actions，再到最佳实践 / 反模式 / FAQ / 术语表。 → 从这里开始：coding.stormzhang.ai - 01 · Claude Code 简介 - 03 · Claude Code 如何工作 - 04 · API 配置：订阅登录还是 API key，怎么选、怎么切 - 06 · Coding Plan：订阅套餐与计费 - 07 · 第一次使用：跑通第一个例子 - 10 · 桌面 app（Desktop） - 11 · 网页版与云端：把 Claude Code 装进浏览器和手机 - 12 · 项目初始化：用 /init 一键生成 CLAUDE.md - 13 · 项目结构：Claude Code 在你项目里都放了什么 - 14 · 交互界面与快捷键：把手放对地方 - 15 · 怎么提问和给指令：把话说到 Claude 心坎里 - 16 · 四个最常用的活儿：探索代码库、修 bug、重构、写测试 - 17 · 图片与多模态：贴张截图，它就懂了 - 18 · CLAUDE.md 使用指南：把项目规矩写进它的记忆 - 19 · 上下文管理：别让它「失忆」也别烧爆 token - 20 · 权限配置：放多松、收多紧，你说了算 - 21 · 安全与风险边界：到底该不该信任 AI 碰你的代码 - 22 · MCP：给 Claude 接上外部世界 - 23 · 子代理（Subagents）：把活儿外包出去，别什么都自己扛 - 24 · 插件（
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-coding, anthropic, chinese-tutorial, claude-code, cli
+
+---
+
+### 🌟 [premiere-pro-mcp](https://github.com/leancoderkavy/premiere-pro-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 211
+- **核心概述**: Local-first Adobe Premiere Pro MCP: 285 AI video editing tools, opt-in project context, CEP bridge, and capability-aware UXP.
+- **大概是做什么的**: MCP for Adobe Premiere Pro Give compatible AI assistants structured control over supported Adobe Premiere Pro workflows. 308 core tools across 35 modules, 4 resources, and 11 guided workflows. A connected UXP host adds 50 capability-gated tools. An MCP (Model Context Protocol) server that lets AI assistants like Claude , Windsurf , Cursor , GitHub Copilot , or any MCP-compatible client directly control Adobe Premiere Pro — importing media, editing timelines, applying effects, managing keyframes, exporting, and more. The AI handles the entire workflow through 308 core tools spanning the supported ExtendScript, QE DOM, revisioned project-context retrieval, safe edit-planning, project-intake preview, and connection-verification surfaces. A compatible, authenticated UXP panel adds 50 documented, capability-gated tools without replacing the production CEP bridge. Latest release: 1.13.0 - MOGRT text and graphics: set effect property now accepts string-backed parameters with safe serialization and readback status. - Effect discovery clarity: an empty legacy QE effect catalog now returns a n
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: adobe, adobe-premiere-pro, ai, ai-video-editing, cep, claude
+
+---
+
+### 🌟 [mnemory](https://github.com/fpytloun/mnemory)
+- **项目语言**: Python
+- **星标数量**: ⭐ 273
+- **核心概述**: A self-hosted, secure, feature-rich memory system for AI agents and assistants. Provides intelligent fact extraction and deduplication, with an artifact store for detailed content.
+- **大概是做什么的**: Give your AI agents persistent memory. mnemory is a self-hosted MCP server that adds personalization and long-term memory to any AI assistant — Claude Code, ChatGPT, Open WebUI, Cursor, or any MCP-compatible client. Plug and play. Connect mnemory and your agent immediately starts remembering user preferences, facts, decisions, and context across conversations. No system prompt changes needed. Self-hosted and secure. Your data stays on your infrastructure. No cloud dependencies, no third-party access to your memories. Intelligent. Uses a unified LLM pipeline for fact extraction, deduplication, and contradiction resolution in a single call. Memories are semantically searchable, automatically categorized, and expire naturally when no longer relevant. - Zero config — uvx mnemory , connect your MCP client, done. Works out of the box with any OpenAI-compatible API. - Intelligent extraction — A single LLM call extracts facts, classifies metadata, and deduplicates against existing memories. - Contradiction resolution — "I drive a Skoda" + later "I bought a Tesla" = automatic update, not a du
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, agents-memory, ai, ai-agents, llm, mcp
+
+---
+
+### 🌟 [safari-mcp](https://github.com/achiya-automation/safari-mcp)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 175
+- **核心概述**: Native Safari browser automation for AI agents. 97 tools via AppleScript — zero overhead, keeps logins, runs silently in background. Drop-in alternative to Chrome DevTools MCP with 40-60% less CPU/heat on Apple Silicon.
+- **大概是做什么的**: The browser for your coding agent. Your real Safari, logged in — no Chrome, no heat, no headless. 97 tools · No Chrome/Puppeteer/Playwright needed · 5ms per command · 60% less CPU than Chrome Quick Start · All 97 Tools · Examples · Why Safari MCP? · Architecture · Changelog ❌ Without Safari MCP Your AI agent needs to browse. So it either: - Spins up Chromium via Playwright — with no logins, no cookies, no sessions - Uses Chrome DevTools MCP — and melts your fan running a second browser - Relies on headless scrapers — blocked by Cloudflare, reCAPTCHA, and bot detection Your AI drives the Safari you're already logged into — Gmail, GitHub, Ahrefs, Slack, banking. Native WebKit. 60% less CPU. Background operation. 97 tools. One npx command. macOS only. 📰 Featured on freeCodeCamp: How to Connect Your AI Coding Agent to a Browser on macOS · HackerNoon: Reverse-Engineering React, Shadow DOM, and CSP 🍎 Apple shipped an official Safari MCP (July 2026 — Safari Technology Preview 247+ and the Safari 27 beta). It's built on safaridriver for isolated debugging sessions. safari-mcp drives the re
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-tools, apple-silicon, applescript, automation, browser-automation
+
+---
+
+### 🌟 [Danus](https://github.com/frenzymath/Danus)
+- **项目语言**: Python
+- **星标数量**: ⭐ 318
+- **核心概述**: Orchestrating Mathematical Reasoning Agents with Fact-Graph Memory
+- **大概是做什么的**: Danus: Orchestrating Mathematical Reasoning Agents with Fact-Graph Memory 🚀✨ News: This branch now carries our internal Danus v3 . 🎉 Danus orchestrates mathematical reasoning agents with fact-graph memory. A main agent (codex) steers a swarm of autonomous codex workers that prove; a cold-start verifier is the sole authority on correctness: a result becomes real only once it passes. Verified results accumulate in a content-addressed fact graph — the system's only source of truth — and the main agent decomposes the problem and steers the swarm, reasoning itself (optionally via exploratory codex subagents). When you have the answer, Danus renders it into a human report or a publishable LaTeX paper. Danus builds on the worker–verifier core of our earlier system (arXiv:2604.03789). The technical report tell the full story: the system, six research-level case studies it resolved, and what we learned See ARCHITECTURE.md for the layered design and the map of every module. Orchestrator options The workers and the verifier always run on codex . On this branch the main agent (the orchestrator
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai4math, automated-reasoning, claude-code, codex, llm
+
+---
+
 ## 🕔 2026-08-23 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 256 个候选项目中筛选出 6 个未推荐过的新项目。
