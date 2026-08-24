@@ -1,3 +1,67 @@
+## 🕔 2026-08-24 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 264 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [mobilegym](https://github.com/Purewhiter/mobilegym)
+- **项目语言**: Python
+- **星标数量**: ⭐ 771
+- **核心概述**: MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research · 浏览器里运行的安卓模拟器 · Browser-hosted Android Simulator · Verifiable Evaluation · Scalable Online RL Training (EMNLP 2026)
+- **大概是做什么的**: MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research https://github.com/user-attachments/assets/73bad0c9-7f55-42a2-8e4e-30149b4dfb33 TL;DR — MobileGym is a browser-hosted mobile simulation environment with fully programmable state . It ships 28 simulated apps and 416 task templates with deterministic, sub-millisecond judges , runs 256 parallel instances on one server (≈400 MB RAM per instance, ≈3 s cold-start each), and has been Sim-to-Real validated : a GRPO run on Qwen3-VL-4B gains +42.8 pt in simulation and retains 95.1 % of that gain on a real device ( +40.7 pt ). 🎯 - 2026-08-21 🎉 Our paper has been accepted to the EMNLP 2026 Main Conference . - 2026-06-27 🚀 v0.1.0 released — our first stable release, now shipping the online RL training code ( mobilegym-rl/ ). Recommended version for running experiments. - 2026-05 🎉 Code and benchmark released. - 2026-05 📄 Paper preprint on arXiv → arxiv.org/abs/2605.26114. - 2026-04 🧪 9-agent leaderboard published; Gemini 3.1 Pro tops at 58.8 % SR . - 2026-04 🚀 Sim-to-Real case study: +40.7 pt real
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, ai, android, automation, benchmark
+
+---
+
+### 🌟 [video-recap-skills](https://github.com/zenstory-ai/video-recap-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 470
+- **核心概述**: Clip any video into a narration recap with claude code skill｜用 claude code skill 把任何视频剪辑成中文解说视频，支持剪映导出
+- **大概是做什么的**: 在 Claude Code、Codex CLI、OpenCode 或 OpenClaw 里，用一句自然语言把视频变成中文解说成片。 本地只需要 Python、 ffmpeg 和一个小米 MiMo API Key；TTS 也可切换到 Fish Audio。不用 GPU，不用下载模型，macOS / Linux / Windows 均可运行。 查看《这一秒过火》60 秒解说的完整 Skill 工程、Remotion 包装源码与内容审核 该案例展示核心 cut、音画锁定、包装探索、看片反馈、局部 conform / 再剪与冻结项复核，也包含多集选段、原声/旁白分工、Fish Audio 配音与 TTS 对齐字幕，以及通过恢复源镜头连续性修复不自然接点。仓库不包含原剧、音频或视频二进制。 成片之外，还能一键导出 剪映草稿 手动精修，原片、解说、BGM、字幕： - 一个 key 跑全程。 ASR、VLM、TTS 全走小米 MiMo；本地运行时只有 Python 标准库和 ffmpeg ，不用 pip install 。 - TTS 可切 Fish Audio。 --tts-provider fish-audio 即可使用 Fish Audio；当前 s2.1-pro-free 免费模型适合开发、试用和非 SLA 场景，保留原有 MiMo 默认路径。 - 该查资料时先查。 片名/剧情明确或 brief 提示素材偏薄时，把人物关系、剧情背景存进 background research.json ，VLM 才更容易认出谁是谁。 - 先做创作决定，再分配声音。 Agent 先比较剪辑假设，锁定 POV、主线、具体画面与原声锚点；旁白有明确任务时才整块配音，强对白、动作声或沉默可以完整主导一个 beat。七三开只是在素材判断不足时的粗略回退，不是配额。 - 先剪后配，画面对齐。 剪辑模式先把长视频剪成成片，再对着成片写解说，时间轴天然对齐。 - 多视频也能剪，分析可复用。 一次传多个视频，按 source id 选段剪成一个成片；每个视频的分析沉淀为文件系统素材库，下次 grep 复用、不重算。 - 能接着在剪映里改。 可选导出 schema-driven 的多轨剪映草稿，原片、解说、BGM、字幕和本地图片叠层都可编辑；视频/音频/图片默认打包进 Resources/local 并建立素材索引，clone 或搬目录后仍可用。ffmpeg 仍是最终成片的判定标准。 - 可选 MiMo 成片顾问，不当门神。 需要时可让 MiMo 在合成前或成片后给出语义/审美建议；缺 key、限流、超
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, asr, claude-code, claude-code-plugin, claude-skills, ffmpeg
+
+---
+
+### 🌟 [ovo](https://github.com/qntx/ovo)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 566
+- **核心概述**: Agent behavior that compiles
+- **大概是做什么的**: Embeddable multi-agent runtime kernel for Rust (dual-mode: dynamic spawn + journaled Rhai workflow). Formerly published as machi . 0.9.x is pre-stability. The GitHub non-prerelease 0.9.1 is not 1.0. Breaking changes land without compatibility layers. Production path: TurnOptions::for host(gate) + sandboxed host / default toolkit(jail, backend) (canonicalizes jail ) + the OS helper contract. InProcessHost::new defaults to AlwaysDeny ; the embedder wires approval UI. TurnOptions::default() is AutoApprove for tests / offline full is not an OS sandbox. --all-features is not full . runtime is not toolkit : default cargo add ovo does not compile toolkit; it does link ovo-sandbox via TrustedExecution . Linux Landlock: ship ovo-landlock in the same directory as the host binary, set OVO LANDLOCK HELPER , or put it on PATH ( cargo install ovo-sandbox --features landlock --bin ovo-landlock ). cargo add ovo does not install the helper. platform sandbox() can return Failed for a pure library dependency (missing seatbelt / landlock , or helper not resolved). It is not out-of-the-box. There is no N
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, agent, autonomous-agents, mcp, web4, workflow
+
+---
+
+### 🌟 [easy-stock](https://github.com/jundizhou/easy-stock)
+- **项目语言**: Go
+- **星标数量**: ⭐ 440
+- **核心概述**: A 股行情分析与AI智能投研智能体——easy stock
+- **大概是做什么的**: AI 时代的 A 股行情分析与智能投研工作台 让 AI 看懂市场，让每一次判断都有证据。 把盘中观察、盘后复盘和长期认知，沉淀为一套持续进化的研究系统。 AI 时代的炒股软件，不应该只是在传统行情终端旁边多放一个聊天框。 传统行情软件擅长展示价格、涨跌幅和成交额，但 A 股交易真正困难的是理解价格背后的结构：今天的主线是什么、题材是否扩散、连板高度是否打开、昨日强势股是否获得溢价、趋势是否仍然成立、情绪处于修复还是退潮。 easy-stock 希望构建一套真正理解 A 股语境的 AI 原生工作台： AI 原生能力 easy-stock 的实现方式 感知市场 聚合开盘啦、东方财富、新浪、财联社等来源，统一行情、K 线、题材、涨停与资讯数据 理解结构 将趋势、题材、连板、情绪、量价和相对强度整理成可计算的领域模型 执行任务 通过定时调度、内置浏览器和 Agent 自动发现文章、去重、归档并提炼观点 形成记忆 将文章、摘要、情绪历史、分析记录、模型会话和研究缓存保存在本机 验证结论 保留评分维度、题材来源、原文地址、更新时间、延迟与降级状态，让结论可以回到证据层核验 easy-stock 的目标不是替你做决定，而是让你在 AI 时代拥有更完整的感知、更高效的研究和更可复用的判断体系。 兼听则明，客观则赢：让 AI 自动收集和整理多位市场作者的观点 大 V 的盘后复盘通常分散在雪球、淘股吧和微信公众号中，手工逐个打开主页、筛选当天文章、复制正文并整理观点非常耗时。easy-stock 将这些内容组织为统一的复盘时间流： 文章收集完成后，可以一键生成「今日大 V 观点共识」，从文章集合中提炼共同关注方向、主要分歧、盘面事实与下一交易日需要验证的条件。 这套能力希望解决的不是“让 AI 猜明天涨什么”，而是把几十篇非结构化文章转化为一份可阅读、可核验、可在次日继续跟踪的观点地图。 看清梯队、晋级和情绪周期，寻找真正的超短节点 系统将涨停池、连板梯队、昨日反馈、晋级率和情绪历史放在同一视图中,并设计一套算法分析情绪周期： 从板块涨跌中识别真正的市场主线：牛市进程分歧研究，熊市进程分歧防守 聚合题材排名、涨跌强度、资金流、上涨宽度和持续天数，通过题材地图拆解产业链、概念节点和细分方向。结合 AI 分析市场趋势、题材阶段和趋势股的条件化介入点 把指数、资金、榜单和研究信号组织成一张可追溯的市场地图 行情总览将市场核心指数、新闻快讯、行业趋势强度、行业资金、题材概念、个股资金流入流出、龙虎榜、公告雷达、机构观点与产业透视统一到同一个研究入口。每个页面保留数据来源与抓取时间，并可将当
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a-share, ai-agent, china-stock, llm, stock, stock-analysis
+
+---
+
+### 🌟 [Cybermes](https://github.com/Zyrexnn/Cybermes)
+- **项目语言**: Python
+- **星标数量**: ⭐ 385
+- **核心概述**: Autonomous Offensive Security, Bug Bounty & Red Teaming Agent Framework powered by Hermes Agent, specialized reasoning skills, and multi-model LLM orchestration.
+- **大概是做什么的**: Autonomous Offensive Security, Bug Bounty & Red Teaming Agent Framework Cybermes is an enterprise-grade, autonomous security research agent designed for high-signal reconnaissance, attack surface discovery, authenticated vulnerability research, zero-false-positive exploit validation, token-efficient context management, and automated executive PDF/HTML report generation. ⚡ Works seamlessly on Linux , macOS , and Windows Quick Start • Architecture • Automated PDF Reports • Skills Layer • Discussions & Rules • Documentation • Release Notes ⚡ What Makes Cybermes Different? Traditional Security Scanners ❌ Cybermes Autonomous Agent 🛡️ Noisy & Speculative : Dumps hundreds of unverified alerts based on simple regex. Zero-False-Positive Gate : Requires deterministic HTTP proof, status codes, and standalone Python PoC scripts before reporting. Context Window Bloat : Dumps 5,000+ raw output lines into LLM context, causing hallucinations. Smart Output Filter & Token Economy : Compresses verbose logs by 70–85% with high-throughput native Go smart pipe and Markdown MCP converters. Markdown-Only D
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, appsec, bug-bounty, cvss-v3, cybersecurity, devsecops
+
+---
+
+### 🌟 [DorkAgent](https://github.com/yee-yore/DorkAgent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 319
+- **核心概述**: 🤖 LLM-powered agent for automated Google Dorking in bug hunting & pentesting.
+- **大概是做什么的**: 🤖 LLM-powered agent for automated Google Dorking in bug hunting &amp; pentesting. - Python 3.11.x (recommended: 3.11.9) - Newer versions (e.g. 3.13+) may fail to install crewai 's dependencies (such as tiktoken ) because no prebuilt wheel is published yet for them — pip then tries to build from source and fails without a Rust compiler installed. If you hit a tiktoken build error, switch to Python 3.11.x. - Auto-install all required packages on first run - Prompt you to choose a search engine (Serper or SerpApi) and an LLM provider - Prompt for API keys and save them to .env file automatically - One search engine key, depending on your choice at runtime: - SERPER API KEY - For Serper (Get from https://serper.dev/) - SERPAPI API KEY - For SerpApi (Get from https://serpapi.com/manage-api-key) - At least one LLM API key: - OPENAI API KEY - For OpenAI models (GPT-4, GPT-5, etc.) - ANTHROPIC API KEY - For Claude models - GEMINI API KEY - For Gemini models For more description https://medium.com/@yee-yore/llm-powered-agent-for-automated-google-dorking-dcb14d609dc2 1. The number of google r
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, aiagent, bugbounty, dorks, google-dorking, google-hacking
+
+---
+
 ## 🕔 2026-08-24 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
