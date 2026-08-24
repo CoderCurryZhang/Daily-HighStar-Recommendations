@@ -1,3 +1,67 @@
+## 🕔 2026-08-24 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [bootcamp](https://github.com/milvus-io/bootcamp)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 2,443
+- **核心概述**: Dealing with all unstructured data, such as reverse image search, audio search, molecular search, video analysis, question and answer systems, NLP, etc.
+- **大概是做什么的**: :bird: What You Can Do Begin an interactive journey to master Milvus, enhancing your projects with seamless integration and optimization tools. - Explore Tutorials: Dive into notebooks that walk you through diverse Milvus use cases. - Deploy Demos: Build your own demo to see Milvus in action. - Discover Use Cases: Learn how Milvus integrates with other tools and frameworks through practical examples. - Expand Your Skills: Apply evaluation methods to test and optimize your applications. You can explore a comprehensive Tutorials Overview covering topics such as Retrieval-Augmented Generation (RAG), Semantic Search, Hybrid Search, Question Answering, Recommendation Systems, and various quick-start guides. These resources are designed to help you get started quickly and efficiently. Here is a selection of demos and tutorials to show how to build various types of AI applications made with Milvus: Tutorial Use Case Related Milvus Features ----------- -------- -------- Advanced RAG Optimizations RAG vector search, full text search Full Text Search with Milvus Text Search full text search Hy
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: audio-search, deep-learning, embeddings, image-classification, image-recognition, image-search
+
+---
+
+### 🌟 [BioClaw](https://github.com/Runchuan-BU/BioClaw)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 401
+- **核心概述**: AI-Powered Bioinformatics Research Assistant. Built on OpenClaw.
+- **大概是做什么的**: AI-Powered Bioinformatics Research Assistant 💬 Visit Our Homepage & Join WeChat Group 👆 Click above to visit our homepage and scan the QR code to join WeChat group! 📄 Technical Document 👆 Click above to read the full technical documentation BioClaw brings the power of computational biology directly into WhatsApp group chats. Researchers can run BLAST searches, render protein structures, generate publication-quality plots, perform sequencing QC, and search the literature — all through natural language messages. Built on the NanoClaw architecture with bioinformatics tools and skills from the STELLA project, powered by the Claude Agent SDK. New BioClaw-compatible skills can be developed either directly in BioClaw or in Bioclaw Skills Hub , which can serve as a staging space for early iteration and testing before useful skills are promoted into the main BioClaw repository. Skills that prove practical and stable may later be integrated into BioClaw itself. To get newly promoted skills and other updates from BioClaw, pull the latest version of this repository with git pull . - Messagin
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, bioinformatics, openclaw, pubmed, pymol
+
+---
+
+### 🌟 [redfox-community](https://github.com/redfox-data/redfox-community)
+- **项目语言**: Python
+- **星标数量**: ⭐ 364
+- **核心概述**: 红狐数据 技能合集：面向 Agent 的可复用 SKILL 集合，覆盖灵感、选题、文案创作、数据复盘等场景，持续更新。
+- **大概是做什么的**: redfoxdata · Agent Skills 本仓库收录 redfoxdata 社区维护的多枚 Agent 技能（Skill），面向灵感、选题、文案创作、数据复盘等场景。技能以 SKILL.md 为核心，可与 Cursor、Claude Code 等支持 Agent Skills 的工具配合使用。 每个技能是一个 独立子文件夹 ，且至少包含： ---------- ----------------------------------------------------------------- SKILL.md 技能入口：YAML frontmatter + 正文（触发条件、步骤、约束、示例等） 建议在 SKILL.md 的 frontmatter 中提供清晰元信息，便于检索与导入平台识别，例如： 可选： references/ 、 scripts/ 、 assets/ 等，与 SKILL.md 同目录存放，保持单技能自包含、路径相对引用即可。 所有 API 请求都需要有效的 API KEY。 将需要的技能目录复制到你所用工具的 skills 目录（例如 Cursor 的 user skills 或项目内 .cursor/skills/ 等，以你当前客户端文档为准），或通过客户端提供的「添加技能」入口指向该子文件夹。 直接告诉智能体Agent（openclaw/workbuddy/qoder）： 根据提示将skill安装在指定的agent文件夹中或者安装在全局 访问SkillHub搜索skills目录中对应技能的中文名安装：https://skillhub.cn/skills 搜索示例：公众号爆款文章查询 或 抖音每日最具影响力账号 访问clawhub红狐数据官方主页搜索安装skill：https://clawhub.ai/user/redfox-data - 搜索关键词获取抖音 AI 作品(优质库) - 搜索关键词获取小红书账号 (优质库) - 搜索关键词获取小红书作品 (优质库) - 搜索关键词获取小红书 AI 作品(优质库) - 根据作品uuid获取公众号作品 (优质库) - 搜索关键词获取公众号账号 (优质库) - 搜索关键词获取公众号作品 (优质库) - 根据作品地址获取公众号作品 (优质库) - 搜索关键词获取公众号 AI 创作作品 (优质库) - 获取哔哩哔哩作品内容详情 (优质库) - 搜索关键词获取哔哩哔哩账号 (优质库) - 搜索关键词获取哔哩哔哩作品 (优质库) - 获取哔哩哔哩账号作品列表 (优质库) 欢迎通过 Issue / Pu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, awesome-skills, claude-skills, content-creation, douyin
+
+---
+
+### 🌟 [mnemo-cortex](https://github.com/GuyMannDude/mnemo-cortex)
+- **项目语言**: Python
+- **星标数量**: ⭐ 150
+- **核心概述**: Open-source cognitive coprocessor with active memory for AI agents — persistent recall, semantic search, overnight dreaming, verified facts, encrypted USB sync. MCP server; works with Claude, ChatGPT, and any local LLM. Built by one maker and his agents.
+- **大概是做什么的**: ⚡ Mnemo Cortex — Cognitive Coprocessor with Active Memory 🌐 Home: projectsparks.ai — the story, the docs, and how the project is funded. The Project Sparks ecosystem — everything is free; the whole thing runs on donations. Satisfaction guaranteed, or your no money back. 🎨 Free Art Gallery · 🧒 Kids Seek-&-Find Gallery · 🎁 Mnemo Swag · 🌐 projectsparks.ai · ❤️ PayPal / GitHub Sponsors / Ko-fi The big AI-memory systems run on millions in venture capital. Mnemo Cortex was built by one 73-year-old maker — on Social Security, a $20-a-month Claude subscription, and a stubborn belief that his AI partners should remember him. It is not a demo. It is the production memory of a working five-agent fleet on two machines, every day since March 2026: - 10,000 memories ingested, compacted and recalled across agents - 7,000 verified facts with confidence laddering and a full audit history - 84 shipped versions in five months — the current one is in the release badge above (CHANGELOG) - Overnight dreaming, USB courier sync with encryption, agent-to-agent sharing — each built because the fleet actu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: active-memory, agent-memory, ai-agents, ai-memory, chatgpt, claude
+
+---
+
+### 🌟 [traverse](https://github.com/traverse-framework/traverse)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 119
+- **核心概述**: Contract-driven runtime for portable business capabilities — spec-governed, WASM-first, composable across browser, edge, cloud, and AI.
+- **大概是做什么的**: Your business logic runs in the browser, on your server, and in a cloud function. They drift. You maintain three versions of the same behavior. Traverse keeps it in one contract and runs it anywhere — with a full execution trace every time. Traverse is the working implementation of Universal Microservices Architecture. Current State & Roadmap Traverse is pre-1.0 ( v0.9.1 ) and evolving under spec-driven governance — every capability below is real, running code, not a plan. - 8 crates in this repo plus the capability registry (now its own repo, see below) — 7 of these 9 are published on crates.io: runtime, contracts, registry, CLI, MCP server, embedder SDK, and the expedition WASM example. traverse-native-bridge and traverse-swift-host are newer, not yet published. - 105 approved, immutable specs govern the runtime, contracts, registry, MCP surface, WASM execution, native embedding, event delivery, and durable local storage. Full list: jq -r '.specs[].id' specs/governance/approved-specs.json (or see Governance below). - 100% coverage enforced on core logic , spec-alignment and supply-
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: business-logic, capabilities, cli, contracts, event-driven, mcp
+
+---
+
+### 🌟 [webcodex](https://github.com/yyjeqhc/webcodex)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 140
+- **核心概述**: Self-hosted runtime for exposing controlled project tools to ChatGPT GPT Actions and MCP clients.
+- **大概是做什么的**: WebCodex lets ChatGPT, Claude, and other MCP clients work with repositories and development tools on your own machines. The Runner executes file, Git, command, and test operations where the repository lives; WebCodex exposes those capabilities to the chat client without requiring the repository itself to move. Try it with one repository Platform note: webcodex share starts a local WebCodex Server and is supported on Linux and macOS. Windows builds support the CLI + Runner against a remote Linux Server; on Windows use webcodex connect . If you do not already have a Server, deploy one on Linux first. For the default temporary public share, install cloudflared and make sure it is on PATH . Then: share is self-contained: it configures the current Git project, starts a local WebCodex Server + Runner, creates a temporary Connector credential, and opens a Cloudflare Quick Tunnel. You do not need to run setup , doctor , or run When the command reports WebCodex ready , keep that terminal open and use the 1. In ChatGPT, enable Developer Mode and create a custom app using MCP. 2. Paste the prin
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, chatgpt, codex, developer-tools, gpt-actions, mcp
+
+---
+
 ## 🕔 2026-08-23 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
