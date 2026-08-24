@@ -1,3 +1,67 @@
+## 🕔 2026-08-24 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 259 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [oh-story-claudecode](https://github.com/zenstory-ai/oh-story-claudecode)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 6,023
+- **核心概述**: 网文/小说写作 skill 包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味、封面图全流程 | An all-in-one skill pack for long- and short-form web fiction.
+- **大概是做什么的**: 网文写作 skill 包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味、封面图全流程。内置适配 Claude Code、OpenCode、ZCode、OpenClaw、Codex CLI、Reasonix；能读取项目文件的 Web AI / Agent 环境也可按通用 skills 路径使用。 1. 扫榜 ：分析热门榜单，洞察题材、人设、切入点。 2. 拆文 ：拆解大纲节奏与剧情素材，建立个人模块库。 3. 商业化写作 ：学习并运用钩子、爽感、期待感等核心技巧。 围绕四条线展开：爆款逆向 · 剧情模块化重组 · 上下文状态分层管理 · 人机协同。 v0.7.6 起：重点在正文那一段。写正文的 narrative-writer 有三条规则一直在空转——「写完必须立即统计字数」给的是一条 Bash 命令，可它的工具白名单里没有 Bash，同一句话又禁掉了模型估算，于是「字数达标是硬性要求」背后没有任何可执行判据；「返回前报出句长分布」同样只能编，而主会话正拿它做质量校验；「正文逐项展开细纲」是最高优先级的明令，放宽的那半边却只写在主 skill 里、从不进 spawn 提示词，子代理只看见限制，就按一个情节点一段平推成流水账。三条都已修好，实跑首次落盘即进验收区间（对照组不到下限的 73%）。新增细纲照搬检测：细纲把情节点写成成品散文句时正文只剩誊抄，配套的「复沓锚句」字段让必须逐字进正文的原话（誓言、系统面板、案卷原话）不被误判。另外 Claude Code 上用 Bash 重定向写正文也会被大纲/追踪守卫拦下，以及每次会话固定加载的文本再降两成（开书 −30%、回炉 −41%）。 本版 agents version 为 25 ，已部署项目需重新运行 /story-setup 并新开会话。 v0.7.5 起：稳定版。补上 Claude Code 写正文守卫缺的追踪检查点门——另三端从 v0.7.3 起就有，主力端此前会静默写出若干章没有追踪的正文；长篇 story-long-write 每次触发都整份进上下文的 SKILL.md 从 82 KB 降到 54 KB（开书三阶段抽成按需读的 workflow-setup.md ，日更不再为用不上的建纲步骤付费）；清掉一批过度累加的限制指令，其中一条把正文里普通的「他说」判成了违规。 本版 agents version 为 24 ，已部署项目需重新运行 /story-setup 并新开会话。 v0.7.4 起：全是修复。 story-import 不再把用户自己的书登记成对标（此前会出现「对标目录内容跟自己设定完全
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-writing, chinese-novel, claude-code, claude-skills, creative-writing
+
+---
+
+### 🌟 [ai-weekend-builds](https://github.com/kju4q/ai-weekend-builds)
+- **项目语言**: Python
+- **星标数量**: ⭐ 567
+- **核心概述**: AI projects to build in a weekend. For developers: requires Python or Node.js, an Anthropic API key, and comfort with the terminal. Starter code and READMEs for each project.
+- **大概是做什么的**: AI projects you can build in a weekend. Each one has a full README, starter code, and the exact prompts I'd use. The model varies by volume. Vol 4 is built with Codex and uses an OpenAI API key where a project needs one. Earlier volumes use an Anthropic key. Each volume's guide states what it needs. Sorted by difficulty. Pick one. Build it. Ship it. Latest: Vol 4: Builds On Your Own Data (August 2026) 5 projects that make your own data work for you: your past, your patterns, your world, your interface, your future. Project Difficulty Time What you get --- --------- ----------- ------ ------------- 01 Past-You Searcher Medium 4-6h Everything you've ever written becomes one memory you can ask questions 02 Pattern Mirror Easy-Medium 3-5h Years of your camera roll, rendered as the shape of your life 03 Lookout Medium 4-6h Stops you checking pages, watches your sources and speaks only when something changes 04 Personal API Medium-Advanced 5-8h One local server where your life has addresses 05 Freedom Calculator Advanced Full day Ten thousand simulated versions of your next year, from your
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, anthropic-api, claude, local-first, weekend-projects
+
+---
+
+### 🌟 [DeepSec](https://github.com/Unclecheng-li/DeepSec)
+- **项目语言**: Python
+- **星标数量**: ⭐ 323
+- **核心概述**: DeepSec — AI Security Offense & Defense Platform. Shield audits AI-generated code for hallucinated packages, missing safeguards & AI pattern errors in real time. Spear automates authorized penetration testing with 40+ skill packs, from recon to PoC.
+- **大概是做什么的**: AI 安全攻防一体平台 — Shield 代码审计 + Spear 授权渗透测试 English version : README EN.md 不想看长文档？ 点这里 → docs/QUICKSTART.zh-CN.md （中文版） 下载 Release 里的 deepsec-tui-windows.exe → 双击 → 输入 /shield scan 你的项目 → 2 秒看到漏洞。 不会用？仓库自带故意写满漏洞的示例文件 demo/unsafe-ai-sample.ts ，扫它就能看到效果。 https://github.com/user-attachments/assets/2b041a72-4566-48f1-aca8-2c685c0a52cc — Shield 扫描、Spear 渗透、实时动画 DeepSec 是由 VibeGuard 进化而来的 AI 安全平台，将 Shield （AI 代码安全审计）与 Spear （授权渗透测试引擎）统一到一套 CLI、一个 TUI 终端工作台和一组 IDE 插件中。 从实时正则到 LLM 语义分析的三层检测架构： ------- --------- ------- -------- L1 幻觉包、硬编码密钥、不安全配置、AI 错误模式 想 3 分钟跑起来？直接看 docs/QUICKSTART.zh-CN.md （中文） 或 docs/QUICKSTART.md （English）——含"下载即用"的最快路径。 新手免编译路径 ：直接去 Releases 下载 deepsec-tui-windows.exe / deepsec-tui-linux / deepsec-0.2.0-py3-none-any.whl ，不用装任何编译环境。 --------- ------------- /shield scan 运行 Shield 扫描 /spear run 运行 Spear 渗透（需白名单授权） /spear recon 运行侦察阶段 /scope add 将目标加入授权白名单 /scope remove 从白名单移除目标 /scope list 查看当前白名单 /plan 切换到 Plan 模式 /agent 切换到 Agent 模式 /yolo 切换到 YOLO 模式（全自动） DeepSec TUI 内置授权白名单管理 — 无需手动编辑 scope.json 或处理 HMAC 签名密钥。 在 TUI 命令行（底部 提示符）输入： - 目标会被规范化（scheme+host 转小写、去尾部 / ）并去重，与后端授
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, aisecurity, cybersecurity, dsh
+
+---
+
+### 🌟 [itsaplan](https://github.com/croffasia/itsaplan)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 305
+- **核心概述**: Open-source, self-hosted alternative to Linear. Project management and issue tracking where teams and AI agents work side by side to plan and ship products.
+- **大概是做什么的**: Open-source project management and issue tracking, with AI agents built in Self-hosted, open-source project management and issue tracking, and an alternative to Linear, Plane, and Jira. The difference: AI agents work here like any teammate. Hand them issues, or run the whole thing over the REST API, webhooks, and MCP. If It's a Plan looks useful to you, star the repo ⭐ — it helps other people find it. Website · Discussions · Contributing · Security Most trackers bolt AI on as a chatbot. Here an agent is a real member of the team. It has a role, permissions, and an assignee slot, and it works the same board your people do. It's a self-hosted, open alternative to Linear, Plane, and Jira. You run it on your own server and database. - Own your stack. Your server, your database. No per-seat fees, no lock-in. - Agents as teammates. Give an agent a model, a prompt, skills, and tools. Assign it issues like you would a person. - One board for both. People and agents share the same board, threads, and cards. - Automate anything. Drive it all through the REST API, MCP, and signed webhooks. Head
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, agile, ai-agents, bug-reporting, bug-tracker, gantt
+
+---
+
+### 🌟 [Fabric](https://github.com/Fabric-Project/Fabric)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 544
+- **核心概述**: Node Creative Coding / 3D / Image Processing tool inspired by Quartz Composer
+- **大概是做什么的**: Fabric is a creative code and rapid prototyping environment focusing on interactive visuals, image and video processing and analysis and 3D content authoring. Provides an intuitive Visual Node based content authoring environment Provides an SDK to load an common interchange file format Provides an SDK to extend Fabric by creating custom nodes via a plugin architecture Fabric is inspired by Apple's deprecated Quartz Composer ecosystem, and its design philosophy. Fabric is intended to be used as A Creative coding tool requires little to no programming experience. Pro User tool to create reusable documents (similar to Quartz Composer Compositions) that can be loaded in the Fabric runtime and embedded into 3rd party applications. Developer environment built on Satin that can render high fidelity visual output in a procedural way, using modern rendering techniques. An early alpha of Satin rendering a instances of a sphere geometry, along with an HDRI environment and a PBR Shader at 120Hz: What can I do with Fabric? Think of Fabric as a playground of visual capabilies you can combine toget
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: 3d, computer-vision, creative-coding, graphics, llm, metal
+
+---
+
+### 🌟 [rome](https://github.com/rome-os/rome)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 264
+- **核心概述**: Rome is the agentic OS.
+- **大概是做什么的**: The agentic OS for humans and agents. Most progress in AI comes from scaling models. Rome scales the other axis, the environment: the tools, workflows, memory, and interfaces an agent works within (why this matters). Rome is a guardrailed environment where human and agent collaborate, and the collaboration compounds. Agents build their own harnesses, design their own SOPs, and orchestrate workflows under your guidance. Proven capabilities stick. Every interaction raises the ceiling for the next. Rome Cloud provisions a private Rome environment for each guardian. It is currently available as a preview. One script checks for Docker, pulls the published image, and starts Rome: Or clone the repository and run the script from it: The dashboard comes up at http://localhost:7663 , bound to loopback only — first-run onboarding is open to whoever reaches it first, so exposing it beyond the machine takes an explicit --bind . State lives in named Docker volumes, so re-running the script upgrades the container without losing data. Telemetry export stays off unless you set OTEL EXPORTER OTLP ENDP
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-os, claude-code, codex, llm
+
+---
+
 ## 🕔 2026-08-24 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 264 个候选项目中筛选出 6 个未推荐过的新项目。
