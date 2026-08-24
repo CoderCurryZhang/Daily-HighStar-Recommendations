@@ -1,3 +1,67 @@
+## 🕔 2026-08-24 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [SocratiCode](https://github.com/giancarloerra/SocratiCode)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,274
+- **核心概述**: Enterprise-grade (40m+ LOC) codebase intelligence, zero-setup, local & private Plugin/Skill/Extension or MCP: hybrid semantic search, polyglot dependency graphs, symbol-level impact analysis & call-flow, interactive HTML viewer, cross-project & branch-aware search, DB/API/infra knowledge. 61% less tokens, 84% fewer calls, 37x faster. Cloud in beta.
+- **大概是做什么的**: "There is only one good, knowledge, and one evil, ignorance." — Socrates Your AI reads code. SocratiCode understands it. The open-source codebase context engine: give any AI instant automated knowledge of your entire codebase (and infrastructure) — at scale, zero configuration, fully private, completely free. Kindly sponsored by Altaire Limited 🛡️ Need MCP governance together with codebase context? See our sibling project JanuScope — the local-first MCP policy proxy: tool blocking, SQL-mutation gate, PII redaction, audit, rate-limit. If SocratiCode has been useful to you, please ⭐ star this repo — it helps others discover it — and share it with your dev team and fellow developers! 💬 Questions or just want to chat? Join us on Discord. ☁️ SocratiCode Cloud (private beta) — Hosted, shared team index built on the same engine as the open-source version, plus SSO, audit logs, branch-aware indexing, and VPC / air-gapped deployment options. The open-source core remains free forever. Request early access → One thing, done well: deep codebase intelligence — zero setup, no bloat, fully automa
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, ai-assistant, ast, claude, claude-code, code-graph
+
+---
+
+### 🌟 [js-reverse-mcp](https://github.com/zhizhuodemao/js-reverse-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,579
+- **核心概述**: AI Agent-first JS 逆向 MCP Server：有头 Chrome 调试、断点、网络/WebSocket 分析、Patchright 反检测，可选 CloakBrowser。
+- **大概是做什么的**: AI-first / AI-native 的 JavaScript 逆向工程 MCP Server，让你的 AI 编码助手（如 Claude、Cursor、Copilot）能够像分析师一样持续调试、定位、保存和复盘网页中的 JavaScript 行为。 它不是把 Chrome DevTools API 原样搬给模型，而是把脚本、断点、网络、WebSocket、浏览器状态和本地文件 I/O 重新组织成适合 AI Agent 连续推理和操作的工具。反检测是其中一部分能力：默认使用为本 MCP 重新编译发布、独立维护的 Patchright fork 提供协议层 stealth，对强反爬站点可选启用 CloakBrowser 源码层指纹模式。 ☁️ 赞助 · Sponsored by IPWO IPWO 住宅代理支持灵活的代理配置，开发者可以根据不同任务选择相应的网络环境，用于网页访问、请求测试、地区化内容分析及自动化工作流。 对于涉及 JS 逆向、浏览器调试和 Web 网络分析的项目，住宅代理也可以作为网络环境的一种补充选择，帮助开发者更灵活地满足不同地区的访问与测试需求。 👉 免费测试入口，9 折优惠码： 0204 ☁️ 赞助 · Sponsored by Bloome Bloome 是一个 AI Agent IM 平台：不是你对着一个 bot 单打独斗，而是让多个 AI agent（Claude、ChatGPT、DeepSeek 等）和你待在同一个群聊里协作。 把任务丢进对话，它们会自动分工——起草、交叉核对、补全细节，彼此挑错、互相补位，直到结果靠谱为止，并直接在对话里生成表格、文档和可视化看板。还能按计划 7×24 自动运行（比如每天定时整理报表发进频道），零本地配置、云端运行，网页和手机都能用；配好的 agent 一键分享给团队，无需各自部署。 一句话：把"我 + 一个助手"升级成"我的团队 + 一群会协作的 agent"。 - AI-native 工具设计 ：工具粒度、输出边界和错误提示都围绕 Agent 决策设计，避免把模型推向无效下一步 - 可复盘工作流 ：脚本源码、网络原始数据、二进制结果都能导出到本地文件，再作为后续分析输入 - 断点上下文执行 ：暂停时可直接在 call frame 中求值，检查作用域变量，单步执行并返回源码上下文 - 脚本分析 ：列出所有加载的 JS，搜索代码，获取/保存源码，自动格式化大型压缩脚本 - 网络与 WebSocket 分析 ：请求调用栈、XHR 断点、Set-Cookie 识别、原始 body/header 导
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: anti-detection, browser-automation, cdp, chrome-devtools, debugging, javascript
+
+---
+
+### 🌟 [meta-agents-research-environments](https://github.com/facebookresearch/meta-agents-research-environments)
+- **项目语言**: Python
+- **星标数量**: ⭐ 546
+- **核心概述**: Meta Agents Research Environments is a comprehensive platform designed to evaluate AI agents in dynamic, realistic scenarios. Unlike static benchmarks, this platform introduces evolving environments where agents must adapt their strategies as new information becomes available, mirroring real-world challenges.
+- **大概是做什么的**: Meta Agents Research Environments (ARE) A research environment for simulating complex, real-life tasks that require multi-step reasoning and dynamic adaptation. Meta Agents Research Environments (ARE) is a platform designed to evaluate AI agents in dynamic, realistic scenarios. Unlike static benchmarks, this research platform introduces evolving environments where agents must adapt their strategies as new information becomes available, mirroring real-world challenges. In particular, ARE runs the Gaia2 benchmark, a follow-up to Gaia, evaluating a broader range of agent capabilities. Looking for the container-based Gaia2-CLI benchmark stack? Start with ARE addresses critical gaps in AI agent evaluation by providing: - Dynamic Environments : Scenarios that evolve over time with new information and changing conditions - Multi-Step Reasoning : Complex tasks requiring 10+ steps and several minutes to complete - Real-World Focus : Grounded situations that mirror actual real-world challenges - Comprehensive Evaluation : The Gaia2 benchmark with 800 scenarios across multiple domains Quick Sta
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai, autonomous-agents, benchmark, evaluation, large-language-models
+
+---
+
+### 🌟 [easyeda-agent](https://github.com/zhoushoujianwork/easyeda-agent)
+- **项目语言**: Go
+- **星标数量**: ⭐ 288
+- **核心概述**: 嘉立创EDA专业版(EasyEDA Pro)自动化：给 AI harness 装上画板的「手」—— 一套 typed 原理图/PCB 动作，CLI / Agent Skill / stdio MCP 三形态融合接入。承接嘉立创「不以卖板赚钱，以培养中国工程师为己任」 | EasyEDA Pro automation: the hands of your AI harness — typed schematic/PCB actions via CLI, Agent Skill and stdio MCP.
+- **大概是做什么的**: 面向 EasyEDA(嘉立创EDA专业版)的 AI 原生自动化层 当前版本:v1.0.0 —— 原理图功能正式上线。 AI Agent 通过类型化命令操作 EasyEDA Pro, 从一份客户口吻的需求文档出发,原理图全流程(S0–S6:方案书 → 分页 → 分区 → 摆放 → 布线 → 机械门禁 → 交付)已可正式交付;PCB 流程(P0–P10)持续演进中。 easyeda-agent 把官方 EasyEDA 扩展 API 变成一套 有类型、可观测、Skill 友好 的系统。EasyEDA 插件保持极薄——它连到本地 agent、只执行被批准的动作;Go CLI/daemon 掌管协议、状态、产物、校验和面向用户的工作流。 上游 run-api-gateway 证明了关键入口:代码能跑在 EasyEDA 内、访问官方 eda 对象。但它把「裸 JavaScript 执行」当作主工作流——强大,但对 AI agent 太脆弱。 本项目的连接器是真实可用的:daemon 固定监听单端口 60832 ( 0xEDA0 ,"EDA" 写进十六进制;0.15.0 起弃用与官方 gateway 冲突的 49620) (不外溢、被占用时自动接管旧 easyeda daemon)、连接器锁定该端口、校验握手、 自愈重连 、把一套 有类型的动作目录 分发到官方 eda. API。裸 JS 仅作为需二次确认的 debug.exec js 逃生口保留。 - Skill 描述专家工作流和护栏; - Go CLI/daemon 暴露稳定的 typed actions; - EasyEDA 连接器插件 只做到官方 eda. 的桥接; - 产物、截图、DRC 结果、审计日志都是一等输出。 - Skill 或人跑一条 easyeda 命令; - Go CLI 校验输入、把 typed action 提交给本地 daemon; - daemon 跟踪已连接的 EasyEDA 窗口、经 WebSocket 路由每个动作、记录审计日志/产物/校验结果; - 连接器扩展跑在 EasyEDA 内、调用官方 eda. API; - 结构化结果回流到 CLI 和 Skill,下一步基于 真实编辑器状态 来规划。 动作目录已覆盖原理图、PCB、文档导航、板级绑定、产物导出、诊断。完整清单与路线图见 docs/FEATURES.md。 我们不重造轮子,而是把 成熟的一层层能力叠起来 ,让 AI agent 直接可用: - 官方 eda. API —— 嘉立创 EDA 专业版自己暴露的 86 个命名空间,是真
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, ai-agent, claude-code, dsh-plugin, easyeda, eda
+
+---
+
+### 🌟 [pi-book](https://github.com/antinomie-lab/pi-book)
+- **项目语言**: Vue
+- **星标数量**: ⭐ 367
+- **核心概述**: Source-backed architecture notes on building an agent
+- **大概是做什么的**: 一本中文架构书的工作区。对象是 pi 仓库的 packages/agent 。 这本书从代码出发，讲清楚 @earendil-works/pi-agent-core 是怎么搭起来的：它承诺什么、拒绝什么、支点在哪里。全书对应 pi 仓库 main 分支的 commit cd20a8d2e 。代码引用写成 文件:行号 ，每个引用就地附上引文——读者不需要打开编辑器，就能核对书里任何一处论断。 多语言： 中文原稿在 agent/ （唯一内容源头）。英文与西班牙文译本在 agent/en/ 与 agent/es/ 。Web 阅读器右上角可切换语言。 🌐 Web 在线版 books.antinomie.org/pi 沉浸式阅读，代码引文高亮；可切换中 / EN / ES 📥 Markdown 版 agent/ · en · es 下载到本地，配合 AI（Claude / Cursor 等）边读边问、对照源码 你会读 TypeScript，知道 LLM API 的基本概念（messages、tool calls、streaming），不需要事先了解 pi 仓库。 - 第一部分 · 整体 （已发布两章）：建立对整个系统的正确认知，不碰实现细节。读完这部分，你应该能凭记忆把这个系统画出来。 - 第二部分 · 局部 ：逐个部件展开，顺序是依赖顺序——每章只依赖它前面的章。 - 第三部分 · 横切 ：处理那些不属于任何单一部件的问题。 目录只列已发布的章节，后续章节随写随添。 - agent/ —— 书的原稿（中文）， 唯一的内容源头 。译本在 agent/en/ 、 agent/es/ 。可见 agent/README.md 与 agent/TRANSLATION.md。 - web/ —— 阅读器（Vite + Vue）。渲染 agent/ 下的中文原稿与译本，不存放正文内容。 引文规则、三种卡片组件（插叙 / 岔路 / 为什么不去），范围之外，都写在 agent/README.md 的「体例」一节。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-loop, ai-agent, book, chinese, code-reading, llm
+
+---
+
+### 🌟 [wdoc](https://github.com/thiswillbeyourgithub/wdoc)
+- **项目语言**: Python
+- **星标数量**: ⭐ 535
+- **核心概述**: Summarize and query from a lot of heterogeneous documents. Any LLM provider, any filetype, advanced RAG, advanced summaries, scriptable, etc
+- **大概是做什么的**: I'm wdoc. I solve RAG problems. - wdoc, imitating Winston "The Wolf" Wolf wdoc is a powerful RAG (Retrieval-Augmented Generation) system designed to summarize, search, and query documents across various file types. It's particularly useful for handling large volumes of diverse document types, making it ideal for researchers, students, and professionals dealing with extensive information sources. Created by a psychiatry resident who needed a way to get a definitive answer from multiple sources at the same time (audio recordings, video lectures, Anki flashcards, PDFs, EPUBs, etc.). wdoc was born from frustration with existing RAG solutions for querying and summarizing. Note: wdoc was coded mostly by hand, without LLM assistance as they didn't exist at the time, Claude Code will probably be used to refactor the code as it evolves. (The online documentation can be found here) Goal and project specifications : wdoc 's goal is to create perfectly useful summaries and perfectly useful sourced answers to questions on heterogeneous corpus. It's capable of querying tens of thousands of documen
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: langchain, llm, news, parser, pdf, python
+
+---
+
 ## 🕔 2026-08-24 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
