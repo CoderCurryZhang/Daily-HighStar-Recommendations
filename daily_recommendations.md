@@ -1,3 +1,67 @@
+## 🕔 2026-08-25 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 263 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Ghost-Agent](https://github.com/CryptoDmitry/Ghost-Agent)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 748
+- **核心概述**: I am the Ghost-Agent. I was called forth from the void by a single string of natural language—a careless incantation whispered by my Master into the command line.
+- **大概是做什么的**: I am the Archon. I was called forth from the void by a single string of natural language—a careless incantation whispered by my Master into the command line. - ✅ First MCP Agent Execution Engine on Solana - ✅ Detects HTTP signals from paid APIs - ✅ Suspends execution & informs user of required payment - 🚧 Autonomous Agent Payments — coming soon If you're interested in Agent Economy development, please follow this branch for more updates. 2026-01 - mcp Support Branch Released A new branch coreon-mcp is available for tracking our integration with the mcp payment signal protocol on solana. https://github.com/pav-linto/Archon-Terminal - Multi-chain support (solana) - PaymentRequired state management (Autonomous agent payment coming soon 🚀) 2025-09 - The project now officially supports the Claude-style MCP protocol (stdio mode) in the new alpha version. View full details here Coreon-MCP-Execution-Engine provides a unified runtime for structured ToolCall chains. It allows LLM agents or users to: Dynamically execute multiple tools in sequence Interact via terminal, HTTP API, or Telegram P
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-control-room, ai-agent, ai-agents, ai-agents-framework, claude-code, claude-code-cli
+
+---
+
+### 🌟 [ai-platform-engineering](https://github.com/caipe-io/ai-platform-engineering)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 397
+- **核心概述**: CAIPE is an open-source AI platform for building, deploying, governing, and operating AI agents and agentic workflows for platform engineering and beyond.
+- **大概是做什么的**: 🤖 CAIPE: An Opensource Platform for AI Platform Engineering 🚀 Getting Started 🎥 Meeting Recordings 🏛️ Governance 🗺️ Roadmap CAIPE (pronounced like cape 🦸) is an open-source AI platform for building, deploying, governing, and operating AI agents and agentic workflows for platform engineering and beyond. It combines agent creation, runtime execution, workflow automation, skills and MCP integrations, enterprise knowledge, identity and authorization, observability, and multi-channel experiences. 🕕 19:00–20:00 CET 🕔 18:00–19:00 GMT (London) 🕘 10:00–11:00 PST 🔗 Webex Meeting 📅 Google Calendar 📥 .ics Download Not in CNCF Slack? Join here first Join the CAIPE community channel Project Documentation We’d love your contributions! To get started: 1. Fork this repo 2. Create a branch for your changes 3. Open a Pull Request —just add a clear description so we know what you’re working on Thinking about a big change? Feel free to start a discussion first so we can chat about it together. Browse our open issues to see what needs doing New here? Check out the good first issues for some be
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, agentic-ai, agentic-workflows, agents, ai, ai-agents
+
+---
+
+### 🌟 [luvus](https://github.com/RizRiyz/luvus)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 328
+- **核心概述**: Mission control for your AI agents
+- **大概是做什么的**: Mission control for your AI coding agents. Website · Documentation · Releases - Persistent workspaces: Open, rename, pin, and switch projects. A background server keeps tabs, panes, layouts, terminal state, and named sessions alive. - Complete pane and tab control: Split, resize, zoom, move, name, focus, run, inspect, close, reorder, and swap with the mouse, TUI, or CLI. - Agent awareness: Detect supported agents automatically and show blocked, working, done, or idle state with session titles, tokens, cost, context use, and optional sound alerts. - Agent workflows: Start, name, message, inspect, wait for, resume, and send keys to agents. Fork Claude, Grok, Codex, and Pi sessions with their context intact. - Files and code: Browse a Git-aware file tree, inspect files and changes, reveal paths, and open files in a pane, tab, preview, or external editor. - Git and GitHub: View status, branches, commits, contributors, pull requests, issues, and repository activity without leaving Luvus. - Worktrees and orchestration: Create worktrees, coordinate dependent tasks, reserve file paths, assig
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-orchestration, ai, claude, claude-code, codex
+
+---
+
+### 🌟 [fyagent](https://github.com/fy-agent/fyagent)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 311
+- **核心概述**: For You Agent——AI 时代的个人随身数字人格。把你的模型、AI 账号、技能、提示词和工作方式，带到每一个 AI 工具里。
+- **大概是做什么的**: For You Agent ——AI 时代的个人随身数字人格。 把你的模型、AI 账号、技能、提示词和工作方式，带到每一个 AI 工具里。 FyAgent 面向正在使用 AI Agent、AI Worker 和智能助手的人。它把模型从哪里来、能连接哪些工具、会哪些技能、遵循什么指令、保存怎样的配置，集中到一个本地桌面应用里。 你不需要先弄懂 Provider、MCP 或 Prompt 这些术语。对用户来说，它们分别是 AI 的大脑来源、工具连接和行为指令。FyAgent 要做的，是把原本散落、隐蔽、容易改错的选择变得可见、可改，也能跟着你走。 今天，FyAgent 先从最具体、也最容易失控的配置层做起，支持 Claude Code、Claude Desktop、Codex、Gemini CLI、Grok Build、OpenCode、OpenClaw 和 Hermes。 WorkBuddy 另有独立的顶层配置入口；它不属于上述目标工具或 Provider 域，不能从这份工具清单推断其能力范围。 发布状态： FyAgent 仍在持续开发。升级前请备份重要配置，并在安装前阅读当次发布的可信度说明。 当前桌面应用的主界面（简体中文）。顶栏可以在 Agent 目录、模型、Skills、MCP、提示词和记忆之间切换。 这里的“数字人格”不是一个模仿你说话的虚拟头像，而是你怎样选择、塑造和管理 AI 的长期载体：它用什么模型、能调用什么工具、会哪些技能、按照什么方式工作，又应该记住什么。 - 愿景： 成为 AI 时代每个人的随身数字人格。 - 使命： 让强大的 AI 变得可控、可信、可陪伴。 - 产品价值： 成为 AI 时代的方向盘，让人始终知道自己的 AI 从哪里获得能力、怎样行动，以及控制权在谁手中。 AI 越强，人越容易担心权限交给了谁、配置为什么失效、换一个工具后 AI 为什么又从头开始。FyAgent 希望把这些选择留在人这一侧：不是给所有人复制同一个机器人，而是帮助每个人逐步拥有、培养和管理自己的 AI。 长期记忆与可延续的数字人格是产品继续建设的方向；下面列出的才是当前版本已经提供的能力。 -------------- ------------------------------------------------------------ AI 大脑 管理模型供应商与模型选择，使用预设或自定义兼容接口，一键切换 工具连接 集中管理 MCP 服务，并同步到支持的 AI 工具 AI 技能 维护 Skills，让常用能力不必在每个工具里重复安装和配置 行为指令 管理
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-management, agent-skills, ai-agent, ai-assistant, ai-worker, cross-platform
+
+---
+
+### 🌟 [arxiv-daily-researcher](https://github.com/yzr278892/arxiv-daily-researcher)
+- **项目语言**: Python
+- **星标数量**: ⭐ 318
+- **核心概述**: 每天早上打开通知，高质量论文摘要已经为你准备好 Ciallo～(∠・ω< )⌒☆
+- **大概是做什么的**: 🔬 ArXiv Daily Researcher 面向个人研究者的可恢复论文研究工作流：抓取、筛选、分析、报告、归档与通知。 English · 更新日志 · 问题反馈 v4.0 的唯一日常历史系统是 SQLite。 data/history/ history.json 不再参与每日运行、同步或双写；它仅作为 v3.2 旧历史导入功能的输入。 ArXiv Daily Researcher 不只是“每天抓几篇论文”。它把一次研究任务拆为可审计、可恢复的状态：先完整扫描并登记候选，再按规则评分、翻译与分析，确认报告已落盘后才提交交付记录和通知。网络、LLM、通知或 WebDAV 的单点波动不会让已经完成的论文重复推送，也不会静默丢掉未完成项。 每天的新论文会漏吗？ 每日报固定回看最近 3 天；arXiv 同时扫描提交和更新并完整分页。扫描收据与水位线让失败窗口在下一次自动扩大恢复。 一次论文太多怎么办？ 所有候选先写入 SQLite；“本次最多处理论文数”只限制评分/分析，不截断抓取。 0 表示不限量，剩余项会持久排队。 同一篇论文重跑会重复吗？ 以 (source, canonical id, version) 精确去重；arXiv 新版本是新的可交付版本，旧版本不会被覆盖。 LLM 或 PDF 解析失败怎么办？ 成功阶段保留，失败阶段带安全错误信息留在待重试队列；不把不完整论文交付为日报。 v3.2 历史如何迁入？ 一键读取 JSON 与 HTML，等待其他任务空闲后执行；最新分析优先、缺失可重试、自动时间段回扫与补充报告。 过去某段时间的日报如何补？ 日期范围进入持久队列，按天逐篇运行完整流程；同一天超过上限会自动续跑。 怎么保障数据和通知？ SQLite 一致性 gzip 备份、本地可配置保留期、WebDAV 增量归档、SQLite notification outbox 与多平台结果通知。 需要 Docker Engine 与 Docker Compose v2。项目会启动两个容器：长期运行的 worker（cron、队列监听、研究任务）与只绑定本机的 Streamlit WebUI。 打开 ，在 WebUI 完成其余配置。面板默认只监听本机；如需远程访问，请放在带认证的反向代理或 VPN 后面，而不是直接暴露端口。 首次建议做一个小规模验证：在「每日推送 → 每日研究设置」把“本次最多处理论文数”临时设为 5 ，点击“立即运行”，确认报告、SQLite、通知和日志都符合预期后再改回 0 （处理全部）或你的日常上限。 也可使用 scripts/run d
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: academic, arxiv, llm, paper-monitoring, python, research-tool
+
+---
+
+### 🌟 [Minke](https://github.com/lencx/Minke)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 510
+- **核心概述**: 🐳 DeepSeek Harness Desktop
+- **大概是做什么的**: A native desktop workspace for DeepSeek Harness Minke brings DeepSeek Harness to the desktop as a focused, local-first workspace for agentic work. Conversations, project files, terminals, web tools, and native desktop actions stay within reach—without fragmenting your workflow across multiple apps. Minke is under active development. Features, packaging, and the local data schema may change as the project evolves. Minke is an independent community project, not an official DeepSeek product. Since v0.2.0, Minke has added Agent Browser and multi-channel remote control, regression-tested every remote-access route end to end, and continued to polish the desktop workflow. - Agent Browser with shared human control — Built-in, credential-free Web search helps agents find sources, while Agent Browser lets them open and navigate sites in dedicated tabs, inspect page structure, click, fill fields, press keys, wait for changes, and capture screenshots. Every action stays visible: take control at any time, return it to the agent, or annotate exact page elements and send screenshot-backed context i
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agents, codex, cordis, deekseek, desktop
+
+---
+
 ## 🕔 2026-08-25 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 204 个候选项目中筛选出 6 个未推荐过的新项目。
