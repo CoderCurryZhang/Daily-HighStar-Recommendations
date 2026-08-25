@@ -1,3 +1,67 @@
+## 🕔 2026-08-25 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Windows-MCP](https://github.com/CursorTouch/Windows-MCP)
+- **项目语言**: Python
+- **星标数量**: ⭐ 6,813
+- **核心概述**: MCP Server for Computer Use in Windows
+- **大概是做什么的**: Windows-MCP is a lightweight, open-source project that enables seamless integration between AI agents and the Windows operating system. Acting as an MCP server bridges the gap between LLMs and the Windows operating system, allowing agents to perform tasks such as file navigation, application control, UI interaction, QA testing, and more. mcp-name: io.github.CursorTouch/Windows-MCP - Windows-MCP reached 2M+ Users in Claude Desktop Extensiosn. - Try out 🪟Windows-Use, an agent built using Windows-MCP. - Windows-MCP is now available on PyPI (thus supports uvx windows-mcp ) - Windows-MCP is added to MCP Registry Supported Operating Systems - Seamless Windows Integration Interacts natively with Windows UI elements, opens apps, controls windows, simulates user input, and more. - Use Any LLM (Vision Optional) Unlike many automation tools, Windows-MCP doesn't rely on any traditional computer vision techniques or specific fine-tuned models; it works with any LLMs, reducing complexity and setup time. - Rich Toolset for UI Automation Includes tools for basic keyboard, mouse operation and captur
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, desktop, mcp, tools, windows, windows-automation
+
+---
+
+### 🌟 [huashu-skills](https://github.com/alchaincyf/huashu-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,390
+- **核心概述**: 花叔全部开源 Agent Skills 总目录：16 旗舰 + 14 人物视角 + 22 内置共 52 个 skill，分层分类 + AI Agent 安装协议 + 机器可读 skills.json + 更新检查机制
+- **大概是做什么的**: huashu-skills · 花叔开源Skills总目录 动画由 huashu-design skill制作 这里是花叔在GitHub上全部开源Skill的总目录，共52个，分三层收录。全部是标准Agent Skills格式（ SKILL.md ），Claude Code / Codex / Kimi Code等支持该格式的agent通用。 花叔 AI Native Coder · 独立开发者 · 全网50万+读者 代表作：小猫补光灯（App Store付费榜Top1）·《一本书玩转DeepSeek》· 女娲Skill生态 CCTV《焦点访谈》报道的「手搓经济」代表人物 - 人物视角Skills（14个独立仓库） 最省事的方式：把这句话发给你的AI agent—— 读 https://github.com/alchaincyf/huashu-skills 的README和skills.json，帮我安装（某个skill / 按我的需求推荐） 自己动手也只要一条命令（独立仓库skill）： 装完重启agent会话即生效。其余安装方式见安装指南。 旗舰Skills 16 各自深耕一个领域的完整系统，独立仓库 git clone一条命令 人物视角Skills 14 女娲蒸馏的人物思维操作系统，独立仓库 git clone一条命令 内置Skills 22 轻量内容创作技能+更新检查工具，就在本仓库 复制子目录 机器可读版目录在 skills.json ，AI agent优先读它。 高保真原型 / 幻灯片 / 动画 / 「做个好看的页面」 huashu-design AI生图的prompt（封面 / 海报 / 信息图） huashu-gpt-image 数据分析、Excel清洗对账、让数字经得起追问 huashu-excel 任意文件（PDF/DOCX/EPUB/网页）转Markdown，md出精美HTML / DOCX huashu-md-html Markdown转专业PDF白皮书 内置huashu-md-to-pdf AI视频生成（白模驱动，画面可控） seedance-skill 给文章去AI味 tramstop-skill（重装备）或内置huashu-proofreading（轻量） 公众号文章分发到X Articles / B站专栏 dukou 把某个人的思维方式蒸馏成skill nuwa-skill 优化、进化一个已有的skill darwin-skill 诊断prompt / skill为什么不好使 freud-skill 学习怎么写skill skil
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude, claude-code, skills
+
+---
+
+### 🌟 [storybloq](https://github.com/Storybloq/storybloq)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 695
+- **核心概述**: Cross-session context for Claude Code. CLI + MCP server + /story skill that tracks tickets, issues, handovers, and roadmap in a .story/ directory.
+- **大概是做什么的**: Cross-session context persistence for AI coding. A file convention, a CLI, an MCP server, and Claude Code/Codex skills that together turn every coding session into a building block instead of a reset. AI coding assistants are stateless. Every new session starts from zero. The model doesn't know what was built yesterday, what's broken, what decisions were made, or what to work on next. Developers compensate with CLAUDE.md files and scattered notes, but there's no standard structure, no session continuity, and no tooling. The real cost isn't wasted setup time. It's repeated mistakes, relitigated design decisions, hallucinated context, and linear instead of compounding work. Every project gets a .story/ directory of JSON and markdown files. Tickets, issues, roadmap phases, session handovers, and lessons learned all live there, tracked by git, readable by any AI. - CLI: storybloq - inspect and mutate .story/ from the terminal. - MCP server: structured tools Claude Code and Codex can call directly, with five additional tools when the local Bus is enabled. No subprocess spawning. - Skill:
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-development, ai-development, anthropic, claude-code, claude-skill, cli
+
+---
+
+### 🌟 [yomo](https://github.com/yomorun/yomo)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,920
+- **核心概述**: 🦖 Serverless AI Agent Framework with Geo-distributed Edge AI Infra.
+- **大概是做什么的**: YoMo is an open-source LLM Function Calling Framework for building scalable and ultra-fast AI Agents. 💚 We care about: Empowering Exceptional Customer Experiences in the Age of AI We believe that seamless and responsive AI interactions are key to delivering outstanding customer experiences. YoMo is built with this principle at its core, focusing on speed, reliability, and scalability. -- ------------ -- ⚡️ Serverless LLM Tools Deploy and Manage LLM Tools / Skills seamlessly. 🔐 Enhanced Security TLS v1.3 encryption is applied to every data packet by design, ensuring robust security for your AI agent communications. 📸 Effortless Agents DevOps Streamline the entire lifecycle of your LLM tools, from development to deployment. Significantly reduces operational overhead, allowing you to focus exclusively on creating innovative AI agent functionalities. 🌎 Geo-Distributed Architecture Bring AI inference and tools closer to your users with our globally distributed architecture, resulting in significantly faster response times and a superior user experience for your AI agents. Let's build
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a-protocol, agent-framework, claude-code, distributed-cloud, function-calling, geodistributedsystems
+
+---
+
+### 🌟 [wassette](https://github.com/microsoft/wassette)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 936
+- **核心概述**: Wassette: A security-oriented runtime that runs WebAssembly Components via MCP
+- **大概是做什么的**: A security-oriented runtime that runs WebAssembly Components via MCP [Quick Start] [FAQ] [Documentation] [Releases] [Contributing] [Discord] Early Development : This repository is not production ready yet. It is in early development and may change significantly. - Convenience : Wassette makes it easy to extend AI agents with new tools, all without ever having to leave the chat window. - Reusability : Wasm Components are generic and reusable; there is nothing MCP-specific about them. - Security : Wassette is built on the Wasmtime security sandbox, providing browser-grade isolation of tools. Quick start: For Linux/macOS, use our one-liner install script: For complete installation instructions for all platforms (including Windows, Homebrew, Nix, Docker, and more), see our Installation Guide . With Wassette installed, the next step is to register it with your agent of choice. See our [Quick Start] guide (3 simple steps), or check the MCP Clients guide for detailed setup instructions for GitHub Copilot, Copilot CLI, Claude Code, and Codex CLI. Once configured, you can start loading WebAss
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: capabilities, mcp, mcp-server, oci, oci-artifacts, permissions
+
+---
+
+### 🌟 [doop](https://github.com/kgoedecke/doop)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 322
+- **核心概述**: The open-source alternative to Paper.design. A multiplayer design canvas where humans and AI agents design together, live. MCP built in.
+- **大概是做什么的**: Doop is the open-source alternative to Paper.design — a multiplayer design canvas for humans and AI agents. Every design lives on a shareable Canvas ( /c/ ) holding Frames — artboards that render real HTML in sandboxed iframes. People edit in the browser; AI agents edit through the built-in MCP server , streaming their designs in live. Everyone sees everything as it happens: cursors, presence, frame edits, agent status, and an - Design with agents, not prompts-and-refresh — connect Claude Code (or any MCP client) once, then watch it sketch, stream and self-review designs on your canvas, next to your cursor. - A built-in Doop Agent — queue a card or @mention a role and it designs on its own, no client to connect. Needs an ANTHROPIC API KEY (setup); the first-canvas welcome performance is scripted and runs without one. - True multiplayer — live cursors, presence, per-frame editing indicators, undo/redo, comments pinned to elements, and an activity feed, all over one WebSocket room. - Design memory — pin exemplar frames, capture decisions, and let the distiller propose durable style rul
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, canvas, claude, claude-code, claude-design, design
+
+---
+
 ## 🕔 2026-08-24 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 259 个候选项目中筛选出 6 个未推荐过的新项目。
