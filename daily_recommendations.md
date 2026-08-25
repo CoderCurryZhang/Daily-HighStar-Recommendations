@@ -1,3 +1,67 @@
+## 🕔 2026-08-25 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 285 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agent-skill-creator](https://github.com/FrancyJGLisboa/agent-skill-creator)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,327
+- **核心概述**: Build tested agent skills and govern their lifecycle through a user-defined marketplace: evidence, discovery, updates, rollback, quarantine, and 17-platform distribution.
+- **大概是做什么的**: Governed team marketplace · GitLab team registry · Agent Skill Creator turns human expertise into tested, installable agent skills and provides the operating system for managing those skills through a user-defined Give it a sentence, spreadsheet, PDF, link, screenshot, transcript, or half-working script. It reconstructs the judgment behind the work: the important question, when to ask it, which decision the answer supports, what evidence makes the answer credible, and how success will be measured. It then builds the skill, evaluates it, installs it, and safely tries it on representative input. For teams, the same system governs the complete lifecycle: The result is more than a collection of prompts. It is a maintained map of which questions an organization knows how to answer, which decisions it can support, and whether those capabilities still work. User What they need What this provides Workflow experts Preserve the judgment hidden inside recurring work A skill built from existing artifacts, not a blank specification form AI platform teams Move from isolated prompts to supported ca
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude-code, codex, cursor, developer-tools
+
+---
+
+### 🌟 [libredesk](https://github.com/abhinavxd/libredesk)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,806
+- **核心概述**: Open-source, self-hosted customer support desk in a single binary. Email and live chat. A lightweight alternative to Intercom, Zendesk, Chatwoot.
+- **大概是做什么的**: Modern, open source, self-hosted omnichannel customer support desk. Live chat, email, and more in a single binary. Visit libredesk.io for more info. Check out the live demo . - Omnichannel inbox Live chat and email in one inbox. Every conversation lands in the same place, whichever channel it came from. - Live chat widget Embed a real-time chat widget on your website. Replies go out from the same inbox your team already works in. Publish a searchable knowledge base with collections, articles in multiple languages, and customize it however you want. Answer live chat conversations automatically with an AI assistant grounded in your knowledge base. Hands off to a human when it can't help. Draft replies, summarize conversations, and look up answers from the knowledge base without leaving the inbox. Rules that run on conversation events. Tag, assign, and route conversations based on conditions you define. - Granular permissions Role-based access control. Create custom roles with per-action permissions for teams and individual agents. - CSAT & analytics Send CSAT surveys automatically afte
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, chat-widget, customer-service, customer-success, customer-support, customer-support-automation
+
+---
+
+### 🌟 [omnigraph](https://github.com/ModernRelay/omnigraph)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,080
+- **核心概述**: Lakehouse native graph engine with git-style workflows
+- **大概是做什么的**: Lakehouse graph database for context assembly &amp; multi-agent coordination Multimodal retrieval · Git-style branching · object-storage native Quickstart &nbsp;·&nbsp; Cookbooks &nbsp;·&nbsp; Omnigraph is the operational state and coordination layer for fleets of agents.\ Run it as a server, declared as code; hundreds of agents operate and enrich the graph on parallel isolated branches, and every change is reviewed and merged safely. Join the Omnigraph Slack community to ask questions, share feedback, and follow development. Capability What it gives you Declared as code A cluster.yaml declares graphs, schemas, stored queries, embedding providers, and policies; cluster apply converges it and omnigraph-server brings every graph online at /graphs/{id}/… . Built for fleets of agents Hundreds of agents enrich the graph on parallel isolated branches ; changes are reviewed and merged safely, Git-style, across the whole graph. Multimodal retrieval Graph traversal + vector ANN + full-text + Reciprocal Rank Fusion in one query runtime, for context assembly. Security as code Cedar policy enfor
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: apache-arrow, context-graph, datafusion, graph-database, knowledge-graph, lakehouse
+
+---
+
+### 🌟 [bank-api](https://github.com/erwinkramer/bank-api)
+- **项目语言**: C#
+- **星标数量**: ⭐ 843
+- **核心概述**: The Bank API is a design reference project suitable to bootstrap development for a compliant and modern API.
+- **大概是做什么的**: The Bank API is a design reference project suitable to bootstrap development for a compliant and modern API. See the 🔗 APIs.json (v0.21) compliant documentation. Explore the live 🌐 API with sidecars and 🌐 MCP server (both hosted on Azure Container Apps). ✅ OWASP API Security Top 10 - v2023 via Spectral OWASP API Security ruleset ✅ OpenAPI Specification v3.2.0 via Spectral "oas" ruleset ✅ NLGov (Dutch Public Sector) REST API Design Rules 2.2.1 via API Design Rules ruleset ✅ Additional naming conventions, structure, and clarity via Bank API project ruleset ✅ California Consumer Privacy Act (CCPA) and General Data Protection Regulation (GDPR) via ASP.Net Core Compliance ✅ RFC 7515 - JSON Web Signature (JWS) for response signing, via X-JWS-Signature header ✅ RFC 7517 - JSON Web Key Set (JWKs) for validating JWS responses, via /.well-known/jwks.json endpoint EDA (Event-driven architecture) with outbox-pattern ✅ OpenAPI Specification v3.2.0 - webhook field ✅ CloudEvents - Version 1.0.2 for defining the format of event data ✅ CloudEvents - Version 1.0.2 - HTTP Protocol Binding for HTTP t
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: api, architecture, asp-net-core, aspnet-core, dotnet, gridify
+
+---
+
+### 🌟 [mcp](https://github.com/mondaycom/mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 420
+- **核心概述**: Enable AI agents to work reliably - giving them secure access to structured data, tools to take action, and the context needed to make smart decisions.
+- **大概是做什么的**: Enable AI agents to operate reliably within real workflows. This MCP is monday.com's open framework for connecting agents into your work OS - giving them secure access to structured data, tools to take action, and the context needed to make smart decisions. This repository, maintained by the monday.com AI team, provides a comprehensive set of tools for AI agent developers who want to integrate with monday.com. Whether you're building AI assistants, automations, or custom integrations, our tools make it easy to connect to the monday.com platform. 👉 New to monday MCP? Start here: monday.com/w/mcp 🔑 What is monday.com? monday.com is a work operating system that powers teams to run processes, projects, and everyday work. Teams use monday.com to plan, track, and manage their work in one centralized platform. It provides a visual, intuitive interface where teams can: - Create and manage projects with customizable boards - Track tasks through different stages with status columns - Collaborate with team members through updates and mentions - Automate workflows and integrate with other tool
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, copilot, mcp, mcp-server, monday
+
+---
+
+### 🌟 [Konnect](https://github.com/mixelpixx/Konnect)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 331
+- **核心概述**: AI-assisted PCB design for KiCAD 10. Native KiCAD plugin — a single Rust binary exposing 171 schematic, layout, routing, design-review, and manufacturing tools to Claude, or the LLM of your choosing
+- **大概是做什么的**: Konnect BETA Release AI-assisted PCB design for KiCAD 10. Konnect is a native KiCAD plugin — a single Rust binary — that lets Claude and other AI assistants design schematics and PCBs through the Model Context Protocol (MCP). 206 tools across 19 on-demand toolsets. Schematic capture, PCB layout and routing, ERC/DRC, design-review audits, JLCPCB part search, reference circuits, and a full manufacturing export pipeline — with bundled skills and agents that teach Claude KiCAD conventions out of the box. Status: beta. The core toolchain is tested and working, but this is a young release and it wants real-world mileage and review. Issues and PRs are welcome — see CONTRIBUTING.md and the Add realtime research to KiCAD MCP and Konnect. Introducing Nimrod Nimrod is our web-research MCP server: quality-scored Google search, clean webpage extraction, and deep multi-source research. Design the board with Konnect while Nimrod pulls live parts availability, datasheets, and errata — no more guessing from year-old training data - Works with claude.ai, Claude Desktop, Claude Code, VS Code, and any M
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, claude, kicad-pcb, kicad-schematics, llm, mcp-server
+
+---
+
 ## 🕔 2026-08-25 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 263 个候选项目中筛选出 6 个未推荐过的新项目。
