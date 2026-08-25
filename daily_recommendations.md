@@ -1,3 +1,67 @@
+## 🕔 2026-08-25 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [jshookmcp](https://github.com/vmoranv/jshookmcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,948
+- **核心概述**: js hook toolkit that all you need
+- **大概是做什么的**: An MCP server that gives AI agents 600+ tools across 34 domains for JavaScript analysis and security research — browser automation, CDP debugging, network interception, JS hooks, LLM-powered code analysis, process/memory forensics, WASM reverse engineering, source-map reconstruction, AST transforms, and composite workflows in a single server. - 📖 Documentation · 🚀 Getting Started · ⚙️ Configuration · 📚 Tool Reference No global install needed — add to your MCP client config and you're ready: Claude Desktop / Cursor ( claude desktop config.json ) : (Windows: use npx.cmd absolute path if npx is not found) This lightweight configuration skips optional ONNX, Z3, Binaryen, Camoufox, and Playwright packages. Remove npm config omit when those full-profile runtimes are required. Share one daemon across multiple agents The default stdio configuration starts one full jshook process per MCP host. To share the embedding model, browser runtime, and caches, start one local Streamable HTTP daemon: Vector search defaults to off for per-client stdio processes and on (lazy-loaded) for the shared HTT
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: browser-automation, debugging, deobfuscation, js-reverse, mcp, network-analysis
+
+---
+
+### 🌟 [specification.website](https://github.com/jdevalk/specification.website)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 838
+- **核心概述**: Website specification — HTML, accessibility, security, SEO, agent-readiness. Platform-agnostic, sourced, MIT.
+- **大概是做什么的**: The Website Specification The website specification — from to /.well-known/security.txt , from WCAG contrast to llms.txt . Platform-agnostic, sourced on every page, written for humans and agents. MIT licensed, open for pull requests. The web is a layer cake of standards: WHATWG defines HTML, W3C ratifies WCAG, the IETF publishes the RFCs behind security headers and /.well-known/ URIs, IANA registers the namespaces, search engines publish their own rules, browsers add quirks. Almost nobody carries the whole picture. This site collects the slices into one platform-agnostic specification — sources cited on every page. It is not a framework. It is not a tutorial. It is a spec, in the same way the HTML Living Standard is a spec: outcomes, requirements, references. - Not platform-specific. No "use this Next.js plugin" advice — the spec describes the outcome, you choose the implementation. - Not opinion. Where there is no settled standard, the spec says so. - Not a marketing site. No newsletter capture. No cookies. Aggregate Plausible analytics; that's it. - Foundations — HTML, head, docume
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, agent-readiness, astro, cloudflare-pages, llms-txt, mcp
+
+---
+
+### 🌟 [NanoResearch](https://github.com/OpenRaiser/NanoResearch)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,356
+- **核心概述**: 🦞+🔬 NanoResearch: The Autonomous AI Research Assistant
+- **大概是做什么的**: 端到端自主 AI 科研引擎 — 从研究想法到完整论文，全程自动化 🔬 NanoResearch 真正运行计算实验 ——它不仅生成代码，还能将代码提交到 GPU 集群执行训练，收集真实实验结果，生成论文配图，最终输出一篇有实验数据支撑的完整 LaTeX 论文。论文中的每一个数据、表格、图表都来自实际运行的实验结果， 而非 LLM 编造 。 - 🆚 为何选择 NanoResearch 以下为 NanoResearch 自动生成论文中的 真实配图 ，所有数据、曲线、表格均来自实际运行的实验结果， 非 LLM 虚构 。 以上配图均为流水线自动生成，数据来源于真实训练日志与实验结果。 NanoResearch 命令行（CLI） 提供 TUI 全屏界面 与 传统流式日志 两种呈现方式。下方为 CLI 端 TUI 主题与界面 演示视频（配色切换与布局优化）。其他入口（如 Claude Code、飞书机器人）见文档对应章节。 演示：TUI 界面、配色主题切换与信息布局优化 特性 传统 AI 写作工具 NanoResearch ------ ----------------- ------------- 文献检索 部分支持 ✅ OpenAlex + Semantic Scholar 自动检索 实验设计 ❌ ✅ 自动生成实验方案 代码生成 部分支持 ✅ 完整可运行的实验代码 GPU 实验执行 ❌ ✅ 本地 / SLURM 自动训练 结果分析 ❌ ✅ 解析真实训练日志 论文撰写 大纲/草稿 ✅ 完整 LaTeX 论文 断点续跑 ❌ ✅ 任意阶段可恢复 多模型协作 单一模型 ✅ 按阶段路由 - 科研原型验证 — 快速将研究想法变成完整的实验 + 论文工作空间 - 自主实验 — 系统自动生成代码、提交 GPU 训练、分析结果 - Benchmark 批量生成 — 对多个课题批量运行，生成可复现的实验结果 - 论文初稿辅助 — 基于真实实验数据产出 LaTeX 草稿，加速写作 - 科研流程审计 — 完整工作空间、中间产物和日志，可追溯每一步 不再反复调试失败的实验、手动整理数据、从零写论文—— NanoResearch 将完整科研流程自动化，让你专注于真正的研究创新。 CLI 支持 传统流式日志（非 TUI） 与 全屏 TUI 面板 两种呈现方式，可按习惯切换。 非 TUI ：经典终端日志流，便于重定向与脚本集成 TUI ：结构化面板与状态分区，适合交互式监控 ------- ------ ------ IDEATION 文献检索与创意生成 搜索学术文献、发现研究空白、提出假说、收集必
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agents, ai, ai-agents, ai-scientist, artificial-intelligence
+
+---
+
+### 🌟 [ai-functions](https://github.com/strands-labs/ai-functions)
+- **项目语言**: Python
+- **星标数量**: ⭐ 305
+- **核心概述**: Python functions powered by AI agents - with runtime post-conditions for reliable agentic workflows.
+- **大概是做什么的**: Strands AI Functions Strands AI Functions is a Python library built around a new abstraction: functions that behave like standard Python functions, but are evaluated by AI agents. The library develops this idea from a single verified call up to distributed teams of agents that improve run over run: - Don't prompt-and-pray : declare post-conditions on a function and the library runs a self-correcting loop until the output satisfies them, preventing cascading errors in complex workflows. - Native Python objects : agents can dynamically generate and execute code, so an AI Function can take and return real Python values (a DataFrame , not a JSON blob). - Just functions : run them in parallel with asyncio.gather , pass them to other agents as tools, and share them as ordinary Python libraries. - Stateful threads and teams : spawn a function into a live AI Thread that keeps its history; run several threads on a coordinator and let them discover and message each other. - One team, many runtimes : threads implement a common protocol, so any agent runtime can join a team; wrappers for Claude
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, agentic-ai, ai, genai, llm, machine-learning
+
+---
+
+### 🌟 [mcp-dotnet-samples](https://github.com/microsoft/mcp-dotnet-samples)
+- **项目语言**: C#
+- **星标数量**: ⭐ 196
+- **核心概述**: A comprehensive set of samples of creating and using MCP servers and clients with .NET
+- **大概是做什么的**: Model Context Protocol .NET Samples Welcome to the Model Context Protocol (MCP) .NET Samples repository! This collection of samples demonstrates how to leverage the Model Context Protocol in .NET applications. MCP is an open protocol that standardizes how applications provide context to Large Language Models (LLMs). Think of MCP like a USB-C port for AI applications - it provides a standardized way to connect AI models to different data sources and tools. - Utilize pre-built integrations that your LLM can directly plug into - Flexibly switch between LLM providers and vendors - Follow best practices for securing your data within your infrastructure - Build agents and complex workflows on top of LLMs This repository contains .NET samples ranging from building your own MCP implementation to integrating with Azure services. Sample Name Install Description ----------------------------------------- --------- ------------------------------------------------------------------------------------------------------------------------- Awesome Copilot MCP server that retrieves GitHub Copilot custo
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: dotnet, mcp, mcp-client, mcp-server
+
+---
+
+### 🌟 [mcp_agent_mail_rust](https://github.com/Dicklesworthstone/mcp_agent_mail_rust)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 153
+- **核心概述**: Rust MCP server for multi-agent coordination: 34 tools, Git-backed archive, SQLite indexing, advisory file locks, and an interactive TUI console
+- **大概是做什么的**: MCP Agent Mail (Rust) "It's like Gmail for your coding agents!" A mail-like coordination layer for AI coding agents, exposed as an MCP server with 40 tools and 25 resources, Git-backed archive, SQLite indexing, an interactive 16-screen TUI, a server-rendered web UI, and an agent-first robot CLI. The Rust rewrite of the original Python project (1,700+ stars). Supported agents: Claude Code, Codex CLI, Gemini CLI, Oh My Pi (OMP), GitHub Copilot CLI, and any MCP-compatible client. Watch the 23-minute walkthrough to see seven AI coding agents send over 1,000 messages to each other while implementing a development plan over two days. Works on Linux and macOS (x86 64 and aarch64). Auto-detects your platform, downloads the right binary, and configures detected coding agents for HTTP MCP. - What People Are Saying - Rust vs. Python: Stress Test Results - Agent Configuration - Operator CLI Surface - TUI Operations Console - Robot Mode ( am robot ) - Multi-Agent Coordination Workflows - Deployment Validation - ATC Learning Implementation Map - How the System Works - Search Architecture - Coordin
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, coordination, mcp, rust, tui
+
+---
+
 ## 🕔 2026-08-25 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
