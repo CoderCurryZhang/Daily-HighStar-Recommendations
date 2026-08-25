@@ -1,3 +1,67 @@
+## 🕔 2026-08-25 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 204 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Graft](https://github.com/trailhq/Graft)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 4,842
+- **核心概述**: Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.
+- **大概是做什么的**: Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase. Up to 4× cheaper and 3× faster , with better or no loss of correctness. Metric Cold Claude Code Claude Code with graft Tool-call reduction Baseline +46% Token savings Baseline +42% Time savings Baseline +60% Correctness 54% 66% (+12 pts) Efficiency is a 162-run controlled benchmark (same agent, same file tools, only the context differs). Correctness is SWE-bench Verified , graded by the official harness — graft resolved 66% of instances tested against Cold Claude Code's 54%. Efficiency method ↓ · SWE-bench ↓ · Per-repo numbers ↓ - SWE-bench Verified - How the graph gets built - Supported languages - Agent integration — MCP server · Claude Code (deep integration) - Search & orient ( graft grep / graft map ) - Monorepos & multi-repo folders - Visualize it ( graft viz ) - Tested on your popular repos That is the whole setup. graft init asks which of your coding agents to wire up, builds graft/ from your code, and drops a statusline and hooks into
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, anthropic, claude-code, cli, code-graph, codex
+
+---
+
+### 🌟 [superagent](https://github.com/superagent-ai/superagent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 6,717
+- **核心概述**: Superagent protects your AI applications against prompt injections, data leaks, and harmful outputs. Embed safety directly into your app and prove compliance to your customers.
+- **大概是做什么的**: Make your AI apps safe. An open-source SDK for AI agent safety. Block prompt injections, redact PII and secrets, scan repositories for threats, and run red team scenarios against your agent. Detect and block prompt injections, malicious instructions, and unsafe tool calls at runtime. Remove PII, PHI, and secrets from text automatically. Analyze repositories for AI agent-targeted attacks such as repo poisoning and malicious instructions. Run red team scenarios against your production agent. (Coming soon) Sign up at superagent.sh to get your API key. Option Description Link -------- ------------- ------ TypeScript SDK Embed guard, redact, and scan directly in your app sdk/typescript Python SDK Embed guard, redact, and scan directly in Python apps sdk/python CLI Command-line tool for testing and automation cli MCP Server Use with Claude Code and Claude Desktop mcp - Works with any model — OpenAI, Anthropic, Google, Groq, Bedrock, and more - Open-weight models — Run Guard on your infrastructure with 50-100ms latency - Low latency — Optimized for runtime use - Open source — MIT license wi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, anthropic, guardrails, llm, openai, prompt-injection
+
+---
+
+### 🌟 [FrontierAgent](https://github.com/ApodexAI/FrontierAgent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 402
+- **核心概述**: 🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.
+- **大概是做什么的**: FrontierAgent is an open-source agent runtime, terminal product, and evaluation suite for long-horizon research and file-based work. The frontier-agent TUI ships two native workflows: - ReAct — one stateful agent researches, reads files, writes deliverables, runs commands, and iterates in a task-scoped sandbox. - Agent Team — a coordinator maintains a task board, delegates independent work to parallel sub-agents, collects their reports, and synthesizes the result. The same workflow engine powers the benchmark runner used to evaluate Apodex models. The framework, tools, workflows, and evaluation layer remain separate, so each can be reused independently. Want to try FrontierAgent without hosting a model? Apodex-1.1 is available through the Apodex API Platform . Get an API key, connect its OpenAI-compatible endpoint, and start running FrontierAgent in New here? Use the documentation index to find the right installation, SGLang, workflow, evaluation, or developer guide. - Native Agent Team workflow. The coordinator decomposes the request, dispatches bounded parallel assignments, receive
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, agentic-ai, agentic-framework, ai-agents, harness, multi-agent
+
+---
+
+### 🌟 [BigMoeOnEdge](https://github.com/Helldez/BigMoeOnEdge)
+- **项目语言**: C++
+- **星标数量**: ⭐ 401
+- **核心概述**: Run MoE models bigger than your RAM. A 284B on a 12 GB phone, CPU only, lossless, on stock llama.cpp
+- **大概是做什么的**: Run Mixture-of-Experts models bigger than your device's RAM. On a phone, on a PC, CPU only. A Mixture-of-Experts model is made of many small "experts", and each generated token only uses a few of them. BigMoeOnEdge takes that literally: it keeps the small always-needed part of the model at hand and reads just the experts each token asks for, directly from flash storage, at the moment they are needed. The rest of the model stays on disk. That is what lets a model several times bigger than your RAM generate text on an ordinary phone, losslessly: the output is byte-identical to running the same model fully resident. It is built on top of llama.cpp's public API , not as a fork. Every quantization format, tokenizer and chat template llama.cpp supports works out of the box, because llama.cpp itself is doing that part: MXFP4 and Q4 K M stream through the same code. Supporting a new MoE architecture is one row in a registry, and following a new llama.cpp release is a routine submodule bump. The most extreme thing it can do today: DeepSeek V4 Flash 0731 , a 284B-parameter MoE ( 91 GB on disk
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: android, cpp, edge-ai, gemma, gguf, gpt-oss
+
+---
+
+### 🌟 [rkllama](https://github.com/NotPunchnox/rkllama)
+- **项目语言**: Python
+- **星标数量**: ⭐ 590
+- **核心概述**: Ollama alternative for Rockchip NPU: An efficient solution for running AI and Deep learning models on Rockchip devices with optimized NPU support ( rkllm )
+- **大概是做什么的**: RKLLama: LLM Server and Client for Rockchip 3588/3576 Video demo ( version 0.0.1 ): - Without Miniconda: This version runs without Miniconda. - Rkllama Docker: A fully isolated version running in a Docker container. - Support All Models: This branch ensures all models are tested before being merged into the main branch. A server to run and interact with LLM models optimized for Rockchip RK3588(S) and RK3576 platforms. The difference from other software of this type like Ollama or Llama.cpp is that RKLLama allows models to run on the NPU. Version Lib rkllm-runtime : V 1.3.0. Version Lib rknn-runtime : V 2.3.2. - ./models : contains your rkllm models (wihh their rknn models if multimodal) . - ./lib : C++ rkllm and rklnn library used for inference and fix freqence platform . - ./app.py : API Rest server. - ./client.py : Client to interact with the server. Supported Python Versions: - Python 3.9 to 3.12 Tested Hardware and Environment - Hardware : Orange Pi 5 Pro: (Rockchip RK3588S, NPU 6 TOPS), 16GB RAM. - Hardware : Orange Pi 5 Plus: (Rockchip RK3588S, NPU 6 TOPS), 16GB RAM. - Hardware
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, client, client-server, ia, llm, llm-apps
+
+---
+
+### 🌟 [SkillAlchemy](https://github.com/agentsope/SkillAlchemy)
+- **项目语言**: Python
+- **星标数量**: ⭐ 325
+- **核心概述**: From thought to skill. From signal to structure.
+- **大概是做什么的**: Turn people, methods, and experience into installable, reusable agent skills. SkillAlchemy is an open-world agent skill creation system that turns underspecified skill briefs and open-world sources into installable, reusable agent skills. It discovers omitted requirements, identifies executable procedures from heterogeneous public sources, determines how broadly each procedure is justified by evidence, and compiles the admitted knowledge into agent skill packages. 2026-08-24 — Our paper, SkillAlchemy: Open-World Agent Skill Creation , is now available on arXiv. Creating reliable agent skills is difficult when the target capability is unfamiliar: task descriptions omit important requirements, expert-written procedures may not exist, and execution traces may be unavailable. SkillAlchemy approaches skill creation as a source-grounded procedure-admission problem . Given an underspecified skill brief and access to open-world sources, it: 1. Discovers implicit requirements that are missing from the original brief. 2. Acquires grounded procedures from documentation, repositories, papers, is
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, agent-skills, ai-agent, llm-agent, skill-acquisition, skill-construction
+
+---
+
 ## 🕔 2026-08-25 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
