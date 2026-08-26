@@ -1,3 +1,67 @@
+## 🕔 2026-08-26 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 225 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [MindOS](https://github.com/GeminiLight/MindOS)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 660
+- **核心概述**: MindOS is a Human-AI Collaborative Mind System, where human thinks and agents act. Globally sync your mind for all agents: transparent, controllable, and evolving symbiotically.
+- **大概是做什么的**: Human Thinks Here, Agents Act There. MindOS is a local-first knowledge base for sharing durable context between you and the AI agents you use. Think in one place. Let agents work from shared context. Home — Knowledge base overview AI Agent — Proactively understand intent and execute tasks from your knowledge Agents — Manage all connected AI agents Echo — Reflect and distill cognitive growth ⭐ Agent-assisted install: Send this to your Agent (Claude Code, Cursor, etc.) to set up MindOS, MCP, and Skills: ✨ Try it now: After installation, give these a try: MindOS is now organized around a few stable product modules instead of one-off setup scripts: Module What is live Local Knowledge Workbench A desktop/web/CLI workspace for browsing, editing, importing, searching, and organizing a local Markdown knowledge base. MCP + Skills Bridge One command installs or repairs both MCP config and the packaged MindOS Skill, then mindos doctor agents verifies real agent readiness. Native Agent Runtime Run agents with resumable sessions, cancellation, reconnect/reattach support, and reviewable output his
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, context, knowledge-base, mcp, memory, skill
+
+---
+
+### 🌟 [spring-ai-agent-utils](https://github.com/spring-ai-community/spring-ai-agent-utils)
+- **项目语言**: Java
+- **星标数量**: ⭐ 604
+- **核心概述**: A Spring AI library that brings Claude Code-inspired tools and agent skills to your AI applications.
+- **大概是做什么的**: Spring AI Agent Utils A Spring AI library that brings Claude Code-inspired tools and agent skills to your AI applications. Spring AI Agent Utils reimplements core Claude Code capabilities as Spring AI tools, enabling sophisticated agentic workflows with file operations, shell execution, web access, task management, and extensible agent skills. This project demonstrates how to reverse-engineer and reimplement Claude Code's powerful features within the Spring AI ecosystem, making them available to Java developers building AI agents. These are the agent tools needed to implement any agentic behavior - AgentEnvironment - Dynamic agent context utility that provides runtime environment information and git repository status to system prompts - FileSystemTools - Read, write, and edit files with precise control - ShellTools - Execute shell commands with timeout control, background process management, and regex output filtering - GrepTool - Pure Java grep implementation for code search with regex, glob filtering, and multiple output modes - GlobTool - Fast file pattern matching tool for findin
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-patterns, ai-agents, ai-context-management, ai-tools, spring-ai
+
+---
+
+### 🌟 [memoria](https://github.com/matrixorigin/memoria)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 590
+- **核心概述**: Secure memory management for AI Agents • Ensures data integrity • Reduces hallucinations • Maintains consistent long-term context
+- **大概是做什么的**: The World's First Git for AI Agent Memory Snapshot · Branch · Merge · Rollback — for memory, not code. Git made code safe to change. Memoria makes memory safe to change. Quick Start · Why Memoria · Research · See It in Action · API Reference · Architecture · Development · Citation Memoria is a persistent memory layer for AI agents with Git-level version control. Every memory change is tracked, auditable, and reversible — snapshots, branches, merges, and time-travel rollback, all powered by MatrixOne's native Copy-on-Write engine. Zero-copy branching, instant snapshots, point-in-time rollback — version control for every memory mutation Vector + full-text hybrid retrieval finds memories by meaning, not just keywords Auto-detects contradictions, quarantines low-confidence memories, maintains audit trails 🔒 Private by Default Local embedding model option — no data leaves your machine 🧠 Cross-Conversation Preferences, facts, and decisions persist across sessions Every memory mutation has a snapshot + provenance chain Works with any MCP-compatible agent ☁️ Memoria Cloud (Recommended — no
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, database, llm, memory, storage
+
+---
+
+### 🌟 [IELTS-practice](https://github.com/sallowayma-git/IELTS-practice)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 946
+- **核心概述**: 雅思阅读与听力练习系统，支持题库浏览、套题练习、成绩记录、错题分析、数据备份与本地题库导入。
+- **大概是做什么的**: IELTS Atlas / IELTS Practice 本项目允许个人基于学习、研究和自用目的进行本地运行、私人部署或在个人控制的网页环境中使用。使用者可以将项目部署到自己的电脑、私人服务器、NAS 或个人网页空间，但应确保访问范围和传播范围可控。 请勿将包含题源、音频、PDF、解析、二次修改页面或打包产物的网站、镜像站、压缩包继续公开分发给更多人；请勿将本项目用于商业售卖、付费社群、引流推广、公开宣传或其他盈利行为。项目涉及的题源和部分素材存在第三方版权风险，机考网页形式的公开部署也可能触及相关从业者利益。大规模传播会显著增加被投诉、举报、删除仓库或关闭页面的风险，最终影响所有使用者。 为保证项目能够长期稳定存在，请遵循以下原则： 自行部署，个人使用，控制传播范围，不以项目或其题源牟利。 代码授权以 LICENSE 为准。题源、文章、音频、PDF、图片和其他第三方内容版权归原权利人所有，仅建议用于个人学习与备考场景。 本项目目前维护三个主要分支，分别面向不同使用场景和技术需求： 分支 说明 状态 完成度 技术特征 ------ ------ ------ -------- ---------- main 静态网页版（当前分支），纯前端运行，兼容几乎所有设备 feature/multi-device-easy-deploy 自主部署服务器版，支持多设备数据同步，适合有一定软件基础的用户 IELTS-WRITING-FEAT AI native 协作客户端，融入写作评分、阅读教练、自进化等 AI 功能 main 适合所有用户直接使用； feature/multi-device-easy-deploy 面向希望自主部署的用户； IELTS-WRITING-FEAT 是 AI native 协作客户端，提供写作评分、阅读教练、自进化等 AI 功能。 IELTS Atlas 是一个面向雅思阅读练习，并支持可选本地听力扩展的纯前端练习系统。当前主入口为 index.html ，应用运行依赖静态 HTML、CSS、JavaScript bundle 和本地题库资源，不需要后端服务。 系统提供题库浏览、阅读练习、可选听力练习、套题练习、练习记录、成绩统计、错题分析、数据备份、题库导入、词汇辅助、阅读背题和成就系统等功能。数据默认保存在浏览器本地存储中，支持在 file:// 协议下直接运行，也支持部署到静态网页空间。 当前准备发布版本： 0.6.2-fix 。 - 推荐浏览器：Chrome 或 Edge 最新稳定版。 - 基础能力：支持 ES6、IndexedDB、loca
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ielts-exam, web
+
+---
+
+### 🌟 [CharDesk](https://github.com/Sayhi-bzb/CharDesk)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 333
+- **核心概述**: A Unicode canvas for humans and AI. Draw diagrams, interfaces, and slides as editable text.
+- **大概是做什么的**: A Unicode canvas for humans and AI. CharDesk, formerly ASCII Canvas, is an editable Unicode grid for drawing diagrams, interfaces, and ideas. What you create stays visual for people and readable as text for language models. A shared visual language People understand layout at a glance. Language models work naturally with token sequences. Screenshots bridge that gap, but they also carry pixel noise, consume visual context, and are difficult to revise precisely across multiple turns. CharDesk uses text itself as the visual medium. A diagram remains a diagram when you look at it, yet it can still be copied, searched, versioned, and given directly to an AI without becoming an opaque image. - flowcharts, architecture diagrams, and system maps; - interface wireframes and terminal-style mockups; - notes where spatial relationships matter; - Unicode art, icons, tables, and lightweight data views; - visual context that can move between a conversation, document, issue, or source file. No drawing skill is required. Start with shapes and templates, arrange them visually, then copy the result as
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-context, ascii-art, canvas, diagrams, drawing-tool, infinite-canvas
+
+---
+
+### 🌟 [pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 253
+- **核心概述**: Real-time web dashboard for pi coding-agent sessions. Multi-session view, live chat mirroring, integrated terminal, diff viewer, pi-flows execution, and mobile-first remote control via mDNS or zrok tunnel. Coexists with pi's TUI — doesn't replace it.
+- **大概是做什么的**: One browser tab to command an army of pi agents. Spawn parallel sessions, watch reasoning live, attach OpenSpec changes, ship work — from your laptop or phone. 🌐 Website & demo: blackbelttechnology.github.io/pi-agent-dashboard — animated tour, screenshots, and install guide. 💬 Community: Join our Discord — questions, help, and release news. 📝 Changelog: CHANGELOG.md Note: This dashboard only works with pi. Oh My Pi is not supported. Overview — sessions grouped by folder, branch & OpenSpec context, live cost Session — chat, OpenSpec apply, interactive ask user , context gauge Settings — ports, spawn strategy, zrok tunnel, tool resolution - Recommended extensions - Authoring a dashboard plugin - Building the Electron app Three install paths, pick one: A — Electron desktop app (no prerequisites) ---------- ---------- macOS (Apple Silicon / Intel) .dmg (arm64 / x64) Linux (x64 / ARM64) .deb or .AppImage Windows (x64 / ARM64) .zip macOS requirement: macOS 12 (Monterey) or newer — Intel and Apple Silicon both supported. macOS 10.15 (Catalina) and 11 (Big Sur) are not supported; users on
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, agent-orchestration, agent-skills, agentic, agentic-ai
+
+---
+
 ## 🕔 2026-08-26 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 200 个候选项目中筛选出 6 个未推荐过的新项目。
