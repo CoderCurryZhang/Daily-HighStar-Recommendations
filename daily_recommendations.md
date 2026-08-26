@@ -1,3 +1,67 @@
+## 🕔 2026-08-26 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [autoMate](https://github.com/yuruotong1/autoMate)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,951
+- **核心概述**: Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves
+- **大概是做什么的**: A smart NAS for AI. Notes · files · reminders · memory · 40+ tools. Plug it into OpenClaw / Claude Desktop / Cursor / Cline as a tool source, or use it standalone via its built-in web chat. Every AI vendor wants to be your chat tool. Most can call tools. None of them remember anything across vendors, store your files, or ping your phone when something matters. autoMate is the layer behind the chat: a warehouse you own. Pick a chat client you like (OpenClaw for IM, Claude Desktop for serious work, Cursor for code), point it at autoMate via MCP, and that client can write into your notes, drop files, schedule reminders, search your library, and call your real-world tools — and tomorrow's client can read all of it back the same way. Mode Who's the brain When As a tool inside another AI client Your client (OpenClaw / Claude / Cursor / ...) Most use cases — IM, coding, research Standalone via autoMate's web chat autoMate's own agent loop Quick local queries, no other client Same backend. Same data. Pick the entry point. Connecting to OpenClaw / Claude Desktop / Cursor / Cline (v4.5.7) Afte
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, computeruse, deepseek, manus, ollama
+
+---
+
+### 🌟 [LaunchStack](https://github.com/Deodat-Lawson/LaunchStack)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 885
+- **核心概述**: AI-powered StartUp Accelerator Engine built with Next.js, LangChain, PostgreSQL + pgvector. Upload, organize, and chat with documents. Includes predictive missing-document detection, role-based workflows, and page-level insight extraction.
+- **大概是做什么的**: A TypeScript engine for AI-native applications. Ingestion, OCR, RAG, knowledge graph, LLM abstractions, and background jobs — ports-based, and wired into a Next.js reference app that shows how the pieces fit together. Run it · Repository layout · Packages · Architecture · Chat models · Contributing The engine packages ( @launchstack/protocol , evidence , application , adapters , and the core facade) are not yet on npm — the first release will publish them together through the Changesets flow in release.yml (the old hardcoded-repo gate and missing .changeset/ that blocked releases are fixed; the workflow validates the packed tarball with publint and a Node-ESM loadability check for every subpath). Until that first release lands, consume the engine by running this repository. To try Launchstack today, run the app below. Requirements: Node ≥ 20 and pnpm 10.15.1 ( corepack enable picks up the pinned version). apps/web/src/env.ts will refuse to boot without DATABASE URL and CLERK SECRET KEY . Chat needs no variable at all: with CHAT BASE URL unset it defaults to Google Gemini's OpenAI-com
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: claude, docker, knowlege-graph, langchain, mcp, n8n
+
+---
+
+### 🌟 [www-project-agent-memory-guard](https://github.com/OWASP/www-project-agent-memory-guard)
+- **项目语言**: Python
+- **星标数量**: ⭐ 155
+- **核心概述**: OWASP Foundation web repository
+- **大概是做什么的**: OWASP Agent Memory Guard 📦 7,812 PyPI downloads · 9,549 repository clones 🏆 Officially recognized as an OWASP Incubator Project Stop AI agents from being weaponized through their own memory. Runtime defense that catches memory poisoning — even after a context reset. Created and led by Vaishnavi Gudur , with co-leader Anshul Rajkumar — OWASP Agent Memory Guard. Official OWASP Foundation project addressing ASI06 (Memory & Context Poisoning) . ⭐ If you find this project useful for securing your AI agents, please consider giving it a star on GitHub! It helps others discover the project. ▶ Try the live Memory Poisoning Lab — run a representative attack-and-block scenario in your browser. That's it. Three lines to protect your agent's memory. No API keys. No external calls. Runs locally at 59 µs median latency. Where it has been recognized and engaged Context What happened OWASP Foundation Official Incubator project; reference implementation for ASI06: Memory Poisoning MITRE ATLAS Named in the Memory Hardening mitigation as an open-source implementation of memory-hardening controls Publi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, agentic-ai, ai-agents, ai-safety, ai-security, autogen
+
+---
+
+### 🌟 [OmniFocus-MCP](https://github.com/themotionmachine/OmniFocus-MCP)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 236
+- **核心概述**: Let LLMs interface with your tasks and projects through the Model Context Protocol. Add, organize, and query your OmniFocus database with natural language commands.
+- **大概是做什么的**: OmniFocus MCP Server A Model Context Protocol (MCP) server that connects OmniFocus to Claude and other MCP-compatible AI assistants. This server bridges AI assistants and your OmniFocus database. Through natural conversation, an assistant can query, create, edit, and remove tasks and projects — including bulk operations. Some things you can do with it: - Translate a syllabus PDF into a fully specified project with tasks, tags, defer dates, and due dates - Turn a meeting transcript into a list of actions - Audit and reorganize your tags, projects, and folders conversationally - Create visualizations of your tasks, projects, and tags - Process dozens of items in a single batch operation - macOS with OmniFocus installed - Node.js 20 or later (for npx ) The first time the server talks to OmniFocus, macOS will ask you to allow automation access. Grant it once and you're set. Add the server to /Library/Application Support/Claude/claude desktop config.json : Then restart Claude Desktop. Other MCP clients work the same way: launch npx -y omnifocus-mcp over stdio. Example Conversations "Show
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: mcp, mcp-server, modelcontextprotocol, omnifocus, task-management
+
+---
+
+### 🌟 [opencode-plusplus](https://github.com/whut09/opencode-plusplus)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 110
+- **核心概述**: OpenCode++: a Coding Agent Reliability Harness for OpenCode, adding context, edit boundaries, command evidence, verification gates, impact analysis, and repair loops.OpenCode++：面向 OpenCode 的 AI 编程可靠性增强框架，为其增加上下文管理、编辑边界、命令证据、验证门禁、影响分析与修复闭环能力。
+- **大概是做什么的**: A Windows-first Harness plugin for the official OpenCode Desktop application. What Problem It Solves An AI coding session can produce a plausible diff while reading the wrong files, editing outside the intended scope, running an unrelated command, or declaring success without fresh test evidence. OpenCode++ adds a verification control plane around OpenCode Desktop so the model has to work from repository context, explicit edit boundaries, traceable evidence, and a final decision. OpenCode++ is not another chat application and it is not a replacement model. It is a user-level Desktop plugin that observes the tools OpenCode already exposes and provides Harness tools for: - selecting relevant files and symbols before blind search; - preparing task boundaries and required checks; - guarding commands and protected paths; - recording sanitized execution evidence against the current working tree; - evaluating policy, freshness, regression, hallucination, and convergence gates; - explaining whether the next action is repair, repack, human review, or finalize. The Windows installer adds one s
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, code-agent, code-agent-cli, code-agent-harness, code-agents, hallucination-guard
+
+---
+
+### 🌟 [neurolink](https://github.com/juspay/neurolink)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 123
+- **核心概述**: One TypeScript interface for 24+ LLM providers — swap providers without rewriting. MCP-native (connect any MCP server), voice (TTS/STT/realtime), RAG, memory, file processors. Production-origin: powers Tara, Yama, and Clairvoyance at Juspay.
+- **大概是做什么的**: The pipe layer for the AI nervous system. AI intelligence flows as streams — tokens, tool calls, memory, voice, documents. NeuroLink is the vascular layer that carries these streams from where they are generated (LLM providers: the neurons) to where they are needed (connectors: the organs). → Docs · → Quick Start · → npm 🧠 What is NeuroLink? NeuroLink is the universal AI integration platform that unifies 30+ AI providers and 100+ models under one consistent API. Extracted from production systems at Juspay, NeuroLink provides a practical, TypeScript-first way to integrate AI into any application. Whether you're building with OpenAI, Anthropic, Google, AWS Bedrock, Azure, or any of our 30+ supported providers, NeuroLink gives you a single, consistent interface that works everywhere. Why NeuroLink? Switch providers with a single parameter change, leverage built-in tools plus any MCP-compliant tool server, deploy with confidence using enterprise features like Redis memory and multi-provider failover, and optimize costs automatically with intelligent routing. Use it via our professional
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai, ai-development, ai-platform, ai-sdk, anthropic
+
+---
+
 ## 🕔 2026-08-25 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 285 个候选项目中筛选出 6 个未推荐过的新项目。
