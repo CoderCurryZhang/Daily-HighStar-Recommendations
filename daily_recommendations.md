@@ -1,3 +1,67 @@
+## 🕔 2026-08-26 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 294 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,565
+- **核心概述**: DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！
+- **大概是做什么的**: DeepAnalyze: Agentic Large Language Models for Autonomous Data Science Authors : Shaolei Zhang, Ju Fan , Meihao Fan, Guoliang Li, Xiaoyong Du Renmin University of China, Tsinghua University DeepAnalyze is the first agentic LLM for autonomous data science. It can autonomously complete a wide range of data-centric tasks without human intervention, supporting: - 🛠 Entire data science pipeline : Automatically perform any data science tasks such as data preparation, analysis, modeling, visualization, and report generation. - 🔍 Open-ended data research : Conduct deep research on diverse data sources, including structured data (Databases, CSV, Excel), semi-structured data (JSON, XML, YAML), and unstructured data (TXT, Markdown), and finally produce analyst-grade research reports. - 📊 Fully open-source : The model, code, training data, and demo of DeepAnalyze are all open-sourced, allowing you to deploy or extend your own data analysis assistant. - [2026.07] : We look forward to releasing DeepPrep , a data-preparation companion to DeepAnalyze that turns raw tables into analysis-ready data
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic, agentic-ai, ai, ai-scientist, chatbot
+
+---
+
+### 🌟 [tons-of-skills-marketplace](https://github.com/jeremylongshore/tons-of-skills-marketplace)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,677
+- **核心概述**: 471 plugins, 3,069 skills, 347 agents for Claude Code. Open-source marketplace at tonsofskills.com with the ccpi CLI package manager.
+- **大概是做什么的**: A model-agnostic agent-skills platform. The canonical layer is harness-free by construction; Claude Code is the first and best-supported harness, and additional harnesses appear on this surface only when a declared, generated adapter exists — never by adjective. Inside Claude Code, one command installs the whole marketplace: Browse the marketplace · Explore plugins · Download bundles Killer Skill of the Week — no-ai-slop by Peter Yang Strip AI slop from any draft — named-pattern edits that keep the writer's real voice no-ai-slop does two jobs and refuses to fake a third. In Edit mode it makes the minimum effective edit — cutting throat-clearing, weak verbs, and abstract nouns while deliberately preserving the writer's cadence, bluntness, humor, and honest admissions, so a rough draft still sounds like the same person afterward. In Detect mode it names each AI-slop pattern it finds, quotes the offending line, and gives the fix in a few words — and pointedly does NOT score the draft or guess whether an AI wrote it. That restraint is the whole point: AI detectors guess; named patterns a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai, ai-agents, anthropic, automation, claude-code
+
+---
+
+### 🌟 [mcp-remote](https://github.com/punkpeye/mcp-remote)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,560
+- **核心概述**: Connect an MCP Client that only supports local (stdio) servers to a Remote MCP Server.
+- **大概是做什么的**: Connect an MCP Client that only supports local (stdio) servers to a Remote MCP Server, with auth support: Note: this is a working proof-of-concept but should be considered experimental . Why is this necessary? So far, the majority of MCP servers in the wild are installed locally, using the stdio transport. This has some benefits: both the client and the server can implicitly trust each other as the user has granted them both permission to run. Adding secrets like API keys can be done using environment variables and never leave your machine. And building on npx and uvx has allowed users to avoid explicit install steps, too. But there's a reason most software that could be moved to the web did get moved to the web: it's so much easier to find and fix bugs & iterate on new features when you can push updates to all your users with a single deploy. With the latest MCP Authorization specification, we now have a secure way of sharing our MCP servers with the world without running code on user's laptops. Or at least, you would, if all the popular MCP clients supported it yet. Most are stdio-
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: mcp
+
+---
+
+### 🌟 [ruby-sdk](https://github.com/modelcontextprotocol/ruby-sdk)
+- **项目语言**: Ruby
+- **星标数量**: ⭐ 893
+- **核心概述**: The official Ruby SDK for the Model Context Protocol servers and clients.
+- **大概是做什么的**: The official Ruby SDK for Model Context Protocol servers and clients. Detailed guides are available at https://ruby.sdk.modelcontextprotocol.io. - Build MCP servers that expose tools, prompts, and resources to any MCP host - Build MCP clients that connect to any MCP server, with automatic lifecycle negotiation and OAuth 2.1 authorization - Speak every standard transport: stdio and Streamable HTTP (including SSE), with a Rails integration - Cover the full protocol surface: server-to-client requests, multi round-trip requests, notifications, progress, logging, cancellation, completions, and pagination Add this line to your application's Gemfile: Or install it yourself as: You may need to add additional dependencies depending on which features you wish to access. The following minimal programs show both sides of the protocol: a server that exposes a single tool, and a client that spawns such a server and drives it over stdio. A minimal server defines a tool and serves it over the stdio transport: Save the script as server.rb , run it, and send JSON-RPC requests via stdin: The same serve
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: mcp, mcp-client, mcp-server, ruby
+
+---
+
+### 🌟 [donsetch](https://github.com/dondai44423/donsetch)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 261
+- **核心概述**: Web fetch, search, and crawl for AI agents. Built from scratch in Rust. No keys, no accounts. AGPL v3.
+- **大概是做什么的**: $0. No keys, no accounts. Built from scratch in Rust. Fetch · search · crawl · bypass bot walls · read PDFs (even scanned) · semantic reranking One binary · Chrome's own TLS · headless browser escalation · zero Python Works with Claude Code , Cursor , OpenCode , Pi , Windsurf , and any MCP client. Install · Two ways to use it · The 3 tools · Chrome TLS · Solve & Bounce · Search · PDF · Benchmark · Comparison · Gotchas · Limits 🔥 DonSeTch vs Firecrawl — live head-to-head DonSeTch gives any AI agent full web research from a single local process. Three tools, zero API keys, zero accounts. Built in Rust — one binary, no Python, no Playwright, no Selenium, no reqwest , no hyper . Every layer built from scratch. Works with every MCP client: Claude Code, Cursor, OpenCode, Pi, anything that speaks MCP. Also works as a standalone CLI. ✨ What makes it different 🛡️ Real Chrome TLS Drives Chrome's own BoringSSL natively. Your ClientHello IS Chrome's ClientHello — fingerprint is emergent from the real engine, not a faked table that rots. ⏱️ Temporal stealth TLS session resumption, conditional r
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agpl, ai-agents, anti-bot, crawling, mcp, pdf
+
+---
+
+### 🌟 [Lody](https://github.com/LodyAI/Lody)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 234
+- **核心概述**: Share coding agents with your team on phone and desktop
+- **大概是做什么的**: A shared workspace for the coding agents your team already uses. Connect any machine and bring any coding agent through ACP. Share conversations with your team and dispatch work from desktop, mobile, web, or CLI. What you can do with Lody Share Agent conversations with your team Open the same conversation with your teammates. See the full transcript, runtime status, files, and code changes around the work, then add instructions without passing around screenshots or pasted logs. Bring the Agents and machines you already use Connect Claude Code, Codex, Kimi, OpenCode, or another ACP-compatible Agent. Keep using the subscriptions, logins, models, and permission modes configured on your laptops, workstations, servers, and cloud VMs. Machines remain private until their owner shares them with the workspace. Dispatch work from any surface Choose any connected machine when dispatching work from desktop, mobile, web, or CLI. Permission requests, progress, conversations, and code changes stay visible across these surfaces. Run Lody on a workstation, server, or cloud VM: The command opens a sig
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-workflow, coding-agent, collaboration, local-first, multi-agent
+
+---
+
 ## 🕔 2026-08-26 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 225 个候选项目中筛选出 6 个未推荐过的新项目。
