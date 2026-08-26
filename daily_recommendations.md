@@ -1,3 +1,67 @@
+## 🕔 2026-08-26 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [goutoujunshi](https://github.com/shengjidaguai-china/goutoujunshi)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,481
+- **核心概述**: 一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。
+- **大概是做什么的**: 升级打怪开源社区 首批开放共建项目 · 点击组织首页右上角 Follow ，及时获取新项目与共建活动 不只替你回消息，更帮你看清关系、判断局势、决定下一步。 面向心动、暧昧、追求、冲突、分手与复合的 AI 恋爱军师， 结合情绪支持、关系科学、聊天记录分析和长期记忆，把复杂关系变成可执行的下一步。 如果它能让你少一次内耗、多一次清醒，欢迎点亮一个 ⭐ Star ：方便以后回来，也帮助更多有同样困惑的人发现它。 很多恋爱建议只有两个答案：“勇敢去追”或“赶紧分手”。狗头军师不会只凭一句话替你下结论：它先接住情绪，再把事实、推测和未知拆开；既看心动，也看现实条件、互惠、风险、机会成本和长期选择权，最后给出可以真正执行的下一步。 它不只是一个话术库。它能读取聊天截图、导出文本和用户转述，区分素材来源与事实边界；也能把分析落到一句可发送的话、一次具体邀约、第一次见面安排或一段可复盘的对话演练。它是一套覆盖恋爱全周期、面向多元关系、能够解释建议理由的 Codex Skill。 不知道这句话怎么回 先给一条能直接发送的话，再补时机和后续分支 想追求、复联、邀约或推进关系 给具体行动方案，按照对方反馈继续调整 看不懂对方，或在多人之间犹豫 结合行为、MBTI、主观评分和现实条件给明确判断 聊天太长、截图太多 锁定双方说话人，区分事实、推测和未知；也可分析ChatLab已有数据 希望以后不用重复交代背景 长期记忆 ：首次明确同意后，跨任务记住双方档案和关键进展；自动更新、按需召回，随时可以查看、暂停、撤销或清空 遇到冷淡、冲突、投入失衡、分手或婚姻选择 接住情绪，分析利弊，给下一步、观察窗口和停止条件 狗头军师支持异性恋、男同性恋、女同性恋、双性恋、泛性恋、无性恋等不同性取向，也尊重跨性别、非二元性别及其他性别身份。它同样可以讨论单身约会、长期伴侣、婚姻、异地、再婚、跨文化关系，以及建立在知情同意基础上的非单偶关系。 系统不假设固定的性别角色：男女和多元性别用户都可以主动，任何人也都可以选择高主动模式。对于中国常见的男女性约会语境，系统可能在没有明确拒绝或不适时建议男性把主动度提高一级，但这只是可被个人偏好和现实反馈覆盖的文化校准，不是“男性必须追、女性只能等”的定律。判断依据始终是具体的人、具体行为、双方意愿和现实条件。 项目将核心关系知识、实用沟通和工具适配分开维护，并按当前问题只加载必要资料。覆盖： 关系心理学 吸引与选择、伴侣回应性、社会交换、比较水平、替代选择、承诺、依赖、权力、压力与修复 人格与情绪 MBTI的合理用法与局限、Big Five、依恋、焦虑与回避 认识与
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, chinese, codex, codex-skill, lgbtq, psychology
+
+---
+
+### 🌟 [velorn](https://github.com/VelornLabs/velorn)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 450
+- **核心概述**: AI-native video editing built around real creative timelines, generative workflows, and local agent control.
+- **大概是做什么的**: The open-source AI video workstation — a real editor for you, and 100+ MCP tools for your agent. English · Español · 简体中文 · 日本語 · 한국어 · Português (Brasil) · Français Help translate the Velorn interface One prompt. The agent generates media, builds the timeline, and mixes the audio — live, via MCP. Velorn is an open-source desktop video editor and AI video workstation. It brings planning, generation, asset management, timeline editing, captions, effects, and export into one project-based app. Editing, captions, export, project management, and MCP editorial tools work without ComfyUI. All current generation features require a locally running ComfyUI instance. Use built-in local and cloud workflows, bring your own ComfyUI API workflow JSON, or install the bundled Velorn Bridge so a graph open in ComfyUI can be sent back into Velorn. - Creating music videos from lyrics, timing, characters, keyframes, video shots, and timeline edits. - Building UGC-style creator ads and small-business ads with editable shot plans. - Running curated local and cloud image/video workflows from one Generate w
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-video, comfyui, electron, generative-video, mcp, react
+
+---
+
+### 🌟 [livecontext-ce](https://github.com/livecontext-ai/livecontext-ce)
+- **项目语言**: Java
+- **星标数量**: ⭐ 342
+- **核心概述**: The AI automation platform, self-hosted. Describe the job in chat and LiveContext builds it: readable workflows, scoped AI agents, and small apps your team uses. Chat, Workflow, Agent and App on one canvas.
+- **大概是做什么的**: The AI automation platform. One message in, a working automation out. Describe the job in chat and LiveContext builds it in front of you: a workflow you can read, AI agents with scoped access and budgets you control, and a small app your team actually uses. Chat, Workflow, Agent and App in one self-hosted platform. No code to write, nothing to stitch together. An open-source, self-hosted alternative to n8n, Zapier and Make, with AI agents built in. The builder, built by chat: one message in, a working automation out. Five real scenarios, one loop. Watch it full size &middot; Try the hosted version ⭐ If LiveContext looks useful, give it a star . It helps other teams find it. Most teams wire together a chatbot, an automation tool, an app builder and an agent framework. LiveContext is all four on one canvas, every agent scoped, budgeted and audited, and you can see exactly what each one did. The chat (shown above) builds it; here is what it runs as: The workflow and the app it drives, in one view. Draw the automation as a readable graph, then wrap it in a real interface: forms, dashboar
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agents, ai, ai-agents, ai-automation, automation
+
+---
+
+### 🌟 [awesome-startup](https://github.com/KrishMunot/awesome-startup)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 2,333
+- **核心概述**: :sunglasses: All the required resources to build your own startup
+- **大概是做什么的**: A curated list of awesome books, videos, courses, tools and resources about making a startup. The timeless advice on this list still holds: talk to users, ship fast, watch your runway. What changed is the cost of building. A founder in 2026 can put a working product in front of customers before a 2015 founder would have finished hiring, so the sections below cover both the fundamentals and the AI-era tooling that compresses the loop. - Videos and Courses - Essays and Reading - Engineering and Infrastructure - Product and Analytics - Incorporation, Legal and Equity - Finance and Banking - Security and Compliance - Venture Capital and Raising Money - Marketing, Sales and Metrics - Task Management and Collaboration - Hiring, Remote and People Ops - Leadership and People - Coworking and Virtual Offices - Newsletters and Podcasts - Data and Market Research - The Lean Startup by Eric Ries - The build-measure-learn loop that named a generation of startups. - Zero to One by Peter Thiel - Notes on startups, or how to build the future. - The Startup Owner's Manual by Steve Blank - Best practic
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-tools, awesome, awesome-list, code
+
+---
+
+### 🌟 [google-surf-mcp](https://github.com/HarimxChoi/google-surf-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 286
+- **核心概述**: Turn Google Search, Papers, and Codebases into an Automatic Local Knowledge Graph for AI Agents.
+- **大概是做什么的**: Sponsored by SearchApi Web searches, papers, and GitHub repositories are stored as PKM, ontology, and lineage. The view above is generated with project memory(action="export", export format="html", export view="graph", all projects=true) . "Turn Google Search, Papers, and Codebases into an Automatic Local Knowledge Graph and lineage for AI Agents with Zero API Key, Zero External Server." Google Surf stores search and extraction results in a project-scoped local knowledge graph. As you search, papers, code, web sources, session intent, plans, experiments, and decisions accumulate in a personal PKM. New research searches stored knowledge and fresh web results together, reducing repeated work while continuing to discover new information. Projects remain isolated by default. Only verifiable links such as matching DOIs, repository URLs, or explicit aliases are added, so knowledge from one project can be reused in another without merging the original records. Retrieval runs exact search, BM25, vector search, code and graph search, and live web independently, then combines them with RRF and
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: academic-research, fetch, google-search, mcp, model-context-protocol, pdf-processing
+
+---
+
+### 🌟 [firefox-devtools-mcp](https://github.com/mozilla/firefox-devtools-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 377
+- **核心概述**: Model Context Protocol server for Firefox DevTools - enables AI assistants to inspect and control Firefox browser through the Remote Debugging Protocol
+- **大概是做什么的**: Firefox DevTools MCP Model Context Protocol server for automating Firefox via WebDriver BiDi (through Selenium WebDriver). Works with Claude Code, Claude Desktop, Cursor, Cline and other MCP clients. Repository: https://github.com/mozilla/firefox-devtools-mcp Note : This MCP server requires a local Firefox browser installation and cannot run on cloud hosting services like glama.ai. Use npx @mozilla/firefox-devtools-mcp@latest to run locally, or use Docker with the provided Dockerfile. Browser MCP servers carry inherent risks. A few key practices: - Use a dedicated Firefox profile. Never run the server against your regular profile — the agent has access to whatever the browser can reach, including cookies and saved sessions. - Be cautious about which sites you visit. Pages can return content designed to manipulate the agent (prompt injection). Stick to sites you control or trust. - Enable only the tool modules you need. The default basic preset already includes evaluate script ; --tool-preset slim drops it. Higher presets such as --tool-preset developer (debugging, network, console, p
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude-code, firefox, mcp, mcp-server
+
+---
+
 ## 🕔 2026-08-26 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 294 个候选项目中筛选出 6 个未推荐过的新项目。
