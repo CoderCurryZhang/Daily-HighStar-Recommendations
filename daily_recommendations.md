@@ -1,3 +1,67 @@
+## 🕔 2026-08-26 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 200 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [sprix-sage-router](https://github.com/wang2122/sprix-sage-router)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,218
+- **核心概述**: Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.
+- **大概是做什么的**: State-aware agent matching for open A2A networks An open-source research output of Sprix AI at 屿智同行. Choose whether an agent should continue alone , recruit complementary collaborators , or hand off the task —then assign task-DAG roles, schedule dependencies, and learn from execution evidence under permission, budget, and deadline constraints. Quick start · Algorithm · A2A integration · Operations · Benchmark · Contributing · Security Agent discovery tells a system which agents exist. It does not answer the harder runtime question: who should work with whom after execution has already begun? SAGE— State-Aware Graph Exchange —is the decision layer between A2A discovery and task execution. It evaluates three routes in one auditable objective: Route Ownership Best used when SELF Incumbent agent Existing capability and accumulated context are sufficient COLLABORATE Incumbent retains ownership A small complementary team covers missing requirements HANDOFF A peer takes full ownership Specialist advantage exceeds context-transfer loss SAGE is designed to sit above the Agent2Agent (A2A) prot
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, agent-orchestration, agent-routing, ai-agents, multi-agent-systems, python
+
+---
+
+### 🌟 [cc-use-exp](https://github.com/doccker/cc-use-exp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,023
+- **核心概述**: ⛔ No longer maintained → dev-agent-kit/recipes 让 Claude Code、Antigravity、Gemini CLI、Codex、Cursor 开箱即用的分层配置模板，总结十多年的日常开发经验
+- **大概是做什么的**: 保留你熟悉的 CLI/IDE，让 Claude Code、Gemini CLI、Codex、Cursor、GitHub Copilot 开箱即用 按费力度从低到高，用最少操作获得最大帮助 📢 本仓库已停止更新 / This Repository Is No Longer Maintained 中文 ：因开源版权屡遭侵权，本仓库停止更新，现有内容保持可用。全部新能力已迁移至新项目 dev-agent-kit/recipes 持续维护，新内容只在新项目更新。 新项目相比本仓库已额外提供（并持续完善）： - pi 编辑器完整支持 （第 7 个平台）：增强配置、危险命令拦截、配额状态栏 - AI 工具统一 CLI 状态栏 ：模型 + 配额实时显示，多工具共享数据契约 - 新增 skills 七平台同步 ：诊断纪律、落盘验证、前端布局陷阱等 - native binary 探测与补丁自动派发 ：工具链升级不再手动返工 加入方式：付费小群（一次性 ¥699 ，终身更新 + 专属技术群；设置门槛是为了保障付费成员的维护质量）。微信 shi10xiu 或扫描文末二维码，备注“进小群”。 English : Due to repeated license violations, this repository is no longer maintained (existing content remains available). All new development has moved to dev-agent-kit/recipes — new features ship there only, including full pi editor support (7th platform), a unified CLI status bar (model + quota), new skills synced across 7 platforms, and automated native-binary patch dispatch. Access: paid membership (one-time ¥699 ≈ $99 , lifetime updates + private tech group). International users: email doccker@pm.me . 不是提示词集合，而是一套可维护的 AI 协作配置系统。 - 同时使用 Claude Code、Antigravity CLI、Gemini CLI、Codex、Cursor、GitHu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, ai-coding, antigravity, antigravity-cli, claude-code
+
+---
+
+### 🌟 [novel-to-game](https://github.com/zenstory-ai/novel-to-game)
+- **项目语言**: Markdown
+- **星标数量**: ⭐ 707
+- **核心概述**: Agent Skills that turn novels into source-grounded, fully playable games for Claude Code, Codex, and Kimi Code(K3).
+- **大概是做什么的**: Turn a novel in any language into a source-grounded, fully playable game. NovelToGame is an open-source Agent Skills toolkit for Claude Code, Codex, and Kimi Code. It turns novel adaptation into a staged workflow: source analysis, concept selection, world and art direction, implementation, and runtime QA. Bring a novel in any language and choose the target runtime. Generated artifacts follow the requested language; build and QA stay on the chosen platform instead of silently falling back to an easier substitute. 中文 · Play Online · Quick Start · Workflow · Skills · Artifacts · Contributing Three playable adaptations, each available in a browser right now and linked to the case study behind it: source provenance, concept trade-offs, game and art direction, runnable source, and evidence from the playable paths. Journey to the West · Three Borrowings of the Banana Fan One wave of a fan blew you fifty thousand li. Take the mountain back one turn at a time. Command Wukong's party through the three borrowings of the Banana-Leaf Fan: read the five-element wheel, follow a fire-vein treasure m
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, ai-game-development, claude-code, claude-code-skills, claude-skills
+
+---
+
+### 🌟 [ComfyUI_Skills_OpenClaw](https://github.com/HuangYuChuh/ComfyUI_Skills_OpenClaw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 395
+- **核心概述**: Agent-friendly ComfyUI workflow skills for OpenClaw, Hermes Agent, Codex, and Claude Code; complementary to Comfy official local MCP.
+- **大概是做什么的**: ComfyUI Skills for OpenClaw Agent-friendly ComfyUI workflow skills for OpenClaw, Hermes Agent, Codex, Claude Code, and other agents. Use this project to turn ComfyUI workflows into callable skills with an agent-friendly CLI as the primary interface, plus a visual Web UI for easier configuration and testing. ComfyUI Skills for OpenClaw is an agent-friendly bridge that turns ComfyUI workflows into callable skills for AI agents. Instead of asking an agent to manipulate raw ComfyUI graphs, this project gives each workflow a clean, controlled interface through a CLI and schema-based parameter mapping. It works with OpenClaw, Hermes Agent, Codex, Claude Code, and any agent that can run shell commands. Compatible with the agentskills.io open standard. Use it when you want to import existing ComfyUI workflows, expose only the parameters that matter, run them from chat or agent tasks, and manage everything through one consistent workflow layer. Best for What you get ---------- -------------- OpenClaw, Codex, Claude Code, and Hermes Agent users A ComfyUI workflow layer that agents can call saf
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentskills, ai-agent, ai-art, claude-code, comfy-mcp, comfyui
+
+---
+
+### 🌟 [open-trading-api](https://github.com/koreainvestment/open-trading-api)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,583
+- **核心概述**: Korea Investment & Securities Open API Github
+- **大概是做什么的**: [LLM Repository Guide] ChatGPT, Claude 등 LLM(Large Language Model)과 AI 에이전트가 이 저장소를 보다 쉽게 탐색할 수 있도록 llms.txt 를 제공합니다. [당사에서 제공하는 샘플코드에 대한 유의사항] - 샘플 코드는 한국투자증권 Open API(KIS Developers)를 연동하는 예시입니다. 고객님의 개발 부담을 줄이고자 참고용으로 제공되고 있습니다. - 샘플 코드는 별도의 공지 없이 지속적으로 업데이트될 수 있습니다. - 샘플 코드를 활용하여 제작한 고객님의 프로그램으로 인한 손해에 대해서는 당사에서 책임지지 않습니다. KIS Open API 샘플 코드 저장소 (LLM 지원) 이 저장소는 ChatGPT, Claude 등 LLM(Large Language Model) 기반 자동화 환경과 Python 개발자 모두가 한국투자증권(Korea Investment & Securities) Open API를 쉽게 이해하고 활용 할 수 있도록 구성된 샘플 코드 모음입니다. - examples llm/ : LLM이 단일 API 기능을 쉽게 탐색하고 호출할 수 있도록 구성된 기능 단위 샘플 코드 - examples user/ : 사용자가 실제 투자 및 자동매매 구현에 활용할 수 있도록 상품별로 통합된 API 호출 예제 코드 - strategy builder/ : 비주얼 UI로 매매 전략을 설계하고, 생성된 시그널 바탕으로 매수/매도 가능 - backtester/ : 설계한 전략을 과거 데이터로 검증하는 백테스팅 엔진 AI와 사람이 모두 활용하기 쉬운 구조를 지향합니다. 한국투자증권 Open API 포털 바로가기 - 한국투자증권 Open API를 처음 사용하는 Python 개발자 - 기존 Open API 사용자 중 코드 개선 및 구조 학습이 필요한 사용자 - LLM 기반 코드 에이전트를 활용해 종목 검색, 시세 분석, 자동매매 등을 구현하고자 하는 사용자 2.2. 지원되는 주요 API 카테고리 - 아래 카테고리 및 폴더 구조는 examples llm/, examples user/ 폴더 모두 동일하게 적용됩니다. 인증 접근토큰 발급, 웹소켓 접속키 발급 auth 국내주식 국내 주식 시세, 주문,
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-trading, api-samples, autotrade, chatgpt, claude, finance
+
+---
+
+### 🌟 [MinusPod](https://github.com/ttlequals0/MinusPod)
+- **项目语言**: Python
+- **星标数量**: ⭐ 373
+- **核心概述**: MinusPod is a self-hosted server that removes ads before you ever hit play
+- **大概是做什么的**: MinusPod is a self-hosted server that removes ads before you ever hit play. It transcribes episodes with Whisper, uses an LLM to detect and cut ad segments, and builds cross-episode ad patterns from your corrections so repeat sponsors get caught without re-asking the LLM. Bring your own LLM: Claude, Ollama, OpenRouter, or any OpenAI-compatible provider. - First-pass LLM detection over sliding windows, plus an automatic verification pass on the re-cut audio - Optional ad-reviewer stage that confirms, adjusts, or rejects each cut and can resurrect borderline detections - Audio-side signals: loudness analysis, DAI transition detection, pre/post-roll, and a VAD-gap detector for spans Whisper drops - Per-feed audio cue detection that snaps cuts to a show's jingle or stinger - Confidence scoring with a review queue; rejected detections stay visible for auditing - Every marker carries a segment category (sponsor, cross-promo, self-promo, interaction, and opt-in intro/outro/recap), each resolving to remove, beep, or keep, set globally or per feed and defaulting to remove until configured - L
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ad-remover, ai, claude, llm, media, nvidia
+
+---
+
 ## 🕔 2026-08-26 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
