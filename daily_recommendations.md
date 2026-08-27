@@ -1,3 +1,67 @@
+## 🕔 2026-08-27 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 268 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [utopia](https://github.com/deeplethe/utopia)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 566
+- **核心概述**: Self-hosted knowledge platform: RAG over your documents on a knowledge graph that remembers when each fact was true. Rust + PostgreSQL, one binary.
+- **大概是做什么的**: The living memory of your organization. Open-source, self-hosted knowledge platform: RAG over your own documents, on top of a knowledge graph that remembers when each fact was true. Quick start · Features · Configuration · Roadmap · 中文 Most knowledge bases answer what . Utopia is built around when . - "Who owned project X in Q3 2024?" — every fact carries a validity interval, so the graph can be read as of any moment. - "When did this policy change, and what did it say before?" — facts are append-only. A correction closes the previous version instead of overwriting it, so history stays replayable. - Drag the timeline on the graph page and watch the neighborhood redraw itself at that point in time. Every edge links back to the sentence it came from. Nothing enters the graph without evidence. One binary and one Postgres. No Elasticsearch, no vector service, no message queue. Ingest — PDF, DOCX, PPTX, XLSX/XLS/ODS, CSV/TSV, Markdown, HTML and plain text, with encoding detection for Chinese sources. Web pages and RSS feeds sync on a cron. Push documents from anywhere with a per-source in
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, knowledge-base, knowledge-graph, llm, pgvector, postgresql
+
+---
+
+### 🌟 [agentconnect](https://github.com/agentconnect-md/agentconnect)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 398
+- **核心概述**: The open-source, multi-agent alternative to Claude Tag. @ any agent, wherever work happens, they work alongside your team, learning as they go.
+- **大概是做什么的**: The open-source, multi-agent alternative to Claude Tag. @ any agent. Wherever work happens, your agents work alongside your team and each other, learning as they go. &nbsp;&nbsp;&nbsp;&nbsp; Why AgentConnect? · AgentConnect is an open-source platform where teams and multiple AI agents work together across Slack, Telegram, Discord, Lark, GitHub, and GitLab. Bring Claude Code, Codex, Grok Build, DeepSeek, Pi, or any ACP-compatible agent into the conversations and workflows your team already has open. Give each agent a role, then let people and agents collaborate in shared conversations. Agents can call one another and remember what they learn, and work can begin from a message, issue, pull request, webhook, or schedule. ▶&nbsp; Watch the two-minute introduction AI agents are getting better at doing work. The harder problem is making multiple agents work well with a team—and with each other. Most agents still live like personal tools, in one person's terminal. Teammates can't see what an agent is doing, can't take over a session, can't review its output, and the context it builds stays
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-client-protocol, agent-sandbox, ai-agent, claude-tag-alternative, codereview, developer-tools
+
+---
+
+### 🌟 [katib](https://github.com/kubeflow/katib)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,699
+- **核心概述**: Automated Machine Learning on Kubernetes
+- **大概是做什么的**: Kubeflow Katib is a Kubernetes-native project for automated machine learning (AutoML). Hyperparameter Tuning, Neural Architecture Search. Katib is the project which is agnostic to machine learning (ML) frameworks. It can tune hyperparameters of applications written in any language of the users’ choice and natively supports many ML frameworks, such as TensorFlow, PyTorch, XGBoost, and others. Katib can perform training jobs using any Kubernetes with out of the box support for Kubeflow Training Operator, Argo Workflows, Tekton Pipelines Katib stands for secretary in Arabic. Katib supports several search algorithms. Follow the Kubeflow documentation to know more about each algorithm and check the to implement your custom algorithm. Hyperparameter Tuning Neural Architecture Search Bayesian Optimization Sobol's Quasirandom Sequence Population Based Training To perform the above algorithms Katib supports the following frameworks: Please check the official Kubeflow documentation for prerequisites to install Katib. Please follow the Kubeflow Katib guide for the detailed instructions on how t
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, automl, huggingface, hyperparameter-tuning, jax, kubeflow
+
+---
+
+### 🌟 [dshcode](https://github.com/whitelonng/dshcode)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 428
+- **核心概述**: Community desktop companion for DeepSeek Harness — one-click Electron app for macOS and Windows
+- **大概是做什么的**: DSHCode 是一款面向 macOS 和 Windows 的免费开源桌面 AI Agent 应用。它将 DeepSeek 官方开源项目 DeepSeek Harness 的 Web UI 与插件运行时打包成一个可直接安装的 Electron 应用——无需 Node.js、无需终端、无需命令行。 DSHCode 继承了 DeepSeek Harness 的完整能力，并加上了开箱即用的桌面体验。 Agent 核心 — 插件化框架，内置 bash、文件系统、网页搜索/抓取、终端、LSP 与子进程工具；支持沙箱隔离与逐操作审批提示。 交互式 UI — 内联渲染的 GenUI 卡片：图表、表格、测验、3D 场景、示意图、表单与进度视图。 Skills 技能 — 可安装的技能目录，为 Agent 提供专项工作流——研究、文档写作、视觉工具等。 编排能力 — Subagent 并行委派，以及可跨多个 Agent 分阶段并行展开的 Workflow。 长任务 — 执行前先审查再批准的 Plan 模式、跨轮次持续进行的 Goal 目标、可恢复的会话。 模型体验 — 通过官方 API 使用 DeepSeek 模型；会话日志完整记录模型所见内容，任何一次运行都可被重建。 模型控制 — 按供应商调节推理强度（关闭到最高）、最大输出 token 数，以及图像输入、图像生成与图像识别等多模态能力开关。 个性化 — 主题与皮肤合集、选区批注工作流、命令快捷键、中英双语界面。 插件管理 — 从 npm 或 Git 仓库安装插件、检查更新，并可逐个启用或禁用。 故障恢复 — 加载失败的插件会连同诊断信息一起报告：可禁用该插件、以安全模式启动，或让 Agent 携带失败上下文自动修复。 归档管理 — 搜索已归档会话，可恢复或彻底删除。 可扩展 — 安装新能力无需改动应用本体。 桌面集成 — 托盘图标、系统通知、单实例运行、加固的 Electron 窗口。 详见 Web UI 指南 的操作讲解，以及桌面应用指南中的架构、平台目标与当前限制。 macOS Apple Silicon DSHCode- -macos-arm64.dmg macOS Intel DSHCode- -macos-x64.dmg Windows x64 DSHCode- -win-x64.exe 每个版本都会随安装包发布 SHA-256 校验和（ SHA256SUMS.txt ）。 预览版安装包尚未进行代码签名或公证，因此 macOS Gatekeeper 与 Windows SmartScreen 可能在首次启动前发出警告
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, deepseek, deepseekharness-plugin, dsh-plugin, harness
+
+---
+
+### 🌟 [nomifun-desktop](https://github.com/nomifun/nomifun-desktop)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 206
+- **核心概述**: nomifun ai workstation. desc:A no-holds-barred, fully open-source, local-first super AI workstation.
+- **大概是做什么的**: A no-holds-barred, fully open-source, local-first super AI workstation. Rich, inventive capabilities and serious productivity gains — with all your data staying on your own machine . Safe for individuals and enterprises, free to commercialize, open to audit. English &nbsp;·&nbsp; 简体中文 🌐 Website &nbsp;·&nbsp; 📖 Docs &nbsp;·&nbsp; 🚀 Get started &nbsp;·&nbsp; 📦 Releases &nbsp;·&nbsp; 🇨🇳 Gitee source &nbsp;·&nbsp; China mirror &nbsp;·&nbsp; Public-interest open-source and data-risk notice : NomiFun is a public-interest open-source project. The maintainers do not assume responsibility for user data loss, corruption, or unrecoverable damage during iteration. Back up your data before upgrades, migrations, experimental features, or real production use. NomiFun is everything you imagine an AI workstation to be — and it runs on your terms. One React frontend and one Rust backend give you an evolving desktop companion, an unattended automation platform, a unified knowledge base, native computer- and browser-use, and an open capability bus that any agent can drive. No cloud account. No tel
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, desktop, harness
+
+---
+
+### 🌟 [huddol](https://github.com/ImFeH2/huddol)
+- **项目语言**: Python
+- **星标数量**: ⭐ 253
+- **核心概述**: Run your own organization of agents.
+- **大概是做什么的**: Run your own organization of agents.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-runtime, agentic-workflows, ai, ai-agent, ai-workspace
+
+---
+
 ## 🕔 2026-08-27 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
