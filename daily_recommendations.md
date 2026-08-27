@@ -1,3 +1,67 @@
+## 🕔 2026-08-27 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [browser-control](https://github.com/keon/browser-control)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 3,133
+- **核心概述**: A tiny, fast Rust CLI that drives a real browser over the Chrome DevTools Protocol — built for coding agents.
+- **大概是做什么的**: A tiny, fast Rust CLI that drives a real browser over the Chrome DevTools Protocol — built for coding agents. No LLM. No MCP requirement. No framework. Just compact, composable browser commands you can pipe from a shell. browser-control exposes a browser as a small, debuggable pipe: page snapshots, stable element refs, raw CDP, a background event watcher, and shell-runnable scripts. The coding agent stays the agent — browser-control just gives it hands and eyes. - Shell-native. Every capability is a subcommand that prints compact text or JSON. No SDK, no long-running server to babysit, no language lock-in — if your agent can run a shell command, it can drive a browser. - Refs built for LLMs. snapshot hands back stable @e1 / @e2 handles you act on directly ( click @e3 ), instead of brittle, hand-written selectors. CSS selectors and x,y coordinates still work when you want them. - Raw CDP escape hatch. Anything the helper surface can't express, eval and cdp can. You never hit a wall and have to switch tools. - Self-observing. A hidden daemon keeps in-memory event / network / console ri
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, browser-automation, llm, rust
+
+---
+
+### 🌟 [Tourmind-Booking-Skills](https://github.com/tourmind-com/Tourmind-Booking-Skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 396
+- **核心概述**: AI agent skill for end-to-end hotel search and booking—compare live rates across leading OTAs and hotel suppliers, verify availability, book stays, and manage reservations, cancellations, and payments via the TourMind API.
+- **大概是做什么的**: TourMind Booking Skills Let Your Agent Book Hotels Worldwide Bring Your Customers Into Intelligent Travel Turn any AI agent into an end-to-end hotel booking assistant—search global inventory, compare live rates across leading OTAs and hotel suppliers, verify availability, and complete booking, payment, cancellation, and order management in one conversation with TourMind. 1. Search live hotels 2. Compare real room options 3. Verify the final rate and pay - Resolve cities, hotels, landmarks, stations, addresses, ski areas, and other POIs without inventing coordinates. - Search up to 20 hotel candidates, query matching live room products, and select the five best verified options. - Compare live nightly and stay-total rates across leading OTAs and hotel suppliers, including cancellation and inventory status. - Return hotel and room images, facilities, beds, meals, fees, and evidence-based match reasons. - Recheck the selected room's price and availability before booking. - Create bookings, query and cancel orders, and start Stripe, WeChat Pay, or Alipay payments. - Provide expiring, rep
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, booking-api, codex-skills, hotel-api, hotel-booking
+
+---
+
+### 🌟 [elephant-agent](https://github.com/agentic-in/elephant-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 580
+- **核心概述**: Personal-Model First Self Evolving AI Agent 🐘
+- **大概是做什么的**: Do more without thinking less. A Mother Elephant that grows to understand you, then helps shape the paths you are trying to move. Elephant Agent starts from the person, not the task. The mother elephant grows a correctable Personal Model of who you are, what surrounds you, what is alive right now, and what your path has taught you. That understanding keeps deepening through interaction, correction, and gentle Once Elephant Agent understands enough, it can help design living Paths : work, health, habits, learning, relationships, recovery, research, code, and any other long-running direction you want to move. It can break a Path into Steps, bring in baby elephants when useful, and return to you at Checkpoints where your Personal Agent Levels Claude Code, Cursor, Devin, and Codex-style agents make execution cheaper and faster. OpenClaw publicly emphasizes local agents, persistent memory, full system access, skills, plugins, and integrations. Improves procedures. Hermes Agent publicly positions itself around a self-improving learning loop, skill creation, recall, and user modeling. Grows
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agentic, agentic-ai, context, llm, memory
+
+---
+
+### 🌟 [tunnel-client](https://github.com/openai/tunnel-client)
+- **项目语言**: Go
+- **星标数量**: ⭐ 312
+- **核心概述**: Customer-run client for Secure MCP Tunnel: connect private or localhost MCP servers to ChatGPT, Codex, the Responses API, and AgentKit without exposing them to the public internet.
+- **大概是做什么的**: Secure MCP Tunnel client tunnel-client is the customer-run agent behind Secure MCP Tunnel. It connects a private or localhost MCP (Model Context Protocol) server to ChatGPT, Codex, the Responses API, and AgentKit through an OpenAI-hosted MCP tunnel endpoint, while keeping the MCP server off the public internet. - You have an MCP server on a laptop, VM, Kubernetes cluster, or private network and need an OpenAI-hosted product to reach it. - Security will not approve a new inbound firewall rule or public endpoint for - You want an operator-visible daemon with /healthz , /readyz , /metrics , and /ui before a connector or API call depends on it. If you searched for "secure MCP tunnel", "MCP tunnel ChatGPT", "connect local MCP server to ChatGPT", "connect local MCP server to Codex", "localhost to ChatGPT", or "Codex local MCP", start with tunnel-client help quickstart , then read the onboarding guide below. - Need the shortest working path from localhost or a private MCP server to ChatGPT or Codex? Start with docs/onboarding.md . - Need the customer-shareable network and trust-boundary sto
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic, agentic-ai, agentic-workflow, chatgpt, cli, codex
+
+---
+
+### 🌟 [procoder](https://github.com/azrtydxb/procoder)
+- **项目语言**: Go
+- **星标数量**: ⭐ 189
+- **核心概述**: Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality controllers that refuse to call unfinished work done, and a lessons loop that closes each escaped bug's class. One Go binary, no runtime deps, works with 20+ agents.
+- **大概是做什么的**: Make your AI coder work like a senior developer. One Go binary gives the agent a commit gate it cannot talk its way past, quality controllers that refuse to call unfinished work done, and a self-learning loop that turns every escaped bug into a permanently closed class. The agent stays in control — nothing ever touches your code behind its back. That's Claude Code; Procoder also ships adapters for every agent — Cursor, Windsurf, Cline, Kilo Code, Roo, Kiro, Codex CLI, Copilot CLI, Gemini, OpenCode, and anything that reads AGENTS.md . See Without Procoder, "done" is whatever the agent last said. With it, done has to survive the gate — this is a real run, verbatim, on a demo repo with an unformatted file, a conflict marker, and a staged junk file: The agent gets the findings and the fixed content in the same turn; the binary never edits a file itself. And a tool that failed is never reported as clean — "unchecked" counts as failing, said out loud. Two modes, one principle: - Self-serve — tools the agent runs itself: check, format, lint, scan, query the index, audit the tree. - Forced —
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-coding-assistant, claude-code, claude-code-plugin, code-quality, code-review, developer-tools
+
+---
+
+### 🌟 [wirken](https://github.com/gebruder/wirken)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 168
+- **核心概述**: The enterprise gateway for autonomous agents. Identity management, per-channel isolation, credential vault, per-session tamper-evident audit log.
+- **大概是做什么的**: Wirken is the enterprise gateway for autonomous agents: the switchboard between your team's messaging channels and the AI agents working on their behalf. Your people reach it from a browser or the chat platforms they already use, like Slack and Teams, and the agent on the other end reads files, calls APIs, and runs tools for them. Each channel gets its own line. Wirken is built for the security team that has to answer for what those agents do. It assumes any agent can be turned against you, and boxes in what a compromised one can reach. It ships as a single static Rust binary, so it runs wherever your controls require: a locked-down workstation, a server inside your network, or an air-gapped host. Its model connection is provider-agnostic: frontier APIs like OpenAI, Anthropic, and Gemini, local weights through Ollama, TEEs for encrypted processing, or Infomaniak's Swiss-hosted Apertus, all interchangeable. Each agent runs the model you assign it, capped by a per-agent spend budget with usage reporting. Frontier or local, on your hardware or a remote host, the data boundary is yours t
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, audit, enterprise, gateway, llm, matrix
+
+---
+
 ## 🕔 2026-08-26 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
