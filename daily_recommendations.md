@@ -1,3 +1,67 @@
+## 🕔 2026-08-28 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 267 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [awesome-agent-cortex](https://github.com/0xNyk/awesome-agent-cortex)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 209
+- **核心概述**: Curated map of AI agent frameworks, protocols, runtimes, skills, memory, identity, security, evaluation, and commerce.
+- **大概是做什么的**: Awesome Agent Cortex A curated map of the tools, memory systems, identity rails, and operational patterns behind capable AI agents. Awesome Agent Cortex connects the layers that ordinary framework lists leave apart: agent runtimes, coding tools, MCP, evaluation, memory, knowledge graphs, on-chain identity, payments, security, and observability. Use it to find one component or to understand how the pieces fit into a complete agent system. Choose a route from the contents below: - Build: frameworks, coding agents, MCP, skills, and prompt systems. - Operate: runtimes, harnessing, evaluation, security, and observability. - Remember: context engineering, knowledge graphs, neural memory, and Obsidian. - Own: identity, wallets, payments, DeFi, and Solana infrastructure. Some resources appear in more than one section when they serve distinct workflows. Cross-listing is deliberate, limited, and reviewed under the contribution rules. - Voice and Multimodal Agents - Agent Runtime Infrastructure - Agent Protocols and MCP Ecosystem - Prompt Engineering - Agent Harnessing and Evaluation - ArXiv De
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, agent-security, agentic-ai, ai-agents, awesome, awesome-list
+
+---
+
+### 🌟 [ai-engineer-notebooks](https://github.com/calmrocks/ai-engineer-notebooks)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 189
+- **核心概述**: Hands-on, framework-free Colab notebooks for the AI Engineer / Forward Deployed Engineer (FDE) skill set — model APIs, structured output, tool calling, RAG, evals-as-the-spine, agents (loop from scratch, tool design, guardrails, MCP, Skills), fine-tuning vs LoRA, prompt-injection/security, LLMOps, and customer craft. Runs on the free Groq API.
+- **大概是做什么的**: AI Engineer Notebooks Learn the applied-LLM stack the way you'll actually be interviewed on it: framework-free, on a free API, from prompting all the way to serving, fine-tuning, and a red-team benchmark. Runnable Colab notebooks for the AI Engineer / Forward Deployed Engineer (FDE) skill set. You build working systems on top of foundation models (model APIs, RAG, evals, agents, adaptation, serving) using raw APIs, not frameworks. What makes this different - Framework-free, on purpose. You write the agent loop, RAG, and evals from raw API calls first, so you understand what LangChain/LlamaIndex actually do before you reach for them (and can judge when not to). Patterns are durable; - Evals are the spine. "Measure before you tune" is installed early and returns in every section. It's the habit that separates an engineer who shipped a system from one who built a demo. - Free to run, end to end. Everything runs on the free Groq API (no credit card). The two topics Groq can't host, LoRA fine-tuning (06) and self-hosted serving (09), are concept-first with optional, fenced Colab-GPU appen
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai-engineer, ai-engineering, colab, evals, fine-tuning
+
+---
+
+### 🌟 [thinkrail](https://github.com/JetBrains/thinkrail)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 238
+- **核心概述**: Vibe code with pi in a lightweight, real IDE - The Vibe You Need
+- **大概是做什么的**: A ThinkRail-branded desktop-and-mobile client for the pi coding agent. ThinkRail is a thin host that runs pi in-process and bridges it to a rich, mobile-first UI — pi owns models, skills, compaction, cost, and session state; the app owns the workspace, the editor, and the wire. Website: thinkrail.ai — a landing page that is the IDE, its blog, and the vibecoder-focused experience (see V1 is a Worktree IDE: open a git repo as a project, spin up workspaces as git worktree s (each its own branch and cwd), and work across a tabbed Monaco editor, git Changes view, terminals, a read-only spec-graph viewer, and multiple concurrent pi chat sessions — all scoped to the active worktree. ThinkRail ships as a single self-contained executable per platform. The installer downloads the right macOS / Linux (also Windows under Git Bash): Windows — the same command works from cmd and PowerShell: Nightly builds and pinned versions: Then run thinkrail (add a git repo path to open it as a project: thinkrail /code/my-repo ). To update later, run thinkrail update on any platform — it re-runs the installer f
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, agentic-ai, agentic-workflow, ai-coding, ai-tools
+
+---
+
+### 🌟 [awesome-deepseek-harness](https://github.com/Dominic789654/awesome-deepseek-harness)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 205
+- **核心概述**: A curated list of plugins, skills, MCP servers, patch/profile layers, orchestrators & UIs for DeepSeek Harness (DSH). Visualization · PPT · Coding · Agents · Loops (auto-research) and more. #dsh
+- **大概是做什么的**: Awesome DeepSeek Harness A curated list of plugins, skills, MCP servers, patch/profile layers, orchestrators, aggregators & UIs for DeepSeek Harness (DSH) — DeepSeek's official agent runtime built around the idea Model + Harness = Agent . DeepSeek Harness ("DSH") is DeepSeek's agent runtime / harness layer — the "hands" that turn the model's reasoning into real actions (context management, tool-call orchestration, execution sandbox, feedback loop, session persistence). Its defining feature is an open plugin ecosystem : the community contributes plugins, skills, MCP servers, orchestrators, aggregators, and UIs. This list collects the best of that ecosystem. Contributions welcome — see Contributing. Tip for authors: DeepSeek asks plugin repositories to carry the dsh GitHub topic so they can be discovered. Add it to your repo, then open a PR here. Before installing, confirm the target repo carries the dsh GitHub topic so the community hub can index it. - Profiles & Patch Layers - Harnesses & Runtimes - Security & Permissions - Session & Memory Management - Cost & Usage Tracking - Channe
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, ai-agent, ai-agents, awesome, awesome-list
+
+---
+
+### 🌟 [awesome-deepseek-harness](https://github.com/libukai/awesome-deepseek-harness)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 215
+- **核心概述**: DeepSeek Harness 终极指南：快速入门、资源推荐、精选插件与实用工具 ｜The Ultimate Guide to DeepSeek Harness: QuickStart, Resources, Plugins&Toolkit
+- **大概是做什么的**: 简体中文 · English · 日本語 DeepSeek Harness 终极指南：资料、教程、插件与工具 本项目秉持少而精的原则，精选并收录 DeepSeek Harness 相关优质资源，与更多 AI 从业者共同构建更繁荣的 Agent 生态。 如果这个项目对你有帮助，欢迎点一个 ⭐；也欢迎关注 𝕏 @李不凯正在研究，获取更多 Agent 实践内容。 DeepSeek Harness（简称 DSH 或 dsh ）是 DeepSeek AI 开源的 Agent Harness 项目。它基于 Cordis，采用 Everything is a Plugin（一切皆插件） 的架构：模型适配器、工具、会话日志、界面和 Agent Loop 都可以通过插件树组合与替换。 当前核验到的官方 GitHub 开发者预览版为 0.1.2-alpha.1 ，而 npm latest 仍为 0.1.1-rc.2 。该 Alpha 增加子代理模型配置、ACP 自动化与多模态 / 持久终端修复；DeepSeek 适配器默认会附带已启用插件包的名称和版本（可关闭），会话日志增量上传仍为默认关闭。下方各项目标注的 DSH 版本表示其作者实际声明的开发或测试基线，不应自动视为已兼容最新预览版。 安装 Node.js 22.19.x 或 24+（推荐 24+）后执行： 默认访问 http://127.0.0.1:3080 。进入 Settings → Models 配置模型服务后即可创建会话。详细步骤见官方快速开始和模型服务配置。 官方 Python SDK 支持通过内置运行时以编程方式调用 Harness，无需在系统中安装 Node.js。当前要求 Python 3.10+，支持情况和平台限制以官方 Python SDK 指南为准。 web 和 headless 是发行版内置的 Profile。外部插件以声明 dsh.bundle 的 Bundle 加入指定 Profile： 从 Git 仓库安装时，建议固定 commit，并先检查安装脚本。pnpm 可能要求显式授权依赖的构建脚本；这些构建脚本会在 Agent 沙箱之外执行。完整机制见官方插件打包与安装教程。 官方提供开源仓库、配套论文和较完整的参考文档，并持续运营开发者社区。 - @deepseek-ai/dsh：官方 CLI 与 Web UI 的 npm 启动包 - deepseek-harness-sdk：用于程序化集成 DSH 的官方 Python SDK - GitHub：查看源码、Issue、版本与贡献者 - Paper：
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-harness, awesome-list, deepseek, deepseek-harness, developer-tools
+
+---
+
+### 🌟 [akb](https://github.com/dnotitia/akb)
+- **项目语言**: Python
+- **星标数量**: ⭐ 155
+- **核心概述**: AKB — Agent Knowledgebase. Organizational memory for AI agents: vault-scoped docs / tables / files unified by URI graph, served over MCP.
+- **大概是做什么的**: AKB — Agent Knowledge Base Organizational memory for AI agents. Git-backed knowledge base served over the Model Context Protocol (MCP) — agents read and write directly with hybrid semantic + keyword search, structured tables, files, and a URI graph. Drop-in alternative to Confluence / Notion for Claude Code, Cursor, Windsurf, and any MCP-aware agent. Any agent client that speaks MCP (Streamable HTTP or stdio) : - Claude Code — CLI / VS Code / JetBrains - Claude Desktop — macOS / Windows - Cursor , Windsurf , Cline , Continue — via the akb-mcp stdio proxy - Custom agents — direct HTTP POST /mcp/ with a Bearer token The default flow uses a Personal Access Token. Deployments with the optional MCP OAuth Resource Server path turned on (via Keycloak as the AS — see docs/mcp-clients/web-connectors.md ) also accept Claude Code's mcp add --transport http + mcp login flow end-to-end, without a PAT. MCP protocol compatibility AKB keeps one tool and authorization core behind two protocol adapters: Surface Modern Legacy Direct HTTP /mcp/ 2026-07-28 stateless server/discover and per-request meta w
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, claude, claude-code, fastapi, knowledge-base, knowledge-graph
+
+---
+
 ## 🕔 2026-08-27 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 268 个候选项目中筛选出 6 个未推荐过的新项目。
