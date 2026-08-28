@@ -1,3 +1,67 @@
+## 🕔 2026-08-28 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 260 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [termio](https://github.com/termio-sh/termio)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 336
+- **核心概述**: A terminal-first agentic development environment for agentic coding. Build for Claude Code, Codex, OpenCode and any TUI agent. Runtime for Coding Agent, iOS & Linux VPS supported
+- **大概是做什么的**: The Terminal-first Agentic Development Environment English 简体中文 繁體中文 日本語 한국어 Run Claude Code, Codex, and any CLI agent side by side in a real Mac terminal — Swift and libghostty, no Electron. A menu-bar dot tells you which one needs you, and your iPhone tells you when you're away from the desk. no account, macOS 14+. Or with Homebrew: On iPhone : get the companion beta on TestFlight, then pair it by scanning the QR code in the Mac app's Settings ▸ Mobile. Built for agentic coding and engineering The IDE was built around a person typing code. When agents write most of the code, the environment's job changes: it's where agents work and where you direct, review, and unblock them. Termio is that environment — Terminal-first, because that's where the agents already live — built for the new shape of the work: several agents going at once, most of them fine without you, one of them stuck. (The longer argument: - A real terminal, not a web view. Swift + AppKit on libghostty (Ghostty's terminal core), rendered with Metal. No Electron, no xterm.js. - Projects → sessions. The sidebar mirrors ho
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ade, agentic, ai-agents, claude-code, cli, codex
+
+---
+
+### 🌟 [KeyType](https://github.com/johnbean393/KeyType)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 495
+- **核心概述**: An open-source Cotypist with macOS system wide AI autocomplete
+- **大概是做什么的**: An open-source, on-device, system-wide tab-autocomplete utility for macOS. KeyType is an open-source, on-device, system-wide tab-autocomplete utility for macOS . It watches the focused text field across any app, predicts a short continuation at the cursor using a local LLM , and offers it as ghost text that you accept with Tab . It is a MIT-licensed alternative to the closed-source app Cotypist . 1. Download the latest release from the releases page 2. Double-click the downloaded KeyType.dmg file 3. Drag the KeyType app into Applications 4. Open KeyType and complete the onboarding Requirements: macOS 14+ and a recent version of Xcode. Build/run the KeyType scheme.
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-autocomplete, autocomplete, completions, cotabby, cotypist
+
+---
+
+### 🌟 [building-a-coding-agent-from-scratch-course](https://github.com/decodingai-magazine/building-a-coding-agent-from-scratch-course)
+- **项目语言**: Python
+- **星标数量**: ⭐ 305
+- **核心概述**: From agent user to agent builder: build a Claude Code-style coding agent from scratch in Python: 8 articles, 4 videos, one codebase
+- **大概是做什么的**: Building a Coding Agent From Scratch The harness, not the model, makes a coding agent good. Build one from scratch, from a bare-bones agent loop to a swarm of cloud agents. Open-source course by Decoding AI in collaboration with Modal , Opik (by Comet) and Kitaru (by ZenML) . Try the finished agent first — 5 minutes, $0: Then type /demo- and pick a demo — see what they do below. Full setup guide. Type /demo- and the six demos are one keystroke away. 📖 About This Course In LangChain's Terminal-Bench experiment, changing only the harness (with the same model) moved a coding agent from 30th place into the top 5: the harness, not the model, is what makes a coding agent good. The agent is 20 lines. The course is everything else. That's the entire tool-calling agent. Everything else in this repo: the tools, skills, the permission layer, sandbox, steering queue, memory, compaction, durable runtime, remote execution, the subagent fan-out, the evals, is the harness. That's what you're here to build. A fresh session powered by Qwen 3.6 35B hosted on Modal We spent months under the hood of Cla
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-coding-agent, ai-coding-assistant, course, curated-list, programming-examples
+
+---
+
+### 🌟 [best-skills](https://github.com/LinklyAI/best-skills)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 273
+- **核心概述**: Daily-updated Top 100 Agent Skills rankings — installs, growth, and social buzz aggregated from skills.sh, ClawHub, Tencent SkillHub, GitHub, X and 10+ communities. Open data (CSV).
+- **大概是做什么的**: Daily-updated Top 100 Agent Skills rankings — installs, growth, and social buzz aggregated from skills.sh, ClawHub, Tencent SkillHub, GitHub, X and more. Open data (CSV). English 简体中文 日本語 한국어 Español Deutsch Explore the live, interactive rankings → Every skills registry only sees its own ecosystem. skills.sh counts Claude/Vercel CLI installs, ClawHub counts OpenClaw downloads, Tencent SkillHub counts installs from China — and none of them see social buzz. Best Skills merges all of these views into one cross-ecosystem picture : for each skill you can see global installs, China installs, and social mentions side by side. No other ranking does this. - 9 rankings , refreshed daily - Raw numbers preserved — every CSV keeps per-platform original counts so anyone can verify or re-rank - Never adds apples to oranges — cross-platform numbers are shown side by side, ranked by within-platform percentile composite (see methodology) Last updated: 2026-08-28 (UTC) · Top 10 preview per list — full Top 100 in the CSVs. 🏆 Best 100 (Worth-Installing Score) Skill Vendor WIS Cov --- --- --- --- --- 1 a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, ai-skills, awesome-skills, claude-skills, codex-skills
+
+---
+
+### 🌟 [autolith](https://github.com/lambda-symbolics/autolith)
+- **项目语言**: Common Lisp
+- **星标数量**: ⭐ 227
+- **核心概述**: Autolith is a self-modifiable general purpose Lisp AI agent
+- **大概是做什么的**: +SUBTITLE: A live, self-modifying Common Lisp terminal agent :::. ::: AUTOLITH v0.40.1 ;; ;; ;;; ───────────────────────────────────────── ,[[ '[[, [[[ model gpt-5.6-terra (effort high) c$$$cc$$$c $$' workspace /src/autolith/ Autolith executes model-generated code with your user privileges. Sandboxing is no substitute for human oversight Tip: (ste) toggles short, direct Simple Technical English replies. ❯ Ask Autolith anything. Type (help) for operations. Autolith, or AL, is a terminal agent inside a live Common Lisp image. It can observe, self-modify, discover, introspect its own code, its live state and what it's doing. This lets Autolith adapt to the user's preferences or to what is needed for the task. This may sound unstable, but Autolith creates generations of this image your or it can rollback to. Even a full frontal lobotomy is not a showstopper as AL will just reload into a recovery image and diagnose and optionally fix the Autolith has a moderate focus on good ergonomics, good visuals, following XDG standards and similar, and minimal intrusiveness. It is not a "small game e
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, bsd, coding-agent, common-lisp, lisp, llm
+
+---
+
+### 🌟 [pi-agent-desktop](https://github.com/Chasen-Liao/pi-agent-desktop)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 221
+- **核心概述**: Pi Agent Desktop — 基于 Electron 的 Pi 编程智能体桌面客户端 (衍生自 pi-web)
+- **大概是做什么的**: Pi 编程智能体 的原生桌面客户端。基于 Electron 构建，提供比浏览器更原生的使用体验。 上游项目 ：本项目衍生自 pi-web，侧重于桌面端体验的优化与功能增强。 - 原生桌面体验 — 基于 Electron 的独立窗口应用，支持系统托盘、最小化到托盘 - 会话浏览器 — 按工作目录分组展示所有 pi 会话 - 实时对话 — 通过 SSE 流式输出与智能体实时交互 - 运行中消息队列 — Enter 立即 steer，Alt+Enter 排队；支持拖拽与键盘重排 Follow-up - 原生工作区界面 — Apple 风格桌面布局、液态思考球与更紧凑的消息输入体验 - Agent 模式 — 支持 Plan / Ask / Full 三种安全模式与 Ask 工具拦截确认 - Extension UI Bridge — 原生弹窗支持 Extension confirm / select / input / editor / notify 交互 - 项目信任机制 — Project Trust 409 握手与授权弹窗 - MCP 服务器管理 — 支持全局 ( /.pi/agent/mcp.json ) 与项目 ( /.pi/mcp.json ) MCP 配置与 UI 管理 - 扩展与 Skill 管理 — 统一 UI 管理全局和项目扩展、Skill 启用与诊断 - 会话分叉与克隆 — API/UI 支持从任意节点 Branch 及 Clone 会话到新目录 - 会话导出 — 一键导出为 HTML / Markdown 格式 - AgentMode 持久化 — 自动写入 .jsonl 自定义 desktop agent mode 节点，重载恢复历史模式 - 长期记忆 LTM — 项目级 SQLite 记忆（ memory save / memory recall / memory forget ），跨会话检索； agent end 与 compact 前自动观察写入 - 会话内分支 — 回退到任意节点继续对话，在同一文件内创建分支 - 分支导航器 — 可视化切换同一会话内的各个分支 - 模型切换 — 对话中途随时切换模型 - 工具面板 — 控制智能体可使用的工具 - 文件浏览 — 侧边栏内置文件浏览器和查看器 - 快捷键 — Ctrl+B 切换左侧边栏， Ctrl+Alt+B 切换右侧面板 - 自动更新 — 支持 GitHub Releases 自动检查更新 前往 Releases 页面下载最新版安装程序。 Windows 用户下载 Pi-Agent-Desk
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, pi, pi-agent
+
+---
+
 ## 🕔 2026-08-28 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 267 个候选项目中筛选出 6 个未推荐过的新项目。
