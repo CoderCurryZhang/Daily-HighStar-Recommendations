@@ -1,3 +1,67 @@
+## 🕔 2026-08-28 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 285 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [OpenExecutive](https://github.com/SenteLabsAI/OpenExecutive)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,485
+- **核心概述**: AI-powered virtual executive team — a single coherent executive persona backed by 8 specialist Claude agents (FastAPI + Next.js).
+- **大概是做什么的**: An AI system that acts as your company's virtual executive team — a senior advisor with Harvard MBA-level knowledge, customized for your specific business. A walkthrough of Open Executive in action — watch on YouTube. Developed by sentelabs.ai Open Executive provides a single coherent executive voice backed by eight specialist AI agents: - Chief Strategy Officer — competitive analysis, M&A, market positioning, OKRs - Chief Financial Officer — financial modeling, fundraising, unit economics, cash flow - Chief HR/People Officer — hiring, compensation, performance, culture - General Counsel — contracts, IP, employment law basics, compliance - Chief Operating Officer — process design, vendor management, operational scaling - Chief Marketing Officer — GTM strategy, brand, communications, PR - Chief Product Officer — roadmap, prioritization, product strategy - Board Communications Director — board decks, investor relations, governance All responses come from one consistent executive voice. The internal agent architecture is never exposed to the user. Beyond Q&A, the system maintains episod
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, anthropic, claude, fastapi, llm, multi-agent
+
+---
+
+### 🌟 [codexmate](https://github.com/SakuraByteCore/codexmate)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 337
+- **核心概述**: One dashboard for all your local AI coding agents. Switch providers, manage sessions, and orchestrate tasks across Codex, Claude Code, Gemini CLI, CodeBuddy Code, Pi, OpenCode, KiloCode, and OpenClaw. Zero cloud, local-first control plane.
+- **大概是做什么的**: One dashboard for all your local AI coding agents. Switch providers, manage sessions, and orchestrate tasks across Codex, Claude Code, Gemini CLI, CodeBuddy Code, Pi, OpenCode, KiloCode, and OpenClaw. Zero cloud, local-first control plane. Local First : All configurations and sessions are stored in your home directory. No telemetry, no cloud accounts required. This project is currently in early stage. We are seeking developers to help build the local agent ecosystem! Have you ever felt overwhelmed by managing multiple local AI agents? Each has its own config format, session storage, and skills directory. Codex Mate offers a unified control plane to bring order to the chaos. It's a local-first CLI + Web UI designed to manage Codex, Claude Code, OpenCode, KiloCode, OpenClaw, and Pi seamlessly. Unlike simple wrappers, Codex Mate acts as a Local Agent Bridge : - Unified Session Browser : Search, inspect, filter, and export local sessions across Codex, Claude Code, Gemini CLI, CodeBuddy Code, and Pi from one place. - OpenAI-Compatible Bridge : Use Codex with any OpenAI-compatible UI by no
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-tools, claude-code, cli, codex, config-management
+
+---
+
+### 🌟 [codex-with-chatgpt](https://github.com/XiaoDuoYa/codex-with-chatgpt)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 333
+- **核心概述**: ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.
+- **大概是做什么的**: ChatGPT thinks. Codex works. ChatGPT 负责思考，Codex 负责干活。 The problem · 解决什么问题 中文 — ChatGPT 付费订阅的网页版额度大量闲置，Codex 却在消耗紧张的 API 额度做规划和 Review。本项目把"思考"交给你已付费的网页版 ChatGPT， Codex 只负责执行。不用 API Key、不搞逆向代理——官方网页 + 只读 MCP 桥接。 EN — ChatGPT Plus/Pro web quota sits idle while your coding agent burns scarce API/Codex tokens on planning and review. This project moves the thinking to the subscription you already pay for; Codex only executes. No API keys, no reverse proxy — official web UI plus a read-only MCP bridge. 中文 — 把 ChatGPT 网页版变成 Codex 编码会话的"规划与审查大脑"，执行权 完全保留在 Codex 手里。你的仓库永远不会被上传：ChatGPT 通过一条安全的、 OAuth 保护的 只读 MCP 连接，按需读取当前工作区里它真正需要的那几行代码。 EN — Use the ChatGPT web app as the planning and review brain for your Codex coding sessions, while Codex keeps full ownership of execution. Your repository is never uploaded: ChatGPT reads exactly the lines it needs through a secure, OAuth-protected, read-only MCP connection to your current Detailed docs below are in English · 详细中文文档见 README.zh-CN.md One-paste install · 一段话安装 中文 — 不懂 git、Node、终端？完全不需要懂。把下面这段话原样复制给你的 编码 Agent（Codex），然后去倒杯咖啡： EN — Don't know gi
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, chatgpt, codex, mcp, model-context-protocol, oauth
+
+---
+
+### 🌟 [maestro](https://github.com/ReinaMacCredy/maestro)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 230
+- **核心概述**: Local-first coordination for human and agent work: durable work, decisions, dispatches, evidence, and prompt-first methods, powered by TypeScript and Bun.
+- **大概是做什么的**: Maestro is a local-first coordination system for human and agent work. It keeps durable work, decisions, sessions, evidence, dispatches, and handbacks in each repository's shared Git root. It is written in TypeScript, runs on Bun, and does not require a background service. Documentation: maestro.maccredyreina.me Version 0.108.0 is the first TypeScript release. It continues the version line after 0.107.x, the final Rust release. - Mechanism kernel owns the SQLite store, event log, sessions, CLI dispatch, plugin loading, and readiness projection. It does not impose workflow policy. - Plugins provide verbs and optional policy gates. Repositories enable or disable policies such as proof and breakdown in .maestro/config . - Recipes and skills provide prompt-first working methods as Markdown. Use maestro recipe list to browse recipes and maestro recipe show to read one without copying it into a repository. Install, update, and remove Maestro is distributed from source. Install with one command (needs git The script clones the repository into /.maestro/source (override with MAESTRO SOURCE D
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, agent-skills, ai-agents, ai-coding-agents, claude-code, cli
+
+---
+
+### 🌟 [eda-agent](https://github.com/salitronic/eda-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 161
+- **核心概述**: Open-source MCP server that lets an AI drive a live session of Altium Designer, and optionally KiCad or EasyEDA Pro, editing the open design in place while you watch. 300+ tools: schematic, PCB, library and project automation, design review, audits, rendering, auto-placement, panelization, autonomous design-plan executor. Apache-2.0.
+- **大概是做什么的**: MCP server that lets an AI (or any MCP-compatible client) interact with a live Altium Designer session , with KiCad and EasyEDA Pro available as additional backends. It exposes around 400 tools on Altium, covering schematic, PCB, library, project, and design-agent operations, over a persistent DelphiScript bridge. The AI reads the design you currently have open, asks questions about it, and can modify it in place while you watch. The backend is selected at startup, so each user sees only their own tool set. ⚠️ Experimental. Not all tools are extensively tested. Some can crash the Altium DelphiScript engine. See Known limitations before using on any design you haven't backed up. Claude Code reviewing a buck converter through eda-agent. The feedback resistor divider on this schematic is intentionally wrong; Claude catches it among other recommendations. Two dashboards ship with eda-agent: - In-Altium status window - a floating Altium-side window showing live status, request count, cumulative Altium-side time, auto-shutdown countdown, and a per-command log with durations. Hide pings fil
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, altium, altium-designer, claude, delphiscript, easyeda
+
+---
+
+### 🌟 [comfyui-mcp-panel](https://github.com/artokun/comfyui-mcp-panel)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 101
+- **核心概述**: The local-first sidebar AI agent for ComfyUI — runs on your own Claude OR ChatGPT subscription (no API keys, no extra LLM costs). Drives your live graph: edits, workflows & installs in natural language. The panel UI for comfyui-mcp, the agent-native control plane for ComfyUI.
+- **大概是做什么的**: 📦 On ComfyUI-Manager & the Comfy Registry as comfyui-agent-panel The polished public release — native ComfyUI design system, live activity cards for every agent edit, and multi-tab support. Search comfyui-agent-panel in ComfyUI-Manager to install, An autonomous AI agent embedded in the ComfyUI sidebar that drives your canvas — now on EITHER Claude or ChatGPT (your own subscription, no API key). &nbsp; One-click GPU pod — a ready-to-run ComfyUI with this panel + comfyui-mcp + ComfyUI-Manager v2 preinstalled, on your own GPU. No setup. Stuck or have a question? Join the Discord — or hit 🆘 Need help? in the panel's Settings → About (it copies a diagnostics summary and opens the Discord for you). 🌐 Speaks your language The whole panel — chat, settings, the CivitAI browser, the training wizard, the RunPod controls, every tooltip — is translated into 12 languages , and it follows ComfyUI's own language setting automatically. Change it any time in Settings → Panel language . English · 한국어 · 日本語 · 中文 (简体) · 中文 (繁體) · Русский · Français · Español · Português (BR) · Türkçe · العربية · فارسی
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-assistant, chatgpt, claude-code, codex, comfyui
+
+---
+
 ## 🕔 2026-08-28 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 260 个候选项目中筛选出 6 个未推荐过的新项目。
