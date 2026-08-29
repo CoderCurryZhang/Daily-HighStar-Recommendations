@@ -1,3 +1,67 @@
+## 🕔 2026-08-29 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 178 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [AI_Animation](https://github.com/Unclecheng-li/AI_Animation)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 1,187
+- **核心概述**: 本项目整理了用于生成[炫酷 HTML 动画网页]的 AI Prompts，涵盖动画效果、3D 可视化、PPT 风格演示、UI 美化等多个类别。
+- **大概是做什么的**: 一套用 AI 生成炫酷 HTML 动画的 Agent Skills 集合 · A collection of skills for generating cool HTML animations with AI 🌐 English version : README EN.md 本仓库是基于 WorkBuddy / Claude Code / Cursor 等 AI Agent 的 动效 Skill 集合 。每个 Skill 是一个自包含文件夹，包含 SKILL.md （Agent 执行指令）、 README.md （人类文档）、 references/ （Prompt 参考）和 assets/ （模板 HTML）。安装后，AI Agent 会根据你的描述自动激活对应 Skill，生成完整的单文件 HTML 动画。 - 📊 PPT 风格演示 — 科普、技术讲解、视频配套演示 - 📈 流程图 / 原理演示 — 流程图、概念图、对比图、时序图、AI 模型可视化等 - 🌐 网络协议可视化 — TCP/IP、IPv4、以太帧、路由、DHCP 等 - 🏗️ 动态架构图 — 系统架构、流程图、时序图、数据流图、状态机，带流动动画 + 多格式导出 - 📝 学霸笔记 — 手写笔记本风格的精美 HTML 学习笔记，两种模板风格 - 🎴 卡片剧场 — 侧边栏叙事 + 3D 卡片轮播，协议流程 / 产品特性 / 分步讲解的叙事感演示 - 🎬 视频分镜演示 — 电影级"一个镜头一个 HTML"演示动画：29 种风格轮换、镜头推拉、WebAudio 音效、角色表情吐槽，全屏录屏即成片 - 📱 手机系统 UI 演示 — 一台"真手机"的电影化编排录屏：锁屏通知、聊天、设置页、App 界面逐镜头呈现，HyperOS 级手感动效 + 3D 姿态手机演员 👇 点击预览图查看各 Skill 详情 network-protocol-viz 适用于: 视频录制、技术科普、教学演示、直播课件——需要"PPT 翻页 + 元素依次缓入"动画效果的场景。 ppt-animation 生成 PPT 风格的单文件 HTML 翻页演示。每次翻页后页面内元素依次缓入出现，支持暗色科技风、暖色报纸风、简约白色、赛博朋克红橙、渐变暗色等多套主题。键盘 / 滚轮 / 点击均可翻页，适配全屏播放和录屏。 - 16:9 宽高比，适配全屏播放与录屏 - 每次翻页后元素依次缓入出现（细化到每行文字） - 5 套内置主题： dark-tech / warm-paper / clean-white / cyber-r
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, css, dsh-plugin, dsh-plugins, front-end
+
+---
+
+### 🌟 [wayland](https://github.com/FerroxLabs/wayland)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 591
+- **核心概述**: Wayland - The AI Agent That Perceives. Reasons. Acts. Evolves.
+- **大概是做什么的**: Plan, build, and ship anything from one place. &nbsp; One agent. Every agent. Wayland is a local-first desktop AI agent that runs on your machine and drives Claude Code, Codex, Gemini, Qwen, Goose and a dozen more from one command center. Your keys, your files, your shell. Stop juggling five CLIs. &nbsp;&middot;&nbsp; &nbsp;&middot;&nbsp; &nbsp;&middot;&nbsp; &nbsp;&middot;&nbsp; Wayland is the command center for every AI CLI on your machine. It is a full agent in its own right, and it also drives the CLIs you already use, all from one app, all on your own keys. It perceives, reasons, acts, and evolves locally. Install it, paste one key, and get real work done while one agent plans, builds, and ships across every AI tool you already pay for. Drive Claude Code, Codex, Gemini, Qwen, Goose and more from a single command center. Switch models mid-task. Keep your files, your shell, and your keys local. You cowork with the system to get whole jobs done: write the book, run the multi-week project, take an idea all the way to shipped. You set the goal and stay in control while it handles the
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acp, agent-orchestration, ai-agent, claude-code, desktop-app, electron
+
+---
+
+### 🌟 [opengrok](https://github.com/OnlyTerp/opengrok)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 343
+- **核心概述**: Run any model in Grok Bot — one-command setup, model picker UI, evidence-based provider wire maps, and an update-proof doctor. Not farming you, arming you.
+- **大概是做什么的**: Pick a model per agent. Save. It talks native and survives Grok Bot updates. Keys never leave your machine. Every wire claim in this repo is probe-verified, not vibed. That's the whole install: it detects your Grok Bot install and live services, adopts existing bindings or asks 3 questions, writes its config, baselines your machine, and opens the picker. Then: 1. pick a model for each agent in the dropdown 2. test it live (one click, real request) 🤖 What it gives each model Dropping a foreign model into Grok Bot usually "works" and feels off — slower, dumber, token-hungry. That's harness mismatch: the model was RL-trained on its own harness's wire shape, and gets a generic prompt shape plus wrong reasoning knobs. opengrok fixes the wire: Model family What goes wrong vanilla What opengrok does Grok (xAI) effort knob is xhigh , not max ; fast has no field literal token mapping, always-on reasoning documented GLM (Zhipu) thinks by default — silence is expensive ; max is real verified token table + true off-switch via thinking:disabled Claude thinking is owned by the auth shim; body-pai
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, grok, llm, model-router, openai-compatible, windows
+
+---
+
+### 🌟 [kern](https://github.com/getkern/kern)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 301
+- **核心概述**: A fast, rootless sandbox and virtual resource runtime for any workload, including untrusted and AI-generated code. Daemonless: a real, kernel-enforced container in ~3.5 ms from an OCI image, no daemon, one 1.52 MB static binary.
+- **大概是做什么的**: kern: A fast, rootless sandbox and virtual resource runtime for any workload, including untrusted and AI-generated code. A real, kernel-enforced container in 3.5 ms, out of one 1.52 MB binary with no daemon. 0 RAM at rest · no daemon, no socket, nothing to start · one static binary, libc its only Rust dependency %20%C2%B7%20macOS%20(Linux%20VM)%20%C2%B7%20ARM%20boards-informational.svg) No native Windows: use WSL2. No native macOS: run it in a Linux VM. Install. One binary that manages resources, of which isolation is the first. That is why there is no single row for kern in a comparison table: it is a container runtime, a sandbox, a resource slicer and a stack runner at once, in 1.52 MB with no daemon. - A real container. Real OCI images: pull , build from a Dockerfile, commit , push , save / load . A box from an image starts in 3.5 ms. - A sandbox, always rootless. User, PID, mount, network, UTS and IPC namespaces, an overlay or read-only root pivoted in, a deny-by-default seccomp allowlist and cgroup v2 limits. One flag, --security-profile untrusted , is the whole hardened bundle.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cgroups, code-execution, code-interpreter, container-runtime, containers
+
+---
+
+### 🌟 [octocode](https://github.com/Muvon/octocode)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 459
+- **核心概述**: Structural code intelligence for AI agents — semantic search, knowledge graphs, and a built-in MCP server in one Rust binary. Give Claude, Cursor, and any MCP client a deep understanding of your codebase.
+- **大概是做什么的**: Structural Code Intelligence for AI Agents — MCP Server + Knowledge Graph + Semantic Search Give your AI assistant a brain for your codebase. Octocode transforms your project into a navigable knowledge graph that Claude, Cursor, and other AI agents can search, understand, and navigate. 🚀 Quick Start • 🤖 MCP Integration • 📖 Documentation • 🌐 Website 🤖 Built for AI Agents The Problem: AI assistants are blind to your codebase. They can't search your files, understand dependencies, or remember context across sessions. The Solution: Octocode's MCP server gives AI agents: - 🔍 Semantic search — Find code by meaning, not keywords - 🕸️ Knowledge graph — Navigate imports, calls, and dependencies - 📝 Code signatures — View structure without reading entire files - 🧭 LSP precision — Go-to-definition, find-references, and hover docs via your language server Works with: Claude Desktop • Cursor • Windsurf • Any MCP-compatible AI Now your AI assistant can: Standard RAG treats your code as flat text chunks. It finds similar-sounding snippets but has no idea that auth middleware.rs imports jwt
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, claude-code, cli, code-intelligence, code-search
+
+---
+
+### 🌟 [sepia](https://github.com/Nanako0129/sepia)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 568
+- **核心概述**: De-AI writing skill for Claude Code, Codex, Grok Build, and Antigravity — narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).
+- **大概是做什么的**: De-AI writing at the layer that actually gives AI away. Fiction gets its narrative architecture repaired before anyone touches word choice; professional documents (release notes, PR replies, postmortems, tickets, technical articles) each get rules matched to their venue. A portable Agent Skill for Claude Code, Codex, Grok Build, and Antigravity. One canonical SKILL.md , no per-platform forks. Four operations: write , review (diagnose only), refactor (minimal edits), recreate (full rewrite). Why another humanizer Every popular humanizer edits word choice and syntax. StoryScope (Russell et al., 2026: 61,608 stories, human + 5 frontier LLMs) showed that a classifier using narrative-structure features alone detects AI fiction at 93.2% macro-F1, and that editing the surface style away barely moves it (95.5% → 93.9%). The tells that survive are architectural: themes explained by the narrator, single-track causally-tidy plots, emotions rendered only as bodily sensation, no real-world references, no reader, linear time, endings resolved by protagonist growth and acceptance. sepia turns those
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-writing, antigravity, claude-code, codex, developer-tools
+
+---
+
 ## 🕔 2026-08-29 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 257 个候选项目中筛选出 6 个未推荐过的新项目。
