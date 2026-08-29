@@ -1,3 +1,67 @@
+## 🕔 2026-08-29 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 257 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [DSHA](https://github.com/qiannianhuanxiang/DSHA)
+- **项目语言**: Java
+- **星标数量**: ⭐ 314
+- **核心概述**: 免 ROOT 免 Termux，在手机上跑 DeepSeek Harness。完整 Ubuntu 环境 + proroot 零 ptrace 开销 · AI 输出实时上屏 · ADB 直连 · 数据不丢
+- **大概是做什么的**: DeepSeek Harness 安卓启动器 在手机上跑完整的 deepseek-harness —— 免 ROOT，免 Termux，装完即用 English · 简体中文 · 更新记录 · 安全模型 · AGENTS.md（给 AI / 开发者） 🤖 下一个 AI / 开发者请先读 AGENTS.md （项目结构、启动契约、踩过的坑），不要先全库扫描。 DeepSeek Harness（ @deepseek-ai/dsh ）是 DeepSeek 官方的 agent harness，类 Claude Code。 它是为 glibc Linux 写的，直接在安卓上跑会撞上一堆事：原生模块编译不过、 link(2) 被 SELinux 挡住、沙箱起不来、前端按桌面布局排版。 DSHA 把这些全部封在一个 APK 里。 装 APK、填 API key(或跳过)、点启动 —— 不需要 Termux、 不需要 ROOT、不需要敲一行命令。里面是一个完整的 Ubuntu 24.04 环境： apt 能用、 交互式 PTY 能用、需要编译的原生模块能装，跟你在服务器上用是同一套东西。 🚫 零命令行门槛 内置离线 Ubuntu rootfs，APK 装完就能用。不装 Termux、不配 pkg、不敲命令 🐧 完整 glibc 环境 不是裁剪版： apt / PTY / 原生模块 / Python / git 都在。上游插件不用改就能跑 ⚡ proroot 零 ptrace 开销 传统 proot 每个系统调用两次上下文切换；proroot 走 LD PRELOAD + 二进制补丁做进程内路径翻译。真机实测关键项合计 +58% 🔌 ADB 免 Shizuku 直连 内置无线配对与保活，agent 可以直接操作这台手机（点击、截屏、装应用） 💾 卸载重装数据不丢 对话与设置放在 Documents/dshdata ，文件管理器里可见可备份；API key 走 Android Keystore 加密 🩺 坏了能自己说清哪坏了 23 项自检 + 一键修补 + 15 个自愈脚本；Web 起不来时直接点名是哪个插件 1. 到 Releases 下最新 APK 装上（仅 arm64） 2. 首次启动解压内置环境（几分钟，只有一次） 3. 「配置」页填 DeepSeek API key →「启动」页点启动 → 自动打开 Web UI 就这样。想跑得更细可以走「分步安装」，每步都能单独重装、单独更新。 DSHA 不只是「能跑起来」。下面每一项都是实装的功能。 内置离线 rootfs
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: android, coding-agent, deepseek, deepseek-harness, launcher, llm
+
+---
+
+### 🌟 [Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 425
+- **核心概述**: Curated DeepSeek Harness (DSH) plugins, extensions, tools, skills, clients, runtimes, integrations, and verified references — English and Chinese.
+- **大概是做什么的**: Awesome DeepSeek Harness Plugins A concise, daily-curated directory of public plugins and extensions for DeepSeek Harness (DSH), the open-source DeepSeek agent harness. Explore tools, skills, model providers, memory, automation, runtimes, desktop clients, browser integrations, and developer utilities. Every entry links to its canonical GitHub repository, current star count, and independently verified references. Inclusion: public, useful, maintained, and clearly built for DSH. Review a plugin's code and permissions before installing it. Project Description Stars Referenced by --- --- --- --- DeepSeek Harness A developer-preview agent harness where every capability is a swappable, composable plugin. 1 page DeepSeek Harness official overview · Docs DeepSeek Harness Handbook Provides source-backed operator guides for DeepSeek Harness architecture, plugins, MCP, sessions, sandboxing, evaluation, and troubleshooting. 1 page DeepSeek Harness Handbook · Docs Taxonomy: Models & Providers · Tools & Skills · Sessions & Storage · Loops & Scheduling · Runtime & Sandboxes · UI & Clients · Integra
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, ai-agents, awesome-list, bilingual, curated-list, deepseek
+
+---
+
+### 🌟 [GustoBot](https://github.com/skygazer42/GustoBot)
+- **项目语言**: Python
+- **星标数量**: ⭐ 393
+- **核心概述**: 五星大厨:全面Multi-Agent 的客服机器人，基于langraph实现，txt2sql ,txt2cypher, lightrag, 多模态 等
+- **大概是做什么的**: 基于 Multi-Agent 架构的菜谱知识问答与多模态服务系统 中华菜谱作为世界饮食文化的瑰宝之一，拥有深厚的历史底蕴与丰富的知识体系。从八大菜系的地域特色，到食材搭配的营养学原理，再到烹饪技法的代际传承，菜谱知识既具有高度结构化的特点（如食材用量、烹饪步骤），又包含大量非结构化的文化典故与经验性描述。这种复杂性使得传统的关键词搜索难以满足用户对菜谱知识的深度探索需求。 随着大语言模型（LLM）与知识增强技术的快速发展，将菜谱知识构建为一个 多模态、结构化、可交互的 AI 系统 成为可能。本项目以中华菜谱数据为基础，构建出覆盖菜谱名称、食材、烹饪步骤、营养成分、菜系流派、历史典故等元素的 多层次知识图谱 ，并结合大模型的理解与生成能力，打造了一个 专注于菜谱领域的智能客服 ——「GustoBot」。 在技术架构层面，我们融合了 LangGraph 多智能体编排 、 GraphRAG 图谱检索增强 、 Text2SQL 结构化查询 、以及 多源知识融合 技术，使用户不仅可以通过自然语言提问获得精确答案（如"宫保鸡丁怎么做？"、"川菜有多少道菜？"），还能探索菜谱的历史文化背景（如"宫保鸡丁的典故"）、获取营养建议、甚至生成菜品图片。 本项目致力于打造一个 可迁移、可扩展、面向垂直领域的智能客服模板系统 。通过清晰的三层架构设计（主路由层 → 多工具子图层 → 原子工具层），你可以轻松将其迁移至其他垂直领域（如「宝可梦百科」、「中医药典」、「法律咨询」、「政务服务」等）中打造专域智能客服。仅需更换知识源与图谱结构，即可实现： - 智能意图理解 ：自动识别问题类型，路由到最优处理模块 - 多工具协作 ：动态组合 Neo4j 图谱查询、MySQL 统计分析、向量检索、外部搜索等多种工具 - PostgreSQL 优先兜底策略 ：结构化数据优先 → 向量兜底 → 外部搜索，确保答案质量 - 多模态交互 ：支持文本问答、图片识别/生成、文件解析等多种交互方式 - 知识来源可追溯 ：每个答案都标注来源，支持多源信息融合 - 安全防护机制 ：Guardrails 层确保问题在服务范围内，拒绝越界查询 仓库内置菜谱主数据来自 OpenKG RecipeGraph；部分历史饮食文本和 8 条 pgvector 示例记录在原提交中没有保留可核验的上游出处，仅适合链路演示。完整的数据血缘、用途和许可注意事项见 数据来源与血缘。 --------- ------ --------- 全参微调 爬取和收集数据微调大模型 微调厨神模型 智能路由 自动识别问题类型，路由到合适的处理模块 启发
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, graphrag, langchain, langgraph, lightrag, multi-agent
+
+---
+
+### 🌟 [crabfleet](https://github.com/openclaw/crabfleet)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 230
+- **核心概述**: Mission control for agent runs.
+- **大概是做什么的**: Mission control for Agent runs. Crabfleet gives OpenClaw maintainers a fleet dashboard where every Codex crabbox is visible by operator, repo, terminal, and WebVNC state. The OpenClaw app/API canonical URL is https://crabfleet.openclaw.ai ; https://crabfleet.ai is the public product/docs entrypoint. - Fleet-first workflow. Create repo-ready Crabboxes from the app, SSH, or the Go CLI and see org Codex instances grouped by person. - Board-based workflow. Create cards from prompts, GitHub issues, or PRs. Track them through Todo, Running, Human Review, and Done lanes. - Recurring cards. Give API-created cards a bounded interval schedule; due occurrences use the normal run-attempt path and coalesce while a run or capacity limit blocks dispatch. - Issue/PR lookup. Type 123 in search to preview matching GitHub issues or PRs across enabled OpenClaw repos and create a card from the match. - Codex run control. Start durable run attempts, track heartbeats, watch the Ghostty WASM session grid, and take over only when the selected runtime advertises that capability. - Interactive Crabboxes. Start
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, fleet, management
+
+---
+
+### 🌟 [dsh-agent-rp](https://github.com/hewzhew/dsh-agent-rp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 200
+- **核心概述**: SillyTavern migration and next-generation Agent RP for DSH
+- **大概是做什么的**: DSH Agent RP 是运行在 DSH 上的原生角色扮演 Runtime。角色会直接作为顶层 Agent 行动；Persona、世界、提示策略、正则包、状态和记忆都是可以独立选择、复用与组合的一等资源，而不是某张角色卡的附属设置。 Character Card、Chat Completion 预设、World Info、MVU、EJS 和 Tavern Helper 是目前优先接入的内容格式。它们让已有创作可以进入这套 Runtime，但不会反过来定义它的能力边界。 - 从统一的「开始游玩」入口选择角色对话或世界场景，再组合 Persona、世界、提示策略、独立正则包与开场；已知的外部资源权限会在启动前一次处理。 - 导入 PNG、JSON、CHARX 角色卡，以及 World Info、Chat Completion 预设、独立正则包和 SillyTavern JSONL 聊天记录；角色、Persona、世界、预设与正则包可以分别保存和复用。 - 连续游玩一段可回溯的故事：重新生成、续写、切换回复版本、修改输入并创建分支，同时保存明确状态与长期记忆。 - 用「故事工程」维护可编辑的大纲、伏笔、公开历史、人物私有认知、原著资料和正文分区；启用后由研究、人物、导演、分区与编辑 Worker 在正文前协作，正文后再把实际发生的事件沉淀回工程。 - 运行更复杂的社区内容：MVU、同步 EJS、世界书正则、显示正则、轻量 HTML 前端及一部分 Tavern Helper 脚本会进入各自受限的兼容环境，单项失败不会拖垮整段会话。 - 在沉浸视图与调试视图之间切换，查看实际生效的提示、世界召回、状态和运行诊断。 角色本身仍是顶层 Agent，角色对话直接发生在普通会话中。未启用故事工程时没有额外的旁白、协调器或 Character 子代理；启用故事工程后，人物 Worker 只在正文前依据各自私有认知提出行动，最终回复仍由顶层角色 Agent 展示。 一轮中的工作按用途分开：搜索等写作前工具会把结果交还角色，并继续使用当前角色与预设完成正文；可选的正文审阅 Worker 只接收角色已经写完的回复，不重新注入酒馆预设，审阅结果会作为可切换回复版本保存；正文后生成的图片只进入精简的呈现交接，同一回合首次生图尝试完成或失败后都会隐藏生图入口，下一回合才恢复；MVU 状态由后续 Worker 读取最终可见正文，依次生成候选操作并独立核验，只有核验结果可以结算。每项 Worker 都有独立请求和终止记录，单项失败会保留角色 Agent 原文并继续后续阶段。玩家明确要求保存长期记
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, dsh, roleplay, sillytavern
+
+---
+
+### 🌟 [supercli](https://github.com/yashdev9274/supercli)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 206
+- **核心概述**: The open source SWE agent
+- **大概是做什么的**: AI-Powered SWE Agent A monorepo containing the Supercode dashboard, documentation, terminal web client, CLI coding agent, and shared packages. Dashboard → http://localhost:3000 No database? Set one up later — bun install skips Prisma client generation gracefully when DATABASE URL isn't set. Supercode is a full-stack AI-powered development platform built as a Bun + Turborepo monorepo. It includes a web dashboard, an MDX documentation site, an AI coding agent CLI, a terminal-style web client, and a parallel project for fine-tuning open-source LLMs. - Dashboard ( apps/web ) — Next.js dashboard for managing repositories, viewing analytics, and GitHub OAuth - Documentation ( apps/docs ) — MDX-based documentation site - Terminal Web Client ( apps/supercode-cli/client ) — Browser UI that mirrors the CLI experience - Supercode CLI ( apps/supercode-cli/server ) — AI-powered coding agent published to npm as supercode - API Server ( apps/api ) — Scaffolding for a shared backend - Open Model ( supercode-openmodel/ ) — Fine-tuning open-source LLMs (Qwen3, GLM-4) for coding tasks This is a monorep
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, claude-code, coding-agent, harness-agent, swe, vibecoding
+
+---
+
 ## 🕔 2026-08-28 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 285 个候选项目中筛选出 6 个未推荐过的新项目。
