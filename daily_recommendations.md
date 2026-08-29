@@ -1,3 +1,67 @@
+## 🕔 2026-08-29 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 217 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Memoh](https://github.com/felinics/Memoh)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,095
+- **核心概述**: ✨ The open-source multi-agent platform. Every agent gets its own computer, desktop, network, and long-term memory. You can bring your own key, or host your coding agent like Claude Code, Codex and so on.
+- **大概是做什么的**: Give every AI agent its own cloud computer. Open source. Desktop, browser, network, and long-term memory — always on, even when your laptop is closed. Memoh Cloud · Deploy to Server · Docs · Website · X Memoh is an open-source multi-agent platform. Each agent gets its own cloud computer — a dedicated workspace with a filesystem, desktop, browser, network, and long-term memory. Your agents stay online 24/7, even when your laptop is closed. Use your own API keys to run Memoh's built-in agent, or host your existing Claude Code and Codex agents inside Memoh workspaces. Talk to them through Telegram, Discord, Lark, WeChat, Web UI, and more. They remember context across sessions and platforms, drive a browser, call MCP tools, and run scheduled tasks. Run one for yourself, assign one to each team member, or spin up a fleet. Memoh Cloud is coming soon — zero setup, always-on agents in the cloud. Join the waitlist at memoh.ai/waitlist. Self-host the full stack on your own infrastructure. More deployment options The Compose stack runs Server and Channel as separate services. Keep the internal
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-companion, ai-memory, personal-assistant
+
+---
+
+### 🌟 [serve-sim](https://github.com/EvanBacon/serve-sim)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,719
+- **核心概述**: The `npx serve` of Apple Simulators.
+- **大概是做什么的**: The npx serve of Apple Simulators. Host your simulator for use with Agent tools like Codex, Cursor, or Claude Desktop — locally, over your LAN, or host on a remote mac and tunnel anywhere. https://github.com/user-attachments/assets/fbf890f4-c8c7-4684-82be-d677b8a188f8 serve-sim spawns a small Swift helper that captures the simulator's framebuffer via simctl io , exposes it as an MJPEG stream + WebSocket control channel, and serves a React preview UI on top. It works with any booted iOS Simulator — no Xcode plugin, no instrumentation in your app. - Full 60 FPS video stream in the browser. - Swipe from the bottom to go home. - gestures like pinch to zoom by holding the option key. - Simulator logs are forwarded to the browser for browser-use MCP tools to read from. - Recent simulator actions are available in the browser tools panel and serve-sim event-log . - Drag and drop videos and images to add them to the simulator device. - Keyboard commands and hot keys are forwarded to the simulator, including CMD+SHIFT+H to go home. - Apple Watch, iPad, and iOS support. Hosted simulators can be
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, headless, ios
+
+---
+
+### 🌟 [bountyforge](https://github.com/Gabson0x/bountyforge)
+- **项目语言**: Python
+- **星标数量**: ⭐ 405
+- **核心概述**: All-round bug bounty skill for Claude Code parallelized agents for smart contract audits (EVM, Move, Solana, TRON), web/API security, and submission-ready reports for HackerOne, Bugcrowd, Intigriti & Immunefi.
+- **大概是做什么的**: All-round bug bounty skill for Claude Code — parallelized agents for smart contract audits (EVM, Move, Solana, TRON), web/API security, local tooling orchestration, and submission-ready reports for HackerOne, Bugcrowd, Intigriti & Immunefi. AI Pentesting Tool: Run isolated, cloud-hosted pentesting sandboxes at bountyforge.xyz — your AI key, your Firecracker microVM, your report. Pipeline: recon → hunt → triage → H1-ready report. AI slop gets you rate-limited; BountyForge gets you paid. New in v3.1.0: Al-Mizaan v3 deep validation gates, SIS-MD passive intelligence integration, agent isolation checks. See CHANGELOG.md. Bounty Forge spins up 8 specialized security agents in parallel , each attacking a different surface of your target. Findings are deduplicated, gate-evaluated, CVSS-scored, and formatted into a submission-ready report — in minutes. Web / API Auth bypass, IDOR, XSS, SSRF, SQLi, CSV injection, open redirect, path traversal, parameter pollution, GraphQL, CORS Smart Contract EVM, Move/Aptos, Solana, TRON — structural & chain-specific bugs Access Control Role bypass, init hij
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: 0x-alpha, ai, ai-agents, claude-code, pentesting, secuirty
+
+---
+
+### 🌟 [DeepGit](https://github.com/zamalali/DeepGit)
+- **项目语言**: Python
+- **星标数量**: ⭐ 904
+- **核心概述**: Deep research agent to help you find the best GitHub repositories 🕵️!
+- **大概是做什么的**: Find gold in the GitHub haystack. DeepGit is an agentic research engine for GitHub. Instead of collapsing your question into a handful of keywords, it keeps the full intent, searches across keyword, topic, and semantic angles, judges every candidate on real evidence, and reads the actual source of the close calls before it answers. You get the repo you actually meant, including the hidden gems a plain search would bury. What's new: a ground-up rebuild. A genuinely agentic pipeline that spends effort only where it is uncertain (typically 2 LLM calls , escalating to real code-reading only for contested picks), persistent semantic recall that gets smarter the more you use it, and a first-class MCP server so your AI assistant can call DeepGit directly. Intent-first, not keyword-first Your full request is preserved as hard requirements, soft preferences, and anti-patterns the judge checks against. No lossy tag reduction. Agentic and adaptive A zero-cost confidence gate decides whether the fast answer is trustworthy. Only when it is not does DeepGit read real code, re-judge, and reflect. E
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, deep-research, github-search, langchain, langgraph, llm
+
+---
+
+### 🌟 [pi-agent-desktop](https://github.com/abcwyc/pi-agent-desktop)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 315
+- **核心概述**: Pi — A cross-platform AI coding agent, bringing the Claude Code experience to your desktop. No environment setup, no terminal commands. Download and start coding right away.
+- **大概是做什么的**: pi-agent-desktop is a local AI agent desktop app for macOS and Windows. It packages the agent capabilities of pi into a standalone, installable application. - Browse and resume past Pi sessions by project, without digging through terminal history or .jsonl files. - Talk to the agent in real time inside a desktop window, with thinking, tool calls, context usage, cost, and compaction state all visible. - Continue from any earlier message as a branch, or fork the conversation into an independent session. - Manage models, OAuth/API keys, custom model configuration, skills, and plugins. - Switch Git worktrees from the sidebar and browse project files. - Preview source code, diffs, Markdown, images, audio, PDF, and DOCX files. - Dark mode, automatic session naming, a completion sound, and restored run state. - A weekly check of the latest stable pi-agent-desktop GitHub Release, with an in-app notice only when the installed app is older. - One upgrade button installs a complete, signed new build of Pi Agent and restarts automatically. ⬇️ Download Pi Agent (macOS / Windows) Repository: abcwy
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, desktop-app, pi
+
+---
+
+### 🌟 [official-design-md](https://github.com/VoltAgent/official-design-md)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 484
+- **核心概述**: Official DESIGN.md files published by companies themselves. First-party design systems that AI agents read to generate consistent UI.
+- **大概是做什么的**: Official DESIGN.md files published by companies and projects themselves. The tracker for first-party DESIGN.md adoption. Every entry here is a DESIGN.md published by the company or project itself — not extracted, not reverse-engineered, not community-made. If a team ships an official DESIGN.md in their repo or docs, it belongs here. DESIGN.md is a new concept introduced by Google Stitch. A plain-text design system document that AI agents read to generate consistent UI. It's just a markdown file. No Figma exports, no JSON schemas, no special tooling. Drop it into your project root and any AI coding agent or Google Stitch instantly understands how your UI should look. Markdown is the format LLMs read best, so there's nothing to parse or configure. File Who reads it What it defines ------ ------------- ----------------- AGENTS.md Coding agents How to build the project DESIGN.md Design agents How the project should look and feel This repo tracks official DESIGN.md files — the ones companies and projects publish themselves. Looking for ready-to-use DESIGN.md files extracted from real webs
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, design-md, design-system, design-tokens, frontend, llm
+
+---
+
 ## 🕔 2026-08-29 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 178 个候选项目中筛选出 6 个未推荐过的新项目。
