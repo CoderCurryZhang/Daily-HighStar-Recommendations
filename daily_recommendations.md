@@ -1,3 +1,67 @@
+## 🕔 2026-08-30 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [mcp2cli](https://github.com/knowsuchagency/mcp2cli)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,374
+- **核心概述**: Turn any MCP, OpenAPI, or GraphQL server into a CLI — at runtime, with zero codegen
+- **大概是做什么的**: Turn any MCP server, OpenAPI spec, or GraphQL endpoint into a CLI — at runtime, with zero codegen. Save 96–99% of the tokens wasted on tool schemas every turn. Read the full writeup → mcp2cli ships with an installable skill that teaches AI coding agents (Claude Code, Cursor, Codex) how to use it. Once installed, your agent can discover and call any MCP server or OpenAPI endpoint — and even generate new skills from APIs. After installing, try prompts like: - mcp2cli --mcp https://mcp.example.com/sse — interact with an MCP server - mcp2cli create a skill for https://api.example.com/openapi.json — generate a skill from an API --search implies --list and works across all modes ( --mcp , --spec , --graphql , --mcp-stdio ). OAuth authentication APIs that require OAuth are supported out of the box — across MCP, OpenAPI, and GraphQL modes. mcp2cli handles token acquisition, caching, and refresh automatically. Tokens are persisted in /.cache/mcp2cli/oauth/ so subsequent calls reuse existing tokens and refresh automatically when they expire. Headless hosts — no browser on the machine running m
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, cli, graphql, mcp, openapi
+
+---
+
+### 🌟 [vexa](https://github.com/Vexa-ai/vexa)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,726
+- **核心概述**: Open-source meeting transcription API for Google Meet, Microsoft Teams & Zoom. Auto-join bots, real-time WebSocket transcripts, MCP server for AI agents. Self-host or use hosted SaaS.
+- **大概是做什么的**: Open-source meeting bots and real-time transcription — cloud or fully self-hosted. A bot joins your Google Meet, Microsoft Teams, and Zoom calls and streams speaker-attributed transcripts in real time — through our API or one you host — then feeds sandboxed agents that build a Markdown knowledge base your team owns. Apache-2.0, air-gap-ready. (Jitsi: join + capture offline-proven, live validation pending — 883.) vexa.ai runs Vexa 0.12 for meeting bots and transcription. Sandboxed knowledge agents are self-hosted only — self-host Vexa to run the full stack. Every meeting-AI tool you can buy sends your conversations to their cloud and rents you access back. Vexa inverts that: run the stack yourself, point it at your own models, own what your meetings become. No one else has all three: 1. Vexa is in the meeting. A real bot joins Meet, Teams and Zoom — Jitsi offline-proven, live validation pending — and streams speaker-attributed transcripts live. That bot fleet is the genuinely hard part — every "chat with your docs" tool starts after a transcript exists. Vexa 2. Your knowledge is files
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: api, google-meet, mcp, meeting-assistant, meeting-minutes, meeting-notes
+
+---
+
+### 🌟 [rust-sdk](https://github.com/modelcontextprotocol/rust-sdk)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 3,854
+- **核心概述**: The official Rust SDK for the Model Context Protocol
+- **大概是做什么的**: An official Rust Model Context Protocol SDK implementation with tokio async runtime. Migrating to 3.x? See the migration guide for breaking changes and upgrade instructions. This repository contains the following crates: - rmcp: The core crate providing the RMCP protocol implementation - see rmcp - rmcp-macros: A procedural macro crate for generating RMCP tool implementations - see rmcp-macros This SDK implements the stable MCP 2026-07-28 specification while remaining fully compatible with the 2025-11-25 release and earlier versions. Features introduced in 2026-07-28 — server discovery & negotiation, transport-neutral subscriptions, long-running tasks, response caching, multi-round-trip requests, and standard HTTP routing headers — are documented below. For the full MCP specification, see modelcontextprotocol.io. - Multi-Round-Trip Requests - Standard HTTP Headers - Stateless Streamable HTTP - Capability & Protocol Version Negotiation - JSON Schema 2020-12 Add the latest published version with cargo: Or use the dev channel: Json Schema generation (version 2020-12): Client lifecycle m
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: mcp, mcp-client, mcp-server, rust
+
+---
+
+### 🌟 [google-meta-ads-ga4-mcp](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,072
+- **核心概述**: Google Ads MCP + Meta Ads MCP + GA4 in one server for Claude, ChatGPT, Cursor & n8n — 250+ tools, hosted remote MCP, OAuth login, no API keys. By Ryze AI.
+- **大概是做什么的**: Google Ads MCP + Meta Ads MCP + GA4 — one unified MCP server Google Ads MCP, Meta Ads (Facebook/Instagram) MCP, and Google Analytics 4 in a single server for Claude, ChatGPT, Cursor, Windsurf & n8n — 250+ tools, hosted remote MCP, OAuth login, no API keys. Watch: Google Ads & Meta Ads Account Audit with Claude MCP See how to run a full Google Ads and Meta Ads account audit using Claude with MCP — from data pull to automated audit report and presentation, in minutes instead of hours. https://github.com/user-attachments/assets/2f931292-a3af-4010-a72e-38b8cf6e62ba What you'll see: Connect your ad accounts → Claude analyzes campaign performance, budget efficiency, and targeting gaps across Google Ads & Meta Ads → generates a complete audit report with recommendations → builds a ready-to-share presentation. Try it free on Ryze AI → One MCP server. Three platforms. 250+ tools. Manage all your advertising and analytics from ChatGPT, Claude, Cursor, n8n, Windsurf, and more. Powered by Ryze AI. The Model Context Protocol (MCP) is the open standard that lets AI assistants like Claude and ChatG
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ad-optimization, advertising, ai-agent, campaign-management, chatgpt, claude
+
+---
+
+### 🌟 [pi-llm-wiki](https://github.com/zosmaai/pi-llm-wiki)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 538
+- **核心概述**: Self-maintaining, Obsidian-compatible knowledge base for pi — turn raw sources into an interlinked wiki that compounds. Native Open Knowledge Format (OKF) v0.2.
+- **大概是做什么的**: @zosmaai/pi-llm-wiki English 中文 Español 日本語 Deutsch Français Português Русский 한국어 हिंदी Self-maintaining, Obsidian-compatible knowledge base for pi. Follows Andrej Karpathy's LLM Wiki pattern. Turn raw sources (URLs, PDFs, markdown, JSON, XML) into a durable, interlinked, LLM-maintained wiki that compounds over time. Native Open Knowledge Format (OKF) v0.2 support - Create portable OKF v0.2 documents with canonical frontmatter, standard Markdown links, and stable source citations. - Read both legacy and OKF pages so existing vaults keep working without an automatic migration or rewrite. - Generate deterministic indexes and logs from authoritative pages, keeping navigation and metadata reproducible. - Use the same knowledge model from Pi or MCP with Claude Code, Cursor, Windsurf, and other MCP clients. - Stay Obsidian-compatible while keeping your knowledge ready for tools that support Open Knowledge Format. Start with a new OKF vault, or point pi-llm-wiki at an existing vault and adopt the format on your terms. See the OKF Foundation specification for implementation details. pi ( @m
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-memory, interoperability, karpathy, knowledge-base, knowledge-management, llm-wiki
+
+---
+
+### 🌟 [Controllable-RAG-Agent](https://github.com/NirDiamant/Controllable-RAG-Agent)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 1,620
+- **核心概述**: This repository provides an advanced Retrieval-Augmented Generation (RAG) solution for complex question answering. It uses sophisticated graph based algorithm to handle the tasks.
+- **大概是做什么的**: Sophisticated Controllable Agent for Complex RAG Tasks 🧠📚 An advanced Retrieval-Augmented Generation (RAG) solution designed to tackle complex questions that simple semantic similarity-based retrieval cannot solve. This project showcases a sophisticated deterministic graph acting as the "brain" of a highly controllable autonomous agent capable of answering non-trivial questions from your own data. 📖 RAG Made Simple: the book that extends this repo The full reference: a 400-page visual guide that goes deeper than any notebook can. The intuition behind every technique, side-by-side comparisons of when each one wins (and when it quietly fails), and diagrams that make the tricky parts finally click. 1,500+ copies sold · Hit 1 in Generative AI on Amazon at launch · ⭐ 4.6 stars 📖 PDF + EPUB · GitHub community price: 33% off with code RAGKING 👉 Get RAG Made Simple (33% off with code RAGKING) 🚀 Level up with my Agents Towards Production repository. It delivers horizontal, code-first tutorials that cover every tool and step in the lifecycle of building production-grade GenAI agents, gui
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: advanced-rag, agent, genai, langchain, langgraph, llm
+
+---
+
 ## 🕔 2026-08-29 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 217 个候选项目中筛选出 6 个未推荐过的新项目。
