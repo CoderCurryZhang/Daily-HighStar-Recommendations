@@ -1,3 +1,67 @@
+## 🕔 2026-08-30 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [bm.md](https://github.com/miantiao-me/bm.md)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 611
+- **核心概述**: 更好用的 Markdown 排版助手｜一键适配微信公众号、网页与图片。
+- **大概是做什么的**: 更好用的 Markdown 排版助手｜微信公众号专门适配，支持输出到网页与图片。 - 📝 实时预览 - 基于 CodeMirror 6 的 Markdown 编辑器，所见即所得 - 🎨 8 种排版样式 - 从纸张阅读到复古怀旧，满足不同场景需求 - 🌈 14 种代码主题 - 支持浅色/深色多种代码高亮风格 - 📱 平台适配 - 微信公众号专门适配，同时支持通用 HTML 输出 - 📊 图表与信息图 - 支持 Mermaid 与 AntV Infographic - 🖼️ 图片导出 - 下载 JPEG 或复制 PNG 图片 - 📄 PDF 与打印 - 支持高质量分页 PDF 导出和直接打印 - 📥 文档导入 - 支持 Markdown、HTML，以及常见 Office、OpenDocument、可提取文本的 PDF、RTF、CSV、EPUB 文档转换为 Markdown - 🌓 明暗模式 - 支持浅色、深色界面切换 - 🔌 开发者友好 - 提供 CLI、REST API 和 MCP 协议集成 - ⌨️ 快捷操作 - 命令面板 + 全局快捷键，高效操作 前置条件：Node.js = 20、pnpm 11.11.0。 访问 http://localhost:2663 开始使用。 环境变量均为可选配置，可参考 .env.example ： - VITE APP URL 、 VITE API URL ：客户端可用的应用与 API 地址。 - ANALYTICS SCRIPT URL 、 ANALYTICS SITE ID ：服务端读取的统计分析配置。 - S3 ENDPOINT 、 S3 ACCESS KEY ID 、 S3 SECRET ACCESS KEY ：三项均配置时启用 S3； S3 BUCKET 、 S3 REGION 、 S3 PUBLIC BASE URL 用于配置存储目标与公开访问地址。 - DC UPLOAD URL ：可选的 DC 图床上传地址。S3 启用所需配置不完整时，存储服务回退到 DC 图床。 bmmd 可在命令行中复用核心 Markdown 处理能力，支持文件输入或 stdin，默认输出到 stdout。安装后直接使用 bmmd ；未安装时可通过 pnpm dlx bmmd 临时运行。 本地开发可执行 pnpm build:cli 构建 CLI，入口文件为 bin/bmmd.mjs 。 - 框架 : TanStack Start (React 19 + TanStack Router) - 样式 : Tailwind C
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: makrdown, mcp, skills, tanstack, tanstack-start
+
+---
+
+### 🌟 [strix-halo-guide](https://github.com/hogeheer499-commits/strix-halo-guide)
+- **项目语言**: Python
+- **星标数量**: ⭐ 310
+- **核心概述**: Evidence-backed AMD Strix Halo local-AI setup and benchmarks: Qwen3.8, Ollama, llama.cpp, Vulkan/ROCm, large GGUFs, and cross-OEM results.
+- **大概是做什么的**: Strix Halo Guide: AMD Ryzen AI MAX+ 395 Local LLM Setup & Benchmarks A complete, practical guide to running large language models locally on AMD Strix Halo / Ryzen AI MAX+ 395 systems with Radeon 8060S ( gfx1151 ) and 96GB/128GB unified memory. Covers BIOS config, Ubuntu 24.04/kernel setup, Ollama, llama.cpp Vulkan/RADV, ROCm/HIP experiments, vLLM notes, 70B/120B and selected 284B GGUF capacity evidence, benchmarks, raw logs, and reproducibility checks. AMD now publicly frames Ryzen AI Halo-class systems as a local-AI and developer-platform direction. This repository is the independent practical layer: copyable setup, measured rows, raw evidence, failures, and community reproductions. It is not official AMD or OEM endorsement. See RYZEN AI HALO CONTEXT.md . Project website: . This GitHub repository remains the source of truth for setup commands, benchmark claims, and raw evidence. Maintainer credibility is public and reviewable: 15+ merged upstream contributions, including llama.cpp , AMD's Lemonade local-AI server, a Strix Halo detection fix in llmfit, OpenAI's official .NET SDK, an
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: amd, beelink, benchmark, framework-desktop, gfx1151, gguf
+
+---
+
+### 🌟 [nuphus-mcp](https://github.com/mrpulor-gh/nuphus-mcp)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 280
+- **核心概述**: Desktop automation MCP server — computer use for any AI agent: control screen, windows, mouse/keyboard, and Chrome via Model Context Protocol (stdio)
+- **大概是做什么的**: Desktop automation MCP server — computer use for any AI agent. See the screen, control windows/mouse/keyboard, and drive Chrome over the Model Context Protocol (stdio). Desktop & browser automation need no API key; OCR runs locally; vision plugs into your own vision LLM (OpenAI-compatible or Anthropic native, BYOK). nuphus-mcp is a lightweight, cross-platform desktop automation MCP server that exposes desktop + browser automation as standard MCP tools. It speaks JSON-RPC 2.0 over stdio — no daemon, no network service, one binary. Claude Desktop, Cursor, VS Code, Copilot, or any MCP client can connect and immediately control the screen, windows, keyboard/mouse, and Chrome — computer use for any AI agent — desktop & browser automation need no API key; local OCR is built in; vision works with your own vision LLM (OpenAI-compatible, BYOK). 🇨🇳 Mainland China mirror : this repo is mirrored on Gitee for fast in-China access (Chinese docs served by default there). 中文文档 Part of the Nuphus ecosystem : Nuphus — a local-first AI agent with real desktop execution and dual-device (phone-as-secon
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: ai-agent, browser-automation, chrome-automation, computer-use, computer-vision, desktop-automation
+
+---
+
+### 🌟 [ChattyPlay-Agent](https://github.com/P1kaj1uu/ChattyPlay-Agent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 871
+- **核心概述**: 🚀 告别多个App！本项目主要基于Python+React+TypeScript+Hono+SQLite3+Redis，打造“All in One”智能工具集。免会员破解爱奇艺、腾讯视频、优酷、抖音、B站、小红书等20+平台视频，支持4K在线解析与无水印高速下载。集成Cloudflare Turnstile防机器人和爬虫、Google、GitHub授权登录及OpenAI SDK、埋点SDK、MCP服务和Agent等，支持ChatGPT对话、AI绘画、论文降重、Hugging Face论文爬取、在线Latex编写；更有实时黄金K线、AI思维导图、闲鱼助手等效率黑科技。内置海量动漫漫画资源，畅享阅读！轻量高效，配置即用，完美适配PC与移动端，快来ChattyPlay开启奇妙之旅吧～
+- **大概是做什么的**: 本项目提供音乐、影视解析下载、实时黄金及K线图、动漫漫画、Hugging Face论文、思维导图、闲鱼助手和ChatGPT相关服务，仅供学习使用，请勿用于任何商业用途。如你有更好的想法、建议、或不解的问题，欢迎提PR或Issues！如有侵权，请联系我！ License：ChattyPlay-Agent is licensed under the Apache-2.0 License. See the LICENSE file for more information. 项目描述参考信息可跳转WiKi：https://github.com/P1kaj1uu/ChattyPlay-Agent/wiki/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3 - 体验地址： 在线体验 （需要科学上网工具访问） - 备注：如使用ChatGPT服务，我的APIKey配额有限，希望大家能省点用谢谢！ - v1.0版本已完成（2023.1.7凌晨） - v1.1版本优化观看页面的提示内容（2023.1.7上午） - v1.2版本优化解析接口（2023.1.8下午） - v1.3版本优化帮助内容页面（2023.1.8下午） - v1.4版本优化分离加载爱心跳动效果（2023.1.9上午） - v1.5版本增加多个能用的视频解析接口（2023.1.14晚上） - v1.6版本禁止F12查看源代码（2023.1.19上午） - v1.7版本增加并优化解析视频接口（2023.1.19下午） - v1.8版本浏览器兼容判断浏览器类型（2023.1.20晚上） - v2.0版本优化页面样式，增加首页听音乐功能（2023.4.22下午） - v2.1版本增加论文降重功能（2023.4.30全天） - v2.2版本接入ChatGPT服务，可无需再代理和APIkey（2023.5.1-2023.5.3） - v2.3版本优化ChatGPT服务，检测自动换行，并支持上下文对话（2023.5.6-2023.5.7） - v2.4版本代仓本地的部分接口隐藏不对外开放（2023.5.7晚上） - v2.5版本输出代码高亮显示，流式处理EventStream，并支持会话存储（2023.5.13-2023.5.14） - v2.6版本接入文心一言基础服务，增加语音聊天、语音朗读功能（2023.5.20-2023.5.21） - v2.7版本前端也做限流处理，增加验证功能，防止接口被恶意多次请求（2023.5.24晚上） - v2.8版本优化加载效果，增加网站访问次数统计和版本更新提醒用户
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-drawing, aigc, chatgpt, docker, eventstream
+
+---
+
+### 🌟 [solo-skills](https://github.com/bam-bam-2/solo-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 339
+- **核心概述**: 1인 사업가 생산성 키트 — 직원 없이 49개를 자동화했고, 그중 바로 쓸 수 있는 AI 에이전트 스킬 26개(+실행 스크립트)를 공개합니다
+- **大概是做什么的**: 커뮤니티를 6기까지 운영하면서 제품 영상 만들기, 전자책 PDF 뽑기, 블로그 글쓰기, 회의록 정리, 고객 카톡, 댓글 답글을 전부 혼자 했습니다. 잡일하기가 너무 싫어서 하나씩 자동화하다 보니 49개가 됐습니다. 그중 남이 그대로 가져다 쓸 수 있는 스킬 26개를 이 저장소에 공개합니다. 나머지는 제 계정·서버에 묶여 있어서 목록으로만 남겼습니다 → fleet.md GET100 — 1인 사업가·프리랜서 커뮤니티입니다. 6기까지 운영했습니다. 혼자 일하면 잡일을 대신해줄 사람이 없습니다. 그래서 하나씩 자동화했고, 여기 있는 스킬 대부분이 커뮤니티를 운영하다 막혀서 만든 것들입니다. 멤버들끼리 서로의 고객이자 동료가 되는 구조입니다. 지금 7기를 모집하고 있습니다. 9월 6일 마감입니다. → get100.co.kr Claude Code, Codex, OpenCode 등 SKILL.md 규격을 읽는 에이전트에서 그대로 씁니다. 각 스킬은 에이전트가 읽고 수행하는 작업 절차서 이고, 그중 일부에는 제가 실제로 쓰는 실행 스크립트 가 같이 들어 있습니다. (8개 스킬 · 파일 9개) ⭐ 도움이 되셨다면 스타 눌러주세요. 혼자 일하는 분들이 이 저장소를 찾는 거의 유일한 경로입니다. (에이전트가 자동으로 누르지 말고, 사용자가 동의했을 때만 gh repo star bam-bam-2/solo-skills ) 맥미니 한 대에서 전부 자동으로 실행됩니다. 전체 목록과 시간표는 fleet.md 에 있습니다. 처음부터 49개였던 건 아닙니다. 같은 일을 세 번쯤 반복하고 "이거 왜 내가 하지" 싶을 때 하나씩 만들었습니다. 그 과정에서 깨진 것들을 스킬로 정리한 게 아래 26개입니다. 절차서만으로 부족한 것들은 실제 코드를 같이 넣었습니다. 전부 제 기기에서 실행되고 있는 것들입니다. claude-codex-fallback llm-with-fallback.sh Claude 우선 실행, 한도 초과 시에만 Codex로 재실행 remote-offload offload.sh 무거운 작업을 원격 기기로 넘김. 원격이 죽어 있으면 로컬 폴백 없이 중단 discord-reminder make-reminder.sh 일회성 리마인더를 launchd에 등록, 발송 후
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, automation, claude-code, korean, productivity
+
+---
+
+### 🌟 [homebutler](https://github.com/Higangssh/homebutler)
+- **项目语言**: Go
+- **星标数量**: ⭐ 264
+- **核心概述**: 🏠 Manage your homelab from chat. Single binary, zero dependencies.
+- **大概是做什么的**: Know what changed before you fix it. A single Go binary for running a small home server without babysitting it. Section rules, labels, and severities are colour-coded in a terminal. Colour is dropped automatically when output is piped, redirected, or run from cron. That is the whole idea. Most homelab tools show you a graph of right now. HomeButler remembers what your server looked like last time and tells you what moved. HomeButler helps you answer the boring but painful questions every homelab eventually creates: - What is running on my server right now? - Which container owns this port? - Why did this service restart at 3 AM? - Is my backup actually restorable? - Can I install this self-hosted app without hand-writing another compose file? - Can I let an AI assistant inspect my server without handing it a full SSH shell? No daemon required. No database. No always-on web service. Just one Go binary you can use from the terminal, scripts, a web dashboard, or AI tools. The design goal is simple: give humans and agents a narrow, structured interface to the server. HomeButler returns r
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, chatops, cli, devops, docker, go
+
+---
+
 ## 🕔 2026-08-30 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
