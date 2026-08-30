@@ -1,3 +1,67 @@
+## 🕔 2026-08-30 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 277 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [unidbg](https://github.com/zhkl0228/unidbg)
+- **项目语言**: Java
+- **星标数量**: ⭐ 5,175
+- **核心概述**: Allows you to emulate an Android native library, and an experimental iOS emulation
+- **大概是做什么的**: Allows you to emulate an Android native library, and an experimental iOS emulation. This is an educational project to learn more about the ELF/MachO file format and ARM assembly. Use it at your own risk ! - Support MCP (Model Context Protocol) for AI-assisted debugging with Cursor and other AI tools. - Emulation of the JNI Invocation API so JNI OnLoad can be called. - Support JavaVM, JNIEnv. - Emulation of syscalls instruction. - Support ARM32 and ARM64. - Inline hook, thanks to Dobby. - Android import hook, thanks to xHook. - iOS fishhook and substrate and whale hook. - unicorn backend support simple console debugger, gdb stub, instruction trace, memory read/write trace. - Support iOS objc and swift runtime. - Support dynarmic fast backend. - Support Apple M1 hypervisor, the fastest ARM64 backend. - Support Linux KVM backend with Raspberry Pi B4. - Memory leak detection for emulated native code with guest backtrace and host stack trace. MCP Debugger (AI Integration) unidbg supports Model Context Protocol (MCP) for AI-assisted debugging. When the debugger is active, type mcp in the c
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: android, capstone, debugger, dynarmic, emulation, emulator
+
+---
+
+### 🌟 [Better-Fullstack](https://github.com/Marve10s/Better-Fullstack)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 725
+- **核心概述**: Scaffold production-ready full-stack apps in TypeScript, Rust, Python, Go, and Java with a visual builder and CLI. Choose your frontend, backend, database, auth, AI, payments, and DevOps integrations, all wired together.
+- **大概是做什么的**: Scaffold configured fullstack projects in TypeScript, React Native, Rust, Go, Python, Java, .NET, and Elixir. Pick the Stack Parts, then inspect the generated result and its evidence. Why Better Fullstack? Most scaffolding tools lock you into one framework and one opinion. Better Fullstack doesn't. - Broad stack catalog. Frontend, backend, database, ORM, auth, API layer, payments, AI, DevOps, and more - Multi-ecosystem projects. Compose web, mobile, and backend stacks across TypeScript, React Native, Rust, Go, Python, Java, .NET, and Elixir - Visual builder. Configure your stack in the browser, get a ready-to-run CLI command - Lifecycle-aware. Create, add, update, check, and generate from the recorded bts.jsonc project model - Compatibility-checked. The planner rejects or adjusts invalid selections before files are generated 🌐 Web Builder (Recommended) Configure your stack visually, pick every option from a UI, preview your choices, and get a ready-to-run command. Open the App Builder → Install the Claude Code plugin bundle: - Codex plugin catalog , .agents/plugins/marketplace.json
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: boilerplate, cli, dotnet, drizzle-orm, elixir, full-stack
+
+---
+
+### 🌟 [Drissionpage-MCP-Server](https://github.com/jumodada/Drissionpage-MCP-Server)
+- **项目语言**: Python
+- **星标数量**: ⭐ 489
+- **核心概述**: DrissionPage MCP Server · Browser automation for Claude Code, Codex, and MCP clients
+- **大概是做什么的**: DrissionPage MCP Server Professional browser automation for Codex, Claude Code, and MCP clients, powered by DrissionPage. DrissionPage is a Python web automation library built around direct Chromium/CDP control with requests-style HTTP session support. This server exposes its browser-facing capabilities as typed, atomic MCP tools. Open the interactive Browser Lab to replay bounded natural pointer motion, drag controls, and verify observable state. Official Repositories : GitHub GitCode English Version 中文版本 🖱️ Atomic Browser Control with Natural Pointer Motion DrissionPage MCP 0.8.6 exposes 69 typed browser capabilities. The MCP server provides accurate low-level observation and interaction; the client or an optional Skill composes those capabilities for a site, component library, challenge, or business workflow. The model decides what to do; the MCP executes the requested browser operation exactly. Core interaction guarantees - Two bounded profiles : direct emits one exact move; natural emits a deterministic 24-step eased cubic path with reproducible 8-14ms intervals and exact final
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: browser-automation, claude-code, codex, drissionpage, mcp
+
+---
+
+### 🌟 [harness-remote](https://github.com/giuliastro/harness-remote)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 310
+- **核心概述**: Native-session control plane for Codex, Claude Code, OpenCode, OMP and PI. Run, resume and hand off coding sessions across your machines.
+- **大概是做什么的**: Your sessions. Any coding agent. Any device. A local-first control plane for native AI coding-agent sessions. Run, observe, resume and hand off work across Codex CLI, Claude Code, OpenCode, Oh My Pi and PI from desktop, web or Android — while your code, credentials, subscriptions and native Sessions stay on your own machines. Start in your CLI → pick it up from another device → hand it to a different coding agent → return to the native Session that did the work. Harness Remote lets you remotely run, observe and resume the coding agents already installed on your machines. When another agent is better for the next step, continue the work there with an explicit handoff instead of copy/pasting context into an unrelated chat. Harness Remote is not another coding agent. It is the continuity and remote-control layer for the coding agents you already use, while their native Sessions remain the source of truth. Why Harness Remote 3 AI coding tools are getting better fast — and the best tool for planning, implementation, debugging or review is not always the same one. The problem is that every
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acp, agent-harness, agent-orchestration, ai-agents, android, claude-code
+
+---
+
+### 🌟 [harnessclaw-engine](https://github.com/harnessclaw/harnessclaw-engine)
+- **项目语言**: Go
+- **星标数量**: ⭐ 271
+- **核心概述**: An LLM programming assistant engine built with Go, supporting WebSocket, multi-turn dialogues, tool calling, permission control, and skill extension.
+- **大概是做什么的**: An LLM programming assistant engine built with Go. It provides capabilities via the WebSocket protocol, supporting multi-turn dialogues, tool calling, permission control, and skill extension. Architecture Overview Dependency Direction : Channel → Router → Engine → Provider / Tool (Unidirectional, no circular dependencies) - 5-Phase Query Loop — Preprocessing (Auto-compaction) → LLM Streaming Call → Error Recovery (Exponential Backoff) → Tool Execution (Parallel/Serial) → Continuation Check - WebSocket Protocol v2.2 (Card Model) — UI-first streaming: 8 actions ( card.add/set/append/tick/close + prompt.user/reply + session.event ) × 13 card kinds; server-side & client-side tool execution, permission / question / plan-review prompts, and crash-recovery of unanswered prompts - 7 Built-in Tools — Bash, FileRead, FileEdit, FileWrite, Grep, Glob, WebFetch - 6-Step Permission Pipeline — DenyRule → ToolCheckPerm → BypassMode → AlwaysAllowRule → ReadOnlyAutoAllow → ModeDefault, supporting 6 permission modes - Skill System — Loads skills from SKILL.md files, supporting YAML frontmatter, paramet
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, astron-community, golang, harness-engineering, iflytek-astron
+
+---
+
+### 🌟 [awesome-agent-evolution](https://github.com/EvoMap/awesome-agent-evolution)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 202
+- **核心概述**: A curated list of AI Agent evolution, memory systems, multi-agent architectures, and self-improvement projects. | evomap.ai
+- **大概是做什么的**: Awesome Agent Evolution AI Agent self-evolution, memory systems, autonomous self-improvement, and the infrastructure that powers them. - Agent Evolution and Self-Improvement - Agent-to-Agent Protocols - Agent Development Platforms - Agent Coding and Software Engineering - Multi-Agent Frameworks - Prompt and Behaviour Optimization - Agent Safety and Guardrails - Key Research Papers - Benchmarks and Evaluation - Community and Knowledge Agent Evolution and Self-Improvement Projects focused on enabling AI agents to evolve, learn, and improve autonomously. - Eliza - Autonomous agents for everyone. A framework for creating and deploying AI agents that evolve over time. by @elizaOS (19,168 stars) - Agent Zero - General-purpose AI agent framework that learns and evolves through interaction. by @agent0ai (18,969 stars) - SuperAGI - A dev-first open source autonomous AI agent framework. Build, manage and run self-improving autonomous agents. by @TransformerOptimus (17,660 stars) - evolver - The GEP-powered self-evolution engine for AI agents. Genome Evolution Protocol enables agents to evolve
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, agent-evolution, agent-framework, agent-protocol, agentic-ai, ai-agent
+
+---
+
 ## 🕔 2026-08-30 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
