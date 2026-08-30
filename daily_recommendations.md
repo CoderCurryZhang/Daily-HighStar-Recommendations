@@ -1,3 +1,67 @@
+## 🕔 2026-08-30 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [headcount](https://github.com/cbrock84/headcount)
+- **项目语言**: Markdown
+- **星标数量**: ⭐ 673
+- **核心概述**: An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable.
+- **大概是做什么的**: Add a department, not a prompt. Open the interactive org chart — search every skill, open a department, jump to the source. An agent organization for Claude Code, structured as a company: a chief executive over 16 departments, 146 skills in total. Every department is an independently installable plugin, so a project loads only the functions it needs rather than all of them at once. Install as many departments as the project needs. Skills are addressed as department:skill — security:threat-modeling , finance:unit-economics — so names never collide. Skills load themselves when a request matches. Ask a question in the department's territory and the right specialist engages: You ask What loads "why isn't this landing page converting?" demand-generation:landing-page-cro-expert "review this design before we build it" security:threat-modeling "can we afford this hire?" finance:unit-economics "our growth has stalled" executive:business-growth-consultant Invoke one directly by name when you want a specific lens: /finance:financial-modeling . Seven situations that cross departments — a SOC 2 d
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-marketplace, claude-code, claude-code-plugin, claude-plugin, claude-skills, mcp
+
+---
+
+### 🌟 [asqav-sdk](https://github.com/jagmarques/asqav-sdk)
+- **项目语言**: Python
+- **星标数量**: ⭐ 423
+- **核心概述**: Python and TypeScript SDKs for verifiable evidence of AI agent actions. Signed receipts, policy enforcement, audit trails. Works with LangChain, CrewAI, MCP.
+- **大概是做什么的**: The evidence layer for AI agents. Audit trails, approvals, policy gates, and compliance reports for every action. Asqav SDK - Python + TypeScript The official client SDKs for Asqav, the evidence layer for AI agents. Sign every action with ML-DSA-65 (FIPS 204), enforce policies before execution, and produce regulator-ready audit trails. This repository ships two SDKs from a single monorepo: - python/ - the original Python SDK, published to PyPI as asqav - typescript/ - the TypeScript SDK, published to npm as @asqav/sdk Both wrap the same Asqav API. Pick the one that matches your stack. TypeScript / Node.js: Both packages have zero native dependencies. All ML-DSA cryptography runs server-side. Each signed action returns a receipt like: The agent now has a cryptographic identity, a signed audit trail, and a verifiable action record. 10-minute quickstart The fastest path from zero to a signed action. Sign up at asqav.com and copy your sk ... key. Call govern() - one line to init + create Paste the verification url in a browser, or call the API directly: That's it. See python/examples/qui
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent-governance, ai-agents, ai-compliance, ai-governance, ai-security, audit-trail
+
+---
+
+### 🌟 [chat-on-steroids](https://github.com/totec448-spec/chat-on-steroids)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 579
+- **核心概述**: Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.
+- **大概是做什么的**: Give ChatGPT a controlled bridge to your computer. Local files, commands, durable session history, Compact &amp; Resume, experimental worker chats, and optional Windows desktop control over MCP. Chat On Steroids is a Windows, macOS and Linux desktop app that exposes only the folders and capabilities you configure through a local MCP server. You keep using ChatGPT in the browser. The app is the permission boundary and local executor; the companion Chrome extension adds browser-side chat attribution, session capture, richer tool rows, Compact & Resume, and experimental multi-agent coordination. Screen/mouse/keyboard/clipboard automation remains Windows-only and is omitted from the macOS/Linux product surface. Platform x64 ARM64 Windows EXE EXE macOS DMG · ZIP DMG · ZIP Linux AppImage · DEB AppImage · DEB Every package is architecture-specific and carries matching Electron/native dependencies, tunnel-client , ripgrep and the Chrome extension. Windows uses a per-user-capable assisted installer; macOS ships DMG/ZIP; Linux ships AppImage and Debian packages. On Debian/Ubuntu, prefer the DE
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: automation, chatgpt, chrome-extension, electron, linux, local-first
+
+---
+
+### 🌟 [agenttrail](https://github.com/sodiumsun/agenttrail)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 512
+- **核心概述**: An infinite canvas for your AI coding agents. Every repo is a region on one zoomable live map - watch Claude Code, Codex, and Cursor sessions, plans, tool calls, and file changes in real time. Local, zero-dependency.
+- **大概是做什么的**: Know what your coding agents are doing, while they are doing it. Your coding agent has been working for half an hour. Is it making progress? Is it stuck? Did it quietly reopen the part it already called done? agenttrail is a local, open-source observability layer for AI coding agents. It turns plans, tool calls, file changes, and progress from Claude Code, OpenAI Codex, Cursor, or any agent that edits files into a live project map. Start an agent, walk away, and come back to this: The browser opens on the live board. On a repo with no plan it offers the full setup inline — one y/n, and the backfill prompt lands on your clipboard. Hooks are only wired with your consent. After a reboot, npx agenttrail up relaunches every board you've ever run; npx agenttrail autostart makes a repo's board start at login and self-heal. That's it. No account, no global install, no telemetry. agenttrail opens on localhost and starts watching the repo. How the live agent map works A plan says what the agent intends to do. The filesystem says what it actually touched. agenttrail shows both. Signal What it t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-monitoring, agent-observability, ai-agents, ai-coding-agents, claude-code, coding-agents
+
+---
+
+### 🌟 [Adobe_Premiere_Pro_MCP](https://github.com/hetpatel-11/Adobe_Premiere_Pro_MCP)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 510
+- **核心概述**: Adobe Premiere Pro MCP. Tools for AI-driven video editing via MCP, for Codex, Claude, and other MCP clients.
+- **大概是做什么的**: MCP Bridge for Adobe Premiere Pro Operate local Adobe Premiere Pro projects through MCP. 283 tools, 13 context resources, and 10 guided prompts for Codex, Claude Code, Claude Desktop, and other MCP clients. CEP is the supported production bridge; UXP remains experimental. Languages: English 日本語 Tiếng Việt 简体中文 繁體中文 한국어 Deutsch Español Français Italiano Dansk Polski Русский Bosanski العربية Norsk Português (Brasil) ไทย Türkçe ភាសាខ្មែរ Start here: install the local bridge, open it in Premiere, then run verify premiere connection before editing. Install Codex plugin Claude Code plugin Verify Telemetry Privacy Policy Terms of Service Security The supported bridge is the included CEP panel . Install the npm package on the same computer as Premiere Pro and your MCP client: --install-cep installs the CEP bridge, enables the required Adobe CEP debug setting, prepares the bridge directory, and configures supported local MCP clients. --doctor verifies the server build, CEP installation, bridge directory, debug setting, and client configuration. Then restart Premiere Pro, open Window Extension
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: adobe, adobe-mcp, adobe-premiere-pro, adobe-premiere-pro-mcp, ai-automation, ai-video-editing
+
+---
+
+### 🌟 [python-sdk](https://github.com/agentclientprotocol/python-sdk)
+- **项目语言**: Python
+- **星标数量**: ⭐ 318
+- **核心概述**: Python SDK for ACP clients and agents.
+- **大概是做什么的**: Agent Client Protocol (Python) Releases track the upstream ACP schema; contributions that tighten coverage or tooling are always welcome. - Spec parity: Generated Pydantic models in acp.schema track every ACP release so payloads stay valid. - Direct construction: Generated discriminator fields have defaults, so models can be instantiated directly. - Runtime ergonomics: Async base classes, stdio JSON-RPC plumbing, and lifecycle helpers keep custom agents tiny. - Examples ready: Streaming, permissions, Gemini bridge, and duet demos live under examples/ . - Contrib utilities: Session accumulators, tool call trackers, and permission brokers share patterns from real deployments. - Agent authors who need typed models and event-stream ergonomics for ACP-compatible assistants. - Client integrators embedding ACP parties inside Python applications or wrapping existing CLIs via stdio. - Tooling teams experimenting with permission flows, streaming UX, or Gemini bridges without re-implementing transports. See real adopters like kimi-cli in the Use Cases list. - Follow the Quickstart guide for ins
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acp, agent-client-protocol, ai, llm, python, zed
+
+---
+
 ## 🕔 2026-08-30 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 228 个候选项目中筛选出 6 个未推荐过的新项目。
