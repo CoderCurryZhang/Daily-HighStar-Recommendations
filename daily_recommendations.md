@@ -1,3 +1,67 @@
+## 🕔 2026-08-30 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 228 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [DSH-Desktop-EAC](https://github.com/zouyuxuan122/DSH-Desktop-EAC)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,444
+- **核心概述**: DeepSeek Harness Desktop (dsh-desktop). EAC: Embracing All Creation (揽尽万象). Bundled Node.js runtime with full dsh-CLI kernel, one-click startup, 10 built-in UI themes.
+- **大概是做什么的**: Deepseek Harness EAC — 揽尽万象 EAC = Embracing All Creation（揽尽万象） 把官方 deepseek-ai/deepseek-harness （ @deepseek-ai/dsh ，一切皆插件的 agent harness） 封装为 开箱即用的 Windows 桌面客户端 ，并在其上拥抱社区万象：皮肤、插件、工具、记忆——你所能想到的，一键皆可装。 维度 官方 DeepSeek Harness 默认体验 Deepseek Harness EAC 增强 安装与启动 需自行准备 Node.js，并通过 CLI 启动 内置 Node.js、npm CLI 和 dsh，提供安装版与便携版，双击即用 桌面体验 主要在终端或浏览器中使用 原生桌面窗口、系统托盘、快捷方式维护、进程清理和任务通知 CLI 共存 CLI 与 Web 通常使用同一插件环境 桌面端使用独立 web-desktop profile，与 CLI 共享会话和 API Key，插件互不干扰 插件可靠性 主要通过包管理器安装并手动排查问题 安装和启动前自动快照，异常时支持体检、修复、重试、回滚和事故报告 界面定制 默认使用官方界面 内置 10 款皮肤，支持字体、字号、颜色和移动端布局调整 项目工具 依赖外部编辑器和终端 内置文件树、行级 diff、一键还原、持久终端及 HTML/本地端口预览 上下文与人设 手动执行 /compact 、编辑人设文件 自动压缩、人设卡管理和 soul.md 热重载 模型与 MCP 主要通过配置文件或 CLI 管理 可视化配置视觉模型和 MCP，并支持从 Claude Code、Codex 导入配置 插件生态 通过 CLI 或包管理器安装插件 内置插件市场，可搜索并一键安装、卸载和管理插件 会话效率 以常规会话流程为主 支持临时对话、对话节点导航和第三方模型思考强度调整 消息接入 默认不包含 EAC 消息桥接 支持一键接入微信 ClawBot / OpenClaw 更新维护 通过包管理器或手动方式更新 dsh agent 与桌面客户端分别自动检查更新，失败时保留或回退原版本 EAC 不修改官方 dsh 内核，完整保留插件架构和官方能力；默认共享 DSH HOME 中的会话与 API Key，同时隔离桌面端插件环境。 - Windows 10/11（x64） - macOS 13+（Apple Silicon / arm64，桌面版） - 无需预装 Node.js 或任何其他运行时 当前发布线为 5.x（Tauri/Rust 壳）。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, deepseek, deepseek-harness, desktop, desktop-app, dsh
+
+---
+
+### 🌟 [stop-that-shit](https://github.com/lennney/stop-that-shit)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 799
+- **核心概述**: Stop That Shit（别再造史了）｜面向 Codex/GPT 场景的多平台 Hook + Skill Guard：拦截 AI coding agent 无需求的哈希、校验和与任务范围膨胀。 A multi-platform Hook + Skill Guard for AI coding agents in Codex/GPT workflows: stop unrequested hashes, checksums, and task-scope creep.
+- **大概是做什么的**: Stop That Shit（别再造史了） 你只让 Agent 导出一个结果文件。它顺手又生成一份 SHA-256 校验和，但后面没有任何命令会读取它。Stop That Shit。 Stop That Shit（别再造史了）处理 AI coding agent 自己加出来的防御性工作和任务越界，支持 Codex、Claude Code、OpenCode 和 Hermes Agent CLI。 这份校验和生成了，任务却没有少做一步，后面的流程也完全一样。换个任务，多出来的可能是 guard、兼容层、全量测试或额外流程。Codex、Claude Code、OpenCode 和 Hermes Agent CLI 都可能这么做：每一步单看都有理由，但用户没要求，当前任务也用不上。 我也试过不断往 AGENTS.md 里补「不要乱改」「别过度设计」「没让我做的先别做」。规则越补越长， AGENTS.md 自己也开始造史。Stop That Shit 把其中能明确判断的边界做成 Skill 和可执行 Guard。 你用 review 、 change 等模式写明授权，再按需限制文件、依赖、hash 和 subagent 预算。Stop That Shit 在受覆盖的 Hook 路径上检查这些明确边界。Agent 仍然可以读 仓库，也必须处理真正受影响的调用方。Guard 确认某个动作越界时，会返回一枚红章： 0.1.0 是首个多平台正式版本：Codex、Claude Code、OpenCode 和 Hermes Agent CLI 四套 Adapter 共用同一套 Guard、Skill、成对案例与只存元数据的本地 Runtime。 Skill + Guard 同一份 Skill，加上机器可执行边界 默认；检查宿主 Hook 配置后启用 只装 Skill Stop Ladder 和任务模式引导 可选；没有执行拦截 从 Codex + GPT-5.6 开始，现在覆盖多种 Agent 项目从 Codex 起步：公开记录保留了 Codex CLI 0.145.0 + gpt-5.6-sol 的探索运行，以及 Codex CLI 0.147.0 + gpt-5.6-luna 的定向 pilot。现在四个 Adapter 共用同一套任务边界核心；Codex 安装方式、GPT-5.6 记录和 paired eval 见 EVIDENCE.md 与 Codex 对照测试。 需要 Node.js 18+。完整安装说明见 INSTALL.md。 重启 Claude Code 或执行 /re
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, ai-coding, claude-code, codex, codex-cli
+
+---
+
+### 🌟 [reverse-api-engineer](https://github.com/nottelabs/reverse-api-engineer)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,106
+- **核心概述**: The agent that turns websites into APIs!
+- **大概是做什么的**: Reverse API Engineer Turn websites into APIs. Browse (or let an agent browse), and get a clean, typed client for the endpoints the site actually uses. 1. You give it a website and a goal ("fetch all Apple jobs"). 2. A browser visits the site, either driven by you or by an AI agent. 3. Network traffic is captured to a HAR file. 4. Your configured model reads the traffic and writes a working API client in Python, JavaScript, TypeScript, Go, Java, C , PHP, Ruby, or C. No more manually opening DevTools, copying cURL commands, and gluing together a client. Agent mode (the default) captures through npx -launched browser tooling — browser MCP servers (Playwright or Chrome DevTools) or the Vercel agent-browser CLI — and needs no extra Python packages. Manual mode drives a local Playwright browser, which ships in the optional [manual] extra: Cycle modes with Shift+Tab : ------ -------------- manual You drive the browser; AI generates the client from captured traffic. agent An AI agent drives capture autonomously (Playwright or Chrome MCP, or Vercel agent-browser CLI). engineer Re-run generati
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, claude, cli, mcp, openapi
+
+---
+
+### 🌟 [IDAssist](https://github.com/symgraph/IDAssist)
+- **项目语言**: Python
+- **星标数量**: ⭐ 718
+- **核心概述**: AI-Powered Reverse Engineering Plugin for IDA Pro
+- **大概是做什么的**: AI-Powered Reverse Engineering Plugin for IDA Pro Author: Jason Tang IDAssist is an IDA Pro plugin that integrates LLM-powered analysis directly into IDA's interface, providing AI-assisted binary reverse engineering through configurable LLM providers, semantic knowledge graphs, RAG document search, and supports a wide diversity of LLM providers. Built with Python and PySide6, IDAssist runs as a dockable panel inside IDA Pro 9.0+ and communicates with LLM providers (OpenAI, Anthropic, Ollama, LiteLLM, and more) to analyze functions, suggest renames, answer questions about code, and build a searchable knowledge graph of an entire binary. Function Explanation — Generate detailed natural-language explanations of decompiled functions with automatic security analysis including risk level, activity profile, security flags, and API detection. Interactive Query Chat — Ask questions about the binary with persistent chat history. Use context macros ( func , addr , line , range ) to inject function code, addresses, or disassembly ranges into queries. Automated Actions — AI-powered rename suggest
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ida-plugin, ida-plugins, idapro, llm
+
+---
+
+### 🌟 [FeedCraft](https://github.com/Colin-XKL/FeedCraft)
+- **项目语言**: Go
+- **星标数量**: ⭐ 304
+- **核心概述**: craft your feed at ease! 轻量级rss中间件, 提取全文, 翻译、摘要一站式服务
+- **大概是做什么的**: Craft all your feed in one place! Doc: English 简体中文 繁體中文 FeedCraft is a simple, powerful RSS feed processing tool. It can serve as middleware to handle your RSS feeds; you can use it to extract the main text, perform intelligent translation, generate article summaries through AI, filter articles using natural language, and more. It includes a built-in visual RSS generator (HTML/JSON/Search to RSS) that can turn web pages, JSON API responses, or search results into RSS feeds. FeedCraft 是一个简单、强大的 RSS 源处理工具. 他可以作为一个中间件处理你的 RSS 源, 你可以用它来提取正文、智能翻译、通过 AI 生成文章摘要、通过自然语言筛选文章等. 它内置了可视化 RSS 生成器 (HTML/JSON/Search to RSS)，支持将网页、JSON API (Curl) 或搜索结果转换为 RSS 订阅源。 - 开源可自部署. 可以作为中间件与现有的任何 RSS 阅读器协同使用 - AI Power, 可以接入 Open AI 接口兼容的 LLM 对 RSS 进行处理, 可自定义 prompt - HTML/JSON/Search to RSS : 内置可视化 RSS 生成器，支持将网页、JSON API (支持 Curl 语句导入) 或搜索结果转换为 RSS 订阅源 - 支持 便携模式 (portable mode, 即用即走, 只需要在原 RSS 地址前面加个前缀即可), 和 高级模式 (dock mode, 在后台页面自定义 RSS 地址和各类深度加工参数) 访问以下 URL 格式即可快速调用 FeedCraft 对输入的 RSS 源进行指定的处理 https://feed-craft.colinx.one/craft/{craft name here}?input url={input rss url} - AtomCraft(原子工艺), 指要如何处理一个 rss 源
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, awesome-selfhost, docker, feed, gpt, llm
+
+---
+
+### 🌟 [astrbot_plugin_proactive_chat](https://github.com/Pancakes-Labs/astrbot_plugin_proactive_chat)
+- **项目语言**: Python
+- **星标数量**: ⭐ 379
+- **核心概述**: 一个能让 Bot 在私聊和群聊中发起主动消息的插件，拥有上下文感知、持久化数据、动态情绪、免打扰时段和 TTS 集成。还有独立 WebUI，可进行个性化配置。 An AstrBot plugin that enables Bot to send proactive messages in private and group chats, featuring context awareness, persistent data, dynamic emotions, do-not-disturb periods, and TTS integration. It also boasts an independent WebUI for personalized.
+- **大概是做什么的**: 简体中文 English 日本語 一个为 AstrBot 设计的、功能强大的主动消息插件。它能让你的 Bot 在特定的会话长时间没有新消息后，用一个随机的时间间隔，主动发起一次拥有上下文感知、符合人设且包含动态情绪的对话。 如果你对 AI 带来的情感陪伴有需求，或者想让 ta 更加拟人，非常欢迎你来体验这个插件！ 本插件基于较新版本的 AstrBot 进行开发，致力于打造一个高质量的，好用的主动消息插件。 一般情况下，推荐使用最新的 AstrBot 版本以获得最佳体验。 目前插件处于较为稳定的开发阶段，我也会持续维护本仓库与插件。 1. 🌟 功能特色 8. 🏗️ 系统架构 2. ✨ 效果示例 9. ⚠️ 历史版本表格 3. 🚀 安装与使用 10. ❓ 常见问题简答 4. 💻 现代化 WebUI 控制台 11. 🚧 最新版本的已知限制 5. 🌐 平台适配情况 12. 💖 友情链接与致谢 6. 📑 插件配置项详解 13. 📚 推荐阅读 7. 📂 插件目录与结构 14. 📞 联系我们 大家好，我是 DBJD-CR，初来乍到，请多关照。 这是我在 GitHub 上的首个仓库，也是第一次以开发者的身份参与到开源社区中，如果存在做的不好的地方还请理解。 今年的早些时候，我第一次了解到了 AstrBot 这个项目，但当时限于个人能力的不足，没有去深入研究。 现在经过了大半年的学习，以及参与体验了一些社区里的其他开源项目（主要是 KouriChat 和 LingChat），我觉得我有能力来学习这个项目了。 于是在前段时间，受到一位群友的启发后，我尝试并成功在本地部署了 AstrBot ，也为其高度成熟的开发生态和插件市场感到赞叹。 但我在插件市场逛了一圈后，发现偌大的市场里，竟然没有一个好用的 主动消息 的插件，只有类似 主动回复 的插件，但这不是我想要的。 此时，一个疯狂的想法在我的大脑里诞生了： 我要去做那个填补空白的人。 如果我能写出一个主动消息的插件，那么我使用 AstrBot 的体验将完全不逊于 KouriChat ，也能让我那可怜的 2c2g 的云服务器少一点多线程任务压力（只需要部署一个 AstrBot 就行了）。抱着这样一点点"私心"，我踏上了我的插件开发之旅。 这个插件的开发者，他的编程能力为 0 ，写一行" Hello World "的代码都费劲，在大学计算机基础公共课的 Python 期末考试的编程题中，他运用的思想是"面向结果编程"，他甚至学的不是计算机或人工智能相关的专业，还是个文科生。 因此对我而言，想要从 0 开始，开发一个插
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, astrbot, astrbot-plugin, codex, css
+
+---
+
 ## 🕔 2026-08-30 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 277 个候选项目中筛选出 6 个未推荐过的新项目。
