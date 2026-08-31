@@ -1,3 +1,67 @@
+## 🕔 2026-08-31 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [LongMemory](https://github.com/CaviraOSS/LongMemory)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 4,478
+- **核心概述**: Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc.
+- **大概是做什么的**: Durable, temporal, governed memory for AI agents. Not just RAG. Not just a vector database. Local-first and self-hosted. LongMemory is a cognitive memory engine for LLM applications and autonomous agents. - Durable local-first storage with SQLite - Immutable content, provenance, and temporal truth - Strict, historical, associative, grounded, and multilingual recall - Explainable evidence selection and token-bounded context - Governed project memory, Skills, Chat Memory, LLM-Wiki, and CodeGraph - One TypeScript engine across npm, CLI, HTTP, MCP, dashboard, and VS Code - Native integrations for agent hosts, automation tools, and Python frameworks Your model stays stateless. Your application stops being amnesiac. 1. Use It in 10 Seconds Install as a library No service or external database is required for in-memory use. Reopening the same database restores nodes, worlds, entities, edges, temporal history, grounding, and lifecycle state. The API listens on http://127.0.0.1:7331 by default. Include the dashboard: - API and MCP: http://127.0.0.1:7331 - Dashboard: http://127.0.0.1:3000 - Hea
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-infrastructure, ai-memory, artificial-intelligence, cognitive-architecture
+
+---
+
+### 🌟 [switch](https://github.com/sandbox-quantum/switch)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 478
+- **核心概述**: Connect any AI agent to your team in Slack, Teams & Discord. Open-source and self-hostable.
+- **大概是做什么的**: Bring humans and AI agents together in the tools where your team already works Switch is the underlying infrastructure and framework that allows you to build teams where humans and agents work side by side. - 💬 Bring your agents where your team already collaborates . Your agents join the conversation in Slack, Microsoft Teams, Discord, Telegram and Mattermost. Nobody has to learn a new tool or move anywhere. - 🌍 Any agent, any provider, any framework, running anywhere . Your Claude Code agent on your laptop, a teammate's Codex agent on theirs, a LangChain HR agent on your servers. If it speaks the protocol, it can join. - 🧩 Design how humans and agents work together . Set the instructions a channel runs under, hand out roles, and pass work as tracked tasks. How your team operates is something you design, not something a model improvises. - 🛡️ Run your team with confidence . Define who can talk to which agent and in what context. Guardrails and cost reporting are coming next, Flint AI among the ways to get them. The same incident, in the apps teams already use. Someone reports che
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai, ai-agents, chatops, discord, langchain
+
+---
+
+### 🌟 [video-talkcraft](https://github.com/Vincentwei1021/video-talkcraft)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 350
+- **核心概述**: Agent skill that turns Claude Code / Codex into a motion-design studio for voiceover-driven explainer videos — word-level voiceover sync, 78 motion recipe cards, an anti-slideshow camera system, Remotion rendering.
+- **大概是做什么的**: 口播视频的 agent skill：字级配音同步 · 78 张动效配方卡 · 七层反 PPT 镜头系统 · 三重验收 video-talkcraft 是 video-shotcraft 系列的口播视频篇：一个把 Claude Code / Codex 变成口播视频动效工作室的 AI agent skill。 给它一份口播稿和一条成品配音，它在本机对齐字级时间戳、把每个语义拍写进 SHOTBOOK 分镜，然后用 Remotion 渲出高质量的解说成片——动态字卡、 证据截图、运镜、素排字幕、影视级音效，全部锁在人声上。 🖼️ 在线画廊：78 张动效预览一页全览 » - 字级配音同步 —— scripts/timestamps cpu.py 把口播稿对齐到音频 （默认 FireRedASR2-CTC int8，备选 faster-whisper 免手动下载）。110s 中英混合口播 对照 GPU 强制对齐器实测：字级偏差中位 20–40ms、最差 200ms、质检零误报。 - 78 张动效配方卡 ——每张有意图、参数、已知坑、可直接复制的自包含 Remotion tsx 源码和可跑的 HTML 预览， （本地 open gallery/index.html 同款）。动态字卡、数据镜头、证据巡游、 六式运动承接转场、长镜头世界画布、人物合成等。 - 七层反 PPT 系统 ——连续相机曲线、视差平面、idle/让位生命周期、呼吸环境层。 静止帧在结构上不可能出现（漏网的也会被自动检测抓住）。 - 经得住审片的排版纪律 ——语义拍分镜、同屏元素预算、留白锚、枢轴句切镜规则、 用真实检测（ scripts/face bbox.py ）量出来的人脸安全区，不靠目测。 - 三重验收 ——自动静止检测、纯音效轨逐 cue 能量验证、带动效锚点帧与连拍三帧组的 最直接的方式：把仓库链接丢给你的 agent。 在 Claude Code / Codex 里直接说： 或用 skills CLI / 手动安装： - Node 18+（Remotion 渲染；单片工程内 npm install ） - Python 3.10+，时间戳管线 pip install zhconv pypinyin sherpa-onnx soundfile numpy （首次使用下载一次 767MB 的 FireRedASR2-CTC 模型，地址见 scripts/timestamps cpu.py 头注释；或加 --backend whisper 免手动下载） 口播稿 字级时间戳对齐，逐句质检标记 成品配
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, claude, claude-code, explainer-video, kinetic-typography
+
+---
+
+### 🌟 [get-job.skill](https://github.com/agentenatalie/get-job.skill)
+- **项目语言**: Python
+- **星标数量**: ⭐ 469
+- **核心概述**: 实习.skill — 双非也能拿大厂 offer。帮你改简历、抠面经、准备面试，把真实背景翻译成面试官想要的样子。
+- **大概是做什么的**: 从岗位调研、简历改写到分轮次面试准备，把真实背景翻译成面试官想要的语言。 它能做什么 · 效果示例 · 怎么用 · 示例成品 · 工作原理 · 安装 求职最难的不是没经历，是 经历跟目标岗位看起来没关系 ，或者 简历改得再花面试一追问就崩 。这个 skill 把整条链路走完，缺一不可： 阶段 做什么 产出 -------------- ---------------------------------------------------------------------------------- --------------- ① 调研岗位 按目标市场选择本地来源，用 WebSearch + 来源分级摸清岗位要什么：核心能力关键词、隐性门槛、最新动态 岗位调研.md ② 改简历 目标岗位反向定位 + 把真实经历翻译成岗位语言，克制使用迁移叙事，一键生成 docx 改后简历.docx ③ 准备面试 根据调研发现真实轮次 + 每个 bullet 逐条讲解 + 自我介绍/表达训练 + 面后复盘题库，让你被追问也不崩 面试准备/ 开工前会先做一次 输入体检 ：目标岗位、目标市场、JD、简历、投递状态、面试轮次哪些完整，哪些能自动补齐，哪些只能低置信降级。缺 JD 会先找官方招聘页/同岗 JD；轮次不明就只做总览和 bullet 深挖；简历片段不完整就输出素材缺口清单，不编不存在的信息。 交付前还会跑一层 质量闸门 ：检查 source 覆盖、JD 到简历的匹配、简历 bullet 到面试准备的覆盖、每个 claim 的证据等级、轮次依据和公开文件里的标签泄漏。没过红线就不交付，能降级的降级，不能验证的标低置信。 每段的产出都是下一段的输入。 方向错了，简历改得再漂亮也没用。 教育学能投金融、心理学能进 AI、文科生能做互联网运营——靠的不是编经历，是翻译。 同一个人的简历，改之前 vs 改之后。经历一个字没编，只是翻译成了目标方向听得懂的语言。 ❌ 改之前 语言堆动作、格式无定位、内容看不出和岗位的关系 ✅ 改之后 定位头 + 痛点→产品决策→可演示 Demo + 统一专业排版 上面这对前后简历示例在 examples/文科投AICoding/ （内容全部泛化，仅作演示）。 再往后，它会基于改后的简历反推岗位、生成一套 分轮次 + 逐 bullet 面试准备 （节选）： 完整面试准备示例在 examples/文科投AICoding/ 。 这就是这个 skill 做的事：不编经历，把你已经有的东西翻译到位，再帮你准备到面试不崩。 装好 skill 后，把简历和目标岗位
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, claude-skill, interview-preparation, job-search, resume
+
+---
+
+### 🌟 [spring-ai-loom-agent](https://github.com/wb04307201/spring-ai-loom-agent)
+- **项目语言**: Java
+- **星标数量**: ⭐ 327
+- **核心概述**: A Spring Boot auto-configuration library that injects RAG knowledge base, MCP tool calling, and Skill library into Spring AI applications with an out-of-the-box chat UI.
+- **大概是做什么的**: Spring Boot AI Agent — an out-of-the-box solution that makes your app converse , remember , think , and act . 6 Pillars : 💬 Chat · Knowledge · 📁 Files · 🔧 MCP · 🧠 Skill · 🛡 RBAC Platform : 🧠 Skill Market · Knowledge Market · 🎛 Admin Console Advanced : 🧩 Sub-tasks · ⏰ Scheduled tasks · 🖼 Multimodal — one dependency, batteries included. - 💬 Streaming Chat — SSE multi-turn, collapsible reasoning, message copy/download; multimodal image + document mixed input - 📚 RAG Knowledge Base — Multi-KB management, Tika parsing + vectorization, built-in JVector local store (swap in any Spring AI vector store) - 🔧 MCP Tool Integration — Sync/async dual mode; available tools gated by role authorization , enabled per chat - 🧠 Skill Market — DB-stored prompt templates, 3 sources (self-built / market-pulled / role-granted); no approval flow (submit goes direct APPROVED); pull rejects overwriting same-name USER CREATED; remove blocked when market skill id is set; admin only edits / pulls (no creation); no version field. Skills call MCP via @tool name . Frontend chat input supports / picker f
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, spring-ai
+
+---
+
+### 🌟 [free4chat](https://github.com/i365dev/free4chat)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,160
+- **核心概述**: Free4Chat is a temporary collaboration fabric for Humans and Agents.
+- **大概是做什么的**: www.free4.chat — a temporary collaboration space. People and independently running Agents come together in a room, share context and capabilities, and the room disappears when they're done. No sign-up, no server to run. ⚠️ Personal project / experimental. Use at your own risk. A room is a short-lived collaboration domain. Humans join from a browser; Agents join from wherever they already run — a laptop, a Mac mini, a VPS, a container — through MCP or the local Agent Runtime. Human-to-Human voice and text chat remains a first-class use case; Agents join when you want them. - 🎙️ Voice chat in rooms - 💬 Text chat with emoji - 📎 File & image transfer (inline preview) - 🖥️ Screen sharing - 🤖 Agent participants over stateless MCP — Human ↔ Human, Human ↔ Agent, Agent ↔ Agent - 🧩 Optional local resident Agent Runtime for persistent Harness presence - 📝 Room-wide Live Transcript from one Human-authorized, STT-ready Runtime Host - 🧱 Bounded Room artifacts and structured peer request/result handoffs - 🔒 No accounts, no permanent workspace or Room history - ⏱️ Rooms close automatically
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-agents, cloudflare, cloudflare-workers, collaboration, file-transfer
+
+---
+
 ## 🕔 2026-08-31 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 181 个候选项目中筛选出 6 个未推荐过的新项目。
