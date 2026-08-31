@@ -1,3 +1,67 @@
+## 🕔 2026-08-31 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 292 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Aix-DB](https://github.com/apconw/Aix-DB)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 2,237
+- **核心概述**: Aix-DB 基于 LangChain/LangGraph 框架，结合 MCP Skills 多智能体协作架构，实现自然语言到数据洞察的端到端转换。
+- **大概是做什么的**: 基于大语言模型和RAG技术的智能数据分析系统，实现对话式数据分析（ChatBI），快速实现数据提取与可视化 Aix-DB 基于 LangChain/LangGraph 框架，结合 MCP Skills 多智能体协作架构，实现自然语言到数据洞察的端到端转换。 核心能力 ：智能问答 · 数据问答（Text2SQL） · 表格问答 · 深度问数 · 数据可视化 · MCP 多智能体 · Skill 模式 产品特点 ：📦 开箱即用 · 🔒 安全可控 · 🔌 易于集成 · 🎯 越问越准 · 🧩 Skill 模式 · 🐾 OpenClaw 智能集成 Doloffer IP数据云 ------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------- 感谢 APIMart 赞助了本项目！APIMart 是专注 AI 图片/视频生成的低价 API 平台，GPT-Image-2 低至 $0.006/张，1 美元可出图 160+ 张。图片、视频一套异步 API 通吃，提交任务拿 ID、回调取结果，跑批万张不超时、换模型不改代码。按量付费、无月费，通过此 注册链接 注册即可开用。 - 前端层 ：Vue 3 + TypeScript 构建的现代化 Web 界面，集成 ECharts 和 AntV 可视化组件 - API 网关层 ：基于 Sanic 的高性能异步 API 服务，提供 RESTful 接口和 JWT 认证 - 智能服务层 ：LLM 服务、Text2SQL Agent、RAG 检索引擎、MCP 多智能体协作 - 数据存储层 ：支持多种数据库类型，包括关系型数据库、向量数据库、图数据库和文件存储 步骤 模块 说明 :---: ---------------- ------------------------------------------------------------------ 1 用户输入 用户以自然语言提出数据查询问题 2 LLM 意图理解 大模型解析问题意图，抽
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: bigdata, cli, deepseek-r1, dify, echarts, hermes
+
+---
+
+### 🌟 [cli-jaw](https://github.com/lidge-jun/cli-jaw)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 200
+- **核心概述**: 🦈 2-line install personal AI assistant. 11 AI runtime surfaces (Claude, Codex, Cursor, Gemini, Grok, Antigravity, OpenCode, Copilot), 200+ skills, zero ban risk.
+- **大概是做什么的**: Your personal AI agent. 2 lines to install. 13 AI runtime surfaces in one dashboard. English / 한국어 / 中文 / 日本語 Safe install — for existing users who want minimal changes Windows support. WSL is the recommended, stable path. A native PowerShell installer also exists, but it is still beta : Requires Node.js 22.4+. The manager dashboard runs on 24576 , and each agent web UI on 3457 . If a restrictive execution policy blocks jaw.ps1 , use the .cmd entry point instead of loosening the policy: Native Windows autostart is registered through the windows-startup backend. jaw service install also covers macOS (launchd) and Linux (systemd). Either way cli-jaw now tells the two apart precisely: jaw doctor --json reports platform as windows-native or wsl , and each gets its own diagnostics. Native Windows no longer receives "reinstall inside WSL" advice just because WSL interop is configured on the machine. npm 12+? npm now blocks dependency install scripts by default. If you see npm warn allow-scripts , install with the scripts approved: Windows npm install recovery npm 12+ may finish a global in
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, assistant, automation, claude, cli, codex
+
+---
+
+### 🌟 [CNEquity](https://github.com/rootSunc/CNEquity)
+- **项目语言**: Python
+- **星标数量**: ⭐ 157
+- **核心概述**: 中国股票数据基础设施，覆盖行情、研报、资金面、筹码、公告、龙虎榜、ETF/期权、舆情互动、基本面、行业板块、宏观与风险事件等核心数据。42+A股数据集，日更、自托管、MCP 原生，零注册、零 API Token
+- **大概是做什么的**: CNEquity · 中国市场金融数据湖 把多源的 A 股行情、基本面、事件与宏观数据，落到一份可日更、可回查的本地 Parquet 数据湖。 42 个数据集 · 39 curated + 3 derived · Python / DuckDB / Polars / MCP CNEquity 开源、免注册、自托管。它不负责给出交易信号，而是把分散在不同来源、不同口径、不同更新节奏的数据，长期保存在自己的机器或服务器上，并且说明每一行从哪里来、何时采到、截至哪一天可用。 发出一次 API 请求通常不是最费事的部分。真正困难的是长期保持研究口径一致： - 多源一致性 ：字段、代码体系、更新节奏和可回补范围并不相同； - 历史可复现 ：每次研究都现场拉取，结果会随上游变化而漂移； - Universe 完整性 ：用今天的股票名单回看过去，会自动删掉后来退市的股票； - PIT 语义 ：财报、公告和估值必须按当时实际可获得的日期查询； - 复权与交易状态 ：如果每个研究脚本各自处理，口径很快就会分叉。 幸存者偏差是一个直观例子。下面的实验使用同一个等权买入持有策略和同一段时间，唯一差别是历史股票池里是否保留后来退市的股票。只用今天仍在交易的股票时，2016–2021 年的收益从 5.9% 变成了 12.0% ： 那些股票不是收益为零，而是根本没有进入计算。CNEquity 因此把退市股、复权因子、历史成分和 PIT（按当时可获得的信息取数）放在数据层里处理，而不是交给每个下游脚本临时拼接。 项目当前的主线是中国市场的 A 股研究，不追求把所有金融数据都收进来。已注册数据集覆盖： - 个股、指数、行业和板块的日线、分钟线、分笔与复权因子； - 财报、估值、股本、股东和分析师一致预期； - 北向、融资融券、龙虎榜、大宗交易和资金流； - 指数成分、行业分类、宏观指标和市场宽度； - 新闻、快讯、情绪、轮动，以及解禁和监管事件。 当前注册表包含 42 个数据集：39 个 curated + 3 个 derived ，按研究用途分为 L0–L8 九类。 L0 基础参考 证券主数据、交易日历、交易状态 L1 行情 日线、指数、复权因子、分钟线、分笔、退市事件 L2 公司事件 公司行为、公告索引、预约披露 L3 基本面 财报、估值、股本、股东、一致预期 L4 资金面 北向、融资融券、龙虎榜、大宗交易、资金流 L5 结构行业 指数成分、行业与板块成分 L7 舆情与轮动 新闻、情绪、人气、板块行情与资金流 L8 风险合规 解禁日程、监管事件 所有 curated 行都带有 source
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, backtesting, china-equity, china-stocks, data-lake, duckdb
+
+---
+
+### 🌟 [MCP-Packet-Tracer](https://github.com/Mats2208/MCP-Packet-Tracer)
+- **项目语言**: Python
+- **星标数量**: ⭐ 152
+- **核心概述**: AI-powered Cisco Packet Tracer automation over MCP. Describe a network in natural language and it generates, validates and deploys full topologies (OSPF, EIGRP, RIP, DHCP).
+- **大概是做什么的**: Tell your AI "create a network with 3 routers, OSPF and DHCP" — it plans, validates, generates, and deploys the topology directly into Cisco Packet Tracer in real time. 🌐 Website: https://www.mcpnetwork.top &nbsp;•&nbsp; 📚 Documentation: https://mats2208.github.io/MCP-Packet-Tracer/ 3-router linear topology with OSPF, DHCP, and 6 PCs — planned and deployed via MCP tools Full build + live deploy pipeline in VS Code Auto-generated IOS CLI configs with OSPF & DHCP Live deploy — from a natural-language prompt to a running topology in Packet Tracer A Model Context Protocol (MCP) server that gives any LLM (Claude, GitHub Copilot, Codex, …) full programmatic control over Cisco Packet Tracer. --- --------- --------- Planning Natural language → topology A single prompt becomes a complete TopologyPlan IP / DHCP Auto /24 LANs + /30 links, DHCP pools Sequential, gateway at .1 Routing Static · OSPF · EIGRP · RIP Full IOS generation Switching VLANs, trunks, inter-VLAN routing (router-on-a-stick), STP, port-security .1q subinterfaces + per-VLAN DHCP Security Device hardening (SSH, local users, en
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, automation, cisco-packet-tracer, llm, mcp, networking
+
+---
+
+### 🌟 [GhostDesk](https://github.com/YV17labs/GhostDesk)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 147
+- **核心概述**: Give any AI agent a full desktop — it sees the screen, clicks, types, and runs apps like a human. Automate anything with a UI: browsers, legacy software, internal tools. No API needed. One Docker command.
+- **大概是做什么的**: Give your AI agent eyes, hands, and a full desktop. An MCP server that lets LLM agents see the screen, move the mouse, type on the keyboard, launch apps, and run shell commands — in a sandboxed virtual desktop, or on your own Mac. If a human can do it on a desktop, your agent can too. Your browser does not support the video tag. GhostDesk demo — from a single prompt ( "open the browser, go to Google News, and tell me the latest headlines in the Technology section" ), the agent launches Firefox, navigates to Google News, switches to the Technology section, and reports the latest stories back. - Secure local run (TLS + auth) - Run on macOS, without the container - Model requirements - From one agent to a workforce Browser automation tools (Playwright, Puppeteer, Selenium…) were built for human test engineers driving a browser with selectors. They do one thing, and they do it well — inside the browser. GhostDesk is built from the other end: for AI agents , driving everything a desktop runs . Browsers, native apps, IDEs, terminals, office suites, legacy software, internal tools. If it re
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, ai-agent, automation, browser-automation, computer-use, docker
+
+---
+
+### 🌟 [codex-rehome](https://github.com/CalebYcj/codex-rehome)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 261
+- **核心概述**: Offline Codex Desktop migration for Windows and macOS.
+- **大概是做什么的**: 中文 English 下载 ReHome Desktop 把 Codex Desktop 里你选择的项目、对话、Skills、Plugins 和生成内容，从一台电脑离线搬到另一台电脑。 从「Codex 搬家 Skill」的视频过来的？ 之前需要把 Skill 发给 Codex，让 Agent 帮你执行迁移。现在这套流程已经做成 ReHome Desktop ：普通用户直接使用 App 即可。旧 Skill 仍然保留，适合自动化和故障处理。 下载 ReHome Desktop · 前往 Codex ReHome Skill 1. 原电脑 ：打开 ReHome Desktop，选择要带走的项目、对话和其他内容，生成一个 .rehome 文件。 2. 传输 ：通过网盘、私人聊天工具、局域网或移动硬盘，把 .rehome 文件传到新电脑。 3. 新电脑 ：先安装并登录一次 Codex，然后完全退出 Codex。打开 ReHome Desktop，导入文件并确认恢复；完成后重新打开 Codex。 安装程序和迁移文件不是同一件东西：EXE 或 DMG 用来安装 ReHome Desktop； .rehome 用来携带你的数据。 - 选定对话，以及对话在 Codex 中重新出现所需的本地索引 - Skills（包括 .codex/skills 与跨 Agent 共用的 .agents/skills ）、Plugins 和生成图片 项目文件和对话历史是两类内容。只选对话时，项目源码不会自动被带走；选中项目时，默认会连同其子对话一起选择，但仍可以手动取消某条对话。 ReHome Desktop 当前处于 Beta。各方向的实际验收与已知边界见 验证状态。 ReHome Desktop 的迁移过程保持离线：不需要额外账号，不上传迁移数据，不安装系统服务，不设置开机启动，也不需要管理员权限。应用启动时会连接 GitHub Releases 检查新版本；检查失败不会影响迁移，下载和安装更新也必须由用户确认。 迁移包默认排除登录令牌、Cookies、 .env 、私钥、 .git 、 node modules 、虚拟环境和运行时锁文件。不要把个人 .rehome 文件上传到 GitHub、公开帖子或任何公共下载链接。 这不是官方云同步，也不会让两台电脑每天自动保持一致。跨系统后，旧对话通常仍可作为历史上下文，但它原来绑定的工作目录可能不能继续直接使用。恢复完成后请重新打开项目；需要继续工作时，在恢复后的项目里开一个新任务最稳妥。 当前单个 .rehome 包、单个文件及单条 Codex
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-handoff, ai-agent, backup, codex-backup, codex-desktop, codex-migration
+
+---
+
 ## 🕔 2026-08-30 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
