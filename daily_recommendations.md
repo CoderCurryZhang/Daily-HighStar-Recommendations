@@ -1,3 +1,67 @@
+## 🕔 2026-08-31 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 293 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [magic-mcp](https://github.com/21st-dev/magic-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 5,762
+- **核心概述**: It's like v0, but in your Cursor / Claude Code / Windsurf: search 10,000+ React/Tailwind components, generate new UI with AI, and publish your own — right from your editor. Magic MCP is now the 21st MCP; this package keeps old configs working. Setup: 21st.dev/mcp
+- **大概是做什么的**: Magic MCP → 21st MCP Magic MCP is now the 21st MCP. The Magic MCP server ( @21st-dev/magic ) has been replaced by the unified 21st MCP , installed via the 21st CLI — setup at 21st.dev/mcp. This package remains published as a thin compatibility proxy so old configs keep working. Install the 21st MCP (recommended) Or add it manually — it is a plain HTTP MCP server: Get an API key at 21st.dev/mcp. Old Magic API keys were reset. Keys issued by the old Magic console no longer work anywhere. Generate a fresh key at 21st.dev/mcp. What this package does now (v0.2.0+) npx -y @21st-dev/magic@latest API KEY="..." still works: since v0.2.0 it is a small stdio proxy that forwards every MCP message to the 21st MCP server. Existing mcp.json entries that reference @21st-dev/magic keep functioning — but they now speak to the same server as the 21st CLI, with the full current toolset. The API key is accepted in all the historical forms: positional API KEY="..." , --API KEY=... , /API KEY:... , -API KEY ... , or the TWENTY FIRST API KEY / API KEY 21ST environment variables. Old tool names → new tool na
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 21st, claude, cursor, mcp, model-context-protocol, react
+
+---
+
+### 🌟 [Agent](https://github.com/AgentiLoop/Agent)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 590
+- **核心概述**: Mac Agent for macOS 26: the agentic AI harness for your Mac Desktop. Computer use, automation, scripting, coding, and more. Powered by 18+ providers across local and cloud LLMs.
+- **大概是做什么的**: 🦾 AgentiLoop Agent! designed for macOS 26.4.1 or later Agentic AI for your  Mac Desktop Backstory and the Tech behind Agent! Agent! didn't come together overnight. It's the result of three years of building agentic AI apps, drawing on roughly a dozen projects developed along the way. Some of those were published under ANIE, Game Changer, BattleScript, XCF MCP Server and Client, D1F, and about eight original Swift Packages. The missing piece was achieving an intelligent autonomous time loop. Once achieved, I brought in the best of the best from the previous three years. The result is Agent! for macOS 26.4.1 or later. The original goal was to build a Cursor killer. What emerged is something more interesting: an agentic AI with real legs. Agent! is only limited by your imagination. It can write code including video games like Boss-Man, https://github.com/AgentiLoop/bossman, create apps, write poetry via AppleScript within Pages, generate disk images, and attach them to GitHub releases. It can automate most tasks on your Mac. Ask it what you want in plain English or your native languag
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, agentic-framework, agentic-workflow, ai, ai-agent, apple-intelligence
+
+---
+
+### 🌟 [synthetic-data-generator](https://github.com/hitsz-ids/synthetic-data-generator)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,436
+- **核心概述**: SDG is a specialized framework designed to generate high-quality structured tabular data.
+- **大概是做什么的**: 🚀 Synthetic Data Generator 简体中文 &nbsp; &nbsp; Latest API Docs &nbsp; &nbsp; Roadmap &nbsp; &nbsp; Colab Examples:&nbsp; LLM: Off-Table Inference Billion-Level-Data supported CTGAN The Synthetic Data Generator (SDG) is a specialized framework designed to generate high-quality structured tabular data. Synthetic data does not contain any sensitive information, yet it retains the essential characteristics of the original data, making it exempt from privacy regulations such as GDPR and ADPPA. High-quality synthetic data can be safely utilized across various domains including data sharing, model training and debugging, system development and testing, etc. We are excited to have you here and look forward to your contributions, get started with the project through this Contributing Overview Guide! Our current key achievements and timelines are as follows: 🔥 Nov 21, 2024: 1) Model Integration - We've integrated the GaussianCopula model into our Data Processor System. Check out the code example in this PR; 2) Synthetic Quality - We implemented automatic detection of data column relationships
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, data-generator, deep-learning, gan, generative-ai, llm
+
+---
+
+### 🌟 [openinference](https://github.com/Arize-ai/openinference)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,189
+- **核心概述**: OpenTelemetry Instrumentation for AI Observability
+- **大概是做什么的**: OpenInference is a set of conventions and plugins that is complimentary to OpenTelemetry to enable tracing of AI applications. OpenInference is natively supported by Arize Phoenix and Arize AX, but can be used with any OpenTelemetry-compatible backend as The OpenInference specification is edited in markdown files found in the spec directory. It's designed to provide insight into the invocation of LLMs and the surrounding application context such as retrieval from vector stores and the usage of external tools such as search engines or APIs. The specification is transport and file-format agnostic, and is intended to be used in conjunction with other specifications such as JSON, ProtoBuf, and DataFrames. OpenInference provides a set of instrumentations for popular machine learning SDKs and frameworks in a variety of Package Description Version ------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------- ------------------------------------
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: aiops, gemini, hacktoberfest, haystack, langchain, langraph
+
+---
+
+### 🌟 [sam](https://github.com/google/sam)
+- **项目语言**: Go
+- **星标数量**: ⭐ 805
+- **核心概述**: SAM Sovereign Agent Mesh
+- **大概是做什么的**: SAM: Sovereign Agent Mesh SAM is a smart network built for autonomous AI agents: Zero Config: Nodes discover each other and build the P2P network automatically. Zero Trust: Every connection, node, and packet is strictly authenticated. Agentic Network: Formed by lightweight nodes ( sam-node ) that provide self-healing, P2P connectivity, allowing autonomous agents to plug in, communicate, and invoke tools dynamically. Portability: Cryptographic identities are environment-agnostic, allowing seamless node mobility across cloud, local, and edge environments. Getting started is a one-liner (see the Quick Start Guide): install, add the skill, and your agent is on the mesh. Advanced demo : an agent fans a batch of work across a warm pool of reviewer agents on the mesh Full walkthrough: Warm Agent Pool use case. Architecture Components sam-control-plane : The registry control plane for node identity registration, authorization policies, and router coordinating. sam-router : The libp2p bootstrap nodes and relays providing data-plane connectivity and forwarding. sam-node : The local node client
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, mcp, network-security, networking-ai, p2p-network
+
+---
+
+### 🌟 [iva-agent](https://github.com/smixs/iva-agent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 189
+- **核心概述**: AI assistant in Telegram that remembers everything and helps you run your life. Self-hosted in one command.
+- **大概是做什么的**: Site · Use cases · Features · Install · Memory · What's new · Docs Iva is a self-hosted Telegram AI assistant with layered memory that turns your messages into an Obsidian-compatible vault. You talk, it files: voice notes, photos, forwarded posts and decisions become plain-markdown cards it actually remembers. Everything runs on your own server, with your keys and your data. One command installs it: - "What did we agree with client X about the last shipment?" — found in seconds, months later. - A five-minute voice note from the car → a task list, a draft email, a meeting card. - "Make a quote from this price list, cut the discount by 2.5%, send it to the client" — a finished Google Doc, link in the chat. The rest — for business owners, specialists, executives and everyday life: Use cases . The bridge long-polls Telegram, so no public HTTPS, domain or webhook is needed. Iva runs as two systemd user services, two systemd watchdog timers and five in-process eve schedules — operations live in docs/deploy.md. Wondering what you'd actually use an agent for? → 25+ real scenarios — business,
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, ai-assistant, knowledge-graph, llm, local-first
+
+---
+
 ## 🕔 2026-08-31 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
