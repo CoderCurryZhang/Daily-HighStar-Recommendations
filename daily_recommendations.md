@@ -1,3 +1,67 @@
+## 🕔 2026-08-31 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 181 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [gpt-load](https://github.com/tbphp/gpt-load)
+- **项目语言**: Go
+- **星标数量**: ⭐ 6,283
+- **核心概述**: Self-hosted AI gateway for multi-channel, multi-credential setups — API keys and subscription accounts, scheduling, failover, request logs and usage. 自托管 AI 网关：多渠道多凭据统一接入，含密钥与订阅账号、调度容错、日志与用量。
+- **大概是做什么的**: A self-hosted AI gateway for multi-channel, multi-credential setups API keys, subscription accounts, traffic scheduling, failure handling, request logs, and usage accounting — behind a single entry point. Your application only needs one base URL and one AccessKey. Providers, accounts, credentials, models, and routing policy are all configured in the management UI. Sponsors and support Thanks to APIMart for sponsoring this project! APIMart is a low-cost API platform for AI image &amp; video generation — GPT-Image-2 from $0.006/image, 160+ images per dollar. One async API covers both image and video: submit a task, get an ID, fetch results via polling or callback. Batch tens of thousands of images without timeouts, switch models without changing code. Pay-as-you-go with no monthly fee — sign up here to get started. Thanks to OpenAI for sponsoring this project. Thanks to the LINUX DO community for their support. This project is supported by DigitalOcean. - One gateway, native protocols — Manage official APIs, cloud platforms, model services, and compatible relays together while clients
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-gateway, anthropic, api-gateway, claude, claude-code, codex
+
+---
+
+### 🌟 [mono-color-skill](https://github.com/yanliudesign/mono-color-skill)
+- **项目语言**: Python
+- **星标数量**: ⭐ 637
+- **核心概述**: One-ink editorial print image skill — warm paper, halftone photography, active negative space, and restrained typography.
+- **大概是做什么的**: Monocolor Editorial Print A one-ink and controlled two-ink editorial image skill for posters, zines, portraits, packaging, and visual field notes. Turn a theme, sentence, object, or supplied photograph into an original editorial image. The skill defaults to controlled two-ink with one dominant plate and one narrowly assigned accent plate. Explicit one-ink or monochrome requests remain pure one-ink. White, cool gray, or pale-beige substrates are selected from the image and palette; contemporary editorial is the default, while vintage treatment appears only when requested. It preserves a visual system rather than copying a reference. Every composition is rebuilt around the subject, intent, words, and image role. This reference set defines the visual territory, not compositions to reproduce. Each new result rebuilds the subject, crop, grid, type hierarchy, and print treatment from scratch. Input A theme, phrase, object, article idea, or supplied photograph Palette Adaptive neutral white, cool gray, or pale beige + controlled two-ink by default; explicit one-ink requests stay one-ink Mod
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, ai-agent, claude-skill, editorial-design, generative-art, halftone
+
+---
+
+### 🌟 [dsh-plugin-subscriptions](https://github.com/V1ki/dsh-plugin-subscriptions)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 301
+- **核心概述**: Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — OAuth login in the web UI, no API keys
+- **大概是做什么的**: dsh-plugin-subscriptions Use your ChatGPT (Codex) , Claude , and Grok (X Premium) subscriptions as LLM providers in DeepSeek Harness — no API keys. Codex and Grok log in via OAuth in the dsh web UI (Settings → Subscriptions); Claude imports credentials from an existing Claude Code session when there is one (macOS Keychain or /.claude/.credentials.json ) and otherwise falls back to the same browser OAuth flow, so the Claude Code CLI is not required. Tokens live at /.dsh/plugins/subscriptions/auth.json (mode 0600) and refresh automatically. Settings → Subscriptions : per-provider login/logout, no API keys. Claude imports credentials from Claude Code when available and otherwise uses OAuth, as Codex and Grok always do (account address masked in the screenshot): Logged-in providers join the session model picker with their live model catalogs: Models that advertise reasoning levels get an Effort selector in the same menu — Codex models, Grok 4.6 / 4.5, and Copilot's reasoning models (levels and defaults come from each provider's live catalog, not a hardcoded list; Copilot's capabilities.s
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, chatgpt, claude, codex, deepseek-harness, dsh-plugin
+
+---
+
+### 🌟 [SeekerClaw](https://github.com/sepivip/SeekerClaw)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 308
+- **核心概述**: Turn your Solana Seeker (or any Android phone) into a 24/7 personal AI agent
+- **大概是做什么的**: SeekerClaw — winner of the Solana Mobile Hackathon (April 2026) — embeds a Node.js AI agent inside an Android app, running 24/7 as a foreground service. You interact through Telegram or Discord — ask questions, control your phone, trade crypto, schedule tasks, and now pay for paid APIs autonomously in USDC . v2 introduced a burner wallet + x402 payment client ; v2.1 expands it into a full autonomous trading wallet. Import a Solana key once, set per-tx and daily caps, and your agent can trade within those caps — swap tokens, convert held balances (including fee-free Token-2022 like PYUSD) back to USDC/SOL, send SPL tokens, and place limit / DCA orders — signing silently while it stays under cap and falling back to a main-wallet popup when it doesn't. It can also pay 44 catalogued x402 endpoints across 10 services (market data, real estate, travel, research, captcha, SMS, more) when you opt in to a paid lookup. Your Phantom / MWA wallet stays fully user-controlled. 64 built-in tools (plus MCP remote tools), 22 bundled skills + 35+ partner skills , two-wallet Solana with capped autonomo
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, android, anthropic, claude, jetpack-compose, kotlin
+
+---
+
+### 🌟 [VoiceMem](https://github.com/xzf-thu/VoiceMem)
+- **项目语言**: Python
+- **星标数量**: ⭐ 396
+- **核心概述**: a real-time and empathetic memory system for voice assistants
+- **大概是做什么的**: VoiceMem Utils 🤗 / VoiceMem Model Families 🤗 / 我们带来 VoiceMem ，为语音模型增加最后一个组件：灵魂，让它真正越来越懂你。VoiceMem 建立在 「流式双脑」 架构之上，提供 精准、有情感、懂人格、低延迟且最便宜的记忆服务 。本仓库将 「永久保持全部开源」 。 左脑： 直接管理信息，在 Top-3 限制下维持 Mem0 的满载性能。 右脑： 用长短期情绪归因管理「情商」，含交叉节点、与左脑信息联合维护。 低延迟： 通过压缩信息、分层存储、流式查询（0–300 ms 投机预取），几乎不增加延迟。 简单实用： 单轮查询约 300 token；架构全部解耦，全部组件（含底层记忆引擎）都可更换。 08/27/2026 · v0.0.1 — 发布初代 VoiceMem 和 Technical Report 。 https://github.com/user-attachments/assets/0d919f8c-e9ba-4fdb-8078-b049e4b99a28 🔌 使用 VoiceMem 定制你的语音智能体 可以把 VoiceMem 的流式接口看作一个持续处理音频的 VAD 接口。 下面这段：先显式存一条事实，再喂一段 问句 音频，看记忆是怎么在人还没说完时就查好的；最后照例走一次入库判断。 演示代码在仓库里（pip 装的包只有库本身），先确认已经克隆并进入仓库目录。 🧠 VoiceMem：基于流式双脑架构的记忆系统 VoiceMem 是一个面向实时语音智能体的记忆系统。 VoiceMem 不把所有记忆放进同一个检索数据库，而是将记忆拆分成两个互相配合的部分： 左脑 通过 Schema 和 Entity 组织事实记忆，用于更加准确地检索信息。 右脑 通过独立节点和跨实体节点管理人格、情绪和关系信息。 在用户仍然说话时，VoiceMem 会持续完成音频分段、语音转写、记忆提取，并把结构化信息写入记忆图中。 查询时，VoiceMem 会 先路由，再排序，最后只把 Top-K 条记忆注入模型上下文 ，从而在保留相关信息的同时控制上下文长度。 🎯 精准 — 在 LoCoMo 上达到 91.2% ，Mem0 为 61.68% ，并且只需要 Top-5 条记忆。 ❤️ 有情感、懂人格 — 不只记住 用户说过什么 ，还会记住 用户是谁、用户有什么感受 。在 PersonaMem 上达到 69.44% 。 🎧 多模态 — 可以从真实世界音频中记住 语音、说话人、声音事件、多人对话和音乐 。 ⚡ 低延迟 — 响应时
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-tools, application, audio-streaming, genai
+
+---
+
+### 🌟 [VectorHub](https://github.com/superlinked/VectorHub)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 529
+- **核心概述**: Deprecated historical repo. Superlinked now develops SIE, a self-hosted inference engine for embeddings, reranking, OCR, extraction, and document processing.
+- **大概是做什么的**: VectorHub is a free and open-sourced learning hub for people interested in adding vector retrieval to their ML stack. On VectorHub you will find practical resources to help you - Create MVPs with easy-to-follow learning materials Solve use case specific challenges in vector retrieval Get confident in taking their MVPs to production and making them actually useful Learn about vendors in the space and select the ones that fit their use-case Read more about our philosophy in our Manifesto. Vector DB Comparison is a free and open source tool from VectorHub to compare vector databases. It is created to outline the feature sets of different VDB solutions. Each of the features outlined has been verified to varying degrees. Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us. This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa]. [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/ [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x3
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, llm, llmops, ml, mlops, vector
+
+---
+
 ## 🕔 2026-08-31 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 292 个候选项目中筛选出 6 个未推荐过的新项目。
