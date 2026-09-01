@@ -1,3 +1,67 @@
+## 🕔 2026-09-01 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 291 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ai-guide](https://github.com/liyupi/ai-guide)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 19,365
+- **核心概述**: 程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程（Harness Engineering）、AI 工具用法（Cursor / Claude Code / TRAE / Codex / Copilot）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档 aiguide，已升级为鱼皮 AI 导航网站
+- **大概是做什么的**: 完全免费开放的 AI 知识共享平台 减少信息差，让每个人都能享受技术红利 这是一个 完全免费开放 的 AI 知识共享平台，汇总整合目前热门的 AI 工具相关信息，包括产品介绍、使用指南、工具测评、技巧分享、应用场景、AI 变现、行业资讯、教程资源等一系列内容。 鱼皮希望带领大家打破 AI 技术的信息壁垒，让每个人都能平等获取 AI 时代的工具与认知，利用科技让生活更美好。 🔥 鱼皮的 Vibe Coding 零基础入门教程 如今 Vibe Coding（氛围编程） 已经火遍全网！不仅是程序员，连设计师、产品运营、甚至完全不懂技术的人都开始用 Vibe Coding 实现自己的想法，用 AI 做出了自己的产品并盈利变现。 我一人爆肝创作了这套 《Vibe Coding 零基础入门教程》， 上千张图、几十万字 ，结合了我两年半的 AI 编程经验 + 项目开发经验 + 产品变现经验，目标只有一个： 帮助任何人快速掌握 Vibe Coding，哪怕零基础，也能快速开发上线自己的产品并盈利。 臭不要脸一下，我敢说这套免费教程吊打 90% 的付费 Vibe Coding 内容。 我精心梳理了内容结构，让你能够一条龙学习，或者快速找到适合自己阅读的内容。 - 基础必读：帮你快速理解 Vibe Coding 并上手实践，10 分钟做出第一个作品 - 编程工具：帮你选择适合自己的 AI 编程工具，包括 AI 模型选择、AI 零代码平台、AI 智能体平台、AI 代码编辑器、AI 命令行工具、IDE 插件等 - 项目实战：手把手带你从 0 到 1 做出真实可用的产品，覆盖个人工具、AI 应用、全栈应用、小程序等多种类型 - 经验技巧：帮你提升 Vibe Coding 效率和质量，包括核心心法、对话工程、上下文管理、幻觉处理、代码质量保障等 - 产品变现：教你如何让产品产生价值，涵盖需求分析、技术选型、架构设计、盈利模式、SEO 优化、自媒体运营等 - 编程学习：为想深入学习编程的同学准备的进阶内容，包括学习路线、知识百科、资源大全、MCP 开发、面试刷题等 - 资源宝库：汇集各种实用资源，包括工具大全、提示词模板、AI 概念大全、Vibe Coding 常见问题等 如果你更喜欢看视频学习，我还录制了一套《小白都能学的 AI 编程实战》视频课程，哪怕没有任何基础，也能跟着从 0 跑通完整的项目流程，开发出能上线、能商用变现的作品。 课程地址：https://www.bilibili.com/cheese/play/ss475098271 更详细的学习路线可以阅读教程中的《AI 编程学
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agent, artificial-intelligence, chatgpt, claude, claude-code
+
+---
+
+### 🌟 [ElatoAI](https://github.com/akdeb/ElatoAI)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,937
+- **核心概述**: Realtime Voice AI with 100+ Models on Arduino ESP32 with Secure Websockets and Edge Functions for AI Companions, and Devices
+- **大概是做什么的**: - Apr 17 2026: Create a Global Devices/Toys network with Cloudflare Voice Agents and Durable Objects. Cloudflare's Workers AI provides Deepgram STT/TTS natively so all you need to bring is an LLM API Key to create a scalable, low-latency voice AI pipeline. - Apr 15 2026: You can launch over 100+ STT, LLM, TTS voice pipeline systems with a FastAPI server with Pipecat! - Mar 14 2026: Elato just launched Local AI Toys on Pi Day.🎉🎉 Your ESP32 devices can now support local AI models and voice generation with frontier Local LLMs and TTS models like Qwen, Mistral, and more with MLX. Check it out here. 👾 ElatoAI: Realtime Voice AI Models on Arduino ESP32 Realtime AI Speech powered by 100+ Voice AI models on ESP32, with Secure WebSockets & Edge Functions for 20-minute uninterrupted conversations globally. - Build with PlatformIO - Build on Arduino IDE - 🤖🤖🤖 Deploy multiple devices Video links: OpenAI Demo Gemini Demo Eleven Labs Demo Hume AI EVI-4 Demo 1. OpenAI Realtime API 3. xAI Grok Voice Agent API 4. Eleven Labs Conversational AI Agents 6. Boson Higgs Realtime 7. More speech to spe
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai, arduino, cloudflare, deno, elevenlabs
+
+---
+
+### 🌟 [PocketRisu](https://github.com/PocketRisu/PocketRisu)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 318
+- **核心概述**: Self-hosted AI roleplay chat platform you run on your PC or personal server, forked from Risuai
+- **大概是做什么的**: PocketRisu — Self-hosted AI Roleplay Chat English 한국어 Deutsch 简体中文 Español Tiếng Việt 繁體中文 PocketRisu is a self-hosted AI roleplay chat platform you run on your PC or personal server and access from PC, tablet, and smartphone through a web browser. - Installation guide - RisuAI migration guide - Remote access guide - Termux installation guide (Android) - Plugin storage guide RisuAI Compatibility PocketRisu is derived from RisuAI and refined for self-hosted environments. Existing RisuAI data can be migrated wholesale, and all RisuAI ecosystem assets remain usable as-is. - RisuRealm character downloads - Character cards ( .charx , .risum , .risup , etc.) - Modules, lorebooks, presets - Backup files ( .bin ) with two-way compatibility For migration from an existing RisuAI installation, see the migration guide. - Multiple AI providers : OpenAI, Claude, Gemini, DeepInfra, OpenRouter, Ollama, and more - Multi-device access : Run one server, access from PC, tablet, and smartphone through a web browser - Server-side generation : The server keeps generating even if your screen locks or the co
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, ai-roleplay, character, chat, chatbot, claude
+
+---
+
+### 🌟 [matrixhub](https://github.com/matrixhub-ai/matrixhub)
+- **项目语言**: Go
+- **星标数量**: ⭐ 300
+- **核心概述**: An Open-source, self-hosted AI model hub with Hugging Face compatibility, accelerating vLLM/SGLang performance.
+- **大概是做什么的**: MatrixHub is an open-source, self-hosted AI model registry engineered for large-scale enterprise inference. It serves as a drop-in private replacement for Hugging Face, purpose-built to accelerate vLLM and SGLang workloads. MatrixHub streamlines the transition from public model hubs to production-grade infrastructure: Zero-Wait Distribution : Eliminate bandwidth bottlenecks with a "Pull-once, serve-all" cache, enabling 10Gbps+ speeds across 100+ GPU nodes simultaneously. Air-Gapped Delivery : Securely ferry models into isolated networks while maintaining a native HF ENDPOINT experience for researchers—no internet required. Private AI model Registry : Centralize fine-tuned weights with Tag locking and CI/CD integration to guarantee absolute consistency from development to production. Global Multi-Region Sync : Automate asynchronous, resumable replication between data centers for high availability and low-latency local access. 🚀 High-Performance Distribution Transparent HF Proxy : Switch to private hosting with zero code changes by simply redirecting your endpoint. On-Demand Caching :
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: artificial-intelligence, dynamo, huggingface, kubernetes, llm, llm-inference
+
+---
+
+### 🌟 [mcptoon](https://github.com/activeing123/mcptoon)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 192
+- **核心概述**: A magical tool that changes how you use Agents. Install once — every Agent automatically discovers and uses all your MCP tools, and saves your tokens along the way.
+- **大概是做什么的**: mcptoon — Cross-Agent MCP Management Tool A magical tool that changes how you use Agents ✅ Speaks the latest MCP spec (2026-07-28) — stateless auto-negotiation, structured output parsed natively, MRTR multi round-trips, server/discover probing for new-spec servers with full backward compatibility. 🧩 Agent Plugins Specification 1.0.0 compatible — scan, install and sync the new cross-vendor plugin standard (Amazon / Cursor / Microsoft / OpenAI / Vercel) into every AI agent with one command: mcptoon plugin install — including agents that have no native 中文文档 · Developer docs · Changelog · Report an issue ⚡ 3 steps, any OS — no configuration One-line install (no Python wrangling — script handles everything): mcptoon demo runs a live comparison on your machine : watch the tool list shrink from thousands of tokens to a name index — then decide. 🎬 mcptoon in 39 seconds — the hook, the pain, install once, auto-discover, the token math, and the safety net · click for HD 99.8% fewer tokens · Windows / macOS / Linux · Free & open source (Apache-2.0) 🗺️ Runtime architecture (interactive) Below
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, ai-tools, claude, claude-code, cli
+
+---
+
+### 🌟 [devopness](https://github.com/devopness/devopness)
+- **项目语言**: Python
+- **星标数量**: ⭐ 449
+- **核心概述**: Devopness: AI DevOps on your cloud. Deploy apps, infra and CI/CD. Any cloud and any stack, one MCP. Deterministic API, opinionated and fully configurable. No cloud credentials in AI chats. Free plan.
+- **大概是做什么的**: Stop managing DevOps. Ship more, stress less. DevOps Happiness for AI agents and humans. One platform · Any cloud · Any stack · Free plan Deploy apps and provision cloud infrastructure from scratch on AWS, Azure, GCP, DigitalOcean, and Hetzner: in accounts you control. One platform to replace many tools: Terraform + Ansible + Jenkins + PaaS (Vercel, Heroku, etc), and stack-specific server panels. Manage apps, Linux servers, and cloud infrastructure from anywhere: web, mobile, API, or natural language in your AI agent through MCP. No SSH or cloud console for routine work. Create free account · Docs · Discord Ask your AI agent to provision servers, deploy apps, migrate between clouds, and manage infrastructure through one MCP server: not a separate integration per cloud or stack. Migrate my app from AWS to Hetzner. Starting the MCP server prompts you to log in with your Devopness account. MCP-compatible clients: Cursor, VS Code, Claude Code, Codex CLI, Gemini CLI, Windsurf, Zed, Warp, JetBrains AI, and more. See step-by-step guides in MCP docs. What Devopness replaces Many self-hosted
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: aws, azure, ci-cd, cloud-infrastructure, deployment, deployment-automation
+
+---
+
 ## 🕔 2026-08-31 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 293 个候选项目中筛选出 6 个未推荐过的新项目。
