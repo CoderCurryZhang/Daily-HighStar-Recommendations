@@ -1,3 +1,67 @@
+## 🕔 2026-09-01 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 265 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [zoetrope](https://github.com/furkankly/zoetrope)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 755
+- **核心概述**: Watch a Claude Code session as a live flow graph, in your terminal or your browser.
+- **大概是做什么的**: Watch a Claude Code session as a live flow graph, in your terminal or your browser. zoetrope.furkankly.dev · the whole app in your browser, the same binary compiled to WASM Claude Code writes a JSONL transcript for every session under /.claude/projects/ . zoetrope reads it and draws the session as a graph in your terminal: the main agent, the subagents and workflows it spawns, and the tools each one runs, updating live as it goes. Point it at a finished run and it replays, paced by the session's own timestamps. Point it at a running one and it follows along. It's read-only, and nothing leaves your machine. Built on ratatui and rataflow. Homebrew — macOS and Linux: Cargo — needs a Rust toolchain: Prebuilt binaries — no toolchain needed. Every release carries archives for macOS (Apple Silicon and Intel), Linux ( musl , arm64 and x86 64) and Windows (x86 64). Unpack one and put zoe on your PATH . Whichever route you take, the command is zoe . Or build from source: No install at all: try it in your browser . Drop a transcript on the page and get the same graph. Give it a file and it read
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-visualization, claude-code, flow
+
+---
+
+### 🌟 [ShardBrowser](https://github.com/ProxyShard/ShardBrowser)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 792
+- **核心概述**: Free, open-source anti-detect browser launcher for web scraping and multi-accounting. By the ProxyShard team. Engine-level fingerprint spoofing in Chromium 148 (WebGL / WebGPU / Client Hints / fonts / TLS), 170+ device profiles bundled, stable QUIC + WebRTC over SOCKS5.
+- **大概是做什么的**: A project by the ProxyShard team — the proxy service with full SOCKS5 UDP relay (RFC 1928 §7) and active p0f TCP-fingerprint spoofing on the exit (so the OS the proxy claims to be on actually matches the SYN/ACK shape sites see). ShardX is the in-house anti-detect browser stack we built to get the most out of those proxies: the launcher manages profiles, binds proxies, and ships the patched Chromium 152 browser that does the actual spoofing at the engine level. Site: https://proxyshard.com Docs: https://docs.proxyshard.com Usage: https://docs.proxyshard.com/eng/usage-instructions/shardx-browser UDP info: https://docs.proxyshard.com/eng/our-products/about-udp p0f info: https://docs.proxyshard.com/eng/our-products/p0f-spoofing Drive ShardX whichever way fits the job — all four read from the same on-disk state, so a profile is reachable from every entry-point with Desktop UI — workspace for day-to-day work (profiles, proxies, cookies, fingerprint editor). Local HTTP API — Bearer-JWT auth on 127.0.0.1:40325 ; create / start / stop profiles and grab a CDP endpoint from any language. MCP s
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, anti-detect-browser, antidetect-browser, browser-fingerprinting, chromium, fingerprint
+
+---
+
+### 🌟 [ai-coding-welfare](https://github.com/panxunying/ai-coding-welfare)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 426
+- **核心概述**: AI Coding 福利站导航：免费白嫖 Claude Code / Codex 的中转站与公益站合集，含额度、模型、价格自动更新与一键配置脚本
+- **大概是做什么的**: 免费额度 · 白嫖 Claude Code / Codex / Cursor 的中转与公益站合集 📊 按次 vs 按量折算横评 · 🩺 可用性历史 · 🗓 变动日志 · 🔔 Atom 订阅 站点 状态 首日可得 额度构成 之后每天 兼容协议 模型 注册 :-- :--: :--: :-- :--: :--: :--: :--: AgentRouter 🔥 🟢 在线 $175 注册 $100 + 本页邀请 $50 + 首签 $25 $25/天 Anthropic + OpenAI 5 个可查 点此注册 → JustDoWork 🟢 在线 ≈$92 注册 $70 + 首签 ≈$22 ≈$22/天 Anthropic + OpenAI 需登录查看 GitHub 注册 → KKtoken AI 🟢 在线 $120 注册 $75 + 本页邀请 $25 + 首签 $20 $20/天 Anthropic + OpenAI 需登录查看 GitHub 注册 → GoRouter 🟢 在线 $70 注册 $50 + 本页邀请 $20 支持签到 Anthropic + OpenAI 2 个可查 GitHub 注册 → Matrix 🟢 在线 600 积分 本页邀请 600 积分 — OpenAI 兼容 需登录查看 点此注册 → TaBiAI 🟢 在线 $120 注册 $100 + 本页邀请 $20 支持签到 Anthropic + OpenAI 2 个可查 GitHub 注册 → RawChat 公益站 🟢 在线 $50 每日额度池 $50（每天重置，不累积） $50/天（重置） Codex CLI Codex 点此注册 → AnyRouter 🟢 在线 $150 注册 $75 + 本页邀请 $50 + 首签 $25 $25/天 Anthropic + OpenAI 需登录查看 点此注册 → CheapCodex 🟢 在线 $40 本页邀请 $20 + 首签 $20 $20/天 Anthropic + OpenAI 需登录查看 点此注册 → NOFX 🟢 在线 15 积分 本页邀请 10 积分 + 首签 5 积分 5 积分/天 OpenAI 兼容 需登录查看 点此注册 → 「首日可得」= 注册基础额度 + 本页邀请链接额度 + 当天能领的签到额度（每日重置额度池的站点按一天的池子算）；模型、价格、在线状态由脚本抓取站点公开接口自动生成，最后更新： 2026-09-01 16:41 UTC 。 8 个按美元计价、且还收新用户的站全注册一遍，第一天手上大约有
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-coding, anthropic, api-proxy, claude-code, codex, free-api
+
+---
+
+### 🌟 [HERO-Anti-OverDefense](https://github.com/wanshuiyin/HERO-Anti-OverDefense)
+- **项目语言**: Markdown
+- **星标数量**: ⭐ 376
+- **核心概述**: HERO = Hashing · Edge cases · Rubrics · Overbuild — the four shapes coding agents over-defend in. A paste-in contract that stops them. Works with Claude Code, Codex, Antigravity, Cursor, Copilot, Windsurf, Gemini CLI.
+- **大概是做什么的**: HERO — Anti-OverDefense 🧱 🧱 You asked for a feature. It built a fortress around the feature, and never got to the feature. 你让它写个功能,它给你造了座堡垒,然后功能一直没写完。 The shapes look like an agent optimising for not being blamed rather than for the work being good — a hypothesis that fits what we observed, not an established account of how these models are trained. Either way the shapes are real, there are four of them, and their initials are the name: H ashing, E dge cases, R ubrics, O verbuild. Naming them makes it possible to say which one just happened instead of arguing about vibes. This repository is a short block you paste into your agent's config, plus a catalogue of the behaviours it is meant to stop. It works with Claude Code , Codex , Antigravity , Cursor , GitHub Copilot , Windsurf and Gemini CLI — anything that loads a config file without being asked. There is 🧬 Generalised out of ARIS ( 13.7k★), whose cross-model reviewer is genuinely good — and also spent a measurable share of its output proposing hashes nobody reads. HERO keeps the value and drops the tax. RULES.md The contract, i
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents-md, ai-agents, antigravity, claude-code, claude-md, codex
+
+---
+
+### 🌟 [joinly](https://github.com/joinly-ai/joinly)
+- **项目语言**: Python
+- **星标数量**: ⭐ 564
+- **核心概述**: Make your meetings accessible to AI Agents
+- **大概是做什么的**: Make your meetings accessible to AI Agents 🤖 joinly.ai is a connector middleware designed to enable AI agents to join and actively participate in video calls. Through its MCP server, joinly.ai provides essential meeting tools and resources that can equip any AI agent with the skills to perform tasks and interact with you in real time during your meetings. Want to dive right in? Jump to the Quickstart! Want to know more? Visit our website! Don't want the hustle of setting everything up? Try our cloud first! ☁️🚀 - Live Interaction : Lets your agents execute tasks and respond in real-time by voice or chat within your meetings - Conversational flow : Built-in logic that ensures natural conversations by handling interruptions and multi-speaker interactions - Cross-platform : Join Google Meet, Zoom, and Microsoft Teams (or any available over the browser) - Bring-your-own-LLM : Works with all LLM providers (also locally with Ollama) - Choose-your-preferred-TTS/STT : Modular design supports multiple services - Whisper/Deepgram for STT and Kokoro/ElevenLabs/Deepgram for TTS (and more to com
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agent, ai-tool, conversational-ai, llm, mcp
+
+---
+
+### 🌟 [OpenInstinct](https://github.com/Merit-Systems/OpenInstinct)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 233
+- **核心概述**: iMessage personal assistant + password vault
+- **大概是做什么的**: A personal iMessage assistant that can use a browser like you. It can do your chores, book you movie tickets, or handle your groceries. You stay in control of your passwords, credit cards and context. It's Open Source, self-hostable, and can use any model. One-click deploy to Vercel and get rolling. Personal agents are much more useful when they can sign in, book, buy and act on your behalf. But your accounts, your passwords, are the keys to your digital kingdom. OpenInstinct runs in your own Vercel account. Secrets are encrypted before they touch your database and models never see them. Verify yourself by The deploy button provisions Kernel for cloud browsers, Neon for Postgres, and a private Vercel Blob store for browser images, per-user memory, and installation secrets. It also creates and attaches a Linq connector for iMessage. Vercel AI Gateway handles inference. Usage is billed to your Vercel account. On first use, OpenInstinct creates independent Better Auth and vault-encryption keys in the private Blob store. Vercel supplies the application URL, database, Kernel, Blob, and Li
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, imessage
+
+---
+
 ## 🕔 2026-09-01 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 153 个候选项目中筛选出 6 个未推荐过的新项目。
