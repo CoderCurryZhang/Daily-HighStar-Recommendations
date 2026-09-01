@@ -1,3 +1,67 @@
+## 🕔 2026-09-01 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 153 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [WorldX](https://github.com/YGYOOO/WorldX)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,428
+- **核心概述**: One sentence creates an AI-driven world — generate maps, characters, and watch stories emerge on their own. 一句话生成一个AI自主驱动的世界.
+- **大概是做什么的**: AI Agents · LLM · Procedural Generation · Simulation · Emergent Narrative 说出你的要求， WorldX 会为你构筑一个完整的虚拟世界。 AI 角色们会在这个世界里自主生活：他们做决策、与场景交互、建立关系、开展对话、记忆并思考，涌现出没人提前写好剧本的故事。 你也可以作为"上帝"随时介入 —— 注入事件、编辑角色记忆或人格，看整个世界因此走向何方。你也能与任意角色展开一场架空对话。 "北宋汴京的夜市街，有算命的、当铺掌柜、小偷、捕快，还有一个穿越来的现代人" 只需要这一句话，剩下的交给 WorldX。 - 一句话创造世界 —— 描述任何场景，看着它变为现实 - AI 生成地图与角色 —— 任何风格，完全按照你的要求生成，不是模板拼接 - 自主 Agent 驱动 —— 生成的世界中，角色自主决策、建立关系、展开对话 - 记忆与人格 —— 角色记住过去的经历，并据此形成独特的行为模式 - 多日演化 —— 支持跨越昼夜循环持续演进 - 上帝模式 —— 广播事件、编辑角色人设/记忆、与角色开展架空对话，观察世界中涌现出哪些有趣的发展 - 时间线系统 —— 同一个世界也可孕育多个不同时间线 🚧 项目当前处于 Alpha 阶段，核心可用，持续优化中 - Node.js 22.13+ （推荐 24 LTS）—— 数据库使用 Node 内置 SQLite（ node:sqlite ），安装依赖无需编译任何原生模块。完整可用区间是 =22.13 =23.4 ：22.5 22.12 与 23.0 23.3 不可用，那期间 node:sqlite 仍在 --experimental-sqlite 标志之后 - API Key —— 详见下方 模型配置 想先看看效果？项目内置了两个预生成的世界，配置 世界驱动 模型的大模型即可运行。 打开 http://localhost:3200 ，选择一个内置世界，点击播放。 打开 http://localhost:3200/create ，输入一句话，看着你的世界诞生。 WorldX 使用 4 个模型角色 ，各自独立配置。除绘图模型支持 Google AI Studio 原生图片接口外，其余角色均采用 OpenAI 兼容的 chat/completions 协议。 角色 环境变量前缀 用途 推荐模型 -------- --------------- -------------- ----------------------------------------- 编排引擎
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, ai-characters, ai-simulation, ai-world
+
+---
+
+### 🌟 [OpenSwarm](https://github.com/Intrect-io/OpenSwarm)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 840
+- **核心概述**: OpenSwarm — Autonomous AI dev team orchestrator powered by Claude Code CLI. Discord control, Linear integration, cognitive memory.
+- **大概是做什么的**: Autonomous AI agent orchestrator — Codex, GPT, OpenRouter (any model) , local models (Ollama/LM Studio), and Claude Code ( claude -p ) 💬 Help shape OpenSwarm. Share feature ideas, vote on the roadmap, and ask questions in GitHub Discussions . The roadmap is built in the open — your feedback decides what ships next. OpenSwarm orchestrates multiple AI agents as autonomous code workers. It picks up issues from Linear or a built-in local tracker , runs Worker/Reviewer pair pipelines, reports through a pluggable notifier (Discord, Slack, Telegram, webhook), and retains long-term memory via LanceDB. Workers run on OpenAI Codex/GPT , any OpenRouter model , local open-source models (Ollama, LM Studio), or Claude Code ( claude -p , opt-in) — with cost-aware routing measured on an L0–L6 benchmark ladder. Verified on real GitHub issues : the agentic harness solves SWE-bench Lite instances graded by the official harness. Hybrid mode — a frontier model diagnoses read-only, a lightweight model implements with a verification loop — resolved 3/3 attempted instances that every single lightweight mod
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-coding, autonomous-agents, claude, claude-code, devops
+
+---
+
+### 🌟 [golf](https://github.com/golf-mcp/golf)
+- **项目语言**: Python
+- **星标数量**: ⭐ 839
+- **核心概述**: Production-Ready MCP Server Framework • Build, deploy & scale secure AI agent infrastructure • Includes Auth, Observability, Debugger, Telemetry & Runtime • Run real-world MCPs powering AI Agents
+- **大概是做什么的**: Easiest framework for building MCP servers Golf is a framework designed to streamline the creation of MCP server applications. It allows developers to define server's capabilities— tools , prompts , and resources —as simple Python files within a conventional directory structure. Golf then automatically discovers, parses, and compiles these components into a runnable MCP server, minimizing boilerplate and accelerating development. Golf targets FastMCP 4.0.0 and the current MCP 2026-07-28 protocol. FastMCP also negotiates legacy MCP clients through its compatibility mode. With Golf v0.2.0, you get enterprise-grade authentication (JWT, OAuth Server, API key, development tokens), built-in utilities for LLM interactions, and automatic telemetry integration. Focus on implementing your agent's logic while Golf handles authentication, monitoring, and server infrastructure. Get your Golf project up and running in a few simple steps: Golf requires Python 3.10 or newer. Then, install Golf using pip: 2. Initialize Your Project Use the Golf CLI to scaffold a new project: This command creates a ne
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-runtime, ai, ai-agent, ai-agent-tools, ai-agents, ai-platform
+
+---
+
+### 🌟 [website-rebuild-skill](https://github.com/boyang-hu/website-rebuild-skill)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 645
+- **核心概述**: 复刻网站的 Agent Skill：抓只读镜像、从压缩代码逐行还原、自动比对验收。An agent skill that mirrors a website, rebuilds it from the minified code, and verifies the result with automated diffs.
+- **大概是做什么的**: website-rebuild-skill 给一个网址，让你的 AI agent 把那个网站 逐行复刻 出来，并且能 证明 复刻得对。 它不是"做一个看起来很像的页面"。它把源站的实现当作规格书：先把整站抓成只读证据，再从压缩过的代码里逐行还原逻辑，最后用一整套自动验收门证明"复刻侧和源站在做同一件事"——包括逐像素比对。 遵循 Agent Skills 开放规范，为 任何支持 skills 的智能体 设计。跨运行时不是口号而是实测：验证清单里既有 Claude Code 跑完的目标，也有 Codex 全程跑完 的目标（Hashgraph VC，166/166 响应字节一致）——同一份 skill 目录，放进哪个 runtime 都能走完整条管线。 - 判级先行 ——开工前先探测目标属于哪一类、能不能做；做不了会直接说明原因，不会硬跑产出垃圾 - 取证式镜像 ——整站抓成只读快照（逐文件 sha256 账本、引用闭包校验、真实性检查），断网也能跑 - 行号可溯源的逆向 ——复刻里的每一行都能指回源站 bundle 的哪一行；bug 与怪写法照抄不修 - 量化验收 ——控制台 / 网络 / DOM / 几何 / 逐像素 五层自动比对，差异要么修掉、要么登记，不许糊过去 - 源码化交付 ——逐字移植的产物重写成人能读的工程（拆模块、按证据命名、补溯源头注）， 复制到任何地方断网可跑 - 零依赖工具链 ——59 个 Node 脚本（47 个工序脚本与验收门 + 7 个共用库 + 5 个源码化/反推重构器），源码化之前整条流水线不装任何 npm 包 - 死站也能救 ——Wayback 存档抢救：锚点+时间窗选一个连贯时刻、原始字节落成标准镜像、永久洞如实登记；五次死站抢救实测（四个复活、其一走完 L3；一个画面层确证全失,失败形态入册） - 连 RSC 站也能重构 ——服务端组件源不下发（React Server Components / Next.js App Router），但它的完整输出（flight 流）内联在每页 HTML 里就是规格书：从中重构一个可构建的 Next 工程，用 flight 语义门收口。实测一个 Next 16/Turbopack 博客站 18/18 路由语义一致，一个 144 路由重站 PASS 144/144；盲逆向对公开源码判卷，结构 ≈95%、行为 ≈98% - 法务决定权归用户 ——skill 只取证与呈交，产出默认私有 + noindex + 不部署 每张图 左半是源站的只读镜像，右半是复刻侧 ，均取自各项目验收时的对拍截图：同视
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude, claude-code, codex, reverse-engineering
+
+---
+
+### 🌟 [SkillCorpus](https://github.com/EverMind-AI/SkillCorpus)
+- **项目语言**: Python
+- **星标数量**: ⭐ 407
+- **核心概述**: Open-source infrastructure that turns scattered SKILL.md files into curated, retrieval-ready agent-skill corpora—with retrieval and evaluation tooling included.
+- **大概是做什么的**: What SkillCorpus gives you SkillCorpus is EverMind's open-source pipeline for turning scattered SKILL.md files from public repositories into reliable agent context. It aggregates sources, applies safety and license gates, evaluates quality, and matches task-specific skills before the agent answers. You can use the live SkillHub without cloning this repository. Clone SkillCorpus when you want the open-source machinery behind that experience: - Build your own skill layer — point the pipeline at your own source registry, apply the curation, safety, and license gates, and export a corpus for your agents. - Change the behavior — modify the taxonomy, quality and dedup rules, retrieval recipe, export schema, evaluation suites, or host plugins. - Keep control of deployment — self-host the released retrieval models and connect your own agent host instead of using the hosted SkillHub API. The core code is Apache-2.0 licensed ( match/ and evaluate/ are MIT); each skill retains its upstream license. The public 1,000-skill demo, three agent benchmarks, and live SkillHub show the https://github.co
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, agent-skills, ai-agents, benchmark, dataset, deepseek-harness
+
+---
+
+### 🌟 [skills](https://github.com/michaelshimeles/skills)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 332
+- **核心概述**: Agent skills and an AGENTS.md workflow template — isolate in worktrees, build to a service layer, prove with evidence, ship with before/after proof and Greptile review loops. For Claude Code, Cursor, and Codex.
+- **大概是做什么的**: A collection of agent skills for Claude Code. Each skill is a folder containing a SKILL.md with frontmatter (name, description) and instructions that Claude loads on demand when the task matches. Captures before/after screenshots of web pages or elements and outputs a PR-ready markdown comparison table, driving the @vercel/before-and-after CLI. - A PR needs visual proof that a UI change does what it claims - You want a Before After table generated and uploaded in one step - Comparing two URLs, two existing images, or a mix of both Vendored from vercel-labs/before-and-after (PolyForm Shield 1.0.0 — license included in the folder). Install the CLI with npm i -g @vercel/before-and-after agent-browser . Service layer architecture guidance. Enforces a two-layer separation where actions orchestrate domain rules (the "why/when") and a service layer centralizes reusable operational mechanics (the "how"). - Multiple workflows duplicate the same operational logic - You're deciding what belongs in actions vs. shared services - A bug fix in one flow doesn't propagate to others doing the same thi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude-code, code-review, codex, cursor
+
+---
+
 ## 🕔 2026-09-01 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 291 个候选项目中筛选出 6 个未推荐过的新项目。
