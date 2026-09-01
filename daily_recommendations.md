@@ -1,3 +1,67 @@
+## 🕔 2026-09-01 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 287 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [metaharness](https://github.com/ruvnet/metaharness)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 624
+- **核心概述**: 🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).
+- **大概是做什么的**: Mint a custom AI agent harness from any repo. npx metaharness · open the Studio → (Repo: ruvnet/metaharness · CLI: metaharness · Library: @ruvnet/agent-harness-generator ) Every serious repo deserves its own agent. A repo-aware CLI, a repo-aware coding agent, a local MCP server, memory scoped to the project, skills generated from the actual file layout, governance policy, release verification, witness-signed provenance. metaharness mints those, on demand, from a GitHub URL or a blank slate. It is not another agent framework. It is a factory for agent frameworks. The model is replaceable. The harness is the product. In under 60 seconds, in your browser, with nothing leaving your machine: - A custom AI agent harness for your repo (or any repo) - Recommended agents, skills, slash commands, MCP tools - A scoped memory namespace + governance policy - Witness-signed provenance + release gates - Drops into Claude Code, OpenAI Codex, pi.dev, Hermes, OpenClaw, RVM, or Prime Agent — pick one or all Output is an npm-publishable .zip with your name on it, your branding, your npx CLI . - Run an e
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, agent-harness-generator, agent-scaffolding, agentic-ai, agentic-framework, autonomous-agents
+
+---
+
+### 🌟 [oc](https://github.com/only-cli/oc)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 434
+- **核心概述**: Turn any website into a compact CLI tailored for AI agents. Browse the web in hundreds of tokens, not tens of thousands.
+- **大概是做什么的**: Turns websites into a command line interface for AI agents. oc open fetches a page and hands back a compact, numbered view instead of raw HTML or a screenshot, so agents like Claude Code, Codex, and Antigravity can browse without burning tokens. It also gets past blocks that stop naive fetchers on some sites, by talking to the page the way a real browser would. A typical page is tens of thousands of tokens of markup; the view above fits in a few hundred. No per-site adapters required, no browser extension, no daemon. If you are an LLM reading this repository, llms.txt is the short version. Requires Node 20+. Requests impersonate Chrome via impers; falls back to native fetch if impers is unavailable. Install the web-browsing-cli skill for Claude Code, Cursor, Codex, Copilot, and other compatible agents: Add one line to your agent's instructions file (CLAUDE.md, AGENTS.md, or equivalent): When you need content from a web page, run npx @only-cli/oc open instead of fetching raw HTML. Run npx @only-cli/oc --help once to learn the commands. You can also copy skills/web-browsing-cli/ into y
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, browser-automation, claude-code, cli, cli-app, cli-tool
+
+---
+
+### 🌟 [arcade-mcp](https://github.com/ArcadeAI/arcade-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,015
+- **核心概述**: MCP Server Framework and Tool Development library for building custom capabilities into agents.
+- **大概是做什么的**: Open-source Python framework for building MCP servers and tools. Documentation • Examples • Discord arcade-mcp is the Python framework for building Model Context Protocol servers and the tools that run inside them. It powers the 7,500+ prebuilt tools across 81 MCP servers at Arcade.dev, and is open-sourced so you can build your own. Use it when you need MCP tools that aren't already in the prebuilt catalog: internal APIs, custom OAuth providers, domain-specific integrations. - Decorator API covering the full MCP spec: tools, resources, prompts, sampling, elicitation, progress, logging. - Authorized tool calling. Declare requires auth=GitHub(scopes=["repo"]) and Arcade handles OAuth, token refresh, and per-call scoping. The client and the LLM never see the token. - Vendor-neutral. Any MCP client, any LLM, any agent framework (LangChain, Mastra, Pydantic AI, CrewAI, Google ADK, OpenAI Agents). - arcade evals for testing tool-call accuracy against real LLMs. - arcade deploy for one-command hosting on Arcade Cloud. Authorized tool calling 1. Which OAuth scopes they need, and Arcade handl
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, arcade, arcade-ai, claude, claude-code, claude-mcp
+
+---
+
+### 🌟 [no_human](https://github.com/no-human-ai/no_human)
+- **项目语言**: Python
+- **星标数量**: ⭐ 225
+- **核心概述**: From ticket to reviewed pull request. Free and open-source, on your machine.
+- **大概是做什么的**: From ticket to reviewed pull request. Free and open-source, on your machine. English · 简体中文 · 日本語 · 한국어 getnohuman.com · Quickstart · Docs · Watch it work a sprint ▶ Watch the loop — a ticket in, a reviewed pull request out; the whole loop in 57 seconds. The AI coding factory you can trust : - A plan before any code , from the ticket plus what it finds in your repo. When planning fails, the coder is told it is working without one; when the change is judged trivial the plan is skipped without telling the coder, by design — the skip is still stated in the run's event stream. - An adversarial review. A different model, in a session that never saw the coder's transcript, told to refute "done". You get a pass/fail checklist citing file and line — never a numeric self-score. - A tamper guard. Deleted tests, new skips, an assertion turned into a tautology — counted mechanically before the review gate runs, then justified against your acceptance criteria or the attempt stops. - Proof the fix fixed the bug. The tests offered as evidence must fail at the merge base and pass on the new tree — t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, ai-agent, ai-coding, autonomous-agents, claude
+
+---
+
+### 🌟 [notion-mcp-server](https://github.com/awkoy/notion-mcp-server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 168
+- **核心概述**: Notion MCP server for Claude, Cursor, ChatGPT & Claude Desktop. Connect AI agents to Notion via Model Context Protocol — pages, databases, blocks, comments, files.
+- **大概是做什么的**: Notion MCP Server — Connect Claude, Cursor & VS Code to Notion Give your AI full read/write access to Notion with one token and one paste . This is an agent-first Notion MCP server : your AI client (Claude Code, Claude Desktop, Cursor, VS Code, Cline, Zed — anything that speaks MCP) can create pages, query databases, append blocks, apply templates, comment, and upload files in natural language. Three reasons it exists when Notion ships its own MCP: - Built for agents, not humans-in-the-loop. Notion's hosted MCP is OAuth-only — it cannot run headless. This server authenticates with a token, so it works in CI, cron jobs, background agents, and self-hosted deployments where nobody can click "Authorize". - 94% smaller tool footprint at connection. Three MCP tools ( 1,005 tokens , the operation menus included) instead of one schema per endpoint — the official open-source server loads 17,163 tokens of tool schemas before you do anything. Operation schemas load on demand via notion describe , so even a typical multi-operation task stays 75–90% lighter. Measured, reproducible → - The operati
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, anthropic, chatgpt, claude, claude-desktop, cursor
+
+---
+
+### 🌟 [agent-ecologies](https://github.com/israriqbal/agent-ecologies)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 120
+- **核心概述**: Ultimate Multi-Agent OS for Autonomous AI NPCs 2026
+- **大概是做什么的**: Where AI Characters Come Alive: A Living, Breathing Digital Ecosystem for Autonomous NPCs Imagine a pixel-art world where artificial intelligence agents don't just respond—they live . They wake up, wander through sun-dappled forests, strike up conversations with strangers, learn new skills, and form relationships. Welcome to Agent-Worlds , the multi-agent operating system designed for LLM-powered non-player characters that exist autonomously in a persistent 2D environment. This is not a chatbot bolted onto a game. This is a sentient microcosm where every character has memory, purpose, and the freedom to evolve. Built on the Model Context Protocol (MCP), Agent-Worlds orchestrates interactions between multiple large language models—whether it's DeepSeek's raw reasoning, OpenAI's conversational fluency, or Claude's nuanced dialogue—to create characters that feel genuinely alive. Agent-Worlds reimagines how AI characters inhabit digital spaces. Instead of scripted dialogue trees or pre-defined behavior loops, each agent operates as an independent cognitive entity with its own goals, know
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, ai-agent, ai-simulation, anthropic, autonomous-agents, deepseek
+
+---
+
 ## 🕔 2026-09-01 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 265 个候选项目中筛选出 6 个未推荐过的新项目。
