@@ -1,3 +1,67 @@
+## 🕔 2026-09-02 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [mcp-use](https://github.com/mcp-use/mcp-use)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 10,553
+- **核心概述**: The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.
+- **大概是做什么的**: The TypeScript framework for MCP Build, test, and ship MCP servers, ChatGPT plugins, Claude connectors Fully Typed, native Views and MCP Apps support, built-in Inspector and first class Agent experience. Migrating from v1? Give it to your agent: Read the migration guide → Start with your agent Run npm run dev in the generated project · open http://localhost:3000/mcp/inspector Everything you need to ship MCP Zod schemas flow from tools to structured results, View props, and tool calls. Bind React Views directly to tools and ship interactive apps without custom extension wiring. Agent-first and headless Scaffold, invoke, inspect, screenshot, and deploy through your agent. Built-in debugging tools Inspect tools and Views in the browser or headlessly through the CLI. The scaffold gives you the server, TypeScript configuration, development scripts, Inspector, and a React view pipeline. Start it once and the MCP endpoint also serves a client-ready landing page with its connection URL and setup instructions. Replace its index.ts with a view-bound tool like this: index.ts — Server entry file
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-plugins, agentic-framework, ai, apps-sdk, chatgpt, claude-code
+
+---
+
+### 🌟 [world-intel-mcp](https://github.com/marc-shade/world-intel-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 606
+- **核心概述**: 120-tool MCP server for real-time global intelligence: markets, SEC filings, conflict, military, cyber, climate, news, and 30+ domains. AI situation briefs that cite their sources, user-defined geofences with escalation scoring, cited daily digests, live SSE dashboard. MIT, no paid API keys.
+- **大概是做什么的**: World Intelligence MCP Server Real-time global intelligence across 30+ domains with 132 MCP tools , a live ops-center dashboard, a CLI, and a Qdrant vector store for enterprise-grade semantic search across accumulated intelligence. All data comes from free, public APIs: no paid subscriptions required. Built for AI agents that need world awareness: market conditions, geopolitical risk, military posture, supply chain disruptions, cyber threats, and more — all queryable via the Model Context Protocol. The vector store enables natural language queries like "military activity near Taiwan" or "cyber threats targeting healthcare" across all historical data. Domain Tools Data Sources -------- ------- ------------- Financial Markets 7 Yahoo Finance, CoinGecko, Alternative.me, Mempool Forex & Currency 3 ECB/Frankfurter (8 major pairs, timeseries, cross rates) Bonds & Yields 2 FRED, Yahoo Finance (yield curve, bond ETFs, spread analysis) Earnings 2 Yahoo Finance (mega-cap calendar, surprise history) SEC Filings 3 SEC EDGAR (full-text search, company filings, 8-K material events) Company Enrichm
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-tools, ai-watch, anthropic, claude, cybersecurity, dashboard
+
+---
+
+### 🌟 [pentest-harness](https://github.com/S1N6H/pentest-harness)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 327
+- **核心概述**: Pentest Harness — Heaven for Hackers. A self-hosted AI agent harness for authorized pentests, bug bounty, security labs, and CTFs. Bring your own AI model API; sessions stay local.
+- **大概是做什么的**: Heaven for Hackers — the professional security testing workspace. An open-source, dark-first AI agent harness for authorized penetration tests, bug bounty research, security labs, and CTF engagements. Built on a plugin architecture where every layer — model adapters, tools, sessions, settings, and credentials — is replaceable from Works with any AI model API. Bring your own key from OpenAI, Anthropic, DeepSeek, Google, Mistral, Groq, OpenRouter, Azure OpenAI, or any OpenAI-compatible gateway — one click auto-discovers your models and you're running. Workspace Provider cards - Multi-provider LLM engine — OpenAI Chat Completions & Responses, Anthropic Messages, DeepSeek, and any custom OpenAI-compatible gateway with one-click model auto-discovery - Full agent toolset — shell, filesystem, web research, skills, goals, subagents, background jobs, and workflow control - Pentest Mode — a professional offensive-security operating standard for authorized engagements - Provider cards — live connection testing, enabled/disabled toggles, per-model context badges - Durable sessions — JSONL/SQLite
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, anthropic-api, bug-bounty, infosec, llm, offensive-security
+
+---
+
+### 🌟 [Finance-Guru](https://github.com/AojdevStudio/Finance-Guru)
+- **项目语言**: Python
+- **星标数量**: ⭐ 318
+- **核心概述**: Self-hosted family office engine: typed Python calculators, a private SQLite ledger, and specialist agents for Claude Code and Codex. Agents propose. Typed code computes.
+- **大概是做什么的**: Your brokerage account is not a spreadsheet problem. It is an operating system problem. A self-hosted family office engine: typed Python calculators, a private SQLite ledger, and specialist agents that run inside Claude Code or Codex. Your data never leaves your machine unless you point it somewhere. Quick Start · How it works · Docs · For agents One command, a full risk profile against live end-of-day data. No portfolio data required. Market analysis works from a fresh clone. You paste a screenshot into a chat model and ask whether a position is too big. The answer is plausible and unchecked. Chat models are excellent at deciding what question to ask and terrible at being the calculator. So split the job. Agents propose. Typed code computes. Guardrails fail closed, in Python, with tests. Every number an agent quotes comes from a Pydantic-validated calculator with a CLI you can run yourself. Every irreversible action passes through a guardrail that blocks when its inputs are missing rather than guessing. The AI gets judgment. The math gets a test suite. If a model can lie about it, a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, codex, family-office, open-core, personal-finance
+
+---
+
+### 🌟 [stereOS](https://github.com/papercomputeco/stereOS)
+- **项目语言**: Nix
+- **星标数量**: ⭐ 490
+- **核心概述**: A Linux based operating system hardened and purpose built for AI agents
+- **大概是做什么的**: A Linux based operating system hardened and purpose-built for AI agents. stereOS produces machine images - called mixtapes - that bundle a hardened, minimal Linux system with specific AI agent harnesses. Mixtape Agent binary API key --------- ------------- --------- opencode-mixtape opencode ANTHROPIC API KEY or OPENAI API KEY Each mixtape appends its agent package to stereos.agent.extraPackages , which adds the binary to the agent user's restricted PATH. The -dev variant of each mixtape includes profiles/dev.nix for local SSH key injection. The stereOS system is minimal in nature with several orchestration daemons handling agent lifecycle and acting as a control plane for agent operators: admin user and group for administrative operations: /home/admin agent user and group for agent to assume: /home/agent/workspace stereosd - stereOS system daemon agentd - agent management daemon Format Build attribute Output Use case -------- ---------------- -------- ---------- Raw EFI system.build.raw stereos.img Canonical artifact. Apple Virt Framework bootable QCOW2 system.build.qcow2 stereos.qc
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, nix, nixos
+
+---
+
+### 🌟 [paiml-mcp-agent-toolkit](https://github.com/paiml/paiml-mcp-agent-toolkit)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 164
+- **核心概述**: Pragmatic AI Labs MCP Agent Toolkit - An MCP Server designed to make code with agents more deterministic
+- **大概是做什么的**: Zero-configuration AI context generation for any codebase Installation MCP Server Usage Features Examples Documentation PMAT (Pragmatic Multi-language Agent Toolkit) provides everything needed to analyze code quality and generate AI-ready context: - Context Generation - Deep analysis for Claude, GPT, and other LLMs - Technical Debt Grading - A+ through F scoring with 6 orthogonal metrics - Mutation Testing - Test suite quality validation (85%+ kill rate) - Repository Scoring - Quantitative health assessment (0-289 scale, 11 categories) - Git History RAG - Semantic search across commit history with RRF fusion - Semantic Search - Natural language code discovery - Compliance Governance - 157 checks across code quality, best practices, and reproducibility - Design by Contract - Toyota Way contract profiles with checkpoint validation and rescue protocols - Autonomous Kaizen - Toyota Way continuous improvement with auto-fix and commit - MCP Integration - 19 tools for Claude Code, Cline, and AI agents over stdio and HTTP (identical surfaces), validated end-to-end for concurrent multi-agent
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, c, deno, kotlin, mcp, mcp-server
+
+---
+
 ## 🕔 2026-09-02 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
