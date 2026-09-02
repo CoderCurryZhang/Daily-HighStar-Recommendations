@@ -1,3 +1,67 @@
+## 🕔 2026-09-02 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 262 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [claw-eval](https://github.com/claw-eval/claw-eval)
+- **项目语言**: Python
+- **星标数量**: ⭐ 762
+- **核心概述**: Claw-Eval is an evaluation harness for evaluating LLM as agents. All tasks verified by humans.
+- **大概是做什么的**: Claw-Eval: Towards Trustworthy Evaluation of Autonomous Agents. 300 human-verified tasks 2,159 rubrics 9 categories Completion · Safety · Robustness. Clones and views are accumulated daily from the GitHub Traffic API since 2026-07-22. Dataset downloads are the sum of all-time HuggingFace and ModelScope counts. Raw daily data lives in traffic/traffic.json . Browse the full leaderboard and individual task cases at claw-eval.github.io . Evaluation Logic (Updated March 2026): Primary Metric: Pass^3. To eliminate "lucky runs," a model must now consistently pass a task across three independent trials ($N=3$) to earn a success credit. Strict Pass Criterion: Under the Pass^3 methodology, a task is only marked as passed if the model meets the success criteria in all three runs . Reproducibility: We are committed to end-to-end reproducibility. Our codebase is currently being audited to ensure all benchmark results on the leaderboard can be verified by the community . Handling API Instability : In the event of execution errors caused by network or API fluctuations, we manually re-trigger the ev
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, harness, llm, openclaw
+
+---
+
+### 🌟 [agentscope-studio](https://github.com/agentscope-ai/agentscope-studio)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 646
+- **核心概述**: A development-oriented visualization toolkit
+- **大概是做什么的**: AgentScope 2.0 now ships a built-in Web UI as part of its batteries-included Agent Service — a FastAPI backend paired with a pre-built frontend ( examples/web ui ) for building, running and observing agents out of the box. Powered by a unified event stream, it visualizes agent reasoning, tool calls and multimodal content in real time, and offers multi-session isolation, Agent Team (leader–worker) orchestration with task planning, permission & human-in-the-loop control, IM channels (Feishu / Discord), MCP & Skill Hub management, session persistence and task scheduling. With these capabilities built natively into AgentScope 2.0, AgentScope Studio is no longer maintained as a standalone tool. We recommend all users migrate to AgentScope 2.0 (https://github.com/agentscope-ai/agentscope) for continued updates, new features and community support. This repository will remain available in read-only mode for reference and will be archived soon. Thank you to everyone who contributed to and used AgentScope Studio! AgentScope Studio: Development-Oriented Visualization Toolkit AgentScope Studio i
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentscope, chatbot, llm, multi-agent, opentelemetry
+
+---
+
+### 🌟 [FigMirror](https://github.com/VILA-Lab/FigMirror)
+- **项目语言**: Python
+- **星标数量**: ⭐ 510
+- **核心概述**: An Automated AI Agent Tool for Plotting Your Data in Any Paper's Figure Style.
+- **大概是做什么的**: FigMirror: Plot Your Data in Any Paper's Style. Pick a reference figure, paste your data, and get an editable matplotlib script plus a camera-ready PDF. - Jun 1, 2026 — FigMirror release: shipped FigMirror as Claude Code and Codex skills, with a local Web UI for upload, iteration browsing, and refinement. - Jun 17, 2026 — Algorithm update: refined the Codex path with role-separated Drawer / Reviewer agents, far-near visual review views, reviewer bounding boxes, and annotated feedback passed into the next iteration. - Jul 1, 2026 — Evaluation update: built an internal hybrid style scorer for repeatable method comparison. - Aug 17, 2026 — Claude Code parity: ported the production role-separated loop to Claude Code with the same decision state machine and bounded iteration contract. - Aug 28, 2026 — arXiv preprint: released FigMirror: Ground It, Code It, Plot It , introducing PlotTwin-Bench and the paper's benchmark results. FigMirror: Ground It, Code It, Plot It (August 28, 2026), introduces PlotTwin-Bench for reference-conditioned scientific-figure style transfer. The paper reports a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, claude-code, codex, data-visualization, llm-agents
+
+---
+
+### 🌟 [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 300
+- **核心概述**: 一套 DSH runtime，Desktop、Web 与 TUI 三种开发体验。
+- **大概是做什么的**: 一套 DSH runtime，Desktop、Web 与 TUI 三种开发体验。 把 AI Agent、Workspace、本地工具与插件生态带到你习惯的界面。 Oh-DSH 将 DeepSeek Harness、Node.js、本地开发工具和内置插件打包为可安装的 Desktop、Web 与 TUI 发行版。模型服务仍可按需运行在云端；Workspace、终端、 Git Review、浏览器、文件、会话与插件状态由本地工作台统一组织。 使用同一个 ohdsh 命令启动 Desktop、Web 或 TUI。三端共享会话、凭据、皮肤与插件缓存，同时保留独立 Profile。 内置 Workspace、PTY 终端、浏览器、文件浏览、Side chat 与 Trajectory；面板可以折叠、固定、分屏或全屏展开。 查看工作区改动与 commit diff，在代码行上添加 review comment，并在同一个侧边栏完成分支、提交和推送操作。 Desktop、Web 与 TUI 都能检索、预览和安装插件，并共享同一套交易与恢复状态。目录会标明插件实际生效的界面：安装可能在所有终端都成功，但某些插件只在 Web 或 Desktop 生效、在 TUI 不生效，界面上会明确区分。 @oh-dsh/skins 为 Desktop、Web 与 TUI 提供统一主题，并针对各界面的布局和可读性分别适配。 按需安装完整版、Web-only 或 TUI-only。每种发行都自带固定版本的 DSH 与 Node runtime，不要求单独安装运行环境。 Linux 与 macOS 使用仓库根目录的 install.sh 安装最新稳定版。默认安装 TUI，并将 ohdsh 注册到 /.local/bin ；新开一个终端后即可使用： 需要 Web 或 Desktop 时显式选择发行形态： Windows 使用仓库根目录的 install.ps1 ；不带参数时同样默认安装 TUI： 安装完成后，通过统一命令启动已安装的界面： ohdsh 只会启动已经安装的 surface；Desktop 的直接入口 oh-dsh-desktop 仍然保留。Linux/macOS 如果当前终端还没有加载新的 PATH， 请重新打开终端；Windows 请使用新终端。 安装器在校验发布的 SHA-256 摘要之前不会触碰旧安装，下载失败、摘要不匹配 或解压中断都保持原安装可用；重复执行同一命令即为原地升级， --uninstall 按 surface 卸载。完整选项、环境变量与 surface 矩阵见 从
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, cordis, deepseek-harness, dsh, dsh-plugin, dsh-plugins
+
+---
+
+### 🌟 [HarnessEval-W](https://github.com/MirroS-Lab/HarnessEval-W)
+- **项目语言**: Python
+- **星标数量**: ⭐ 286
+- **核心概述**: HarnessEval-W: Agentifying the Evaluation of Visual Worlds
+- **大概是做什么的**: Agentifying the Evaluation of The era of harnessed benchmarking: evaluation defines the taste of evolution. A benchmark should deliver more than a scalar score: what makes an evaluation trustworthy is the reasoning that justifies the score . This is especially critical for world models, where judging a rollout requires understanding whether physics, causality, and world state evolve correctly. Humans spot such violations naturally, yet no existing benchmark automates this capability: metrics are computed brute-force, leaving no reasoning chain that can be examined or verified. HarnessEval is an agentified evaluation pipeline that brings the harness paradigm from the LLM ecosystem to world model benchmarking. Rather than applying a fixed rubric, HarnessEval interprets the context of each evaluation case, decomposes the evaluation question into measurable sub-questions, and spawns specialized sub-agents, each equipped with tailored context and diagnostic tools to reason over its own sub-question. The parent agent then validates the gathered evidence and aggregates it into the final ver
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, benchmark, evaluation, harness, harness-engineering, kling
+
+---
+
+### 🌟 [StatsPAI](https://github.com/brycewang-stanford/StatsPAI)
+- **项目语言**: Python
+- **星标数量**: ⭐ 308
+- **核心概述**: StatsPAI is the first Agent-native Python library for causal inference and applied econometrics — unified API, broad cross-method coverage, structured result objects, machine-readable schemas, Skills, an MCP server, and R/Stata parity validation.
+- **大概是做什么的**: StatsPAI: an Agent&Python-native Stata/R replacement for applied causal inference StatsPAI is for empirical researchers who would normally jump between Stata, R, and Python. Its goal is to make common Stata/R econometrics and causal-inference workflows feel native in Python: load a dataset, estimate a model, inspect diagnostics, export tables, and hand the result to an agent or notebook without It is meant to be a practical replacement path for new Python-first work: - Stata-style routines: regress , ivregress , reghdfe , csdid , rdrobust , synth , psmatch2 , outreg2 . - R-style routines: lm , fixest , did , rdrobust , Synth , DoubleML , MatchIt , modelsummary , broom . - Python-native outputs: .summary() , .tidy() , .plot() , .to latex() , .to docx() , .to agent summary() where supported by the result object. - Companion Stata tooling: our own stata-code can work with StatsPAI so agents can understand existing Stata workflows, translate them into Python, and cross-check results more smoothly. - Companion skill repos: Auto-Empirical-Research-Skills , Awesome-Journal-Skills , can work
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-native, ai-agents, causal-discovery, causal-inference, data-science, difference-in-differences
+
+---
+
 ## 🕔 2026-09-02 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 253 个候选项目中筛选出 6 个未推荐过的新项目。
