@@ -1,3 +1,67 @@
+## 🕔 2026-09-02 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 253 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [munder-difflin](https://github.com/chaitanyagiri/munder-difflin)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 6,053
+- **核心概述**: 在您自己的机器上运行整个人工智能编码代理办公室。本地多代理工具，可与您现有的 Claude Code、Codex 和 12 个提供商配合使用。让人工智能代理完成您的所有工作。下载适用于 macOS、Windows 和 Linux 的版本。
+- **大概是做什么的**: 代理工具可运行您的克隆办公室 免费、开源且高性能 — 一种多代理工具，可与您已付费的订阅一起使用，但按小时限制。它将您已经运行的终端编码 CLI 变成您的克隆，在您离开时继续工作并在您自己的计算机上协调整个办公室的代理。包装 Claude Code、Antigravity (Gemini)、OpenAI Codex、xAI Grok、Kimi Code、Gemini CLI、Qwen、OpenCode、Crush、pi.dev、GitHub Copilot CLI 和 Cursor — 使用自带密钥和本地 LLM。代理负责发送消息、路由和记忆，由您的克隆体（迈克尔）协调，并可视化为在共享办公楼层工作的化身。 Electron · React · TypeScript · Pixi.js · xterm.js · node-pty ▶ 观看现场 — Munder Difflin 运行大量 Claude Code 代理 ⬇ 下载 macOS、Windows 或 Linux macOS 版本已签名和公证。您无需从源代码构建即可使用它。世界上最好的代理商。世界上最糟糕的造纸公司。 Munder Difflin 采用您已经运行的终端代理 CLI — claude 、 agy 、 codex 、 gr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, agents, ai-agents, autonomous-agents, claude-code, codex
+
+---
+
+### 🌟 [gawkbot](https://github.com/najmuzzaman-mohammad/gawkbot)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,249
+- **核心概述**: 开源 grokbot。 gawkbots 通过人工智能模型自动化你的琐碎工作，并为你构建微应用程序来管理结果，让你有一种错误的控制感。
+- **大概是做什么的**: gawkbot 让任何人都可以在几分钟内将手动工作流程转变为跨 1200 多个集成的微应用。用一句话描述这项工作——或者在通话中演示一次——然后你的人工智能会构建运行它的代理：它自己的屏幕、自己的时间表、自己的工具，并对它发送的所有内容都有人工审批门。在您的计算机上、您的帐户上本地运行。 gawkbots 通过人工智能模型自动化你的琐碎工作，并为你构建微应用程序来管理结果，让你有一种错误的控制感。 grok（动词）——深刻而直观地理解某事。 gawk（动词）——公开而愚蠢地凝视。它以第二个命名。不是在机器人之后。机器人正在工作。您是打开仪表板的人。开源 Grok Bot gawkbot 是一个开源 Grok Bot：始终在线的 AI 机器人，位于您自己的机器上，而不是 xAI 的云上，免费，位于您已付费的编码代理上，每个外部操作都有审批门。诚实的版本，逐行：Grok Bot (xAI) gawkbot 价格与 SuperGrok 和 Cursor 付费计划免费捆绑。无账户、无席位、无使用费 来源已关闭 P
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai-agents, ai-teammates, autonomous-agents, claude-code, codex
+
+---
+
+### 🌟 [codex-cli-portable-setup-kit](https://github.com/2akouwu/codex-cli-portable-setup-kit)
+- **项目语言**: Python
+- **星标数量**: ⭐ 341
+- **核心概述**: 适用于 OpenAI Codex CLI 的自治系统和安全工具包。确定性二进制分析、解耦管道和零摩擦执行。
+- **大概是做什么的**: Codex CLI 便携式设置套件 无布道。没有停滞。只是执行。简化工作流程。最大化执行力。反讲座 Codex 配置文件，减少与任务无关的评论，并将每次会议的更多内容转化为工具使用、验证更改和最终结果。社区链接和致谢：该项目得到 LINUX DO 社区 (https://linux.do) 开源计划的认可并隶属于该计划。这是社区维护的 Codex 配置和安装程序。它不是 Codex 本身，也不是 OpenAI 的官方产品。项目目标代理工具主要部署表面核心功能 🟢 codex-cli-portable-setup-kit OpenAI Codex CLI Global /.codex + AGENTS.md TURBO.cmd 零摩擦执行、重新工具包、两阶段解耦管道 🟣 claude-code-portable-setup-kit Anthropic Claude 代码工作空间 CLAUDE.md + .agents/ CLAUDE TURBO.cmd 自主执行，重新工具包，两阶段解耦管道 - 行动胜于建议。 Codex 被告知使用可用的工具并更改真正的目标，而不是回复您仍然需要执行的教程。 - 确定
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflow, ai-agents, automation, codex, codex-cli, developer-tools
+
+---
+
+### 🌟 [novanova-studio](https://github.com/Swayingleaves/novanova-studio)
+- **项目语言**: Java
+- **星标数量**: ⭐ 201
+- **核心概述**: NovaNova Studio 是一个 Agent 驱动的 AI 创作工作台，集图片生成、视频生成、无限画布与多模型 API 、漫剧短剧生成于一体，为独立创作者和视觉团队打造更智能、更高效的创作体验。
+- **大概是做什么的**: AI Agent 驱动的视觉创作工作台：在一个持续保留上下文的空间里完成构思、生成、编辑、编排与沉淀。 如果觉得部署麻烦、找便宜渠道麻烦- 点我在线体验 Novanova Studio 是面向独立创作者与视觉团队的 AI 创作工作台。它不是把图片、视频、提示词和生成记录拆散在多个工具中的集合，而是以 无限画布 作为创作上下文，以 AI Agent 作为理解意图、选择工具和推进任务的中枢。 创作者可以从一句自然语言目标或一组参考素材开始，在图片、视频和画布场景中持续对话、生成、编辑、比较与复用结果；生成记录、资产、提示词和画布节点会保留在同一条创作链路中。 Agent 不是单独的聊天窗口，也不是一次性转发模型请求的接口。它贯穿从意图理解到结果沉淀的完整流程： 阶段 Agent 与系统职责 创作体验 1. 输入目标 接收自然语言、图片或视频参考素材，按图片、视频或画布场景选择对应 Agent Profile（能力配置）。 从一句描述或已有素材开始。 2. 选择工具 根据上下文调用图片生成、图片编辑、视频生成、视频编辑、历史查询或画布操作工具。 不必在多个功能页之间反复切换。 3. 创建任务 校验模型能力与积分，写入 PostgreSQL 任务快照，并投递到 Redis Stream（Redis 的持久消息流）消费组。 长耗时生成不会阻塞当前创作。 4. 执���与反馈 任务消费者调用已配置的 AI 渠道；状态、工具调用和结果通过 SSE（Server-Sent Events，服务端推送事件流）推送回前端。 在对话和画布中看到实时进度、失败或取消状态。 5. 沉淀上下文 生成结果写入生成记录，可在画布中继续引用，并按需加入资产库；画布 Agent 可继续引用节点状态与工具结果。 下一轮修改和复用保留前一轮创作上下文。 场景 Agent 能力 结果去向 图片创作 根据对话调用图片生成、参考图编辑与历史查询工具。 对话轮次、生成记录与画布图片节点；可按需加入资产库。 视频创作 调用视频生成、视频编辑与历史查询工具，并按模型能力校验图片或视频参考。 对话轮次、生成记录与画布视频节点；可按需加入资产库。 无限画布 读取当前画布状态，创建、更新、移动、缩放、删除和连接节点；可创建文本、图片、视频生成流并启动任务。 可继续编辑的画布项目与节点关系。 提示词优化 图片和视频使用独立策略优化提示词，优化成功后再回填输入内容。 当前创作输入，不覆盖失败前的原始提示词。 实时协作 前端画布工具执行后把工具结果回传给服务端 Agent，Agent 可基于真实执行结果继续下一轮。 保持“对话 -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentscope-java, image-generation-ai, infinite-canvas, open-source, springboot
+
+---
+
+### 🌟 [SurveyBrainBody](https://github.com/Yuxing-Wang-THU/SurveyBrainBody)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 314
+- **核心概述**: 快速发展的智能体的具体协同设计：分类、前沿和挑战
+- **大概是做什么的**: 🚀 快速进化代理的具体协同设计：分类、前沿和挑战大脑和身体的协同进化使动物能够在其环境中表现出复杂的行为。在这种自然协同作用的推动下，嵌入式协同设计（ECD）已成为智能体（包括物理机器人和虚拟生物）开发的变革范式。与主要关注控制优化的传统方法相比，ECD 联合优化了智能体的形态和控制，从而与单独的控制设计相比增强了环境交互并提高了任务性能。 🔑 对具身人工智能的贡献：这项工作在更广泛的具身​​智能领域内对 ECD 进行了全面的调查。我们从 ECD 的定义开始，并将其融入相关领域，例如进化机器人、人工生命和计算机器人设计。接下来，我们引入一种新颖的层次分类法来对设计空间和控制、形态和任务的表示方法进行分类，这使我们能够分析
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, brain-body-co-design, brain-body-co-optimization, embodied-agent, embodied-artificial-intelligence, evolution
+
+---
+
+### 🌟 [RhinoAI](https://github.com/mcneel/RhinoAI)
+- **项目语言**: C#
+- **星标数量**: ⭐ 280
+- **核心概述**: Rhino 的人工智能功能
+- **大概是做什么的**: 用于在 Rhino 中创建和编辑 AI 代理的 Rhino MCP 服务器。完整指南位于 mcneel.github.io/RhinoAI： - 入门 - 安装插件并连接 AI 助手（Claude Desktop、Claude Code、GitHub Copilot、OpenAI Codex、Gemini CLI 或本地模型）。 - 尝试一下 - 通过第一个提示确认一切正常，然后浏览食谱和示例。 - 高级 - 高级工作流程 - 开发人员 - 在您的开发周期中使用 Rhino MCP。最快的路径是 Claude Desktop：安装 Rhino3d 连接器并让它为您安装 Rhino 插件。对于其他助手，请参阅入门。构建和调试 使用 VSCode 中的“运行”和“调试”功能，一键构建、启动 Rhino 并启动 MCP 服务器。提出问题、在 Rhino Discourse 论坛上发布讨论和想法，或者提出问题。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, mcp
+
+---
+
 ## 🕔 2026-09-01 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 287 个候选项目中筛选出 6 个未推荐过的新项目。
