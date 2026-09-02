@@ -1,3 +1,67 @@
+## 🕔 2026-09-02 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [genoffice](https://github.com/genspark-ai/genoffice)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 4,343
+- **核心概述**: Free, open-source alternative to Microsoft Office with built-in AI agents — Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and Markdown editing for macOS, Windows & Linux.
+- **大概是做什么的**: The world's first full-featured open-source AI Office suite. Website · Download · Privacy · Demo GenOffice is a free, open-source alternative to Microsoft Office for macOS, Windows, and Linux, built around AI editing as a first-class workflow rather than a bolted-on chat box. It opens and saves the real Microsoft Office formats — Word ( .docx ), Excel ( .xlsx ), PowerPoint ( .pptx ) — and edits PDF and Markdown too: a word processor, spreadsheet, presentation editor, PDF editor, and Markdown editor as six Electron apps sharing one engine Watch the demo video on YouTube - Real PDF editing — retype text and edit images in the page itself, original fonts preserved. - Local PDF → Word / PowerPoint / Excel conversion — turn a PDF into an editable .docx , .pptx , or .xlsx entirely on your machine: no cloud, no upload. - Scanned PDFs too — on macOS and Windows scanned pages are read with the system OCR, so they convert to editable text. - Microsoft Word–compatible, byte-preserving .docx editing — only what you touched changes; Word never notices. - Word-faithful pagination — page breaks lan
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, byok, docx, electron, excel
+
+---
+
+### 🌟 [personal-agent-template](https://github.com/vercel-labs/personal-agent-template)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 461
+- **核心概述**: Open-source template for a durable personal AI agent — web chat, Slack, Linear, and long-term memory with user-approved saves. Eve, Nuxt, Better Auth, Vercel Connect.
+- **大概是做什么的**: Personal Agent Template Template. Fork it, customize it, and deploy your own personal agent. Open source personal agent template. Web chat, Slack, GitHub, Linear, and persistent memory — one codebase, durable sessions. Web Chat — Threads That Persist Chat with your agent in the browser. Threads resume across sessions and tool calls render in real time. Eve holds the transcript, so the app stores a session id and nothing else. Slack — Same Agent, Different Surface DMs and @mentions on Slack. Link your Slack account to your web profile so memory and context follow you across channels. GitHub — Repos, PRs, and CI Connect GitHub via Vercel Connect. Ask about repositories, pull requests, issues, and workflows — the agent mounts the @github-tools/eve-extension tools with durable approval on writes. Linear — Issues On Demand Connect Linear via Vercel Connect MCP. Ask about issues, projects, and cycles — the agent queries Linear tools, never guesses from memory. Persistent Memory — Eve's Memory Slot A bounded, model-maintained list of durable facts, scoped per user by Eve's fileMemory() prov
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, better-auth, eve, linear, memory, nuxt
+
+---
+
+### 🌟 [GLM-5.3-Flash-J-Space-Capability-Realization-Report](https://github.com/Tiger3807861189/GLM-5.3-Flash-J-Space-Capability-Realization-Report)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,029
+- **核心概述**: GLM-5.3-Flash × J-Space capability realization — benchmark presentation of the J-Space Cognition Suite
+- **大概是做什么的**: J-Space Cognition Suite V3.7 J-Space Cognition Suite is a model-agnostic inference-time control system for deep reasoning, long-horizon work, tool use, verification, and recovery. It is packaged as a Skill for cross-platform use, selective loading, and low-friction integration. The suite organizes an agent's accessible working representations into a deliberately managed workspace. It operates through a single entry, nine selectively loaded modules, four supporting references, and an optional standard-library controller for durable task state. J-Space operates at inference time. Model weights and training remain unchanged. Option A — manual installation 1. Download or clone this repository. 2. Locate the user-level Skills directory used by your AI host. 3. Copy the complete j-space/ directory into it so that the installed entry is /j-space/SKILL.md . 4. Run the integrity check with an available Python 3 interpreter: Replace with the Python 3 command available on the host, commonly python , python3 , or py -3 . 5. Reload the host if it discovers Skills at startup. - The directory must
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, benchmark, deepseek, deepseek-harness, dsh
+
+---
+
+### 🌟 [iot-dc3](https://github.com/pnoker/iot-dc3)
+- **项目语言**: Java
+- **星标数量**: ⭐ 1,188
+- **核心概述**: IoT DC3 is a multi-protocol, cloud-native, AI-powered, open-source industrial IoT platform evolving toward AI agents. A complete IoT system solution: device connectivity, data acquisition, edge-to-cloud delivery and intelligent operations.
+- **大概是做什么的**: English 中文 日本語 Tiếng Việt 한국어 Español Русский AI assistants: Read README.ai.md first for a concise, AI-friendly overview of IoT DC3. IoT DC3 — the multi-protocol, cloud-native, open-source industrial IoT platform. AI-powered — from device connectivity to industrial agents 🔌 Multi-protocol connectivity &nbsp;·&nbsp; 🤖 AI Agentic Center &nbsp;·&nbsp; ☁️ Cloud-native microservices 📸 Platform Overview 📸 Device Management System overview · Online device metrics · Data trend charts Device list · Online status · Search and filtering Natural-language device queries · Data analysis · Intelligent assistance 🏗️ Architecture Overview Architecture at a Glance Six-layer microservice architecture at a glance: clients → gateway → four center services → message bus → 36 protocol drivers → field devices. PostgreSQL (TimescaleDB + pgvector + AGE) persistence and optional observability stack (ELK + Prometheus + Grafana) laid out in one view. 🧱 Design principles — cross-service calls always go through Facade interfaces; the DO/BO/VO three-tier model keeps persistence, business, and API shapes stric
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, cloud-native, data-collection, device-management, edge-computing
+
+---
+
+### 🌟 [reverify](https://github.com/2akouwu/reverify)
+- **项目语言**: Python
+- **星标数量**: ⭐ 520
+- **核心概述**: Verified reverse engineering: AI RE grounded on deterministic tools - results checked against the binary, not hallucinated.
+- **大概是做什么的**: Reverse engineering you can trust. An AI-assisted RE toolkit whose findings are checked against the binary — not hallucinated. Language models are great at reading code and unreliable at reverse engineering. Ask a model to reconstruct a struct or an algorithm from a binary and it will confidently invent offsets, sizes, and behavior. In binary analysis this hallucination problem is far worse than in source code, and "did the model just make that up?" is the single biggest blocker to using AI for real RE. Reverify pairs a language model with a deterministic, pure-Python RE toolkit and makes the toolkit the judge. The model proposes; the tools verify. A hypothesis about a structure or an algorithm is only reported once it has been checked against the actual bytes — disassembled, pattern-matched, or executed in the emulator — so the output is grounded in the binary instead of the model's imagination. - Deterministic core — PE32/PE32+ parsing, x86/x64 disassembly, AOB pattern scanning, CPU micro-emulation, Protobuf/TLV dissection, Frida hook generation. Pure Python, no Ghidra, - Grounded,
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflow, ai-agents, automation, binary-analysis, codex, codex-cli
+
+---
+
+### 🌟 [harness](https://github.com/awizemann/harness)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 343
+- **核心概述**: AI-driven user testing for iOS Simulator, macOS apps, and web apps. Write a goal in plain language; an LLM agent drives the UI and reports friction. macOS 14+, Swift 6.
+- **大概是做什么的**: macOS 14+ · Apple Silicon &amp; Intel · 12 MB awizemann.github.io/harness &nbsp;·&nbsp; A native macOS developer tool that drives an iOS Simulator, a macOS app, or a web app with an AI agent so you can run user tests — not scripted UI tests, but real-user simulation. You write a goal in plain language ("I want to sign up and create my first list", "delete my account", "find a vegetarian restaurant near me and save it") and a persona ("first-time user, never seen this app"). Harness builds (or just launches) your target, and an LLM agent reads screenshots, clicks/types/scrolls, and pursues the goal — narrating what it sees, flagging UX friction (dead ends, ambiguous labels, unresponsive controls), and stopping when it succeeds, fails, or would give up. Three artifacts come out of every run: 1. Did the goal complete? — success / failure / blocked + summary 2. What was the path? — replayable sequence of screens + actions 3. Where was the friction? — timestamped events the agent flagged as confusing Kind How Harness drives it iOS Simulator xcodebuild your project + scheme; simctl boot/in
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, anthropic, claude, developer-tools, ios-testing, mac
+
+---
+
 ## 🕔 2026-09-02 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 262 个候选项目中筛选出 6 个未推荐过的新项目。
