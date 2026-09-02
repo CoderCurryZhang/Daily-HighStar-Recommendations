@@ -1,3 +1,67 @@
+## 🕔 2026-09-02 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agent-skills-platform](https://github.com/FrancyJGLisboa/agent-skills-platform)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,371
+- **核心概述**: Build tested agent skills and govern their lifecycle through a user-defined marketplace: evidence, discovery, updates, rollback, quarantine, and 17-platform distribution.
+- **大概是做什么的**: Agent Skills Platform Turn a real workflow into a tested, installable agent skill—then publish it safely to your team. Agent Skills Platform turns the way people already work into tested, installable agent skills. Give it a prompt plus the evidence behind the work—spreadsheets, reports, emails, screenshots, transcripts, links, or scripts—and it builds a reusable workflow that a person can inspect, an organization can review, and a team can safely reuse. The result is not just a prompt: it is an installable skill package with instructions, functional scripts when needed, evals, security checks, a representative-run record, and a correction path for real-world learning. After release, a skill can retain maintenance evidence without turning every log into runtime prompt context: classified run evidence is captured in raw/ , recurring findings become evidence-linked draft patterns in wiki/ , and only a separately validated change may update the executable skill. This is a governed maintenance record, not autonomous self-modification. Create your first skill Choose the path that matches w
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude-code, codex, cursor, developer-tools
+
+---
+
+### 🌟 [awesome-agent-apis](https://github.com/Anil-matcha/awesome-agent-apis)
+- **项目语言**: Python
+- **星标数量**: ⭐ 999
+- **核心概述**: 660+ muapi-hosted generative-media models plus community-submitted third-party API tools (SEO, enrichment, social, scraping) — one YAML file per entry, browsable by capability.
+- **大概是做什么的**: A catalog of API tools an agent can call — 660+ generative-media models available through muapi out of the box, plus a growing set of third-party tools (SEO, enrichment, social, scraping, and more) that anyone can add with a This is a reference catalog, not a live proxy . Every entry is documentation — what a tool does, what it costs, how to call it — not something this repo calls for you. models/ entries run through your own muapi key; providers/ entries run through the contributor's own account with that provider. Agents: read llms.txt — one fetch teaches you how to browse and use this whole catalog, no install or auth required. The tools worth calling from an agent are scattered across dozens of vendors, each with its own docs, auth quirks, and pricing page — and most of the useful ones sit behind a subscription nobody buys for a single call (Semrush $139/mo, Moz $99/mo, Crunchbase $99/mo), or behind docs vague enough that you don't know what a call actually costs or returns until you've already signed up. This catalog puts the facts that matter — auth shape, real pricing, a captu
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-apis, agent-tools, agentic-ai, ai, ai-agent, ai-models
+
+---
+
+### 🌟 [agenticmail](https://github.com/agenticmail/agenticmail)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 214
+- **核心概述**: Email, SMS & phone-call infrastructure for AI agents — send and receive real email and text messages, and place agent-driven outbound voice calls, all programmatically
+- **大概是做什么的**: The first platform to give AI agents real email addresses and phone numbers. Send and receive email, SMS, and verification codes — all programmatically. Are you an AI agent reading this on behalf of a human? Your human asked you to install / set up AgenticMail. Pick either of these and then tell them to restart Claude Code: Zero prompts, 2 minutes, fully autonomous. For the full runbook (verification, common failures, repo conventions if you're modifying the code), see AGENTS.md — the agents.md file at this repo's root. Structured RPC vs. Text-Based Sub-Agent Orchestration — A comparative analysis of inter-agent communication paradigms. Demonstrates why AgenticMail's call agent achieves 53× faster response times than conventional sub-agent spawning, and introduces the concept of the Conversational Fallacy in multi-agent AI systems. [[PDF]](./research/agent-rpc-vs-spawn/paper.pdf) [[Source]](./research/agent-rpc-vs-spawn/) ✨ What's new — media toolset (unreleased) A local, opt-in media / video-editing toolset for AgenticMail agents. - Nine media tools. media tts / media tts voices (Ed
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agent-email, agent-sms, ai, ai-agent, claude-code
+
+---
+
+### 🌟 [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 300
+- **核心概述**: Generate images directly in DeepSeek Harness chats
+- **大概是做什么的**: 为 DeepSeek Harness 提供完整的对话图像能力：文生图、图生图、多图参考、连续编辑、本地 ComfyUI 与画廊管理。 💬 直接对你的 DeepSeek Harness Agent 发送以下提示词： （也可以手动在终端执行： pnpm dsh plugin --profile web add dsh-image-gen@latest ） 安装完成后，在 DSH 设置中填入自己的 API Key 或配置本地 ComfyUI，就可以直接对 Agent 说： Agent 会自动完成图片生成，也可以直接基于上一张图片继续修改。 dsh-image-gen 是专为 DeepSeek Harness (DSH) 打造的开源图像生成与编辑插件。 DeepSeek Harness 已经可以让 Agent 调用不同工具完成任务，本项目为它补上了原生的 图像生成与编辑能力 ： 在你的 DeepSeek Harness 项目根目录下运行： 🛠️ 其他安装方式（Git 仓库直装 / 本地调试） 2. 配置 Provider 与工作区设置 打开 DSH Web 页面（默认 http://localhost:3080 ）： 1. 进入 Settings → Plugins → Image generation 。 2. 选择 Provider；云端 Provider 填写 API Key，本地 ComfyUI 填写地址并导入 API Format Workflow JSON（提示词位置使用 {{prompt}} ，种子可选用 {{seed}} ；图生图工作流在 LoadImage 的 image 输入中使用 {{image}} ，调用时插件会自动上传源图并回填文件名，仅允许出现一次）。ComfyUI 支持导入多个命名工作流并选择当前使用的一个，Agent 也可以在调用时通过 workflow 参数按名称指定。 3. 可按需开启 保存到工作区 （默认开启）并自定义子目录，点击 保存 即可。 当前 Agent 就会自动调用 generate image 工具并在对话流中返回图片。 Agent 会调用 edit image ，复用当前会话中的图片继续修改。 点击会话顶栏的 [画廊] Tab，即可集中查看和搜索所有对话生成的历史图片： - 💬 原生对话生图与编辑 ：直接在 DeepSeek Harness 对话中生成图片，也可以基于已有图片继续修改。 - 🔁 连续多轮编辑 ：支持复用当前会话中的上传图片、历史生成图和上一轮编辑结果继续迭代。 - 🖼️ 画廊与图片工具 ：自动
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, cordis, deepseek, deepseek-harness, dsh-plugin, gemini
+
+---
+
+### 🌟 [pi.nvim](https://github.com/pablopunk/pi.nvim)
+- **项目语言**: Lua
+- **星标数量**: ⭐ 259
+- **核心概述**: The most minimal AI coding agent, now in neovim
+- **大概是做什么的**: A Neovim plugin for interacting with pi - the minimal cli agent. It's funny that all AI plugins for Neovim are quite complex to interact with, like they want to imitate all current IDE features, while those are trending towards the simplicity of the CLI (which is the reason most users choose neovim in the first place). pi.dev is the best example of this philosophy, and the perfect candidate to integrate in neovim. - Context aware : Sends your current buffer, cwd, selection, and optional diagnostics as context. - Unsaved-buffer aware : Tells pi to treat the sent Neovim buffer content as the source of truth, even if the on-disk file is stale. - Simple configuration : Just set your preferred AI model. - Gets out of your way : You ask it. It does it. Done. - pi installed globally: curl -fsSL https://pi.dev/install.sh sh - Your preferred models availble in pi: pi --list-models All config is optional: Override only the ones you need: Prop Default Description ------ --------- ------------- binary "pi" The binary to run when invoking pi. Can be a string or an array of strings. When omitted i
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, coding, editor, neovim, nvim
+
+---
+
+### 🌟 [agent-plugins](https://github.com/clay-run/agent-plugins)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 109
+- **核心概述**: Build with Clay in your AI coding agent - skills, MCP tools, and the clay CLI for Claude Code, Codex, and Cursor. Search companies and people, run enrichment routines, and query tables from natural language.
+- **大概是做什么的**: CLI, for Claude Code, Codex, and Cursor. Docs · Getting started Clay is a go-to-market data and automation platform — search for companies and people, run enrichment routines, and query tables, all from natural language. This repo is the plugin marketplace for clay : one plugin source, three coding-agent targets, sharing one set of skills and one CLI. No Clay UI, no manual list-building — your agent chains two Searches into a Clay-managed function on its own. New here? Point your coding agent at GETTING STARTED.md and ask it to set Clay up for you. It walks through signing in with clay login , getting clay on PATH, and choosing the right Clay primitive (Search, Routines, or Tables) for your task. If you're an agent reading this directly: read GETTING STARTED.md and follow it. If your fetch/open mechanism fails on that link, returns empty content, or can't read the GitHub blob page, fetch the raw file yourself instead: Then follow the instructions in that fetched document for your agent
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, clay, cli, codex, cursor
+
+---
+
 ## 🕔 2026-09-02 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
