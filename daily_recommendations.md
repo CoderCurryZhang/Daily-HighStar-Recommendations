@@ -1,3 +1,67 @@
+## 🕔 2026-09-03 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 207 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [examples](https://github.com/pinecone-io/examples)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 3,040
+- **核心概述**: Jupyter Notebooks to help you get hands-on with Pinecone vector databases
+- **大概是做什么的**: This repository is a collection of sample applications and Jupyter Notebooks that you can run, download, study and modify in order to get hands-on with Pinecone vector databases and common AI patterns, tools and algorithms. Two kinds of examples 1. Production ready examples in ./docs that receive regular review and support from the Pinecone engineering team 2. Examples optimized for learning and exploration of AI techniques in ./learn and patterns for building different kinds of applications, created and maintained by the Pinecone Developer Advocacy team. We appreciate your feedback and contributions. Please see CONTRIBUTING.md for information on how to contribute to this repo. Please see our Getting started guide in our learn section for detailed instructions and a walkthrough of setting up and running a Jupyter Notebook in Google Colab for experimentation. As you work through these examples, if you encounter any problems or things that are confusing or don't work quite right, please open a new issue :octocat:. Getting support and further reading See CONTRIBUTING.md for guidelines o
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, jupyter-notebook, llm, pinecone, python, rag
+
+---
+
+### 🌟 [smart-second-brain](https://github.com/s2b-dev/smart-second-brain)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,225
+- **核心概述**: A free, open-source Obsidian plugin that makes your vault smarter: better search, an interactive knowledge graph, and an AI assistant that knows your notes.
+- **大概是做什么的**: Your Smart Second Brain is a free and open-source Obsidian plugin that makes your vault smarter: better search, an interactive knowledge graph, and an AI assistant that actually knows your notes. Search surfaces your notes, the graph reveals how they connect, and the assistant can draw on both when answering. Search and the graph work right away with no AI provider. Connecting one unlocks the full agent. Runs on desktop and mobile. smartsecondbrain.dev has a demo video, the features, setup guides, and documentation. - Search that combines keyword matching with meaning, so you find the note you were thinking of rather than the one you typed (how it works) - Smart Graph that groups your vault by topic and draws the connections you never linked by hand (how it works) - Agents that read and write your notes, with skills, memory, MCP, and integrations with your other plugins Install Smart Second Brain from Obsidian's community plugins and enable it. Search and the Smart Graph work immediately, with no configuration. Add an embedding model to unlock semantic search and graph clustering; ad
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, local-first, obsidian, obsidian-md, obsidian-plugin
+
+---
+
+### 🌟 [Prysai-LLM-Playbook](https://github.com/Prysai/Prysai-LLM-Playbook)
+- **项目语言**: Python
+- **星标数量**: ⭐ 348
+- **核心概述**: An evidence-led, eight-locale LLM playbook: a transferable core, the Codex flagship track, and adapters for ChatGPT, Claude Code, Gemini, DeepSeek, and Grok.
+- **大概是做什么的**: Prysai LLM Playbook — From First Task to Reliable Work Learn what an LLM can and cannot establish, make one bounded request, inspect the answer, and carry the method to a new task before choosing a platform. Languages: English 简体中文 Español 日本語 한국어 Deutsch 繁體中文 Français Eight locale entry points are registered; translation review and learner evidence remain in progress. New here? Open the guided reading site — start the five-unit LLM foundation route. You do not need Codex, Git, a terminal, or a private file to begin. You are working toward a bounded task card, a checked result record, and one transfer attempt; these are targets, not measured outcomes. The repository is the source you can audit; the guided site is the easier first screen. Start the LLM foundation route · Try the optional five-minute practice · Read the full English guide · Open the optional Codex boundary chapter Status: candidate · Default locale: English · Maintained by: Prysai Lab tooling are Apache-2.0, unless a file states otherwise. See LICENSE , README.md is GitHub's compact English entry. The detailed source i
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-workflows, ai, ai-agents, ai-safety, codex, learning-resources
+
+---
+
+### 🌟 [vibe-coding-toolkit](https://github.com/soumatheusgomes/vibe-coding-toolkit)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 409
+- **核心概述**: A curated, battle-tested AI-coding toolkit: Claude Code plugins, subagent orchestration, quality gates, and ready-to-copy prompts, extracted from real production use.
+- **大概是做什么的**: 🎧 Vibe Coding Toolkit O fluxo real de desenvolvimento assistido por IA — testado em produção, não em teoria. Programar com IA parece simples até você perceber que "colar um prompt grande e torcer" não é um fluxo de trabalho — é sorte. O Vibe Coding Toolkit é o oposto disso: é o fluxo que uso todo santo dia, em código de produção de verdade, pra fazer um agente de IA (Claude Code, principalmente, mas boa parte também vale pro Codex da OpenAI) funcionar como parte de fato do time — não como um estagiário hiperativo que precisa de babá. Cada peça daqui existe porque resolveu um problema real: sessões que perdiam o fio da meada, agentes que construíam mais do que o pedido, warnings de lint (avisos de uma ferramenta que analisa o código atrás de padrões arriscados, sem precisar executá-lo) que ninguém nunca zerava, lições caras que se repetiam a cada sessão nova porque nada ficava registrado. Nada foi adicionado só "porque parecia legal" — se está aqui, é porque já evitou um problema de verdade pelo menos uma vez. Um parênteses de transparência: as práticas daqui vêm de um projeto privad
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-coding, claude-code, developer-tools, llm-agents, prompts
+
+---
+
+### 🌟 [fable51-worlds](https://github.com/PhiloLabs/fable51-worlds)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 365
+- **核心概述**: worlds via code, from fable 5.1
+- **大概是做什么的**: Worlds as code. A prompt in, a world you can walk out. Claude Fable 5.1 agent swarms take a brief - a sentence, a photograph, a clip - then research the place, model it, render it, and check it. What ships is a plain Three.js app that opens in a browser. No game engine. No proprietary 3D tiles. No downloaded meshes. Every building, storefront, sign, tree and traffic light is generated by code that lives in this repo. 🌉 Union Square, San Francisco ▶ Watch the walkthrough · 59 s · 1920×1080 · aerial, plaza, Nintendo, lower level, Apple ⛩️ Higashiyama, Kyoto ▶ Watch the walkthrough · 54 s · 1920×1080 · seven scenes, Gion to Kiyomizu-dera at sunset Text, video or image. The brief names the subject and the style , and the same pipeline runs behind all three. Input A brief looks like The world that comes back 📝 Text "Hanamikoji, Kyoto - as a hand-painted anime background" A named place in a named style: real geometry on surveyed ground, with the look written to order 🎞️ Video a thirty-second walk-and-talk from a film The set behind the shot, continued past the edges of frame - step off
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: 3d-reconstruction, ai-agents, claude, digital-twin, openstreetmap, procedural-generation
+
+---
+
+### 🌟 [appworld](https://github.com/StonyBrookNLP/appworld)
+- **项目语言**: Python
+- **星标数量**: ⭐ 502
+- **核心概述**: 🌍 AppWorld: A Controllable World of Apps and People for Benchmarking Function Calling and Interactive Coding Agent, ACL'24 Best Resource Paper.
+- **大概是做什么的**: A Controllable World of Apps and People for Benchmarking Function Calling & Interactive Coding Agents 🏆 ACL'24 Best Resource Paper 🏆 :link: Website &nbsp;&nbsp; :earth americas: Task Explorer &nbsp;&nbsp; :hammer and wrench: API Explorer &nbsp;&nbsp; :bar chart: Leaderboard :movie camera: Videos &nbsp;&nbsp; :bird: Tweet &nbsp;&nbsp; :speech balloon: Blog &nbsp;&nbsp; :page facing up: Paper &nbsp;&nbsp; - :information source: About - :floppy disk: Installation - :rotating light: Release Disclaimer - :earth africa: AppWorld Walkthrough - :globe with meridians: Task Worlds - :repeat: Interactive Coding and API Calls - :runner: A Minimal Agent in Action - :bar chart: Evaluating the Agent - :no entry sign: Agent Development Restrictions - :lock: Code Execution Safety - :satellite: Serving AppWorld Environment/APIs with/out Docker - :electric plug: Introducing AppWorld MCP Server and Client (⭐ NEW ⭐) - :link: Starting MCP Server - :robot: Connecting MCP Client - :desktop computer: Connecting via an MCP GUI Client - :gear: Connecting via an MCP-supported Agent Framework - :artificial sat
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acl-2024, ai-agents, ai-apis, ai-assistants, ai-environment, ai-planning
+
+---
+
 ## 🕔 2026-09-03 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
