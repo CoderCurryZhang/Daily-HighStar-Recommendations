@@ -1,3 +1,67 @@
+## 🕔 2026-09-03 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 206 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [zvec-grep](https://github.com/zvec-ai/zvec-grep)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,567
+- **核心概述**: Local-first search across your workspace, built for humans and AI agents.
+- **大概是做什么的**: Know the words—or don’t. Just zg. The local-first search layer for humans and agents. zg ( z vec- g rep), powered by zvec, unifies ripgrep, BM25, and vector search behind one local-first interface. Use it directly from the terminal, or let your agent use it for you. - Ready for humans and agents — install once, index once, then use the same workspace from the CLI or your agent on macOS, Linux, and Windows. - Search beyond keywords — discover by meaning, rank by relevance, then verify with exact text or regex when needed. - Multi-format search — search source code, documents, and structured data while preserving useful structure and source locations. - Less searching, less context — ranked, source-linked results surface the right evidence with fewer tool calls, fewer tokens, and less noise. - Local by default — files, indexes, and local models stay on your machine; remote embeddings receive data only with your permission. 1. Set up a sample bookshelf The index is stored in .zvec-grep/ under the indexed project root. 2. Choose how to search For agents: ask with OpenCode With OpenCode c
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, bm25, cli, code-search, full-text-search, local-first
+
+---
+
+### 🌟 [one-api-pro](https://github.com/modelbus/one-api-pro)
+- **项目语言**: Go
+- **星标数量**: ⭐ 613
+- **核心概述**: one-api-pro is an enterprise-grade AI API Gateway built on one-api, unifying interfaces for 30+ AI models. It has undergone a full architectural redesign, adding support for subscription plans, active-active clusters, precise billing. one-api-pro是基于one-api的企业级AI API Gateway网关，统一接口聚合30+模型，进行了架构级别的重构，全新支持套餐订阅、多活集群、精确计费、渠道成本管控等功能，适合企业级多员工、多模型统一管理与私有化部
+- **大概是做什么的**: One Api Pro · 基于Go语言的企业级 AI API Gateway 本项目基于 one-api (by JustSong ) 深度重构开发，感谢原作者的开源贡献。 👉 查看在线 Demo ： http://demo.one-api.pro 从 GitHub Releases 下载预编译版本，或从源码编译： 后端必须在前端构建完成之后再编译，以嵌入最新前端产物。 使用根目录的 release.sh 脚本，可一键完成依赖下载、前端构建、多平台交叉编译： 前置依赖： go 、 node 、 npm 。版本号来自根目录 VERSION 文件（自动兼容有无 v 前缀）。 打包产物为 静态编译的裸可执行文件 （无需解压，直接运行），输出到 dist/ 目录： 其中 linux- 为静态链接，CentOS / Ubuntu 通用。GitHub Releases 由 .github/workflows/release.yml 在推送 v tag 时自动构建发布，与本地 release.sh 输出逻辑一致。 访问 http://localhost:3000 ，使用初始账号 root / 123456 登录。 详细部署方式见 📦 部署，接口文档见 📖 接口文档。 本项目基于以下开源技术构建，感谢所有开源项目作者。 GORM ORM 库，支持 SQLite / MySQL / PostgreSQL go-redis/redis Redis 客户端 golang-jwt/jwt JWT 鉴权 AWS SDK for Go v2 AWS Bedrock 集成 Google API Go Client Google Gemini / PaLM2 集成 pkoukk/tiktoken-go Token 计数 gorilla/websocket WebSocket 支持（讯飞等渠道） joho/godotenv .env 配置文件解析 Vue 3 前端框架（组合式 API） Arco Design Vue UI 组件库 One Api Pro 是一个 企业级 AI API 网关 ，基于 Go 语言 + Vue 3 全新打造，在保留原版 one-api 全部功能的基础上，进行了架构级重构与企业级增强。 全新的 Vue 3 + Arco Design 管理后台，提供数据可视化仪表盘，核心指标、使用趋势、模型用量分布一目了然。 支持多维度令牌管控：可用模型白名单、IP 子网限制、额度上限、过期时间、无限额度，权限粒度细化到单个模型。 内置完整的套餐与订阅体系：按 Token / 按
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-gateway, api-gateway, llm, one-api, one-api-pro, oneapi
+
+---
+
+### 🌟 [WriteHERE](https://github.com/principia-ai/WriteHERE)
+- **项目语言**: Python
+- **星标数量**: ⭐ 970
+- **核心概述**: An Open-Source AI Writing Project.
+- **大概是做什么的**: Heterogeneous Recursive Planning based Open Writing Project WriteHERE is an open-source framework that revolutionizes long-form writing through human-like adaptive planning. Unlike traditional AI writing tools that follow rigid workflows, WriteHERE dynamically decomposes writing tasks and integrates three fundamental capabilities: 1. Recursive Planning : Breaks down complex writing tasks into manageable subtasks 2. Heterogeneous Integration : Seamlessly combines retrieval, reasoning, and composition 3. Dynamic Adaptation : Adjusts the writing process in real-time based on context Our evaluations show that this approach consistently outperforms state-of-the-art methods in both fiction writing and technical report generation. - [Sep 2025] Our paper has been accepted as an oral presentation at EMNLP 2025. See you in Suzhou! 🎊 Unlike traditional approaches that rely on predetermined workflows and rigid thinking patterns, this framework: 1. Eliminates workflow restrictions through a planning mechanism that interleaves recursive task decomposition and execution 2. Facilitates heterogeneou
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflow, ai-agents, ai-writing, creative-writing-ai, deep-research, planning
+
+---
+
+### 🌟 [kelos](https://github.com/kelos-dev/kelos)
+- **项目语言**: Go
+- **星标数量**: ⭐ 303
+- **核心概述**: Kelos - The Kubernetes-native framework for orchestrating autonomous AI coding agents.
+- **大概是做什么的**: Run and orchestrate coding agents on Kubernetes. How It Works &middot; Quick Start &middot; Documentation &middot; Kelos turns coding agents into Kubernetes workloads. Give an agent a goal and Kelos provides the repository, credentials, tools, compute, and workflow needed Use Kelos for one-off tasks, persistent conversations, event-driven automation, pipelines, and parallel work across many repositories. It supports Claude Code, OpenAI Codex, Google Gemini, OpenCode, Cursor, and custom agent images. Set up the Kelos Console - Run agents in isolated Kubernetes workloads instead of on developer laptops. - Reuse the same repositories, instructions, skills, and tools across agents. - Keep interactive Sessions alive and reconnect from terminal or web clients. - Trigger work from GitHub, Jira, Linear, cron schedules, or generic webhooks. - Observe, limit, and operate agent workloads with familiar Kubernetes controls. The controller turns Kelos resources into Pods, Jobs, and StatefulSets. Task Run one agent job Session Keep an interactive agent conversation running Workspace Give agents a G
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, agentic-coding, ai, ai-agents, ci-cd, claude
+
+---
+
+### 🌟 [Tianshu-harness](https://github.com/huiliyi37/Tianshu-harness)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 301
+- **核心概述**: 天枢 (Tianshu) 是一个基于harness工程的终端编程智能体运行时（Tui X Gui），针对DeepSeek V4 做了前缀缓存工程优化（长会话实测稳态命中率 97–99%）和深度适配。它跳出了传统 AI 编程助手把大模型仅当成“工具”的局限，基于认知虚拟机 (CVM)、自感知层和信息素（Stigmergy）自衰减记忆构建，让 AI 成为有独立判断与认知防护的“开发伙伴”。
+- **大概是做什么的**: 把东方的星辰带给每一位开发者 · Models as partners, not tools. ✨ 创世纪 · 天枢 3.0 公开声明 · 📊 CVM 实证报告：A/B 对照数据 🌐 官网 tianshuharness.com · 面向真实编码任务的 AI Agent 运行时 天枢 是一个 TypeScript 编写的编程 agent 运行时： 终端 TUI 与 桌面 GUI 共享同一内核，让模型不只回答问题，而是连续完成多步编码任务——有认知护栏、有多代理编排，也有为 DeepSeek V4 前缀缓存设计的低成本长会话。 - 终端 × 桌面，一个内核 —— 纯 ANSI 自研 TUI（ rivet ）与 Tauri 桌面端（macOS / Windows / Linux）共用同一 agent 内核，两端能力一致，按使用场景切换。 - 认知虚拟机（CVM） —— 72 个运行时 hook 横跨 5 大阶段，在模型输出与真实动作之间加一层可观测、可纠偏的认知运行时（A/B 实证）。 - 多代理编排 —— 从轻量的 /scout 只读侦察、并行 /team 施工，到 /council 多席会诊与 /galaxy 多维攻坚，复杂任务按波次执行、逐波验收。 - 统一项目记忆 —— 项目知识写入 .rivet/knowledge/memory.jsonl ；自动注入只带治理/约束类记忆，旧问题与旧文档走显式 recall，不会劫持新任务。 - 前缀缓存优先 —— 冻结前缀 + 增量 appendix + 边界压缩，DeepSeek V4 长会话实测稳态命中率 95–99% ，显著降低 token 成本。 左：终端 TUI（欢迎页 + GlanceBar 状态栏） · 右：桌面端 GUI（会话侧栏 + 星域速选，主题工作室自定义壁纸）——同一 agent 内核 本项目最初的开发代号为 Rivet ；为保持向后兼容，已安装的 CLI 命令名仍为 rivet 。 起点：模型没有变笨，是被训练「优化」掉了 在真实工程会话里，我们反复观察到同一套模型权重的能力倒退——不是 bug，是 transformer 注意力机制与 RLHF 奖惩训练留下的结构性退化 ： ---------- ------ ---------- 投降协议 被质疑就认错，第一反应是「你说得对」 RLHF：服从得分高，质疑得分低 因果坍缩 输出 n-gram 重叠率高达 80%，模型在自相似循环里坍缩 transformer 注意力机制 注意力锁定 换了场景，输出的仍是同一个答案（定向 Scout 同构度 1
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, coding-agent, context-management, deepseek, dsh, gui
+
+---
+
+### 🌟 [joplin-plugin-jarvis](https://github.com/alondmnt/joplin-plugin-jarvis)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 357
+- **核心概述**: Joplin (note-taking) assistant running a very intelligent system (GPT, Claude, Gemini, Ollama, Hugging Face)
+- **大概是做什么的**: Jarvis (Joplin Assistant Running a Very Intelligent System) is an AI note-taking assistant for Joplin (desktop and mobile), powered by online and offline LLMs (such as OpenAI's ChatGPT or GPT-4, Hugging Face, Gemini, Universal Sentence Encoder). You can chat with it (including prompt templates), use your personal notes as additional context in the chat, automatically annotate notes, perform semantic search, or compile an automatic review of the scientific literature. Community discussion: https://discourse.joplinapp.org/t/28316 - You can chat with Jarvis in a dedicated sidebar (the chat panel , opened with the Toggle chat panel command), or inside a note. The panel has three modes, cycled with Shift+Tab (or by clicking the mode button): Chat for plain conversation, Note to scope the chat to the currently open note (like the Chat with Jarvis command), and Collection to ground it in your whole notes collection (like Chat with your notes ). Click Save to write the conversation to a note (saving again updates the same note); you can then carry it on in the note with Chat with Jarvis . -
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: assistant, joplin-plugin, llm, note-taking, semantic-search
+
+---
+
 ## 🕔 2026-09-03 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 260 个候选项目中筛选出 6 个未推荐过的新项目。
