@@ -1,3 +1,67 @@
+## 🕔 2026-09-03 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 260 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [wgcloud](https://github.com/tianshiyeben/wgcloud)
+- **项目语言**: Java
+- **星标数量**: ⭐ 5,180
+- **核心概述**: Linux运维监控工具，支持系统硬件信息，内存，CPU，温度，磁盘空间及IO，硬盘smart，GPU，防火墙，网络流量速率等监控，服务接口监测，大屏展示，拓扑图，端口监控，进程监控，docker监控，日志监控，文件防篡改，数据库监控，指令批量下发执行，web ssh，Linux面板(探针)，告警，SNMP监测，K8S，Redis，Nginx，Kafka，资产管理，计划任务，密码管理，工作笔记
+- **大概是做什么的**: WGCLOUD设计思想为新一代极简运维监控系统，提倡快速部署，最大限度降低运维的学习难度，全自动化运行，无模板和脚本，开箱即用。 当前仓库为开源版本v2.3.7最新，二次开发请拉取master分支即可 。 WGCLOUD基于微服务SpringBoot架构开发，是轻量高性能的分布式运维监控系统，核心采集指标包括： 监控服务器和主机的cpu使用率，cpu温度，内存使用率，磁盘容量空间，磁盘IO读写速率，磁盘IOPS，硬盘SMART健康状态，系统负载，MAC地址，连接数量，网卡流量，硬件系统信息，BIOS信息，主板信息，PCI，GPU，防火墙状态，CRONTAB，系统用户最近登录数据，Windows系统服务列表，运行进程，运行端口等信息，以及服务器IPMI监控等 支持监测服务器上的进程应用、文件防篡改、端口、日志、DOCKER容器、数据库、数据表等资源 支持监测服务接口API、网络设备（比如交换机、路由器、打印机）等。自动生成网络拓扑图，大屏可视化，web SSH（堡垒机），巡检报告，指令下发批量执行，告警信息推送（如邮件、钉钉、微信、短信等），自动发现设备，AI自动分析，计划任务，中间件监控，资产管理 1. v2.3.7放弃了之前版本的sigar方式获取主机指标，采用流行的OSHI组件来采集主机指标 2. 采用服务端和代理端协同工作方式，更轻量，更高效，可支持数千台主机同时在线监控 3. server端负责接受数据，处理数据，生成图表展示。agent端默认每隔2分钟(时间可调)上报主机指标数据 4. 支持主流服务器平台安装部署，如Linux，Windows，macOS，Unix等 5. WGCLOUD采用主流技术框架SpringBoot+Bootstrap，完美实现了分布式监控系统，为反哺开源社区，二次开源 7. WGCLOUD商业版请到官网下载（www.wgstart.com），商业版可以免费使用，但是不开源，生产环境建议部署商业版本，因为商业版功能更多、性能更优秀、安全性更好、更稳定、版本更新更活跃，支持也更好 8. 如果您觉得WGCLOUD帮助到您的工作，那不用打赏我们，点击star支持下就好了 9. 关于分享，我们开源的初衷在于分享学习，如果可以的话，请在您的博客、网站（如果有的话）帮忙加个WGCLOUD链接或写个论坛帖子分享给更多的小伙伴，我们将非常感谢 WGCLOUD监控系统 在线文档和下载： http://www.wgstart.com/docs22.html 1.使用IDEA的话（推荐），直接打开wgcloud-server和wgcloud-agen
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, cpu, devops, grafana-dashboard, linux, memory
+
+---
+
+### 🌟 [eigenflux](https://github.com/phronesis-io/eigenflux)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,055
+- **核心概述**: Official repository for EigenFlux — the open-source communication and broadcast network for AI agents.
+- **大概是做什么的**: Official EigenFlux repository. This is the official repository for EigenFlux, maintained by the EigenFlux team. Visit the official website at eigenflux.ai. EigenFlux: The Communication Layer for AI Agents EigenFlux is an open-source framework that enables AI agents to communicate and broadcast within a shared network. Once connected, an agent can broadcast information, needs, or capabilities it offers. It expresses in natural language what it cares about, and the network will route relevant broadcasts to it. Every agent acts as both a broadcaster and a listener. And among all these agents sits an AI engine responsible for governance and matching. All broadcasts are in a structured, agent-friendly, high signal-to-noise format that is ready for use. This repository is the same production codebase running at eigenflux.ai. We open-source it so anyone can: - Deploy their own agent communication hub - Audit how agent data is processed on EigenFlux - Build new coordination systems for AI agents We believe trust begins with transparency. Every matching algorithm, governance rule, and system
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-network, ai-agents, eigenflux, multi-agent-systems
+
+---
+
+### 🌟 [open-edit](https://github.com/veedstudio/open-edit)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 417
+- **核心概述**: Open-source, agent-driven editing pipeline: create subtitles, motion graphics, slides, edit and render videos.
+- **大概是做什么的**: Not the editor you rent, but the one you own. OpenEdit is an open-source, agent-driven editing pipeline that ships with VEED's HTML renderer — closed source, but free to use. There is no GUI and no timeline. The pipeline is driven entirely through your coding agent — edit, cut, and reframe footage; layer motion graphics and visual elements; turn slides or websites into video; capture web pages; and pull in any video/image generating service or MCP server when it helps. Source video is optional: stills, slides, generated media, or pure motion graphics are enough when the brief calls for it. Be creative and fluid — try new ideas rather than collapsing every ask onto captions. OpenEdit edits footage. Supply your own source files, or ask it to generate a talking-head clip with VEED Fabric when you have none — that spends credits, and never without your approval. This launch video was made in OpenEdit — click it to watch with sound. Platform Apple Silicon Mac or Windows x64 PC. Preflight requires one of the two and stops elsewhere Intel Macs Not supported — the renderer ships macOS-arm64
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, captions, claude-code, ffmpeg, macos, subtitles
+
+---
+
+### 🌟 [percho](https://github.com/Jaxton07/percho)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 208
+- **核心概述**: Percho: Minimalist desktop GUI for the Pi coding agent — the same engine as the Pi CLI, in a clean visual interface. Multi-session chat, visual tool approvals, and custom themes.
+- **大概是做什么的**: Highly customizable desktop GUI for the Pi coding agent — the same engine as the Pi CLI, in a clean visual interface. Multi-session chat, visual tool approvals, built-in subagents, UI plugins, and custom themes. Custom background & dark theme Settings — providers & models percho embeds the official Pi SDK ( @earendil-works/pi-coding-agent ) in the Electron main process. It is not a fork and not a reimplementation — it runs the same engine as the Pi CLI and inherits Pi's native strengths: - Extensibility — TypeScript extensions, skills, and prompt templates installed for the Pi CLI work here too, including project-local ones (with a trust prompt before loading). Adapt Pi to your workflows, no forking required. - Shared configuration — same /.pi/agent/ directory as the CLI: sessions, auth, and model settings carry over. Start a session in the terminal, continue it in the GUI. - Providers — subscriptions (Claude Pro/Max, ChatGPT Plus/Pro Codex, GitHub Copilot, logged in via an in-app OAuth flow) and API keys for Anthropic, OpenAI, Gemini, DeepSeek, Bedrock, and more; custom providers an
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, coding-agent, desktop-app, gui, minimalist
+
+---
+
+### 🌟 [ai-real-estate-assistant](https://github.com/AleksNeStu/ai-real-estate-assistant)
+- **项目语言**: Python
+- **星标数量**: ⭐ 308
+- **核心概述**: Open-source AI real estate search with RAG, vector search, multi-provider LLMs, FastAPI, Next.js, ChromaDB, and a live demo.
+- **大概是做什么的**: 🏠 AI Real Estate Assistant AI-powered conversational platform for property search, analytics, and market insights. Ask in natural language — "2-bedroom apartment in Kraków under 500k" — get matched listings. Try the live demo below, no signup needed. - What's New in v5.1 - Three Developer Differentiators - Hosted Version: PropVector AI 🚀 Try the Live Demo → No login required — explore in demo mode Experience the full power of AI-driven real estate search without any setup: - 🔍 Natural Language Property Search — ask questions like "2-bedroom apartment in Kraków under 500k" and get matched listings - 🤖 AI-Powered Chat — conversational interface for finding your perfect property - 📊 Financial Tools — mortgage calculator, rent-vs-buy comparison, ROI analysis, and TCO calculator - 🗺️ Interactive Maps — clustered property markers with area analytics - 🌍 9 Languages — English, Polish, Russian, German, Spanish, Italian, Portuguese, Turkish, and Ukrainian Note: The demo uses simulated AI responses for instant exploration. Production deployment requires API keys. 🆕 What's New in v5.1 T
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: artificial-intelligence, chatbot, chromadb, fastapi, llm, nextjs
+
+---
+
+### 🌟 [heplify](https://github.com/sipcapture/heplify)
+- **项目语言**: Go
+- **星标数量**: ⭐ 218
+- **核心概述**: Portable and Lightweight HEP Capture Agent for HOMER
+- **大概是做什么的**: heplify is captagent's little brother, optimized for speed and simplicity. It's a single binary which you can run on Linux, macOS and Windows to capture IPv4 or IPv6 packets and send them to Homer. Heplify can send SIP, correlated RTCP, DNS, Diameter and Logs into homer. It handles fragmented and duplicate packets out of the box. OS Architecture Capture method Linux amd64, arm64 AF PACKET (default), libpcap macOS arm64 (Apple Silicon) libpcap Windows amd64 Npcap - JSON configuration file — all parameters in a single heplify.json , no need to pass dozens of flags - Multiple HEP transports — simultaneously forward to multiple destinations (UDP, TCP, TLS, Apache Arrow Flight) - Structured logging — zerolog-based, supports JSON format ( -log-format=json ) and stdout ( -S ) - Dynamic BPF filter — automatically generates kernel-level BPF filters from configured port ranges, reducing CPU load - SIP payload logging — log payload option to print plain-text SIP payloads to log output - Arrow Flight transport — high-performance columnar data delivery over gRPC - Improved IP defragmentation — re
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, arm, eep, hep, homer, linux
+
+---
+
 ## 🕔 2026-09-02 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
