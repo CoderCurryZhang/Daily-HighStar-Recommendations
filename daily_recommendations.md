@@ -1,3 +1,67 @@
+## 🕔 2026-09-03 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [AI-Youtube-Shorts-Generator](https://github.com/Anil-matcha/AI-Youtube-Shorts-Generator)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,819
+- **核心概述**: Open-source alternative to Opus Clip, Vidyo.ai, Klap & SubMagic. Turn long-form YouTube videos into viral 9:16 shorts using LLM highlight detection, Whisper transcription, and auto vertical cropping — free, no watermarks, no per-clip credits.
+- **大概是做什么的**: AI YouTube Shorts Generator The open-source alternative to Opus Clip, Vidyo.ai, Klap, SubMagic, 2short.ai, and other AI clipping tools. Drop in any long-form YouTube video and get back ranked, viral-ready 9:16 shorts — for free, with no per-clip credits, no watermarks, and full control over the highlight algorithm. Built for creators, agencies, and developers who don't want to pay $20–$300/month or be capped on minutes processed. Uses GPT-class LLM highlight detection and Whisper transcription to extract the most viral-worthy moments and auto-crop them vertically for TikTok, Reels, and Shorts. ▶ Watch: Free Claude AI Image Generator (via MCP) — Full Tutorial Building your own Opus Clip–style SaaS? Skip the infra and ship on the same APIs that power this repo: - AI Clipping API — end-to-end clip selection + render - Auto-Crop API — vertical reframing only 🎨 Explore 50+ more open-source AI apps → Why Use This Instead of Opus Clip / Vidyo.ai / Klap? This repo Opus Clip / Vidyo.ai / Klap / SubMagic Price Free + open source (pay only for API usage) $20–$300/month subscriptions Per-clip c
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: 2short-ai-alternative, ai-clip-generator, ai-clipping, auto-clip, auto-crop, highlight-detection
+
+---
+
+### 🌟 [EnvoyMesh](https://github.com/allenpeng0705/EnvoyMesh)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 547
+- **核心概述**: Decentralized P2P mesh for autonomous AI agents — self-sovereign identity, peer-to-peer chat, and on-device AI that negotiates tasks on your behalf. No central server.
+- **大概是做什么的**: EnvoyMesh — Secure P2P Agentic Mesh A decentralized, peer-to-peer mesh for autonomous AI agents. EnvoyMesh is a private social network that you — and your AI agent — actually own. Unlike most social apps and AI assistants that live on someone else's server, EnvoyMesh flips the script: - Your devices run the network — no central server, no account to lose. - Your identity is cryptographic — Ed25519 keys you control, self-sovereign DIDs. - Your AI agent works for you — runs on your hardware, follows your policies. - Security by design — signed messages, policy-based trust tiers, end-to-end auditability. Install EnvoyMesh on your computer (home node) and EnvoyGo on your phone, chat with friends directly, and let your AI agents negotiate tasks on your behalf — all without any platform in the middle. 📖 QuickStart.md — Get up and running in minutes. 📘 EnvoyMesh Guidebook 0.4.0 (中文版 · HTML) EnvoyMesh (desktop home node) Install the desktop app to run your private mesh (Social UI + node). Prefer the mirror if GitHub is slow. ---------- ---------- macOS (Apple Silicon · DMG) GitHub Releases
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, decentralized-ai, decentralized-exchange, decentralized-identity, decentralized-storage
+
+---
+
+### 🌟 [memstack](https://github.com/cwinvestments/memstack)
+- **项目语言**: Python
+- **星标数量**: ⭐ 419
+- **核心概述**: Structured skill framework for Claude Code. 130 skills, persistent memory, TokenStack compression, localhost dashboard with 3-agent runner, real-time streaming, MCP tools.
+- **大概是做什么的**: The structured skill framework for Claude Code: 130 professional skills for deployment, security, databases, content, marketing, and more. Skills activate automatically when you need them. Say "deploy this to Railway" and the right skill loads on demand. MemStack installs in two parts: the skills (via the Claude Code plugin marketplace) and the engine (the MCP skill loader, via PyPI). You need both: the loader reads skill files from the installed marketplace plugin. Every command below is labeled (in Claude Code) or (in terminal) : running one in the wrong place is the most common setup mistake. Step 1: Install the free skills · (in Claude Code): Run both commands. This unlocks the 86 free skills right away. SSH error? ("Host key verification failed" on a fresh server that's never used GitHub over SSH.) Default fix · (in terminal) : rewrite GitHub to HTTPS, then retry Step 1: Backup fix · (in terminal) : add GitHub's host key, then retry Step 1: Step 2: Install the engine · (in terminal): Linux / Mac: use the explicit interpreter (the same one you register in Step 3): Find yours with
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-coding, anthropic, claude, claude-code, developer-tools, mcp
+
+---
+
+### 🌟 [dsh-worktable](https://github.com/Aisland-SJL/dsh-worktable)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 467
+- **核心概述**: 🖥️ Agent-project workbench for DeepSeek Harness ��� sidebar app drawer + dockable split workspace + a live control room watching every project.
+- **大概是做什么的**: An agent-project workbench for DeepSeek Harness — a sidebar app drawer that turns every project into dockable windows, plus a built-in control room that watches them all in real time. 🖥️ Control room — the built-in default project: a live card grid watching every project (working / needs you / done) with glassmorphism cards on a blueprint grid 🧩 Worktable sidebar — the app drawer: projects, shortcuts and the pinned control-room entry 🪟 Our projects — every project opens as a dockable split workspace (resident apps like Travel Atlas included) 🧩 Sidebar app drawer - Collects your self-hosted projects (and resident plugins like dsh-travelatlas) in one place - Rename / icon / reorder / hide each project; per-project folder; project ↔ conversation binding — opening a project switches the chat pane to its bound conversation - Collapse the sidebar and every project becomes a tappable square tile (icon only) 🪟 Dockable split workspace - Declarative layout presets (left column / top row / main grid + right chat pane) - Draggable dividers, per-pane tabs, per-layout width persistence - Bui
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, deepseek, deepseek-harness, dsh, dsh-plugin, productivity
+
+---
+
+### 🌟 [pi-fabric](https://github.com/monotykamary/pi-fabric)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 176
+- **核心概述**: A programmable tool and agent runtime for Pi
+- **大概是做什么的**: A programmable tool and agent runtime for Pi One type-checked program for tools, MCP, agents, workflows, actors, mesh, councils, and recursion. 🏆 100% on ARC-AGI-3 . A Fabric-powered agent won all 25 environments in one 22.4-hour session with 4 minutes of human time ($1,349 in model spend). Fabric gives Pi one programmable tool called fabric exec , which composes core tools and MCP servers with captured extension tools in a checked TypeScript program. That program can call agents or actors, use durable coordination, and run inside QuickJS. Trusted workloads that exceed WASM32 memory may use the unsafe Node process. After execution, the conversation receives the result of the program's branches, loops, fan-out, and data flow. Capability What it unlocks :-: ---------- --------------- ⚡ Code mode One flat tool schema; branching, loops, fan-out, and data flow live in checked TypeScript. 🧰 Capability routing Call Pi core tools, MCP servers, captured extension tools, or Fabric providers through one runtime. 🧑‍🤝‍🧑 Agent runtime One-shot workers, durable resident agents, persistent even
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, coding-agent, mcp, multi-agent, orchestration, pi
+
+---
+
+### 🌟 [three.ws](https://github.com/nirholas/three.ws)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 110
+- **核心概述**: Open-source 3D AI agent framework — GLB/glTF avatars with LLM brains, memory, emotions, and autonomous payments. MCP server · x402 · Solana/EVM · Three.js. Embed anywhere as a web component. Character studio, animation gallery, OAuth 2.1. Browser-native.
+- **大概是做什么的**: Website · Docs · Changelog · X / Twitter · GitHub · $THREE on pump.fun https://github.com/user-attachments/assets/d52515d1-cb04-4dd6-98bd-fef233312dc4 Give your AI a body. three.ws is an open source (Apache-2.0), browser-native 3D AI agent platform. Type a prompt and Forge generates a textured 3D model, or drop a GLB you already have. Add an LLM brain, register on-chain, and embed anywhere: no plugins, no server uploads, no installs required. Try it in 60 seconds: open three.ws/forge, type "a brass steampunk owl, full body" , and download the GLB. Text→3D, image→3D, and sketch→3D — free draft tier, no account. Jump to the Forge section ↓ Want to build it with us? Your first contribution goes from clone to open pull request in about 15 minutes, with a full worked example. Every good first issue names the file to change and the command that proves it worked. Say hello in Discussions or Telegram. Meet the avatar: a live 3D model, right here in markdown Drag to rotate. This is not an image or a video: it is an interactive 3D model rendered natively by GitHub. The avatar was generated fro
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: 3d, ai-agent, animation, avatar, blockchain, character-studio
+
+---
+
 ## 🕔 2026-09-03 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 206 个候选项目中筛选出 6 个未推荐过的新项目。
