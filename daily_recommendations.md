@@ -1,3 +1,67 @@
+## 🕔 2026-09-04 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ai](https://github.com/WordPress/ai)
+- **项目语言**: PHP
+- **星标数量**: ⭐ 333
+- **核心概述**: AI features and experiments for WordPress. Modular framework for testing AI capabilities.
+- **大概是做什么的**: AI features and experiments for WordPress. Modular framework for testing AI capabilities. The AI plugin provides a set of opt-in AI features for authors, editors, and admins directly within WordPress. It serves as a reference implementation for developers, agencies, and hosts looking to build or extend AI-powered workflows using building blocks from the WordPress AI team (as part of the AI Building Blocks for WordPress initiative ). This plugin is experimental. Features may change, move, or break. Use on Production sites at your own risk. It is recommended to test in a non-Production environment and follow the plugin’s development closely if adopting early. Purpose: Demonstrate and deliver AI features by combining the AI Building Blocks (PHP AI Client SDK, Abilities API) into a unified WordPress experience. Scope: Reference implementations, user-facing AI features, and experimental capabilities for testing and feedback. Audience: WordPress users, content creators, site administrators, and developers learning the AI APIs. This Canonical Plugin is built following the Features as Plugin
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: abilities, ai, artificial-intelligence, experiments, mcp, plugin
+
+---
+
+### 🌟 [awesome-ai-plugins](https://github.com/hashgraph-online/awesome-ai-plugins)
+- **项目语言**: Python
+- **星标数量**: ⭐ 171
+- **核心概述**: A curated list of awesome plugins for AI assistants including Claude Code, OpenAI Codex / ChatGPT, Gemini, Antigravity, Pi / Oh My Pi, Grok, OpenCode and More. https://hol.org/plugins
+- **大概是做什么的**: A curated, cross-platform list of plugins, skills, MCP servers, apps, and agent tools for AI assistants. Discover extensions for Codex, ChatGPT, Claude Code, Gemini CLI, Grok, Kimi, DeepSeek Harness, Cursor, OpenCode, and other compatible AI assistants from one community-maintained catalog. Listings may target one assistant, several assistants, or open standards such as Agent Skills and MCP. Check each project for its supported clients and installation instructions. - DeepSeek Harness Plugins - Formats & Development - Plugin Trust Scores New extension workflow: 1. Choose the clients and open formats you support 2. Build the plugin, skill, MCP server, app, or agent tool 3. Validate with plugin-scanner — recommended local preflight 4. Add the HOL scanner GitHub Action — recommended for security, optional for listing 5. Ship or submit with confidence Scanner CI (recommended for security) Scanner CI is optional for listing. HOL still scans listed projects independently. We recommend including it so MCP servers, skills, plugins, and other agent extensions stay continuously checked — that
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-assistant, ai-plugin, antigravity, awesome, awesome-list, chatgpt
+
+---
+
+### 🌟 [quackd](https://github.com/rokbenko/quackd)
+- **项目语言**: Python
+- **星标数量**: ⭐ 155
+- **核心概述**: 🦆🧠 Give your small robot a brain. Tell a Microduck, an Open Duck Mini you built yourself, a Reachy Mini, a LeRobot arm or any ROS base what you want in human language. An LLM (Claude, OpenAI, Gemini, Grok, or a local model via Ollama, vLLM or llama.cpp) uses the skills it already has. Simulator, .duck task files, MCP, memory between runs, flocks.
+- **大概是做什么的**: Give your Microduck a brain. Your Open Duck Mini, your Reachy Mini, your arm and your wheeled base too. Any LLM, one .duck file. 🦆🧠 quackd, pronounced “quacked”. The brain daemon Microduck was missing, named like its siblings robotd , mediad , padd and tofd . Since 0.4 it drives other small robots too, and since 0.5 one of them is a duck you can print and build yourself. Type a goal in a terminal, or just chat with it through Claude. Same rules either way. "Find the ball and kick it", in the bundled simulator, driven by the scripted pilot (no API key). Same verbs, same safety layer, same perception as a real model run. See docs/assets . quackd connects a small robot to a large language model (Claude, OpenAI, Gemini, Grok, or an open source model running locally through llama.cpp, vLLM, Ollama or LM Studio). The first robot is the Microduck from Pollen Robotics, a biped that already knows how to walk, turn, kick, scoop something off the floor, look around and quack. Since 0.4 the same loop drives other bodies through adapters that declare what each can do, and 0.5 adds the Open Duck
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: bipedal-robot, claude, embodied-ai, hugging-face, lerobot, llm-agents
+
+---
+
+### 🌟 [mattpocock-skills-zh](https://github.com/devcxl/mattpocock-skills-zh)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 302
+- **核心概述**: Matt Pocock 技能集的中文翻译版 — 地道中文，原汁原味的技术术语。基于 mattpocock/skills 复刻。每日中午12点钟同步
+- **大概是做什么的**: 我每天都在用的智能体技能：做真正的工程，不是 vibe coding。 开发真正的应用很难。GSD、BMAD、Spec-Kit 等方法试图通过接管流程来帮忙。但在这么做的同时，它们剥夺了你的控制权，并且让流程中的 bug 极难排查。 这些技能的设计原则是：小巧、易定制、可组合。它们兼容任何模型。它们基于数十年的工程经验打磨而成。尽管折腾、改造成你自己的。Enjoy。 如果你想跟进这些技能的更新以及我新发布的技能，可以加入我的 Newsletter，已有约 60,000 名开发者订阅： 两种方式，两种理念。 Claude Code 插件 将整套技能集作为受管理的只读 bundle 安装，在我发布新版本时自动更新：你订阅而非 fork。 skills.sh 将可编辑的技能文件复制到你的项目中，这样你可以随意修改，变成自己的东西。 二选一：两者都装会导致每个技能出现两次。 它在 Claude Code 的官方市场中，无需额外添加，更新自动送达。 选择你想要的技能，以及要安装到哪些编程智能体上。 安装器会让你选择要装的技能：务必把 setup-matt-pocock-skills 选上。 原生 Codex 插件已在规划中：详见 .agents/adr/0002-ship-as-a-claude-code-plugin.md 。 使用同样的安装器，在任何智能体上安装：包括 Claude Code： 这会将技能作为普通文件写入你的仓库，归你所有，你可以自由编辑。不会有任何东西在后台偷偷更新；想获取最新变更时，运行 npx skills update 即可。 2. 运行 /setup-matt-pocock-skills 在你的智能体中运行它，每个仓库执行一次。它会： - 询问你要使用哪个 Issue 跟踪器（GitHub、Linear 或本地文件） - 询问你对工单进行分类时使用哪些标签（ /triage 会用到） 我建立这些技能是为了修复我在 Claude Code、Codex 以及其他编程智能体上看到的常见失败模式。 "No-one knows exactly what they want" David Thomas & Andrew Hunt，《程序员修炼之道》(The Pragmatic Programmer) 问题所在 。软件开发中最常见的失败模式是错位。你以为开发者知道你想要什么。然后你看到他们构建的东西：你意识到他们根本没理解你。 在 AI 时代也是一样的。你和智能体之间存在沟通鸿沟。修复办法是 盘问会话（grilling session） ：让智能体就你要构
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, chinese, prompt-engineering, skills, translation
+
+---
+
+### 🌟 [zeroid](https://github.com/highflame-ai/zeroid)
+- **项目语言**: Go
+- **星标数量**: ⭐ 164
+- **核心概述**: ZeroID: Autonomous Agent Identity Management System (AAIMS)
+- **大概是做什么的**: Identity Infrastructure for Autonomous Agents Issue short-lived agent credentials · Delegate between agents · Attest · Revoke in real-time OAuth 2.1 &middot; WIMSE/SPIFFE &middot; RFC 8693 delegation &middot; Developer SDKs When an AI agent takes an action, commits code, calls an API, or modifies a record, the question every security and compliance team asks is: "Which agent did this, acting on whose authority, with what permissions?" Today's agents often answer this question badly—or not at all. They impersonate users via shared service accounts, creating no auditable distinction between the human who authorized the action and the agent that executed it. OAuth/OIDC tokens weren't designed for agents that spawn sub-agents, operate without humans in the loop, or need their delegation chains verified across a multi-step workflow. The OpenID Foundation's October 2025 whitepaper on Identity Management for Agentic AI identifies this as the industry's most urgent unsolved problem: "User impersonation by agents should be replaced by delegated authority. True delegation requires explicit 'on
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-authentication, ai-agents, authentication, credentials, golang, identity
+
+---
+
+### 🌟 [story-ui](https://github.com/southleft/story-ui)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 200
+- **核心概述**: AI-powered Storybook story generator — works with any framework, any design system, any LLM provider
+- **大概是做什么的**: Design screens in your own design system, by describing them. Story UI adds a workspace to the Storybook you already have. You type what you want — "a settings page with a sidebar and a sticky save bar" — and it writes a real Storybook story using the components your team actually ships. The result appears in Storybook's own preview, with your providers, your theme and your tokens. It is not a mockup and not a sandbox. It is a file in your repository that a developer can open, review and keep. Design systems are full of components that nobody has time to assemble into real screens. So exploration happens in a design tool, in a vocabulary the code does not share, and every idea has to be rebuilt before anyone can judge it. Story UI closes that gap from the other side. - It only uses what you have. Components are discovered from your project: the package's type declarations, your local source, and Storybook's own index. It cannot invent a component you do not own, and every prop is checked against that component's real type. - It composes, so you can judge. Buttons and cards in isolati
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, angular, code-generation, component-library, design-system, mcp
+
+---
+
 ## 🕔 2026-09-04 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
