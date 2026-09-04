@@ -1,3 +1,67 @@
+## 🕔 2026-09-04 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [fastmcp](https://github.com/punkpeye/fastmcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,260
+- **核心概述**: A TypeScript framework for building MCP servers.
+- **大概是做什么的**: A TypeScript framework for building MCP servers capable of handling client sessions. FastMCP implements the legacy, handshake-based MCP revisions ( 2025-11-25 and earlier). It does not support the current specification, 2026-07-28 , which made the protocol stateless — no initialize handshake and no Mcp-Session-Id . For a framework targeting the current spec, use ViteMCP. - Simple Tool, Resource, Prompt definition - OpenAPI to MCP conversion - Passing headers through context - Session ID and Request ID tracking - HTTP Streaming (with SSE compatibility) - HTTPS Support for secure connections - Custom HTTP routes for REST APIs, webhooks, and admin interfaces - Edge Runtime Support for Cloudflare Workers, Deno Deploy, and more - Stateless mode for serverless deployments - CORS (enabled by default) - Progress notifications - Typed server events - Prompt argument auto-completion - Configurable ping behavior - Health-check endpoint - In-memory transport for unit testing without binding a port - CLI for testing and debugging When to use FastMCP over the official SDK? FastMCP is built on top
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: mcp, sse
+
+---
+
+### 🌟 [rssh](https://github.com/rssh-org/rssh)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 495
+- **核心概述**: An SSH tool dedicated to addressing all pain points · (macOS/Windows/Linux/Android/iOS)
+- **大概是做什么的**: The SSH client built to be an AI ops copilot. Connect to a host and just ask "why is the disk full?" — the AI proposes commands, flags their side effects, and runs them in your terminal only after you approve. Sensitive data is redacted locally before anything leaves your machine. Desktop · Mobile · JetBrains · CLI — one shared data store. ⬇️ Download latest &nbsp;·&nbsp; Why RSSH? Not another chat box. Nothing to install on your servers — it works like a human operator, reading the terminal's input and output directly. 🎨 Color-coded command blocks Every command and its output become a block with a color-coded left edge — spot the last command's output at a glance. Rendered fully locally , zero remote dependency. 🐳 Dynamic discovery Containers and pods change by the minute — connecting to servers by static IP is obsolete. RSSH dynamically discovers the containers in your local dev and test environments. 🔐 Multi-platform data sync Keys stay in your local OS keyserver; connection configs are encrypted into your own private GitHub repo — nothing sits on a third-party server. - SSH --
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, devops, mobile-app, multi-platform, rust
+
+---
+
+### 🌟 [Easel](https://github.com/ZJU-REAL/Easel)
+- **项目语言**: Python
+- **星标数量**: ⭐ 317
+- **核心概述**: An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。
+- **大概是做什么的**: 从一个想法开始，完成发现、策划、创作、发布与复盘。 Easel 是一个面向社交媒体创作者的开源内容工作台。它把 OpenClaw Agent、账号画像、内容技能和真实的媒体工具接在一起，让 Agent 不只回答“应该怎么做”，而是直接把内容做出来并归档，且可实现直接/按需发布。 你可以把它理解成一个会记住你的内容搭档：它了解账号定位、受众、风格、平台限制和历史表现，从热点发现一直陪你做到发布，再把结果带回下一次创作。 Easel 围绕五个连续工作流展开： 发现 适合账号的热点与机会， 策划 选题、标题、脚本和排期， 创作 图文、音频与视频内容， 发布 经过检查和平台适配的成品直接到对应平台，再通过 归因 分析表现并把有效经验沉淀回账号画像。 - 推荐使用 Web 前端 ：前端提供完整的会话、素材、账号、画像、内容库和发布管理能力，体验和功能比单独使用 CLI 更全面。 - 谨慎自动发布到小红书 ：小红书平台可能检测自动化操作，存在验证、限流或账号风控风险；建议使用预览与发布前检查，并由用户确认后手动发布，其他平台正常。 - 从研究走向真实生活 ：Easel 是我们将研究成果应用到真实社媒创作场景的一次实践。后续我们会继续研究 AI 在社媒场景中的社交智能，让 Agent 更好地理解创作者、受众与真实互动。 - 一个 Agent 贯穿完整链路 ：发现热点、评估选题、规划日历、生成文案与视觉、制作视频、发布和归因在同一个工作流中完成。 - 画像驱动，而不是一次性生成 ：每个账号有独立的定位、风格、受众、平台、偏好和记忆，输出会越来越贴合真实账号。 - 技能是真执行，不是功能清单 ：图片、卡片、配音、字幕、剪辑、短剧和发布技能都配有可运行脚本，成品写入 outputs/ 。 - 一份素材，多种平台形态 ：同一主题可以改写成小红书卡片、短视频、知乎长文或短帖，并遵循不同平台的格式和字数要求。 - 项目化保存产物 ：内容、素材、中间文件和元数据按项目归档，后续修改、重试和发布不会散落在聊天记录里。 - 真实发布与复盘闭环 ：目前支持小红书、抖音、快手、知乎、B 站、微信视频号六个平台的登录、适配和发布，并可回收账号数据。 1. 发现 ：聚合热榜、行业新闻、竞品动态和用户讨论，筛选真正适合账号的机会。 2. 策划 ：把机会变成选题、标题、脚本和内容矩阵，写入内容日历。 3. 创作 ：生成文案、卡片、海报、信息图、音频、视频、短剧和论文解读等可发布素材。 4. 发布 ：按平台适配标题、正文、画幅和媒体要求，执行发布前检查并发送到已登录账号。 5. 归因 ：读取播放、互动、评论
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skill, content-automation, content-creation, content-generation, mcp
+
+---
+
+### 🌟 [FLUJO](https://github.com/mario-andreschak/FLUJO)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 619
+- **核心概述**: Multi-Agent + Automation: Workflows, Automation, Self-Improving Agents
+- **大概是做什么的**: Connect your AIs and apps, build an agent, then talk to it, automate it, or call it from other software. FLUJO is open-source and local-first. Start with the guided setup, build agents as simple step-by-step recipes or expert visual flows, inspect every run, and expose the same agents through OpenAI-compatible and MCP endpoints — while your keys and data stay under your control. Simple + visual builders · MCP-native · Multi-model · Built-in debugger · Automation Visit flujo.com.co → · Watch the 2:28 product film → · Install FLUJO ↓ · Explore features ↓ · Try FLUJO online → FLUJO is too complicated? You are missing a feature or are stuck on something? Hop into the Discord, or create an Issue on Github! We can only improve if we know what's wrong. It really helps a lot! Click the preview to see FLUJO in motion. ⚡ Quick Install (recommended) The installer sets up everything FLUJO needs (Git, Node.js, Python, uv, ripgrep), clones FLUJO, builds it, and creates a global flujo command. This is the recommended way to run FLUJO — MCP servers get all their runtimes too. Windows installer (reco
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, agentic-framework, agentic-workflow, ai-chat, automation, autonomous-agents
+
+---
+
+### 🌟 [MarkLLM](https://github.com/THU-BPM/MarkLLM)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,066
+- **核心概述**: [EMNLP 2024 Demo] MarkLLM: An Open-Source Toolkit for LLM Watermarking
+- **大概是做什么的**: An Open-Source Toolkit for LLM Watermarking 🎉 We welcome PRs! If you have implemented a LLM watermarking algorithm or are interested in contributing one, we'd love to include it in MarkLLM. Join our community and help make text watermarking more accessible to everyone! 🔥 If you are interested in watermarking for diffusion models (image/video watermark), please refer to the MarkDiffusion toolkit from our group. 💡 Some other watermark papers from our team that may interest you ✨ 1. (ICLR 2024) A Semantic Invariant Robust Watermark for Large Language Models Aiwei Liu, Leyi Pan, Xuming Hu, Shiao Meng, Lijie Wen 2. (ICLR 2024) An Unforgeable Publicly Verifiable Watermark for Large Language Models Aiwei Liu, Leyi Pan, Xuming Hu, Shu'ang Li, Lijie Wen, Irwin King, Philip S. Yu 3. (ACM Computing Surveys) A Survey of Text Watermarking in the Era of Large Language Models Aiwei Liu , Leyi Pan , Yijian Lu, Jingjing Li, Xuming Hu, Xi Zhang, Lijie Wen, Irwin King, Hui Xiong, Philip S. Yu 4. (ICLR 2025 Spotlight) Can Watermarked LLMs be Identified by Users via Crafted Prompts? Aiwei Liu, Sheng G
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: large-language-models, llm, safety, toolkit, trustworthy-ai, watermark
+
+---
+
+### 🌟 [toolport](https://github.com/btsouth/toolport)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 201
+- **核心概述**: Local-first MCP gateway. One port for every tool and every AI client: lazy discovery (~90% token savings), tool integrity + quarantine, secrets in the OS keychain.
+- **大概是做什么的**: Every tool. One port. One local gateway for all your MCP servers, shared by every AI client, with far fewer tokens. Toolport is a local MCP (Model Context Protocol) gateway. You set up and authenticate each server once, and every AI client (Claude, Cursor, Codex, VS Code, and the rest) points at Toolport and shares them, so you stop configuring the same servers separately in each app. It also fixes what those servers cost your agent. Every MCP server you connect dumps all of its tools into context on every single request, and it adds up fast: just 3 servers (63 tools) cost 19,000 tokens of definitions before you've asked anything. Toolport advertises a handful of compact meta-tools the agent searches on demand instead, so it pays 450 tokens (98% less, measured). Measured on a frontier model: up to 91% fewer total tokens at the same task success (graded for correct answers, not just completion), plus 98% less tool-definition overhead on every request, rising to 99.5% on a real 415-tool catalog (see BENCHMARK.md). That holds whether you run one AI tool or five, on cloud models (where t
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, anthropic, claude, cursor, developer-tools
+
+---
+
 ## 🕔 2026-09-03 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 207 个候选项目中筛选出 6 个未推荐过的新项目。
