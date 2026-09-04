@@ -1,3 +1,67 @@
+## 🕔 2026-09-04 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [buildwithclaude](https://github.com/davepoon/buildwithclaude)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,413
+- **核心概述**: A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw
+- **大概是做什么的**: Claude Skills, Agents, Commands, Hooks, Plugins, Marketplaces collections for and extend Claude Code A plugin marketplace and discovery platform for Claude Code. Browse curated plugins, discover community contributions, and extend your Claude Code workflows. Curated collections maintained in this repository: Type Count Description ------ ------- ------------- Agents 117 Specialized AI experts (Python, Go, DevOps, Security, etc.) Commands 175 Slash commands for automation ( /commit , /docs , /tdd ) Hooks 28 Event-driven automation (notifications, git, formatting) Skills 26 Reusable capabilities from plugins Plugins 51 Bundled plugin packages by category The platform indexes plugins from the broader Claude Code ecosystem: - 20k+ Community Plugins from external marketplaces - 4,500+ MCP Servers for database, API, and tool connections - 1,100+ Plugin Marketplaces from the community Browse, search, and explore everything at buildwithclaude.com - Browse all plugin types with filtering - Search across plugins, agents, commands, hooks, skills - Copy install commands with one click - View ful
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: claude, claude-code, claude-code-commands, claude-skills, cli-tool, commands
+
+---
+
+### 🌟 [mongodb-mcp-server](https://github.com/mongodb-js/mongodb-mcp-server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,122
+- **核心概述**: A Model Context Protocol server to connect to MongoDB databases and MongoDB Atlas Clusters.
+- **大概是做什么的**: A Model Context Protocol server for interacting with MongoDB Databases and MongoDB Atlas. Using the official MongoDB plugins for AI agents MongoDB MCP Server comes bundled with the official MongoDB plugins for AI agents. The following plugins are available: mongodb-atlas — connects to the MongoDB-hosted Atlas MCP server over OAuth. This does not require you to run anything locally, and is the recommended way to connect to MongoDB Atlas from your AI agent: - Cursor: marketplace - VSCode: Open the Extensions view ( ⇧⌘X / Ctrl+Shift+X ), search for @agentPlugins , and install mongodb-atlas . - Claude: marketplace - Codex: Open /plugins and install mongodb-atlas . - GitHub Copilot CLI: Run copilot plugin install mongodb-atlas . - Grok: Open /marketplace in Grok Build and install mongodb-atlas . mongodb — runs the MongoDB MCP server locally and connects to any self-managed deployment: - Cursor: marketplace - Claude: marketplace - Gemini: marketplace - Codex: Run codex plugin marketplace add mongodb/agent-skills , then open /plugins and install mongodb . - GitHub Copilot CLI: Run copilot p
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: mcp, mcp-server, mongodb, mongodb-atlas, mongodb-database
+
+---
+
+### 🌟 [reef](https://github.com/Human-Agent-Society/reef)
+- **项目语言**: Python
+- **星标数量**: ⭐ 362
+- **核心概述**: Continual learning infra for self-improving agents
+- **大概是做什么的**: Continual learning infra for self-improving agents Reef is infrastructure that serves an entire continual learning backend. Reef exposes standardized http endpoints so that you can download agents just like how you download codex or opencode using curl , and so that your agent can send its model requests to Reef's inference endpoint instead of the provider's. The only difference is that, Reef constantly evaluates your agent behavior and improves the served harness and model weights in the backend. You keep getting better and better results without having to do anything. Reef's artifact and checkpoint functionality requires the git-lfs system package. Reef initializes Git LFS locally for its artifact repositories. We recommend uv for managing packages, and the commands below use it. Use the source checkout for development and for the training examples below. Reef processes each learning cycle in four steps. The table also shows which modules implement each step. Step What happens Where it lives 1&nbsp;·&nbsp;Serve Serve agent requests and record interactions. service/ — agent requests
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-infrastructure, ai-agents, continual-learning, inference, llm, llm-training
+
+---
+
+### 🌟 [noodle](https://github.com/wilfredinni/noodle)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 300
+- **核心概述**: A delicious REST client for your terminal
+- **大概是做什么的**: API workflows, untangled. Open-source terminal REST client Write, send, inspect, and automate HTTP requests from readable files without leaving your terminal. Keep every collection versioned beside the code it exercises, ready for the TUI, CLI, scripts, and coding agents. Fast by default. Made to review. Ready to automate. See every installation option Every request is a readable YAML file. Edit it in Noodle or your editor, review it in Git, and keep it beside the code it exercises. Create a collection and open it in the TUI: The whole exchange, without leaving the terminal Compose URLs, parameters, headers, authentication, and bodies from a keyboard-first workspace. Send the request, then inspect the body, headers, cookies, status, timing, and network timeline in the same place. The request Assert and Capture tabs edit response checks and extracted values as structured rows, while request tags live in Settings. Manual sends use a fresh scope each time. Results stays available and gains a value indicator when the send has assertion or capture outcomes. Assert and Capture rows use the
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-skills, ai-tools, api-client, cli, developer-tools
+
+---
+
+### 🌟 [atguigu-note](https://github.com/xbsheng/atguigu-note)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 298
+- **核心概述**: AI 课程笔记：langchain / langgraph / python / vibe coding
+- **大概是做什么的**: 尚硅谷 Python / LangChain / LangGraph / AI Coding 课程配套课件与代码整理 https://xbsheng.github.io/atguigu-note/ 课程 说明 在线视频 详情 ------------------------- --------------------------------------------- ----------------------------------------------------------- ------------------------------- Python Python 零基础入门到进阶（进程 / 线程 / 协程） BV1tDsgzxECr README LangChain LangChain 1.2 入门到 Agent / RAG 实战 BV1rv7A6oEeP README LangGraph LangGraph 入门到智能体部署实战 BV1z3NY66EY1 README AI Coding Vibe Coding 零基础实战（Claude Code / Skills / Codex） BV1RPET6tEp2 README PyBridge · 写给 Java / JS / Go 开发者的 Python 速查卡 —— 52 条概念映射词典（HashMap → dict、goroutine → asyncio）、三条来源语言的对照式课程、浏览器内直接运行 Python，无需安装环境。有其他语言基础的话，配合本站 Python 课程食用效率翻倍。（GitHub 仓库） 站点直接复用各课程下的 课件/ Markdown，无需复制文件。 1. 打开站点或对应课程 README，按分 P 在 B 站在线观看 3. 站点上的「Notebook 在线阅读」页面（LangChain / LangGraph）可直接在浏览器中打开配套 Notebook 跟练 4. AI Coding 课程可对照 vibe coding/代码/AICoding/ 下的实战项目练习 课程版权归 尚硅谷 所有，本仓库仅供学习交流使用。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, ai, atguigu, langchain, langgraph
+
+---
+
+### 🌟 [uisight](https://github.com/sololabstr/uisight)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 103
+- **核心概述**: Your AI can already see the screen — it just can't measure it. Live mobile+desktop sessions, a measurement engine (contrast, touch targets, theme drift) reporting findings as text, and a panel you and your agent share. MCP server for web/responsive UIs.
+- **大概是做什么的**: Your AI can already see the screen. It just can't measure it. Screenshots make an agent guess : "that heading looks a bit faint." uisight makes it know : One is an impression. The other is a measurement with a selector attached — the agent fixes that element instead of hunting for it. uisight is an MCP server for web and responsive UIs (Claude Code, Cursor, Antigravity, anything that speaks MCP). It runs live mobile + desktop sessions side by side, measures what it finds, and puts you and the agent in front of the exact same screen. Built by a solo founder who got tired of taking phone screenshots, pasting them into chat, and typing "the button looks broken, can you see it?" The live panel: desktop + mobile sessions of the same site, URL-synced. Inspect runs on every screen; findings come back per device. Your AI sees this exact view through MCP. What makes it different Multi-viewport browsers (Polypane etc.) Browser tools / computer use (Playwright MCP, agent harnesses) Native app toolkits (Argent etc.) uisight Measures the UI ( 1.14:1 , not "looks low") ✅ for humans — — ✅ as text,
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, ai-agents, claude-code, cursor, devtools, mcp
+
+---
+
 ## 🕔 2026-09-04 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 169 个候选项目中筛选出 6 个未推荐过的新项目。
