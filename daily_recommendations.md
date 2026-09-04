@@ -1,3 +1,67 @@
+## 🕔 2026-09-04 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 169 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [opensquilla](https://github.com/TokenRhythm/opensquilla)
+- **项目语言**: Python
+- **星标数量**: ⭐ 6,904
+- **核心概述**: OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density
+- **大概是做什么的**: OpenSquilla — Token-Efficient AI Agent Same budget, more capability, better results. A microkernel AI agent for your CLI, Web UI, and chat channels. English · 中文 · 日本語 · Français · Deutsch · Español - 📢 2026-08-22 — The English version of our technical report is now on aiXiv: aixiv.260822.000001, and the Chinese version is on ChinaXiv: 202608.00176. See Citation for how to cite OpenSquilla. - 📢 2026-08-21 — PDF versions of our technical report are now available in this repo: English · 中文. - 📢 2026-07-14 — Our technical report Agentic Routing: The Harness-Native Data Flywheel is now on arXiv. It shows how the harness-native router turns everyday agent traffic into a self-improving data flywheel, and how multi-model ensemble routing surpasses Fable 5 . OpenSquilla is a token-efficient, microkernel AI agent. A local model router sends each turn to the cheapest model that can handle it, while persistent memory, a layered sandbox, built-in web search, and on-device embeddings round out a single shared turn loop. Every entry point — Web UI, CLI, and chat channels — runs through that sam
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, ai-agents, deep-learning, foundation-models, llm
+
+---
+
+### 🌟 [HelloAgents](https://github.com/jjyaoao/HelloAgents)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,903
+- **核心概述**: A agent framework based on the tutorial hello-agents
+- **大概是做什么的**: 🤖 生产级多智能体框架 - 工具响应协议、上下文工程、会话持久化、子代理机制等16项核心能力 HelloAgents 是一个基于 OpenAI 原生 API 构建的生产级多智能体框架，集成了工具响应协议（ToolResponse）、上下文工程（HistoryManager/TokenCounter）、会话持久化（SessionStore）、子代理机制（TaskTool）、乐观锁（文件编辑）、熔断器（CircuitBreaker）、Skills 知识外化、TodoWrite 进度管理、DevLog 决策记录、流式输出（SSE）、异步生命周期、可观测性（TraceLogger）、日志系统（四种范式）、LLM/Agent 基类重构等 16 项核心能力，为构建复杂智能体应用提供完整的工程化支持。 - 📚 学习版本（推荐初学者） ：learn version 分支 与 Datawhale Hello-Agents 教程 正文完全对应的稳定版本，适合跟随教程学习使用。 - 🚀 开发版本（当前分支） ：持续迭代中的最新代码(V1.0.0)，包含新功能和改进，部分实现可能与教程内容存在差异。如需学习教程，请切换到 learn version 分支。 - 🔁 AtomGit 镜像仓库 ：https://atomgit.com/jjyaoao/HelloAgents 用于同步 GitHub 仓库内容，便于国内网络环境访问。 - 📦 历史版本 ：Releases 页面 提供从 v0.1.1 到 v0.2.9 的所有版本，每个版本对应教程的特定章节，可根据学习进度选择对应版本。 - 🐹 Golang 开发版本 ：HelloAgents-go 社区贡献的HelloAgents 的 Go 语言重实现版本，适合 Go 语言开发者使用。 - 🔷 TypeScript 开发版本 ：HelloAgents-ts 社区贡献的HelloAgents 的 TypeScript 语言重实现版本，适合 TypeScript 语言开发者使用。 💡 智能检测 : 框架会根据API密钥格式和Base URL自动选择合适的provider 框架基于 3 种适配器 支持所有主流 LLM 服务： 支持所有提供 OpenAI 兼容接口的服务： 提供商类型 示例服务 配置示例 ------------ -------------------------------------- ------------------------------------ 云端 API OpenAI、DeepSeek、Qwen、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, llm, skills
+
+---
+
+### 🌟 [mancode](https://github.com/whitelonng/mancode)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 358
+- **核心概述**: AI coding agent harness. Five modes: practice to playoffs. Stop your AI from over-engineering. Code like a man. Elbow out bloat. Score clean. ... AI 代理调度框架。五种模式：训练到季后赛。 别让你的 AI 过度设计一切。像个man一样，肘开冗余，干净得分。
+- **大概是做什么的**: AI 编码代理工作流调度框架与本地优先 Continuity CLI。默认 Solo + 五种治理模式： 训练到季后赛。别让你的 AI 过度设计一切，像个 man 一样肘开冗余，干净得分。 为 Claude Code、Cursor、ChatGPT 桌面端中的 Codex、Codex CLI、GitHub Copilot、 ZCode、Kimi Code、Qoder 和 DeepSeek Harness 提供结构化任务规划、跨会话上下文、 mancode 是一个 AI 编码代理工作流调度工具。它给 agent 不同强度的工作模式： 日常任务用轻量 solo ，关键任务用季后赛级别的 /man ，复杂任务让教练组 subagents mancode Continuity（跨会话与团队协作运行时） 负责把任务、决策和验证证据安全地 带到后续对话，并协调多人或多 Agent 的任务权威。 1. 工作流权威数据 ：管理显式 session、TaskRef、Context Pack、workflow 和团队协调。 2. Skills / modes ：提供 solo 、 /manba 、 /man 、 /manteam 、 /manps 、 3. 平台 bootstrap ：把原入口接到 mancode；只有 --legacy 才安装旧 hooks。 每个受支持平台继续使用原来的 man 入口，并通过静态 bootstrap 接入统一的 Context Pack 与 workflow authority。当 AI 编码代理写太多代码、忽略已有 UI 系统、 跳过计划，或者关键改动需要稳定工程流程时，mancode 可以作为一层本地工作流约束。 mancode 不是 Claude Code、Cursor、Codex 或 Copilot 的替代品。它是在现有 agent 上加的一层工作流：提供上下文、模式切换和审查纪律。 - 减少 AI 过度设计 ：先复用已有代码、标准库、已安装依赖和一行修复，再考虑新增抽象。 - 在存在 UI 时匹配现有设计系统 ：检查项目 UI 依赖、Tailwind 配置、CSS 变量和已有组件，让 agent 复用现有颜色、字体和交互模式。 - 先把需求和计划对齐 ： /man 会调研项目、引导澄清会改变方案的需求、推荐可行选项并生成可确认的持久计划；计划完成后不会自动进入完整实施。 - 自由选择执行强度 ：计划确认后，可只保留计划、交给默认 solo 轻量开发，或继续完整 /man 的验证与有界风险审查。 - 保留工作流产物 ：调研、计划、审查报告和
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-workflow, agents-md, ai-agents, ai-coding, claude-code, cli
+
+---
+
+### 🌟 [dexter-jp](https://github.com/edinetdb/dexter-jp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 304
+- **核心概述**: 日本株の自律型リサーチAIエージェント｜AI agent for deep financial research on Japanese listed companies. Powered by EDINET DB + J-Quants.
+- **大概是做什么的**: 🇬🇧 English version Dexter JP — 日本株の自律型リサーチエージェント 聞くだけで、勝手に計画を立てて、複数のデータソースを横断して、自分で検証しながらレポートまで仕上げる。 EDINET DB + J-Quants で動く、日本株特化の金融AIエージェント。 virattt/dexter（米国株版）をフォークし、日本市場向けに全面改修。 本プロジェクトは 教育・娯楽・情報提供のみを目的 としています。実際の取引や投資判断のために使用することは意図していません。 - 金融、投資、税務、法律に関する助言ではありません - 正確性、完全性、特定目的への適合性を保証するものではありません - 出力結果には誤り、不完全な情報、古い情報が含まれる可能性があります - 作成者および貢献者は、本ソフトウェアの利用によって生じたいかなる金銭的損失・損害についても責任を負いません - 投資判断を行う前には、必ず有資格の金融アドバイザーにご相談ください - 過去の実績は将来の成果を示すものではありません 本ソフトウェアを利用することにより、学習・情報提供の目的のみに使用することに同意し、利用に伴う一切のリスクを受け入れたものとします。 よくある金融ツールは「スクリーニングできます」「財務データ見れます」で終わる。Dexter JPは違う。 「ソニーと任天堂、投資先としてどちらが優れているか分析して」 と聞くと: 1. まず計画を立てる — 比較に必要な指標（収益性、成長性、財務健全性、リスク）を自分で決める 2. 複数のツールを自律的に呼び出す — 両社の財務データ、有報のリスク要因、決算短信を並列取得 3. 途中で検証する — 数字とナラティブに矛盾がないか、データが足りているか自分で判断 4. レポートを仕上げる — 比較表と結論付きの構造化された分析結果を出力 これを1回の質問で、人間が介在せずにやる。ツールを1つ呼ぶだけの「データ取得」ではなく、複数のデータソースを横断した「分析」が自動で走る。 - LLM APIキー（以下のいずれか1つ） 複雑な問いを投げると、Dexterが自分で計画を立て、複数のデータソースを横断し、レポートを仕上げる: get financials は単なるAPIラッパーではない。内部にLLMを持つ ルーティングエージェント : 1. ユーザーの自然言語クエリを受け取る 2. 内部LLMがどのサブツールを呼ぶべきか判断 「ソニーとトヨタの利益率を比較して」→ 内部で4つのAPI呼び出しが自動で走る。 複雑な多段階ワークフ
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, edinet, financial-analysis, japanese-stocks, jquants, langchain
+
+---
+
+### 🌟 [simplify-codebase](https://github.com/tt-a1i/simplify-codebase)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 430
+- **核心概述**: Prove and remove accidental codebase complexity without breaking behavior.
+- **大概是做什么的**: 先证明，再删除。让代码库少维护一些事实、状态与契约。 simplify-codebase 是一个面向现有代码库的 Agent Skill。它帮助编码智能体识别并安全移除偶然复杂度，同时保护仍然有效的行为、边界与兼容性。 它不追求“删得多”。它关心的是：一次改动能否减少团队今后必须持续保持一致的概念和义务。 代码库里的冗余很少只是“某个函数没人调用”。它也可能是重复状态、失去所有者的抽象、只剩测试消费的接口、早已无效的兼容路径，或者被保留在共享文件中的半截功能。 静态检查可以提供线索，但不能单独证明一项删除是安全的。这个 Skill 会继续追踪运行时消费者、动态注册、持久化格式、公共接口、历史决策与验证边界，再决定应该删除、合并、保留，还是标记为暂时无法判断。 核心原则： 删除代码行只是结果。真正的收益是删除一个需要长期维护的事实、状态、契约或概念。 聚焦范围 Focused 全库范围 Broad 只读审计 Survey 深挖一个子系统、状态机或疑似重复点 分区覆盖整个仓库，给出候选、反证与盲区 授权修改 Change 证明并完成一个明确的简化边界 按所有权边界分批修改，每批独立验证 - 它位于哪个所有权边界、符号、文件，以及能够验证时的行号； - 生产、测试、动态和外部消费者分别是谁； - 完整删除边界在哪里，包括共享文件内部的成员； - 减少的复杂度是否大于新引入的迁移或替代机制。 - 授权、隔离、输入校验和数据丢失防护； - 仍然有效的 ADR、RFC 与架构约束。 发现真实消费者、边界尚未查清，或者简化只是把复杂度搬到别处时，它会建议保留，而不是为了输出结果强行删除。 也可以手动安装到 Codex 的用户级 Skill 目录： 安装后请新建一个任务，让 Skill 目录重新加载。其他支持 SKILL.md 的 Agent 环境可将本仓库放入各自的 Skill 目录。 可交互 Cleanup Map 已内置在本 Skill 中，不需要另外安装 Archify。它直接内置精简后的 Architecture 渲染与桌面交互核心，再叠加清理专用编译和 Survey/Change 交互。renderer 需要 Node.js 18 或更高版本，不依赖额外 npm 包；交付的 HTML 不会请求外部字体。 只读审计会交付覆盖范围、排序后的证明记录、重要反例、未决问题和下一条所需证据。 修改任务会额外交付实际变更、分层验证结果、剩余风险、操作回执与可执行的撤销路径。一次小范围测试通过，不会被包装成完整的运行时或用户验收。 默认交付完整的文字报告。用户明确要求可视化时，S
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, code-quality, codebase, codex, developer-tools
+
+---
+
+### 🌟 [docutranslate](https://github.com/xunbu/docutranslate)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,289
+- **核心概述**: 文档（小说、论文、字幕）翻译工具（支持 pdf/word/excel/json/epub/srt...）Document (Novel, Thesis, Subtitle) Translation Tool (Supports pdf/word/excel/json/epub/srt...)
+- **大概是做什么的**: 简体中文 / English / 日本語 / Tiếng Việt A lightweight local file translation tool based on Large Language Models. - ✅ Support Multiple Formats : Translates pdf , docx , xlsx , md , txt , json , epub , srt , ass , and more. - ✅ Auto-Generate Glossary : Supports automatic glossary generation to ensure term alignment. - ✅ PDF Table, Formula, Code Recognition : Uses mineru (online or locally deployed) for PDF parsing, supporting recognition and translation of tables, formulas, and code commonly found in academic papers. - ✅ JSON Translation : Supports specifying values to translate within JSON using paths ( jsonpath-ng syntax). - ✅ Word/Excel Format Preservation : Supports docx and xlsx files (currently does not support doc or xls ) while maintaining original formatting. - ✅ Multi-AI Platform Support : Supports most AI platforms, allowing for high-performance concurrent AI translation with custom prompts. - ✅ Async Support : Designed for high-performance scenarios, providing full asynchronous support and interfaces for parallel multi-tasking. - ✅ LAN & Multi-user Support : Supports simultaneou
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: file-transla, llm, pdf-converter, pdf-translator, translate
+
+---
+
 ## 🕔 2026-09-04 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
