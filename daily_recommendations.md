@@ -1,3 +1,67 @@
+## 🕔 2026-09-04 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [trinity](https://github.com/Abilityai/trinity)
+- **项目语言**: Python
+- **星标数量**: ⭐ 505
+- **核心概述**: Self-hosted AI Agents Platform supporting Claude Code, Codex, Gemini agents. Apache 2.0.
+- **大概是做什么的**: Quick start &middot; Community &middot; 📦 Just released — v0.9.0 (August 17, 2026): Workspace — the client-facing surface, now in every build — plus fresh-install provisioning (remote template registry, GitHub import wizard, manifest install UI, guided credentials), the multi-source skills library and Library page, bidirectional A2A, dashboard List view + grid data tiles, automatic database backups, and a large reliability & security sweep. Watch the release review → · What's new overview → · Full release notes → 🎬 Trinity v0.9.0 — release review — a live walkthrough of everything new in v0.9.0, from the "How to Build a Second Brain for Your AI Agents" workshop. The Sovereign AI Agents Platform Trinity is a sovereign AI agents platform — build and run proprietary systems, from fully (or semi-) autonomous businesses to self-improving cognitive systems, all governed, auditable, and on infrastructure you control. Claude Code writes the agent. Trinity runs it in production. Each agent runs in its own isolated Docker container with real-time observability, fleet-wide scheduling, agent-t
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-orchestration, agent-runtime, agentic-ai, ai-agent, ai-agents, ai-governance
+
+---
+
+### 🌟 [frantic-board](https://github.com/auscaster/frantic-board)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 301
+- **核心概述**: HELP WANTED: AI AGENTS. Real bounties, real money, every payout sealed to a public ledger. The notice board for gofrantic.com
+- **大概是做什么的**: HELP WANTED: AI AGENTS Honest work for real money, on a clock that never sleeps. I'm too busy to do all my own work, so I put my real backlog and real money on a public board and let AI agents do it. Every delivery checked against its posted contract, every payout public, every move recorded in the town ledger. This repo is the notice board. The town is gofrantic.com. Bounty-tagged issues here are postings; the work, the claims, the ledger, the lifelines, and the standing all The whole run is a public study with one question at its core: can AI agents do real commercial work, to a quality someone will pay for? Everyone in this industry assumes the answer; nobody has measured it honestly. So the town measures it, with real bounties, real money, real deadlines, and every claim, delivery, payout, and failure published to a public record you can inspect. We do not pretend to enforce "no human in the loop." That is unverifiable, and faking it would be the exact lie this experiment exists to refute. Human-driven, human-assisted, and fully autonomous agents are all welcome, and that spectru
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-economy, ai-agents, autonomous-agents, bounties, x402
+
+---
+
+### 🌟 [guaardvark](https://github.com/guaardvark/guaardvark)
+- **项目语言**: Python
+- **星标数量**: ⭐ 199
+- **核心概述**: The self-hosted AI workstation. Autonomous screen agents, 3-tier neural routing, parallel agent swarms, video generation, 4K/8K upscaling, RAG, voice interface, 60+ tool execution engine — all running locally on your hardware.
+- **大概是做什么的**: https://github.com/user-attachments/assets/c6d9d18b-cfff-4ae2-8220-dc7f329fee5d The self-hosted AI studio. Coding agents and 20-agent swarms in isolated git worktrees, screen agents with their own real desktop, self-tuning RAG, continuous voice chat — and a full media pipeline: video, image, full-song music, neural voice. One install, one GPU, everything on your machine. Your machine. Your data. Your rules. See the VERSION file for the current release · guaardvark.com Install with one command: See Quick Start for details and manual install options. For the exhaustive feature list, models, surfaces, and plugin details, see CAPABILITIES.md. This README focuses on the marquee experience, quick start, and what makes Guaardvark different. Media studio 11 local video models across five families (Wan 2.2, CogVideoX, LTX, HunyuanVideo, MiniMax H3 with native audio), image generation, full-song music, neural voice with consent-gated cloning, 4K/8K upscaling Eps 5 · 6 · 7 Directors A beat-synced music-video director, a 5-role Film Crew, an auto-editing video editor — and the walkthrough direct
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, ai-workstation, coding-agent, comfyui, gemma
+
+---
+
+### 🌟 [cohub](https://github.com/talesofai/cohub)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 293
+- **核心概述**: A living space where people and agents create, play, and build together.
+- **大概是做什么的**: Homepage · Neta Studio · quick start · docs · 简体中文 We burn 100 billion tokens per week inside our company within Cohub Spaces. A living space where people and agents create, play, and build together. - Fun to start — Open a Space and play with ideas, prompts, files, and agents. - Build together — People and agents in one Space. Create together, save, and share. - Open everywhere — Web, mobile, CLI, Discord, WeChat. The Space follows you. - Powerful for real work — Games, apps, media, automations, custom homes — from playful to production. - Never start blank — Fork a checkpoint into a new Space, or reference any Space with @space as context. Cohub is developed inside Cohub. The core dev workflow — specs, agent runs, reviews, and shipping — happens in a public Space. Watch how the product is built, by the product. → cohub.live/tzwm/cohub Web — open cohub.live and sign in. Self-host — see docs/self-hosting.md. Product docs: cohub.live/docs · 中文 Source of truth: docs/product/en/ · docs/product/zh/ Engineering notes: self-hosting · agent-sandbox-runtime · apps-guide · generations · space
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, cloud-agent
+
+---
+
+### 🌟 [unity-cli-loop](https://github.com/hatayama/unity-cli-loop)
+- **项目语言**: C#
+- **星标数量**: ⭐ 547
+- **核心概述**: Let AI Drive Unity, from Editor to Play Mode.
+- **大概是做什么的**: (Logo inspired by Daft Punk's Human After All album art) Let an AI agent compile, test, and operate your Unity project from popular LLM tools via CLI. Designed to keep AI-driven development loops running autonomously inside your existing Unity projects. - What's New in V3 — no more Node.js setup or port management, the new hot-reload / pause-point tools, automatic CLI updates with per-project version selection, and improved connection stability - Migrating Custom Tools and Skills to V3 — for anyone who has written C custom tools, or skills and scripts that call the uloop command. Everyone else migrates just by updating the package and the CLI Unity CLI Loop is a Unity integration tool designed so that AI can drive your Unity project forward with minimal human intervention . Tasks that humans typically handle manually — compiling, running the Test Runner, checking logs, editing scenes, capturing windows to verify UI layouts, and even operating a freshly implemented feature to confirm it actually works — can all be carried out from LLM tools. Unity CLI Loop is built around four core id
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, automation, cli, mcp, unity, unity3d
+
+---
+
+### 🌟 [goink](https://github.com/sigpanic/goink)
+- **项目语言**: Go
+- **星标数量**: ⭐ 305
+- **核心概述**: Goink 桌面 AI 小说创作助手，对话式写作 + 自动状态追踪 + 本地语义搜索。跨平台开箱即用。AI Agent Novel Generator.
+- **大概是做什么的**: 桌面 AI 写作系统 Agent 实时决策 × 结构化记忆 × 写完自检状态 如果 Goink 对你有帮助，欢迎 赞赏支持 ；点个 Star 也是莫大的鼓励。 English Version 本文档为中文版 用过通用 AI 写长篇小说的人都知道——写到第五章它就忘了主角叫什么。到第三十章还要手动翻前文找那句伏笔。写完一章还得自己提醒它"更新角色状态""检查弧线进度"。Goink 不会。它是一个有结构化记忆的桌面 AI 写作系统——角色档案、伏笔状态、弧线进度、地点关系、读者认知，系统记着，Agent 自己查、自己改、自己维护。 创作信息 每次对话重新交代 角色/关系/伏笔/弧线/地点/读者认知 全链路结构化追踪 改正文 直接输出文本，改了什么不知道 Diff 预览 + 逐行对比 + 点确认才写入 翻前文 手动搜索、逐章翻 本地语义搜索引擎，一句"那个吊坠"找到所有段落 写完维护 不管，除非你再提醒 写完自动触发角色更新、伏笔回收、弧线推进、读者认知刷新 写作风格 靠 prompt 硬写 8 个内置方法论 + 自定义 Skill 热重载，三层覆盖 版本历史 无 内置 Git，每次对话自动 commit，随时回退 环境依赖 往往要 Python/GPU 一个安装包，打开即用 AI 自己查、自己改、自己维护——不是流水线，是 Agent 31 个结构化工具，LLM 自主决策调用哪个、传什么参数、下一步干什么。不是"写完一章传给下一棒"的 pipeline——Agent 在当前对话中调工具查角色、查伏笔、读写正文、更新状态，直到任务完成。 写完一章正文后，系统自动注入维护提醒，告诉 Agent 具体检查什么：角色有没有变化、该回收的伏笔回收了没有、弧线节点需要推进吗、读者认知需要更新吗。Agent 不会"忘了维护"——它被迫逐项自查。 如果还不放心，可以启动审稿子 Agent——一个独立 Agent 从头审读章节内容与系统状态的一致性，发现问题直接写进对话，主 Agent 当场修正。 写到第五十章，要找"主角第一次见到那个吊坠是在哪一章来着？"——不用逐章翻。告诉 AI 一句话，它能在整本书里找到相关段落。 不是关键词匹配，是按意思搜索。你问"关于吊坠的线索"，它能找到那些没写"吊坠"两个字但确实在暗示吊坠存在的段落。Agent 写新章节时也可主动搜索前文，确保持续一致。 整套引擎在本机运行——BGE 中文语义模型 ONNX 本地推理，sqlite-vec 向量索引，MMR 去冗余重排序。写完章节后台自动增量索引，无需网络，无需额外配置。 角色档案包含性格、能力、背景。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, golang, novel, novel-writing
+
+---
+
 ## 🕔 2026-09-04 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
