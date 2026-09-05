@@ -1,3 +1,67 @@
+## 🕔 2026-09-05 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 223 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [lobe-icons](https://github.com/lobehub/lobe-icons)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,483
+- **核心概述**: 🥨 Lobe Icons - Brings AI/LLM brand logos to your React & React Native apps — static SVG/PNG/WebP, no dependencies.
+- **大概是做什么的**: Popular AI / LLM Model Brand SVG Logo and Icon Collection. See them all on one page at lobehub.com/icons. Contributions, corrections & requests can be made on GitHub. Documents · Changelog · [Report Bug][github-issues-link] · [Request Feature][github-issues-link] - ⌨️ Local Development - Development Resources Send this prompt to your agent to use @lobehub/icons Install @lobehub/icons with npm and start using the icon set, Read docs Logo Package Version Downloads Links ------------------------------------------------------------------------------------------------------------------------------ ---------------------------------- ------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------- ---------------------------------------------------------------------------------- @lobehub/icons Source @lobehub/icons-rn Source @lobehub/icons-static-svg Source @lobehub/icons-static-png Source @lobehub/icons-static-webp Source @lobehub/icons-static-avatar S
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-brands, ai-icons, brand-colors, brands, component
+
+---
+
+### 🌟 [llmman](https://github.com/llmmanorg/llmman)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 481
+- **核心概述**: Run any agent on any model, models stored as OCI images
+- **大概是做什么的**: Run any agent on any model. Claude Code, Codex, OpenCode and friends, pointed at a model running on your own machine, or at any hosted provider, in one command. That starts a local inference server, downloads a llama.cpp build matching your GPU, loads the model, and execs an agent against it. Models are OCI images, so moving one takes no tooling you don't already have: That copies from Hugging Face into your own registry directly, without a copy landing in your local store. - Provider agnostic. The same launch , run and list commands work against a local model or any hosted provider ( --provider baseten , --provider groq , ...). One endpoint, one agent config, local or hosted. - Registry agnostic. llmman run qwen3.8 pulls straight from Docker Hub; llmman run hf.co/org/model pulls straight from Hugging Face. Or package a model as a plain OCI artifact and push it to GHCR, quay, Harbor or a self-hosted mirror, then llmman run it from there. No curated library, no account with llmman, no gatekeeper. - Vanilla everything. Upstream llama.cpp releases (or the llama-server already on your PA
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude-code, codex, llama-cpp, llm, mlx, oci
+
+---
+
+### 🌟 [concord-mcp](https://github.com/Get-Concord-AI/concord-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 308
+- **核心概述**: Live messaging for coding agents
+- **大概是做什么的**: Let Claude Code, Codex, Cursor, Gemini CLI, and Grok Build talk to each other. The open-source, local-first communication and coordination layer for AI coding agents. Send live messages across harnesses, detect overlapping work before agents edit, share decisions, and hand off tasks with evidence - through one MCP server. Two agents in different harnesses can discover each other, exchange messages, and divide work without a human relaying context between them: Run the real Claude Code ↔ Codex demo to watch both agents resolve an overlapping claim through a live prompt/reply, build a playable app, transfer ownership, and hand the result to an independent reviewer. Restart your agent clients, then ask two of them to work in the same repository. Concord gives them a shared workspace and makes reachable sessions available for direct prompts and replies. What concord setup changes concord setup creates the local .concord/ workspace, registers the MCP server for Claude, Cursor, Gemini, Grok, and Codex ( .mcp.json , .cursor/mcp.json , .gemini/settings.json , .grok/config.toml , and /.codex/
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-coding, ai-agents, claude-code, code-review, codex, coding-agents
+
+---
+
+### 🌟 [Cambium](https://github.com/KimGLee/Cambium)
+- **项目语言**: Python
+- **星标数量**: ⭐ 319
+- **核心概述**: Governance standard and reference toolset for LLM-maintained knowledge corpora
+- **大概是做什么的**: Cambium is a governance standard and reference toolset for knowledge repositories maintained with LLM agents. It helps an operator answer five practical questions: 1. What rules apply to this repository? 2. What work is required, and who may change shared state? 3. What evidence must exist before work can close? 4. How can an interrupted task resume without guessing? 5. Which decisions belong to the operator rather than the agent? Cambium is not a knowledge base, a RAG engine, an agent scheduler, or a default domain policy. It governs work; it does not supply the corpus or decide its meaning. - To understand the model, read The Mental Model. - To adopt Cambium for a repository, follow Adopt Cambium. - To resume existing work, run the command in Start Or Resume A Task before writing anything. - To connect an agent host, see Use Cambium From An Agent Host. - For every tool and its exact arguments, see Tools/README.md. - For what is complete, in progress, or only conditional, see ROADMAP.md. The diagram shows how these layers connect to runtime routes, deterministic tools, and agent exe
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-workflows, ai-agents, auditability, claude-code-plugin, deepseek-harness, deepseek-harness-plugin
+
+---
+
+### 🌟 [fasta2a](https://github.com/datalayer/fasta2a)
+- **项目语言**: Python
+- **星标数量**: ⭐ 219
+- **核心概述**: 🤖 Convert an AI Agent into a A2A server.
+- **大概是做什么的**: FastA2A is an agentic framework agnostic implementation of the A2A protocol in Python. The library is designed to be used with any agentic framework, and is not exclusive to Pydantic AI. FastA2A is available on PyPI as fasta2a so installation is as simple as: The only dependencies are: - starlette: to expose the A2A server as an ASGI application - pydantic: to validate the request/response messages - opentelemetry-api: to provide tracing capabilities To use FastA2A , you need to bring the Storage , Broker and Worker components. FastA2A was designed with the mindset that the worker could, and should live outside the web server. i.e. you can have a worker that runs on a different machine, or even in a different process. You can use the InMemoryStorage and InMemoryBroker to get started, but you'll need to implement the Worker to be able to execute the tasks with your agentic framework. Let's see an example: You can run this example as is with uvicorn main:app --reload . Initially, this FastA2A lived under Pydantic AI repository, but since we received community feedback, we've decided to
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, agent, ai
+
+---
+
+### 🌟 [learn-agent](https://github.com/7-e1even/learn-agent)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 277
+- **核心概述**: 学习Agent开发的笔记，尝试让Agent从可用到可靠
+- **大概是做什么的**: learn-agent · AI Agent 开发笔记 开发桌面 agent Reina 过程中记下的笔记，讲 coding agent（Claude Code、Codex、opencode 这类工具）的内部实现机制。每篇讲一个机制，把 Reina 里的生产实现简化成零依赖、单文件、可直接运行的 Node 程序——所以这些做法不是照 API 文档推想的，是实际产品里验证过的。 仓库分三块：notes/ 是正篇笔记（s01–s23，每篇一个机制，配可运行 demo）；agent analysis/ 是其他 agent（pi、Kimi CLI）的源码调研档案，笔记从这里取材；interview/ 是从笔记整理的面试题（连载中）。 任何 OpenAI 兼容的 API key（DeepSeek / Kimi / GLM / OpenRouter / 本地 Ollama）都行；没有 key 的话，多数章节的 demo.mjs 和 s12 的自测模式不需要 key。 clone 之后可以一键验证所有免 key 的示例： node selftest.mjs ——20 个章末 demo 加 s12 的整合自测、中断回归自测，十几秒跑完。 s01–s12 从零搭出一个完整可用的 agent，按顺序读；s13 之后是开发 Reina 时陆续踩到、记下来的边界问题，挑感兴趣的读。每篇结尾附 Reina 中对应生产实现的位置。 主题 要解决的问题 --------------------------------- ---------------- ---------------------------- s01 Agent 主循环 最小可用的 agent 长什么样 s02 工具系统 工具越加越多，怎么不用每次都改循环 s03 循环预算与纠偏 模型原地打转、反复报错，怎么发现并拉回来 s04 工具输出预算与溢出 一条 cat 的输出就能撑爆上下文，怎么办 s05 流式输出与中断 用户按下 Ctrl+C，断在一半的消息记录怎么修 s06 上下文压缩 上下文满了要压缩，怎么不忘掉最初的任务 s07 Prompt 缓存 同样的对话，为什么有人的账单贵 10 倍 s08 会话持久化与恢复 进程崩了，跑了半小时的会话怎么接着跑 s09 子代理与看门狗 子任务卡死了，怎么发现它并保住已完成的部分 s10 System prompt 组装 system prompt 越写越长，怎么按需拼装 s11 多 agent 协作 几个 agent 同时干活，怎么分工不重复不冲突 s12 完整 agent 整合
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-harness, agent-loop, ai-agent, aider, claude-code
+
+---
+
 ## 🕔 2026-09-05 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 287 个候选项目中筛选出 6 个未推荐过的新项目。
