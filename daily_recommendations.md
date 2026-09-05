@@ -1,3 +1,67 @@
+## 🕔 2026-09-05 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 273 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [kordoc](https://github.com/chrisryugj/kordoc)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,791
+- **核心概述**: 我会将它们全部——HWP·HWPX·PDF·Office文档解析成Markdown。 CLI·MCP服务器自动填表及新旧整理|将韩语文档（HWP、HWPX、PDF、Office）转换为 Markdown — CLI 和 MCP 服务器，具有表单填写和差异功能
+- **大概是做什么的**: 韩国第二惨的文件地狱。它是由一位在那里呆了7年的公务员创建的。 HWP 3.x/5.x、HWPX、HWPML、PDF、XLS、XLSX、DOCX、图像 (PNG/JPG/WebP) — 解析、比较、分析和创建来自政府办公室的所有文档。 ⚡ 30秒安装（AI代理联动）macOS/Linux/Windows通用。您所需要的只是 Node.js 18+。 1. 选择您正在使用的 AI 客户端编号（Claude Desktop / Cursor / Claude Code / Windsurf / VS Code / Gemini CLI / Zed / Antigravity / Codex — 已安装的显示为[已检测到]） 2. 自动修补设置文件 → 重新启动客户端 Windows 也会自动换行 cmd /c npx。无需手动 JSON 编辑。重启后，15个文档工具（解析文档、解析表、填写表格、修补文档、生成文档等）被激活。如果您只想通过 CLI 使用它，请立即使用 npx kordoc，无需安装。请参阅下面的 CLI 部分。如果出现 MODULE NOT FOUND / Cannot find module ...\dist\cli.js： 损坏的全局安装仍然存在于过去。解决方法如下： Windows PowerShell 无法加载 npx.ps1 文件 · 如果您收到 PSSecurityException：PowerShell 默认安全策略阻止未签名的 .ps1，这是标准行为（独立于 kordoc）。您可以使用以下选项之一。方法 1 — 在命令提示符 (cmd) 窗口中运行（最安全） Windows 键 → 搜索 cmd → Enter → 在黑色窗口中保留相同内容： 方法 2 — 放松一次 PowerShell 执行策略，然后重新启动 PowerShell → npx -y kordoc setup 照原样。使用 Claude Code 插件安装 要在技能 (SKILL.md) 表单中使用而不是 MCP 注册：在提及 .hwp / .hwpx 或请求创建官方文档或填写表单时使用 kordoc 技能
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: cli, document-parser, docx, hancom, hwp, hwpx
+
+---
+
+### 🌟 [amical](https://github.com/amicalhq/amical)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,521
+- **核心概述**: 🎙️ AI Dictation App - Open Source and Local-first ⚡ Type 3x faster, no keyboard needed. 🆓 Powered by open source models, works offline, fast and accurate.
+- **大概是做什么的**: 网站 - 文档 - 社区 - 错误报告 本地优先的人工智能听写应用程序。 Amical 是一款开源人工智能听写和笔记应用程序，完全在您的计算机上运行。 Amical 由用于语音转文本的 Whisper 和用于智能处理的开源法学硕士提供支持，为您提供具有完全隐私的人工智能听写功能。上下文感知听写可适应您正在做的事情：起草电子邮件、在 Discord 上聊天、在 IDE 中编写提示或向朋友发送消息。 Amical 会检测活动的应用程序并相应地格式化您的语音。 ✔︎ - 已完成，◑ - 进行中，◯ - 计划中 🚀 超快速听写，人工智能增强准确性 ✔︎ 🧠 基于活动应用程序的上下文感知语音到文本 ✔︎ 📒 智能语音笔记 → 摘要、任务、结构化笔记 ◑ 🔌 MCP 集成 → 控制应用程序的语音命令 ◯ 🎙️ 实时会议转录（麦克风 + 系统音频） ◯ 🔧 可通过热键、语音宏、自定义工作流程进行扩展 ✔︎ 🔐 隐私第一：离线工作，在应用程序内一键设置本地模型 ✔︎ 🪟 浮动小部件，可使用自定义热键轻松启动/停止 ✔︎ 这些步骤运行
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-note-taking-app, asr, dictate, dictation, dictation-tool
+
+---
+
+### 🌟 [wechat-article-skills](https://github.com/aiworkskills/wechat-article-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 559
+- **核心概述**: 微信公众号 AI 运营助手 | 选题、写稿、审稿、排版、配图、发布全流程 Skill，支持 OpenClaw / Claude Code / Cursor / Codex
+- **大概是做什么的**: 开源公众号运营数字员工。选好风格，说一句话，AI 自动完成选题、写作、排版、配图到发布的全部流程。 不用懂设计，不用会代码。 - 📖 如何用好 aiworkskills 平台？从配置到发文一文读懂 · 官方使用指南 - 🔧 WorkBuddy 如何使用 AI Work Skills 运行公众号 · WorkBuddy 组合案例 - ⚡ QClaw + aiworkskills 一键运营公众号 · QClaw 组合案例 - 🔑 小龙虾的模型怎么选 · 写作与配图模型选型指南 - 🚀 从写作助手到 AI 运营员工：wechat-article-skills 进化之路 · 项目演进历程 - 🌐 在线试用「改写」功能 · 不装环境，贴段稿子直接体验网感改写 能写公众号是一件很简单的事情，把一个公众号写好你一定有独特的见解。 我们开源的skill解决能写能发的问题，可视化配置平台解决你的个性化配置的问题。 推荐路径：在 aiworkskills.cn 可视化配置台选好风格、填完表，一键导出配置包给 AI。 1.1 Claw 系列（QClaw / WorkBuddy 等 13+ 工具） 涵盖 QClaw · ArkClaw · JVSClaw · WorkBuddy · Linclaw · NemoClaw · AutoClaw · MaxClaw · KimiClaw · DuClaw · PowerClaw · ZeroClaw，以及开源标准底座 OpenClaw。 方式 A · 最快 ：直接在 AI 对话框发一句话—— Claw 会自动把仓库拉到本地、把 9 个技能全部挂进对话，全程不用打一条命令。 方式 B · 第二快捷 ：把下面 9 条命令一键复制到剪贴板，粘到小龙虾对话框回车即可： OpenClaw （Claw 系列的开源标准底座）直接读取仓库 skills/ 目录—— git clone 本仓库后即生效，无需 clawhub install 。 1.2 其他智能体（Cursor / Claude Code / Autohand Code / Codex） 克隆仓库就行，各工具按自己的规则读取 skills/ 目录： 工具 Skill 读取路径 备注 ------ -------------- ------ Cursor 项目 skills/ 或 .cursor/skills/ 克隆即用；也可把 skills/aws-wechat-article- 和 aws-wechat-sticker 软链到 .cursor/skills/ Claude Code
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-skills, ai-writing, chinese-nlp, codex, content-automation
+
+---
+
+### 🌟 [ViNote](https://github.com/zrt-ai-lab/ViNote)
+- **项目语言**: Python
+- **星标数量**: ⭐ 461
+- **核心概述**: ViNote（视记AI）｜DeepSeek Harness SDK 驱动的开源视频知识 Agent。以工具编排、SQLite 会话恢复和流式交互，串联 YouTube / Bilibili 检索、下载、转写与笔记生成，支持视频问答、知识卡片和思维导图。FastAPI + React，支持 OpenAI 兼容接口模型。
+- **大概是做什么的**: ViNote = Video + Note 视记AI · 让每个视频成为你的知识资产 Video to Everything：笔记、问答、文章、字幕、卡片、导图，一应俱全 - 对话式操作 : 通过自然语言搜索视频、选择结果并生成笔记 - 工具编排 : 基于 DeepSeek Harness SDK 调用视频搜索和笔记工具，复用现有模型配置 - 跨平台搜索 : 支持 B站和 YouTube 视频检索、连续翻页 - 流程串联 : 搜索 → 选择视频 → 生成笔记，完成后保存到历史记录并支持全文搜索 - 会话恢复 : 对话、当前视频列表和翻页条件保存在 SQLite，刷新页面或重启服务后可继续提问 - 多平台支持 : YouTube, Bilibili等主流视频平台 - 本地视频支持 : 支持本地视频文件路径输入（MP4, AVI, MOV, MKV等格式） - 高质量转录 : 基于 Faster-Whisper 的本地音频转录 - 智能优化 : AI驱动的文本优化和格式化 - 多语言支持 : 自动检测语言并支持翻译 - 结构化输出 : 自动生成大纲、要点和总结 - Markdown格式 : 完美支持各类笔记软件 - 实时进度 : SSE实时推送处理进度 - 合集批处理 : 可展开 B站/YouTube 合集，勾选最多 20 个视频复用批处理队列 - 产物重生成 : 历史记录中可重新整理笔记，或单独重做摘要和思维导图 - 智能问答 : 基于视频内容的AI问答系统 - 上下文理解 : 深度理解视频内容 - 流式输出 : 实时响应，提升用户体验 - 存量内容���用 : 从历史记录勾选 1-5 条原文或笔记直接发起问答 - 会话持久化 : 问答来源和对话消息保存在 SQLite，刷新页面后可继续 - 多格式支持 : 支持多种视频格式和分辨率 - 预览功能 : 下载前预览视频信息 - 进度跟踪 : 实时显示下载进度 - 一键生成 : 从视频笔记自动提取核心知识点 - 多种风格 : 支持概念卡、要点卡、对比卡等多种卡片类型 - AI 提炼 : 智能提炼关键信息，适合快速复习 - 自动生成 : 从笔记内容自动构建思维导图 - 交互式浏览 : 基于 Markmap 的可缩放、可折叠导图 - 分类管理 : 17 个预置系统分类 + 自定义分类，笔记一目了然 - 标签系统 : AI 自动打标签 + 手动编辑，灵活组织知识 - 交叉筛选 : 按分类、标签、关键词多维度快速检索 - 全文搜索 : 关键词可匹配标题、原始转录、整理笔记和摘要；旧笔记启动后自动建立索引 - 可靠存储 : 已完成笔
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, ai-agent, bilibili, deepseek-harness, deepseek-harness-sdk, fastapi
+
+---
+
+### 🌟 [earl](https://github.com/mathematic-inc/earl)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 113
+- **核心概述**: 适用于 AI 代理的安全 CLI 代理 — HCL 定义的操作模板，具有操作系统钥匙串机密、MCP 集成和提示注入保护
+- **大概是做什么的**: Earl 位于代理和外部服务之间。操作是提交到您的存储库的 HCL 文件。 LLM看到工具名称和描述；它从不读取模板主体。 API 响应中的注入指令无处可落地，因为 LLM 未读取执行的请求部分。秘密保留在操作系统钥匙串中。它们不在工具参数、工具描述或输出中。要在代理中使用 Earl 作为 MCP 工具，请将其添加到 MCP 配置中并重新启动。 Claude Code 和 Cursor 使用相同的格式：MCP 工具直到重新启动后才会激活。在当前会话中，通过 Bash 工具使用 Earl call --yes --json 。请参阅快速入门了解完整演练，或参阅代理辅助设置以让代理处理安装和配置。您编写一个描述操作的 HCL 模板：方法、URL、身份验证、参数。当代理调用该工具时，Earl 加载模板，从操作系统钥匙串中读取所需的机密，根据代理提供的值呈现 Jinja 表达式，然后执行请求。法学硕士仅提供参数值。每一个其他
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cli, graphql, grpc, hcl, http
+
+---
+
+### 🌟 [mcp-wordpress](https://github.com/docdyhr/mcp-wordpress)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 106
+- **核心概述**: MCP 服务器用于管理 Wordpress CMS 系统。
+- **大概是做什么的**: 🚀 MCP WordPress 服务器 最全面的 WordPress MCP 服务器 通过 Claude Desktop 等 AI 工具使用自然语言管理 WordPress 网站 快速入门 • 为什么选择这个 MCP 服务器？安装选项 • 文档 • 示例 🎉 v3.3.21 - 在节点 20/22/24 上进行 CI 测试 🎯 为什么选择这个 MCP 服务器？将 WordPress 管理从复杂的管理面板转变为简单的对话： - 🏆 最完整：71 个工具与 20-30 个替代方案 - ⚡ 最快设置：通过 DXT 两键单击 Claude Desktop 安装 - 🔒 CI 测试：跨 Node 20/22/24、CodeQL + Trivy 安全扫描进行 2750 多个测试 - 🎯 TypeScript Native：100% 类型安全，一流的开发人员体验 - 🌐 多站点：从一个地方管理多达 50 个 WordPress 站点 在 5 分钟内启动并运行： - WordPress：版本 5.6+，启用了 REST API - Claude Desktop：安装了最新版本 - 应用程序密码：从 WordPress 管理面板生成 1️⃣ 生成 WordPress 应用程序密码 2️⃣ 安装 MCP 服务器（选择一项） 选项 A：DXT 扩展（最简单） 选项 B：NPM Global安装 3️⃣ 测试您的连接 📺 观看 2-m
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: claude-ai, cms, mcp, typescript, wordpress
+
+---
+
 ## 🕔 2026-09-05 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
