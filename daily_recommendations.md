@@ -1,3 +1,67 @@
+## 🕔 2026-09-05 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 287 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [BeeCount](https://github.com/TNT-Likely/BeeCount)
+- **项目语言**: Dart
+- **星标数量**: ⭐ 2,273
+- **核心概述**: Local-first bookkeeping for iOS/Android/Web · Self-hosted cloud + iCloud/WebDAV/S3 sync · AI capture · MCP | 本地优先的跨端记账 · 自建云 + iCloud/WebDAV/S3 同步 · AI 记账 · MCP
+- **大概是做什么的**: 蜜蜂记账(BeeCount) &nbsp; English 支持 BeeCount Cloud 自建云端 / iCloud / Supabase / WebDAV / S3 五种同步方案 🌐 官网 · 📖 文档 · 💝 捐赠 · 💬 Telegram · 📦 APK · 🚀 TestFlight 🤖 新:MCP 支持 — 搭配 BeeCount Cloud,用 LLM 直接管账本。 一款轻量、开源、隐私可控的 个人财务管理 和 支出追踪 App。 ❌ 数据存第三方,无法审计 ✅ 完全开源 ,代码可审计 ❌ 隐私可能被分析利用 ✅ 离线优先 + 自建云端,开发者无法访问 ❌ 服务商倒闭数据丢失 ✅ 数据主权 ,5 种同步方案任选 ❌ 高级功能付费墙 ✅ 完全免费 (包括 AI / OCR / 语音记账) ❌ 广告 / 理财推荐 ✅ 零广告 / 零追踪 / 零数据收集 平台支持 :🤖 Android 5.0+ · 🍎 iOS 15.5+ · 🌐 Web(BeeCount Cloud 自带,见下文) 📱 HarmonyOS — 已停止更新 🤖 AI 智能记账 — AI 对话 / OCR / 语音 / 截图自动识别 - AI 小助手 — 自然语言对话记账,智能理解意图,基于智谱 GLM-4 - OCR 拍照记账 — 双引擎(本地 TFLite + GLM 云端),识别支付宝/微信/云闪付截图 - 语音记账 — 按住说话,GLM 模型理解口语化表达("今天买菜花了 50 块") - 截图自动记账 — Android 无障碍服务监听 / iOS 快捷指令双击背部触发 📝 基础记账 — 多账本 / 多账户 / 二级分类 / 预算 / 周期记账 / 标签 / 图表 / 导入导出 - 多账本 — 生活/工作/投资分开管理,每本独立币种 - 多账户 — 现金/银行卡/信用卡等独立账户,转账自动更新双方余额 - 预算管理 — 月度总预算 + 分类预算 + 超支提醒 - 周期记账 — 每日/每周/每月/每年自动记账,适合固定收支 - 标签系统 — 多标签 + 颜色标记,灵活筛选 - 图表分析 — 月度报表 / 分类排行 / 趋势分析 / 年度报告 - 数据导入导出 — CSV(支付宝/微信账单)+ YAML 配置导出 🎨 体验 — 暗黑模式 / 多语言 / 桌面小组件 / 主题装扮 - 暗黑模式 — 纯黑 + 主题色边框,OLED 友好 - 多语言 — 官方简中 / 繁中 / English,社区贡献韩语,本地化日期/数字格式 - 桌面小组件 — 6 类 ×
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: accounting, ai, android, bookkeeping, chinese, expense-tracker
+
+---
+
+### 🌟 [openDomain](https://github.com/echopath-labs/openDomain)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 302
+- **核心概述**: Git-native, evidence-backed domain semantic layer for AI agents and human maintainers.
+- **大概是做什么的**: Simplified Chinese: README.zh-CN.md OpenDomain is a Git-native, evidence-backed domain semantic layer for AI agents and human maintainers. It keeps long-lived business concepts, rules, lifecycles, events, evidence, and review state in repository-readable Markdown. Open a shell-enabled Codex task in the project you want to model and say: Install OpenDomain in this workspace. Follow the official Agent installation contract, initialize the Codex integration, and prove that it is ready without adding package metadata to this project. Codex should follow the Agent Installation Contract, choose a compatible installation channel, run initialization or update, then verify the workspace with doctor and validate . After installation, keep working in natural language: Explore the accepted business model for order cancellation. Do not modify anything, and keep Candidate knowledge separate. Reverse-model this existing project from its code and product documentation. Put every uncertain business claim into a Candidate for review. Review candidate-0001. Show its evidence, conflicts, and compatibili
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, domain-modeling, git-native, knowledge-graph
+
+---
+
+### 🌟 [Doberman-Core](https://github.com/DobermanCore/Doberman-Core)
+- **项目语言**: Python
+- **星标数量**: ⭐ 197
+- **核心概述**: Your AI's guard dog. Doberman sits at runtime, gating every input, output and tool call to stop unsafe or unintended actions before they execute.
+- **大概是做什么的**: Adaptive Authorization & Runtime Guardrails for AI Coding Agents Your AI coding agent can run rm -rf on your repo, leak your API keys, or get tricked by hidden instructions into leaking data on its own, with no undo. Doberman is the guard dog on the execution path. It stops the dangerous call before it runs. doberman demo against the live dashboard ( doberman dash ): five attacks blocked as they happen, then a human denies a high-risk approval. A guardrail that isn't on the execution path can only advise. Doberman sits between the agent and its tools, through a transparent MCP proxy or host hook (MCP: Model Context Protocol, the standard interface between an agent and its tools; a hook is code the host runs automatically around a tool call), and turns every action into an explicit, auditable decision. Every tool call gets exactly one verdict, decided before it runs: Verdict What happens PASS Routine work, straight through, zero friction. AUTH Sensitive, paused for your approval. Repeat the exact same action within five minutes and it re-prompts with a one-click confirm (never for des
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-security, ai-agents, ai-safety, authorization, guardrails, llm
+
+---
+
+### 🌟 [engraphis](https://github.com/Coding-Dev-Tools/engraphis)
+- **项目语言**: Python
+- **星标数量**: ⭐ 172
+- **核心概述**: Local-first, inspectable memory for coding agents: durable context across sessions and repositories, code-aware recall, bi-temporal history, MCP, and a self-hosted WebUI.
+- **大概是做什么的**: https://engraphis.com/ https://discord.com/invite/Wfr2ejBmY Give your AI agents a memory. See it, search it, and maintain it, all in a beautiful WebUI on your own machine. Knowledge Graph · run engraphis-dashboard to see it live Grounded, not guessed. Memory with receipts. Local by default. Open-core boundary: this repository contains the free local engine, dashboard, MCP server, and customer-side clients. Hosted sync, analytics, automation, and team services run on the official hosted service; their server implementations are not distributed here. Support continued Engraphis development with Pro. Start a 3-day Pro trial or subscribe to Pro. Measured token and context savings The dashboard Overview and Audit/Receipts views also show a receipt-backed estimate from real context deliveries. It compares the host history or retrieved source baseline with the context Engraphis actually emitted, keeps token counters and release versions separate, and labels adaptive history reductions separately from packing savings. Receipts without estimator metadata remain historical/unclassified. This m
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agents, developer-tools, knowledge-graph, local-first, mcp
+
+---
+
+### 🌟 [trace-mcp](https://github.com/nikolai-vysotskyi/trace-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 132
+- **核心概述**: MCP server for Claude Code and Codex. One tool call replaces ~42 minutes of agent exploration
+- **大概是做什么的**: WORKS WITH &nbsp;&middot;&nbsp; Claude Code &nbsp;&middot;&nbsp; Cursor &nbsp;&middot;&nbsp; Codex &nbsp;&middot;&nbsp; Windsurf &nbsp;&middot;&nbsp; Zed &nbsp;&middot;&nbsp; any MCP client trace-mcp is an MCP server that indexes your repository once so AI coding agents stop re-reading the same files &mdash; 90.6% fewer input tokens to review a pull request. 90.6% fewer input tokens to review a pull request — median over 60 merged PRs in six repos that are not ours, 13,595 → 1,326 per pull request. Method and reproduction → The desktop app : a GPU graph explorer over the same index the MCP server serves. AI agents pay repeatedly for work they have already done. Every turn, the agent re-reads the same files, re-traverses the same dependencies, and re-inflates the context window with structure it discovered five steps ago. That repeated work is most of what a long session costs in tokens and latency. trace-mcp builds a framework-aware graph of your codebase once , then serves it through MCP so the agent reasons from a precomputed structure instead of brute-reading the repo. Ask "what b
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude, claude-ai, claude-code, claude-code-plugin, claude-code-skill
+
+---
+
+### 🌟 [InvestSkill](https://github.com/yennanliu/InvestSkill)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 200
+- **核心概述**: US stock analysis skills for LLMs (Claude code, Gemini ...) | #AI
+- **大概是做什么的**: Professional investment analysis frameworks for US stocks — works on every AI platform No API keys · No subscriptions · 100% free Documentation · Learn Investing · Cookbook · 繁體中文 What is InvestSkill? InvestSkill is a collection of 26 structured analysis frameworks that turn any AI assistant into an institutional-quality investment analyst. There is no runtime — every skill is a prompt that works in Claude Code, Cursor, Gemini CLI, GitHub Copilot, ChatGPT, or any other LLM. Nothing to sign up for, nothing to pay for. No API key, no data-vendor subscription, no billing setup — you bring the AI assistant you already use (a free tier or a local model works too) and InvestSkill is just markdown. See No API keys, no cost. New to investing? Start with the Learning guide A six-lesson field guide to the concepts behind every skill — from reading a balance sheet to valuing a business to holding a portfolio — in plain English and Traditional Chinese. No finance degree required. One command, any AI agent — pick yours on the website: The installer copies every framework into .investskill/prompts
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, financial, financial-analysis, gemini, investment, llm
+
+---
+
 ## 🕔 2026-09-05 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 273 个候选项目中筛选出 6 个未推荐过的新项目。
