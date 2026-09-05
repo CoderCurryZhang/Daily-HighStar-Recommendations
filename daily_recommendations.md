@@ -1,3 +1,67 @@
+## 🕔 2026-09-05 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [gentle-ai](https://github.com/Gentleman-Programming/gentle-ai)
+- **项目语言**: Go
+- **星标数量**: ⭐ 6,283
+- **核心概述**: Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Spec-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.
+- **大概是做什么的**: Turn the AI coding agent you already use into a configured engineering environment. First time here? Follow Install for prerequisites and the platform-specific binary command, then: - What is Gentle-AI? - Which agents it works with - How your agent decides how to work - Optional: Spec-Driven Development (SDD) - Optional: Receipt-Driven Development (RDD) - Keeping it up to date You installed Claude Code, OpenCode, Cursor or Codex. It writes code — but it forgets everything between sessions, has no opinion about how your project works, and gives you no way to check its work beyond reading every line yourself. Gentle-AI is an ecosystem configurator. It takes the agent runtime already on your machine and equips it with persistent memory, a planning workflow, a curated skill library, MCP tool servers, model routing, a teaching-oriented persona, and an optional evidence-based review step. "I installed an AI agent, but it's just a chatbot that writes code." The agent remembers your decisions, follows your project's conventions, picks a working style that matches the size of the task, and ca
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, ai-coding, claude-code, code-review, codex
+
+---
+
+### 🌟 [code2prompt](https://github.com/mufeedvh/code2prompt)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 7,632
+- **核心概述**: A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.
+- **大概是做什么的**: Convert your codebase into a single LLM prompt. Code2Prompt is a powerful context engineering tool designed to ingest codebases and format them for Large Language Models. Whether you are manually copying context for ChatGPT, building AI agents via Python, or running a MCP server, Code2Prompt streamlines the context preparation process. To enable optional Wayland support (e.g., for clipboard integration on Wayland-based systems), use the wayland feature flag: Once installed, generating a prompt from your codebase is as simple as pointing the tool to your directory. Basic Usage : Generate a prompt from the current directory and copy it to the clipboard. Code2Prompt is more than just a CLI tool. It is a complete ecosystem for codebase context. 🧱 Core Library 💻 CLI Tool 🐍 Python SDK 🤖 MCP Server :---: :---: :---: :---: The internal, high-speed library responsible for secure file traversal, respecting .gitignore rules, and structuring Git metadata. Designed for humans, featuring both a minimal CLI and an interactive TUI. Generate formatted prompts, track token usage, and outputs the r
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, chatgpt, claude, cli, command-line, command-line-tool
+
+---
+
+### 🌟 [notfair-plugin](https://github.com/nowork-studio/notfair-plugin)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,458
+- **核心概述**: Open-source SEO, GEO, and marketing skills for AI agents.
+- **大概是做什么的**: Open-source SEO, GEO, and marketing skills for AI agents. The NotFair Plugin gives Claude Code, Codex, Hermes, and other compatible agents practical marketing workflows they can follow—not another generic prompt collection. Use it to audit a site, investigate a traffic drop, analyze GA4 and Search Console, find wasted ad spend across Google, Meta, X, and LinkedIn, build campaign plans, and make reviewable changes. Every skill is built in the open as a readable SKILL.md , with supporting references, scripts, and evals where needed. Inspect it, adapt it, or contribute a better workflow. What your agent can do SEO Full-site and page audits, keyword research, content planning, technical SEO, schema, local SEO, international SEO, e-commerce SEO, and regression monitoring GEO / AEO Improve content for citation and visibility in ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews Paid media Plan, review, and optimize cross-channel campaigns with explicit budgets, measurement, and approval boundaries Google Ads Audit accounts, analyze search terms, manage keywords and budgets, write
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, claude-code-plugin, claude-skills, gemini-cli-extension, geo, googleads
+
+---
+
+### 🌟 [lavern](https://github.com/AnttiHero/lavern)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 301
+- **核心概述**: An agentic law firm. Yours. 67 specialist AI agents that review documents through evidence-backed debate, with mandatory human gates and a 10-pass verification loop. Apache 2.0.
+- **大概是做什么的**: A multi-agent legal system. Apache 2.0. A team of 67 agent prompts (specialists plus orchestrators) coordinating through a debate protocol. The system reads documents, posts findings with cited evidence, runs three layers of verification, and pauses at a human gate before critical decisions land. Runs against Anthropic, Mistral (EU), or fully local via Ollama. Built by a law firm founder over six months because the prevailing "AI as a junior associate" framing felt like the wrong analogy to start from. Whether this is the right one is what we're publishing to find out. Watch the demo → · lavern.ai · Architecture deep-dive → · Quick Start → This is not a product. Lavern is best understood as a collection of ideas in one repo. A polished demo of how we could build in the future. You can criticise it for not working as a "product". That misses the mark. It is not meant to be a product. It is a source of inspiration. It is at least ten things, several of which are, on their own, products somebody could build a company around. They are sitting in the repo. Take whichever ones you want. Wh
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai-agents, anthropic, claude, contract-review, law-firm
+
+---
+
+### 🌟 [gflow-cli](https://github.com/ffroliva/gflow-cli)
+- **项目语言**: Python
+- **星标数量**: ⭐ 163
+- **核心概述**: Drive Google Flow from the command line: Veo video and Imagen images, scripted, batched and pipeline-ready. Ships an MCP server so coding agents can drive it too, giving you and your agents full programmatic control over generation. Unofficial, alpha, not affiliated with Google.
+- **大概是做什么的**: Unofficial Python CLI for Google Flow. Drive Veo (image-to-video, text-to-video) and Imagen (text-to-image) from your terminal: scripted, batched, pipeline-ready. ⚠️ Read this before you install. gflow-cli is unofficial, alpha, and reverse-engineered — not affiliated with Google . It drives a headed browser on your own Google Flow session, so treat it as your own account risk: automation is subject to Google's ToS, and endpoints or UI can change without notice. It works with any Google account that has Flow access, and every generation bills against your account's Flow credit allowance. Read the full DISCLAIMER. 🛡️ "Will this get my account flagged?" The honest, specific answer — what the tool does to stay unremarkable (headed real Chrome, randomised interaction timing, paced submissions), what it deliberately does not do (no proxies, no fingerprint spoofing, no pretending it isn't automation), what you can tune, and what we cannot promise — is in docs/ACCOUNT SAFETY.md. 💳 What failure costs you. Credits are only spent on Veo video generation — images and composition ops are free,
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, ai-agents, claude-code, cli, generative-ai, google-flow
+
+---
+
+### 🌟 [zafiro](https://github.com/niki914/zafiro)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 139
+- **核心概述**: BYOK agent tool built with Material 3 Expressive. Control your device, execute Shell and Python natively with Shizuku or Root, supporting Skills and MCP.
+- **大概是做什么的**: Android Native Agent · Phone-Use · Skills · MCP Zafiro is an intelligent agent running on your Android phone. We provide the Zafiro Agent with a full set of scaffolding so it can understand your screen, control your device, and carry out operations across apps. It can wrap tools on its own with Python to perform tasks such as web search, file downloads, and more. Zafiro supports memory, MCP, and Skills, and can also connect to a remote dev machine via SSH. Install Apps from the Web Zafiro is still in Beta — functionality and experience are being continuously improved. You can download a release from Releases, or build from source. Modern UI Design Language - MD3E & Apple Liquid Glass - a modern, polished interface - Dynamic Theming - multiple accent colors with dark / light mode switching - Multilingual Support - Chinese, English, Japanese, Spanish, and more - Screen Interaction - open apps, fill forms, and switch pages in one go - Fully Visible - an on-screen pointer animation shows every step the Agent takes - Out of the Box - built-in Skills, MCP, memory, and takeover rules, no co
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, agent, ai, android, automation, claude
+
+---
+
 ## 🕔 2026-09-05 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 223 个候选项目中筛选出 6 个未推荐过的新项目。
