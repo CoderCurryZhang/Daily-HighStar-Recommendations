@@ -1,3 +1,67 @@
+## 🕔 2026-09-05 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [crosspaste-desktop](https://github.com/CrossPaste/crosspaste-desktop)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 2,527
+- **核心概述**: Cross-device clipboard sync for macOS, Windows & Linux — end-to-end encrypted, LAN-only, no cloud. OCR, CLI and MCP server built in.
+- **大概是做什么的**: CrossPaste: Universal Pasteboard Across Devices Copy anything and paste it on any device, seamlessly - 🔄 Real-time Sharing : Instantly share pasteboard content across devices, seamlessly. - 🖥️ Unified Cross-platform : Consistent interface on Mac, Windows, and Linux. No need to change habits. - 📋 Rich Type Support : Handle various pasteboard types: Text, Color, URL, HTML, RTF, Image, File. - 🔒 End-to-End Encryption : Using asymmetric encryption to fully protect your data security. - 🌐 LAN-only Serverless : Local storage, serverless architecture. Privacy protection, in your control. - 🧹 Smart Space Management : Auto-cleanup options manage pasteboard storage without manual effort. - 🔍 Built-in OCR : Extract text from images locally — no network calls, your screenshots never leave the device. - 🤖 MCP Server : Expose your pasteboard history to AI assistants (Claude, etc.) via the Model Context Protocol. - 🌍 Chrome Extension : Sync clipboard with the browser — copy on a web page, paste on any device. - ⌨️ Command-Line : Copy, paste, and search your history from the terminal and sc
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: cli, clipboard, clipboard-history, clipboard-manager, clips, compose-desktop
+
+---
+
+### 🌟 [harness-score](https://github.com/paladini/harness-score)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 394
+- **核心概述**: Your AI coding agent is only as reliable as the harness around it. Measure that harness in seconds with harness-score.
+- **大概是做什么的**: Your AI coding agent is only as reliable as the harness around it. Measure that harness in seconds. Know exactly what to fix. Watch the number go up. An AI coding agent is a model plus a harness — the context files, rules, skills, hooks, sensors, and guardrails wrapped around it. The model you rent; the harness you own. Two repositories can use the exact same model and get wildly different results, because one has a harness that catches mistakes before they ship and the other has none. Harness Score measures that harness — across any tool. Point it at any repository using Cursor, Claude Code, Windsurf, Cline, Continue, or any other AI coding tool, and get a maturity level (L0–L4), a 108-point breakdown across six dimensions, and the precise, ranked list of what to fix next — with zero LLM calls, zero network access, and the same result every time you run it. Not just a score — a diagnosis . Every failed check names the file, explains what's missing, and links to the exact recipe to fix it. Every check is a filesystem fact — a file exists, parses, matches a pattern — never a judgment
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-assisted-development, cli, cursor, cursor-plugin, developer-tools
+
+---
+
+### 🌟 [awesome-grokbot](https://github.com/kydlikebtc/awesome-grokbot)
+- **项目语言**: Python
+- **星标数量**: ⭐ 307
+- **核心概述**: 532 live x.ai/bot shares for Grok Bot — every link status-checked, every row attributed. Bilingual EN/中文 catalog with a JSON schema, CI, and a searchable site.
+- **大概是做什么的**: 532 live x.ai/bot shares for Grok Bot. Every link status-checked. Every row attributed to where it came from. Grok Bot gives named AI teammates their own always-on cloud computer. This repo is not Grok Bot, not an installer, and not source code — it is the index of public bot configurations you can preview on x.ai and add to your own account in one click. 532 live shares, every link fetched on 2026-09-05 — not copied from another list daily re-checked and synced against four upstream catalogs by a scheduled job , not a one-off scrape 4 dead links quarantined in retired.json , not left rotting in place 532 rows with a hand-written Chinese summary 532 rows naming the catalog they came from — 454 also link the original post 36 rows whose name had drifted from the live page, kept searchable as aka Names and blurbs are read from the live share page, not from another catalog. How the catalog was built, and what it does not verify: docs/method.md. 🌐 Browse it as a site kydlikebtc.github.io/awesome-grokbot Instant search over all 532 rows · eight category filters · EN/中文 · shareable filtere
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agents, ai-tools, awesome, awesome-list, bot-templates
+
+---
+
+### 🌟 [freecad-mcp](https://github.com/neka-nat/freecad-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,012
+- **核心概述**: FreeCAD MCP(Model Context Protocol) server
+- **大概是做什么的**: This repository is a FreeCAD MCP that allows you to control FreeCAD from Claude Desktop. Design a part from 2D drawing This is the conversation history. https://claude.ai/share/7b48fd60-68ba-46fb-bb21-2fbb17399b48 FreeCAD Addon directory is Windows: %APPDATA%\FreeCAD\Mod\ FreeCAD 1.1: /Library/Application\ Support/FreeCAD/v1-1/Mod/ FreeCAD 1.0: /Library/Application\ Support/FreeCAD/v1-0/Mod/ Ubuntu: /.FreeCAD/Mod/ or /snap/freecad/common/Mod/ (if you install FreeCAD from snap) Debian: /.local/share/FreeCAD/Mod Arch / CachyOS (FreeCAD 1.1 from extra/freecad ): /.local/share/FreeCAD/v1-1/Mod/ Flatpak: /.var/app/org.freecad.FreeCAD/data/FreeCAD/v1-1/Mod/ Please put addon/FreeCADMCP directory to the addon directory. When you install addon, you need to restart FreeCAD. You can select "MCP Addon" from Workbench list and use it. And you can start RPC server by "Start RPC Server" command in "FreeCAD MCP" toolbar. Auto-Start RPC Server By default, the RPC server must be started manually each time FreeCAD opens. To start it automatically: 1. Open the FreeCAD MCP menu (switch to the MCP Addon w
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude, freecad, mcp
+
+---
+
+### 🌟 [LLMAgentPapers](https://github.com/zjunlp/LLMAgentPapers)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 3,110
+- **核心概述**: Must-read Papers on LLM Agents.
+- **大概是做什么的**: Must-read Papers on Large Language Model Agents. "Here are some other paper lists you might be interested in: 💡 Prompt4ReasoningPapers: Reasoning with Language Model Prompting Papers. 🔬 KnowledgeEditingPapers: Must-read papers on knowledge editing for large language models. We sincerely invite you to dive into these collections of papers and resources, each offering a distinct journey of exploration and discovery. :partying face:” - [2024-03] We release a new paper: "KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents". - [2023-06] We create this repository to maintain a paper list on Multi-agents . - 🤖💬🤖 Multiple Agents - Task-Oriented Communication - Collaborative Exchanges 👨‍💻👩‍💻 - Adversarial Interactions 👨🏻‍🦳🗣 - Casual/Open Conversations 👥💬 - Contributing to this paper list 1. Interactive Natural Language Processing Zekun Wang, Ge Zhang, Kexin Yang, Ning Shi, Wangchunshu Zhou, Shaochun Hao, Guangzheng Xiong, Yizhi Li, Mong Yuan Sim, Xiuying Chen, Qingqing Zhu, Zhenzhu Yang, Adam Nik, Qi Liu, Chenghua Lin, Shi Wang, Ruibo Liu, Wenhu Chen, Ke Xu, Dayiheng L
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agents, awsome-list, environment, in-context-learning, instruction-following
+
+---
+
+### 🌟 [AnvilWiki](https://github.com/PNGTRID/AnvilWiki)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 122
+- **核心概述**: ⚒️ Open-source game wiki template. Astro + Cloudflare Pages. Free, fast, beginner-friendly. Static-first, zero-JS, AI-native content workflow, unlimited bandwidth.
+- **大概是做什么的**: 带 AI 内容工作流的游戏 wiki 模板——广告收入 100% 归你。 开源、Cloudflare Pages 原生优化、零成本免费部署上线。 The game wiki template with an AI-native content workflow — 100% of your ad revenue. Open source, natively optimized for Cloudflare Pages, free to deploy. Five commands and one dashboard click from fork to live; the only required spend is a domain — no coding needed. 📖 中文文档 · English Documentation Boss 数据卡 · 兑换码一键复制 · 武器强度榜——wiki 级呈现的其中三页,点图直达对应页面。Boss stat cards, tap-to-copy codes, tier lists — three of the wiki-grade page types; click through to the live pages. Lighthouse 4×100 — 实测于 anvilwiki.pages.dev（2026-09-03） 零基础从零做一个赚钱的游戏站 📚 学习手册——每步写明「做什么/怎么做/你会看到什么」,含可复制的 AI 提示词 看「从零到赚钱」的全部工作量 🗺️ 文档中心首页——10 件事全景清单,逐项点入 深度定制 / 给模板写代码 🔧 开发手册 看看做出来长什么样 🎮 在线 Demo——虚构游戏「Anvil Quest」的完整 wiki 对比 Fandom / Wiki.js / 其他方案 ⚖️ 完整对比页——三种物种、自托管引擎数据表、什么时候不该选 AnvilWiki 跑完这一节你会得到 :一个跑在 Cloudflare 免费版上、属于你自己的 wiki 站(先以 demo 内容上线,换成你的游戏、清掉 demo,随时可以做)。 开始前需要 :Node.js 22+ 和 pnpm(没装 pnpm?终端跑 npm install -g pnpm ;或跟着学习手册「装好 6 样工具」一课把 6 样工具一次装齐)。 💡 SITE URL 不用去 dashboard 配 :第 3 步已经把它写进 wrangler.toml 的 [vars] ——只要这个文件存在,它就是 Cloudflare
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, astro, cloudflare-pages, game-wiki, giscus, giscus-comments
+
+---
+
 ## 🕔 2026-09-04 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
