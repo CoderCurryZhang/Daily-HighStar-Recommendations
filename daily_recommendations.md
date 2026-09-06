@@ -1,3 +1,67 @@
+## 🕔 2026-09-06 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 171 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [appllama-skills](https://github.com/Appllama/appllama-skills)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 839
+- **核心概述**: A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile screens.
+- **大概是做什么的**: A builder, not just a researcher. Agent skills that make AI agents genuinely good at building mobile apps — studied against the top-grossing apps, finished to a simulator-verified bar. Appllama is the design library of top-grossing mobile apps — their real screens, flows, and UI patterns, with revenue and download context. These skills turn that library into an agent's working method: study every screen of the apps that already win, extract the category's design language, then build screens that hold up next to them. Skill What it does appllama-usage The research engine: how to use the Appllama MCP like a design director — the full tool map, and the playbooks for building an app from scratch, improving an existing screen, and flow & element research. appllama-app-design-skill The build bar: native-feeling Expo / React Native screens — Apple HIG fidelity, semantic colors, native controls, anti-slop discipline, navigation that behaves (push vs replace, sheets and overlays, the one-way doors where back must not exist), a strict motion bar (should it animate at all, springs that carry th
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-agents, claude, claude-code, claude-code-skill, claude-skills
+
+---
+
+### 🌟 [deepseek-harness-desktop](https://github.com/ningbainb/deepseek-harness-desktop)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 368
+- **核心概述**: Open-source Windows desktop client and GUI for DeepSeek Harness — zero-setup installer with Codex, plugins, skills, SSH, mobile remote access, and 11 skins.
+- **大概是做什么的**: DeepSeek Harness Desktop 支持项目持续开发 ：如果 DeepSeek Harness Desktop 对你有帮助，欢迎在爱发电支持作者。你的支持将用于服务器、测试环境和后续维护。 DeepSeek Harness Desktop 用户交流群 群内会同步提供最新版安装包，也可以直接交流安装与使用问题。 DeepSeek Harness Desktop 是社区维护的开源 Windows AI 编程桌面客户端。 它将 DeepSeek Harness Web、DSH 本地运行环境、Skills、插件、任务自动化、Git、远程开发与桌面扩展能力 集成到一个 Windows 应用中，让你无需复杂配置，就能获得完整的 Harness AI 编程体验。 支持 Windows 10 / 11 x64 ，采用 BSD-3-Clause 许可证。 安装包已包含主要运行组件，无需另外配置 Node.js、Git 或单独安装 DSH。 产品介绍 · 下载最新版 · 使用文档 · 更新日志 - 性价比模式 V2 ：专家主控模型负责理解、拆解、派发、复核和汇总，副模型 / 子代理只处理被派发的局部任务；首次选择会自动引导配置。 - 大模型用量看板 ：实时展示余额、输入/输出 Token、上下文、缓存、请求耗时与费用；峰值采用严格滚动 1 秒算法，不再把一次 usage 汇总事件误当作瞬时速率。 - Claude Code / Codex 项目导入 ：只读发现项目和历史会话，预览后导入 Harness 工作区；敏感信息脱敏，历史工具调用不会重新执行。 - 启动与插件稳定性继续加固 ：启动阶段可见、事务修复可回滚、第三方插件错误隔离，原有 DSH Home 与插件直接延续。 查看完整发布说明 · 查看历史更新日志 · 升级与回滚指南 选择 性价比模式 后，桌面端会立即打开配置引导：默认模型会自动预选为 专家主控模型 ，用户再选择一个更省或更快的 副模型 / 子代理执行模型 ，最后选择“更省 / 智能平衡 / 更强”策略。配置完整后才会启用，不会留下半配置状态。 专家主控可以直接完成简单任务，也可以按需派发并行子任务；副模型的子代理深度固定为 1，不递归派发、不调用重复的“专家分析”路径。每个会话的主控调用和副模型调用都能在界面与埋点中区分。 会话状态行和用量看板集中呈现 Input / Output Token、上下文占用、Cache 命中、LLM 延迟、估算费用、当前生成速度与步骤内峰值。生成速度只来自有效流式增量：同毫秒批次先合并，在每个时间点统计过去 1 秒窗口；
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-coding-assistant, codex, deepseek, deepseek-harness, desktop-app
+
+---
+
+### 🌟 [RigorPilot-Skills](https://github.com/lllllllama/RigorPilot-Skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 484
+- **核心概述**: README-first research reproduction skills with bounded execution, auditable evidence, and byte-preserving README annotations.
+- **大概是做什么的**: Run research repositories from their README, with bounded execution and auditable evidence. RigorPilot adds section-level results without rewriting the original README. Trusted reproduction is the default; candidate exploration requires explicit authorization. 📄 Real repositories, inspectable results Original commands, prose, badges, images, videos and HTML stay in the source file. RigorPilot splits that file into sections and inserts one evidence-linked card per section. Removing its insertion blocks restores the retained original README byte for byte. Each card below opens a full annotated README beside the original README in a retained repository checkout . Supporting repository files are kept so relative links and media retain their original context. 🟢 selected checks passed · 🔵 not executed · ⚪ read only · 🟡 partial · 🔴 blocked · 🟣 decision needed. Green does not automatically mean paper-result reproduction; blue is not an execution failure. micrograd · correctness checks 🟢 2 tests passed in 7.62 s 8 headings = 8 annotations · original bytes preserved Open full RigorPilot
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-agents, deep-learning, reproducibility, research-tools
+
+---
+
+### 🌟 [stylekit](https://github.com/AnxForever/stylekit)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 459
+- **核心概述**: 精选优质 Web 设计风格，提供文档、组件模板、代码片段， 以���可直接导出的 AI Rules。
+- **大概是做什么的**: StyleKit is an open-source visual style library for AI-generated web interfaces. Browse 148 curated styles, then use design tokens, component recipes, Tailwind-ready constraints, and copy-ready prompts in React, Cursor, Claude Code, v0, or Windsurf. English &amp; 中文. English &middot; 简体中文 Templates &middot; Animations &middot; StyleKit helps developers and AI coding tools start from a consistent visual direction. Pick a named style to get structured design tokens, component recipes, prompt guidance, and implementation references for a website or dashboard; production integration and completeness still depend on the target project. AI frontend resources If you are using AI to design or build a frontend, these focused guides cover the practical workflow: - Fix an AI-generated website that looks bad — visual hierarchy, spacing, typography, and component consistency. - How to choose AI web design tools — compare prompt, design, and code-generation workflows. - AI UI generation — turn a page brief into a usable interface structure. - AI frontend workflow — move from idea to React, Tailwin
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-prompts, claude, css, cursor, design-system
+
+---
+
+### 🌟 [machinist](https://github.com/owainlewis/machinist)
+- **项目语言**: Go
+- **星标数量**: ⭐ 348
+- **核心概述**: Open source software factory infrastructure for advanced AI coding workflows
+- **大概是做什么的**: The open source AI software factory for agentic coders. Machinist is an open source software factory for repeatable and scalable AI coding workflows. Machine section · supervised agent system · exploded assembly Machinist is an open-source software factory implementation. It runs on your machine, keeps repository access and credentials local, and records the work from request to handoff. Commands can invoke Codex, Claude Code, another agent CLI, a test runner, a shell script, or repository-owned orchestration. Please note: this is early access software and subject to change. - One controlled entrypoint. Workers expose named commands and repositories, never arbitrary shell text or machine-local paths. - Bring your own harness. Use any executable that accepts a prompt on standard input. - Keep authority local. Repositories, credentials, model aliases, and executor configuration stay on the worker. - Inspect every run. Stream output, retain durable events and artifacts, and track terminal outcomes, duration, and reported token use. - Keep the human gate. Machinist hands back a pull requ
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, automation, claude-code, codex, coding-agents, developer-tools
+
+---
+
+### 🌟 [texera](https://github.com/apache/texera)
+- **项目语言**: Scala
+- **星标数量**: ⭐ 300
+- **核心概述**: Human-AI Collaborative Data Science Using Visual Workflows
+- **大概是做什么的**: Apache Texera - Human-AI Collaborative Data Science Using Visual Workflows Apache Texera (Incubating) is an open-source platform for human-AI collaborative data science using visual workflows. Apache Texera (Incubating) is an open-source platform for human-AI collaborative data science using visual workflows. It enables human analysts to construct, execute, and refine data analysis tasks through an intuitive GUI, assisted by AI agents that understand natural-language instructions. Texera is well suited for a wide range of applications, including “AI for Science,” by making advanced AI and data science capabilities accessible to a broader community. It can run on a laptop for local use or be deployed in the cloud to support scalable processing of large datasets. The platform has the following key features: Natural-language data science through AI agents Intuitive GUI-based workflows for data science Real-time collaboration for workflow editing and execution Runtime debugging and interactive workflow execution Language-agnostic workflow runtime, native support for Python and Java Paral
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, artificial-intelligence, cloud-native, data-science, human-ai-collaboration, interactive-engine
+
+---
+
 ## 🕔 2026-09-06 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 269 个候选项目中筛选出 6 个未推荐过的新项目。
