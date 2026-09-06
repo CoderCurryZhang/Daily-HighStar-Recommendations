@@ -1,3 +1,67 @@
+## 🕔 2026-09-06 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [jarvis](https://github.com/ethanplusai/jarvis)
+- **项目语言**: Python
+- **星标数量**: ⭐ 722
+- **核心概述**: JARVIS — a voice assistant for Claude Code. Talk to your Mac and he brainstorms a project with you, builds it, and tells you out loud when a Claude Code session needs you. macOS, on your Claude subscription, no API key.
+- **大概是做什么的**: Just A Rather Very Intelligent System — a voice for Claude Code. JARVIS is a British butler who sits on top of the Claude Code you already pay for. You talk to him. He brainstorms a project with you out loud, one question at a time; when you have settled on something he writes the design down as a file in your project; then he starts a real Claude Code session on it and drives it through plan → review → execute. While it runs he watches every Claude Code session on your machine, and when one of them is stuck waiting on a human he tells you which one, out loud, without you having to look. What you actually look at while you talk to him: frontend/src/orb.ts , rendered live. The audio driving the pulse is synthetic — a speech-shaped envelope fitted to a measurement of the real analyser, not a recording of his voice — but every pixel is that file running. Regenerate with scripts/make orb loop.py . The whole dashboard, clicked through. Fictional sample data throughout — the projects, prompts, people and figures in every screenshot on this page are No AI API usage, and none is possible. JA
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-assistant, anthropic, claude, claude-code
+
+---
+
+### 🌟 [awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 837
+- **核心概述**: A comprehensive collection of Model Context Protocol (MCP) servers
+- **大概是做什么的**: Join the TensorBlock Discord Explore Forge, our open-source middleware for AI model provider management TensorBlock MCP Index turns this community-curated MCP server directory into a hosted, searchable registry for agents and applications. Contributors add servers in markdown; TensorBlock normalizes the entries, generates structured profiles and install-config previews, and serves the index through a free public API. MCP Index website: https://www.tensorblock.co/mcp Hosted API: https://mcp-index.tensorblock.co Community cleanup queue: Help verify and improve indexed MCP servers MCP Maintainer Quick Start If you maintain an MCP server, the index can give your project a public profile, install-config previews, API metadata, and a README badge. 1. Add your server in the best docs/ .md category, or use the Add MCP server issue form. 2. Include install, transport, auth, supported clients, docs, license, endpoint, and tool details when you have them. 3. After merge, the follow-up comment gives you the public profile URL, API profile URL, install-config links, and badge markdown. 4. Add the
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: anthropic, awesome, genai, mcp, mcp-server, mcp-server-discovery
+
+---
+
+### 🌟 [ripwire](https://github.com/redhat-et/ripwire)
+- **项目语言**: C++
+- **星标数量**: ⭐ 390
+- **核心概述**: The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server giving coding agents a ranked, deterministic map of any repo, blast radius, tests-to-run and quality deltas. Signatures at 80% fewer bytes than bodies; ~5% of a grep-and-read pass's tokens.
+- **大概是做什么的**: Rip'n Fast. Less Tokens. Better Code. Give your coding agent a map before it reads the repo. ripwire is the ripgrep of AI context. Point it at any repository and your agent gets a ranked, deterministic call graph — what to touch, what it breaks, which tests to run — instead of grepping around and reading whole files. Languages: Rust · C++ · Objective-C/C++ · C · Metal · CUDA · Python · Go · Swift · TypeScript · JavaScript · Java · Ruby · PHP · Lua · Bash · C · JSON · TOML · YAML · Markdown — twenty-one vendored grammars, and adding another is a vendored tree-sitter grammar plus one row in a See the map — not just the numbers One self-contained HTML file ( --html[=FILE] ), no server, no CDN, click any node to recentre. --color-by=lang community cx churn tested sets the initial node colour; the page embeds all five and keeps a live selector. Shown here: cx — cyclomatic complexity — over the depth-2 neighbourhood of lexicalScoresTiered , 240 of this repository's own symbols; churn colours the same graph by git history instead. Both share one five-stop blue-to-orange scale rather than th
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, call-graph, claude, claude-code, cli, code-navigation
+
+---
+
+### 🌟 [SageThumbs-2k](https://github.com/LunarWerxs/SageThumbs-2k)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 172
+- **核心概述**: Windows 11 shell extension (Rust): Explorer thumbnails for 331 file types Windows can't show, including camera RAW, PSD, HEIC/AVIF, video, ebooks, comics and CAD. Crash-isolated, source-available rebuild of SageThumbs.
+- **大概是做什么的**: Thumbnails for everything Windows won't show you. A modern, crash-isolated Rust shell extension for Windows 11 : the clean-room revival of the legendary (but decade-abandoned) SageThumbs. ⬇ Download · Features · Formats · FAQ · Changelog · Build from source SageThumbs 2K is a crash-isolated Rust shell extension for Windows 11 that adds File Explorer thumbnails, a right-click image toolkit, and a QuickLook-style preview for 334 file types Windows can't render natively, including camera RAW, Photoshop PSD, HEIC/AVIF, video, ebooks, comics, and the long tail of obscure formats. - 🖼️ Explorer thumbnails for 334 file types it ignores : camera RAW, Photoshop, HEIC/AVIF, video (MKV, WebM, MP4, MOV…) , JPEG-XR, MS Office, DjVu, ebooks & comics, 3D-print files, and the obscure long tail. - 🛡️ A corrupt or malicious file can't crash Explorer : runs out-of-process, panic-guarded, with a sandboxed decoder. - ⚡ Fast even on big files : camera RAW thumbnails from its embedded preview instead of a slow demosaic (3–13× quicker), and no format is allowed to hang a folder. - 🧰 Right-click toolkit:
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: avif, camera-raw, codec, comics, ebook, explorer
+
+---
+
+### 🌟 [kinocut](https://github.com/KyaniteLabs/kinocut)
+- **项目语言**: Python
+- **星标数量**: ⭐ 139
+- **核心概述**: Guardrailed video editing MCP server for AI agents. FFmpeg, Hyperframes, repurposing tools, Python client, and CLI. Local, fast, free.
+- **大概是做什么的**: Guardrailed video editing MCP server for AI agents. Local-first FFmpeg tools, Video Receipts, quality gates, Hyperframes, and Shorts/Reels repurposing — for Claude Code, Cursor, and any MCP client. Free, Apache-2.0. Formerly mcp-video. Tool Reference &bull; 360 assembly &bull; What is Kinocut? &bull; Kinocut is a free, open-source video editing MCP server and AI agent workflow engine (plus Python client and kino CLI) that lets AI agents trim, caption, repurpose, and quality-gate local video media with typed tools and Video Receipts — not invented FFmpeg flags. - Status and releases - 360 dual-cam assembly TL;DR: Kinocut is a free, local-first video editing MCP server (plus Python client and kino CLI) so AI agents can trim, caption, repurpose, and quality-gate media with typed tools and Video Receipts — not invented FFmpeg flags. Kinocut is a free, open-source Model Context Protocol (MCP) server , Python library, and kino CLI that gives AI agents a guardrailed local video-editing surface . It wraps FFmpeg (and optional Hyperframes / Whisper extras) with typed tools, preflight validati
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-tools, ai-agents, ai-video, claude, claude-code, cli
+
+---
+
+### 🌟 [coddy-agent](https://github.com/coddy-project/coddy-agent)
+- **项目语言**: Go
+- **星标数量**: ⭐ 135
+- **核心概述**: General-purpose agent in one static Go binary. ReAct loop, ACP server for IDEs, OpenAI-compatible REST API with embedded web UI, Telegram gateway, cron scheduler, long-term memory, context compaction, rules, skills, MCP. Distroless-ready, works with any OpenAI-compatible provider.
+- **大概是做什么的**: Run a full general-purpose agent from one static Go binary. ReAct, filesystem and shell tools, MCP, skills, OpenAI-compatible API with an embedded web UI, Telegram gateway, cron scheduler, long-term memory, and context compaction. Desktop (1920×1080) Mobile (390×844) History Scheduler Scheduler — job editor Settings Settings — Skills Settings — Appearance Settings - MCP servers (project trust gate) Background tasks Screenshots: desktop at 1920×1080 , mobile at 390×844 from the embedded UI ( coddy http ). Spec and dev workflow: docs/ui.md , layout tokens: DESIGN.md . Console TUI ( -tags cli ) - bare coddy in a terminal, here in Konsole: More console states and the capture sets: docs/cli.md . Coddy is a distroless-friendly harness : drop it into minimal images ( scratch , distroless , read-only workspaces) without a full OS shell. The same agent core is reachable from a terminal through the console TUI , an IDE over ACP , a browser or any OpenAI client over HTTP , Telegram through the messenger gateway, and cron through the scheduler . The grep and glob filesystem tools use system ripg
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acp, agent, agent-client-protocol, ai-agent, anthropic, cli
+
+---
+
 ## 🕔 2026-09-06 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
