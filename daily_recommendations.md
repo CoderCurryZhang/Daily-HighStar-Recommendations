@@ -1,3 +1,67 @@
+## 🕔 2026-09-06 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [autoclip](https://github.com/zhouxiaoka/autoclip)
+- **项目语言**: Python
+- **星标数量**: ⭐ 7,228
+- **核心概述**: AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具
+- **大概是做什么的**: AutoClip - 视频高光切片自动化工具 支持YouTube/B站视频下载、自动切片、智能合集生成 AutoClip是一个基于AI的智能视频切片处理系统，能够自动从YouTube、B站等平台下载视频，通过AI分析提取精彩片段，并智能生成合集。系统采用现代化的前后端分离架构，提供直观的Web界面和强大的后端处理能力。 - 🎬 多平台支持 : YouTube、B站视频一键下载，支持本地文件上传 - 🤖 AI智能分析 : 基于通义千问大语言模型的视频内容理解 - ✂️ 自动切片 : 智能识别精彩片段并自动切割，支持多种视频分类 - 📚 智能合集 : AI推荐和手动创建视频合集，支持拖拽排序 - 🚀 实时处理 : 异步任务队列，实时进度反馈，WebSocket通信 - 🎨 现代界面 : React + TypeScript + Ant Design，响应式设计 - 📱 移动端支持 【开发中】: 响应式设计，正在完善移动端体验 - 🔐 账号管理 【开发中】: 支持B站多账号管理，自动健康检查 - 📊 数据统计 : 完整的项目管理和数据统计功能 - 🛠️ 易于部署 : 一键启动脚本，Docker支持，详细文档 - 📤 B站上传 【开发中】: 自动上传切片视频到B站 - ✏️ 字幕编辑 【开发中】: 可视化字幕编辑和同步功能 - FastAPI : 现代化Python Web框架，自动API文档生成 - Celery : 分布式任务队列，支持异步处理 - Redis : 消息代理和缓存，任务状态管理 - SQLite : 轻量级数据库，支持升级到PostgreSQL - yt-dlp : YouTube视频下载，支持多种格式 - 通义千问 : AI内容分析，支持多种模型 - WebSocket : 实时通信，进度推送 - Pydantic : 数据验证和序列化 - React 18 : 用户界面框架，Hooks和函数组件 - TypeScript : 类型安全，更好的开发体验 - Ant Design : 企业级UI组件库 - Vite : 快速构建工具，热重载 - Zustand : 轻量级状态管理 - React Router : 路由管理 - Axios : HTTP客户端 - React Player : 视频播放器 - Docker : 20.10+ - Docker Compose : 2.0+ - 内存 : 最少 4GB，推荐 8GB+ - 存储 : 最少 10GB 可用空间 - 操作系统 : macOS / Linux / Window
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-tools, ai-video, ai-video-editor, auto
+
+---
+
+### 🌟 [openalgo](https://github.com/marketcalls/openalgo)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,601
+- **核心概述**: Open Source Algo Trading Platform for Everyone
+- **大概是做什么的**: OpenAlgo - Open Source Algorithmic Trading Platform OpenAlgo is a free, open source, self-hosted trading platform , not just a broker bridge. Built on Python Flask + React 19, it gives traders a full-stack environment to design, host, and execute strategies through 36 broker plugins : 35 securities integrations and Delta Exchange for crypto derivatives. Whether you write Python, prefer drag-and-drop, or trade options, OpenAlgo provides a common interface without tying strategy code to one adapter. OpenAlgo is no longer just "an API layer in front of your broker." Today it combines four trading surfaces in one self-hosted instance, sharing the active broker session, market-data infrastructure, and six operational data stores across the journey from idea to testing and live execution. Five Ways to Trade with OpenAlgo Surface Route Who it's for Unified Broker API /api/v1/ External platforms: TradingView, Amibroker, ChartInk, Excel, Google Sheets, Python, Java, Go, .NET, Node.js, MetaTrader, GoCharting, N8N. One contract across 36 plugins, with optional operations varying by adapter. Pyt
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, algorithmic-trading, algotrading, amibroker, charting-library, chatbots
+
+---
+
+### 🌟 [iMCP](https://github.com/mattt/iMCP)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 1,541
+- **核心概述**: A macOS app that provides an MCP server to your Messages, Contacts, Reminders and more
+- **大概是做什么的**: iMCP is a macOS app for connecting your digital life with AI. It works with [Claude Desktop][claude-app] and a [growing list of clients][mcp-clients] that support the [Model Context Protocol (MCP)][mcp]. View and manage calendar events, including creating new events with customizable settings like recurrence, alarms, and availability status. Access contact information about yourself and search your contacts by name, phone number, or email address. Access current location data and convert between addresses and geographic coordinates. Provides location services including place search, directions, points of interest lookup, travel time estimation, and static map image generation. Access message history with specific participants within customizable date ranges. View and create reminders with customizable due dates, priorities, and alerts across different reminder lists. Access current weather conditions including temperature, wind speed, and weather conditions for any location. First, download the iMCP app (requires macOS 15.3 or later). Or, if you have Homebrew installed, you can run t
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: macos, mcp
+
+---
+
+### 🌟 [quantumproxies.io](https://github.com/quantumproxies/quantumproxies.io)
+- **项目语言**: Java
+- **星标数量**: ⭐ 371
+- **核心概述**: Residential, datacenter, ISP & mobile proxies with 90M+ IPs in 200+ countries — plus Scraper & SERP APIs. Code examples in Python, Node.js, PHP, Go, Java, C#, Ruby and curl.
+- **大概是做什么的**: Residential Proxies & Web Data APIs Access 90M+ high-quality residential IPs in 200+ countries with QuantumProxies — premium proxies and scraping APIs for web data projects. Scale your data gathering, manage multiple accounts, run SEO research and feed your AI agents with clean, structured web data. - What is QuantumProxies? What is QuantumProxies? QuantumProxies is a rotating residential proxy network with a pool of over 90 million IPs from real household devices in 200+ countries, plus a full stack of web data APIs (scraping, SERP, AI extraction) built on top of it. You can choose between rotating proxies, which change IP on every request, or sticky sessions , which keep the same IP for a configurable lifetime — ideal for logins, carts and multi-step flows. Looking for something other than residential? We also offer blazing-fast datacenter proxies, static residential ISP proxies, authentic mobile 4G/5G proxies, budget IPv6 proxies and SOCKS5 proxies. In the dashboard, pick a session type — rotating or sticky — and whether you want IPs from a random location or a specific country/st
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, curl, data-collection, datacenter-proxies, geo-targeting, golang
+
+---
+
+### 🌟 [DSHA](https://github.com/DSH-APP/DSHA)
+- **项目语言**: Java
+- **星标数量**: ⭐ 397
+- **核心概述**: 免 ROOT 免 Termux，在手机上跑 DeepSeek Harness。完整 Ubuntu 环境 + proroot 零 ptrace 开销 · AI 输出实时上屏 · ADB 直连 · 数据不丢
+- **大概是做什么的**: DeepSeek Harness 安卓启动器 在手机上跑完整的 deepseek-harness —— 免 ROOT，免 Termux，装完即用 English · 简体中文 · 更新记录 · 安全模型 · AGENTS.md（给 AI / 开发者） 🤖 下一个 AI / 开发者请先读 AGENTS.md （项目结构、启动契约、踩过的坑），不要先全库扫描。 📣 v1.2.0-rc1.3（更新与恢复 · 预览版） 本次以 Pre-release 发布，由贡献者 @ym2025szz 推进，感谢原作者 @qiannianhuanxiang 及其他贡献者。 新增稳定 / 预览更新通道与 APK 下载校验、官网插件安装入口、脱敏诊断复制/导出及工具修复、插件更新/上一版回退和安全启动。 GitHub 预览版说明与下载 · 官网备用下载 · 完整更新说明 预览版 设备范围 下载 大小 高安卓标准版 Android 11+ / arm64，系统 WebView dsha-1.2.0-rc1.3.apk · SHA-256 212.45 MiB 低安卓兼容版 Android 6+ / arm64，内置 Gecko 备用内核 dsha-1.2.0-rc1.3low.apk · SHA-256 289.49 MiB 版本码 112 ，沿用历史发布签名与环境版本 9 ，可覆盖同签名旧版并保留已有环境。两版共享包名与数据，不能并排安装；包内 dsh 仍为 0.1.2-rc.1 。 验证范围： 两版构建、Lint 与相关测试通过，Android 13 验证更新、插件安装/回退、安全启动和两种浏览内核。其他系统与正式签名 App Link 自动关联的实测限制，见验收记录。 📮 预览版反馈：GitHub Issues / QQ 群 975836806 ，可附 App 诊断报告和复现步骤。 以下保留上次预览版说明及更早的原有介绍。 📣 v1.2.0-rc1.2（重构版 · 预览版） 1.2 系列的重构与适配由贡献者 @ym2025szz 推进，本次仍以 Pre-release 发布。感谢原作者 @qiannianhuanxiang 及其他贡献者。 查看完整更新说明与下载 · 插件选取：dsha.cc · 上个预览版 rc1 预览版 设备范围 下载 大小 高安卓标准版 Android 11+ / arm64，系统 WebView dsha-1.2.0-rc1.2.apk · SHA-256 212.39 MiB 低安卓兼容版 面向 Android 6—12 / arm64，内置 Gec
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: android, coding-agent, deepseek, deepseek-harness, launcher, llm
+
+---
+
+### 🌟 [domainstack.io](https://github.com/jakejarvis/domainstack.io)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 285
+- **核心概述**: 🧰 All-in-one domain name intelligence as a service
+- **大概是做什么的**: Domainstack — Domain Intelligence Made Easy - Instant domain reports : WHOIS/RDAP data, DNS, certs, headers, hosting/email providers, and geolocation. - Domain tracking : Verify ownership, monitor domains, and get important health alerts. - Provider detection : Matches raw data against a large hosting, email, and DNS provider library. - SEO & metadata analysis : Titles, meta tags, social previews, Open Graph images, canonicals, and robots.txt . - Screenshots & icons : Server-side screenshots, favicon extraction, and provider logos. - Fast & private : No sign-up required for reports. - Notifications & calendar sync : Email/In-app alerts plus iCal feeds for expirations. - Advanced dashboard : Filtering, sorting, bulk actions, and multiple view modes. - AI chat assistant : Ask questions about any domain in natural language; powered by durable streaming with automatic reconnection. - MCP server : AI-assisted domain lookups via Model Context Protocol. - Pro subscription : Paid plan via Polar for higher tracking limits. - Reliable backend : SWR caching with cron-based cache warming. - Next
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-sdk, better-auth, dns, domains, hacktoberfest, inngest
+
+---
+
 ## 🕔 2026-09-06 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 256 个候选项目中筛选出 6 个未推荐过的新项目。
