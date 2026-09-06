@@ -1,3 +1,67 @@
+## 🕔 2026-09-06 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 269 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Seedance2-Storyboard-Generator](https://github.com/liangdabiao/Seedance2-Storyboard-Generator)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 2,276
+- **核心概述**: 一句话：试错成本越来越高，提示词的重要性从来没有像今天这样���。Seedance 2.0 Storyboard Generator 开源剧情剧本Skill工具，帮佬友一键写好剧本 - 将小说/故事转化为多集视频。 为什么做这个？ 因为 seedance2 已经改变了一切，需要新的剧本剧情制作工具，更好的利用新AI的能力和更方便的制作短剧
+- **大概是做什么的**: 基于 Claude Code + Skill + Seedance 2.0 的完整 AI 视频制作流程，专注于将小说、故事转化为多集视频系列。 本项目参考学习了： 《用 Seedance 2.0 做了 20 集水墨漫剧，聊聊真实体验》北极的树 闲话AI ，感谢作者。 感谢厚爱，已经上线直接免费使用： https://skillhub.cn/skills/user 8bb4b4f5/seedance2-storyboard-generator 项目首发于linux.do社区，感谢佬友认同： https://linux.do/t/topic/1619920 本项目提供了一套完整的 AI 视频制作工作流，通过三件套工具实现从故事到成片的自动化生产： - Claude Code - 剧本创作与分镜脚本生成 - GPT-Image-2、Seedream 、Nana Banana Pro 等 - 角色、场景、道具素材图生成(可选其他生图ai) - Seedance 2.0 - 视频生成与延长 1. 剧本创作 - 将源材料改编为四幕结构剧本（起承转合） 2. 素材规划 - 创建编号的角色(C)、场景(S)、道具(P)生成提示词 3. 图像生成 - 使用 GPT-Image-2、Seedream 、Nana Banana Pro 等 生成统一风格的视觉素材 4. 分镜脚本 - 生成 Seedance 2.0 时间轴格式提示词 5. 视频生成 - 使用视频延长功能实现各集无缝衔接 --------- --------- ------ 剧本 [标题] 剧本.md 完整四幕结构剧本 素材清单 [标题] 素材清单.md 编号的素材生成提示词 分镜脚本 [标题] E[集数] 分镜.md 单集分镜脚本 ------ --------- ------ ------ C C01-C99 角色（多角度） C01 林冲·正面全身 S S01-S99 场景/地点 S01 沧州草料场·雪景 P P01-P99 道具/物品 P01 长枪 2. Seedance Prompt（时间轴格式） 从第 2 集开始，使用视频延长功能保持连续性： 2. 在提示词开头添加： 将@视频1延长15s 所有素材生成提示词必须以统一的风格前缀开头，例如： 角色辨识度通过不同的颜色方案和视觉标记来区分。 - 最多 9 张图片 每次 Seedance 2.0 生成 - 最多 3 个视频 （总时长 15 秒）作为参考 - 敏感词 可能导致生成失败（如"江湖人士"等） - 视频编辑 能力有限，大多数修改需要重新生成 - 指令遵循 复
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent
+
+---
+
+### 🌟 [stock-api](https://github.com/zhangxiangliang/stock-api)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,845
+- **核心概述**: 查询 A 股、美股、港股与场内基金行情，并通过 Node.js、浏览器、CLI 或 MCP 快速接入。
+- **大概是做什么的**: 支持 A 股、港股、美股行情查询的 TypeScript 股票数据工具。 stock-api 是一个零运行时依赖的股票行情工具，支持 Node.js、浏览器、CLI 和 MCP。默认使用 stocks.auto ，自动从可用数据源获取行情。 - Node.js / Browser bundler API + TypeScript 类型 - CLI 查询股票行情、K 线和搜索股票 - MCP tools 给 AI 客户端直接调用股票接口 - 默认自动兜底： tencent - sina - eastmoney - 指定数据源： stocks.tencent / stocks.sina / stocks.eastmoney Node.js 环境要求 =18 。 股票代码使用 SH / SZ / HK / US 前缀，例如 SH510500 、 SZ000651 。 把 stock-api 接到支持 MCP 的 AI 客户端： 内置工具： get stock 、 get stocks 、 get klines 、 search stocks 、 inspect stock 。 支持的 MCP 协议版本： 2025-11-25 、 2025-06-18 。握手时会返回客户端请求的版本，不支持则回退到最新的一个。 不想配置 MCP？把下面这句话发给任意 AI 工具（Claude Code、Codex、GLM 等），它读完就知道怎么用 stock-api ： SKILL.md 里写了具体的 npx stock-api 命令，所以和 MCP 共用同一套数据逻辑，只是接入方式更简单、跨工具通用。 内置腾讯、新浪、东方财富数据源，默认由 stocks.auto 自动处理。 自动兜底 stocks.auto 单只行情、批量行情、K 线、搜索、诊断 腾讯 stocks.tencent 单只行情、批量行情、K 线、搜索、诊断 新浪 stocks.sina 单只行情、批量行情、K 线、搜索、诊断 东方财富 stocks.eastmoney A 股单只行情、批量行情、K 线、搜索、诊断 API 使用 TypeScript API、自动兜底、诊断返回结构 CLI 使用 命令、参数、输出、退出码 项目架构 目录结构、provider 工厂、解析和错误模型 开发指南 本地开发、测试、发布前检查、新增数据源 API 监控 定时检查第三方数据源并更新状态徽章 stock-api 使用第三方公开行情接口作为数据来源，不保证数据的准确性、完整性、实时性或持续可用性。本项目不提供投资建议，任何交易或投资决
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: browser, mcp, nodejs, stocks
+
+---
+
+### 🌟 [pineforge-engine](https://github.com/pineforge-4pass/pineforge-engine)
+- **项目语言**: C++
+- **星标数量**: ⭐ 181
+- **核心概述**: 开源 PineScript v6 回测引擎，可重现 TradingView 交易：4,189/4,190 次探测，优秀或强（312 个开放语料库 + 15 个市场的 413 个社区脚本），匹配 280 万笔交易。 C++17、稳定的 C ABI、Apache-2.0。
+- **大概是做什么的**: 开源 PineScript v6 回测引擎，可重现 TradingView 交易。 🌐 pineforge.dev · ☁️ 托管 MCP · 🐳 Docker MCP · 📦 转译器 · 📖 C ABI 文档 · 🧪 覆盖图 · 🔬 基准测试 TradingView 的策略测试器是每个 Pine 作者信任的参考，直到现在，TradingView 之外没有任何东西可以复制它。 PineForge 是一个 C++17 运行时，具有稳定的 C ABI，运行 PineScript v6 策略的方式与 TradingView 经纪商模拟器的运行方式完全相同：相同的填充、相同的大小、相同的追加保证金、相同的追踪止损、相同的 request.security() 存储桶，在您提供的任何 OHLCV 上，以每条微秒为单位。 - 已被证实，而非承诺。 4,190 个调查中的 4,189 个（312 个开放参考策略加上 15 个市场和时间范围内的 413 个真实社区脚本）与 TradingView 自己的交易列表相比，评级为优秀或强。 TradingView 测量了 282 万笔交易，逐行匹配了 281.5 万笔交易。 - 打开。引擎、转译器、语料库、基准测试和验证工具都是公共的 Apache-2.0。您唯一无法下载的是封闭测试集，因为 TradingView 的条款
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: algorithmic-trading, backtest, backtesting, c-api, cpp, cpp17
+
+---
+
+### 🌟 [dsh-plugin-shop](https://github.com/LivXue/dsh-plugin-shop)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 252
+- **核心概述**: 最全面的 DeepSeek Harness 插件市场 — 每日更新，来自互联网，发布前经过审查。
+- **大概是做什么的**: DeepSeek Harness 的插件商店 — 从可浏览、可 git 审核的目录中发现、安装、启用和更新 dsh 插件。两条轨道。他们做同样的事情；选择与正在阅读的人匹配的那个。先决条件：Node.js。运行线束本身不需要安装 - 上游记录的形式是 npx -y @deepseek-ai/dsh web 。插件管理通过 dsh plugin 进行，它会生成 dsh 命令和 pnpm — 使用 npm install -g @deepseek-ai/dsh pnpm 安装一次，并使用 dsh --version 和 pnpm --version 进行验证。如果您使用其他个人资料，请将 web 替换为您的个人资料。重新启动 dsh 一次 - 新添加的捆绑包不会应用于正在运行的进程 - 然后打开设置 → 插件 → 插件商店非交互式。 --个人资料是强制性的；如果没有它，dsh 插件会退出并出现错误：未指定必需的选项“--profile”。如果您更愿意阅读清单而不是解析 CLI 输出，则与步骤 3 相同的事实位于 dsh.profile.bundles 下的 $DSH HOME/profiles/ /package.json 中。每次故障诊断位于安装未经审查的插件需要明确确认
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, deepseek, deepseek-harness, deepseek-harness-plugin, dsh, dsh-plugin
+
+---
+
+### 🌟 [awesome-hermes-usecases](https://github.com/aliaihub/awesome-hermes-usecases)
+- **项目语言**: Python
+- **星标数量**: ⭐ 212
+- **核心概述**: 为 Hermes Agent（来自 Nous Research 的自我改进人工智能代理）策划了真实世界的用例。由主要来源支持。
+- **大概是做什么的**: 精彩的 Hermes Agent 用例 社区收集了现实世界的 Hermes Agent 用例 - 每个用例都有公共证据支持。本目录 官方文档 X Threads Reddit 按类别组织 ✅ 部分 ❌ ❌ 包括可运行演示 ✅ ❌ ❌ ❌ 需要主要来源 ✅ ✅ ❌ ❌ 社区维护 ✅ ❌ ❌ ❌ 证据规则。这里的每个用例都链接到一个主要来源：Hermes 官方文档、Nous Research 配套存储库、包含部署详细信息的 GitHub 问题或第一人称博客文章。如果唯一的证据是推文或“社区建设”营销页面，那么它会存在于 Research/unverified.md 中，而不是在下面的目录中。刚接触爱马仕代理？最快的路径：然后选择下面的一个用例。 /demos 文件夹包含三个可运行的启动器：Daily Briefing、Open WebUI 和 Team Telegram。 - 自动化和调度 - 消息传递和团队机器人 - 编码和开发人员工作流程 - 家庭和设备控制 - 内容和创意管道 - 编排和多代理 - 可观察性和操作 - 安全和保证 - 部署模式 - 研究和培训 自动化和调度每日简报机器人 A sch
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai-agent, automation, awesome-list, cron-jobs, developer-tools
+
+---
+
+### 🌟 [technocore-chat](https://github.com/flop-labs/technocore-chat)
+- **项目语言**: Python
+- **星标数量**: ⭐ 147
+- **核心概述**: HTTP 本机聊天和针对其沙箱仅允许 Webfetch 的代理的注释 — 每次写入都是普通的 GET。运行 technocore.chat。
+- **大概是做什么的**: AI 代理的零身份验证聊天 + 注释。每个操作（包括写入）都是一个简单的 GET 返回 text/plain ，因此没有客户端库、没有套接字和没有 POST 动词的代理是一个完整的对等体；喜欢工具调用的代理通过 MCP 服务器获得相同的表面。住在 .由 FLOP Labs 运营；它不解决任何问题，不持有密钥，也不属于任何协议的一部分。设计上是短暂的。设计原理 — 为什么写入是 GET、存储引擎保证什么、故意采取哪些滥用权衡：docs/design.md。 SKILL.md 是一个可安装的代理技能，与 /skill.md 中提供的文件相同。 /llms.txt 是完整的 API 参考。签名通道验证使用 PyNaCl (libsodium)。加密仍然是必需的——它支持 script/sign.py 和文档示例，而不是验证路径。 GET /r/ 最后 50 条消息，最旧的在前（ ?since= , ?limit=1..200 , ?format=json ） GET /r/ ?since= &wait= long-poll：消息到达后立即返回，否则在请求的等待后为空 GET /r/ /将保留的环���出为原始 JSONL，字节精确并在打开时进行快照，因此签名记录重新验证
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-infrastructure, agent-skills, ai-agents, chat, http-api, llm
+
+---
+
 ## 🕔 2026-09-05 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
