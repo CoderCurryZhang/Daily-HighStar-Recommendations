@@ -1,3 +1,67 @@
+## 🕔 2026-09-06 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 256 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [GPT-RAG](https://github.com/Azure/GPT-RAG)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,173
+- **核心概述**: Enterprise-grade accelerator for agentic RAG on Azure. Built on Microsoft Foundry with Foundry IQ as the default retrieval backend, Microsoft Agent Framework orchestration, Zero-Trust architecture and IaC.
+- **大概是做什么的**: GPT-RAG Solution Accelerator This solution accelerator provides architecture templates and deployment assets to help organizations build secure, scalable, and enterprise-ready agentic RAG solutions on Microsoft Foundry . Orchestration runs on the Microsoft Agent Framework , and Foundry IQ is the default retrieval backend, blending Blob, Azure AI Search, Work IQ, Fabric, SharePoint, OneLake, Web and MCP sources with permission trimming. Azure AI Search direct remains fully supported as a rollback path. It applies proven Azure design patterns with Zero-Trust security , Responsible AI , and end-to-end observability . For full documentation, visit the GPT-RAG documentation site . GPT-RAG is built on a Zero-Trust architecture to ensure that all components operate within a controlled, isolated environment. Network access is tightly governed, and communication between services follows least-privilege principles. Head to the documentation site for the complete guides: - Grounding sources overview start here: Foundry IQ (default), Azure AI Search direct, Work IQ, Fabric, SharePoint, OneLake,
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agentic-rag, ai-agents, azd-templates, azure, foundry-iq
+
+---
+
+### 🌟 [hermes-agent-template](https://github.com/praveen-ks-2001/hermes-agent-template)
+- **项目语言**: Python
+- **星标数量**: ⭐ 302
+- **核心概述**: One-click Railway template for Hermes Agent. A web admin dashboard for provider/channel setup, gateway supervision, user pairing, and backup/restore, with the native Hermes UI proxied behind one login.
+- **大概是做什么的**: Hermes Agent — Railway Template Deploy Hermes Agent on Railway with a web-based admin dashboard for configuration, gateway management, and user pairing. Hermes Agent is an autonomous AI agent by Nous Research that lives on your server, connects to your messaging channels (Telegram, Discord, Slack, etc.), and gets more capable the longer it runs. - Admin Dashboard — dark-themed setup wizard at /setup to configure providers, channels, tools, and manage the gateway - Full Hermes Dashboard — the native Hermes web UI (Chat, Keys, Skills, Kanban, Analytics, Console) is proxied at / , behind the same login - One-Page Setup — provider dropdown, checkbox-based channel/tool toggles — no config files to edit - Gateway Management — start, stop, restart the Hermes gateway from the browser, with automatic restart if it crashes - Live Status — stat cards for gateway state, uptime, model, and pending pairing requests - Live Logs — streaming gateway log viewer - User Pairing — approve or deny users who message your bot, revoke access anytime - Password-Protected — one cookie-based login guards both t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-assistants, docker, hermes-agent, nous-research, python
+
+---
+
+### 🌟 [agent-vibes](https://github.com/funny-vibes/agent-vibes)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 358
+- **核心概述**: Unified Agent Gateway — Enables Claude Code CLI and Cursor IDE to use free AI backends (Antigravity, Codex) through protocol translation
+- **大概是做什么的**: Unified Agent Gateway — Use Antigravity , Codex , and Kiro (AWS) AI backends with Claude Code CLI and Cursor IDE . Agent Vibes is a unified agent gateway for AI coding clients. It not only translates protocols between clients and backends, but also implements Cursor's native ConnectRPC/gRPC agent channel with the full streaming tool loop, while routing requests across Antigravity, Claude-compatible, Codex, OpenAI-compatible, and Kiro (AWS CodeWhisperer) backends. Clients (front-end): - Claude Code CLI — Anthropic API - Cursor IDE — Protocol-compatible ConnectRPC/gRPC implementation Backends (back-end): - Antigravity IDE — Google Cloud Code API with protocol-compliant requests - Codex CLI — OpenAI-compatible API for GPT and Codex models - Claude-Compatible API — Anthropic-compatible /v1/messages with third-party keys - Kiro (AWS) — AWS CodeWhisperer / Q Developer streaming endpoint via Builder ID, IdC, or social login Disclaimer: This project is for educational and research purposes only. Using this proxy may put your Antigravity account at risk of being banned. Proceed at your own di
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, antigravity, chatgpt, claude, codex, cursor
+
+---
+
+### 🌟 [awesome-gpt-6-astra](https://github.com/Anil-matcha/awesome-gpt-6-astra)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,049
+- **核心概述**: Evidence-backed use cases, prompts, integrations, evaluations, and safety notes for OpenAI GPT-6 Astra.
+- **大概是做什么的**: 📺 GPT-6 Astra Just Crossed a Line Even OpenAI Is Scared Of → - awesome-claude-fable-5 — The sibling high-signal repository whose layout inspired this collection. - awesome-claude-fable-5-1 — A launch-evidence and migration collection for a different frontier model family. - awesome-generative-ai-apps — 50+ production-ready AI SaaS templates for turning model workflows into applications. - OpenAI Cookbook — Practical OpenAI API examples and patterns. - OpenAI API documentation — Current API, model, tools, and production guidance. - GPT-6 Astra on MuAPI — Access gpt-6-astra through MuAPI's unified media/model API alongside other generative models, with automatic failover. Welcome to the Awesome Astra high-signal use-case repository. This collection tracks practical workflows, prompts, integrations, evaluations, and safety notes for GPT-6 Astra , OpenAI’s flagship model for difficult end-to-end work. The initial edition is deliberately first-party led: every entry is grounded in OpenAI’s current model guidance, API documentation, or published safety material. The repository uses Astra
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-coding, ai-safety, artificial-intelligence, astra, awesome-list
+
+---
+
+### 🌟 [Orbital](https://github.com/zqiren/Orbital)
+- **项目语言**: Python
+- **星标数量**: ⭐ 257
+- **核心概述**: Context is yours. Agents are replaceable. Orbital — a project agent that turns your context into assets.
+- **大概是做什么的**: 任务进行到一半，Claude Code余额用完了。Orbital直接转发Codex继续——完全无需重新解释。 Orbital 之前把一个spec派给了 Claude Code。Claude Code跑到一半余额用完了，Orbital读到报错，判断这是账号问题、自己解不开，于是直接收集相关上下文，转交Codex接着做。会话，数据和上下文都是项目里的文件，不在绑定Claude的会话，所以任何agent都能接手。agent可以换，项目一直不断。 project agent（项目 agent） Agent只负责一次会话，Orbital负责整个项目。 Claude Code 里聊了三轮才定下的方案、Codex 改到一半的文件、Cursor 里拍板的取舍——各自锁在各自的会话里。 会话一关、额度一到、换个工具，上下文就无法使用。下一个任务，你就得重新讲一遍。 你才是 agent 的实习生：复制粘贴、搬运上下文、记住杂七杂八的文件放在哪，让agent来做脑力活。 Orbital 把上下文从会话里拿出来，放回你的本地文件夹。任何 agent 随时接手，所有上下文全部保留。Claude Code、Codex、Cursor 都可以使用。 你的上下文资产，任何 agent 都能用 5 分钟就能装好。需要自备 API key。 1 分钟演示：执行 agent 换了三次，项目没停 https://github.com/user-attachments/assets/88cf118c-1dd9-4429-897d-f2003de3049d 为什么你需要一个“project” agent 你正在和 Claude Code 讨论一个方案，聊到第三轮，它弹出「You're out of usage credits」。Codex 的额度还在，但 Codex 对这个项目一无所知——目标、前两轮拍板的结论、改到一半的文件，都得你重讲一遍。 同一个对话里：Claude Code用完了，你 @codex 说一句“你继续吧”，Codex 延续项目上下文继续任务。 在工作中，大家都已经在同时用好几个 agent —— 可能是因为新出的模型、剩余的额度，也可能是因为某个工具更擅长这类活。 但每个 agent 都活在自己的会话里，各有各的上下文和历史。当你在会话和工具之间来回切换时，把项目「搬运」过去的活就落到了你身上：重述目标、解释此前的决策、翻找产出的文件、确认还有什么没做完。你需要做它们的实习生，帮它们串联上下文，来保证你自己的项目正常运转。 Orbital 把工作的单位从「会话」换成「项目」。 proje
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, agent-management, agent-memory, agent-orchestration, agents
+
+---
+
+### 🌟 [agents-universe](https://github.com/agents-universe/agents-universe)
+- **项目语言**: Python
+- **星标数量**: ⭐ 297
+- **核心概述**: 让智能体像人一样学习和工作，共享智能体和项目记忆
+- **大概是做什么的**: 开源共建 · 技术平权 —— 让智能体像人一样学习和工作。 Agents Universe 是一个开源的企业级 AI Agent 平台。它不是又一个"更聪明的聊天框"，而是要让智能体真正成为能干活的人：入职读懂文档、接任务先规划、以个人身份与权限执行、留下可审计的轨迹——并把这一切沉淀为每个人都能复用、共同建设的资产。 Codex 式三栏界面：左侧会话与项目导航，中间对话流，右侧计划与知识上下文（点击可查看大图） 本项目已部署在 agents-universe.com，并且正在被它自己管理。 平台上的 Product Owner 与 Tech Lead 智能体，就是这个仓库的日常维护者：需求、代码、PR 都由智能体们在对话中完成。 因此—— 给这个项目做贡献，不需要会写代码 。注册账号、配置你自己的模型 API Key 与 Git Token，然后和 Product Owner 聊需求，聊得差不多 @Tech Lead 告诉它要实现哪个，即可完成协作提交 PR。详见 零代码共建。 今天，一个智能体好不好用，几乎取决于"是谁调教的"。资深工程师的智能体可以独立交付整个功能，而普通人面对同样的框架，得到的往往是一个"会聊天但干不了活"的助手。智能体的能力被锁在个人的 Prompt 与上下文里：人均而异、无法复制、不可传承。 - 开源 —— 平台、技能、工作流、知识全部开放，任何人都可以查看、修改、分发； - 共建 —— 经验沉淀为可共享的资产：一个人写好的技能，一万个人可以直接用； - 平权 —— 不懂代码的人，也能拥有和资深工程师同等级的智能体。 一端是开发者框架 —— Claude Code、VS Code AI 等。 自由度与上限都极高，但：门槛极高（要懂代码、会写 Prompt、会管理上下文与工具）；效果天差地别（每个人的智能体是不同的智能体，结果不可复现）；经验无法传承（调教技巧留在个人对话里，团队无法共建、复用）；非技术人员几乎不可用。 另一端是低代码平台 —— Dify 等。 上手简单，但设计理念从"知识库 + 应用配置"出发：智能体能力是补充而非核心（自主规划、任务执行、工具使用被简化成配置节点）；更像"应用"而不是"员工"（没有个人身份、最小权限与可审计的执行轨迹）；企业落地不适配（共享权限难以追责，复杂场景触及平台能力边界）。 Agents Universe 的答案：让智能体像人一样 像人一样 Agents Universe 的做法 学习 ：入职读文档，干活中不断更新 项目选中即全量加载知识；交给它的文档提取后整理进对应知识条目，工作全程持续迭代
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agent-framework, agent-orchestration, agentic, agentic-workflow, ai-agents
+
+---
+
 ## 🕔 2026-09-06 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 171 个候选项目中筛选出 6 个未推荐过的新项目。
