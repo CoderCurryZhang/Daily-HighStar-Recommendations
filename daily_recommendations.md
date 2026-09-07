@@ -1,3 +1,67 @@
+## 🕔 2026-09-07 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 287 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [spec-kitty](https://github.com/spec-kitty/spec-kitty)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,605
+- **核心概述**: 面向认真的软件开发人员的规范驱动开发。使用 Claude、Cursor、Gemini、Codex 进行规范编码。看板仪表板、git 工作树、自动合并等。
+- **大概是做什么的**: AI 编码代理、多代理工作流程和受治理软件工厂的规范驱动开发。 Spec Kitty 是一个开源 CLI，用于将产品意图转化为 repo-native AI 编码工作流程：使用它围绕 Claude Code、Codex、Cursor、Gemini、GitHub Copilot、Windsurf、OpenCode 和其他 AI 编码代理构建受管理的软件工厂。 Spec Kitty 将规格、计划、工作包、验收标准、审查状态和合并决策保存在存储库中，然后为代理提供隔离的 git 工作树，以便可以并行实施，而不会造成分支混乱。明亮的软件工厂，而不是黑盒 Spec Kitty 适合构建软件工厂的团队��可重复的输入、清晰的工作包边界、独立的执行、可见的进度和审查门。它可以支持黑暗软件工厂和自主编码实验，但它故意不是默认的熄灯黑匣子。人类定义意图、架构和验收标准；代理在可追踪工作树内实现；审阅者接受、拒绝或合并审计跟踪。目标不是更多舞会
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-coding, ai-agents, ai-coding-workflow, ai-development-dashboard, ai-progress-tracking, ai-workflow
+
+---
+
+### 🌟 [wsl2-distro-manager](https://github.com/bostrot/wsl2-distro-manager)
+- **项目语言**: Dart
+- **星标数量**: ⭐ 3,978
+- **核心概述**: 适用于 Linux 的 Windows 子系统的 GUI - 以及 Mac 上的本机 Linux/macOS VM。无需 CLI 标志即可安装、备份、移动和配置发行版；带工具的 AI 助手、用于代理的 MCP 服务器、通过 SSH 的远程 WSL。
+- **大概是做什么的**: 欢迎使用 WSL Manager 👋 English 简体中文 繁体中文 Deutsch Español 日本语 Magyar Português Türkçe 在 Windows 上显示 · 同一个应用程序在 macOS 上运行本机虚拟机 — 展开 在 macOS 上查看，如下以浅色主题预览 (Windows) 🍎 在 macOS 上查看 — 通过 Apple 的虚拟化框架（测试版）本地 Linux 和 macOS 虚拟机 WSL Distro Manager 是适用于 Windows 子系统的免费开源 GUI对于 Linux，以及在 macOS 上，对于本机 Linux VM。安装、复制、重命名、移动、备份和删除 WSL 发行版，无需记住单个 wsl.exe 标志 - 加上模板、保存的命令片段、磁盘安装、.wslconfig 编辑、通过 SSH 的远程 WSL 以及允许 AI 代理驱动您的 WSL 环境的 MCP 服务器。在 Mac 上，同一个应用程序通过 Apple 的虚拟化框架来管理虚拟机。 - [x] 从内置目录安装，或自带 rootfs - [x] 复制、重命名、移动到另一个驱动器、备份和删除实例 - [x] 压缩虚拟磁盘以回收空间 WSL 永不返还 - [x] 支持 Ubuntu、Debian、Alpine、Kali Linux、openSUSE、SLES 和
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, developer-tools, docker, flutter, gui, llm
+
+---
+
+### 🌟 [dr-claw](https://github.com/OpenLAIR/dr-claw)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,059
+- **核心概述**: 超级AI实验室，海量AI医生助理。通过 AI Power 进行研究的最佳 IDE。
+- **大概是做什么的**: Dr. Claw：您的人工智能研究助理 全栈研究工作区。 🎉 已接受 EMNLP 2026 系统演示 对 Anthropic 的 Claude Science（于 2026 年 6 月 30 日推出）感到兴奋吗？ Dr. Claw 自 2026 年 2 月以来一直在实现相同的愿景 - 它是完全开源的、与模型无关的（Claude Code、Gemini CLI、Codex，以及通过 OpenRouter 的数百个模型），并使用您自己的数据和 GPU 在您自己的机器上运行。它还涵盖了整个研究生命周期——调查→构思→实验→论文写作→幻灯片和推广——而不仅仅是计算分析。免费使用；无需订阅。 - OpenClaw 集成 - 研究实验室 - 快速示例 - Claude 代码插件 - 其他详细信息 - 支持和社区 Claw 博士是通用人工智能研究助理，旨在帮助研究人员和构建者跨不同领域执行端到端项目。从形成最初的想法到运行实验和准备可发表的输出，Claw 博士将整个工作流程集中在一个地方，以便团队可以专注于研究质量和迭代速度。 📰 新闻仪表板 — A u
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-scientist, auto-research, claude-code, claude-science-desktop-alternative, claude-science-free
+
+---
+
+### 🌟 [gentle-pi](https://github.com/Gentleman-Programming/gentle-pi)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 468
+- **核心概述**: 将 Pi 变成 el Gentleman：高级架构师开发工具，具有 SDD/OpenSpec、子代理、严格的 TDD 证据、审查护栏和技能发现。
+- **大概是做什么的**: Gentle-AI 网站 • Gentle-AI wiki • Engram 将 Pi 从强大的编码代理转变为受控的开发工具。 gentle-pi 在 Pi 中安装 el Gentleman：用于规范驱动开发的高级架构师操作层、专注的子代理、严格的 TDD 证据、可审查的工作单元、安全防护、项目/用户技能发现和有限的本机审查。 Pi 已经拥有强大的工具。 gentle-pi 添加了良好使用它们的规则，保留来自 Git 的审查证据而不是代理叙述，并将交付决策留给普通存储库策略。 gentle-pi 是来自 Gentle-AI 生态系统的 Pi-native 软件包，由 Gentlemanprogramming 构建：更广泛的开源项目，用于将 AI 编码代理转变为规范的工程环境，具有 SDD 工作流程、技能、内存集成、模型路由和跨多个代理的审查护栏。商标声明：gentle-pi 名称和徽标是 Alan Buscaglia 的商标。 MIT 许可证适用于该代码；它不允许暗示认可或官方关系。请参阅 TRADEMARKS.md。关注项目
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, agent-skills, ai-agents, ai-coding, ai-coding-agent, code-review
+
+---
+
+### 🌟 [photoshop-mcp](https://github.com/alisaitteke/photoshop-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 396
+- **核心概述**: 适用于 Adob​​e Photoshop 的 MCP 服务器 — 102 个工具、配方工作流程、生成式 AI、独立 Web UI。通过光标、Claude 或自然语言控制 Photoshop。
+- **大概是做什么的**: 语言： 英语 · 简体中文 · 西班牙语 · 德语 · 日本语 · 土耳其语 · 网站 像同事一样与 Photoshop 聊天。用简单的语言描述你想要的内容——“删除这个背景”，“为 Instagram 调整这些背景的大小”——然后你的人工智能助手会为你完成点击操作。与 Cursor、Claude 或内置聊天窗口配合使用。无需代码、无需脚本、无需 IDE。注意：这是一个非官方的、社区维护的项目，不隶属于 Adobe Inc.，也不受 Adobe Inc. 认可。 - ✂️ 删除背景 — 使用干净、可编辑的蒙版隔离主题 - 👤 修饰肖像 — 皮肤平滑、色调修复、闪避和加深设置 - 🌐 导出到网络和社交 — sRGB、锐化、适合 Instagram、X 等的正确尺寸 - 🎞️ 制作轮播 — 将一个宽设计分割成无缝、编号幻灯片 - 💧 批量水印 — 一次性包含一整套照片，原件未受影响 - 🎨 颜色分级及更多 — 胶片外观、天空替换、生成填充（需要 Adobe 帐户） - ⏪ 保持安全 — 每个多步骤“配方”都是 Photoshop 中的单个撤消步骤 底层：118 个工具（102 个原子 + 16 个一步配方）— 完整列表
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: adobe, ai, ai-assistant, claude, creative-automation, cursor
+
+---
+
+### 🌟 [toon-java](https://github.com/toon-format/toon-java)
+- **项目语言**: Java
+- **星标数量**: ⭐ 153
+- **核心概述**: ☕ 社区驱动的 TOON Java 实现
+- **大概是做什么的**: JToon – 适用于 Java 的 TOON 格式 紧凑、人类可读的序列化格式，适用于 LLM 上下文，与 JSON 相比，令牌减少了 30-60%。将类似 YAML 的缩进与类似 CSV 的表格数组相结合。努力与官方 TOON 规范完全兼容。主要特性： 最少的语法 • TOON 编码和解码 • 统一数据的表格数组 • 数组长度验证 • Java 17 • 完整的 Jackson 注释支持 • 默认情况下空安全 (NullAway + JSpecify) • 全面的测试覆盖范围。 JToon 可在 Maven Central 上使用。使用您首选的构建工具将其添加到您的项目中： Gradle (Groovy DSL)：Gradle (Kotlin DSL)：注意：请参阅 Maven Central 上的最新版本（也显示在上面的徽章中）。替代方案：手动安装 您还可以直接从 GitHub Releases 页面下载 JAR 并将其添加到项目的类路径中。一些特定于 Java 的类型会自动标准化为 LLM 安全输出： 输入 类型 输出 ------------------------------ -------------------------------------------------------------- 数字（有限） 十进制形式； -0→0；整数作为整数
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, encoder-decoder, java, library, llm, mcp
+
+---
+
 ## 🕔 2026-09-07 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 271 个候选项目中筛选出 6 个未推荐过的新项目。
