@@ -1,3 +1,67 @@
+## 🕔 2026-09-07 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 271 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [7deer_skills](https://github.com/kennyzir/7deer_skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 308
+- **核心概述**: Composable, auditable Agent Skills for building Roblox game sites—from opportunity and keyword research to content, SEO, updates, and backlinks.
+- **大概是做什么的**: 面向 AI 智能体（Agent）的、可组合且可审计的 Roblox 游戏站增长工作流。 从发现游戏机会，到关键词研究、证据整理、站点规划、SEO 质量检查（QA）、上线后的持续更新与外链增长，每一步都有明确产物、证据边界和停止条件。这里不是“一键生成生产站点”的承诺；你需要选择合适的技能（Skills）、提供项目上下文，并对部署、提交和付费 API 等外部动作明确授权。 roblox-hit-evaluator 用公开证据和缺失数据边界判断一个候选游戏是否值得继续； roblox-site-architect 将后续工作编排成七阶段、七份可审计的 Markdown 阶段交付物（artifact）。其他技能按需加入，而不是被包装成一个不可检查的黑箱。 - 适合不想凭感觉选游戏、希望先看公开证据与缺失项的 Roblox 独立站开发者。 - 避免关键词、证据、页面、上线和外链各自断裂，让下一步始终知道依据来自哪里。 - 每个阶段留下可恢复、可复盘的交付物；中途暂停或换 Agent，也能从明确状态继续。 阶段 用户要回答的问题 主要技能 阶段产物 01 机会 这个 Roblox 游戏值得继续研究吗？ roblox-hit-evaluator 、 roblox-site-architect 01-opportunity-report.md 02 关键词 用户在搜什么，哪些需求值得做？ site-keyword-research 、 keyword-competition-analysis 、 google-trends-to-pages 02-keyword-map.md 03 证据 页面里的代码、数值、机制和步骤由什么支持？ roblox-game-data-scraper 、 youtube-transcribe 03-source-ledger.md 04 规划与建站 最小可发布范围、路由和验收条件是什么？ roblox-site-architect 、 multi-game-codes-hub 04-site-plan.md 05 SEO QA 与上线 当前版本是否发布就绪（ready），是否真的已经发布？ nextjs-seo-foundations 、 nextjs-seo-booster 、 seo-auditor 05-seo-audit.md 06 持续更新 哪些事实会过期，如何复查，部署状态是什么？ seo-autopilot 、 auto-page-sync 06-deployment-report.md 07 外链增长 哪些增长动作可衡量、可授权、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, backlinks, codex, content-automation, keyword-research
+
+---
+
+### 🌟 [zero-to-sglang](https://github.com/datawhalechina/zero-to-sglang)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 356
+- **核心概述**: 面向大模型开发者的 SGLang 系统化开源教程：从推理基础与环境搭建开始，逐步学习模型部署、结构化生成、服务开发和性能优化， 结合实战案例带你从 0 到 1 掌握 SGLang，构建高性能 LLM 推理应用
+- **大概是做什么的**: A hands-on Chinese tutorial on LLM inference: build a mini-sglang from scratch, then read the real SGLang source. 从推理的本质出发，手搓一个 mini-sglang，再吃透真实 SGLang 的源码 Datawhale × RadixArk &emsp;&emsp;大模型已经从「训练」卷到「推理」了。应用爆发之后，推理成本和延迟成了真正的瓶颈：同样一块卡，好的推理引擎能多扛好几倍的请求。但市面上讲推理引擎的教程不多，要么只讲概念不动手，要么直接让你啃 SGLang 源码，从哪儿下手都不知道。 &emsp;&emsp;这门课想补上这个缺口。前半部分，我们从推理最核心的问题讲起：KV Cache 为什么要有、prefill 和 decode 差在哪、compute-bound 和 memory-bound 到底是什么意思。中间部分，带着你从零手搓一个 mini-sglang：前向、生成、KV Cache、HTTP 服务、Continuous Batching、Paged KV Cache、RadixAttention，一样一样加上去。后半部分，回到真实的 SGLang，讲清楚它那些前沿优化具体是怎么做的，最后教你怎么给 SGLang 提第一个像样的 PR。 &emsp;&emsp;本项目由 Datawhale 和 RadixArk （SGLang 团队创立的公司）共同发起，值得信赖！SGLang 在推理框架领域技术扎实、迭代活跃，认可这个项目的话，欢迎去 sglang官方仓库 点个 ⭐。 - 📖 读懂推理 ：KV Cache、prefill/decode、compute-bound vs memory-bound，这些概念到底在说什么 - 🏗️ 手搓引擎 ：从 0 到 1 写出一个 mini-sglang，每一步都落在代码上 - 🛠️ 看懂真实引擎 ：RadixAttention、Paged KV Cache、Continuous Batching 这些 SGLang 核心是怎么实现的 - ⚙️ 摸到前沿 ：量化、分层缓存、DP Attention / EP / PP、Prefill-Decode 分离 - 🚀 参与开源 ：学会 profiling 和 trace 分析，走通 SGLang 的 PR 全流程 - Python 编程 ：熟练使用 Python，有基本的软件工程习惯 - 深度学习基础 ：熟悉 PyTorch，了解神经网络的基本原理 -
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: cuda, datawhale, inference-engine, infra, kv-cache, llm
+
+---
+
+### 🌟 [phi](https://github.com/pulseaiclub/phi)
+- **项目语言**: Go
+- **星标数量**: ⭐ 307
+- **核心概述**: a coding Agent, rpc plugin, sub-agents, hashline edits, and mcp
+- **大概是做什么的**: A minimal terminal coding agent harness in Go — a sibling to Pi. Docs: pulseaiclub.github.io - Sub-agents — spawn isolated jobs and watch the full run unfold in the TUI / job logs, without stuffing every turn into the parent context - Hashline edits — edit by whole-file @file path TAG plus line LINE HASH anchors (same idea as oh-my-pi): the model points at anchors instead of rewriting whole files; stale tags/hashes are rejected so over-edits and silent corruption stop here - Permission gate — Gate / Ask before destructive tools fire; safety is not optional when an agent can touch your tree - MCP without context death — configure as many MCP servers as you want; their tool schemas never enter the model prompt. The system prompt lists server names only (like the Skills catalog); the agent uses three meta-tools ( mcp list / mcp inspect / mcp call ) to discover and call on demand. Same Gate / Ask / Hooks path as built-in tools. See MCP - Extensions (Go or Rust) — native binaries speak the PXB binary protocol over stdin/stdout; official author SDKs for Go ( ext/go ) and Rust ( ext/rust ):
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, claude, claude-code, cli, codex
+
+---
+
+### 🌟 [PI-Desktop](https://github.com/vastsa/PI-Desktop)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 543
+- **核心概述**: Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins
+- **大概是做什么的**: Your local-first desktop workspace for AI coding agents. Bring your own model. Open any local project. Let agents work — while you stay in control. No PI-Desktop account. No mandatory relay. No editor lock-in. A standalone desktop workspace for coding agents, projects, models, tools, and long-running sessions. PI-Desktop is currently in Early Preview. The project is actively developed and already usable for real coding workflows, but APIs, extension interfaces, and some desktop behaviors may continue to evolve. Most coding agents live inside a terminal, an editor extension, or a hosted service. PI-Desktop gives them a workspace of their own. Work across repositories and sessions without tying your agent workflow to one editor or terminal. Projects, conversations, reviews, files, previews, notifications, and extensions live in one workspace. ✨ Bring your own model Use OpenAI, Anthropic, local models, hosted gateways, or any OpenAI-compatible API. Configure multiple providers and models, then switch between them per session. 🔍 Inspectable by default Agents can read files, edit code, a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, coding-agent, desktop-app, electron, global, i18n
+
+---
+
+### 🌟 [taskplane](https://github.com/HenryLach/taskplane)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 214
+- **核心概述**: Multi-agent AI coding orchestration system designed to drive successful coding outcomes with a high level of transparency (think more light-factory than dark-factory).
+- **大概是做什么的**: Multi-agent AI orchestration for coding with pi — parallel task execution, mono- and poly-repo support, fresh-context worker loops, cross-model reviews, automated merges and a killer dashboard! Status: Initial release. Taskplane orchesrates batches of task to help you turn ideas into high-quality code using a proven process of: have an idea create a spec create tasks orchestrate tasks evaluate the outcome For background on Taskplane's creation see Author's Note on Medium. - A skill for creating tasks that the Taskplane orchestrator can run - prompt.md/status.md task definitions for persistent memory store - Support for both monorepo and polyrepo projects - Complete parallelized worktree isolation with dependency graphing and segment-level repo isolation - 4 agent types: supervisor, worker, reviewer, and merger - A deterministic orchestration engine to drive repeatable positive agent outcomes at scale - A simple file-based mail system so agents can communicate with each other - A killer locally-run web-based dashboard so you can see everything that's going on STEP 1: Create the tasks
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, coding, orchestration, pi
+
+---
+
+### 🌟 [uwas](https://github.com/uwaserver/uwas)
+- **项目语言**: Go
+- **星标数量**: ⭐ 130
+- **核心概述**: Unified Web Application Server — Apache+Nginx+Varnish+Caddy in a single Go binary. Auto HTTPS, built-in caching, PHP/FastCGI, reverse proxy, load balancing, WAF, web dashboard, and MCP server.
+- **大概是做什么的**: Unified Web Application Server One binary to serve them all. Apache + Nginx + Varnish + Caddy + cPanel → UWAS Note: UWAS is intended for production use; verify it against your own deployment, traffic, and security requirements. UWAS replaces your entire web server stack and hosting control panel with a single Go binary. Auto HTTPS, built-in caching, PHP support, .htaccess compatibility, reverse proxy, WebSocket forwarding, WAF, multi-user access control, and a 42-page React dashboard backed by 254 explicit admin API route registrations. One binary. Zero hassle. Current Snapshot (v0.9.2) - Dashboard pages: 42 ( web/dashboard/src/pages ; settingsSections.tsx lives there too but is section definitions, not a page) - Admin API routes: 254 explicit route registrations in internal/admin/routes.go under /api/v1 plus dashboard/static handlers - Go packages: 71 ( go list ./... ) — 63 under internal/ , 2 under pkg/ ; 57 carry tests - CLI commands: 19 - Test status: all gates pass — go build , go vet , staticcheck , go test (56/56 packages with tests), go test -race (0 data races), dashboard np
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: acme, cache, devops, fastcgi, go, golang
+
+---
+
 ## 🕔 2026-09-07 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
