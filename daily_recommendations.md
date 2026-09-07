@@ -1,3 +1,67 @@
+## 🕔 2026-09-07 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [MiniOneRec](https://github.com/AkaliKong/MiniOneRec)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,790
+- **核心概述**: OneRec 的最小复制
+- **大概是做什么的**: 用于扩展生成推荐的开源框架 📄 技术报告 🤗 Huggingface 🤖 Modelscope MiniOneRec 是第一个完全开源的生成推荐框架，它提供了涵盖 SID 构建、监督微调 (SFT) 和面向推荐的强化学习 (RL) 的端到端工作流程。 - 2026-05-13 — 我们遵循基于大语言模型推荐的细粒度语义集成中提出的方法，引入了新的 TS-Rec 代码库。我们衷心感谢贡献者为提供此更新所做的宝贵努力和支持。 - 2026-01-04 — 关于基于 Instruct 模型的重现结果与我们报告的指标之间可能存��的差异，请检查评估日志中的 CC 指标是否非零（请参阅 calc.py）。如果非零，则表明模型仍在生成大量无效项，约束解码尚未成功。我们怀疑这个问题可能与变压器li等依赖项的版本有关
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: generative-ai, generative-recommendation, generative-recommenders, large-language-model, large-language-models, llm
+
+---
+
+### 🌟 [fullstack-ai-agent-roadmap](https://github.com/Karovia/fullstack-ai-agent-roadmap)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 444
+- **核心概述**: 🎯 从零基础到 AI Agent 全栈工程师 · 110 个详细教程 · 58 万字 · 400+ GitHub 项目精选 · Obsidian 友好 · 中文
+- **大概是做什么的**: 🎯 全栈 + AI Agent 学习路线 简体中文 English 日本语 从零基础到 AI 时代全栈工程师 —— 一份用 Obsidian 组织的、超过 58 万字 / 110 个详细教程 的系统化学习路线。 涵盖 Python · JavaScript · React · FastAPI · 数据库 · LLM · AI Agent · 毕业项目 ，每个知识点都附 类比解释 + 完整代码 + 练习题 + GitHub 项目推荐 。 ⭐ 觉得有用就点个 Star 吧 —— 是对维护者最大的鼓励 不是一份链接清单。这是一套 "零基础 → 能独立交付 AI Agent 产品" 的完整教程包： - 📘 110 个 Markdown 文件 / 58 万字 —— 每个新概念都用日常类比讲清楚 - 💻 完整可运行代码 —— 不是片段，是逐行注释 + 预期输出 + 练习答案 - 🎯 30+ 个章节项目 —— 每章必做一个验收项目，没做完不算学完 - ⭐ 400+ 精选 GitHub 项目 —— 每个都标注"该怎么用它学" - 🗺️ Obsidian Canvas 思维导图 —— 全局视图 + 章节关系一目了然 - 📊 配套学习契约 / 周报 / 里程碑模板 —— 强制反馈系统 这份教程 专门为零基础学习者设计 ：你不需要任何前置知识，只需要每天 3 小时 + 一颗坚持的心。 方式 1：用 Obsidian 打开（推荐 ⭐） 1. 下载 Obsidian（免费） 2. git clone https://github.com/Karovia/fullstack-ai-agent-roadmap.git 3. 在 Obsidian 中打开下载的文件夹（Open folder as vault） 4. 首先打开 全栈学习路线/🗺️学习路线思维导图.canvas 看全局 5. 然后从 全栈学习路线/README.md 开始学 直接进入 全栈学习路线/ 文���夹按章节阅读（中文文件名兼容良好）。 可交互的版本： 全栈学习路线/🗺️学习路线思维导图.canvas （需要 Obsidian 打开） 模块 周期 章节验收项目 详细教程数 --- ------ ------ -------------- ---------- 00 学习方法论 1 周 学习仪表盘 + 学习契约 8 01 Python 从零到源码 10 周 pyspider-cli 异步爬虫 + PyPI 发布 12 02 JavaScript 从零到源码 10 周 mini-lodash + 在线代码沙盒 12
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, chinese, claude, fastapi, fullstack
+
+---
+
+### 🌟 [wave-mcp](https://github.com/Tencent/wave-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 180
+- **核心概述**: 用于 RTL 波形调试的开源、免许可 MCP 服务器：读取 FST 波形（VCD/FSDB 自动转换）以及 SystemVerilog 网表，具有 34 个工具，涵盖驱动程序分析、值/X 跟踪、通过/失败波形比较、代理驱动的浏览器波形查看器以及预仿真静态分析。
+- **大概是做什么的**: wave-mcp：开源、免 License 的 RTL 波形调试 MCP Server wave-mcp 是腾讯蓬莱实验室验证团队开源的一款 RTL 波形调试 MCP Server ，为 LLM 提供波形调试工具集： 读 FST 波形 + RTL 网表 ，提供层次探索、信号查询、驱动分析、值/X 态追踪、波形对比与浏览器波形查看器等 34 个 MCP 工具 。 MIT 开源，无需任何商用 License，支持任意并发。 FST 直读，VCD / FSDB 自动转 FST ：Verilator --trace-fst 、Icarus 直接产 FST 就能读； 手上只有 VCD 或 FSDB 也没关系， prepare session 自动转换后再建 session（FSDB 转换不占 Verdi license）。 它 不跑仿真器 ，你用自己的流程跑出波形，把结果交给它即可。 芯片验证占据开发周期 50% 以上的时间，波形调试是其中最高频的动作。而 LLM 时代， 工程师希望让 AI Agent 直接读波形、查信号、追 X 态根因，但市面上的商用调试 MCP 需要昂贵的 License，且并发受限。 wave-mcp 用 纯开源技术栈 （pylibfst + pyslang）提供完整波形调试能力： 免 License、数据准确、真实芯片项目背书 。 在 真实生产级芯片项目 （几十个模块）上完整验证，并把 OpenTitan、香山纳入测试集： 测试规模 一百多个测试 case （生产级项目 + OpenTitan 27 个 IP + 香山 38 个 IP） 数据准确性 225 万信号级验证，值查询正确性 100% 工具调用 310 万多次调用全部通过 驱动分析 驱动 / 扇入 / 连通 / 追溯在生产级项目上全量验证 超大模块 百万级 scope 稳定完成分析 工具覆盖 34 个工具全部验证，含 viewer / diff 的单元与浏览器端到端覆盖 - 波形查询 ：设计层次、实例、信号（位宽/方向/类型，含总线聚合）、信号值（点查询 / 区间，随机访问）。 - 静态分析（pyslang 网表） ：连接、驱动、扇入/扇出、声明位置（文件:行号）。 - 无波形静态分析 ： open static session 只凭 RTL 源码建 session， 仿真前即可分析设计结构 。 - 值追踪 ： trace value 沿驱动链反向遍历、可跨模块下钻，每个节点带真实 FST 值； trace x 追 X 根因。 - 网表自愈 ：从 pyslang 诊断自动补 +incdi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: chip-verification, debug, eda, fsdb, fst, hardware-verification
+
+---
+
+### 🌟 [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 153
+- **核心概述**: OrcaReplay — AI 代理的时间旅行。记录、重放、分叉和调试使用任何模型运行的任何代理。由 OrcaRouter.ai 团队构建。
+- **大概是做什么的**: English · 简体中文 · 日本语 · 한국어 · Deutsch · Français · Español · ๑กร่รรรรรรรรรรรรรรรรรรรรรรรรรรรรทรรรรทททมทททททืทททืื：： 1. 你的经纪人在凌晨 2 点坏了一些东西。上午 9 点重播 — 准确无误，离线重播，想重播多少次都可以。记录任何编码代理。在网络关闭的情况下逐字节地重现运行。将其从任何步骤分叉到不同的模型上，看看谁做对了。由 OrcaRouter 背后的团队构建 - 一个 API 密钥和一个端点，适用于 Claude、GPT、Gemini、Grok、DeepSeek、Qwen 等。这是 orca 设置默认指向的内容，也是 Orca 比较单个命令而不是四个提供程序帐户的原因。找到我们：OrcaRouter 所有模型 API Github 存储库：OrcaCode Review · OrcaRouter Lite Connect：X · Discord · Hugging Face · Ollama 一个会话的真实输出 - 记录 Claude 代码运行，在网络关闭的情况下重播，然后在检查点 4 分叉到两个模型上，并通过 npx tsc --noEmit 进行评分。这里没有任何东西是模仿的。用三个命令尝试一下 第三行是人们停留的���方：相同的文件，相同的对话前缀，从步骤 4 开始的不同模型。模型是唯一的变量，这就是答案的含义
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-debugging, agent-tracing, ai-agent, ai-agents, ai-debugger, ai-debugging
+
+---
+
+### 🌟 [Vera](https://github.com/VeraTools/Vera)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 109
+- **核心概述**: 结合 BM25、向量相似度和跨编码器重排序的本地代码搜索。使用 Tree-sitter 解析 60 多种语言，完全离线运行，并返回包含文件路径、行范围和符号元数据的结构化结果。内置 Rust。
+- **大概是做什么的**: 矢量增强重排序代理 结合了 BM25 关键字匹配、矢量相似性和可选的跨编码器重排序的代码搜索。支持 65 种语言（61 种带有树守护者解析），在本地运行，返回包含文件路径、行范围、符号元数据和相关性分数的结构化结果。请参阅新增功能，了解 v1.0 及以后的版本亮点，包括搜索质量测量、本地模型更改、代理工作流程、性能工作和可靠性修复。 2. 设置和索引（选择一项） 推荐：通过 OpenRouter 的 Qwen 预设（最佳测量搜索质量，单个 API 密钥）：零设置本地选项（在 CPU 上运行，无密钥，无 GPU）：该向导还提供 OpenAI、Jina 和 Voyage 的预设。 Qwen 预设通过 https://openrouter.ai/api/v1 使用 qwen/qwen3-embedding-8b + qwen/qwen3-reranker-8b 以及单个共享密钥和通用重新排序协议。如果当前项目没有索引，交互式搜索会建议创建一个索引。 JSON 和非交互式搜索仍然返回缺失索引错误。默认的本地嵌入模型是 minishlab/potion-code-16M-v2
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: bm25, cli, code-search, code-search-engine, cross-encoder, embeddings
+
+---
+
+### 🌟 [Kooboo](https://github.com/Kooboo/Kooboo)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 337
+- **核心概述**: 用于构建网站、电子商务和 Web 应用程序的高性能平台，具有原生 AI、JavaScript 开发以及便携式网站和应用程序市场。
+- **大概是做什么的**: 高性能。原生人工智能。完整网站和应用程序的市场。 Kooboo 是一个用于构建、运行和拥有动态网站、在线商店和 Web 应用程序的集成平台。页面、内容、数据库、商务、API、分析、托管、开发工具、人工智能和部署在一个便携式系统中协同工作。阅读基准测试 · 2 vCPU、4 GB 服务器上的 5,000 个动态网站。我们发布了完整的十分钟压力测试：90,000 个 HTTPS 请求、89,969 个经过验证的响应、99.97% 的首次尝试成功率、服务器监控、请求级记录、源代码和复制包。阅读基准并检查证据 免费使用。不是开源的。任何人都可以下载并使用 Kooboo，没有时间限制。公开版本包含已编译的包。受控源访问可单独提供给经批准的合作伙伴。高性能原生人工智能市场 一种从域路由到动态渲染和网络输出的优化运行时 人工智能可与网站的真实对象、运行时、数据和历史一起工作 安装、修改、发布和操作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-agents, ai-coding, ai-tools, cms
+
+---
+
 ## 🕔 2026-09-06 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
