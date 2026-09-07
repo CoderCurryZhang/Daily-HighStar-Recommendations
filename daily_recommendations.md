@@ -1,3 +1,67 @@
+## 🕔 2026-09-07 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Awesome-MCP-ZH](https://github.com/yzfly/Awesome-MCP-ZH)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 7,634
+- **核心概述**: MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients
+- **大概是做什么的**: 欢迎来到 Awesome-MCP-ZH ，一个专为中文用户打造的 MCP（模型上下文协议）资源合集！ 这里有 MCP 的基础介绍、玩法、客户端、服务器和社区资源，帮你快速上手这个 AI 界的“万能插头”。 - 作者：云中江树 （微信公众号：云中江树，微信：1796060717） - 如果国内的朋友想免费快速的体验MCP能力，推荐 Cherry Studio（客户端） + 阿里 Qwen (大模型）的组合，优势是免费、操作简单、LLM无需魔法、无需充值。 - LLM 选型我的使用体感是： Claude4.5 GPT-5 Gemini-2.5 Qwen3-Max DeepSeek - 10分钟搞定高德地图MCP！我用AI解决了约会地点选择难题 - 因为Manus爆火的 Claude MCP，90%人的认知可能都是错的 - 刚官宣支持MCP，就发布自家Agent协议（A2A），扒一扒Google暗藏的小心思 - 阿里云拥抱 MCP 这步棋，太多人都没有真正看懂 - 🔄 版本控制 (Git / GitHub / GitLab) - ☁️ 云平台与服务集成 (AWS, Cloudflare, Azure, K8s, etc.) - 💬 通讯与协作 (Slack, Email, Calendar, Social, etc.) - 🛠️ 效率工具与集成 (Office, Project Management, Notes, etc.) - multimedia 多媒体与内容创作 - 📕 社交媒体与内容创作 (小红书/RedNote) - 🛒 电商商家经营 (E-Commerce) MCP 全称 模型上下文协议（Model Context Protocol） ，由 Anthropic 在 2024 年 11 月推出，是个开源通信标准。简单说，它给 AI 装了个“超级网线”，让 AI 能跟外部工具、数据、系统无缝对接。 - 比喻 ：AI 是个聪明但宅家的书呆子，MCP 就是它的“外卖员”，能帮它拿数据、干活儿。 - 目标 ：让 AI 不只聊天，还能真动手，比如查数据库、发邮件、写代码。 2025–2026 重要进展 （截至 2026 年 8 月）： - 中立治理 ：2025 年 12 月 Anthropic 将 MCP 捐赠给 Linux 基金会旗下新成立的 Agentic AI Foundation（AAIF，Anthropic、OpenAI、Block 共同发起），OpenAI 同时捐出 AGENTS.md，MCP 正式成为中立的行业标准。 - 2026-07-28
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: claude, claude-mcp, deepseek, deepseek-mcp, mcp, mcp-clients
+
+---
+
+### 🌟 [nginx-ui](https://github.com/0xJacky/nginx-ui)
+- **项目语言**: Go
+- **星标数量**: ⭐ 11,477
+- **核心概述**: Yet another WebUI for Nginx
+- **大概是做什么的**: Yet another Nginx Web UI, developed by 0xJacky, Hintay and Akino. &nbsp;Proudly hosted on AtomGit — a part of the G-Star program. To check out docs, visit nginxui.com. If you find this project helpful, please consider sponsoring us to support ongoing development and maintenance. Protect and accelerate websites and APIs with consistent access performance across mainland China and worldwide, and extend acceleration and security to native and mobile apps through client SDKs — Self-hosted private CDN｜Subscription-based anti-DDoS CDN｜A self-controlled, flexibly composable CDN network. Official Community Group Join the official Nginx UI WeChat community group to discuss usage, deployment ideas, and troubleshooting with other community members. Scan the QR code below to add us on WeChat, and include Nginx UI Community Group in your request. The administrator will invite you to the official community group. Your support helps us: - 🚀 Accelerate the development of new features - 🐛 Fix bugs and improve stability - 📚 Enhance documentation and tutorials - 🌐 Provide better community support -
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: code-completion, copilot, cron, docker, go, letsencrypt
+
+---
+
+### 🌟 [LightRFT](https://github.com/opendilab/LightRFT)
+- **项目语言**: Python
+- **星标数量**: ⭐ 404
+- **核心概述**: LightRFT: Light, Efficient, Omni-modal & Reward-model Driven Reinforcement Fine-Tuning Framework
+- **大概是做什么的**: Light, Efficient, Omni-modal & Reward-model Driven Reinforcement Fine-Tuning Framework LightRFT (Light Reinforcement Fine-Tuning) is a reinforcement fine-tuning framework for large language models (LLMs) and vision-language or multimodal generative models (VLMs). It provides a structured and extensible workflow for reinforcement learning with verifiable rewards (RLVR), reinforcement learning from human feedback (RLHF), and model-reward-driven policy optimization, covering policy sampling, reward computation, advantage estimation, and policy updates. The repository also includes reward-model training and on-policy distillation workflows. LightRFT uses torchrun and PyTorch distributed communication as its runtime foundation. A unified Strategy interface connects FSDP v2 and DeepSpeed ZeRO training backends with SGLang and vLLM rollout backends. Current code paths and examples include text, image, video, and audio tasks. “Omni-modal” means that the repository contains dedicated model, data, or example paths for these modalities; it does not imply that every model and modality combinatio
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: dapo, grpo, llm, llm-training, multi-modal, reinforcement-learning
+
+---
+
+### 🌟 [cryptocurrency.cv](https://github.com/nirholas/cryptocurrency.cv)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 304
+- **核心概述**: Free crypto news API - real-time aggregator for Bitcoin, Ethereum, DeFi, Solana & altcoins. No API key required. RSS/Atom feeds, JSON REST API, historical archive with market context, embeddable widgets, ChatGPT plugin, Claude MCP server, SDKs (Python, TypeScript, Go, React, PHP). AI/LLM ready. Vibe coding friendly. Open source.
+- **大概是做什么的**: name: Free Crypto News API category: cryptocurrency llms txt: https://cryptocurrency.cv/llms.txt openapi: https://cryptocurrency.cv/api/openapi.json mcp server: https://cryptocurrency.cv/api/mcp (hosted) or npx -y @nirholas/free-crypto-news-mcp (local) 🌐 Languages (42): English العربية Български বাংলা Čeština Dansk Deutsch Ελληνικά Español فارسی Suomi Français עברית हिन्दी Hrvatski Magyar Indonesia Italiano 日本語 한국어 Melayu Nederlands Norsk Polski Português Română Русский Slovenčina Slovenščina Српски Svenska Kiswahili தமிழ் తెలుగు ไทย Filipino Türkçe Українська اردو Tiếng Việt 简体中文 繁體中文 · all translations 🆓 Free Crypto News API Real-time crypto news from 300+ sources with one HTTP call. No API key, no signup, no rate-limit paperwork. Live at cryptocurrency.cv . For AI agents: curl https://cryptocurrency.cv/api/news • llms.txt • llms-full.txt • OpenAPI • MCP: https://cryptocurrency.cv/api/mcp • AGENTS.md • SKILLS.md ⭐ If this saves you time, star the repo. It helps others find it. Thirty seconds, no key required. cURL works as-is: Every endpoint returns JSON, is CORS-enabled, and wor
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, api, bitcoin, chatgpt, claude, crypto
+
+---
+
+### 🌟 [qveris-agent-toolkit](https://github.com/QVerisAI/qveris-agent-toolkit)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 260
+- **核心概述**: Open-source toolkit for the QVeris capability routing network: CLI, MCP server, Python SDK, skills, and REST API docs for agents to discover, inspect, call, and audit real-world tools.
+- **大概是做什么的**: QVeris Agent Toolkit Every capability. One call away. QVeris is the capability routing network for agents. This repository is the open-source agent toolkit: CLI, MCP server, Python SDK, skills, and REST API docs for discovering, inspecting, calling, and auditing real-world tools. Website: https://qveris.ai - A broad catalog of capabilities across multiple categories - Discover / Inspect / Call / Audit — one protocol for finding, evaluating, invoking, and tracking capabilities - Discover is free. Call returns structured pre-settlement billing, with final charge outcomes available through usage audit and credits ledger views. - NEW QVeris CLI — a command-line interface for agents to discover and call tools. Learn more - Works with CLI / MCP / Python SDK / REST API Your owner sent you here to learn about QVeris? → If you are an OpenClaw-style skill agent, use the official skill: skills/openclaw/qveris-official/SKILL.md → If you are running in Cursor / Claude Code / OpenCode, follow the Agent capability guide & install protocol → Core protocol: Discover (free) / Inspect (details) / Call
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-tools, cli, developer-tools, mcp, model-context-protocol
+
+---
+
+### 🌟 [OctoBus](https://github.com/chaitin/OctoBus)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 195
+- **核心概述**: A secure local gateway for AI agents to reliably call approved enterprise APIs, tools, and services.
+- **大概是做什么的**: OctoBus is a locally running single-binary gateway for managing pluggable Node.js service packages and exposing the gRPC capabilities in those packages to clients or agents by capset. The current implementation provides a Go-built octobus binary that is responsible for: - daemon: start the local control plane and public data plane, and manage Node.js subprocesses according to each service runtime mode - CLI: manage services, instances, and capsets through the local admin API - gateway: expose selected methods as gRPC, and expose unary methods as Connect RPC and MCP streamable HTTP - storage: use SQLite to record services, instances, capsets, method bindings, descriptors, and runtime state - runtime management: import service packages, prepare runtime dirs, and manage long-running or on-demand Node.js instances OctoBus is built around the following core model: - service : a service root inside an importable Node.js package. It contains service.json , proto files, and a gRPC implementation. A single distribution package can expose multiple service roots through //service-dir . - instan
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: access-control, agent-tools, ai-agents, api-gateway, authorization, connect-rpc
+
+---
+
 ## 🕔 2026-09-07 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
