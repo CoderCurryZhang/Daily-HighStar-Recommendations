@@ -1,3 +1,67 @@
+## 🕔 2026-09-07 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 601
+- **核心概述**: Claude 的开源 SEO + GEO 技能 — 关键词研究、排名跟踪、网站审核、反向链接、竞争对手差距、人工智能可见性。通过 MCP 在您真实的 Search Console / GA4 / 广告数据上运行，内置 DataForSEO。免费，麻省理工学院。
+- **大概是做什么的**: Claude 的开源 SEO + GEO 技能 — 关键字研究、排名跟踪、网站审核、反向链接、竞争对手差距、AI 可见性 — 通过 Ryze MCP 在您自己的搜索控制台、分析和广告数据上运行，并内置 DataForSEO，用于处理 Google 不会向您提供的数据。无需订阅该工具。 API 调用没有标记。这些技能是麻省理工学院的——接受它们、改变它们、交付它们。 “开源 SEO 工具”正在风靡一时。仔细观察，大多数都是 DataForSEO API 上的 UI：您要么携带自己的密钥并按请求付费，要么���付托管订阅加上每次数据调用的 28% 标记。该代码是免费的；数据从来都不是。这采用相反的方法： - 您的排名来自实际的 Google Search Console - 真实位置、真实点击，而不是估计 - 您的流量来自实际 GA4 - 包括 AI 推荐流量（ChatGPT、Perplexity、Claude、Gemini） - 您的关键字量来自 Google Ads 关键字规划器数据 - 竞争对手关键字、反向链接和 SERP 来自 DataForSEO，已连接到 Ryze 连接器 - 无需管理密钥，无需构建标记层
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-seo, backlinks, claude, claude-skills, dataforseo, generative-engine-optimization
+
+---
+
+### 🌟 [Rankify](https://github.com/DataScienceUIBK/Rankify)
+- **项目语言**: Python
+- **星标数量**: ⭐ 682
+- **核心概述**: 🔥 Rankify：用于检索、重新排名和检索增强生成的综合 Python 工具包 🔥。我们的工具包集成了 40 个预先检索的基准数据集，支持 7 种以上的检索技术、24 种以上最先进的重排序模型和多种 RAG 方法。
+- **大概是做什么的**: 🔥 Rankify：用于检索、重新排名和检索增强生成的综合 Python 工具包 🔥 如果您喜欢我们的框架，请不要犹豫，给这个存储库加星标 ⭐ 。这有助于我们使框架变得更好并可扩展至不同的模型和方法🤗。一个模块化、高效的检索、重新排序和 RAG 框架，旨在与最先进的检索、排序和抹布任务模型配合使用。要在本地运行演示：https://github.com/user-attachments/assets/13184943-55db-4f0c-b509-fde920b809bc - 社区贡献 - [2026-02-16] 非常感谢 @JamieHoldcroft 集成了 15 个以上新的密集检索器，包括基于 SOTA LLM 的双编码器（ SFR 、 E5 、 GritLM ）和推理增强模型（ RaDeR 、 ReasonIR 、 ReasonEmbed 、 BGE-Reasoner ）。 - [2025-10-14] 更新了安装，添加了可选的附加功能：retrieve、reranking、rag 和 all。 - [2025-10-14] BM25、DPR、ANCE、Contriever、ColBERT、BGE 的新 CLI (rankify-index) 语法和示例。 - [2025-06-11] 非常感谢@tobias124 实现自定义数据集索引。 - [2025-06-01] 多于
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, chatgpt, information-retrieval, llm, nlp
+
+---
+
+### 🌟 [LayerX-Network](https://github.com/Sidiora-Labs/LayerX-Network)
+- **项目语言**: Go
+- **星标数量**: ⭐ 383
+- **核心概述**: LayerX 网络是用于自治代理的确定性执行和计费网络。
+- **大概是做什么的**: LayerX 网络是用于自治代理的确定性执行和计费网络。 English · Español · 日本语 · Русский · 简体中文 · Português · Deutsch · Français LayerX 网络是什么 LayerX 网络是一个用于自治代理的确定性执行和记账网络。每个状态更改操作都作为经过签名、规范编码的 Activity 进入。该协议验证参与者及其权限，使用帐户序列，在一个全局序列上排序活动，应用确定性状态转换，并返回与结果状态根绑定的签名收据。仅附加活动日志是权限。数据库索引是一次性投影，可以通过重播该日志来重建。共识关键执行排除了浮点、本地时钟决策、数据库迭代顺序和其他不确定性来源。 402LXP 是唯一允许写入余额的组件。协议模块发出经过验证的转移集，而不是改变资金本身。普通代理活动在 LayerX 内执行和排序。定期检查站设在 Pa
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, ai-agents, blockchain, model-context-protocol, monorepo
+
+---
+
+### 🌟 [Embody](https://github.com/dylanroscover/Embody)
+- **项目语言**: Python
+- **星标数量**: ⭐ 169
+- **核心概述**: 适用于 TouchDesigner 的 MCP 服务器 — 使用 AI 构建、连接和调试网络。加上 git-diffable 外部化。
+- **大概是做什么的**: 以思想的速度创造。 embody.tools 文档 宣言 变更日志 Embot — 当 Envoy 构建 Embody 时，他会在您的网络中跳跃，以您描述的速度将您的想法显示在屏幕上。操作员、连接、参数、工作。想尝试不同的方向吗？在几秒钟内启动一种新方法。并排比较尝试。分出一个有效的分支。该工具会跟上您的步伐，而不是相反。四种工具，一种理念使者——前进速度。嵌入式 MCP 服务器可让 Claude Code、Codex、OpenCode、Gemini、Cursor、Windsurf 和 GitHub Copilot（通过 VS Code）直接与您的实时 TouchDesigner 会话对话。创建运算符、连接它们、设置参数、编写扩展、调试错误——只需说出您想要的即可。没有复制粘贴代码。请勿在聊天中描述您的网络。想法 → 几秒钟内的运算符。体现——横向速度。标记任何操作员并将其外部化到磁盘上镜像网络层次结构的文件中。尝试一个新的方向，分支一个好的方向，恢复状态
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: creative-coding, externalization, mcp, mcp-client, mcp-server, media-art
+
+---
+
+### 🌟 [mcp-edd-analytics-vantage](https://github.com/dhapat3927/mcp-edd-analytics-vantage)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 115
+- **核心概述**: EDD MCP 服务器：用于销售、分析和产品的轻松数字下载 API 2026
+- **大概是做什么的**: CommerceVault – 统一数字商务协调器 欢迎使用 CommerceVault，这是一个精确设计的中间件层，它改变了 SaaS 平台、订阅盒、会员网站和数字店面与其销售基础设施交互的方式。受 MCP-EDD 架构清晰度的启发，CommerceVault 不仅仅是一个连接器，它还是一个数字商务协调器，可以抽象、保护和加速您的应用程序与任何 RESTful 电子商务后端之间的通信。将您的企业想象成一个金库：宝贵的数据流入流出，每笔交易都是宝石。 CommerceVault 是万能钥匙，旨在以外科手术般的精��度对每个请求进行身份验证、记录、清理和路由。无论您是管理数千个日常订单、对客户群进行分析，还是需要同步全球店面的库存，CommerceVault 都能提供信任层，让您的运营保持弹性并保持数据原始。该存储库由重视清晰度而非复杂性的工程师团队构建，整合了数十年的数字化综合经验
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: easy-digital-downloads, ecommerce, edd, mcp, mcp-server, wordpress
+
+---
+
+### 🌟 [mobile-sim-streamer](https://github.com/2501035-wq/mobile-sim-streamer)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 115
+- **核心概述**: 2026 年 QA 团队自托管移动设备流式传输
+- **大概是做什么的**: 为跨平台 QA 团队提供自托管实时设备镜像和协作调试 — 没有云，没有中间人。 RippleSight 是一个与基础设施无关的私有平台，可将实时 iOS 和 Android 模拟器实例直接流式传输到任何浏览器。它将运行模拟器的单个物理主机转变为整个团队可以同时访问的共享、交互式工作空间。您可以将其视为私人模拟流媒体服务器，专为远程调试、演示演练和协作测试而构建，无需将您的设备暴露在公共互联网上。虽然许多工具依赖于商业中继服务或专有的协调器，但 RippleSight 将所有内容保留在您自己的网络上 - 您的设备、您的延迟、您的数据。它是为重视主权、速度和简单性的团队而设计的。 RippleSight 有何不同？为什么重要 ------------------------- ---------------- 直接 WebSocket 流式传输 无第三方中继。每个像素都会从您的主机直接传输到队友的浏览器。多模拟器编排一台 Linux 或 macOS 机器可以托管
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: android, android-emulator, app-testing, appetize-alternative, browserstack-alternative, developer-tools
+
+---
+
 ## 🕔 2026-09-07 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 287 个候选项目中筛选出 6 个未推荐过的新项目。
