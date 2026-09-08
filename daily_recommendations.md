@@ -1,3 +1,67 @@
+## 🕔 2026-09-08 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 301 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [chat-ollama](https://github.com/sugarforever/chat-ollama)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,510
+- **核心概述**: ChatOllama is an open source agentic app for running AI agents across local and hosted models.
+- **大概是做什么的**: ChatOllama is an open source agentic app for running AI agents across local and hosted models. The project is now centered on two first-class packages: - chatollama-agent , an installable command-line interface for running an agent from your terminal. - chatollama-agent-runtime , the standalone execution layer that powers ChatOllama agents. The existing web chatbot and knowledge-base platform remains available while it is separated from the new Agent architecture. Its setup and feature documentation has moved to the Web chatbot and knowledge-base guide. Get started with the Agent CLI The CLI requires Node.js 24 or newer. Install it globally from npm: Start Ollama in one terminal: In another terminal, install and explicitly select a model: Enter a prompt and type /exit when you are finished. In a terminal, / offers command completion and /models opens an arrow-key picker; Enter selects and Escape cancels. In a pipe, /models prints a sorted numbered list with the current model marked; a number selects and an empty line cancels. /model / works in both modes. A successful selection immed
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agentic, agents
+
+---
+
+### 🌟 [agent-router](https://github.com/theagentrouter/agent-router)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,006
+- **核心概述**: Manages Unified Access to Generative AI Services built on Envoy Gateway
+- **大概是做什么的**: Envoy AI Gateway is an open source project for using Envoy Gateway to handle request traffic from application clients to Generative AI services. When using Envoy AI Gateway, we refer to a two-tier gateway pattern. The Tier One Gateway functions as a centralized entry point, and the Tier Two Gateway handles ingress traffic to a self-hosted model serving cluster. - The Tier One Gateway handles authentication, top-level routing, and global rate limiting - The Tier Two Gateway provides fine-grained control over self-hosted model access, with endpoint picker support for LLM inference optimization. Supported AI Providers Envoy AI Gateway supports a wide range of AI providers, making it easy to integrate with your preferred LLM services: Tetrate Agent Router Service - Blog introducing Envoy AI Gateway. - Documentation for Envoy AI Gateway. - Quickstart to use Envoy AI Gateway in a few simple steps. - Concepts to understand the architecture and resources of Envoy AI Gateway. - Talks and Presentations about Envoy AI Gateway. - Slack: Join the [Envoy Slack workspace][] if you're not already a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-gateway, api-gateway, cncf, inference, kubernetes
+
+---
+
+### 🌟 [ethora](https://github.com/dappros/ethora)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 544
+- **核心概述**: SDK monorepo for Ethora chat / messaging platform. (1) Pick an SDK for your frontend stack. (2) Integrate manually or using ethora-setup. (3) Optionally configure app settings, deploy AI agents etc. Server: ethora.com cloud [free]. Dedicated server + SLA option for enterprise customers.
+- **大概是做什么的**: Ethora — SDK Monorepo Chat, AI and messaging SDK platform. Add real-time messaging, AI bots, and backend services to your app in minutes. This repository serves as the SDK monorepo — a single place to discover, clone, and navigate all Ethora SDKs, tools, and sample apps. Each component lives in its own focused repository, linked here as git submodules. Folder Repository Description Status -------- ----------- ------------- -------- sdk-reactjs/ ethora-chat-component React.js chat SDK — embed chat in any web app Active sdk-reactnative/ ethora-chat-component-rn React Native chat SDK (iOS & Android) Active sdk-android/ ethora-sdk-android Native Android SDK (Kotlin) Active sdk-swift/ ethora-sdk-swift Native iOS SDK (Swift) Active sdk-wordpress/ ethora-wp-plugin WordPress plugin — no-code chat widget Active app-reactjs/ ethora-app-reactjs Full web app (React.js) — App Builder frontend Active playground/ ethora-sdk-playground SDK testing & demo playground Active backend-integration/ ethora-sdk-backend-integration Backend integration examples Active mcp-cli/ ethora-mcp-server MCP CLI for ID
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-chat, chat, chat-engine, chat-sdk, chat-widget, chatbot
+
+---
+
+### 🌟 [AdCraft](https://github.com/GML-MMGroup/AdCraft)
+- **项目语言**: Python
+- **星标数量**: ⭐ 212
+- **核心概述**: AdCraft — 首个面向营销广告的 Agentic 视频制作平台。无限画布 · 拉片复刻 · 全流程自动化，从创意到成片一站直达。AdCraft — The first agentic video production platform for marketing and advertising. Infinite canvas · shot-by-shot replication · fully automated, from idea to final cut.
+- **大概是做什么的**: The First Agentic Video Production Platform for Marketing & Advertising From a rough idea to a finished ad — AdCraft automates your entire advertising video workflow. Just describe your idea — what the product is, which selling points to highlight, the style you want, the video length, and the target platform — and AdCraft automatically builds a complete, editable ad production pipeline for you. - [2026-08-28] ✨ Added Style Skill capabilities and optimized Agent conversation node generation. - [2026-08-19] 🚀 Strengthened and stabilized the Agent-guided creative workflow, alongside a visual refresh of the AdCraft frontend homepage. - [2026-08-04] ✨ Agent Canvas received a major upgrade, improving the interaction experience and introducing progressive AI-guided creation. - [2026-07-23] 🗂️ Added the Character Asset Library and Scene Asset Library. - [2026-07-15] ⚙️ Released the AdCraft backend. - [2026-07-08] 🎨 Released the AdCraft frontend. - [2026-07-01] 🎉 AdCraft was officially launched as an open-source project. 🌟 Showcase — Ad Videos Across Industries Real ad videos produced w
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, canvas, open-source, openai, openmontage
+
+---
+
+### 🌟 [postal](https://github.com/andrefetch/postal)
+- **项目语言**: Python
+- **星标数量**: ⭐ 127
+- **核心概述**: An open-source, terminal-based AI coding agent that reads your code, calls tools, and helps you build.
+- **大概是做什么的**: An open-source AI coding agent that lives in your terminal. Plans, edits, runs, and reviews code with any model on OpenRouter. Postal connects to LLMs through OpenRouter, reads and edits your code with a built-in tool set, runs shell commands, delegates to specialized sub-agents, and streams everything through a full-screen TUI. Every mutating action goes through an approval policy you control, so it is as autonomous or as careful as you want it to be. Two commands and you are talking to an agent in your own repo: More ways to run it: Configuration lives in /.config/postal/config.toml , with per-project overrides in .postal/config.toml , and AGENTS.md is picked up automatically. Full CLI reference configuration reference Page What it covers CLI reference Installing, logging in, every command and flag Configuration config.toml , per-project overrides, AGENTS.md , every option Tools The built-in tool set, sub-agents, MCP servers Approvals The six approval policies and the rules that override them Sessions Saving, resuming, checkpointing and rewinding conversations Slash commands Everyt
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai, cli, coding-agent, developer-tools, llm
+
+---
+
+### 🌟 [turbovault](https://github.com/Epistates/turbovault)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 150
+- **核心概述**: Markdown and OFM SDK w/ MCP server that transforms your Obsidian vault into an intelligent knowledge system
+- **大概是做什么的**: The ultimate Rust SDK and high-performance MCP server for Obsidian-flavored Markdown (.ofm) and standard .md vaults. TurboVault is a dual-purpose toolkit designed for both developers and users. It provides a robust, modular Rust SDK for building applications that consume markdown directories, and a full-featured MCP server that works out of the box with Claude and other AI agents. Two Ways to Use TurboVault 1. As a Rust SDK (For Developers) - Modular Architecture : Use only what you need (Parser, Graph, Search, etc.). - High Performance : Sub-100ms operations for most tasks. - Extensible : Easily build your own specialized MCP servers on top of our core logic. - SOTA Standards : Fully supports Obsidian-flavored Markdown (wikilinks, embeds, callouts). 2. As a Ready-to-Use MCP Server (For Users) Transform your Obsidian vault into an intelligent knowledge system immediately. Connect TurboVault to Claude Desktop or any MCP-compatible client to gain 74 specialized tools for your notes. - Zero Coding Required : Install the binary and point it at your vault. - 74 Specialized Tools : Searchi
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, markdown, mcp, mcp-server, ofm, rust
+
+---
+
 ## 🕔 2026-09-08 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
