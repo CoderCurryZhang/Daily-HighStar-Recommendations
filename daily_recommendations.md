@@ -1,3 +1,67 @@
+## 🕔 2026-09-08 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [docmd](https://github.com/docmd-io/docmd)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,444
+- **核心概述**: Documentation compiler for humans and machines. One Markdown source to website, search, AI context, and knowledge formats together.
+- **大概是做什么的**: EN &nbsp; &nbsp; DE &nbsp; &nbsp; 中文 &nbsp; &nbsp; ES &nbsp; &nbsp; 日本語 &nbsp; &nbsp; FR &nbsp; &nbsp; RU Documentation for humans and machines. One Markdown source → website, search, AI context, and agent protocols. All generated together. Website &nbsp;·&nbsp; Documentation &nbsp;·&nbsp; AI Cloud Relay &nbsp;·&nbsp; Live Editor &nbsp;·&nbsp; Agent Skills &nbsp;·&nbsp; ✦ 0.9 Series — Documentation for Humans and Machines docmd compiles your Markdown into everything the modern stack needs — a fast static website for human readers, search indexes, AI context files ( llms.txt ), MCP server endpoints for coding agents, and structured knowledge bundles (OKF) for RAG pipelines. One source. One build. Every output. Follow the 0.9 roadmap → Run docmd in any folder with Markdown files — no install needed: Opens at http://localhost:3000 Navigation is generated from your file structure. No config file, no frontmatter required, no framework to learn. When you're ready to ship: This outputs a highly optimized static site (SPA) ready for deployment to Vercel, Cloudflare Pages, Netlify, GitHub Pag
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-skills, api, context-api, docker, docmd, documentation
+
+---
+
+### 🌟 [chronos-forecasting](https://github.com/amazon-science/chronos-forecasting)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,824
+- **核心概述**: Chronos: Pretrained Models for Time Series Forecasting
+- **大概是做什么的**: Chronos: Pretrained Models for Time Series Forecasting - 5 Jun 2026 : ☁️ Deploy Chronos-2 to AWS with AutoGluon-Cloud — real-time, serverless, or batch inference in 3 lines of code, pandas DataFrames in, forecasts out. See the new deployment guide. - 30 Dec 2025 : 🧠 Deploy Chronos-2 to AWS with Amazon SageMaker JumpStart — production-ready real-time endpoints on CPU or GPU, ready to integrate into your existing AWS workflows. See the deployment tutorial. - 20 Oct 2025 : 🚀 Chronos-2 released. It offers zero-shot support for univariate, multivariate, and covariate-informed forecasting tasks. Chronos-2 achieves the best performance on fev-bench, GIFT-Eval and Chronos Benchmark II amongst pretrained models. Check out this notebook to get started with Chronos-2. - 12 Dec 2024 : 📊 We released fev , a lightweight package for benchmarking time series forecasting models based on the Hugging Face datasets library. - 26 Nov 2024 : ⚡️ Chronos-Bolt models released on HuggingFace. Chronos-Bolt models are more accurate (5% lower error), up to 250x faster and 20x more memory efficient than the or
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: artificial-intelligence, forecasting, foundation-models, huggingface, huggingface-transformers, large-language-models
+
+---
+
+### 🌟 [OpenLore](https://github.com/clay-good/OpenLore)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 301
+- **核心概述**: Deterministic, local-first memory and guardrails for AI coding agents with no LLM in the hot path.
+- **大概是做什么的**: Deterministic, local-first memory and guardrails for AI coding agents — with no LLM in the hot path. One call tells your agent the code a task touches; one gate tells it what's unsafe to change. Grounded in static analysis. No API key. Same answer every time. A real, unedited recording — the published openlore on a fresh clone of ripgrep . install wires your agent and indexes the repo live — 235 files, 2,978 functions, 4,329 call edges in 14 seconds , no API key → orient returns the code a task touches → review catches a signature change that left 39 callers stale → prove projects the payoff. Re-record it yourself: docs/openlore-demo.tape . Install · What you get · Benchmarks · Governance · How it works · vs. Alternatives · Docs AI coding agents are powerful but amnesiac and ungoverned : every task restarts by re-reading the same files, long sessions drift onto stale assumptions, and nothing warns the agent when a change is about to break a contract or cross a boundary. OpenLore fixes both halves. It runs a one-time static analysis of your repo and keeps a live knowledge graph — call
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: adr, agentic-workflows, ai-agents, call-graph, code-navigation, codebase-analysis
+
+---
+
+### 🌟 [tfmcp](https://github.com/nwiizo/tfmcp)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 371
+- **核心概述**: 🌍 Terraform Model Context Protocol (MCP) Tool - An experimental CLI tool that enables AI assistants to manage and operate Terraform environments. Supports reading Terraform configurations, analyzing plans, applying configurations, and managing state with Claude Desktop integration. ⚡️
+- **大概是做什么的**: tfmcp: Terraform Model Context Protocol Tool ⚠️ This project includes production-ready security features but is still under active development. While the security system provides robust protection, please review all operations carefully in production environments. ⚠️ tfmcp runs local Terraform workflows through the Model Context Protocol (MCP). It helps AI assistants inspect a project, prepare execution, review a saved plan, apply that same plan, and check the result. Registry and HCP/TFE tools support these local workflows. See tfmcp in action with Claude Desktop: - Reading Terraform configuration files - Analyzing Terraform plan outputs - Applying Terraform configurations - Managing Terraform state - Creating and modifying Terraform configurations tfmcp v0.2.3 is the current release: What's new in v0.2.3 - Saved plans shared by analysis, review, PR summaries, and apply - Local execution preparation with workspace, backend, validation, and state checks - Correct Terraform JSON parsing and sensitive-value redaction - Non-interactive execution, timeouts, and structured apply/state ver
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: mcp, mcp-server, terraform
+
+---
+
+### 🌟 [gtm-mcp-server](https://github.com/sprawz/gtm-mcp-server)
+- **项目语言**: Go
+- **星标数量**: ⭐ 158
+- **核心概述**: An MCP server for Google Tag Manager. Connect it to your LLM, authenticate once, and start managing GTM through natural language.
+- **大概是做什么的**: GTM MCP Server connects MCP clients to the Google Tag Manager API. It can inspect containers, create and update workspace entities, create versions, and publish a selected version after explicit confirmation. Use the hosted server at: The server supports browser-based Google OAuth for individual users and service-account authentication for self-hosted automation. Item Current state Version in server.json 1.10.1 Transport MCP Streamable HTTP Runtime tools 64 GTM tools by default; 70 with GTM TOOL GROUPS=all , plus 2 utility tools MCP resources 8 resource definitions MCP prompts 6 prompts Official GTM API coverage 70 of 106 methods Planned parity target 101 of 106 methods Hosted endpoint https://mcp.gtmeditor.com API parity is not complete . The project has implemented 70 methods from Google's 106-method GTM v2 discovery surface. Another 31 methods are planned. The five accounts.user permissions methods are intentionally excluded because granting and revoking GTM access needs a separate privilege-management design. The remaining roadmap includes workspace synchronization and conflict r
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, chatgpt, claude, golang, google-api, google-tag-manager
+
+---
+
+### 🌟 [funes](https://github.com/huggingface/funes)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 308
+- **核心概述**: Durable, searchable memory of your past agent sessions.
+- **大概是做什么的**: Durable memory for your AI coding agents. funes indexes your past sessions across Claude Code, Codex, pi, and Hermes and lets any agent recall the past decisions, rationale, and findings. Your memory is a dataset you can publish to the Hugging Face Hub — then any machine, teammate, or agent can recall from it. Put a question to a memory and borrow a coding agent to answer it: funes recalls the relevant sessions, hands them over, and you get one grounded answer that names the sessions it drew from — nothing installed. Here it reads the public huggingface/funes-memory dataset named right in the command. Features at a glance - Your agent recalls your past work. The model spontaneously uses funes to recall prior decisions, rationale, and findings mid-task. - One memory across your agents. Index Claude Code, Codex, pi, and Hermes into a single memory; recall spans all of them, and every hit shows which agent it came from. - Your memory is a Hugging Face dataset. Publish it to the Hugging Face Hub; a teammate, another of your machines — or anyone, if you make it public — recalls from it wi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agents, claude-code, codex, hermes, lance
+
+---
+
 ## 🕔 2026-09-08 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
