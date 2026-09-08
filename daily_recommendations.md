@@ -1,3 +1,67 @@
+## 🕔 2026-09-08 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [xTuring](https://github.com/stochasticai/xTuring)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,674
+- **核心概述**: 建立、个性化和控制您自己的法学硕士。从数据预处理到微调，xTuring 提供了一种个性化开源法学硕士的简单方法。加入我们的不和谐社区：https://discord.gg/TgHXuSJEk6
+- **大概是做什么的**: 微调、评估和运行私有、个性化的 LLM xTuring 使您可以在本地或私有云中根据您自己的数据简单、快速且经济高效地微调开源 LLM（例如 GPT-OSS、LLaMA/LLaMA 2、Qwen3、MiniMax M2、GPT-J、GPT-2、DistilGPT-2、Mamba）。 - 用于数据准备、训练和推理的简单 API - 默认私有：在本地或您的 VPC 中运行 - 高效：LoRA 和低精度 (INT8/INT4) 以削减成本 - 轻松从 CPU/笔记本电脑扩展到多 GPU - 使用内置指标（例如，困惑度）评估模型 注意：xTuring 需要变压器 =4.36.0 。暂时不要升级到 Transformer 5.x — 5.x 降低了 INT8/INT4 引擎所依赖的 8 位负载/4 位负载 kwargs，并且当前发布的任何内容都不需要 5.x。 Qwen3-Omni 支持（需要 Transformers =5.0.0 ）尚未发布 - 请参阅 318。 开发安装 如果您想为 xTuring 做出贡献或从源代码运行：首先运行一个小型的、CPU 友好的示例：想要更大的模型和推理控制吗？尝试 GPT‑OSS 变体（需要大量资源）：您可以找到他的数据文件夹
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: adapter, deep-learning, fine-tuning, finetuning, gen-ai, generative-ai
+
+---
+
+### 🌟 [mosec](https://github.com/mosecorg/mosec)
+- **项目语言**: Python
+- **星标数量**: ⭐ 902
+- **核心概述**: 高性能 ML 模型服务框架，提供动态批处理和 CPU/GPU 管道，以充分利用您的计算机
+- **大概是做什么的**: 模型服务在云中变得高效。 Mosec 是一个高性能且灵活的模型服务框架，用于构建支持 ML 模型的后端和微服务。它弥合了您刚刚训练的任何机器学习模型与高效在线服务 API 之间的差距。 - 高性能：使用 Rust 🦀 构建的 Web 层和任务协调，除了由异步 I/O 提供支持的高效 CPU 利用率之外，还提供极快的速度 - 易于使用：纯粹使用 Python 编写的用户界面 🐍，用户可以使用与离线测试相同的代码，以与 ML 框架无关的方式提供模型服务 - 动态批处理：聚合来自不同用户的请求，以进行批量推理并将结果分发回来 - 流水线阶段：生成多个进程处理 CPU/GPU/IO 混合工作负载的管道阶段 - 云友好：设计为在云中运行，具有模型预热、正常关闭和 Prometheus 监控指标，可通过 Kubernetes 或任何容器编排系统轻松管理 - 做好一件事：专注于在线服务部分，用户可以关注
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: cv, deep-learning, gpu, hacktoberfest, jax, llm
+
+---
+
+### 🌟 [rea](https://github.com/morluto/rea)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 398
+- **核心概述**: 使用代理对任何内容进行逆向工程，从应用程序行为到本机二进制文件。
+- **大概是做什么的**: 英语 · 简体中文 · 日本语 · 한국어 · ๑ REA: 逆向工程任何东西 使用代理对任何东西进行逆向工程，从应用程序行为到本机二进制文件。查看您喜欢的功能。了解其工作原理，直至二进制级别。快速入门 · 当前状态 · 调查模型 · 工具目录 · 路线图 · 工作原理 npm install --global rea-agents && rea setup 看到您想要在自己的产品中使用的应用程序功能吗？将应用程序交给您的代理——即使没有源代码。借助 REA，代理可以调查该功能，解释其工作原理，展示其证据，并构建适合您的堆栈和要求的版本。 REA 为代理提供了一种一致的方式来调查软件。如今，其中包括通过 Hopper 或在 Linux 上自带 Ghidra 进行深入的本机分析和功能档案，以及用于经批准的本机 PE 应用程序的实验性 Windows x64 Ghidra P0；免执行的托管 PE/CLI 分类；可重复的 Evidence v2 记录；受控过程捕获；被动网站、Electron 页面和 Node/Electron V8 Inspector 观察；有界 JavaScript/源映射重建
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-agent-tools, ai-agents, binary-analysis, cli, coding-agent
+
+---
+
+### 🌟 [base](https://github.com/ChristopherKahler/base)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 171
+- **核心概述**: 人工智能构建器操作系统。将 Claude Code 从每会话工具转变为可记忆、自我维护且永不过时的工作区。 BASE = Builder 的自动状态引擎。
+- **大概是做什么的**: 今天可与 Claude Code 配合使用 Codex 和 Antigravity — 即将在 macOS 和 Linux 上推出。 Windows 一行如下。没有 Rust 工具链，没有编译器。你的经纪人是个失忆的天才。每次会话它都会第一次遇到您的代码库，然后假装不是。 basemode 为它提供了一种真正知道事物是什么的记忆——你的代码结构、你的项目、你的决策、你的规则，这一切意味着什么以及它如何连接——并在需要时将其正确的部分放在模型前面。没有提示粘贴。无需维护任何文档。同一代理人，已通报。该存储库是基本模式引擎：一个 Rust 二进制文件 base ，它将您的工作空间映射到知识图并将其连接到 Claude Code 的钩子管道中。同样的问题，两次询问未通报情况的代理，其中使用了某个函数，并且它进行了 greps。十二个文件之后，它有了一个猜测，并以语法良好的完整句子表达。询问在基本模式上运行的代理，在它开始查找之前答案就已经在它的前面了——图表提前映射了每个函数、调用者和导入，并且钩子 p
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, agentic-ai, ai-agents, ast, claude-code, cli
+
+---
+
+### 🌟 [cesium-mcp](https://github.com/gaopengbin/cesium-mcp)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 135
+- **核心概述**: 与协议无关的 CesiumJS AI 控制 MCP、WebMCP、函数调用和浏览器代理的运行时。
+- **大概是做什么的**: AI 应用开发 · Agent 应用开发 · AI 产品全栈 我是高鹏彬，有约 6 年软件开发经验。如果你们团队正在招人，欢迎联系，也感谢帮忙内推或转发！ 📄 查看简历 PDF · ✉️ 联系我 查看我的项目与个人介绍 → · 邮箱： 1804287165@qq.com 📣 Built with Cesium MCP? / 谁在使用 Cesium MCP？ Share your project, screenshots, or feedback—work in progress is welcome! / 欢迎分享项目、截图和使用反馈，开发中的作品也欢迎！ Share / 分享 → Issue 44 · Discussion / 讨论区 A protocol-agnostic Cesium AI control runtime for MCP, WebMCP, function calling, and browser agents cesium-mcp-bridge is the protocol-agnostic Cesium command executor. Separate adapters expose it to browser-only agents , WebMCP browser agents , function calling , or MCP — your choice. Four integration paths: Browser Agent (simplest, zero backend) · WebMCP (page-local browser tools) · function calling (embed in your web app) · MCP runtime (Claude Desktop / Cursor / Dify) The local Runtime is only required for external MCP hosts. Browser Agent, WebMCP, and function-calling integrations execute the same commands directly in the web application. Try it now — open the live browser demo, no install, no signup. Getting Started · https://github.com/user-attachments/
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-globe, 3d-visualization, ai, ai-agent, cesium, cesiumjs
+
+---
+
+### 🌟 [canonry](https://github.com/Canonry/canonry)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 133
+- **核心概述**: 代理商优先的AI SEO（AEO/GEO）运营平台。
+- **大概是做什么的**: Canonry是一个代理优先的开源AEO操作平台。随着时间的推移跟踪 AI 可见性，调查搜索和流量的变化，并在代理采取行动后衡量进度。自托管，使用您自己的提供商密钥。您的仪表板和代理审查相同的项目证据。快速入门 · 证据 · 操作 · 集成 · 文档 从您的代理开始 将代理插件或 MCP 适配器连接到您的代理。启用后，内置 Aero 会审查证据并在完成运行后唤醒。对于新安装，请向您的代理提供此设置请求：复制首次设置请求 2. 初始化 Canonry。 4. 打开http://127.0.0.1:4100/setup 并按照设置扫描您的站点。抓取会保存页面运行状况基线。 AI 可见性是可选的，并且有单独的设置。从终端扫描并读取结果 保持 cnry 服务处于活动状态。在第二个终端中，创建一个项目并启动有界扫描：从输出中读取运行 ID 和状态。如果状态为 Completed 或 Partial ，请读取该运行的证据： --wait polls 最多 15 分钟。如果扫描仍然处于活动状态，请使用 cnry 技术
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: aeo, agent, ai-search, ai-visibility, answer-engine-optimisation, answer-engine-optimization
+
+---
+
 ## 🕔 2026-09-07 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
