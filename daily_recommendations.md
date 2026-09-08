@@ -1,3 +1,67 @@
+## 🕔 2026-09-08 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI)
+- **项目语言**: Go
+- **星标数量**: ⭐ 6,440
+- **核心概述**: The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.
+- **大概是做什么的**: The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next. CyberStrikeAI connects planning, execution, human oversight, evidence, and replay in one auditable workspace. Built in Go, it combines Eino-powered agents, MCP-native tools, RAG knowledge, visual workflows, and attack-chain modeling and analysis for authorized security operations. Start here: Quick start · Documentation · Security hardening Use CyberStrikeAI only on systems you own or are explicitly authorized to test. For shared or production environments, review the security model and hardening guide before enabling high-risk tools, WebShell, or C2 capabilities. Interface & Integration Preview System Dashboard Overview The dashboard provides a comprehensive overview of system runtime status, security vulnerabilities, tool usage, and knowledge base, helping users quickly understand the platform's core features and current state. More interface screenshots Core Features Overview Vulnerability Management Agents and orches
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-cybersecurity, ai-hacking, ai-penetration-testing, ai-security-tool
+
+---
+
+### 🌟 [jonex](https://github.com/yuezhiai/jonex)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,014
+- **核心概述**: All-in-One Multimodal Parsing Engine + Ontology-Powered, LLM Wiki-Driven AI-Ready Knowledge Engine
+- **大概是做什么的**: AI Multimodal Domain Knowledge Engine Built for Enterprise Agents · Powered by the Dual Engines of Jonex Wiki and Graph Ontology Document and video parsing Runtime requirements Community &amp; Security If you find value in Jonex, please ⭐ Star the project to support us. Jonex unifies an all-in-one multimodal parsing engine with an AI-ready knowledge engine. Ontology compiles domain reasoning into the knowledge layer before retrieval begins. It is an end-to-end enterprise AI knowledge platform that turns raw content into reusable knowledge services. Jonex connects data ingestion, multimodal parsing, domain knowledge compilation, vector and graph indexing, source-grounded retrieval, feedback loops, and business applications in one governed system. Docker Compose is the fastest way to run the complete platform. - Docker Engine or Docker Desktop - Docker Compose v2 with Buildx - make on macOS or Linux - Sufficient disk space and time for the first build, which downloads container images, Python dependencies, and RAG models 1. Clone the repository 2. Initialize configuration - deploy/.env
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, asr, fde, graph-rag, konwledge-base
+
+---
+
+### 🌟 [okf-agent-memory](https://github.com/okf-memory/okf-agent-memory)
+- **项目语言**: Go
+- **星标数量**: ⭐ 476
+- **核心概述**: Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.
+- **大概是做什么的**: A Domain-Neutral, Git-Native Persistent Project Memory for AI Agents based on the Open Knowledge Format (OKF) v0.2. Conversations with AI agents reset when context windows close. Valuable architectural decisions, domain discoveries, and operational facts are lost unless stored persistently. OKF Agent Memory provides a standardized, vendor-neutral memory layer that lives directly in your repository ( knowledge/ ) as plain Markdown files with YAML frontmatter. It bridges the gap between unstructured ad-hoc markdown files ( CLAUDE.md , AGENTS.md ) and complex, black-box vector databases. Blazing Fast Performance ( [!TIP] Reproduce Locally with your own LLM : We provide an automated benchmark runner in pure Go to verify Time-To-First-Token (TTFT) speedups and -80% token reduction on your local hardware (LM Studio / Ollama with Gemma, Qwen, Llama). Run make benchmark or explore the Progressive Disclosure Benchmark Suite. 1. Build the Tooling Clone the repository and compile the standalone okf executable: This generates the standalone binary at bin/okf . 2. Basic CLI Commands 3. Bootstrapp
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, ai-agents, bm25, coding-agents, developer-tools, git-native
+
+---
+
+### 🌟 [coolify-mcp](https://github.com/StuMason/coolify-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 586
+- **核心概述**: MCP server for Coolify — 42 optimized tools for managing self-hosted PaaS through AI assistants
+- **大概是做什么的**: Manage Coolify from Claude, Cursor, or any MCP client: 45 consolidated tools for deploying, debugging, and operating your self-hosted PaaS in plain English. 📖 coolify-mcp.stumason.dev : what it does, how to install it, and why it is safe to point at production. This README is the full reference: every tool, every gotcha, every parameter. You need a running Coolify v4 instance and an API token (Coolify → Settings → API). Claude Desktop, one-click: download coolify-mcp.mcpb and drag it into Settings → Extensions . You'll be prompted for your Coolify URL and token. No Node install, no JSON editing. Any MCP client (JSON config): Behind Cloudflare Access or an auth proxy? Add --header "Key: Value" args (repeatable). The same config works in Cursor, Claude Code and any other MCP client, and can be repeated for multiple Coolify instances. Remote (HTTP + OAuth, v3): deploy the server as a container inside your own Coolify and connect claude.ai or any remote MCP client to https://your-domain/mcp . Your Coolify token stays server-side; clients authenticate with OAuth 2.1. See docs/http-mode.m
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, claude, coolify, deployment, devops, infrastructure
+
+---
+
+### 🌟 [Meta_Kim](https://github.com/KimYx0207/Meta_Kim)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 271
+- **核心概述**: Governed execution layer for AI coding assistants: clarify intent, route capabilities, review evidence, verify results, and write back lessons across Claude Code, Codex, OpenClaw, and Cursor.
+- **大概是做什么的**: Tell your coding agent what you want. Meta Kim turns that request into a visible, reviewed, verifiable execution. Meta Kim is not a new model and it does not replace Claude Code or Codex. It adds the missing team layer around them: clarify the goal, find the right capabilities, split safe parallel work, review the result, verify the evidence, and preserve useful lessons for the next run. You say: “Finish the sign-up and login flow. Keep existing users working, split frontend/backend/testing where useful, and tell me exactly what was verified.” What happens next What you can see The vague request becomes a goal, success criteria, and non-goals What Meta Kim understood before files change Existing agents, skills, commands, tools, runtime support, and project evidence are checked Why each capability and owner was selected Independent work is split and coordinated when the host supports it Who is working on product, frontend, backend, security, or testing Review challenges the implementation; verification checks fresh evidence Passed checks, failed checks, blockers, and remaining risk Re
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-governance, ai-agents, ai-coding, claude-code, codex, cursor
+
+---
+
+### 🌟 [open-browser-use](https://github.com/iFurySt/open-browser-use)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 262
+- **核心概述**: 🔮 Platform-neutral Browser Use for AI agents: real Chrome automation with a CLI + SDKs, no lock-in, dead simple.
+- **大概是做什么的**: Interested in Computer Use? Check out open-computer-use. open-browser-use is a browser automation layer that stays neutral across agent runtimes. It is also an open-source alternative to the Chrome Browser Use capability recently shipped in Codex.app. For the story behind it, see the Browser Use Deep Dive. Under the hood, it pairs a browser extension with the open-browser-use CLI. You can integrate it through the JavaScript SDK, Python SDK, Go SDK, or the CLI. https://github.com/user-attachments/assets/bcfba878-f6a8-44b9-b84b-29c7e0285687 Register the native host for the extension. The setup command also opens the Chrome Web Store page so you can install or enable the matching Chrome extension, then restart Chrome if needed. If the Chrome Web Store item is temporarily unavailable, use open-browser-use setup beta to prepare a keyed release ZIP for manual installation from chrome://extensions/ . The SDK package name is open-browser-use-sdk on both npm and PyPI. Python code imports it as open browser use ; Go code imports the SDK package as Install the skill directly: Update an existing
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-agents, browser-automation, browser-use, browser-use-agent, cdp
+
+---
+
 ## 🕔 2026-09-08 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
