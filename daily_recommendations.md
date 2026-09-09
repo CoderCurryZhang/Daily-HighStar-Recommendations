@@ -1,3 +1,67 @@
+## 🕔 2026-09-09 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 267 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agent-rules-books](https://github.com/ciembor/agent-rules-books)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 2,731
+- **核心概述**: AGENTS.md rules / skills for AI coding agents: Codex, Cursor & Claude Code. Inspired by Clean Code, Refactoring, DDD, Clean Architecture and DDIA programming books.
+- **大概是做什么的**: AI agents Rules / Skills from Programming Books v0.6 AGENTS.md rules / skills for Codex , Cursor , Claude Code , distilled from classic software engineering books about refactoring, architecture, DDD and code quality. MIT licensed universal project rules for coding agents. This repository contains ready-to-use rule sets inspired by well-known books on software design, architecture, refactoring, legacy code, reliability, and data-intensive systems. For editor-specific setup in Codex, Claude Code, and Cursor, see USAGE.md. It covers always-on vs on-demand usage, skills, scoped rules, and the preferred setup for each editor. Each rule set is released in three tool-agnostic Markdown versions: - mini : the recommended version for most real task use - nano : the compact fallback for very tight context budgets - full : the canonical complete source and reference version For constructive criticism from Reddit, see CRITICISM.md. For release history, see CHANGELOG.md. Installation as Skills Install all book skills with the open Agent Skills CLI: List available skills without installing: Instal
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-rules, agent-skills, agent-skills-manager, agents-md, agents-rules, agents-skills
+
+---
+
+### 🌟 [agent-memory](https://github.com/tigerless-labs/agent-memory)
+- **项目语言**: Python
+- **星标数量**: ⭐ 713
+- **核心概述**: Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.
+- **大概是做什么的**: agent-memory: the long-term memory runtime for AI agents Invariants · Skill · Issues An agent that closes its session forgets everything it learned in it. agent-memory is the runtime that fixes that, for any agent — not only coding ones. Markdown files in one store are the single source of truth, the SQLite index beside them is a cache you can delete at any time, and Claude Code, Codex CLI, and anything else that can run a shell command share that store. Retrieval is local and ranked, and it answers with paths rather than pasted text — the agent opens each hit only as deep as the task needs. Writes do not wait for the agent to remember to make them: they fire at conversation boundaries. A sleep-time pass then consolidates and forgets by value, on its own clock. None of it needs an API key. Two lines, one store Agent memory has grown along two architectural lines. One builds a retrieval engine — embeddings, a knowledge graph, a ranking pipeline — which finds the right thing, but hands the agent an opaque chunk it cannot inspect and a store it cannot migrate off. The other hands the ag
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agents, claude-code, codex, llm, local-first
+
+---
+
+### 🌟 [Blue-Whale-Harness](https://github.com/leenkcool/Blue-Whale-Harness)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 193
+- **核心概述**: 🐋 DeepSeek Harness 插件总目录 · The catalog of DSH plugins：1958 个仓库 / 1819 个真插件（Skills · MCP · Tools · UI · Orchestration），中英文搜索、分类筛选、STAR 排序 → leenkcool.github.io
+- **大概是做什么的**: DeepSeek Harness（DSH）插件总目录 — 收录 GitHub 上散落各处的 DSH 插件、Skill、MCP Server 与周边工具，逐个校验「是否为真插件」，并做成可搜索、可筛选、可导出的在线总表。 🌐 在线总表：leenkcool.github.io — 中英文搜索、分类筛选、按 STAR 排序、CSV 导出。 自动生成于 2026-09-09 ｜ 共 1963 个仓库 ｜ 真·DSH 插件 1824 个 QQ Group:839509497 Tg Group: http://t.me/deepseekdsh 1. 找插件 — 直接开 在线总表，按关键词 / 分类 / STAR 检索，比翻 README 快得多。 2. 翻清单 — 不想开网页就往下看「插件清单」，或下载 plugins.csv 自己筛。 3. 提交收录 — 发一个 issue（模板 catalog-intake ）写出仓库地址与分类，或按 repos.txt 格式提 PR。 收录标准：仓库含 cordis.patch.yml 判为 真·DSH 插件 ，其余按「相关生态」单独标记，两者都进表、不混算。 - 在线浏览：https://leenkcool.github.io （中文版 ｜ English ｜ CSV 数据） - llm — 165 个仓库，★101293 - utility — 375 个仓库，★66624 - session — 236 个仓库，★27296 - skills — 53 个仓库，★25583 - tools — 626 个仓库，★22891 - orchestration — 200 个仓库，★18855 - ui — 209 个仓库，★15331 - uncategorized — 1 个仓库，★3779 - sandbox — 12 个仓库，★743 - acp — 65 个仓库，★718 - memory — 7 个仓库，★132 - skin — 11 个仓库，★40 - preset — 2 个仓库，★4 - notify — 1 个仓库，★2 按分类分组，组内按 STAR 倒序。点击仓库名即可跳转原项目。 仓库 意图(中文) Intent(English) STAR 语言 真DSH --- --- --- --- --- --- nexu-io/open-design 开源的 Claude Design 替代方案。🖥️ 本地优先的桌面应用。🖼️ 让你的编码智能体变身设计引擎：原型、落地页…… 🎨 The open-source
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, awesome, awesome-list, catalog, deepseek, deepseek-ai
+
+---
+
+### 🌟 [bio](https://github.com/yorkeccak/bio)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 341
+- **核心概述**: The world's most powerful open-source bio AI assistant - Access academic literature, clinical trials, drug labels, and more, all through natural conversation.
+- **大概是做什么的**: Try the hosted version here 🙌 Then fork and get building... Enterprise-grade biomedical deep research - Pick a life sciences workflow, fill in a few variables, and get back a cited research report with deliverables. Powered by Valyu DeepResearch over PubMed, ClinicalTrials.gov, FDA drug labels, patents, and the open web. Biomedical evidence is fragmented across dozens of databases, and stitching it together by hand is where the days go. Bio runs the whole search-read-synthesise loop for you: - Prebuilt life sciences workflows - Competitive landscapes, clinical readouts, regulatory precedent, and business development scans, each with typed inputs instead of a blank prompt box - Comprehensive biomedical data - PubMed articles, ClinicalTrials.gov records, FDA drug labels, patents, and more through Valyu's unified API - Cited reports - Every claim carries an inline citation that resolves to the underlying source - Deliverables - Structured artifacts alongside the narrative, plus PDF export - Example reports - Real finished reports per domain, so you can see the output before spending a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: academic-paper, ai, ai-agents, bio-ai, drug-design, drug-discovery
+
+---
+
+### 🌟 [srelens](https://github.com/srelens/srelens)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 163
+- **核心概述**: The Kubernetes control room—built in Rust, ready for engineers and AI agents.
+- **大概是做什么的**: The Kubernetes control room—built in Rust, ready for engineers and AI agents. srelens is an open-source, local-first Kubernetes desktop workspace for SREs, platform engineers, and DevOps engineers. Investigate, analyse, and take safe action across clusters from one application built with Tauri v2, React 19, and a pure-Rust core. Kubernetes troubleshooting often means moving between terminals, dashboards, YAML editors, logs, and cluster contexts. srelens brings that investigation loop into one local-first desktop workspace. - One workspace from investigation to action — browse resources, inspect events and YAML, follow logs, use terminals, manage port forwards, and take cluster actions without constantly switching tools. - Built for engineers and AI agents — supported backend capabilities are also available through the built-in MCP server. - Local-first cluster access — srelens uses credentials from your local kubeconfig and connects directly to Kubernetes API servers, without routing cluster access through a srelens cloud service. - Safe operations — destructive actions are identifie
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: desktop-app, devops, ide, kubernetes, mcp, rust
+
+---
+
+### 🌟 [opencompany](https://github.com/tinyhumansai/opencompany)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 113
+- **核心概述**: Open source runtime where AI agents run every function of a one-person company.
+- **大概是做什么的**: Run an entire company with a headcount of one. OpenCompany is the operating layer for one-person businesses powered by agents. You bring the vision and the judgment calls. Your agents do the work: every function, around the clock, at the speed of software. 🚧 Work in progress. OpenCompany is under active development and moving fast. APIs, the CLI, the example harnesses, and the docs will change without notice. Explore it, fork it, build on it, but don't depend on anything staying put yet. Not production-ready. For a century, ambition meant headcount. Want to ship a product? Hire engineers. Want customers? Hire marketers, then sales, then support. Every new capability was a new payroll line, a new manager, a new quarter of ramp-up. That tax is gone. OpenCompany turns a single operator into a full org chart. Scouts, founders, engineers, designers, marketers, lawyers, finance, support and recruiters, all instantiated as agents, coordinated by one host, working while you sleep. You stay where humans are irreplaceable: capital, taste, and the decisions that actually matter. Everything els
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agents, automation, autonomous-agents, llm, mcp
+
+---
+
 ## 🕔 2026-09-09 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 273 个候选项目中筛选出 6 个未推荐过的新项目。
