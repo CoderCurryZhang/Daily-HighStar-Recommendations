@@ -1,3 +1,67 @@
+## 🕔 2026-09-09 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 273 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [autonomous-os](https://github.com/autonomous-ai/autonomous-os)
+- **项目语言**: Python
+- **星标数量**: ⭐ 302
+- **核心概述**: The open-source operating system for robots — install it and your robot comes alive
+- **大概是做什么的**: Autonomous OS: The "Android" for Robots Robots have been around for years but have never been autonomous — someone has to drive them with a remote, and they've stopped at scripted demos. Autonomous OS brings autonomy to robots: install it on your robot and it comes alive. - Your robot thinks. Everything it sees and hears goes to an agentic reasoning engine running on the robot itself — Hermes, Claude Code, or whichever you choose — that decides what to do next. - Your robot acts. It guards the house, knows your face, follows you as you move, reads the mood on your face, sets the light — and does the desk work too: Gmail, GitHub, your Mac. Each one is a skill — install more from the Skill Store, or write your own. - Your robot grows. It has a built-in learning loop. It creates skills from experience, sharpens them as it uses them, keeps what it learns, searches its own past conversations, and builds a deeper picture of you with every session. Autonomous OS is a fully customizable operating system for robots. Every component is swappable — engine, model, voice, skills, board. Your robo
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, claude-code, embedded, llm, open-source-robotics
+
+---
+
+### 🌟 [ARL-Next](https://github.com/owl234/ARL-Next)
+- **项目语言**: Python
+- **星标数量**: ⭐ 417
+- **核心概述**: 🚀 自动化资产侦察与漏洞监控平台 (ARL-Next)。重构自经典 ARL，全面升级 Puppeteer + Nuclei 引擎，打通「天眼查/ICP ➔ 资产发现 ➔ 漏洞扫描 ➔ 威胁情报追踪」安全闭环。支持 Docker 极简部署，AI 二开友好。
+- **大概是做什么的**: Next-Generation AI-Native Asset Reconnaissance & Vulnerability Monitoring Platform 告别任务假死与内存泄漏 · 拥抱 AI Agent 自动化调度 · 极速 2 分钟一键开箱即用 ARL-Next 是经典开源资产侦察灯塔 (ARL) 的现代化涅槃重构版本。 针对原版长期停更导致的 任务假死、内存泄露、安装报错、依赖过时 等致命缺陷进行了彻底的底层重构，并深度融入 AI Agent (MCP) 原生调度 能力，进化为高性能、全维度闭环的下一代安全监控平台。 🥊 为什么选择 ARL-Next？(痛点对比) 核心痛点维度 🏚️ 原版 ARL (社区遗留版) 🚀 ARL-Next (本项目) 系统稳定性 扫描海量目标时 Celery 阻塞假死、内存泄漏 OOM 微服务解耦 (截图/OSINT独立)，全栈解除内存硬限，批量入库彻底根除假死 AI 原生集成 无 AI 接口，仅限人工手动点击 原生 MCP 支持 ，AI Agent 一句话接管资产挖掘与分析 企业资产穿透 无企业资产查询功能 天眼查股权穿透 + 全维度 ICP 深度下钻 ，一键秒级打通集团子公司及 移动端 (APP/小程序/快应用) 全量资产 (护网友好) 部署与构建 依赖过时容易报错，需拉取海量外网包 阿里云国内预构建镜像 ，多阶段构建，2分钟一键秒启动 现代化技术栈 Python 3.6 / Vue2 / MongoDB 3.x / Nmap 7.70 严重脱节 Python 3.13 / Vue 3.5 / MongoDB 7.0 / Nmap 7.95 LTS 现代底层全线跨代 敏感信息挖掘 Go WIH 编译依赖沉重，跨平台常编译报错 纯 Python WIH 引擎 零外部二进制依赖，内置三级风险评估与流式解析 交互与体验 页面滚动遮挡表头、分页重置、管理繁琐 操作栏/表头悬浮吸附 (Sticky) 、分页持久化、现代化三栏字典 情报与监控 缺少主动情报源、时区错乱导致重复告警 GitHub CVE & 泄露雷达 、原子级去重锁、精准时区对齐 🤖 AI 原生赋能 ：内置标准化 MCP 服务，直接接入 Claude / Cursor / Open-WebUI，实现用自然语言下发扫描与导出 13 维资产全景大盘。（👉 MCP 配置指南） 🚀 高并发极速引擎 ：耗时截图与 OSINT 全面剥离为独立微服务；核心落库升级为 bulk write 批量入库； 全栈解除 Docker 容器内存硬限制 ，大内存机器全速释放
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: asm, attack-surface-management, bugbounty, cve, docker, docker-compose
+
+---
+
+### 🌟 [busabase](https://github.com/busabase/busabase)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 142
+- **核心概述**: Open-source database & workspace for AI agents — structured data, durable knowledge, reusable skills, runnable apps, and human-reviewed changes. Local-first and self-hostable.
+- **大概是做什么的**: Database &amp; Workspace for AI Agents Give Claude Code, Codex, Cursor, OpenClaw, and your own agents one place for structured data, durable knowledge, reusable skills, runnable apps, and human review. Quick Start &nbsp;·&nbsp; Building Blocks &nbsp;·&nbsp; Screenshots &nbsp;·&nbsp; Connect an Agent &nbsp;·&nbsp; AI agents can write code and generate output, but their useful work usually ends up scattered across chats, files, databases, and SaaS tools. On the next run, the agent has to rediscover the context. When it writes back, humans often cannot see what changed or why. Busabase gives agents an operational workspace, not another chat window. - Database for agents — typed Bases, records, relations, views, forms, and assets. - Knowledge base for agents — Docs, Files, Drives, search, history, and provenance. - Workspace for agents — Skills, AirApps, Whiteboards, Workflows, Agents, and shared activity. - Trust layer for agent work — Change Requests, field-level diffs, comments, approvals, commits, and audit trails. Agents can read the same workspace you see, use its knowledge and ski
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-workspace, agentic-ai, ai-agents, airtable, airtable-alternative, audit-trail
+
+---
+
+### 🌟 [maui-labs](https://github.com/dotnet/maui-labs)
+- **项目语言**: C#
+- **星标数量**: ⭐ 213
+- **核心概述**: Experimental and pre-release tools for .NET MAUI
+- **大概是做什么的**: Experimental packages and tooling for .NET MAUI. This repository hosts pre-release projects that are in active development and may ship independently. ⚠️ These packages are experimental. APIs may change between releases. These packages are not covered by the .NET MAUI Support Policy and are provided as-is. Product What it is --------- ------------ Cli maui global tool for environment diagnostics, device management, Apple/Android setup, app automation, and rapid prototyping. Comet Experimental MVU UI framework for .NET MAUI with C fluent UI, signals, and reactive state. Go Single-file Comet app server and companion app for rapid prototyping. DevFlow Runtime app automation, inspection, debugging, and MCP tooling for .NET MAUI apps — and for plain .NET Android, iOS, Mac Catalyst and macOS apps. AI Extensions Source-generated Microsoft.Extensions.AI tool bindings for MAUI and .NET apps. macOS AppKit Backend Native AppKit backend for running MAUI apps as macOS apps without Mac Catalyst. WPF Backend WPF-based Windows desktop backend for .NET MAUI apps. Essentials.AI On-device AI APIs for c
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, android, desktop, dotnet, ios, maccatalyst
+
+---
+
+### 🌟 [aiworkdeck](https://github.com/zeweihan/aiworkdeck)
+- **项目语言**: Java
+- **星标数量**: ⭐ 110
+- **核心概述**: AI-native IDE workspace for legal and document-heavy workflows: files, agents, plugins, built-in document editing with tracked changes, OCR, evidence chains. VS Code for lawyers.
+- **大概是做什么的**: The AI-native workspace for legal and document-heavy work. 让法律人聚焦专业判断 — 面向法律与文档密集型团队的 AI 原生工作台 VS Code gives developers one place for files, extensions, terminals, Git, and AI coding assistants. AI WorkDeck aims to give lawyers and document-heavy teams one place for matters, documents, agents, plugins, evidence, and review. - Building AI-native legal or professional-service workflows - Moving from chatbot add-ons to a real workspace where files, context, agents, and plugins live together - Self-hosting document AI infrastructure with private data, audit trails, and organization-level workflows - Exploring MCP-style agent orchestration, document parsing, embedded LibreOffice editing, AI slides, TTS, OCR, and evidence-chain workflows in one codebase AI WorkDeck Community Edition is the full workbench, AGPL-licensed: the same desktop app, editor, agents and plugin runtime that ship in the official build. Commercial licensing exists for firms that need relief from AGPL obligations; it does not gate features. The source is published so developers, law firms, legal-tech builders, and docum
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-workspace, compliance, document-ai, document-management, due-diligence
+
+---
+
+### 🌟 [metorial-platform](https://github.com/metorial/metorial-platform)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 221
+- **核心概述**: The engine powering hundreds of thousands of MCP connections 🤖 🔥
+- **大概是做什么的**: The open source integration platform for agentic AI. Connect any AI model to thousands of APIs, data sources, and tools with a single function call. Skip the setup and go hosted: The fasted, simplest and most reliable way to use Metorial is to sign up to our hosted platform. ➡️ Get Started (for free) The Metorial Platform is an open source integration platform that makes it easy for developers to connect their AI applications to external data sources, APIs, and tools. It's built to scale to tens or hundreds of thousands of concurrent MCP connections, making it ready for enterprise-grade applications. If you're interested in the MCP serves that power Metorial, check out the MCP server catalog. - ✨ One-liner SDKs : Connect your AI model to any API, data source, or tool with a single function call. - 🛠️ Powered by MCP : Metorial is built on the Model Context Protocol, a standard for connecting AI models to external data and tools. - 🚀 Get started in minutes : Metorial is designed to be easy to use, with a simple setup process and a unified interface for all your AI integrations. - 🕊️
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai, mcp, mcp-server, saas
+
+---
+
 ## 🕔 2026-09-09 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 223 个候选项目中筛选出 6 个未推荐过的新项目。
